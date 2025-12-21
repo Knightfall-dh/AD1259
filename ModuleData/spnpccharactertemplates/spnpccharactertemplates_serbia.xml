@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="npc_wanderer_equipment_template_serbia" default_group="Infantry" is_hero="false" level="16" name="{=!}wanderer_equipment" culture="Culture.serbia" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_serbia"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_armed_wanderer_equipment_template_serbia" default_group="Infantry" is_hero="false" level="16" name="{=!}wanderer_equipment" culture="Culture.serbia" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_serbia"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_companion_equipment_template_serbia" default_group="Infantry" is_hero="false" level="16" name="{=!}wanderer_equipment" culture="Culture.serbia" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_serbia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endregion-->
+	<!--#region Townsfolk Template-->
+	<NPCCharacter id="villager_serbia" default_group="Infantry" level="1" name="{=serbiapeasantman}Serbian Peasant" occupation="Villager" culture="Culture.serbia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<skills/>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.serbia_basic_root"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.monk_robe"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Item1" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item1" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Item1" id="Item.throwing_stone"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_pitchfork_2_t1"/>
+				<equipment slot="Item1" id="Item.throwing_stone"/>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
+				<equipment slot="Item1" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Item1" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Item1" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Item1" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.monk_robe"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Item1" id="Item.throwing_stone"/>
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="townswoman_serbia" default_group="Infantry" is_female="true" level="1" name="{=WbH2HS8j}Serbian Townswoman" occupation="Townsfolk" culture="Culture.serbia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_serbia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.vlandian_woman_dress"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.plain_dress"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.dress_with_overall"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress"/>
+				<equipment slot="Cape" id="Item.female_hood"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.vlandian_woman_dress"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.plain_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.dress_with_overall"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--#endregion-->
+	<!-- #region Fighter Template -->
+	<NPCCharacter id="fighter_serbia" default_group="Infantry" level="1" name="{=!}Vlandian Fighter" occupation="Villager" culture="Culture.serbia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_serbia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="fighter_serbia"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--#endregion Fighter Template-->
+	<NPCCharacter id="serbia_troop_civilian_template_t1" name="{=!}serbia_troop_civilian_template_t1" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.serbia" is_template="true" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="serbia_troop_civilian_template_t1"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="serbia_troop_civilian_template_t2" name="{=!}serbia_troop_civilian_template_t2" voice="curt" default_group="infantry" is_hero="false" culture="Culture.serbia" is_template="true" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="serbia_troop_civilian_template_t2"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="serbia_troop_civilian_template_t3" name="{=!}serbia_troop_civilian_template_t3" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.serbia" is_template="true" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="serbia_troop_civilian_template_t3"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- serbia BATTLE TEMPLATES-->
+	<NPCCharacter id="serbia_bat_template_medium" default_group="Infantry" is_hero="false" level="16" name="{=!}serbia medium battle sets" culture="Culture.serbia" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="serbia_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="serbia_bat_template_heavy" default_group="Infantry" is_hero="false" level="16" name="{=!}serbia_lord_lady_equipment" culture="Culture.serbia" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="serbia_bat_template_heavy"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="serbia_bat_template_flamboyant" default_group="Infantry" is_hero="false" level="16" name="{=!}serbia_lord_lady_equipment_flamboyant" culture="Culture.serbia" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="serbia_bat_template_flamboyant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="serbia_bat_template_lady" default_group="Infantry" is_hero="false" level="16" name="{=!}serbia battle set for noncombatant lady" culture="Culture.serbia" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="serbia_bat_template_lady"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- serbia CIVILIAN TEMPLATES -->
+	<NPCCharacter id="serbia_civ_template_default" default_group="Infantry" is_hero="false" level="16" name="{=!}serbia_unarmored_noble_equipment_normal" culture="Culture.serbia" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="serbia_civ_template_default"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="serbia_civ_template_flamboyant" default_group="Infantry" is_hero="false" level="16" name="{=!}serbia_unarmored_noble_equipment_flamboyant" culture="Culture.serbia" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="serbia_civ_template_flamboyant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="serbia_civ_template_heavy" default_group="Infantry" is_hero="false" level="16" name="{=!}serbia_unarmored_noble_equipment_heavy" culture="Culture.serbia" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="serbia_civ_template_heavy"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- serbia NONCOMBATANT TEMPLATES -->
+	<NPCCharacter id="serbia_noncom_template_default" default_group="Infantry" is_hero="false" level="16" name="{=!}serbia_noncom_template_lady" culture="Culture.serbia" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="serbia_noncom_template_default"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="serbia_noncom_template_flamboyant" default_group="Infantry" is_hero="false" level="16" name="{=!}serbia_unarmored_noble_flamboyant_lady" culture="Culture.serbia" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_serbia"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="serbia_noncom_template_flamboyant"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,1728 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<!-- COMMENTS ARE REMOVED FROM HERE AND PLACED IN COMMENT_ON_ACTION STRINGS -->
+	<string id="str_comment_vassal_introduces_self.default" text="{=L2GbDVja}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}, my {?PLAYER.GENDER}Lady{?}Lord{\?}, and I am honored to serve you.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_liege_introduces_self.default" text="{=tOanKs9o}I am {LIEGE_TITLE}.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_noble_introduces_self_and_clan.default" text="{=62vceTar}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_noble_introduces_self.default" text="{=HaHZss32}I am {CONVERSATION_CHARACTER.LINK}, a loyal servant of {LIEGE_TITLE}.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_noble_generic_intro.default" text="{=hP35jSyk}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_minor_faction_leader_introduces_self.default" text="{=99gE1ZoY}I am {CONVERSATION_CHARACTER.LINK}, of the {FACTION}.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_enemy_declines_frivolous_player_surrender_demand" text="{=bc1YyTO4}Perhaps it will not be today, or tomorrow, but one way or the other I will see that you regret your decision.">
+		<tags>
+			<tag tag_name="HighRegisterTag"/>
+			<tag tag_name="UncharitableTag"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+			<tag tag_name="CalculatingTag" weight="1"/>
+			<tag tag_name="FriendlyRelationshipTag" weight="-1"/>
+		</tags>
+	</string>
+    <string id="str_comment_enemy_responds_to_player_surrender_refusal.default" text="{=hIFazIcK}So be it!">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_enemy_responds_to_player_surrender_refusal.default_1" text="{=86aQkXpV}Very well - I shall put your courage to the test!">
+		<tags>
+			<tag tag_name="ChivalrousTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_enemy_responds_to_player_surrender_refusal.default_2" text="{=ry1ycxNY}I wish it hadn't come to this.">
+		<tags>
+			<tag tag_name="FriendlyRelationshipTag"/>
+			<tag tag_name="FriendlyRelationshipTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_enemy_responds_to_player_surrender_refusal.default_3" text="{=DIjtFVu8}Your last drop of blood? I guess I'll just have to spill it, then.">
+		<tags>
+			<tag tag_name="PersonaIronicTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_enemy_responds_to_player_surrender_refusal.default_4" text="{=kkOYSCSz}Brave words are easy. We'll see what happens.">
+		<tags>
+			<tag tag_name="PersonaCurtTag"/>
+			<tag tag_name="UncharitableTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_enemy_responds_to_player_surrender_refusal.default_5" text="{=FbstpIYj}Don't say I didn't give you a chance.">
+		<tags>
+			<tag tag_name="PersonaSoftspokenTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_enemy_responds_to_player_surrender_refusal.default_6" text="{=N5pglyyU}Have it your way.">
+		<tags>
+			<tag tag_name="PersonaCurtTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_enemy_responds_to_player_surrender_refusal.default_7" text="{=yRlINUML}Hah! I'll see you beg for mercy.">
+		<tags>
+			<tag tag_name="UncharitableTag"/>
+			<tag tag_name="ChivalrousTag" weight="-1"/>
+			<tag tag_name="FriendlyRelationshipTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_reprisoner_decision.default" text="{=4Uagj1LN}Actually, I think I will keep you in captivity, as my prisoner.">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_reprisoner_decision.default_2" text="{=KC7PxI8c}You are an enemy, and therefore you will remain a prisoner.">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_reprisoner_comment.default" text="{=xjrRbZ3U}Do what you must.">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_reprisoner_comment.default_2" text="{=flctCQUT}How gallant. I hope some day I may be in a position to return the favor.">
+		<tags>
+			<tag tag_name="UncharitableTag" weight="+1"/>
+			<tag tag_name="PersonaIronicTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_reprisoner_comment.default_3" text="{=5j6mIuu1}What? I don't understand.">
+		<tags>
+			<tag tag_name="PlayerIsAlliedTag" weight="+1"/>
+			<tag tag_name="PlayerIsAlliedTag" weight="+1"/>
+			<tag tag_name="PlayerIsAlliedTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_repeated.default" text="{=Qb4tlTEj}But enough talking. Yield or fight![ib:warrior][if:convo_angry]">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<!-- from conversation_lord_makes_surrender_demand_on_condition -->
+	<string id="str_surrender_demand_hero.default" text="{=3PsQTf0z}I've got you cornered. Yield, or we shall attack.[ib:warrior][if:convo_aggressive]">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.default_2" text="{=MzKWlFTv}A pity you and I have to fight. Do you want to give up?[ib:warrior][if:convo_stern]">
+		<tags>
+			<tag tag_name="FriendlyRelationshipTag"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.default_3" text="{=G8ol9sG3}It grieves me to fight you, but I must. Unless of course you wish to surrender.[ib:warrior][if:convo_stern]">
+		<tags>
+			<tag tag_name="FriendlyRelationshipTag"/>
+			<tag tag_name="HighRegisterTag"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.default_4" text="{=1jUa8olQ}I don't expect you to surrender, but I'll give you the chance to do so.[ib:warrior][if:convo_stern]">
+		<tags>
+			<tag tag_name="FriendlyRelationshipTag"/>
+			<tag tag_name="ChivalrousTag"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.default_5" text="{=KlQlzYdS}It's fortune's idea of a good joke to make old friends fight. Shall we dance to her tune, or do you want to give up?[ib:warrior][if:convo_nonchalant]">
+		<tags>
+			<tag tag_name="FriendlyRelationshipTag"/>
+			<tag tag_name="PersonaIronicTag"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.curt" text="{=qvwfev22}I've got you cornered. Yield or die.[ib:warrior][if:convo_aggressive]">
+		<tags>
+			<tag tag_name="PersonaCurtTag" weight="+1"/>
+			<tag tag_name="FriendlyRelationshipTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.martial_imperial" text="{=MUuNmr6C}The odds are not in your favor today. You may fight us, but there is also no shame if you yield now.[ib:warrior][if:convo_thinking]">
+		<tags>
+			<tag tag_name="ValorTag" weight="1"/>
+			<tag tag_name="HighRegisterTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.martial_barbarian" text="{=itfE84jd}You're outnumbered. Give up. Or don't. Death in battle is a fine thing.[ib:warrior][if:convo_bored]">
+		<tags>
+			<tag tag_name="ChivalrousTag"/>
+			<tag tag_name="CruelTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.ironic" text="{=zPbQs8Zt}I can offer you a glorious death in battle, or the hospitality of my dungeons.[ib:warrior][if:convo_mocking_teasing]">
+		<tags>
+			<tag tag_name="PersonaIronicTag"/>
+			<tag tag_name="AmoralTag"/>
+			<tag tag_name="FriendlyRelationshipTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.pitiless" text="{=dKmAktt7}You cannot defeat me, and I'll teach you a painful lesson if you try. Yield![ib:warrior][if:convo_angry]">
+		<tags>
+			<tag tag_name="UngratefulTag" weight="1"/>
+			<tag tag_name="CruelTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.sadistic" text="{=d2QGFdRJ}You've got no chance. Surrender or I'll gut you like a fish.[ib:warrior][if:convo_angry]">
+		<tags>
+			<tag tag_name="UngratefulTag" weight="1"/>
+			<tag tag_name="CruelTag" weight="1"/>
+			<tag tag_name="DeviousTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.goodnatured" text="{=a55SAS18}We have the advantage of you. Yield, and you will be well-treated.[ib:warrior][if:convo_stern]">
+		<tags>
+			<tag tag_name="MercyTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.upstanding" text="{=oW51mkNE}Yield! Spare us both the unnecessary bloodshed![ib:warrior][if:convo_stern]">
+		<tags>
+			<tag tag_name="CalculatingTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.cunning" text="{=AZf7kPgr}You are outmatched today. Give up, if not for your own sake, then think of your men![ib:warrior][if:convo_thinking]">
+		<tags>
+			<tag tag_name="GenerosityTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.cruel" text="{=3L7Rkswm}You can surrender, but I hope you don't. I'd enjoy sticking a blade into you until you squeal.[ib:warrior][if:convo_mocking_predatory]">
+		<tags>
+			<tag tag_name="AmoralTag" weight="+1"/>
+			<tag tag_name="HostileRelationshipTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.cunning_2" text="{=f2eZL7w5}Oh, I suppose I'm obligated to give you a chance to grovel for your life. Will you surrender, then?[ib:warrior][if:convo_mocking_predatory]">
+		<tags>
+			<tag tag_name="AmoralTag" weight="+1"/>
+			<tag tag_name="PersonaIronicTag" weight="+1"/>
+			<tag tag_name="HostileRelationshipTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_demand_hero.cunning_3" text="{=heKSWVJk}Oh, I suppose I'm obligated to give you a chance to surrender, but I hope you don't. I'm rather looking forward to seeing how well attached your head is to your neck.[ib:warrior][if:convo_mocking_aristocratic]">
+		<!-- teasing rather than revenge, which is really gloating -->
+		<tags>
+			<tag tag_name="AmoralTag" weight="+1"/>
+			<tag tag_name="PersonaIronicTag" weight="+1"/>
+			<tag tag_name="HostileRelationshipTag" weight="+1"/>
+			<tag tag_name="HighRegisterTag" weight="+1"/>
+		</tags>
+	</string>
+	<!--
+    siege_parley comments are now part of the variation in lordconversationCampaignbehavior
+    -->
+	<!--
+    //derived tags, combinations of two or more
+    Uncharitable, //gen + mercy < 0 - means the NPC casually attributes malign motives to others. Also haughty
+            Amoral,// - mercy + honor < 0 - means the NPC casually espouses what others would consider evil behavior
+            Chivalrous,// - valor + honor > 0 - respectful of an adversary who fights well
+            -->
+	<!--AFTER THE BATTLE -->
+	<string id="str_surrender_offer.default" text="{=bAir72Sf}Stop! I yield![if:convo_beaten]">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_offer.noncombatant" text="{=xJ1LJ3mH}We are at your mercy.[if:convo_beaten]">
+		<!-- keep this ambivalent as to whether or not the character is a legal prisoner-->
+		<tags>
+			<tag tag_name="CombatantTag" weight="-1"/>
+			<tag tag_name="CombatantTag" weight="-1"/>
+			<tag tag_name="CombatantTag" weight="-1"/>
+			<tag tag_name="CombatantTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_offer.quarrelsome" text="{=5ZfjV7hS}Enough! You win today, you dog! Ach, the shame of it![if:convo_angry]">
+		<tags>
+			<tag tag_name="UncharitableTag"/>
+			<tag tag_name="CombatantTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_offer.quarrelsome_imperial" text="{=pXULuzaq}I yield! You have won. Cursed be this day![if:convo_angry]">
+		<tags>
+			<tag tag_name="UncharitableTag"/>
+			<tag tag_name="HighRegisterTag"/>
+			<tag tag_name="CombatantTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_offer.sadistic" text="{=WFwoWAic}I give up! I give up! Call back your dogs![if:convo_angry]">
+		<tags>
+			<tag tag_name="CruelTag" weight="1"/>
+			<tag tag_name="UngratefulTag" weight="-1"/>
+			<tag tag_name="CombatantTag" weight="+1"/>
+		</tags>
+	</string>
+	<!-- honorable responses -->
+	<string id="str_surrender_offer.goodnatured" text="{=rCNUXFTN}I yield! Congratulations on your victory.[if:convo_beaten]">
+		<tags>
+			<tag tag_name="ChivalrousTag"/>
+			<tag tag_name="HighRegisterTag"/>
+		</tags>
+	</string>
+	<string id="str_surrender_offer.upstanding" text="{=hQsjeTix}I yield! Grant me the honors of war, and do yourself credit![if:convo_thinking]">
+		<tags>
+			<tag tag_name="HonorTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_offer.goodnatured_2" text="{=Mlpy0SQo}I give up! You fought well. There is no call for further bloodshed.[if:convo_thinking]">
+		<tags>
+			<tag tag_name="MercyTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_offer.calculating" text="{=BRMngn5i}Enough! I am your prisoner. I can pay a ransom. I am worth more to you alive than dead.[if:convo_thinking]">
+		<tags>
+			<tag tag_name="CalculatingTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_surrender_offer.calculating_honor" text="{=YWOSDu1W}Enough! I choose to live to fight another day. I trust you will respect the custom of war, and allow me to pay a fair ransom.[if:convo_thinking]">
+		<tags>
+			<tag tag_name="CalculatingTag" weight="1"/>
+			<tag tag_name="CautiousTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_prisoner_released.default" text="{=nRnbBnFq}I am? Well... I am grateful.[if:convo_relaxed_happy]">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_prisoner_released.generous" text="{=FpD4Y9cX}Thank you. I must remain your enemy, but I am grateful nonetheless.[if:convo_relaxed_happy]">
+		<tags>
+			<tag tag_name="GenerosityTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_prisoner_released.quarrelsome" text="{=wrIYDx9V}I'm free? Well... Good bye, then.[if:convo_nonchalant]">
+		<tags>
+			<tag tag_name="UngratefulTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_prisoner_released.pitiless" text="{=O8wTipT2}Thank you. When you are finally defeated, I will request that your death be swift and merciful. Unless, that is, you care to join us... Good bye, for now.[if:convo_nonchalant]">
+		<tags>
+			<tag tag_name="CruelTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_prisoner_released.sadistic" text="{=BCfeuAX5}Am I? So refined is your cruelty, that you would rather see me free and humiliated, than in chains. Enjoy your triumph![if:convo_contemptuous]">
+		<tags>
+			<tag tag_name="CruelTag" weight="1"/>
+			<tag tag_name="DeviousTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_prisoner_released.goodnatured" text="{=sax2tF9L}You are indeed a {?PLAYER.GENDER}woman{?}man{\?} of honor, {?PLAYER.GENDER}madame{?}sir{\?}. I shall not forget this.[if:convo_relaxed_happy]">
+		<tags>
+			<tag tag_name="ChivalrousTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_prisoner_released.upstanding" text="{=vNnMHR84}You do yourself credit, {?PLAYER.GENDER}madame{?}sir{\?}. I shall not forget this..[if:convo_relaxed_happy]">
+		<tags>
+			<tag tag_name="HonorTag" weight="1"/>
+		</tags>
+	</string>
+	<!-- Liege support. If player is enemy, then saying 'not worthy of loyalty' Otherwise, 'what do you think'?-->
+	<!-- "Allied" is an open-ended question. -->
+	<string id="str_liege_support.default" text="{=C5JaFsDZ}{FIRST_NAME} is my liege. That's all there is to say.">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_liege_support.default_2" text="{=xH4KJEBP}I'm sworn to {?GENDER}her{?}his{\?} service. That is all there is to say.">
+		<tags>
+			<tag tag_name="HonorTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_liege_support.curt" text="{=SSuL62NZ}I'm loyal to {FIRST_NAME}. No one better say otherwise.">
+		<tags>
+			<tag tag_name="PersonaCurtTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_liege_support.honor" text="{=IuSH0tcp}{FIRST_NAME} has always fulfilled {?GENDER}her{?}his{\?} duty to me, and I intend to do the same.">
+		<tags>
+			<tag tag_name="GenerosityTag" weight="1"/>
+		</tags>
+	</string>
+	<!-- "candidly" strings -->
+	<string id="str_liege_support.allied" text="{=EXgm5Utx}Long may {?GENDER}she{?}he{\?} live!">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_liege_support.allied_martial" text="{=aaadHoIb}May {?GENDER}she{?}he{\?} crush all {?GENDER}her{?}his{\?} foes!">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag" weight="-1"/>
+			<tag tag_name="ChivalrousTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_liege_support.default_3" text="{=gxV3M6HH}Naturally, I wish {?GENDER}her{?}him{\?} a long life and victory over all {?GENDER}her{?}his{\?} foes. To say anything else would be treason, as I'm sure you know.">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag" weight="-1"/>
+			<tag tag_name="PersonaIronicTag" weight="+1"/>
+		</tags>
+	</string>
+	<!-- "not worthy" strings -->
+	<string id="str_liege_support.enemy" text="{=0etg1Q9l}I have asked many sacrifices of my men in {FIRST_NAME}'s service. I will not hear it said that their loyalty was misplaced.">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag" weight="+1"/>
+			<tag tag_name="GenerosityTag" weight="1"/>
+			<tag tag_name="HighRegisterTag" weight="+1"/>
+		</tags>
+	</string>
+	<!-- player won tournament -->
+	<string id="str_comment_you_won_tournament_here.default" text="{=y9bafYom}Congratulations on your victory in that tournament.">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_won_tournament_here.uncharitable" text="{=csxzwd17}So, you won that tournament... Well, luck always plays a part in these things, that's for sure.">
+		<tags>
+			<tag tag_name="UncharitableTag" weight="+1"/>
+			<tag tag_name="ChivalrousTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_won_tournament_elsewhere.default" text="{=Wec8VlAQ}Congratulations on your victory in that tournament in {TOURNAMENT_TOWN}.">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_won_tournament_elsewhere.uncharitable" text="{=t3FQbYU6}Your tournament victory in {TOURNAMENT_TOWN}... Well, luck always plays a part in these things, that's for sure.">
+		<tags>
+			<tag tag_name="UncharitableTag" weight="+1"/>
+			<tag tag_name="ChivalrousTag" weight="-1"/>
+		</tags>
+	</string>
+	<!-- speaker won tournament, here and elsewhere -->
+	<string id="str_comment_i_won_tournament_here.default" text="{=iAKHTPlP}It was an honor to compete against you in that tournament here.">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_i_won_tournament_here.boastful" text="{=eHuiRxC4}How about that tournament here, eh? And to imagine those contestants thought they had a chance against me">
+		<tags>
+			<tag tag_name="UngratefulTag" weight="+1"/>
+			<tag tag_name="ChivalrousTag" weight="-1"/>
+			<tag tag_name="AmoralTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_i_won_tournament_elsewhere.default" text="{=kBcfMYzE}It was an honor to compete against you in that tournament in {TOURNAMENT_TOWN}.">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_i_won_tournament_elsewhere.boastful" text="{=eZh2qzeR}How about that tournament in {TOURNAMENT_TOWN}, eh? And to imagine those contestants thought they had a chance against me">
+		<tags>
+			<tag tag_name="UngratefulTag" weight="+1"/>
+			<tag tag_name="ChivalrousTag" weight="-1"/>
+			<tag tag_name="AmoralTag" weight="1"/>
+		</tags>
+	</string>
+	<!-- another hero won tournament -->
+	<string id="str_comment_someone_else_won_tournament_here.default" text="{=w6CzYbRH}I have not seen you since that tournament here. Perhaps one of us shall have better luck next time.">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_someone_else_won_tournament_here.uncharitable" text="{=D5SIBhjl}I'm sure you remember how {TOURNAMENT_WINNER} won that tournament here... A more undeserved victory I never saw....">
+		<tags>
+			<tag tag_name="UncharitableTag" weight="+1"/>
+			<tag tag_name="ChivalrousTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_someone_else_won_tournament_here.ironic" text="{=a6EBXT6C}Yes... We were both at that tournament here, right? So disappointing... Here's hoping that scoundrel {WINNER_NAME} loses the prize in a game of dice.">
+		<tags>
+			<tag tag_name="PersonaIronicTag" weight="+1"/>
+			<tag tag_name="ChivalrousTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_someone_else_won_tournament_elsewhere.default" text="{=k50ZjzZ7}I have not seen you since that tournament in {TOURNAMENT_TOWN}. Perhaps one of us shall have better luck next time.">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_someone_else_won_tournament_elsewhere.uncharitable" text="{=aKD9kfTI}I'm sure you remember how {TOURNAMENT_WINNER} won that tournament in {TOURNAMENT_TOWN}... A more undeserved victory I never saw....">
+		<tags>
+			<tag tag_name="UncharitableTag" weight="+1"/>
+			<tag tag_name="ChivalrousTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_someone_else_won_tournament_elsewhere.ironic" text="{=hQlpbksp}Yes... We were both at that tournament in {TOURNAMENT_TOWN}, right? So disappointing... Here's hoping that scoundrel {WINNER_NAME} loses the prize in a game of dice.">
+		<tags>
+			<tag tag_name="PersonaIronicTag" weight="+1"/>
+			<tag tag_name="ChivalrousTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_lord_intrigue_accept.default" text="{=8WLSZRZc}Very well. What do you propose?">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_lord_intrigue_accept.curt" text="{=NmlauVxB}Mm. Go on.">
+		<tags>
+			<tag tag_name="PersonaCurtTag"/>
+		</tags>
+	</string>
+	<string id="str_lord_intrigue_accept.calculating" text="{=YDjLPgi3}Hmm. You have piqued my interest. What do you have to say?">
+		<tags>
+			<tag tag_name="CalculatingTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_lord_intrigue_accept.default_2" text="{=GO47mubj}What exactly are you proposing?">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_lord_intrigue_accept.selfrighteous" text="{=LYUqmf6P}I will hear you. I shall assume that you will not suggest anything dishonorable.">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag" weight="+1"/>
+			<tag tag_name="HonorTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_lord_intrigue_accept.selfrighteous_2" text="{=lI8rPjEd}What do you take me for? A plotter? Whatever you suggest had best be honorable.">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag" weight="+1"/>
+			<tag tag_name="HonorTag" weight="1"/>
+			<tag tag_name="UncharitableTag"/>
+		</tags>
+	</string>
+	<string id="str_lord_intrigue_refuses.selfrighteous" text="{=w7EY8rbd}Let's change the subject.">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_lord_intrigue_refuses.selfrighteous_2" text="{=z1s1qOma}I think I know what you're saying. Honor precludes me from even considering it.">
+		<tags>
+			<tag tag_name="HonorTag" weight="1"/>
+			<tag tag_name="HighRegisterTag"/>
+		</tags>
+	</string>
+	<!-- Lord intrigue refuses while attacking -->
+	<string id="str_lord_intrigue_refuses._default" text="{=gyCA2mZP}As I see it, we have nothing to discuss.">
+		<tags>
+			<tag tag_name="AttackingTag"/>
+		</tags>
+	</string>
+	<string id="str_lord_intrigue_refuses._default_2" text="{=R6sTYEaz}You can't talk your way out of this.">
+		<tags>
+			<tag tag_name="AttackingTag"/>
+			<tag tag_name="FriendlyRelationshipTag" weight="-1"/>
+			<tag tag_name="PersonaCurtTag"/>
+		</tags>
+	</string>
+	<string id="str_lord_intrigue_refuses._default_3" text="{=gggmhjd7}I'm not sure that you can offer me anything that I would not do better simply to take.">
+		<tags>
+			<tag tag_name="AttackingTag"/>
+			<tag tag_name="CalculatingTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_lord_intrigue_refuses.sadistic" text="{=49sxmwcX}Still your tongue! You'll have need of it shortly, to beg for mercy">
+		<tags>
+			<tag tag_name="AttackingTag"/>
+			<tag tag_name="DeviousTag" weight="1"/>
+			<tag tag_name="UngratefulTag" weight="-1"/>
+			<tag tag_name="CruelTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_lord_intrigue_refuses.quarrelsome" text="{=cFiSjbf4}Hah! I want to fight with you">
+		<tags>
+			<tag tag_name="AttackingTag"/>
+			<tag tag_name="UngratefulTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_lord_intrigue_refuses.martial" text="{=KMygMFj2}It is my duty to fight you">
+		<tags>
+			<tag tag_name="AttackingTag"/>
+			<tag tag_name="HonorTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_lord_intrigue_refuses.cunning1" text="{=CN20EFDE}Unfortunately, at these odds, it would be rather foolish of me not to attack you.">
+		<tags>
+			<tag tag_name="AttackingTag"/>
+			<tag tag_name="PersonaIronicTag"/>
+		</tags>
+	</string>
+	<string id="str_lord_intrigue_refuses.goodnatured" text="{=VOExVZtX}I'm sorry. I don't relish bloodshed, but I can't let you ride away to fight another day.">
+		<tags>
+			<tag tag_name="AttackingTag"/>
+			<tag tag_name="MercyTag" weight="1"/>
+		</tags>
+	</string>
+	<!-- DESTROYPARTYACTION -->
+	<!--RAIDVILLAGEACTION-->
+	<string id="str_comment_we_raided_enemy_village.default" text="{=UyIuz9dt}What happened at {VILLAGE_NAME}... Well, war is cruel.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_we_raided_enemy_village.honor" text="{=267ch9fZ}That raid on {VILLAGE_NAME}... Hard on the farmers there. Well, anyway, I'm sure the {ENEMY_NAME} would have done the same to us.">
+		<tags>
+			<tag tag_name="HonorTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_we_raided_enemy_village.cruel" text="{=Rs0aUNlQ}The villagers at {VILLAGE_NAME} will remember us for a long time.">
+		<tags>
+			<tag tag_name="CruelTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_we_raided_enemy_village.troops" text="{=v2664Qeo}...">
+		<tags>
+			<tag tag_name="CruelTag"/>
+			<tag tag_name="GenerosityTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_we_raided_enemy_village.empathetic" text="{=ODa9Eikp}That raid on {VILLAGE_NAME}... Well, the poor suffer for their lords' mistakes, so they say.">
+		<tags>
+			<tag tag_name="GenerosityTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_we_raided_enemy_village.calculating" text="{=u5b8UKaa}That raid on {VILLAGE_NAME}... Harsh, but let's hope it brings the war to a faster end.">
+		<tags>
+			<tag tag_name="CalculatingTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_we_raided_enemy_village.mercy" text="{=oZnVxkp0}What happened at {VILLAGE_NAME}... I do not like attacking innocent villagers like that. I wish such things were not necessary.">
+		<tags>
+			<tag tag_name="MercyTag" weight="+2"/>
+		</tags>
+	</string>
+	<string id="str_comment_we_raided_my_people.default" text="{=ve7pKxrc}The villagers back there at {VILLAGE_NAME}... Those could have been my people...">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_we_raided_neutral_village.default" text="{=7ErxFkCB}I doubt the {VILLAGE_FACTION} will like what we did back there in {VILLAGE_NAME}...">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.default" text="{=FYLmd2ch}You raided my tenants at {SETTLEMENT_NAME}. Needless to say, I am not pleased with this.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.enemy_honor1" text="{=k6TABWrF}We have heard of your cruel deeds when you raided my village at {SETTLEMENT_NAME}. I am responsible to protect my tenants, and if I cannot protect them, to avenge them.">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+			<tag tag_name="HonorTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.enemy_mercy1" text="{=PKzNW9do}It was a hard thing you did, when you raided my village at {SETTLEMENT_NAME}. War is cruel, but don't make it more cruel than necessary.">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+			<tag tag_name="MercyTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.enemy_mercy0" text="{=1bxTLLAk}You raided my village at {SETTLEMENT_NAME}. Do you think me weak? Do you think you can steal from my villagers and not pay a price in blood?">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+			<tag tag_name="CruelTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.enemy_generosity1" text="{=UBtWqLDS}I hear your men raided the poor villagers of {SETTLEMENT_NAME}. You should know that they're under my protection. Next time you raid a village, try not to get caught by it's owner... ">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+			<tag tag_name="GenerosityTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.enemy_generosity0" text="{=1bxTLLAk}You raided my village at {SETTLEMENT_NAME}. Do you think me weak? Do you think you can steal from my villagers and not pay a price in blood?">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+			<tag tag_name="UngratefulTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.enemy_valor_1" text="{=E9B7Vrbx}You raided my village at {SETTLEMENT_NAME}. Now I've brought you to battle. Defend yourself!">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+			<tag tag_name="ValorTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.enemy_calculating1" text="{=mUa4sDgF}You raided my village at {SETTLEMENT_NAME}. Well, I'm here now to pay back what I owe you.">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+			<tag tag_name="CalculatingTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.enemy_valor_2" text="{=oxMlxVqd}You raided my village at {SETTLEMENT_NAME}. You'll die for that!">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+			<tag tag_name="ImpulsiveTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.enemy_honor0" text="{=ghawrJRK}I heard you raided {SETTLEMENT_NAME}. That's my property, you cretin. You think you can make me look weak? You'll die for this.">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+			<tag tag_name="DeviousTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.enemy_default" text="{=mUa4sDgF}You raided my village at {SETTLEMENT_NAME}. Well, I'm here now to pay back what I owe you.">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.enemy_martial" text="{=x3EZDo5k}I hear you have a habit of attacking helpless villagers, like my tenants at {VILLAGE_NAME}. I think you'll find my men a tougher morsel to chew.">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+			<tag tag_name="ValorTag" weight="1"/>
+			<tag tag_name="HonorTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.enemy_goodnatured" text="{=qRW6JkXM}I hear you're the one who raided my village of {SETTLEMENT_NAME} and lifted the crops and livestock. I suspect your men must have been hungry, but so are my tenants. Shall we battle for what's left?">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+			<tag tag_name="MercyTag" weight="1"/>
+			<tag tag_name="GenerosityTag" weight="1"/>
+			<tag tag_name="GenerosityTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.enemy_sadistic" text="{=jrG4UPBr}For every house of mine that you burned when your raided {SETTLEMENT_NAME}, I'm going to carve another piece from your body.">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+			<tag tag_name="UngratefulTag" weight="1"/>
+			<tag tag_name="CruelTag" weight="1"/>
+			<tag tag_name="DeviousTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.enemy_sadistic2" text="{=w1BKhf5F}You took my property when you raided {VILLAGE_NAME}, so I'm going to take your head and mount it to the first building we rebuild.">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+			<tag tag_name="UngratefulTag" weight="1"/>
+			<tag tag_name="CruelTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_you_raided_my_village.enemy_roguish" text="{=Z3E8MDaB}You attacked my village at {SETTLEMENT_NAME}. Oh, I won't pretend that my men would also have had a bit of fun if it was me paying a visit to your village. But as my tenants' protector, I have a certain obligation to avenge them a bit. Please don't take this personally.">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+			<tag tag_name="GenerosityTag" weight="1"/>
+			<tag tag_name="CruelTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.default1" text="{=CUfZXlOd}I shall remember your name.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.default2" text="{=JBZcBg9h}It's good to meet you.">
+		<tags>
+			<tag tag_name="PersonaEarnestTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.default3" text="{=CUfZXlOd}I shall remember your name.">
+		<tags>
+			<tag tag_name="PlayerIsEnemyTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.default4" text="{=7lWtkqHv}I'll remember your name.">
+		<tags>
+			<tag tag_name="PersonaCurtTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.default5" text="{=ieVRr359}I'll mark your name.">
+		<tags>
+			<tag tag_name="PersonaSoftspokenTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.default6" text="{=7lWtkqHv}I'll remember your name.">
+		<tags>
+			<tag tag_name="PersonaIronicTag"/>
+		</tags>
+	</string>
+	<!-- Under player command, pledges allegiance -->
+	<string id="str_comment_intro.under_command" text="{=1JgKFOw8}You have my allegiance.">
+		<tags>
+			<tag tag_name="UnderCommandTag" weight="+10"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.under_command_ironic" text="{=PFgGnk7z}It goes without saying that you have my allegiance.">
+		<tags>
+			<tag tag_name="UnderCommandTag" weight="+10"/>
+			<tag tag_name="PersonaIronicTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.under_command_gangleader" text="{=dD6hNymL}My lads and I... Whatever you've heard, we respect authority. We hope we can be of service.">
+		<tags>
+			<tag tag_name="UnderCommandTag" weight="+10"/>
+			<tag tag_name="GangLeaderNotableTypeTag" weight="2"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.under_command_gangleader_cruel" text="{=ra7YMN8S}You have my allegiance. If I hear a word spoken against you, I'll cut that person's tongue out.">
+		<tags>
+			<tag tag_name="UnderCommandTag" weight="+10"/>
+			<tag tag_name="GangLeaderNotableTypeTag" weight="2"/>
+			<tag tag_name="CruelTag" weight="2"/>
+		</tags>
+	</string>
+	<!-- Famous intros begin here-->
+	<string id="str_comment_intro.famous_earnest" text="{=PQZfXcU1}I have heard your name. People speak of your deeds. It is good to finally meet you.">
+		<tags>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="PersonaEarnestTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.famous_curt" text="{=o2aKr8JD}I've heard your name.">
+		<tags>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="PersonaCurtTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.famous_ironic" text="{=ETxtYU6C}So... You've made quite a name for yourself...">
+		<tags>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="PersonaIronicTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.famous_softspoken" text="{=EIThhVgG}I know your name. It's good to meet.">
+		<tags>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="PersonaSoftspokenTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.famous_honor" text="{=gBRBdsIe}I am sure someone with your reputation knows that nothing in this world is as valuable as the weight of your word. Speak truthfully with me, and I shall do the same with you.">
+		<tags>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="HonorTag" weight="2"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.famous_martial" text="{=bdiuV4qb}I know your name. They say you are a {?PLAYER.GENDER}woman{?}man{\?} of valor. If fate ever decrees that we cross swords, it would be an honor.">
+		<tags>
+			<tag tag_name="ValorTag" weight="1"/>
+			<tag tag_name="NpcIsNobleTag"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.famous_badtempered" text="{=Ufn3916B}I've heard about you. So now we meet. I'm not one for talk, so if you have anything to tell me, say it.">
+		<tags>
+			<tag tag_name="UncharitableTag"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.famous_badtempered_emp" text="{=5DCMLfp8}I have heard of you. I am not in a mood for banter, so let us dispense with the courtesies.">
+		<tags>
+			<tag tag_name="UncharitableTag"/>
+			<tag tag_name="HighRegisterTag" weight="1"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.famous_badtempered_low" text="{=Fb7JxGKM}Yeah... I know your name. Right. I'm not one for chat, so let's skip the soup and go straight to the meat.">
+		<tags>
+			<tag tag_name="UncharitableTag"/>
+			<tag tag_name="LowRegisterTag" weight="1"/>
+			<tag tag_name="PersonaIronicTag" weight="1"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.famous_pitiless" text="{=dLHsoh3f}I have heard of you. Your name strikes fear in men's hearts. That is the best kind of reputation to have. Perhaps we may have interests in common.">
+		<tags>
+			<tag tag_name="UncharitableTag"/>
+			<tag tag_name="ImpulsiveTag" weight="1"/>
+			<tag tag_name="CruelTag" weight="1"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.famous_sadistic" text="{=DxuuarNT}I know your name -- and from what they say about you, I'd say that many a grieving widow knows too. But that is no concern of mine.">
+		<tags>
+			<tag tag_name="UncharitableTag"/>
+			<tag tag_name="CruelTag" weight="1"/>
+			<tag tag_name="UngratefulTag" weight="-1"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.famous_cunning" text="{=dvpbyoAQ}I've heard of you. At last we meet. You sound like a good {?PLAYER.GENDER}woman{?}man{\?} to know. Let us speak together, from time to time.">
+		<tags>
+			<tag tag_name="CalculatingTag" weight="1"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="PlayerIsEnemyTag" weight="-1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.famous_dodgy_merchant" text="{=02FaqhzI}I've heard of you. They say good things about you. Let's talk, from time to time. A friendship with someone like me can be quite profitable for someone like you.">
+		<tags>
+			<tag tag_name="DeviousTag" weight="1"/>
+			<tag tag_name="MerchantNotableTypeTag" weight="+3"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="PlayerIsEnemyTag" weight="-1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.famous_cunning_merchant" text="{=xHjVl9gR}I've heard of you. At last we meet. You sound like a good {?PLAYER.GENDER}woman{?}man{\?} to know. Let us speak together, from time to time. We may be able to find arrangements that benefit us both.">
+		<tags>
+			<tag tag_name="CalculatingTag" weight="1"/>
+			<tag tag_name="MerchantNotableTypeTag" weight="+1"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="PlayerIsEnemyTag" weight="-1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<!-- Break up the preacher intro comments -->
+	<string id="str_comment_intro.preacher_default" text="{=pZj9C1yA}The Heavens will shall be done. But those who smooth the path shall be rewarded.">
+		<tags>
+			<tag tag_name="PreacherNotableTypeTag" weight="5"/>
+			<tag tag_name="PlayerIsFamousTag" weight="-1"/>
+			<tag tag_name="PlayerIsEnemyTag" weight="-1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.preacher_justice" text="{=8x8kVUGX}Uphold the rights of the poor and the meek, of the widow and the orphan, and the Heavens will take note.">
+		<tags>
+			<tag tag_name="PreacherNotableTypeTag" weight="5"/>
+			<tag tag_name="MercyTag" weight="1"/>
+			<tag tag_name="PlayerIsFamousTag" weight="-1"/>
+			<tag tag_name="PlayerIsEnemyTag" weight="-1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.preacher_truth" text="{=ygP56lXC}The Heavens have blessed us with their commandments, which we must uphold and ensure others uphold.">
+		<tags>
+			<tag tag_name="PreacherNotableTypeTag" weight="5"/>
+			<tag tag_name="HonorTag" weight="1"/>
+			<tag tag_name="PlayerIsFamousTag" weight="-1"/>
+			<tag tag_name="PlayerIsEnemyTag" weight="-1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.preacher_mystic" text="{=WVeS3Lsb}Seek not the things of this world, but thirst after the divine truth.">
+		<tags>
+			<tag tag_name="PreacherNotableTypeTag" weight="5"/>
+			<tag tag_name="ImpulsiveTag" weight="-1"/>
+			<tag tag_name="PlayerIsFamousTag" weight="-1"/>
+			<tag tag_name="PlayerIsEnemyTag" weight="-1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.famous_friendly" text="{=CPWbB47d}I've heard of you! I have long wanted to make your acquaintance.">
+		<tags>
+			<tag tag_name="MercyTag" weight="1"/>
+			<tag tag_name="GenerosityTag" weight="1"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.famous_friendly_2" text="{=zwRbpQJ0}I've heard of you! A pity we should meet like this.">
+		<tags>
+			<tag tag_name="MercyTag" weight="1"/>
+			<tag tag_name="GenerosityTag" weight="1"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="AttackingTag"/>
+		</tags>
+	</string>
+	<!-- moralizing -->
+	<string id="str_comment_intro.famous_upstanding" text="{=HbVsATfi}I know your name. Men praise your valor. But remember that honor and compassion are also worth cultivating.">
+		<tags>
+			<tag tag_name="HonorTag" weight="1"/>
+			<tag tag_name="MercyTag" weight="1"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="HighRegisterTag" weight="1"/>
+		</tags>
+	</string>
+	<!-- gang leader? -->
+	<string id="str_comment_intro.outlaw" text="{=HwhUEZPE}Yeah... I know your name. I've got nothing against you, friend. Stay out of my business, and I'll stay out of yours.">
+		<tags>
+			<tag tag_name="GangLeaderNotableTypeTag" weight="+1"/>
+			<tag tag_name="PersonaCurtTag" weight="+1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+		</tags>
+	</string>
+	<!-- &gt; -->
+	<!-- For players who should be known to the NPC because they've done something that affected clan relations, but who are not famous-->
+	<!-- Separate set for met but not famous. 'Never heard of' are usually two to three -->
+	<string id="str_comment_intro.known_default" text="{=2VkCAuiu}Yes... I believe I may have heard your name.">
+		<tags>
+			<tag tag_name="PlayerIsKnownButNotFamousTag" weight="+1"/>
+			<tag tag_name="UnderCommandTag" weight="-1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+			<tag tag_name="FirstMeetingTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.known_hostile" text="{=1Rht7WZI}I think I have heard your name. I believe you caused some trouble for us.">
+		<tags>
+			<tag tag_name="PlayerIsKnownButNotFamousTag" weight="+1"/>
+			<tag tag_name="UnderCommandTag" weight="-1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+			<tag tag_name="FirstMeetingTag"/>
+			<tag tag_name="HostileRelationshipTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.known_hostile_earnest" text="{=qa2xUjcT}I know your name. I can only hope that what I have heard is not true.">
+		<tags>
+			<tag tag_name="PlayerIsKnownButNotFamousTag" weight="+1"/>
+			<tag tag_name="UnderCommandTag" weight="-1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+			<tag tag_name="FirstMeetingTag"/>
+			<tag tag_name="HostileRelationshipTag" weight="1"/>
+			<tag tag_name="MercyTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.known_attracted" text="{=agKiYTCE}Ah yes. I believe I have heard your name. It is indeed a pleasure to meet face to face.">
+		<tags>
+			<tag tag_name="PlayerIsKnownButNotFamousTag" weight="+1"/>
+			<tag tag_name="UnderCommandTag" weight="-1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+			<tag tag_name="FirstMeetingTag"/>
+			<tag tag_name="HostileRelationshipTag" weight="-1"/>
+			<tag tag_name="AttractedToPlayerTag" weight="1"/>
+		</tags>
+	</string>
+	<!-- Introductions, generic-->
+	<string id="str_comment_intro.common_cunning" text="{=qSF2z6Wa}I have not heard of you, but you have the look of a {?PLAYER.GENDER}woman{?}man{\?} who might make something of {?PLAYER.GENDER}herself{?}himself{\?}, some day.">
+		<tags>
+			<tag tag_name="GenerosityTag" weight="1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.common_goodnatured" text="{=jr0XszmA}I can't say that I've heard the name, but it's good to make your acquaintance.">
+		<tags>
+			<tag tag_name="MercyTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.impolite_default" text="{=1MPxKtue}Is this important? I'm rather busy right now.">
+		<tags>
+			<tag tag_name="ImpoliteTag" weight="1"/>
+			<tag tag_name="HighRegisterTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.common_patrician" text="{=tA4wDLt2}I shall have my scribes make a note of your name.">
+		<tags>
+			<tag tag_name="HighRegisterTag"/>
+			<tag tag_name="UngratefulTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.uncharitable" text="{=RajD4RC1}Never heard of you.">
+		<tags>
+			<tag tag_name="ImpoliteTag" weight="1"/>
+			<tag tag_name="HighRegisterTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.common_taciturn_cruel" text="{=kil3bT75}One thing you should know: If you cross me, you'll regret it.">
+		<tags>
+			<tag tag_name="ImpoliteTag" weight="-1"/>
+			<tag tag_name="CruelTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.common_honor_2" text="{=atHFPCcK}It is good to meet you. Remember, there is no currency in this world more valuable than the weight of your word, so speak truthfully with me, and I shall do the same with you.">
+		<tags>
+			<tag tag_name="HonorTag" weight="1"/>
+			<tag tag_name="LowRegisterTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.common_honor_low" text="{=WnxA6JQl}Good to meet you. Look, one thing I value is that people keep their word, so deal straight with me and I'll deal straight with you.">
+		<tags>
+			<tag tag_name="HonorTag" weight="1"/>
+			<tag tag_name="LowRegisterTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.common_nasty" text="{=LEZKgNEm}I've never heard of you. No doubt another vulture come to this land to grow fat on the leftovers of war.">
+		<tags>
+			<tag tag_name="CruelTag" weight="1"/>
+			<tag tag_name="UngratefulTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.common_valor" text="{=xUOhJEJS}It is good to meet you. I am always looking for warriors who value courage, glory and a good name.">
+		<tags>
+			<tag tag_name="ValorTag" weight="1"/>
+			<tag tag_name="CombatantTag"/>
+			<tag tag_name="NpcIsNobleTag"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.tribal" text="{=BMc3VJcf}I don't know your name. But no matter. Some say there is greater honor to found a great lineage than to be born with one.">
+		<tags>
+			<tag tag_name="NpcIsNobleTag" weight="+1"/>
+			<tag tag_name="GenerosityTag" weight="1"/>
+			<tag tag_name="TribalRegisterTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.common_psych" text="{=dD93WVhO}The one thing about me you should know, is that I make a very good friend and you absolutely do not want me as an enemy.">
+		<tags>
+			<tag tag_name="ValorTag" weight="1"/>
+			<tag tag_name="GenerosityTag" weight="1"/>
+			<tag tag_name="DeviousTag" weight="1"/>
+			<tag tag_name="CruelTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.common_cautious" text="{=JkHvOVlo}I shall mark down your name. Now, do not take it amiss if I do not immediately extend my hand in friendship, for the world is a treacherous place, and I have learned to be wary.">
+		<tags>
+			<tag tag_name="CombatantTag"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+			<tag tag_name="HighRegisterTag" weight="1"/>
+			<tag tag_name="CautiousTag" weight="1"/>
+			<tag tag_name="CalculatingTag" weight="1"/>
+		</tags>
+	</string>
+	<!--
+    <string id="str_comment_intro.common_nasty" text="Don't know your name. Another foreigner come to our shores, as if we didn't have so many here already." >
+      <tags>
+        <tag tag_name="CombatantTag" />
+        <tag tag_name="DeviousTag" weight="1" />
+        <tag tag_name="UngratefulTag" weight="1"/>
+      </tags>
+    </string>
+    -->
+	<string id="str_comment_intro.common_cautious_2" text="{=6acfbHiE}I shall mark down your name. But you shall have to earn my trust, stranger, for the world is a treacherous place, and these are treacherous times.">
+		<tags>
+			<tag tag_name="CombatantTag"/>
+			<tag tag_name="PlayerIsFamousTag" weight="-1"/>
+			<tag tag_name="HighRegisterTag" weight="1"/>
+			<tag tag_name="CautiousTag" weight="1"/>
+			<tag tag_name="CalculatingTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.attacking2" text="{=8eLXNZ7U}It is good to know who one fights.">
+		<tags>
+			<tag tag_name="ChivalrousTag"/>
+			<tag tag_name="AttackingTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.attacking3" text="{=brGfaXyo}I'm not sure what to make of you, except you're either very brave or very rash, or both.">
+		<tags>
+			<tag tag_name="AttackingTag"/>
+			<tag tag_name="PersonaIronicTag"/>
+			<tag tag_name="PlayerIsFamousTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.attacking4" text="{=Pg8vccKF}Never heard of you. Doubt you'll give me much trouble.">
+		<tags>
+			<tag tag_name="AttackingTag"/>
+			<tag tag_name="UncharitableTag"/>
+			<tag tag_name="ChivalrousTag" weight="-1"/>
+			<tag tag_name="PlayerIsFamousTag" weight="-1"/>
+		</tags>
+	</string>
+	<!-- Introductions. These assume player is not -->
+	<string id="str_comment_intro.common_soldier" text="{=TzPC5L5X}I'm always looking for good fighters. If you ask about me, I suspect you'll be told that I take good care of my men.">
+		<tags>
+			<tag tag_name="GenerosityTag" weight="1"/>
+			<tag tag_name="CombatantTag"/>
+			<tag tag_name="NpcIsNobleTag"/>
+			<tag tag_name="PlayerIsEnemyTag" weight="-1"/>
+			<tag tag_name="PlayerIsAffiliatedTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.cautious" text="{=JS5hKW6p}I'm not one of those who loves war for its own sake. But I still need reliable warriors who are true to their word. I will keep faith with all those who keep faith with me.">
+		<tags>
+			<tag tag_name="CautiousTag" weight="1"/>
+			<tag tag_name="HonorTag" weight="1"/>
+			<tag tag_name="NpcIsNobleTag"/>
+			<tag tag_name="CombatantTag"/>
+			<tag tag_name="PlayerIsEnemyTag" weight="-1"/>
+			<tag tag_name="PlayerIsAffiliatedTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.common_stoic" text="{=iM76GPzK}I will always listen to a {?PLAYER.GENDER}woman{?}man{\?} of integrity. On the other hand, if you lack that, please do not plague me with your company.">
+		<tags>
+			<tag tag_name="HonorTag" weight="1"/>
+			<tag tag_name="UngratefulTag" weight="1"/>
+			<tag tag_name="CombatantTag"/>
+			<tag tag_name="HighRegisterTag"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.common_honor" text="{=ufa20b2l}I'll deal with those who keep their oaths. If you're one of those who don't value their word, don't waste my time.">
+		<tags>
+			<tag tag_name="HonorTag" weight="1"/>
+			<tag tag_name="UngratefulTag" weight="1"/>
+			<tag tag_name="TribalRegisterTag"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.common_blowhard" text="{=JNb6l91E}If you ever want a chance for glory, you might want to consider fighting for me. One day you can tell your grandchildren that you served under my command.">
+		<tags>
+			<tag tag_name="ValorTag" weight="1"/>
+			<tag tag_name="NpcIsNobleTag"/>
+			<tag tag_name="CombatantTag"/>
+			<tag tag_name="PlayerIsEnemyTag" weight="-1"/>
+			<tag tag_name="PlayerIsAffiliatedTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.common_goodnatured_2" text="{=fHFpgitO}It is good to meet you. Always remember that while courage is commendable, compassion is the greatest of virtues.">
+		<tags>
+			<tag tag_name="MercyTag" weight="1"/>
+			<tag tag_name="HonorTag" weight="1"/>
+			<tag tag_name="HighRegisterTag"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<!-- Female introductions, not left over from MBBL-->
+	<string id="str_comment_intro.female_famous_liege" text="{=xsaOxeHV}I have heard much about you. Some men may fear a woman who is versed in the art of war, but I for one will not turn away hands that can grip a sword, should their owner be brave and loyal.">
+		<tags>
+			<tag tag_name="NpcIsLiegeTag"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+			<tag tag_name="PlayerIsFemaleTag"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.female_famous_martial" text="{=MUHdZHFw}I have heard much about you. They say that you are the equal of even the bravest of men in your prowess at arms. Perhaps one day I shall try my valor against yours, either in a tournament or on the battlefield!">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="ValorTag" weight="1"/>
+			<tag tag_name="GenerosityTag" weight="1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.female_famous_badtempered" text="{=jxduaTUc}I've heard of talk of you -- the woman who knows how to fight like a man.">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="UngratefulTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.female_famous_pitiless" text="{=KkWNSw9p}I know your name. It strikes fear in men's hearts. That is good. Perhaps we should speak together, some time.">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="CruelTag" weight="1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.female_famous_cunning" text="{=PhTv43ve}Ah, yes. At last we meet. You sound like a good woman to know. Let us speak together, from time to time.">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="DeviousTag" weight="1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.female_famous_sadistic" text="{=nJgp2MoR}I know your name -- and from what I hear, I'll warrant that many a grieving widow knows too. But that is no concern of mine.">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="CruelTag" weight="1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.female_famous_goodnatured" text="{=Wt4iJPcd}I've heard of you! It's very good to finally make your acquaintance.">
+		<tags>
+			<tag tag_name="PlayerIsFamousTag" weight="2"/>
+			<tag tag_name="MercyTag" weight="1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.female_famous_upstanding" text="{=3TGug4Vb}I know your name. They say you are a most valiant warrior. I can only hope that your honour and mercy matches your valor.">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag"/>
+			<tag tag_name="PlayerIsFamousTag"/>
+			<tag tag_name="HonorTag" weight="1"/>
+		</tags>
+	</string>
+	<!-- Female famous ends, not left over from MBBL-->
+	<string id="str_comment_intro.female_noble_martial" text="{=SJ3bpDxC}I do not recognize your banner, but clearly you are a lady of rank. Please consider me your most humble servant.">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag"/>
+			<tag tag_name="PlayerIsNobleTag"/>
+			<tag tag_name="ChivalrousTag" weight="+1"/>
+			<tag tag_name="HighRegisterTag" weight="+1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<!-- Attraction strings-->
+	<string id="str_comment_intro.female_admiring_goodnatured" text="{=fbArcLAA}My lady, if you are skilled as arms as you are fair in countenance, then your enemies should indeed fear you!">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag"/>
+			<tag tag_name="AttractedToPlayerTag" weight="8"/>
+			<tag tag_name="ChivalrousTag" weight="+1"/>
+			<tag tag_name="HighRegisterTag" weight="+1"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<!-- straightforward version -->
+	<string id="str_comment_intro.attracted_famous" text="{=aIimfZZe}I've heard of you. They spoke of you as an impressive warrior. They had not mentioned that you were so, em, charming.">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag"/>
+			<tag tag_name="PlayerIsFamousTag" weight="2"/>
+			<tag tag_name="AttractedToPlayerTag" weight="5"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.attracted_famous_ironic" text="{=JcdmntiC}Ah, yes. From what they said of you, I had imagined someone whose blade was still dripping with the blood of her enemies, not someone with your grace and charms.">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag"/>
+			<tag tag_name="PlayerIsFamousTag" weight="2"/>
+			<tag tag_name="AttractedToPlayerTag" weight="5"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+			<tag tag_name="PersonaIronicTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.attracted_not_famous_female" text="{=WbAAkcbw}It's an honor to meet you, my lady.">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag"/>
+			<tag tag_name="AttractedToPlayerTag" weight="5"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.female_admiring_highregister" text="{=QhkM71ap}It's an honor to meet you, good sir.">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag" weight="-1"/>
+			<tag tag_name="AttractedToPlayerTag" weight="4"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+			<tag tag_name="HighRegisterTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.female_admiring_gangleader_lowregister" text="{=9uH1NdsT}You're a handsome devil, aren't you? Bet you're a load of trouble, though.">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag" weight="-1"/>
+			<tag tag_name="AttractedToPlayerTag" weight="4"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+			<tag tag_name="GangLeaderNotableTypeTag" weight="1"/>
+			<tag tag_name="PersonaIronicTag" weight="1"/>
+			<tag tag_name="LowRegisterTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.female_admiring_gangleader_tribalregister" text="{=TvqjhDaQ}So, my young lion. You have the look of someone who may go far, if they don't wind up dead.">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag" weight="-1"/>
+			<tag tag_name="AttractedToPlayerTag" weight="4"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+			<tag tag_name="GangLeaderNotableTypeTag" weight="1"/>
+			<tag tag_name="PersonaCurtTag" weight="-1"/>
+			<tag tag_name="TribalRegisterTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.female_admiring_lowregister" text="{=6l8ty6Dr}Pleasure to meet you.">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag" weight="-1"/>
+			<tag tag_name="AttractedToPlayerTag" weight="5"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+			<tag tag_name="LowRegisterTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_intro.female_admiring_tribalregister" text="{=lcPeNFTN}I am glad to meet you.">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag" weight="-1"/>
+			<tag tag_name="AttractedToPlayerTag" weight="5"/>
+			<tag tag_name="AttackingTag" weight="-1"/>
+			<tag tag_name="TribalRegisterTag" weight="+1"/>
+		</tags>
+	</string>
+    <string id="str_comment_you_defeated_me_in_single_combat.default" text="{=OgzAlCkk}I am still recovering from the bruises you gave me.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_i_defeated_you_in_single_combat.default" text="{=9ZHhYooG}Remember how I beat you, one-on-one? Are you back for more?">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_i_defeated_you_in_single_combat.default_2" text="{=bbjLFWhP}I won our last duel, but you fought well. I wouldn't blame you if you wished for a rematch.">
+		<tags>
+			<tag tag_name="ChivalrousTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_i_defeated_you_in_single_combat.default_3" text="{=i1RXpQxR}Remember our duel? It was a good fight. But with the advantage I have now, I'm afraid I can't afford to be so sporting.">
+		<tags>
+			<tag tag_name="AttackingTag"/>
+		</tags>
+	</string>
+	<!-- duel striings
+    you_started_a_fight
+    you_won_a_duel
+    you_were_defeated_in_a_duel
+    my_friend_defeated_you_in_duel
+    you_defeated_my_enemy_in_duel
+    you_defeated_me_in_duel
+    i_defeated_you_in_fight
+    you_killed_my_friend_in_fight
+    you_killed_my_enemy_in_fight
+
+    political_strings
+
+    -->
+	<string id="str_comment_we_have_rebelled.default" text="{=MSiuWF7V}We can take no more! We have raised the standard of rebellion, and will fight the people's enemies until our just demands are met.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_we_have_rebelled.cruel" text="{=te2DSMtg}We're not putting up with it any more. We will spill the blood of the oppressors and anyone who stands in the way of our just wrath.">
+		<tags>
+			<tag tag_name="CruelTag" weight="1"/>
+		</tags>
+	</string>
+    <string id="str_salutation.metbefore" text="{=xnR3sXJP}{PLAYER.NAME}">
+		<tags>
+			<tag tag_name="DefaultTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_salutation.undercommand" text="{=oIrz5050}Your Grace">
+		<tags>
+			<tag tag_name="UnderCommandTag" weight="+2"/>
+			<tag tag_name="PlayerIsLiegeTag" weight="+2"/>
+		</tags>
+	</string>
+	<string id="str_salutation.lordship" text="{=aagGt8pX}milord">
+		<tags>
+			<tag tag_name="UnderCommandTag" weight="+2"/>
+			<tag tag_name="PlayerIsNobleTag"/>
+		</tags>
+	</string>
+	<string id="str_salutation.ladyship" text="{=iepWkkfA}milady">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag"/>
+			<tag tag_name="UnderCommandTag" weight="+2"/>
+			<tag tag_name="PlayerIsNobleTag"/>
+		</tags>
+	</string>
+	<string id="str_salutation.captain" text="{=captainasleader}Captain">
+		<tags>
+			<tag tag_name="UnderCommandTag" weight="+2"/>
+		</tags>
+	</string>
+	<string id="str_salutation.my_lady" text="{=4Jo8JMZm}My Lady">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag"/>
+			<tag tag_name="PlayerIsNobleTag"/>
+			<tag tag_name="UnderCommandTag"/>
+		</tags>
+	</string>
+	<string id="str_salutation.romantic" text="{=4Jo8JMZm}My Lady">
+		<tags>
+			<tag tag_name="RomanticallyInvolvedTag"/>
+			<tag tag_name="PlayerIsFemaleTag"/>
+		</tags>
+	</string>
+	<string id="str_salutation.father" text="{=22a9fyiQ}Father">
+		<tags>
+			<tag tag_name="PlayerIsFatherTag" weight="5"/>
+		</tags>
+	</string>
+	<string id="str_salutation.mother" text="{=UB4sqrWx}Mother">
+		<tags>
+			<tag tag_name="PlayerIsMotherTag" weight="5"/>
+		</tags>
+	</string>
+	<string id="str_salutation.brother" text="{=wWwoTzpG}Brother">
+		<tags>
+			<tag tag_name="PlayerIsBrotherTag" weight="5"/>
+		</tags>
+	</string>
+	<string id="str_salutation.sister" text="{=2FWBCCw0}Sister">
+		<tags>
+			<tag tag_name="PlayerIsSisterTag" weight="5"/>
+		</tags>
+	</string>
+	<string id="str_salutation.son" text="{=kaEUZ8NA}My son">
+		<tags>
+			<tag tag_name="PlayerIsSonTag" weight="5"/>
+		</tags>
+	</string>
+	<string id="str_salutation.daughter" text="{=reg1AUxr}My child">
+		<tags>
+			<tag tag_name="PlayerIsDaughterTag" weight="5"/>
+		</tags>
+	</string>
+	<string id="str_salutation.cousin" text="{=NW1n9k45}Cousin">
+		<tags>
+			<tag tag_name="PlayerIsKinTag"/>
+			<tag tag_name="HostileRelationshipTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_salutation.wife" text="{=t6sRVI5C}My wife">
+		<tags>
+			<tag tag_name="PlayerIsSpouseTag" weight="10"/>
+			<tag tag_name="PlayerIsFemaleTag"/>
+		</tags>
+	</string>
+	<string id="str_salutation.husband" text="{=rPrBa7gK}My husband">
+		<tags>
+			<tag tag_name="PlayerIsSpouseTag" weight="10"/>
+			<tag tag_name="PlayerIsFemaleTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_salutation.friend" text="{=RNZ9LOxc}My friend">
+		<tags>
+			<tag tag_name="MetBeforeTag"/>
+			<tag tag_name="FriendlyRelationshipTag"/>
+		</tags>
+	</string>
+	<string id="str_salutation.hostile" text="{=xnR3sXJP}{PLAYER.NAME}">
+		<tags>
+			<tag tag_name="MetBeforeTag"/>
+			<tag tag_name="HostileRelationshipTag"/>
+		</tags>
+	</string>
+	<string id="str_parley_comment.default" text="{=s6xlGuTH}I will honor the terms of the parley if you do likewise.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_parley_comment.honorable" text="{=g3oFsCtd}You asked for a parley. I will trust you will honor the customs of war and attempt no tricks.">
+		<tags>
+			<tag tag_name="HonorTag"/>
+		</tags>
+	</string>
+	<string id="str_parley_comment.distrustful_d" text="{=T0Cdfsx2}You asked for a parley. If you're tempted to try any tricks, do know I have some archers standing by to keep you honest.">
+		<tags>
+			<tag tag_name="CalculatingTag"/>
+		</tags>
+	</string>
+	<!-- courtship travel task strings -->
+	<string id="str_courtship_travel_task.default" text="{=cGuzIVlk}They say you have travelled quite widely. Tell me a bit about your journeys...">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_courtship_travel_task.curt" text="{=sJNrVlXa}Heard you get around quite a bit... So... Tell me a bit about your travels, then.">
+		<tags>
+			<tag tag_name="PlayerIsFemaleTag"/>
+			<tag tag_name="PersonaCurtTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_courtship_travel_task.moralist" text="{=L6FSmeIv}They say you've travelled widely. Such terrible times we live in, so much hardship. What do you think of what you've seen?">
+		<tags>
+			<tag tag_name="MercyTag" weight="+2"/>
+		</tags>
+	</string>
+	<string id="str_courtship_travel_task.noncombatant" text="{=BbVpiTdi}You are, I hear, a man of the world, as they say. Tell me a bit about your journeys.">
+		<tags>
+			<tag tag_name="NpcIsFemaleTag"/>
+			<tag tag_name="PersonaSoftspokenTag" weight="+1"/>
+			<tag tag_name="CombatantTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_courtship_travel_task.thrillseeker" text="{=f3X79aDs}So... I've heard you've travelled around a fair bit. No doubt you've seen a lot of strange and awful things. Maybe you've done a few strange and awful things. Go on, tell me a bit about your journeys. I promise not to be shocked.">
+		<tags>
+			<tag tag_name="NpcIsFemaleTag"/>
+			<tag tag_name="PersonaIronicTag" weight="+1"/>
+			<tag tag_name="AmoralTag" weight="+2"/>
+		</tags>
+	</string>
+	<!-- courtship aspirations task strings -->
+	<string id="str_courtship_aspirations_task.default" text="{=sEfAuErj}Some people say you will go far... Suppose you were to rise to a position of power. What would you do?">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_courtship_aspirations_task.amoral_ironic" text="{=rndbZI9I}Now don't take this the wrong way, but some would say that you're aiming a bit beyond your station. But lets say your rise in the world. What would you do?">
+		<tags>
+			<tag tag_name="PersonaIronicTag" weight="+1"/>
+			<tag tag_name="PlayerIsFamousTag" weight="-1"/>
+			<tag tag_name="AmoralTag" weight="+2"/>
+		</tags>
+	</string>
+	<string id="str_courtship_aspirations_task.amoral" text="{=dniQq29H}I shall put this bluntly. You are not from a good family. Some would say you are setting your sights too high. But suppose you were to rise in the world. What would you do?">
+		<tags>
+			<tag tag_name="AmoralTag" weight="+2"/>
+			<tag tag_name="PlayerIsFamousTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_courtship_aspirations_task.honor" text="{=9LwkLxo7}You may be of humble birth, but you seem like the type who will rise in the world. Suppose you were to come to a position of power and responsibility. How would you use it?">
+		<tags>
+			<tag tag_name="HonorTag" weight="+2"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_taken.gangleader" text="{=xb5RGe0W}Thanks again for taking on that little matter for me. Best of luck.">
+		<tags>
+			<tag tag_name="GangLeaderNotableTypeTag" weight="2"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_taken.lowreg" text="{=o4talwN5}Yeah... Thanks again for agreeing to handle that matter for me.">
+		<tags>
+			<tag tag_name="LowRegisterTag" weight="2"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_taken.ironic" text="{=ZlA0uc8z}Thank you again for agreeing to handle that problem of mine. Best of luck with it.">
+		<tags>
+			<tag tag_name="PersonaIronicTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_taken.not_ironic" text="{=XBbdhx4M}Again, I'm glad to have your assistance.">
+		<tags>
+			<tag tag_name="PersonaIronicTag" weight="-1"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_betrayed.default" text="{=L2PFxbD3}So... Not long ago, you betrayed my trust. Do we really have anything to discuss?">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_betrayed.ironic" text="{=pQkiu5qf}Would you like me to give you another task, so that you can betray me again?">
+		<tags>
+			<tag tag_name="PersonaIronicTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_betrayed.lowregister" text="{=TUwY7IKc}So... You really did me over. Not sure we have much to talk about now, after that.">
+		<tags>
+			<tag tag_name="LowRegisterTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_succeeded.default" text="{=7pQ3y21E}Thank you again for all your help.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_succeeded.curt" text="{=27KUtWGA}You came through on that task I gave you. I thank you.">
+		<tags>
+			<tag tag_name="PersonaIronicTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_succeeded.honest" text="{=LkVCTVMx}I thank you for what you did for me. You kept your word. Not everyone is so dependable these days.">
+		<tags>
+			<tag tag_name="HonorTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_succeeded.amoral_ironic" text="{=tRSD2C3k}That task you took on for me. Very nicely done.">
+		<tags>
+			<tag tag_name="AmoralTag"/>
+			<tag tag_name="PersonaIronicTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_succeeded.amoral_curt" text="{=A40Z3egp}That job you did for me... Nice work.">
+		<tags>
+			<tag tag_name="AmoralTag"/>
+			<tag tag_name="PersonaCurtTag"/>
+		</tags>
+	</string>
+	<!-- Quest failed comment-->
+	<string id="str_comment_quest_failed.default" text="{=J0wLOV3u}I know that the task I gave you was not easy... Well, let's not speak of that anymore.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_failed.honest" text="{=Gp3l5fjI}So, about that task I gave you... Well, I can only hope that you gave it your best try, and you'd said you would.">
+		<tags>
+			<tag tag_name="HonorTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_failed.calculating" text="{=aFbkjgVe}So, you weren't able to complete that task... Well, sometimes these things are out of our hands... and sometimes not. But let us not dwell on this.">
+		<tags>
+			<tag tag_name="CalculatingTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_failed.impolite" text="{=UehvSvLD}That job I gave you... I'd say you let me down.">
+		<tags>
+			<tag tag_name="ImpoliteTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_failed.lowreg" text="{=pgIaAnBt}So that problem I asked you to take care of... Didn't go so well, I hear.">
+		<tags>
+			<tag tag_name="LowRegisterTag"/>
+		</tags>
+	</string>
+	<!-- Neutral matter invalid -->
+	<string id="str_comment_quest_invalid.default" text="{=c7hrnOUE}I guess that task I gave you didn't work out.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_counteroffer_accepted.default" text="{=HwsshsMz}I'm glad that we could come to an understanding on that recent matter.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_quest_counteroffer_accepted.lowregister" text="{=qB3wfM1f}I'm glad that you and I could reach an agreement, earlier.">
+		<tags>
+			<tag tag_name="LowRegisterTag"/>
+		</tags>
+	</string>
+	<!-- barter_response -->
+	<string id="str_barter_agreed.default" text="{=QuNcB0dA}Very well. I accept.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_barter_agreed.softspoken" text="{=QuNcB0dA}Very well. I accept.">
+		<tags>
+			<tag tag_name="PersonaSoftspokenTag"/>
+		</tags>
+	</string>
+	<string id="str_barter_agreed.curt" text="{=mHP7PtrJ}Eh. Good enough.">
+		<tags>
+			<tag tag_name="PersonaCurtTag"/>
+		</tags>
+	</string>
+	<string id="str_barter_agreed.ironic" text="{=nLbQ8rpF}Your proposal is most acceptable.">
+		<tags>
+			<tag tag_name="PersonaIronicTag"/>
+		</tags>
+	</string>
+	<string id="str_barter_agreed.earnest" text="{=yUkG588C}This is good. I'm glad that we could make this work.">
+		<tags>
+			<tag tag_name="PersonaEarnestTag"/>
+		</tags>
+	</string>
+	<string id="str_barter_refused.default" text="{=tXnSN2ey}I guess we don't have a deal.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_barter_refused.softspoken" text="{=tXnSN2ey}I guess we don't have a deal.">
+		<tags>
+			<tag tag_name="PersonaSoftspokenTag"/>
+		</tags>
+	</string>
+	<string id="str_barter_refused.curt" text="{=dhwnbgoz}No. That doesn't work.">
+		<tags>
+			<tag tag_name="PersonaCurtTag"/>
+		</tags>
+	</string>
+	<string id="str_barter_refused.earnest" text="{=wkZzavDk}So it looks like we don't have a deal But come up with a better proposal later, and I will listen.">
+		<tags>
+			<tag tag_name="PersonaEarnestTag"/>
+		</tags>
+	</string>
+	<string id="str_barter_refused.ironic" text="{=hfftfRcq}Alas, I guess we simply don't see eye-to-eye on this.">
+		<tags>
+			<tag tag_name="PersonaIronicTag"/>
+		</tags>
+	</string>
+	<string id="str_defect_barter_agreed.default" text="{=6YUFDgGb}It is a momentous step that I am about to take, and this makes it easier.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_defect_barter_agreed.softspoken" text="{=6YUFDgGb}It is a momentous step that I am about to take, and this makes it easier.">
+		<tags>
+			<tag tag_name="PersonaSoftspokenTag"/>
+		</tags>
+	</string>
+	<string id="str_defect_barter_agreed.earnest" text="{=rK2dayAa}Very well. I am ready to do this.">
+		<tags>
+			<tag tag_name="PersonaEarnestTag"/>
+		</tags>
+	</string>
+	<string id="str_defect_barter_agreed.ironic" text="{=VB5R2lAb}Right. So that wraps up our little arrangement then.">
+		<tags>
+			<tag tag_name="PersonaIronicTag"/>
+		</tags>
+	</string>
+	<string id="str_defect_barter_agreed.curt" text="{=2vMNJl7F}Very well. It is settled, then.">
+		<tags>
+			<tag tag_name="PersonaCurtTag"/>
+		</tags>
+	</string>
+	<string id="str_defect_barter_refused.default" text="{=l9CJa1Do}No. That's not enough, for what you're asking me to do.">
+		<tags>
+			<tag tag_name="DefaultTag"/>
+		</tags>
+	</string>
+	<string id="str_defect_barter_refused.softspoken" text="{=l9CJa1Do}No. That's not enough, for what you're asking me to do.">
+		<tags>
+			<tag tag_name="PersonaSoftspokenTag"/>
+		</tags>
+	</string>
+	<string id="str_defect_barter_refused.earnest" text="{=T8kAgaPd}No -- I need more than that to be sure that I am not leading my followers to their deaths.">
+		<tags>
+			<tag tag_name="PersonaEarnestTag"/>
+		</tags>
+	</string>
+	<string id="str_defect_barter_refused.ironic" text="{=eu6O20oJ}Ah, look, I'd be happy to shed my blood for your cause. But I have to look out for my kin, and for those who look to me for protection. I need more from you.">
+		<tags>
+			<tag tag_name="PersonaIronicTag"/>
+		</tags>
+	</string>
+	<string id="str_defect_barter_refused.curt" text="{=I67MlgYp}No... Unless you can give me more, I can't do it.">
+		<tags>
+			<tag tag_name="PersonaCurtTag"/>
+		</tags>
+	</string>
+</strings>

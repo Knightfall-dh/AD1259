@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- clan 1 : Pope and cardinals -->
+	<Hero id="lord_papal_1a" faction="Faction.clan_papal_1" text="{=papalKingdescription}Pope Alexander IV, born Rinaldo Conti, was elected as the Pope on December 12, 1254."/>
+	<Hero id="lord_papal_1b" faction="Faction.clan_papal_1"/>
+	<Hero id="lord_papal_1c" faction="Faction.clan_papal_1"/>
+	<Hero id="lord_papal_1d" faction="Faction.clan_papal_1"/>
+	<Hero id="lord_papal_1e" faction="Faction.clan_papal_1"/>
+	<Hero id="lord_papal_1f" faction="Faction.clan_papal_1"/>
+
+	<!-- clan 2 : Casa dei Caetani -->
+	<Hero id="lord_papal_2z" spouse="Hero.dead_lord_papal_5z" faction="Faction.clan_papal_2"/>
+	<Hero id="lord_papal_2a" spouse="Hero.lord_papal_2b" faction="Faction.clan_papal_2"/>
+	<Hero id="lord_papal_2b" spouse="Hero.lord_papal_2a" faction="Faction.clan_papal_2"/>
+	<Hero id="lord_papal_2c" father="Hero.lord_papal_2a" mother="Hero.lord_papal_2b" faction="Faction.clan_papal_2"/>
+	<Hero id="lord_papal_2d" father="Hero.lord_papal_2a" mother="Hero.lord_papal_2b" faction="Faction.clan_papal_2"/>
+	<Hero id="lord_papal_2e" father="Hero.lord_papal_2a" mother="Hero.lord_papal_2b" faction="Faction.clan_papal_2"/>
+
+	<!-- clan 3 : Casa dei Conti di Segni : https://wappenwiki.org/images/1/17/Dei_Conti.svg -->
+	<Hero id="lord_papal_3a" spouse="Hero.lord_papal_3b" faction="Faction.clan_papal_3"/>
+	<Hero id="lord_papal_3b" spouse="Hero.lord_papal_3a" faction="Faction.clan_papal_3"/>
+	<Hero id="lord_papal_3c" father="Hero.lord_papal_3a" mother="Hero.lord_papal_3b" faction="Faction.clan_papal_3"/>
+	<Hero id="lord_papal_3d" father="Hero.lord_papal_3a" mother="Hero.lord_papal_3b" faction="Faction.clan_papal_3"/>
+
+	<!-- clan 4 : Casa dei Colonna : https://wappenwiki.org/index.php/File:Colonna_Ancient.svg -->
+	<Hero id="lord_papal_4a" spouse="Hero.lord_papal_5e" faction="Faction.clan_papal_4"/>
+	<!-- spouse is lord_papal_5g-->
+	<Hero id="lord_papal_4b" father="Hero.lord_papal_4a" mother="Hero.lord_papal_5e" faction="Faction.clan_papal_4"/>
+	<Hero id="lord_papal_4c" father="Hero.lord_papal_4a" mother="Hero.lord_papal_5e" faction="Faction.clan_papal_4"/>
+
+	<!-- clan 5 : Casa dei Orsini : https://wappenwiki.org/index.php/File:Orsini_Pitigliano.svg -->
+	<Hero id="dead_lord_papal_5z" alive="false" spouse="Hero.lord_papal_2z" faction="Faction.clan_papal_5"/>
+	<Hero id="lord_papal_5a" father="Hero.lord_papal_5a" mother="Hero.lord_papal_5b" faction="Faction.clan_papal_5"/>
+	<Hero id="lord_papal_5b" father="Hero.lord_papal_5a" mother="Hero.lord_papal_5b" faction="Faction.clan_papal_5"/>
+	<Hero id="lord_papal_5c" father="Hero.lord_papal_5a" mother="Hero.lord_papal_5b" faction="Faction.clan_papal_5"/>
+	<Hero id="lord_papal_5d" father="Hero.lord_papal_5a" mother="Hero.lord_papal_5b" faction="Faction.clan_papal_5"/>
+	<Hero id="lord_papal_5e" father="Hero.lord_papal_5a" mother="Hero.lord_papal_5b" spouse="Hero.lord_papal_4a" faction="Faction.clan_papal_5"/>
+</Heroes>

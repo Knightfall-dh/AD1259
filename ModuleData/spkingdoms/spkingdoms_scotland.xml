@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+    <Kingdom id="scotland"
+	         initial_home_settlement="Settlement.town_edinburgh"
+             owner="Hero.lord_scotland_1_2"
+             banner_key="11.7.7.1750.1750.764.764.0.0.0.424.14.14.59.59.762.455.0.0.0.424.14.14.59.59.762.1076.0.0.180.424.14.14.59.59.1005.466.0.0.-45.424.14.14.59.59.519.466.0.0.45.424.14.14.59.59.512.712.0.0.90.424.14.14.59.59.1012.712.0.0.-90.319.7.14.672.672.762.766.1.0.0.506.7.14.672.675.762.766.0.0.0.506.7.14.956.140.763.711.0.0.0.424.14.14.59.59.991.589.0.0.-270.424.14.14.59.59.534.589.0.0.-90.424.14.14.59.59.840.1011.0.0.41.424.14.14.59.59.684.1011.0.0.-41.424.14.14.59.59.578.930.0.0.123.424.14.14.59.59.946.930.0.0.-123.424.14.14.59.59.964.812.0.0.-285.424.14.14.59.59.559.812.0.0.-75.426.12.12.32.46.714.579.0.0.60.506.12.12.10.13.713.582.0.0.60.140.14.14.566.564.762.757.0.0.0"
+             primary_banner_color="0xff000000"
+             secondary_banner_color="0xff000000"
+             color="FFdea940"
+             color2="FF8d2a1c"
+             culture="Culture.scottish"
+             settlement_banner_mesh="encounter_flag_e"
+             flag_mesh="info_screen_flags_b"
+             name="{=scotlandFactionName}Kingdom of Scotland"
+             short_name="{=scotlandFactionShortName}Kingdom of Scotland"
+             title="{=scotlandFactionTitle}Kingdom of Scotland"
+             ruler_title="{=scotlandFactionRulerTitle}King"
+             text="{=scotlandFactionText}After the twelfth-century reign of King David I, the Scottish monarchs are better described as Scoto-Norman than Gaelic, preferring French culture to native Scottish culture. A consequence was the spread of French institutions and social values including Canon law. The first towns, called burghs, appeared in the same era, and as they spread, so did the Middle English language. These developments were offset by the acquisition of the Norse-Gaelic west and the Gaelicisation of many of the noble families of French and Anglo-French origin. National cohesion was fostered with the creation of various unique religious and cultural practices. By the end of the period, Scotland experienced a Gaelic revival, which created an integrated Scottish national identity.">
+        <relationships>
+           
+        </relationships>
+        <policies>
+            <policy id="policy_war_tax"/>
+            <policy id="policy_precarial_land_tenure"/>
+            <policy id="policy_land_tax"/>
+            <policy id="policy_noble_retinues"/>
+        </policies>
+    </Kingdom>
+</Kingdoms>

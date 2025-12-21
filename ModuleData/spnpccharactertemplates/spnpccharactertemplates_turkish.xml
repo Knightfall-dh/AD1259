@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter id="npc_wanderer_equipment_template_turkish" default_group="Infantry" is_hero="false" level="16" name="{=!}wanderer_equipment" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_turkish"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_armed_wanderer_equipment_template_turkish" default_group="Infantry" is_hero="false" level="16" name="{=!}wanderer_equipment" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_turkish"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_companion_equipment_template_turkish" default_group="Infantry" is_hero="false" level="16" name="{=!}wanderer_equipment" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_turkish"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endregion-->
+	<!--#region Townsfolk Template-->
+	<NPCCharacter id="villager_turkish" default_group="Infantry" level="1" name="{=mamlukpeasantman}Muslim Peasant" occupation="Villager" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<skills/>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.turkish_basic_root"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+				<equipment slot="Body" id="Item.aserai_civil_d"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Head" id="Item.aserai_civil_c_head"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.aserai_civil_c"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_civil_b"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_b"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_civil_a"/>
+				<equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_civil_f"/>
+				<equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_civil_e"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_b"/>
+				<equipment slot="Body" id="Item.layered_robe"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.layered_robe"/>
+				<equipment slot="Head" id="Item.tied_head_wrapping"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.tassled_southern_robes"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+				<equipment slot="Body" id="Item.aserai_civil_d"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Head" id="Item.aserai_civil_c_head"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.aserai_civil_c"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Body" id="Item.aserai_civil_b"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_b"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_pitchfork_2_t1"/>
+				<equipment slot="Body" id="Item.aserai_civil_a"/>
+				<equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_pitchfork_2_t1"/>
+				<equipment slot="Body" id="Item.aserai_civil_f"/>
+				<equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Body" id="Item.aserai_civil_e"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Head" id="Item.aserai_civil_hscarf_b"/>
+				<equipment slot="Body" id="Item.tassled_southern_robes"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Body" id="Item.layered_robe"/>
+				<equipment slot="Head" id="Item.tied_head_wrapping"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.tassled_southern_robes"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="townswoman_turkish" default_group="Infantry" is_female="true" level="1" name="{=WbH2HS8j}Muslim Townswoman" occupation="Townsfolk" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_turkish"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_southern_dress"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_female_civil_a"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_female_civil_b"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_southern_dress"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<equipment slot="Head" id="Item.desert_headdress"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
+				<equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_female_civil_a"/>
+				<equipment slot="Head" id="Item.aserai_female_civil_hscarf_b"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_female_civil_b"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_southern_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_tunic_waistcoat"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.aserai_female_civil_a"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.aserai_female_civil_b"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--#endregion-->
+	<!-- #region Fighter Template -->
+	<NPCCharacter id="fighter_turkish" default_group="Infantry" level="1" name="{=!}turkishn Fighter" occupation="Villager" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_turkish"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="fighter_turkish"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--#endregion Fighter Template-->
+	<NPCCharacter id="turkish_troop_civilian_template_t1" name="{=!}turkish_troop_civilian_template_t1" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.turkish" is_template="true" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="turkish_troop_civilian_template_t1"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="turkish_troop_civilian_template_t2" name="{=!}turkish_troop_civilian_template_t2" voice="curt" default_group="infantry" is_hero="false" culture="Culture.turkish" is_template="true" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="turkish_troop_civilian_template_t2"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="turkish_troop_civilian_template_t3" name="{=!}turkish_troop_civilian_template_t3" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.turkish" is_template="true" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="turkish_troop_civilian_template_t3"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- turkish BATTLE TEMPLATES-->
+	<NPCCharacter id="turkish_bat_template_medium" default_group="Infantry" is_hero="false" level="16" name="{=!}turkish medium battle sets" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="turkish_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="turkish_bat_template_heavy" default_group="Infantry" is_hero="false" level="16" name="{=!}turkish_lord_lady_equipment" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="turkish_bat_template_heavy"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="turkish_bat_template_flamboyant" default_group="Infantry" is_hero="false" level="16" name="{=!}turkish_lord_lady_equipment_flamboyant" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="turkish_bat_template_flamboyant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="turkish_bat_template_lady" default_group="Infantry" is_hero="false" level="16" name="{=!}turkish battle set for noncombatant lady" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="turkish_bat_template_lady"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- turkish CIVILIAN TEMPLATES -->
+	<NPCCharacter id="turkish_civ_template_default" default_group="Infantry" is_hero="false" level="16" name="{=!}turkish_unarmored_noble_equipment_normal" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="turkish_civ_template_default"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="turkish_civ_template_flamboyant" default_group="Infantry" is_hero="false" level="16" name="{=!}turkish_unarmored_noble_equipment_flamboyant" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="turkish_civ_template_flamboyant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="turkish_civ_template_heavy" default_group="Infantry" is_hero="false" level="16" name="{=!}turkish_unarmored_noble_equipment_heavy" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="turkish_civ_template_heavy"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- turkish NONCOMBATANT TEMPLATES -->
+	<NPCCharacter id="turkish_noncom_template_default" default_group="Infantry" is_hero="false" level="16" name="{=!}turkish_noncom_template_lady" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="turkish_noncom_template_default"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="turkish_noncom_template_flamboyant" default_group="Infantry" is_hero="false" level="16" name="{=!}turkish_unarmored_noble_flamboyant_lady" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_turkish"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="turkish_noncom_template_flamboyant"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

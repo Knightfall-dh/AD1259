@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- clan 1: Yaroslavichi- -->
+	<NPCCharacter id="lord_pereyaslavl_1a" name="{=pereyaslavl_lord_1}Knyaz Ivan Dimitrijevic" age="49" voice="ironic" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="43.35" weight="0.0046" build="0.1528" key="00105C0B80FC25C288433A43FE0401450FB1351563471786A55976533E9879280372063507DA524A000000000000000000000000000000000000000000F43040"/>
+			<hair_tags>
+				<hair_tag name="Short"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_pereyaslavl_1b" name="{=pereyaslavl_lady_1}Anna Dmitrivna Borisovnа" age="40" voice="curt" is_female="true" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5507" build="0.5759" key="000BDC0A000020028672362967865369A91887176B723646DCA3773773849A54056986570636A93300000000000000000000000000000000000000004ADC2082"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
+			<EquipmentSet id="cas_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_pereyaslavl_1c" name="{=pereyaslavl_lord_2}Yaropolk II of Kiev" age="28" voice="ironic" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="57.92" weight="0.0046" build="0.091" key="000A580000B430028876167CD74E897A97D70B78BC5DA4385685A47656A685A50501085700767799000000000000000000000000000000000000000000001100"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_pereyaslavl_1d" name="{=pereyaslavl_lady_2}Viacheslav I of Kiev" age="30" voice="earnest" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4241" build="0.7095" key="000BAC0A00141004B77326194AC4402599338A6798924403D8C24F3379749A46047B6646071634C300000000000000000000000000000000000000001EF41083"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_pereyaslavl_1e" name="{=pereyaslavl_lord_3}Marina Vladimirovna" age="20" voice="earnest" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.7" key="0000B002C000300DEB67D938447261A7658B5985A9A6594E143D5345AAE756A7000522540598D94800001105000030A30000001F000000000000000000787000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_pereyaslavl_1f" name="{=pereyaslavl_lord_4}Roman of Volhynia" age="17" voice="softspoken" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6154" build="0.6899" key="00057C04400020029673264B47856554EA72881968858A46D9A28774766555770374963507334537000000000000000000000000000000000000000020FC2003"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_pereyaslavl_1g" name="{=pereyaslavl_lord_5}Andrew of Volhynia" age="15" voice="earnest" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7886" build="0.5725" key="000BAC088000368E94800B923B3A288737AC765AF2D7A91197858F34731640730199C013097777C600000000000000000000000000000000000000005D204000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 2: Svyatoslavichi -->
+	<NPCCharacter id="lord_pereyaslavl_2a" name="{=pereyaslavl_lord_6}Vladimir II Monomakh" age="28" voice="earnest" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20" weight="0.5" build="0.5" key="0011700FC0FC030896938148227587B669B586898A943687321998859647875401F0065A0F9DB435000000000000000000000000000000000000000000B48042"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="4"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="cas_lord_castaneda_combat"/>
+			<EquipmentSet id="cas_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_pereyaslavl_2b" name="{=pereyaslavl_lady_3}Gytha of Wessex" age="20" voice="earnest" is_female="true" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0005F80A00000005A8979A79968B45886BC878557396513466647967965548A7000EB0070E889B670000000000000FFE00000000000000000000000001180000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="cas_lord_castaneda_combat"/>
+			<EquipmentSet id="cas_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_pereyaslavl_2c" name="{=pereyaslavl_lord_7}Izyaslav Vladimirovich" age="2" voice="curt" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="28.53" weight="0.1404" build="0.2392" key="0008F00551E410C07B896767A8973A8A7375B614385AB86974B1535B68595843027426240769356A00000000000000000000000000000000000000003CF430C0"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="cas_lord_castaneda_combat"/>
+			<EquipmentSet id="cas_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

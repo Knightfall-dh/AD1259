@@ -1,0 +1,1607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- Guards -->
+	<NPCCharacter id="prison_guard_hungarian" default_group="Infantry" level="21" culture="Culture.hungarian" occupation="PrisonGuard" name="{=XgjXfmM1}Prison Guard" skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hungarian"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Throwing" value="50"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Head" id="Item.kettle_hat_over_mail_coif"/>
+				<equipment slot="Body" id="Item.leather_tabard_over_mail"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Head" id="Item.kettle_hat_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_g"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_i2"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_f"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_g"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Head" id="Item.kettle_hat_over_mail_coif"/>
+				<equipment slot="Body" id="Item.leather_tabard_over_mail"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Head" id="Item.kettle_hat_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_g"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_i2"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_f"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_g"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="guard_hungarian" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.hungarian" name="{=guardnoun}Guard" skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hungarian"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Throwing" value="50"/>
+		</skills>
+		<Traits/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item1" id="Item.teardrop_shield_low_end"/>
+				<equipment slot="Head" id="Item.kettle_hat_over_mail_coif"/>
+				<equipment slot="Body" id="Item.leather_tabard_over_mail"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Head" id="Item.kettle_hat_over_mail_coif"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_g"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_i2"/>
+				<equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_f"/>
+				<equipment slot="Gloves" id="Item.TV_vlandia_gloves_g"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Blacksmith -->
+	<NPCCharacter id="blacksmith_hungarian" default_group="Infantry" is_hero="false" occupation="Blacksmith" culture="Culture.hungarian" name="{=bNnQt4jN}Blacksmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+				<equipment slot="Body" id="Item.leather_apron"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+				<equipment slot="Body" id="Item.leather_apron"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+				<equipment slot="Body" id="Item.leather_apron"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--Weaponsmith-->
+	<NPCCharacter id="weaponsmith_hungarian" default_group="Infantry" is_hero="false" occupation="Weaponsmith" culture="Culture.hungarian" name="{=UaN2lfwi}Weaponsmith" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+				<equipment slot="Body" id="Item.leather_apron"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Body" id="Item.leather_apron"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+				<equipment slot="Body" id="Item.leather_apron"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Barbers -->
+	<NPCCharacter id="barber_hungarian" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.hungarian" name="{=WH7EGGIg}Barber" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.TV_phrygian_cap_a"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_i"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fur_skirt_with_tunic"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.TV_phrygian_cap_a"/>
+				<equipment slot="Body" id="Item.half_apron"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Townsfolk -->
+	<NPCCharacter id="townswoman_infant_hungarian" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentSet id="hungarian_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="townswoman_child_hungarian" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentSet id="hungarian_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="townswoman_teenager_hungarian" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.headscarf"/>
+				<equipment slot="Body" id="Item.empire_dress_b"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.empire_dress"/>
+				<equipment slot="Leg" id="Item.fine_town_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.head_wrapped"/>
+				<equipment slot="Body" id="Item.vlandian_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentSet id="hungarian_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ransom Broker -->
+	<NPCCharacter id="ransom_broker_hungarian" default_group="Infantry" is_hero="false" name="{=W2WXkiAh}Ransom Broker" occupation="RansomBroker" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Head" id="Item.imperial_leather_coif"/>
+				<equipment slot="Body" id="Item.AR_merchants_coat_a"/>
+				<equipment slot="Leg" id="Item.highland_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Body" id="Item.northern_leather_vest"/>
+				<equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.falchion_sword_t2"/>
+				<equipment slot="Head" id="Item.eastern_cap"/>
+				<equipment slot="Body" id="Item.mercenary_gambeson"/>
+				<equipment slot="Gloves" id="leather_gloves"/>
+				<equipment slot="Leg" id="Item.belted_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Gangleader Bodyguard -->
+	<NPCCharacter id="gangleader_bodyguard_hungarian" default_group="Infantry" name="{=LNNXiPyV}Gang Leader Bodyguard" occupation="Townsfolk" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" level="16">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+				<equipment slot="Head" id="Item.pilgrim_hood"/>
+				<equipment slot="Body" id="Item.vlandia_bandit_b"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.bandit_fur_a"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Body" id="Item.torn_bandit_clothes"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Head" id="Item.pilgrim_hood"/>
+				<equipment slot="Body" id="Item.studded_leather_waistcoat"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.small_spurred_axe_t2"/>
+				<equipment slot="Head" id="Item.pilgrim_hood"/>
+				<equipment slot="Body" id="Item.vlandia_bandit_b"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.bandit_fur_a"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Body" id="Item.torn_bandit_clothes"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Head" id="Item.pilgrim_hood"/>
+				<equipment slot="Body" id="Item.studded_leather_waistcoat"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Notaries -->
+	<NPCCharacter id="merchant_notary_hungarian" default_group="Infantry" name="{=reoVAtrE}Merchant Notary" occupation="Townsfolk" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.padded_cap"/>
+				<equipment slot="Body" id="Item.thick_sleeved_robe"/>
+				<equipment slot="Leg" id="Item.sturgia_boots_d"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.leather_tunic"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.fine_town_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Cape" id="Item.green_hood"/>
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.burlap_waistcoat"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="artisan_notary_hungarian" default_group="Infantry" name="{=ECxiXTbF}Artisan Notary" occupation="Townsfolk" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.nomad_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.TV_vlandia_armor_u"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.padded_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.AR_roman_hat_b"/>
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_h"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_hammer_1_t1"/>
+				<equipment slot="Body" id="Item.burlap_waistcoat"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="preacher_notary_hungarian" default_group="Infantry" name="{=bLMGbLF8}Preacher Notary" occupation="Townsfolk" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+				<equipment slot="Head" id="Item.upturned_fur_cap"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.long_hemp_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.leather_coat_over_cloth"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Rural Notable -->
+	<NPCCharacter id="rural_notable_notary_hungarian" default_group="Infantry" name="{=AlmaRAib}Rural Notable Notary" occupation="Townsfolk" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+				<equipment slot="Head" id="Item.merchants_hat"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.burlap_waistcoat"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Townsman -->
+	<NPCCharacter id="townsman_hungarian" default_group="Infantry" name="{=muu5cofb}Townsman" occupation="Townsfolk" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+			<hair_tags>
+				<hair_tag name="ShortAndThin"/>
+				<hair_tag name="Tousled"/>
+				<hair_tag name="Short"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="LightShortBeard"/>
+				<beard_tag name="HeavyShortBeard"/>
+				<beard_tag name="Cleanshaven"/>
+			</beard_tags>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.vlandia_bandit_cape_a"/>
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Leg" id="Item.fine_town_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.AR_roman_hat_f"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+				<equipment slot="Leg" id="Item.sturgia_boots_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.padded_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.northern_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+				<equipment slot="Head" id="Item.padded_cap"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.levy_hood_1"/>
+				<equipment slot="Body" id="Item.monk_robe"/>
+				<equipment slot="Cape" id="Item.el_Cross_cloak_1"/>
+				<equipment slot="Leg" id="Item.TV_moccasins_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.light_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="townsman_infant_hungarian" name="{=maleinfant}Infant" age="3" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentSet id="hungarian_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="townsman_child_hungarian" name="{=malechild}Child" age="6" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentSet id="hungarian_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="townsman_teenager_hungarian" name="{=maleteenager}Teenager" age="14" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.fine_town_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Leg" id="Item.fine_town_boots"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+				<equipment slot="Leg" id="Item.fine_town_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="hungarian_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--  -->
+	<NPCCharacter id="shop_worker_hungarian" default_group="Infantry" name="{=275LD0Gh}Shop Worker" occupation="ShopWorker" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.short_sword_t3"/>
+				<equipment slot="Body" id="Item.burlap_waistcoat"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.short_sword_t3"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Body" id="Item.plain_hemp_tunic"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tavernkeeper_hungarian" default_group="Infantry" is_hero="false" name="{=CsjtWt1g}Tavern Keeper" occupation="Tavernkeeper" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cloth_apron"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cloth_apron"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
+				<equipment slot="Body" id="Item.half_apron"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="taverngamehost_hungarian" default_group="Infantry" is_hero="false" name="{=twCIejxn}Game Host" occupation="TavernGameHost" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.steppe_robe"/>
+				<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.AR_hat_g"/>
+				<equipment slot="Body" id="Item.northern_tunic"/>
+				<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.AR_aserai_scarf_a"/>
+				<equipment slot="Body" id="Item.studded_leather_coat"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+				<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="musician_hungarian" default_group="Infantry" is_hero="false" name="{=zfCoeglY}Musician" occupation="Musician" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<!--<face_key value="00059d38807c20cf78ba8459c846834d6d64fb7da990a87bc7a77e9868ab45c4000e68a5059e8885000000000000000000000000000000000000000000f80041" />-->
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.peasant_costume"/>
+				<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tavern_wench_hungarian" default_group="Infantry" name="{=z6RMWTaA}Tavern Maid" is_female="true" is_hero="false" occupation="TavernWench" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.vlandian_corset_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<equipment slot="Leg" id="Item.TV_moccasins_b"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="armorer_hungarian" default_group="Infantry" is_hero="false" occupation="Armorer" culture="Culture.hungarian" name="{=jx8ohENz}Armorer" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.short_sword_t3"/>
+				<equipment slot="Head" id="Item.AR_roman_hat_a2"/>
+				<equipment slot="Body" id="Item.padded_leather_overcoat"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.short_sword_t3"/>
+				<equipment slot="Cape" id="Item.battania_civil_cape"/>
+				<equipment slot="Body" id="Item.khuzait_leather_stitched"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.short_sword_t3"/>
+				<equipment slot="Head" id="Item.imperial_cloth_coif"/>
+				<equipment slot="Cape" id="Item.ao_focale"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Body" id="Item.aketon"/>
+				<equipment slot="Leg" id="Item.sturgia_boots_c"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--Horse Merchant-->
+	<NPCCharacter id="horseMerchant_hungarian" default_group="Infantry" is_hero="false" occupation="HorseTrader" culture="Culture.hungarian" name="{=79ElOr2x}Horse Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.horse_whip"/>
+				<equipment slot="Body" id="Item.nordic_sloven_leather"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Head" id="Item.merchants_hat"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.horse_whip"/>
+				<equipment slot="Cape" id="Item.TV_battania_shoulders_d"/>
+				<equipment slot="Body" id="Item.khuzait_civil_coat"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.horse_whip"/>
+				<equipment slot="Body" id="Item.belted_leather_cuirass"/>
+				<equipment slot="Head" id="Item.sloven_hat_a"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--Merchant-->
+	<NPCCharacter id="merchant_hungarian" default_group="Infantry" is_hero="true" occupation="GoodsTrader" culture="Culture.hungarian" name="{=thbcgVVO}Trader" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.short_sword_t3"/>
+				<equipment slot="Body" id="Item.stitched_leather_vest"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Head" id="Item.upturned_fur_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.short_sword_t3"/>
+				<equipment slot="Body" id="Item.decorated_short_tunic"/>
+				<equipment slot="Head" id="Item.fur_hat"/>
+				<equipment slot="Leg" id="Item.belted_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.short_sword_t3"/>
+				<equipment slot="Body" id="Item.merchants_fur_coat"/>
+				<equipment slot="Leg" id="Item.ragged_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--Beggar-->
+	<NPCCharacter id="beggar_hungarian" default_group="Infantry" name="{=malebeggar}Beggar" occupation="Townsfolk" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.beggar"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.tattered_rags"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.vlandia_bandit_c"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.womens_headwrap_b"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--Female beggar-->
+	<NPCCharacter id="female_beggar_hungarian" default_group="Infantry" is_female="true" level="1" name="{=femalebeggar}Beggar" occupation="Townsfolk" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.burlap_sack_dress"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+				<equipment slot="Body" id="Item.burlap_sack_dress"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--Dancers-->
+	<NPCCharacter id="female_dancer_hungarian" default_group="Infantry" name="{=X3KYysuv}Dancer" is_female="true" is_hero="false" occupation="Townsfolk" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+				<equipment slot="Head" id="Item.head_wrapped"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Tournament Master -->
+	<NPCCharacter id="tournament_master_hungarian" default_group="Infantry" is_hero="false" occupation="ArenaMaster" culture="Culture.hungarian" name="{=IHKXNP9H}Tournament Master" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.short_sword_t3"/>
+				<equipment slot="Head" id="Item.AR_roman_hat_b"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_t"/>
+				<equipment slot="Body" id="Item.TV_vlandia_armor_s2"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.short_sword_t3"/>
+				<equipment slot="Head" id="Item.AR_roman_hat_b"/>
+				<equipment slot="Cape" id="Item.AR_imperial_shoulders_t"/>
+				<equipment slot="Body" id="Item.TV_vlandia_armor_s2"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!-- #region Villagers -->
+	<NPCCharacter id="villager_infant_hungarian" name="{=maleinfant}Infant" age="3" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentSet id="hungarian_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="villager_child_hungarian" name="{=malechild}Child" age="6" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.peasant_costume"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentSet id="hungarian_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="villager_teenager_hungarian" name="{=maleteenager}Teenager" age="14" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.fine_town_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Leg" id="Item.fine_town_boots"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+				<equipment slot="Leg" id="Item.fine_town_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="hungarian_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="village_woman_infant_hungarian" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_hungarian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="village_woman_child_hungarian" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_hungarian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.peasant_costume"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="village_woman_teenager_hungarian" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_hungarian"/>
+		</face>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.fine_town_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Leg" id="Item.fine_town_boots"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+				<equipment slot="Leg" id="Item.fine_town_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_hungarian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="village_woman_hungarian" default_group="Infantry" is_female="true" level="1" name="{=empirepeasantwoman}Hungarian Peasant" occupation="Villager" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_hungarian"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.empire_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.vlandian_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.empire_dress_b"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.plain_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.dress_with_overall"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.empire_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.vlandian_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.empire_dress_b"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.plain_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.dress_with_overall"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.ladys_shoe"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Caravan Guards -->
+	<NPCCharacter id="caravan_master_hungarian" default_group="Infantry" level="26" name="{=TpECDErA}Hungarian Caravan Master" occupation="CaravanGuard" culture="Culture.hungarian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hungarian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="50"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Item1" id="Item.light_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_1_t2"/>
+				<equipment slot="Head" id="Item.AR_vaegir_helmet_c"/>
+				<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
+				<equipment slot="Body" id="Item.TV_vlandia_armor_b"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+				<equipment slot="Item1" id="Item.light_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_1_t2"/>
+				<equipment slot="Head" id="Item.spangenhelm_with_padded_cloth"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.TV_vlandia_armor_i2"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Item1" id="Item.light_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.western_spear_1_t2"/>
+				<equipment slot="Head" id="Item.cervelliere_over_laced_coif"/>
+				<equipment slot="Body" id="Item.TV_vlandia_armor_p"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Body" id="Item.TV_vlandia_armor_i2"/>
+				<equipment slot="Gloves" id="Item.highland_gloves"/>
+				<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="armed_trader_hungarian" default_group="Ranged" level="16" name="{=LEJukldW}Hungarian Armed Trader" occupation="CaravanGuard" culture="Culture.hungarian" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hungarian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="30"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.vlandia_mace_1_t2"/>
+				<equipment slot="Body" id="Item.woven_leather_vest"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Head" id="Item.imperial_leather_coif"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_3_t3"/>
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_g"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.sturgia_sword_3_t3"/>
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.hunting_bow"/>
+				<equipment slot="Item1" id="Item.range_arrows"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.hunting_bow"/>
+				<equipment slot="Item1" id="Item.range_arrows"/>
+				<equipment slot="Item2" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="caravan_guard_hungarian" default_group="HorseArcher" level="21" name="{=TbBnWiao}Hungarian Caravan Guard" upgrade_requires="ItemCategory.horse" occupation="CaravanGuard" culture="Culture.hungarian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hungarian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="90"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="15"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="110"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item2" id="Item.crossbow_e"/>
+				<equipment slot="Item3" id="Item.bolt_b"/>
+				<equipment slot="Head" id="Item.imperial_mail_coif"/>
+				<equipment slot="Body" id="Item.woven_leather_vest"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+				<equipment slot="Gloves" id="Item.padded_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item2" id="Item.crossbow_e"/>
+				<equipment slot="Item3" id="Item.bolt_b"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Body" id="Item.empire_horseman_armor"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.padded_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.empire_sword_1_t2"/>
+				<equipment slot="Item2" id="Item.crossbow_e"/>
+				<equipment slot="Item3" id="Item.bolt_b"/>
+				<equipment slot="Head" id="Item.imperial_padded_coif"/>
+				<equipment slot="Body" id="Item.imperial_mail_vest"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.padded_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item2" id="Item.crossbow_e"/>
+				<equipment slot="Item3" id="Item.bolt_b"/>
+				<equipment slot="Head" id="Item.imperial_padded_coif"/>
+				<equipment slot="Body" id="Item.imperial_mail_vest"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.padded_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item2" id="Item.worn_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+				<equipment slot="Body" id="Item.northern_padded_cloth"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.padded_mitten"/>
+			</EquipmentRoster>
+			<equipment slot="Horse" id="Item.empire_horse"/>
+			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="veteran_caravan_guard_hungarian" default_group="Cavalry" level="26" name="{=bLq2HXMo}Hungarian Veteran Caravan Guard" occupation="CaravanGuard" culture="Culture.hungarian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hungarian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_sword_3_t4"/>
+				<equipment slot="Item2" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.e_lkettle_1"/>
+				<equipment slot="Body" id="Item.TV_sturgia_armor_a"/>
+				<equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item2" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.cercelliere_1"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_f"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item2" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.imperial_mail_coif"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item2" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_i3"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_f"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_sword_4_t4"/>
+				<equipment slot="Item2" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Head" id="Item.imperial_mail_coif"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail"/>
+				<equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<equipment slot="Horse" id="Item.empire_horse"/>
+			<equipment slot="HorseHarness" id="Item.stripped_leather_harness"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Militia -->
+	<NPCCharacter id="hungarian_militia_spearman" default_group="Infantry" level="11" name="{=ZhKoCVby}Hungarian Militia Spearman" occupation="Soldier" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hungarian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item2" id="Item.bound_desert_round_sparring_shield"/>
+				<equipment slot="Head" id="Item.padded_cap"/>
+				<equipment slot="Body" id="Item.plain_hemp_tunic"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item1" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Item2" id="Item.leather_bound_kite_shield"/>
+				<equipment slot="Head" id="Item.laced_cloth_coif"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_j"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item1" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Item2" id="Item.bound_desert_round_sparring_shield"/>
+				<equipment slot="Cape" id="Item.shoulder_cloth1"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_l"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item1" id="Item.sturgia_sword_1_t2"/>
+				<equipment slot="Item2" id="Item.leather_bound_kite_shield"/>
+				<equipment slot="Head" id="Item.padded_cap"/>
+				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hungarian_militia_veteran_spearman" default_group="Infantry" level="16" name="{=c5rVdg75}Hungarian Militia Veteran Spearman" occupation="Soldier" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hungarian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item1" id="Item.vlandia_axe_1_t3"/>
+				<equipment slot="Item2" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_laced_coif"/>
+				<equipment slot="Body" id="Item.empire_warrior_padded_armor_b"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item2" id="Item.reinforced_kite_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_c2"/>
+				<equipment slot="Body" id="Item.empire_warrior_padded_armor_c"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item1" id="Item.empire_sword_1_t2"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Head" id="Item.segmented_cervelliere_over_laced_coif"/>
+				<equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Item2" id="Item.desert_round_shield"/>
+				<equipment slot="Head" id="Item.tv_vlandia_helmet_i2"/>
+				<equipment slot="Body" id="Item.empire_warrior_padded_armor_d"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+				<equipment slot="Leg" id="Item.ragged_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hungarian_militia_archer" default_group="Ranged" level="11" name="{=P8EATvn8}Hungarian Militia Archer" occupation="Soldier" culture="Culture.hungarian" skill_template="SkillSet.ranged_skirmisher_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hungarian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hunting_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.default_arrows"/>
+				<equipment slot="Item3" id="Item.hooked_cleaver"/>
+				<equipment slot="Head" id="Item.kettle_helmet_over_padded_cloth"/>
+				<equipment slot="Body" id="Item.stitched_leather_vest"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hunting_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.default_arrows"/>
+				<equipment slot="Item3" id="Item.peasant_pickaxe_1_t1"/>
+				<equipment slot="Head" id="Item.laced_coif"/>
+				<equipment slot="Body" id="Item.woven_leather_vest"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hunting_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.default_arrows"/>
+				<equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Head" id="Item.arming_coif"/>
+				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+				<equipment slot="Leg" id="Item.ragged_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.hunting_bow"/>
+				<equipment slot="Item1" id="Item.default_arrows"/>
+				<equipment slot="Item2" id="Item.default_arrows"/>
+				<equipment slot="Item3" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Head" id="Item.laced_coif"/>
+				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hungarian_militia_veteran_archer" default_group="Ranged" level="16" name="{=HsboF2mR}Hungarian Militia Veteran Archer" occupation="Soldier" culture="Culture.hungarian" skill_template="SkillSet.ranged_skirmisher_level16_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_hungarian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.bolt_b"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.nasal_cervelliere_over_laced_coif"/>
+				<equipment slot="Cape" id="Item.shoulder_cloth1"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_l"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.bolt_b"/>
+				<equipment slot="Item3" id="Item.small_spurred_axe_t2"/>
+				<equipment slot="Head" id="Item.nasal_cervelliere_over_padded_coif"/>
+				<equipment slot="Body" id="Item.gambeson_b"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.bolt_b"/>
+				<equipment slot="Item3" id="Item.vlandia_sword_1_t2"/>
+				<equipment slot="Head" id="Item.nasal_cervelliere_over_padded_cap"/>
+				<equipment slot="Body" id="Item.aketon"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.crossbow_e"/>
+				<equipment slot="Item1" id="Item.bolt_b"/>
+				<equipment slot="Item2" id="Item.bolt_b"/>
+				<equipment slot="Item3" id="Item.small_spurred_axe_t2"/>
+				<equipment slot="Head" id="Item.nasal_cervelliere_over_padded_cap"/>
+				<equipment slot="Body" id="Item.aketon"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!---old versions-->
+	<NPCCharacter id="player_char_creation_hungarian" name="{=!}with two-handed swords" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.hungarian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_hungarian"/>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="10"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="5"/>
+			<skill id="Riding" value="15"/>
+			<skill id="Athletics" value="10"/>
+			<skill id="Trade" value="5"/>
+			<skill id="Scouting" value="5"/>
+		</skills>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<equipment slot="Item2" id="Item.crossbow_a"/>
+				<equipment slot="Item3" id="Item.bolt_d"/>
+				<equipment slot="Body" id="Item.long_hemp_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- clan 1 -->
+    <Hero id="dead_lord_galicia_1" alive="false" spouse="Hero.dead_lord_galicia_1_1" faction="Faction.clan_galicia_1"/>
+	<Hero id="dead_lord_galicia_1_1" alive="false" spouse="Hero.dead_lord_galicia_1" faction="Faction.clan_galicia_1"/>
+
+    <Hero id="lord_galicia_1a" father="Hero.dead_lord_galicia_1" mother="Hero.dead_lord_galicia_1_1" spouse="Hero.lord_galicia_1b" faction="Faction.clan_galicia_1" text="{=galiciaKingdescription}todo:description."/>
+    <Hero id="lord_galicia_1b" spouse="Hero.lord_galicia_1a" faction="Faction.clan_galicia_1"/>
+    <Hero id="lord_galicia_1c" father="Hero.lord_galicia_1a" mother="Hero.lord_galicia_1b" faction="Faction.clan_galicia_1"/>
+    <Hero id="lord_galicia_1d" father="Hero.lord_galicia_1a" mother="Hero.lord_galicia_1b" faction="Faction.clan_galicia_1"/>
+    <Hero id="lord_galicia_1e" father="Hero.lord_galicia_1a" mother="Hero.lord_galicia_1b" faction="Faction.clan_galicia_1"/>
+    <Hero id="lord_galicia_1f" father="Hero.lord_galicia_1a" mother="Hero.lord_galicia_1b" faction="Faction.clan_galicia_1"/>
+
+	<!-- clan 2 -->
+    <Hero id="dead_lord_galicia_2" alive="false" spouse="Hero.dead_lord_galicia_2_2" faction="Faction.clan_galicia_2"/>
+	<Hero id="dead_lord_galicia_2_2" alive="false" spouse="Hero.dead_lord_galicia_2" faction="Faction.clan_galicia_2"/>
+    <Hero id="dead_lord_galicia_2_b" alive="false" spouse="Hero.dead_lord_galicia_2_2_b" faction="Faction.clan_galicia_2"/>
+	<Hero id="dead_lord_galicia_2_2_b" alive="false" spouse="Hero.dead_lord_galicia_2_b" faction="Faction.clan_galicia_2"/>
+
+	<Hero id="lord_galicia_2a" father="Hero.dead_lord_galicia_2" mother="Hero.dead_lord_galicia_2_2" spouse="Hero.lord_galicia_2b" faction="Faction.clan_galicia_2"/>
+    <Hero id="lord_galicia_2b" father="Hero.dead_lord_galicia_2_b" mother="Hero.dead_lord_galicia_2_2_b" spouse="Hero.lord_galicia_2a" faction="Faction.clan_galicia_2"/>
+	<Hero id="lord_galicia_2c" father="Hero.lord_galicia_2a" mother="Hero.lord_galicia_2b" faction="Faction.clan_galicia_2"/>
+	<Hero id="lord_galicia_2d" father="Hero.lord_galicia_2a" mother="Hero.lord_galicia_2b" faction="Faction.clan_galicia_2"/>
+	<Hero id="lord_galicia_2e" father="Hero.lord_galicia_2a" mother="Hero.lord_galicia_2b" faction="Faction.clan_galicia_2"/>
+	<Hero id="lord_galicia_2f" father="Hero.lord_galicia_2a" mother="Hero.lord_galicia_2b" faction="Faction.clan_galicia_2"/>
+</Heroes>

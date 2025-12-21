@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <!-- Villagers -->
+    <MBPartyTemplate id="villager_scottish_template">
+        <stacks>
+            <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_scottish"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Lords & Town Garrison -->
+    <MBPartyTemplate id="kingdom_hero_party_SCOTTISH_template">
+        <stacks>
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.scotland_basic_root"/> <!-- Levied Scotsman -->
+
+            <PartyTemplateStack min_value="8" max_value="10" troop="NPCCharacter.scotland_archer_root0"/> <!-- Scottish Levy Archer -->
+            <PartyTemplateStack min_value="5" max_value="8" troop="NPCCharacter.scotland_archer_root00"/> <!-- Scottish Archer -->
+            <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.scotland_archer_root000"/> <!-- Scottish Senior Archer -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.scotland_archer_root0000"/> <!-- Scottish Expert Archer -->
+
+            <PartyTemplateStack min_value="10" max_value="12" troop="NPCCharacter.scotland_infantry_root0"/> <!-- Scottish Levy Pikeman -->
+            <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.scotland_infantry_root00"/> <!-- Scottish Pikeman -->
+            <PartyTemplateStack min_value="3" max_value="4" troop="NPCCharacter.scotland_infantry_root000"/> <!-- Scottish Veteran Pikeman -->
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.scotland_infantry_root0000"/> <!-- Scottish Heavy Pikeman -->
+
+            <PartyTemplateStack min_value="5" max_value="8" troop="NPCCharacter.scotland_infantry_root1"/> <!-- Scottish Levy Billman -->
+            <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.scotland_infantry_root10"/> <!-- Scottish Billman -->
+            <PartyTemplateStack min_value="3" max_value="4" troop="NPCCharacter.scotland_infantry_root100"/> <!-- Scottish Veteran Billman -->
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.scotland_infantry_root1000"/> <!-- Scottish Armoured Billman -->
+
+            <PartyTemplateStack min_value="8" max_value="10" troop="NPCCharacter.scotland_infantry_root2"/> <!-- Scottish Levy Infantry -->
+            <PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.scotland_infantry_root20"/> <!-- Scottish Infantry -->
+            <PartyTemplateStack min_value="2" max_value="5" troop="NPCCharacter.scotland_infantry_root200"/> <!-- Scottish Lowlander -->
+            <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.scotland_infantry_root2000"/> <!-- Scottish Armored Swordsman -->
+            <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.scotland_infantry_root2001"/> <!-- Scottish Armored Axeman -->
+            <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.scotland_infantry_root2002"/> <!-- Scottish Highlander -->
+
+            <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.scotland_elite_root"/> <!-- Scottish Rider -->
+            <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.scotland_elite_root0"/> <!-- Scottish Man-at-arms -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.scotland_elite_root00"/> <!-- Scottish Squire -->
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.scotland_elite_root000"/> <!-- Scottish Knight -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.scotland_elite_root01"/> <!-- Scottish Light Horseman -->
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.scotland_elite_root001"/> <!-- Scottish Hobelar -->
+        </stacks>
+    </MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_SCOTTISH_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.scotland_basic_root"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.scotland_infantry_root000"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.scotland_infantry_root2001"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.scotland_elite_root01"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_SCOTTISH_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.scotland_basic_root"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.scotland_infantry_root000"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.scotland_infantry_root2001"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.scotland_elite_root01"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_SCOTTISH_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.scotland_basic_root"/>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.scotland_infantry_root000"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.scotland_infantry_root2001"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.scotland_elite_root01"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.scotland_elite_root001"/>
+		</stacks>
+	</MBPartyTemplate>
+
+    <!-- Caravans -->
+    <MBPartyTemplate id="caravan_template_scottish">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_scottish"/>
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_scottish"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_scottish"/>
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="elite_caravan_template_scottish">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_scottish"/>
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_scottish"/>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_scottish"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_scottish"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Town Militia -->
+    <MBPartyTemplate id="militia_scottish_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.scottish_militia_spearman"/>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.scottish_militia_archer"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Rebels -->
+    <MBPartyTemplate id="rebels_scottish_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.scotland_basic_root"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Vassal Reward Troops-->
+    <MBPartyTemplate id="vassal_reward_troops_scottish">
+        <stacks>
+            <PartyTemplateStack min_value="2" max_value="10" troop="NPCCharacter.scotland_elite_root00"/>
+            <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.scotland_elite_root000"/>
+            <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.scotland_elite_root001"/>
+        </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

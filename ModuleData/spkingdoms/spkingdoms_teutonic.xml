@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<Kingdom id="teutonic"
+	         initial_home_settlement="Settlement.town_twangste"
+	         owner="Hero.lord_teutonic_1a"
+	         banner_key="11.128.128.2000.2000.764.764.1.0.180.505.128.116.2000.2000.764.764.1.0.180.505.116.116.175.2000.764.764.1.0.180.505.116.116.175.2000.764.764.1.0.90.505.116.116.175.561.764.764.1.0.180"
+	         primary_banner_color="0xffFFFFFF"
+	         secondary_banner_color="0xff000000"
+	         color="FFFFFFFF"
+	         color2="FF000000"
+	         culture="Culture.teutonic"
+	         settlement_banner_mesh="encounter_flag_a"
+	         flag_mesh="info_screen_flags_a"
+	         name="{=teutonic_kingdom_name}Teutonic Order"
+	         short_name="{=teutonic_kingdom_short_name}Teutonic Order"
+	         title="{=teutonic_kingdom_title}Teutonic Order"
+	         ruler_title="{=teutonic_ruler_title}Grand Master"
+	         text="{=teutonic_kingdom_text}The Teutonic Order is a Catholic religious institution founded as a military society 1190 in Acre. The Order of Brothers of the German House of Saint Mary in Jerusalem was formed to aid Christians on their pilgrimages to the Holy Land and to establish hospitals. Its members have commonly been known as the Teutonic Knights.">
+		 <relationships>
+           
+        </relationships>
+		<policies>
+			<policy id="policy_imperial_towns"/>
+			<policy id="policy_sacred_majesty"/>
+			<policy id="policy_war_tax"/>
+			<policy id="policy_road_tolls"/>
+		</policies>
+	</Kingdom>
+</Kingdoms>

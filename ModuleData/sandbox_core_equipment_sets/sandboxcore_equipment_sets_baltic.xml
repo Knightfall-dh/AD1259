@@ -1,0 +1,2162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+	<!-- Talkative philosopher of medicine. Chatty monk -->
+	<EquipmentRoster id="npc_wanderer_baltic_0_equipment_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.curved_round_shield"/>
+			<Equipment slot="Item1" id="Item.battania_mace_2_t2"/>
+			<Equipment slot="Head" id="Item.khuzait_noble_helmet_with_fur"/>
+			<Equipment slot="Body" id="Item.AR_battania_armor_f"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+			<Equipment slot="Gloves" id="Item.highland_gloves"/>
+			<Equipment slot="Cape" id="Item.AR_fur_cape_d"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+			<Equipment slot="Head" id="Item.peaked_fur_hood"/>
+			<Equipment slot="Body" id="Item.AR_aserai_armor_o"/>
+			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
+			<Equipment slot="Gloves" id="Item.highland_gloves"/>
+			<Equipment slot="Cape" id="Item.fur_cloak_b"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_baltic_0_equipment_template_civilian" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+			<Equipment slot="Head" id="Item.peaked_fur_hood"/>
+			<Equipment slot="Body" id="Item.AR_aserai_armor_o"/>
+			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
+			<Equipment slot="Gloves" id="Item.highland_gloves"/>
+			<Equipment slot="Cape" id="Item.fur_cloak_b"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<!-- boorish noble -->
+	<EquipmentRoster id="npc_wanderer_baltic_1_equipment_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.heater_shield_with_cutout"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_10"/>
+			<Equipment slot="Item2" id="Item.AR_darshi_spear_4_t4"/>
+			<Equipment slot="Head" id="Item.scarf_nasal_1"/>
+			<Equipment slot="Body" id="Item.xiii_maa_hauberk01"/>
+			<Equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+			<Equipment slot="Leg" id="Item.xiii_mail_chausses02"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_33"/>
+			<Equipment slot="Body" id="Item.DZ_vlandia_armor_a"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_baltic_1_equipment_template_civilian" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_33"/>
+			<Equipment slot="Body" id="Item.DZ_vlandia_armor_a"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<!-- bastard who went away to avoid complications for his family -->
+	<EquipmentRoster id="npc_wanderer_baltic_2_equipment_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.desert_round_shield"/>
+			<Equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
+			<Equipment slot="Item2" id="Item.khuzait_polearm_1_t4"/>
+			<Equipment slot="Head" id="Item.TV_aserai_helmet_s"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_a"/>
+			<Equipment slot="Body" id="Item.studded_steppe_leather"/>
+			<Equipment slot="Gloves" id="Item.TV_khuzait_gloves_b"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_b"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+			<Equipment slot="Head" id="Item.wrapped_headcloth"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_b"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_baltic_2_equipment_template_civilian" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+			<Equipment slot="Head" id="Item.wrapped_headcloth"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_b"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<!-- veteran. decent man haunted by looting of cities. hated being loyal to men who saved his lives who turn out to be killers -->
+	<EquipmentRoster id="npc_wanderer_baltic_3_equipment_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.worn_horsemans_kite_shield"/>
+			<Equipment slot="Item1" id="Item.ad1259_1hd_mace"/>
+			<Equipment slot="Item2" id="Item.crossbow_e"/>
+			<Equipment slot="Item3" id="Item.GRE_bolt_d"/>
+			<Equipment slot="Head" id="Item.TV_vlandia_helmet_s"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b"/>
+			<Equipment slot="Body" id="Item.ao_crude_mail_with_tunic"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2"/>
+			<Equipment slot="Head" id="Item.imperial_leather_coif"/>
+			<Equipment slot="Cape" id="Item.hood"/>
+			<Equipment slot="Body" id="Item.nordic_sloven"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_baltic_3_equipment_template_civilian" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2"/>
+			<Equipment slot="Head" id="Item.imperial_leather_coif"/>
+			<Equipment slot="Cape" id="Item.hood"/>
+			<Equipment slot="Body" id="Item.nordic_sloven"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<!-- the shark, butcher/criminal -->
+	<EquipmentRoster id="npc_wanderer_baltic_4_equipment_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.bound_desert_round_sparring_shield"/>
+			<Equipment slot="Item1" id="Item.AR_crude_javelin"/>
+			<Equipment slot="Item2" id="Item.AR_crude_javelin"/>
+			<Equipment slot="Item3" id="Item.northern_battle_axe_t3"/>
+			<Equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<Equipment slot="Body" id="Item.xiii_maa_hauberk01"/>
+			<Equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_baltic_4_equipment_template_civilian" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<!-- longshoreman, fled dominating guild, strong. Gang leader nemesis - removed for now -->
+	<EquipmentRoster id="npc_wanderer_baltic_5_equipment_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_vlandia_2haxe_2_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_31"/>
+			<Equipment slot="Item2" id="Item.AR_shield_infantry_o"/>
+			<Equipment slot="Head" id="Item.kettle_helmet_over_padded_cap"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
+			<Equipment slot="Body" id="Item.AR_empire_horseman_armor_d"/>
+			<Equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<Equipment slot="Leg" id="Item.AR_empire_boots_c"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_31"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<Equipment slot="Body" id="Item.AR_merchants_coat_a"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_b"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_baltic_5_equipment_template_civilian" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_31"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<Equipment slot="Body" id="Item.AR_merchants_coat_a"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_b"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<!-- loner - father fled to avoid feud with bailiff, then disappeared in a blizzard -->
+	<EquipmentRoster id="npc_wanderer_baltic_6_equipment_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.xiii_shield_round13c"/>
+			<Equipment slot="Item1" id="Item.large_franziskaa_axe_t3"/>
+			<Equipment slot="Item2" id="Item.crossbow_e"/>
+			<Equipment slot="Item3" id="Item.GRE_bolt_d"/>
+			<Equipment slot="Head" id="Item.sta_kettle_p"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_b"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2"/>
+			<Equipment slot="Head" id="Item.imperial_leather_coif"/>
+			<Equipment slot="Cape" id="Item.hood"/>
+			<Equipment slot="Body" id="Item.AR_aserai_armor_k"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_baltic_6_equipment_template_civilian" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2"/>
+			<Equipment slot="Head" id="Item.imperial_leather_coif"/>
+			<Equipment slot="Cape" id="Item.hood"/>
+			<Equipment slot="Body" id="Item.AR_aserai_armor_k"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_d"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<!-- female. ex brother of the woods. Like any other group of bandits. Lord as nemesis -->
+	<EquipmentRoster id="npc_wanderer_baltic_7_equipment_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_axe_1_t2"/>
+			<Equipment slot="Item1" id="Item.mountain_hunting_bow"/>
+			<Equipment slot="Item2" id="Item.GRE_bodkin_arrows_c"/>
+			<Equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+			<Equipment slot="Head" id="Item.imperial_mail_coif"/>
+			<Equipment slot="Cape" id="Item.hood"/>
+			<Equipment slot="Body" id="Item.veteran_mercenary_armor"/>
+			<Equipment slot="Gloves" id="Item.TV_sturgia_gloves_c"/>
+			<Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.seax"/>
+			<Equipment slot="Cape" id="Item.shoulder_cloth1"/>
+			<Equipment slot="Body" id="Item.battania_dress_c"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_baltic_7_equipment_template_civilian" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.seax"/>
+			<Equipment slot="Cape" id="Item.shoulder_cloth1"/>
+			<Equipment slot="Body" id="Item.battania_dress_c"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<!-- smith, struck dead a lord who ran down a child with his horse -->
+	<EquipmentRoster id="npc_wanderer_baltic_8_equipment_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_peasant_maul_t1_1"/>
+			<Equipment slot="Head" id="Item.conical_flattop1"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b"/>
+			<Equipment slot="Body" id="Item.ao_sturgian_lamellar_vest_b"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.peasant_maul_t1_2"/>
+			<Equipment slot="Head" id="Item.thinhide_coif"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<Equipment slot="Body" id="Item.leather_apron"/>
+			<Equipment slot="Gloves" id="Item.TV_khuzait_gloves_a"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_baltic_8_equipment_template_civilian" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.peasant_maul_t1_2"/>
+			<Equipment slot="Head" id="Item.thinhide_coif"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<Equipment slot="Body" id="Item.leather_apron"/>
+			<Equipment slot="Gloves" id="Item.TV_khuzait_gloves_a"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<!-- female bandit, left the woods because life expectancy too short -->
+	<EquipmentRoster id="npc_wanderer_baltic_9_equipment_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.simple_back_sword_t2"/>
+			<Equipment slot="Item1" id="Item.battania_shield_targe_a"/>
+			<Equipment slot="Item2" id="Item.crossbow_a"/>
+			<Equipment slot="Item3" id="Item.GRE_bolt_d"/>
+			<Equipment slot="Head" id="Item.mail_coif_pilgrim_hood"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_q"/>
+			<Equipment slot="Body" id="Item.AR_battania_armor_g"/>
+			<Equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_g"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.AR_pugio_a"/>
+			<Equipment slot="Head" id="Item.thinhide_coif"/>
+			<Equipment slot="Cape" id="Item.green_hood"/>
+			<Equipment slot="Body" id="Item.AR_battania_armor_g"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_k"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_baltic_9_equipment_template_civilian" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.AR_pugio_a"/>
+			<Equipment slot="Head" id="Item.thinhide_coif"/>
+			<Equipment slot="Cape" id="Item.green_hood"/>
+			<Equipment slot="Body" id="Item.AR_battania_armor_g"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_k"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<!--female engineer, father emigrant to empire, killed in riots -->
+	<EquipmentRoster id="npc_wanderer_baltic_10_equipment_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.XIII_sword_4"/>
+			<Equipment slot="Item1" id="Item.small_flat_heater_shield"/>
+			<Equipment slot="Item2" id="Item.peasant_hammer_2_t1"/>
+			<Equipment slot="Head" id="Item.arming_coif"/>
+			<Equipment slot="Cape" id="Item.AR_imperial_shoulders_s"/>
+			<Equipment slot="Body" id="Item.mercenary_gambeson"/>
+			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+			<Equipment slot="Body" id="Item.khuzait_civil_coat"/>
+			<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_baltic_10_equipment_template_civilian" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.AR_skaen_a"/>
+			<Equipment slot="Body" id="Item.khuzait_civil_coat"/>
+			<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<!-- formerly of the company  -->
+	<EquipmentRoster id="npc_wanderer_baltic_11_equipment_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.small_flat_heater_shield"/>
+			<Equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
+			<Equipment slot="Head" id="Item.hmj_simple_nasal_helm_hood"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<Equipment slot="Body" id="Item.buckled_wildsman_armor"/>
+			<Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_1"/>
+			<Equipment slot="Head" id="Item.thinhide_coif"/>
+			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_baltic_11_equipment_template_civilian" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_1"/>
+			<Equipment slot="Head" id="Item.thinhide_coif"/>
+			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<!-- gamekeeper  -->
+	<EquipmentRoster id="npc_wanderer_baltic_12_equipment_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.bound_desert_round_sparring_shield"/>
+			<Equipment slot="Item1" id="Item.northern_battle_axe_t3"/>
+			<Equipment slot="Item2" id="Item.crossbow_a"/>
+			<Equipment slot="Item3" id="Item.hardened_75_gr_bolts"/>
+			<Equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<Equipment slot="Body" id="Item.xiii_maa_hauberk01"/>
+			<Equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+			<Equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<Equipment slot="Body" id="Item.leather_coat"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_baltic_12_equipment_template_civilian" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+			<Equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
+			<Equipment slot="Body" id="Item.leather_coat"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<!--  -->
+	<EquipmentRoster id="npc_wanderer_equipment_template_baltic_civilian">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsWandererEquipment="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_wanderer_equipment_template_baltic" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.nordic_padded_cloth"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.ragged_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.nordic_tunic"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Leg" id="Item.ragged_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_armed_wanderer_equipment_template_baltic" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.nordic_padded_cloth"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.ragged_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.nordic_tunic"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Leg" id="Item.ragged_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="npc_companion_equipment_template_baltic" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Body" id="Item.northern_padded_cloth"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.nordic_padded_cloth"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Body" id="Item.northern_padded_cloth"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.nordic_padded_cloth"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<!--  -->
+	<EquipmentRoster id="civillian_template_gangster_tier1_baltic" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+			<Equipment slot="Body" id="Item.baggy_trunks"/>
+			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.bandit_fur_a"/>
+			<Equipment slot="Leg" id="Item.highland_boots"/>
+			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
+			<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+			<Equipment slot="Gloves" id="Item.armwraps"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.pugio"/>
+			<Equipment slot="Body" id="Item.vlandia_bandit_b"/>
+			<Equipment slot="Leg" id="Item.ragged_boots"/>
+			<Equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.pugio"/>
+			<Equipment slot="Body" id="Item.bandit_gambeson"/>
+			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+			<Equipment slot="Body" id="Item.baggy_trunks"/>
+			<Equipment slot="Leg" id="Item.ragged_boots"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+			<Equipment slot="Body" id="Item.vlandia_bandit_b"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+			<Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
+			<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="civillian_template_gangster_tier2_baltic" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.battanian_savage_armor"/>
+			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.buckled_wildsman_armor"/>
+			<Equipment slot="Leg" id="Item.highland_boots"/>
+			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
+			<Equipment slot="Body" id="Item.battanian_savage_armor"/>
+			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+			<Equipment slot="Gloves" id="Item.armwraps"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
+			<Equipment slot="Body" id="Item.bandit_gambeson"/>
+			<Equipment slot="Leg" id="Item.ragged_boots"/>
+			<Equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.bandit_gambeson"/>
+			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
+			<Equipment slot="Body" id="Item.vlandia_bandit_a"/>
+			<Equipment slot="Leg" id="Item.ragged_boots"/>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
+			<Equipment slot="Body" id="Item.vlandia_bandit_a"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<Equipment slot="Body" id="Item.studded_fur_armor"/>
+			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<Equipment slot="Body" id="Item.sleeveless_studded_fur_armor"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="civillian_template_gangster_tier3_baltic" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<Equipment slot="Head" id="Item.laced_coif"/>
+			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
+			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
+			<Equipment slot="Leg" id="Item.highland_boots"/>
+			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
+			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+			<Equipment slot="Gloves" id="Item.armwraps"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.short_sword_t3"/>
+			<Equipment slot="Body" id="Item.highland_cloth"/>
+			<Equipment slot="Leg" id="Item.ragged_boots"/>
+			<Equipment slot="Gloves" id="Item.rough_tied_bracers"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.narrow_sword_t3"/>
+			<Equipment slot="Body" id="Item.highland_cloth"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.narrow_sword_t3"/>
+			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
+			<Equipment slot="Leg" id="Item.ragged_boots"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.narrow_sword_t3"/>
+			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.short_sword_t3"/>
+			<Equipment slot="Body" id="Item.bandit_gambeson"/>
+			<Equipment slot="Gloves" id="Item.leather_gloves"/>
+			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.short_sword_t3"/>
+			<Equipment slot="Body" id="Item.bandit_gambeson"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--  -->
+	<EquipmentRoster id="baltic_troop_civilian_template_t1" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_troop_civilian_template_t2" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Body" id="Item.nordic_padded_cloth"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.ragged_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_2_t3"/>
+			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+			<Equipment slot="Leg" id="Item.ragged_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_troop_civilian_template_t3" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_2_t3"/>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
+			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_2_t3"/>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Body" id="Item.northern_padded_cloth"/>
+			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
+			<Equipment slot="Body" id="Item.stitched_leather_vest"/>
+			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!-- baltic autogenerated battle/civ/noncom templates -->
+	<EquipmentRoster id="baltic_bat_template_heavy" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.khuzait_mace_4_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate_brass"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard01"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_11"/>
+			<Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm_brass"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_c"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_8"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.el_brass_greathelmet1"/>
+			<Equipment slot="Body" id="Item.surcoat_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_10b"/>
+			<Equipment slot="Item3" id="Item.ironrim_riders_kite_shield"/>
+			<Equipment slot="Head" id="Item.maciejowski_helmet"/>
+			<Equipment slot="Body" id="Item.surcoat_2"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.khuzait_mace_4_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard03"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_11"/>
+			<Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard01"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_8"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.greathelmet_sta"/>
+			<Equipment slot="Body" id="Item.coat_plate_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_10b"/>
+			<Equipment slot="Item3" id="Item.ironrim_riders_kite_shield"/>
+			<Equipment slot="Head" id="Item.grhelmet_cross1"/>
+			<Equipment slot="Body" id="Item.surcoat_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_1_t5"/>
+			<Equipment slot="Item3" id="Item.heavy_heater_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm"/>
+			<Equipment slot="Body" id="Item.surcoat_1"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_bat_template_medium" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.khuzait_mace_4_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate_brass"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard01"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_11"/>
+			<Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm_brass"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_c"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_8"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.el_brass_greathelmet1"/>
+			<Equipment slot="Body" id="Item.surcoat_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_10b"/>
+			<Equipment slot="Item3" id="Item.ironrim_riders_kite_shield"/>
+			<Equipment slot="Head" id="Item.maciejowski_helmet"/>
+			<Equipment slot="Body" id="Item.surcoat_2"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.khuzait_mace_4_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard03"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_11"/>
+			<Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard01"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_8"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.greathelmet_sta"/>
+			<Equipment slot="Body" id="Item.coat_plate_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_10b"/>
+			<Equipment slot="Item3" id="Item.ironrim_riders_kite_shield"/>
+			<Equipment slot="Head" id="Item.grhelmet_cross1"/>
+			<Equipment slot="Body" id="Item.surcoat_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_1_t5"/>
+			<Equipment slot="Item3" id="Item.heavy_heater_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm"/>
+			<Equipment slot="Body" id="Item.surcoat_1"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_bat_template_flamboyant" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_2_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
+			<Equipment slot="Body" id="Item.mail_with_tabbard_scot2"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_1_t5"/>
+			<Equipment slot="Item3" id="Item.heavy_heater_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm"/>
+			<Equipment slot="Body" id="Item.mail_with_tabbard_scot1"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.greathelmet_sta"/>
+			<Equipment slot="Body" id="Item.surcoat_4"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_38"/>
+			<Equipment slot="Item3" id="Item.stronger_reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.grhelmet_cross1"/>
+			<Equipment slot="Body" id="Item.surcoat_4"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.khuzait_mace_4_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate_brass"/>
+			<Equipment slot="Body" id="Item.mail_with_tabbard_scot2"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_11"/>
+			<Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm_brass"/>
+			<Equipment slot="Body" id="Item.mail_with_tabbard_scot1"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_8"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.el_brass_greathelmet1"/>
+			<Equipment slot="Body" id="Item.surcoat_4"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_10b"/>
+			<Equipment slot="Item3" id="Item.ironrim_riders_kite_shield"/>
+			<Equipment slot="Head" id="Item.maciejowski_helmet"/>
+			<Equipment slot="Body" id="Item.surcoat_4"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_bat_template_stoic" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.khuzait_mace_4_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate_brass"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard01"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_11"/>
+			<Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm_brass"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_c"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_8"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.el_brass_greathelmet1"/>
+			<Equipment slot="Body" id="Item.surcoat_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_10b"/>
+			<Equipment slot="Item3" id="Item.ironrim_riders_kite_shield"/>
+			<Equipment slot="Head" id="Item.maciejowski_helmet"/>
+			<Equipment slot="Body" id="Item.surcoat_2"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.khuzait_mace_4_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard03"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_11"/>
+			<Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard01"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_8"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.greathelmet_sta"/>
+			<Equipment slot="Body" id="Item.coat_plate_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_10b"/>
+			<Equipment slot="Item3" id="Item.ironrim_riders_kite_shield"/>
+			<Equipment slot="Head" id="Item.grhelmet_cross1"/>
+			<Equipment slot="Body" id="Item.surcoat_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_1_t5"/>
+			<Equipment slot="Item3" id="Item.heavy_heater_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm"/>
+			<Equipment slot="Body" id="Item.mail_with_tabbard_scot1"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsStoicTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_bat_template_southfrontier" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.khuzait_mace_4_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate_brass"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard01"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_11"/>
+			<Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm_brass"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_c"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_8"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.el_brass_greathelmet1"/>
+			<Equipment slot="Body" id="Item.surcoat_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_10b"/>
+			<Equipment slot="Item3" id="Item.ironrim_riders_kite_shield"/>
+			<Equipment slot="Head" id="Item.maciejowski_helmet"/>
+			<Equipment slot="Body" id="Item.surcoat_2"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.khuzait_mace_4_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard03"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_11"/>
+			<Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard01"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_8"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.greathelmet_sta"/>
+			<Equipment slot="Body" id="Item.coat_plate_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_10b"/>
+			<Equipment slot="Item3" id="Item.ironrim_riders_kite_shield"/>
+			<Equipment slot="Head" id="Item.grhelmet_cross1"/>
+			<Equipment slot="Body" id="Item.surcoat_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_1_t5"/>
+			<Equipment slot="Item3" id="Item.heavy_heater_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm"/>
+			<Equipment slot="Body" id="Item.mail_with_tabbard_scot1"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_bat_template_northfrontier" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.khuzait_mace_4_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate_brass"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard01"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_11"/>
+			<Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm_brass"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_c"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_8"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.el_brass_greathelmet1"/>
+			<Equipment slot="Body" id="Item.surcoat_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_10b"/>
+			<Equipment slot="Item3" id="Item.ironrim_riders_kite_shield"/>
+			<Equipment slot="Head" id="Item.maciejowski_helmet"/>
+			<Equipment slot="Body" id="Item.surcoat_2"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.khuzait_mace_4_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard03"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_11"/>
+			<Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard01"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_8"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.greathelmet_sta"/>
+			<Equipment slot="Body" id="Item.coat_plate_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_10b"/>
+			<Equipment slot="Item3" id="Item.ironrim_riders_kite_shield"/>
+			<Equipment slot="Head" id="Item.grhelmet_cross1"/>
+			<Equipment slot="Body" id="Item.surcoat_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_1_t5"/>
+			<Equipment slot="Item3" id="Item.heavy_heater_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm"/>
+			<Equipment slot="Body" id="Item.mail_with_tabbard_scot1"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsWoodlandTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_bat_template_lady" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.khuzait_mace_4_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate_brass"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard01"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_11"/>
+			<Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm_brass"/>
+			<Equipment slot="Body" id="Item.AR_vlandia_armor_c"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_8"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.el_brass_greathelmet1"/>
+			<Equipment slot="Body" id="Item.surcoat_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_10b"/>
+			<Equipment slot="Item3" id="Item.ironrim_riders_kite_shield"/>
+			<Equipment slot="Head" id="Item.maciejowski_helmet"/>
+			<Equipment slot="Body" id="Item.surcoat_2"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.khuzait_mace_4_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard03"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_11"/>
+			<Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm"/>
+			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard01"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_8"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.greathelmet_sta"/>
+			<Equipment slot="Body" id="Item.coat_plate_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_o"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_10b"/>
+			<Equipment slot="Item3" id="Item.ironrim_riders_kite_shield"/>
+			<Equipment slot="Head" id="Item.grhelmet_cross1"/>
+			<Equipment slot="Body" id="Item.surcoat_1"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_1_t5"/>
+			<Equipment slot="Item3" id="Item.heavy_heater_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm"/>
+			<Equipment slot="Body" id="Item.mail_with_tabbard_scot1"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_2_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate"/>
+			<Equipment slot="Body" id="Item.mail_with_tabbard_scot2"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_1_t5"/>
+			<Equipment slot="Item3" id="Item.heavy_heater_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm"/>
+			<Equipment slot="Body" id="Item.mail_with_tabbard_scot1"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.greathelmet_sta"/>
+			<Equipment slot="Body" id="Item.surcoat_4"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_38"/>
+			<Equipment slot="Item3" id="Item.stronger_reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.grhelmet_cross1"/>
+			<Equipment slot="Body" id="Item.surcoat_4"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.khuzait_mace_4_t5"/>
+			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
+			<Equipment slot="Head" id="Item.vlandian_helm_with_faceplate_brass"/>
+			<Equipment slot="Body" id="Item.mail_with_tabbard_scot2"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_11"/>
+			<Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
+			<Equipment slot="Head" id="Item.xiii_greathelm_brass"/>
+			<Equipment slot="Body" id="Item.mail_with_tabbard_scot1"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_8"/>
+			<Equipment slot="Item3" id="Item.bracketed_heater_shield"/>
+			<Equipment slot="Head" id="Item.el_brass_greathelmet1"/>
+			<Equipment slot="Body" id="Item.surcoat_4"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_battania_horse"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_scotland"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_10b"/>
+			<Equipment slot="Item3" id="Item.ironrim_riders_kite_shield"/>
+			<Equipment slot="Head" id="Item.maciejowski_helmet"/>
+			<Equipment slot="Body" id="Item.surcoat_4"/>
+			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsFemaleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_civ_template_default" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_9"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.battania_civil_c"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_38"/>
+			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
+			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_34"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_23"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_y"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_36"/>
+			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
+			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
+			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_civ_template_stoic" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_9"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.battania_civil_c"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_38"/>
+			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
+			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_34"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_23"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_y"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_36"/>
+			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
+			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
+			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsStoicTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_civ_template_flamboyant" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_9"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.battania_civil_c"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_38"/>
+			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
+			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_34"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_23"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_y"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_36"/>
+			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
+			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
+			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_civ_template_heavy" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_9"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.battania_civil_c"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_38"/>
+			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
+			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_34"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_23"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_y"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_36"/>
+			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
+			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
+			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+		</EquipmentSet>
+		<Flags IsHeavyTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_civ_template_southfrontier" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_9"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.battania_civil_c"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_38"/>
+			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
+			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_34"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_23"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_y"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_36"/>
+			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
+			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
+			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_civ_template_northfrontier" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_5_t5"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_9"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.battania_civil_c"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_38"/>
+			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
+			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.vlandia_sword_4_t4"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_34"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_23"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_y"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.XIII_sword_36"/>
+			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
+			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
+			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+		</EquipmentSet>
+		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_civ_template_lady_normal" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.battania_dress_a"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
+			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true" IsMediumTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_noncom_template_default" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.battania_dress_a"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
+			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" IsNobleTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_noncom_template_flamboyant" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.battania_dress_a"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
+			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_noncom_template_stoic" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.battania_dress_a"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
+			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsStoicTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_noncom_template_southfrontier" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.battania_dress_a"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
+			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="baltic_noncom_template_northfrontier" culture="Culture.baltic">
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.battania_dress_a"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
+			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
+			<Equipment slot="Leg" id="Item.TV_battania_boots_f"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<!--  -->
+	<EquipmentRoster id="mother_char_creation_none_baltic" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.dress_with_overall"/>
+			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="father_char_creation_none_baltic" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!-- CUTSCENE COSTUMES -->
+	<!--For Conspiracy costume offset colors should be Black/Dark -ALI -->
+	<!-- might need to change the id conspirator_xxxxx_cutscene_template -d&h -->
+	<EquipmentRoster id="conspirator_cutscene_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.seax"/>
+			<Equipment slot="Head" id="Item.battania_civil_hood"/>
+			<Equipment slot="Body" id="Item.monk_robe"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="marriage_female_baltic_cutscene_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.laced_dress"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="comingofage_kid_baltic_cutscene_template" culture="Culture.baltic">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.nordic_sloven"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<!--Cutscene Costumes END -->
+</EquipmentRosters>

@@ -1,0 +1,1286 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<NPCCharacter id="lord_1_14" name="{=sicily_lord_1}Manfredi di Sicilia, King of Sicily" default_group="Cavalry" age="27" voice="earnest" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.2" build="0.4" key="0015CC000000034D010B69B86566678609F1A0A68D6971F4566761807966436503752035F769896600001105000030A30000001F000000000000000000EC4002"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_kingmanfred_combat"/>
+			<EquipmentSet id="sic_kingmanfred_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_27" name="{=sicily_lord_6}Tommaso I di Saluzzo, Marquess of Saluzzo" age="37" voice="earnest" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="37.14" weight="0.1744" build="0.3596" key="0005CC0D00B4234C97A9B71772799495A76A8775E67A3B664AA9C2CC9BA2469302653824066E687400001105000030A30000001F00000000000000004AD06080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_hohenstaufen_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_27_1" name="{=sicily_lord_7}Luigia di Ceva" age="37" is_female="true" voice="softspoken" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.84" weight="0.2" build="0.2" key="0005B8071070000A987877861A2999B848987C68EA6BB7869423371443C8EA4801377613036AB66200000000000000000000000000000000000000005A6C3003"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_27_2" name="{=sicily_lord_8}Manfredo IV di Saluzzo" age="18" voice="earnest" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.24" weight="0.1404" build="0.2701" key="000DF80080B430537BE327EDDD311133AC44C6DF8BF63BFD2244BEED999ED3860744287205B6294B00001105000030A30000001F0000000000000000408000C0"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_hohenstaufen_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_27_3" name="{=sicily_lady_3}Alice di Saluzzo" is_female="true" age="18" voice="earnest" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.7" weight="0.2" build="0.3" key="000B8802C0BC1005B9D8455AA96848594597AD77996A54B899D967BA74979778010008930FBA9A7900001105000030A30000001F000000000000000001683100"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_hohenstaufen_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_37" name="{=sicily_lady_4}Costanza di Sicilia, Princess of Sicily" age="10" voice="ironic" is_hero="true" is_female="true" culture="Culture.empire" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.239" build="0.7027" key="001BF40E40FC10076C63396B58A46C7159DA89AADD789458B79BDE777836067600AB47030A8BE39B000000000000000000000000000000000000000001581180"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_hohenstaufen_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_47" name="{=sicily_lord_11}Riccardo Sanseverino di Lauro, Count of Caserta" default_group="Cavalry" age="45" voice="curt" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="45.63" weight="0.1281" build="0.338" key="0005080357B4220D88747C47597667CA855C7976976676677789B34B5D3D4A6703A525350A78763300001105000030A30000001F000000000000000033501100"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_hohenstaufen_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_47_1" name="{=sicily_lady_7}Violante Sanseverino" age="38" is_female="true" voice="earnest" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_politician_skills" default_group="Cavalry" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="001CD00FD114000AE46398467C698988876DB2B863D57A6D87B96C58967BE7660187761308364A49000000000000000000000000000000000000000019142003"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_47_2" name="{=sicily_lady_8}Siffridina Sanseverino di Lauro" default_group="Cavalry" age="14" is_female="true" voice="softspoken" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="001C880A111400012857DAA3C88BD254869B9BB7C7796796A6987253285773960137761303A670BD00000000000000000000000000000000000000005A741083"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_47_3" name="{=sicily_lord_12}Corrado Sanseverino di Lauro" default_group="Cavalry" age="17" is_female="false" voice="softspoken" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000580FC0CC10056E6BB45A885CA893934858A7B7578C8768955B9B6886273505777652F643AE2100000000000000000000000000000000000000006ADC1102"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_15" name="{=sicily_lord_2}Galvano II di Lancia, Count of Salerno" age="62" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="62.67" weight="0.8382" build="0.6298" key="0020AC01400033836859545AA35965829535D0CAC582A95852A58A66A564479206A9D0670A29C56900001105000030A30000001F0000000000000000414C8080"/>
+			<hair_tags>
+				<hair_tag name="Short"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="LightShortBeard"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_155" name="{=sicily_lord_3}Enrico di Lancia" age="18" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.63" weight="0.2299" build="0.4032" key="0010240C4000204E96F9BDAB00332375932582A27A5B6D89219962CBC892A22C0876308207DAF51900001105000030A30000001F00000000000000004CE49040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="4"/>
+			<Trait id="Commander" value="1"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_16" name="{=sicily_lady_1}Margherita di Ocre" age="50" voice="softspoken" is_hero="true" default_group="Cavalry" is_female="true" culture="Culture.empire" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.4" key="0000A008800000049A6A869356765374D67695669A8482546E75A699765777B50006600A0668A9880000000000000FFE00000000000000000000000000280000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_28" name="{=sicily_lord_9}Federico di Lancia" age="25" voice="earnest" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39.07" weight="0.3596" build="0.5265" key="00159404C0001002756579E6819B001CABC4C87B681B24243B5F48A10C4A84C903185635015DB87800001105000030A30000001F000000000000000052283140"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_38" name="{=sicily_lady_5}Beatrice di Lancia" age="17" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.empire" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.3" build="0.3" key="0000BC0E00000003AA8679A465A51478883AB7777B55214664489A69975696A5000550070588A7860000000000000FFE00000000000000000000000000A00000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_48" name="{=sicily_lord_16}Federico di Lancia, Count of Squillace" default_group="Cavalry" age="39" voice="earnest" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="001C880580001008A66A975E5784799294576EAA3A3954B6774485A4155ABB6D000546D40DD3989700001105000030A30000001F000000000000000001189000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_48_1" name="{=sicily_lady_12}Gertrude di Lancia" default_group="Cavalry" is_female="true" age="31" voice="curt" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00054407142C000E374577A56CC36C89499569775CC59876759685188978C5270147761304DAD76800000000000000000000000000000000000000002A942003"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_48_2" name="{=sicily_lady_13}Constanza di Lancia" default_group="Cavalry" is_female="true" age="9" voice="curt" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00054407142C000E374577A56CC36C89499569775CC59876759685188978C5270147761304DAD76800000000000000000000000000000000000000002A942003"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_48_3" name="{=sicily_lord_17}Corrado di Lancia" default_group="Cavalry" age="11" voice="curt" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.84" weight="0.5" build="0.5" key="0000940B404420038B65576759259988AA78D997567B167678CBA478D65688B30177761307666874000000000000000000000000000000000000000000E41043"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_177" name="{=sicily_lord_5}Guglielmo III di Maletta" age="19" voice="curt" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.4" weight="0.1806" build="0.3596" key="0023600F0000304F3B5A788878B3AABE5FFF3D6A2A2C89893C5B84996EED304F0A5530A20897C79B00001105000030A30000001F000000000000000038AC00C0"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="4"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_29" name="{=sicily_lord_10}Francesco di Maletta" age="23" voice="earnest" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="23.25" weight="0.4356" build="0.3342" key="0015100F000026098288A933283111223FE7556868D7199A3BA9473866CCCB7E00657003066859B500001105000030A30000001F00000000000000004CD40140"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_17" name="{=sicily_lord_4}Federigo I di Maletta, Count of Apice" age="50" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="50.26" weight="0.2299" build="0.2525" key="0018400F0000200CCE67BCE7C46B56A82EFF4A695584661C6118DAD2185F991F042430460276A6C600001105000030A30000001F0000000000000000323C3140"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_18" name="{=sicily_lady_2}Minora di Maletta" age="48" voice="curt" is_hero="true" is_female="true" culture="Culture.empire" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="48.33" weight="0.6829" build="0.8282" key="0008200B8000400B7F943A63D298A1668864D35A77943886884696B7646D5869042CA04602723BC90000000000000FFE0000000000000000000000002C300040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_39" name="{=sicily_lady_6}Isabella di Maletta" age="20" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.empire" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.94" weight="0.7375" build="0.4289" key="0020100F002C000AA5394C828B7389965FC14836CAA3AA75BB41D6D867C7313F0F96B6F20C953A86000000000000000000000000000000000000000037241080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_30" name="{=sicily_lord_14}Tommaso II d'Aquino, Count of Acerra" voice="earnest" age="24" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.03" weight="0.144" build="0.4853" key="0008540D000012828785C599A93983B636F961C7A7C54518A4589BA98EC3AA4F009723030956AB3900001105000030A30000001F0000000000000000532870C0"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_30_1" name="{=sicily_lady_11}Margaret d'Aquino, Countess of Acerra" voice="curt" age="23" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="23.64" weight="0.2671" build="0.6518" key="000D7C03408820108AEEEE5AC9A787C56EA8A895A27857B32E275035EB25EEEE005A4603055E6CFB000000000000000000000000000000000000000030AC20C0"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_30_2" name="{=sicily_lady_11}Giovanna d'Aquino" voice="softspoken" age="3" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.84" weight="0.2" build="0.3" key="00117C0E50CC200D73C3265E79C3998BBE65798569D73495C6D87BD3AA57B6D501C776130CD465380000000000000000000000000000000000000000358C20C3"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_30_3" name="{=sicily_lord_15}Cristoforo d'Aquino" voice="softspoken" age="3" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.84" weight="0.4" build="0.3" key="00117C0E50CC200D73C3265E79C3998BBE65798569D73495C6D87BD3AA57B6D501C776130CD465380000000000000000000000000000000000000000358C20C3"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+    </Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_49" name="{=sicily_lord_13}Jacopo d'Aquino" default_group="Cavalry" age="51" voice="softspoken" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="51.42" weight="0.0787" build="0.0417" key="000D580D0E0017CE98719A256A7D95D388EA6AE54248D8C5B4751849484AB1480461164606629589000000000000000000000000000000000000000046BC5100"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="2"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_49_1" name="{=sicily_lady_9}Costanza di Maletta" is_female="true" age="37" default_group="Cavalry" voice="ironic" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="37.19" weight="0.4423" build="0.3591" key="0013600F1388000DAABA837444B604923FE699750A8B184A34996CC67FEF786F02857624085579AC000000000000000000000000000000000000000017143040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_49_2" name="{=sicily_lady_10}Gubitosa d'Aquino" is_female="true" default_group="Cavalry" age="17" voice="earnest" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.84" weight="0.5" build="0.5" key="0011B00CD2A03006743ADC795BA745B786DABD951B876537A8C6AA5B96B893590167761306485E6600000000000000000000000000000000000000004ACC00C3"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_56_2" name="{=hre_lady_23}Margaretha von Zollern-Hohenberg" is_female="true" voice="softspoken" age="17" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0011440CD000000F85883C187A9326A926589A94B9889854776498DB88864ED701877613084688A80000000000000000000000000000000000000000411410C3"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="1"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_63" name="{=sicily_lord_20}Pietro II Ruffo di Calabria, Count of Catanzaro" voice="curt" age="33" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="33.29" weight="0.0201" build="0.0756" key="0010940D807030049828B44DADB5C947BDCD697877E534775AB8885AE78A9EDC02810B240828659700001105000030A30000001F000000000000000055006080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="9"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_diamond_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_63_1" name="{=sicily_lady_16}Giovanna Ruffo di Calabria" voice="curt" age="32" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7" build="0.8" key="001C700CC0CC30106C969C364498D4369D8A57A9A772768983E88354BB2B1BCE0167761306D7CD8B000000000000000000000000000000000000000050DC4083"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_diamond_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_63_2" name="{=sicily_lady_17}Claricia Ruffo di Calabria" voice="curt" age="12" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="10.91" weight="0.2052" build="0.2176" key="0020CC0D80B4101073475B784C9C7ACCA869A799213B8B7ADB99F65C33576CBC022336210268436A00000000000000000000000000000000000000005C4C00C0"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="sic_diamond_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_63_3" name="{=sicily_lady_18}Jacopa Giovanna Ruffo di Calabria" voice="curt" age="9" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="32.51" weight="0.5349" build="0.4336" key="00057406C0CC4004976186375C8CBABAC1F45792978179953CAC68443EEEE43702B786240B999295000000000000000000000000000000000000000033641080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_74" name="{=sicily_lord_25}Landolfo d'Aquino" voice="softspoken" age="30" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.4" weight="0.7297" build="0.3653" key="001BCC0FC02C16C478C595B8795357AAF5E74CCAB81C8739E4997C88AB887A8B0145B8140473DB61000000000000000000000000000000000000000048809140"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_diamond_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_74_1" name="{=sicily_lady_23}Agnese d'Aquino" voice="curt" is_female="true" age="30" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.48" weight="0.528" build="0.7357" key="0010A80B93FC300E4792527468887862529E2262555765C9594A968D967ED937016B861406684685000000000000000000000000000000000000000044CC30C0"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_diamond_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_54" name="{=sicily_lord_18}Simon di Sanseverino, Count of Tricarico" voice="ironic" age="47" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="47.88" weight="0.096" build="0.4203" key="00105C0000B41281D98FD8A38E818C6A54E58C686DAAC42855058E7289E3B9880486164608356542000000000000000000000000000000000000000059100140"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_54_1" name="{=sicily_lady_14}Amina di Sanseverino" voice="curt" age="26" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.8" weight="0.4516" build="0.4483" key="000A4804112C40058C48D6839D56BCB28404B839A453A257ADA4B5C3DD78A00101C776130CD953B500000000000000000000000000000000000000003B8C20C0"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_68" name="{=sicily_lord_21}Guido Guidi, Count of Modigliana" voice="curt" age="33" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="33.29" weight="0.3545" build="0.8145" key="0018680C58FC214533844846886556CC8684C769717995886CA84C9376A87B87025C5C2405588BC300001105000030A30000001F000000000000000022A81080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_68_1" name="{=sicily_lady_19}Adelasia di Panico" voice="curt" age="23" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="23.25" weight="0.7771" build="0.3103" key="0005880D1BE41007E5AC9A97656588397359E46647959FB7DB976699D4463C7A0035C60303666B79000000000000000000000000000000000000000046542080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_69" name="{=sicily_lord_22}Goffredo I Grifeo, Barone di Partanna" voice="softspoken" age="33" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="33.29" weight="0.0262" build="0.1373" key="000D600F004411C07D9BC57A6C224773D369C2A82C1DA98787A99B662BB8B58C02F20B240F772B96000000000000000000000000000000000000000069F05040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_69_1" name="{=sicily_lady_20}Antonia Ventimiglia" voice="earnest" is_female="true" age="28" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="28.27" weight="0.5407" build="0.2653" key="0023C4054014200BAB87866888874476787766E4CDB9AA589A6235A6997A7C950104861300658885000000000000000000000000000000000000000034040040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_69_2" name="{=sicily_lady_21}Orlando Grifeo" voice="softspoken" is_female="false" age="7" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.3" build="0.4" key="0000900A10143006685D493BBC780A4686D18674A5379AA596B62D5A727BC485017776130799B93A000000000000000000000000000000000000000068FC4083"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_55" name="{=sicily_lord_19}Orlando 'Goffredo II' Grifeo" voice="softspoken" age="36" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="36.37" weight="0.1065" build="0.2114" key="00134C06CE0013598A9999AA7C979D43E8954E2557588552A875495C298C835902F326240FCB5B9300000000000000000000000000000000000000004FFC6000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_55_1" name="{=sicily_lady_15}Aldegunda da Soresina" voice="softspoken" is_female="true" age="26" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="26.34" weight="0.6421" build="0.4222" key="0015D80980584010635E8A54675979467B489B3329A3C798B7A38A7257C9CB690106A613007DB92800000000000000000000000000000000000000005E0430C0"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_72" name="{=sicily_lord_23}Guerau VI de Cabrera" voice="softspoken" age="33" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="33.29" weight="0.1929" build="0.2423" key="000D680E402C010395899C644D9441A8B3A1B77DDCCAC89C837649BD695C556302C438240C8A8378000000000000000000000000000000000000000057905140"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_1_72_1" name="{=sicily_lady_22}Sancia di Santa Eugènia de Berga" is_female="true" voice="softspoken" age="31" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00055C0E40CC3010AB37736CB777CA594C4C561A72B5767D2385A776BA71778B015776130579877A00000000000000000000000000000000000000003CAC40C3"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_SE8_c" name="{=sicily_lord_24}Marchesa, VI viscontessa di Cabrera" is_female="false" voice="earnest" age="19" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.4" weight="0.0741" build="0.4116" key="00026406CE2C204369687866066956A5917B7B27A6344BA6874A9B69476848670AA616A20A745849000000000000000000000000000000000000000027443000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_lord_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_SE9_l" name="{=sicily_lord_26}Alberico II da Romano" age="58" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="58.32" weight="0.0432" build="0.2731" key="000ADC0FCFCC038F3D38B65122600AD02FEE2A646411F7F894359F648858075D058416570885629500000000000000000000000044FC1002000000007F144080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_SE9_s" name="{=sicily_lady_24}Margherita da Romano" age="46" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="46.79" weight="0.2724" build="0.6132" key="0023580290FC100FC39D765529394B567AEC5C73669355B72C39DAD54C628B8B044946450499E24C00000000000000000000000000000000000000004C8C2040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_SE9_c1" name="{=sicily_lord_27}Alberico III da Romano" age="26" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="26.34" weight="0.2713" build="0.4125" key="000A680FC02C0619B3AA6B6395A963AB4B8F8A7817545167476984344BE8779E01D646130D3ADA8800000000000000000000000000000000000000003DBC10C0"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_SE9_c2" name="{=sicily_lady_25}Adelasia da Romano" age="24" is_female="true" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.38" weight="0.3857" build="0.7231" key="0005440F11E4400E535B749485576672B8A8D1739639A766894878A686A38864007B6603076EC675000000000000000000000000000000000000000052FC10C0"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="sic_striped_combat"/>
+			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

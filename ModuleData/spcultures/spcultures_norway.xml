@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SPCultures>
+	<Culture id="norwegian"
+	         name="{=norwegianCulture}Norwegian"
+	         is_main_culture="true"
+	         color="0xff3b6298"
+	         color2="0xfff3bb08"
+	         elite_basic_troop="NPCCharacter.norway_elite_root"
+	         basic_troop="NPCCharacter.norway_basic_root"
+	         melee_militia_troop="NPCCharacter.norwegian_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.norwegian_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.norwegian_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.norwegian_militia_veteran_archer"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_norwegian_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_NORWEGIAN_template"
+	         settlement_patrol_template_level_1="PartyTemplate.patrol_party_NORWEGIAN_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_NORWEGIAN_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_NORWEGIAN_template_level_3"
+	         encounter_background_mesh="encounter_norwegian"
+	         faction_banner_key="11.145.143.1750.1750.764.764.0.0.0.510.20.116.577.150.587.712.1.0.-86.140.131.146.648.645.723.836.0.0.0.503.20.116.235.137.513.531.0.0.-86.503.145.116.152.61.520.446.0.0.-61.503.145.116.152.62.535.612.0.1.251.426.116.116.11.76.484.559.0.0.18.426.116.116.11.76.479.504.0.0.-8.426.131.131.36.52.674.635.0.0.64.506.131.128.16.17.672.640.0.0.60.505.145.145.234.397.906.773.0.1.180.213.131.146.156.160.887.644.0.1.167.309.131.131.105.98.888.840.0.1.326.309.131.131.125.115.903.804.0.1.324.309.131.131.125.115.915.760.0.1.343.506.131.128.23.20.571.640.0.0.16.506.131.128.13.23.578.652.0.0.44.506.131.128.16.29.528.810.0.0.-15.506.131.128.16.29.527.810.0.0.-1.506.131.128.16.29.548.832.0.0.19.506.131.128.13.25.544.830.0.0.19.506.131.128.13.25.572.834.0.0.26.506.131.128.13.25.569.833.0.0.26.506.131.128.20.12.567.825.0.0.26.506.131.128.17.32.597.814.0.0.26.506.131.128.17.32.594.815.0.0.36.506.131.128.17.25.633.953.0.0.36.506.131.128.17.25.630.952.0.0.50.506.131.128.17.19.610.959.0.0.61.506.131.128.17.19.610.955.0.0.61.506.131.128.17.19.603.956.0.0.76.506.131.128.17.19.599.969.0.0.76.506.131.128.17.19.589.972.0.0.146.506.131.128.17.19.594.971.0.0.94.506.131.128.30.30.588.987.0.0.94.506.131.128.16.16.573.993.0.0.162.506.131.128.16.16.583.991.0.0.87.506.131.128.22.22.705.1063.0.0.87.506.131.128.22.15.711.1066.0.0.72.506.131.128.22.15.713.1062.0.0.72.506.131.128.22.25.693.1066.0.0.143.506.131.128.22.25.721.1110.0.0.143.506.131.128.22.25.729.1108.0.0.133.506.131.128.22.25.715.1120.0.0.154.506.131.128.22.25.695.1103.0.0.125.506.131.128.22.25.711.1097.0.0.115.506.131.128.22.25.700.1081.0.0.115.506.131.128.22.25.709.1082.0.0.94.506.131.128.22.25.709.1078.0.0.94.506.131.128.22.25.691.1088.0.0.123.503.131.131.186.124.816.860.0.0.-71.503.145.145.116.71.841.884.0.0.20.506.145.145.148.156.814.850.0.0.187.427.131.131.159.57.887.788.0.0.-100.427.131.131.107.95.855.895.0.0.62.506.145.145.88.148.840.821.0.0.191.503.131.116.50.45.879.867.1.0.15.427.131.131.83.86.937.627.0.0.-233.506.131.145.114.207.764.854.0.0.187.510.131.131.114.90.927.688.0.0.-308.503.145.145.91.44.861.642.0.0.261.503.145.145.117.65.873.601.0.0.228.503.131.145.94.34.889.638.0.0.232.503.131.145.74.21.870.793.0.0.264.503.131.145.74.21.898.781.0.0.213.503.131.145.74.21.898.811.0.0.193.304.131.145.253.73.940.785.0.0.310.304.131.145.253.73.940.735.0.0.326.304.131.145.253.73.921.831.0.0.296.426.131.145.50.77.791.599.0.0.48.426.131.145.59.75.782.578.0.0.62.426.131.145.56.81.790.629.0.0.46.426.131.145.69.101.778.700.0.0.14.426.131.145.69.101.798.656.0.0.14.503.145.145.21.41.795.703.0.0.30.503.145.145.21.41.915.728.0.0.-40.503.145.145.58.55.829.1034.0.0.-110.503.145.145.95.55.829.988.0.0.-87.503.131.145.200.54.794.988.0.0.-91.503.145.145.76.45.741.990.0.0.-77.506.131.145.172.207.738.758.0.0.187.503.145.145.30.45.757.1032.0.0.-48.503.131.145.102.45.765.698.0.0.-132.340.131.116.148.132.762.541.1.0.345.503.145.116.50.50.766.528.0.0.-14.418.131.116.39.39.765.535.0.0.31.503.145.145.30.82.760.1009.0.0.10.503.145.145.30.82.608.684.0.0.10.505.145.145.45.105.553.634.0.0.2.505.20.145.18.105.585.659.0.0.4.506.131.128.22.22.597.581.0.0.50.506.131.128.22.15.600.587.0.0.35.506.131.128.22.15.604.585.0.0.35.506.131.128.22.25.585.576.0.0.106.506.131.128.22.25.581.628.0.0.106.506.131.128.22.25.589.631.0.0.96.506.131.128.22.25.570.632.0.0.117.506.131.128.22.25.565.607.0.0.88.506.131.128.22.25.581.611.0.0.78.506.131.128.22.25.582.592.0.0.78.506.131.128.22.25.588.598.0.0.57.506.131.128.22.25.591.595.0.0.57.506.131.128.22.25.570.592.0.0.86"
+	         militia_party_template="PartyTemplate.militia_norwegian_template"
+	         rebels_party_template="PartyTemplate.rebels_norwegian_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_norwegian"
+	         text="{=norwegianCultureText}Unused in the game."
+	         tournament_master="NPCCharacter.tournament_master_norwegian"
+	         villager="NPCCharacter.villager_norwegian"
+	         caravan_master="NPCCharacter.caravan_master_norwegian"
+	         caravan_guard="NPCCharacter.caravan_guard_norwegian"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_norwegian"
+	         prison_guard="NPCCharacter.prison_guard_norwegian"
+	         guard="NPCCharacter.guard_norwegian"
+	         blacksmith="NPCCharacter.blacksmith_norwegian"
+	         weaponsmith="NPCCharacter.weaponsmith_norwegian"
+	         townswoman="NPCCharacter.townswoman_norwegian"
+	         townswoman_infant="NPCCharacter.townswoman_infant_norwegian"
+	         townswoman_child="NPCCharacter.townswoman_child_norwegian"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_norwegian"
+	         townsman="NPCCharacter.townsman_norwegian"
+	         townsman_infant="NPCCharacter.townsman_infant_norwegian"
+	         townsman_child="NPCCharacter.townsman_child_norwegian"
+	         townsman_teenager="NPCCharacter.townsman_teenager_norwegian"
+	         village_woman="NPCCharacter.village_woman_norwegian"
+	         villager_male_child="NPCCharacter.villager_child_norwegian"
+	         villager_male_teenager="NPCCharacter.villager_teenager_norwegian"
+	         villager_female_child="NPCCharacter.village_woman_child_norwegian"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_norwegian"
+	         ransom_broker="NPCCharacter.ransom_broker_norwegian"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_norwegian"
+	         merchant_notary="NPCCharacter.merchant_notary_norwegian"
+	         artisan_notary="NPCCharacter.artisan_notary_norwegian"
+	         preacher_notary="NPCCharacter.preacher_notary_norwegian"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_norwegian"
+	         shop_worker="NPCCharacter.shop_worker_norwegian"
+	         tavernkeeper="NPCCharacter.tavernkeeper_norwegian"
+	         taverngamehost="NPCCharacter.taverngamehost_norwegian"
+	         musician="NPCCharacter.musician_norwegian"
+	         tavern_wench="NPCCharacter.tavern_wench_norwegian"
+	         armorer="NPCCharacter.armorer_norwegian"
+	         horseMerchant="NPCCharacter.horseMerchant_norwegian"
+	         barber="NPCCharacter.barber_norwegian"
+	         merchant="NPCCharacter.merchant_norwegian"
+	         beggar="NPCCharacter.beggar_norwegian"
+	         female_beggar="NPCCharacter.female_beggar_norwegian"
+	         female_dancer="NPCCharacter.female_dancer_norwegian"
+	         default_battle_equipment_roster="EquipmentRoster.nor_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.nor_civ_template_default"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+	         duel_preset_equipment_roster="EquipmentRoster.emp_duel_preset_template"
+	         marriage_bride_equipment_roster="EquipmentRoster.marriage_female_vla_cutscene_template"
+	         board_game_type="Konane"
+	         default_character_creation_body_property="BodyProperty.default_character_creation_body_property_vlandia"
+	         start_point_position_x="402"
+	         start_point_position_y="1284">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_norwegian"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_norwegian"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls/>
+		<vassal_reward_items>
+			<item id="Item.avalanche_2haxe"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.sturgia_sword_1_t2"/>
+			<item id="Item.sturgia_sword_2_t3"/>
+			<item id="Item.sturgia_sword_4_t4"/>
+			<item id="Item.sturgia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_lawspeakers"/>
+			<policy id="policy_precarial_land_tenure"/>
+		</default_policies>
+		<male_names>
+			<name name="{=BrbIzqAy}Aabiörn"/>
+			<name name="{=dXBBddGS}Aabiørn"/>
+			<name name="{=gJxMKFFw}Aabyorn"/>
+			<name name="{=kUIqxSJO}Aabyrn"/>
+			<name name="{=YJcIwpKh}Aache"/>
+			<name name="{=DOgaWAZd}Aaddhe"/>
+			<name name="{=NaPUuGCa}Aaddke"/>
+			<name name="{=nWAblTQp}Aaggy"/>
+			<name name="{=lUyshgJN}Aaghæ"/>
+			<name name="{=lQwAJjfe}Aaghe"/>
+			<name name="{=GgQlgsOI}Aagi"/>
+			<name name="{=MKkyqAeb}Aaka"/>
+			<name name="{=bilVbbml}Aakä"/>
+			<name name="{=oIFyOsOV}Aåke"/>
+			<name name="{=XezDgdBd}Balle"/>
+			<name name="{=nRfEiRZo}Baltzar"/>
+			<name name="{=yEHsQLOq}Bamse"/>
+			<name name="{=suUqEvfh}Bärdor"/>
+			<name name="{=ycZUOEYb}Bärgdor"/>
+			<name name="{=qekPbAtg}Bärgvidh"/>
+			<name name="{=sMFggvZU}Bark"/>
+			<name name="{=xHjmYlkZ}Bjornvald"/>
+			<name name="{=txotBSGr}Bernhold"/>
+			<name name="{=cCrGQLzp}Brune"/>
+			<name name="{=buPpzABb}Brun"/>
+			<name name="{=CUcqvxiH}Bulle"/>
+			<name name="{=qeZFmYwL}Christiern"/>
+			<name name="{=iegwyWRi}Dagher"/>
+			<name name="{=qtsBtNJg}Draeng"/>
+			<name name="{=sKMQJUsJ}Drosbo"/>
+			<name name="{=DVVTKVtk}Eghil"/>
+			<name name="{=LVRaPQjj}Elef"/>
+			<name name="{=oycBsRzL}Emund"/>
+			<name name="{=OkJDvHkz}Enar"/>
+			<name name="{=TSdhEeUl}Erik"/>
+			<name name="{=BWrRYcmJ}Estman"/>
+			<name name="{=xCqnGTXP}Farbiorn"/>
+			<name name="{=YuSNZxNU}Fardhe"/>
+			<name name="{=fjNfeMfb}Farman"/>
+			<name name="{=vKXMFYxU}Faste"/>
+			<name name="{=agpdZoZR}Finvidh"/>
+			<name name="{=UmiYnwGf}Forkun"/>
+			<name name="{=YthtDCgG}Fridhi"/>
+			<name name="{=IPocPJfc}Gedda"/>
+			<name name="{=YQqfuMrR}Gäsling"/>
+			<name name="{=MTRUMPmG}Gerthorn"/>
+			<name name="{=MVYBortK}Gilde"/>
+			<name name="{=CopkyIIJ}Göte"/>
+			<name name="{=GoqWdDrj}Götar"/>
+			<name name="{=cdxIFJeQ}Gubbe"/>
+			<name name="{=MmBpthpg}Gudhfridh"/>
+			<name name="{=zdRsSdAx}Gudhir"/>
+			<name name="{=lntSZDUY}Gudhlef"/>
+			<name name="{=doJBpSer}Grim"/>
+			<name name="{=VNnJEUXG}Gustaff"/>
+			<name name="{=VspxYhvc}Häghvald"/>
+			<name name="{=ibjLMRiu}Haeghvidh"/>
+			<name name="{=HIfEuasa}Hälghe"/>
+			<name name="{=dmEswKPJ}Halbiorn"/>
+			<name name="{=RpEfHaUn}Halbertus"/>
+			<name name="{=UqCULxlC}Haldan"/>
+			<name name="{=zJKieMCQ}Härlek"/>
+			<name name="{=cLebyAmx}Hartvig"/>
+			<name name="{=ArdlaJSR}Härlög"/>
+			<name name="{=KZrHwNaM}Herse"/>
+			<name name="{=xLgtXHlm}Holm"/>
+			<name name="{=mdzjduMB}Ighulfast"/>
+			<name name="{=BcbVqBTf}Ingemund"/>
+			<name name="{=pSJYyHDe}Ingevald"/>
+			<name name="{=gnlsSwIx}Ingibiorn"/>
+			<name name="{=wuiePBqj}Ighulbiorn"/>
+			<name name="{=XchgnMuN}Iobiorn"/>
+			<name name="{=sPQpCRfa}Iuvur"/>
+			<name name="{=gygLGcmz}Ioar"/>
+			<name name="{=kvMnGQQW}Jänis"/>
+			<name name="{=cPWOIBas}Jaerl"/>
+			<name name="{=bpzDqyeP}Järl"/>
+			<name name="{=XAYAMzhw}Jarlerus"/>
+			<name name="{=zmdOUxzw}Jedvard"/>
+			<name name="{=zIaAyTdJ}Jogan"/>
+			<name name="{=SYFSTqaD}Jonis"/>
+			<name name="{=GxyFVhYz}Jösse"/>
+			<name name="{=udWJfMeN}Frøricus"/>
+			<name name="{=Gilrwknq}Frøger"/>
+			<name name="{=ODzVulpJ}Kaetilløgh"/>
+			<name name="{=HpEvsAxq}Kanutus"/>
+			<name name="{=dSmKlSDK}Kare"/>
+			<name name="{=lftycmzV}Karnutus"/>
+			<name name="{=RipMjpxj}Kofre"/>
+			<name name="{=XIHldQRp}Kettilmund"/>
+			<name name="{=KeGqZdZr}Lambrekt"/>
+			<name name="{=vtGzFTpZ}Lek"/>
+			<name name="{=OGGAtNhI}Libbe"/>
+			<name name="{=tmIHJcLw}Lechardus"/>
+			<name name="{=izNwvpkO}Lidinvard"/>
+			<name name="{=AvjxVfmi}Ludhin"/>
+			<name name="{=BQatxdTK}Maghens"/>
+			<name name="{=DldGoCsT}Manne"/>
+			<name name="{=RFtvgwaM}Mawens"/>
+			<name name="{=gsUYyNHl}Mekel"/>
+			<name name="{=MMLBPRYN}Mikel"/>
+			<name name="{=XHvJlzrI}Nafne"/>
+			<name name="{=EgMWcJok}Näsbiorn"/>
+			<name name="{=pTRcMszN}Nilss"/>
+			<name name="{=EQZXTXcP}Nikulas"/>
+			<name name="{=xhLBIvTE}Obbe"/>
+			<name name="{=eqeWVIOX}Od"/>
+			<name name="{=SUYcmkNl}Odde"/>
+			<name name="{=pPZHlvQn}Finnvid"/>
+		</male_names>
+		<female_names>
+			<name name="{=KaSPGjuh}Abele"/>
+			<name name="{=MGHlbJqc}Abeleke"/>
+			<name name="{=vleCRfLa}Ablune"/>
+			<name name="{=mCzEZNBV}Acelia"/>
+			<name name="{=ztNqXcVr}Adeliza"/>
+			<name name="{=TztQLBFs}Aerngun"/>
+			<name name="{=btUDThGH}Aggi"/>
+			<name name="{=LaWuTUGl}Aghada"/>
+			<name name="{=iiIDXTDF}Aleide"/>
+			<name name="{=DKzygqzQ}Agnis"/>
+			<name name="{=obwzTGrf}Aleka"/>
+			<name name="{=BXftXjlu}Amma"/>
+			<name name="{=AYFzjDhy}Barebra"/>
+			<name name="{=zryQCpJG}Bereta"/>
+			<name name="{=KALfDAkl}Berteke"/>
+			<name name="{=LDlqzldH}Blida"/>
+			<name name="{=xXNdMSXM}Bothilder"/>
+			<name name="{=PYzDdfXD}Brynilla"/>
+			<name name="{=nCPfoJDX}Byrghita"/>
+			<name name="{=mXZrWwXc}Byritha"/>
+			<name name="{=imtdydST}Disa"/>
+			<name name="{=SokezCfT}Dorothia"/>
+			<name name="{=TUKrTtwY}Dryllina"/>
+			<name name="{=TFqsMswl}Edela"/>
+			<name name="{=HwCgCUwd}Elisiv"/>
+			<name name="{=PzIOHcGy}Ellissa"/>
+			<name name="{=sqmRtOlf}Elsika"/>
+			<name name="{=hBWhVjbc}Elzaby"/>
+			<name name="{=LXDGSvFB}Eufemie"/>
+			<name name="{=lVpGJyXR}Eyba"/>
+			<name name="{=ZLBDNTDG}Felisia"/>
+			<name name="{=CMGduHXu}Fenissa"/>
+			<name name="{=rXPRttaP}Frögerd"/>
+			<name name="{=FxAcjpXV}Frögunn"/>
+			<name name="{=TnkoGkwc}Gerdika"/>
+			<name name="{=hvNEDssi}Gerfridh"/>
+			<name name="{=KZRVQkLI}Gerlög"/>
+			<name name="{=tBlKcWrg}Gesa"/>
+			<name name="{=PTWimSKr}Gesika"/>
+			<name name="{=CaWazBTT}Gilla"/>
+			<name name="{=qDHFbpnX}Gisla"/>
+			<name name="{=lzrbnbBi}Gödelig"/>
+			<name name="{=pwOcBTLc}Gretika"/>
+			<name name="{=BLsfMpau}Gudelig"/>
+			<name name="{=YboTYUsR}Halwya"/>
+			<name name="{=vqmQCRoi}Hebbla"/>
+			<name name="{=psgmPpMl}Heliga"/>
+			<name name="{=CEFgBhUF}Hedhindis"/>
+			<name name="{=NlnUPPEH}Heline"/>
+			<name name="{=JHDlatOP}Helja"/>
+			<name name="{=LllrTSou}Helvi"/>
+			<name name="{=hiieTenC}Hesther"/>
+			<name name="{=XoXRJNvX}Hildegaerdh"/>
+			<name name="{=QcNLVezM}Ingeborgh"/>
+			<name name="{=OvPnzTsq}Ingemodh"/>
+			<name name="{=Hnfszkck}Ingerda"/>
+			<name name="{=OLkbpvHV}Ingerth"/>
+			<name name="{=mAVdBnOD}Ingerun"/>
+			<name name="{=trWwYkEY}Ingigardh"/>
+			<name name="{=lUiJwccA}Ingride"/>
+			<name name="{=SLyfLWpB}Jesa"/>
+			<name name="{=WSoxLEGv}Katerin"/>
+			<name name="{=XmdmVWSJ}Kätilög"/>
+			<name name="{=FAFBrYrT}Kierstin"/>
+			<name name="{=YSTIZoGn}Kjellög"/>
+			<name name="{=jSCSGKpz}Lisebet"/>
+			<name name="{=RJDnAPPT}Lusi"/>
+			<name name="{=wdxEwEko}Lussa"/>
+			<name name="{=tuRXOohA}Magga"/>
+			<name name="{=gNMdniFu}Magnill"/>
+			<name name="{=sekTRiwc}Magnilla"/>
+			<name name="{=cdHLuEYs}Mareta"/>
+			<name name="{=icSzqFkp}Märetha"/>
+			<name name="{=ibXqlkHI}Marget"/>
+			<name name="{=ygcYdUry}Merethe"/>
+			<name name="{=KrmtaCTu}Modher"/>
+			<name name="{=lVCBEiZg}Öborg"/>
+			<name name="{=aZLgZuBK}Ödgärd"/>
+			<name name="{=WURrpvHG}Ödgerd"/>
+			<name name="{=hcpHIfDH}Ödis"/>
+			<name name="{=vbqakeZz}Ødis"/>
+			<name name="{=DMJXtiLw}Olef"/>
+			<name name="{=rBJiZuLP}Osta"/>
+			<name name="{=CGHSysAu}Radhgärdh"/>
+			<name name="{=gdjoNJVC}Ragnälf"/>
+			<name name="{=sTJdQIZk}Ragnborgh"/>
+			<name name="{=vegDOlrE}Ragnfridh"/>
+			<name name="{=csjKMisT}Ragnvi"/>
+			<name name="{=QgAsxxGc}Randvi"/>
+			<name name="{=CWlDSejy}Rikissa"/>
+			<name name="{=RLtLtdhb}Rikitsa"/>
+			<name name="{=epUPCDeS}Sestrid"/>
+			<name name="{=THrXmsRe}Siggun"/>
+			<name name="{=aIYSeOSb}Sigfridh"/>
+			<name name="{=dJqmifWU}Sighrid"/>
+			<name name="{=rNrUNOQl}Sighni"/>
+			<name name="{=HadUpXoK}Sighridh"/>
+			<name name="{=THeWuvib}Sighrun"/>
+			<name name="{=rccjpyVs}Soffi"/>
+			<name name="{=FDLSKObk}Stenhild"/>
+			<name name="{=muUVdVwT}Svena"/>
+			<name name="{=hoCHujJk}Svenborg"/>
+			<name name="{=YNNDJMhp}Tirfridh"/>
+			<name name="{=ZrHnrwYZ}Värun"/>
+			<name name="{=zGdKtoUZ}Vigun"/>
+			<name name="{=sWVqjLHh}Ybba"/>
+			<name name="{=rcZfCIqq}Yliaene"/>
+		</female_names>
+		<clan_names>
+			<name name="{=cZSAoysa}Emundingsätten"/>
+			<name name="{=OgKtYYfc}Nilssungätten"/>
+			<name name="{=qTwrvkLD}Bjornungätten"/>
+			<name name="{=XYmhDaCe}Hansätten"/>
+			<name name="{=dmLUZVgu}Ingvarätten"/>
+			<name name="{=WWcotCWO}Rikardungätten"/>
+			<name name="{=ubFLZuyo}Gudmaringätten"/>
+			<name name="{=hspXDvmp}Alverätten"/>
+			<name name="{=nPIyIJXp}Brandätten"/>
+			<name name="{=NqWvRImZ}Halsätten"/>
+		</clan_names>
+		<cultural_feats>
+			<feat id="sturgian_cheaper_recruits_infantry"/>
+			<feat id="sturgian_decreased_cohesion_rate"/>
+			<feat id="sturgian_increased_decision_penalty"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="112"/>
+			<icon id="113"/>
+			<icon id="114"/>
+			<icon id="115"/>
+			<icon id="116"/>
+			<icon id="117"/>
+			<icon id="118"/>
+			<icon id="132"/>
+			<icon id="138"/>
+			<icon id="139"/>
+			<icon id="307"/>
+			<icon id="331"/>
+			<icon id="407"/>
+			<icon id="408"/>
+			<icon id="409"/>
+			<icon id="410"/>
+			<icon id="439"/>
+			<icon id="440"/>
+			<icon id="441"/>
+			<icon id="442"/>
+			<icon id="443"/>
+			<icon id="444"/>
+			<icon id="445"/>
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_norwegian_0"/>
+			<template name="NPCCharacter.spc_notable_norwegian_0b"/>
+			<template name="NPCCharacter.spc_notable_norwegian_1"/>
+			<template name="NPCCharacter.spc_notable_norwegian_2"/>
+			<template name="NPCCharacter.spc_notable_norwegian_2b"/>
+			<template name="NPCCharacter.spc_notable_norwegian_3"/>
+			<template name="NPCCharacter.spc_notable_norwegian_3b"/>
+			<template name="NPCCharacter.spc_notable_norwegian_3c"/>
+			<template name="NPCCharacter.spc_notable_norwegian_4"/>
+			<template name="NPCCharacter.spc_notable_norwegian_5"/>
+			<template name="NPCCharacter.spc_notable_norwegian_6"/>
+			<template name="NPCCharacter.spc_notable_norwegian_7"/>
+			<template name="NPCCharacter.spc_notable_norwegian_8"/>
+			<template name="NPCCharacter.spc_notable_norwegian_9"/>
+			<template name="NPCCharacter.spc_notable_norwegian_10"/>
+			<template name="NPCCharacter.spc_norwegian_headman_1"/>
+			<template name="NPCCharacter.spc_norwegian_headman_2"/>
+			<template name="NPCCharacter.spc_norwegian_headman_3"/>
+		</notable_templates>
+		<lord_templates>
+			<template name="NPCCharacter.norway_autogenerated_lord1"/>
+			<template name="NPCCharacter.norway_autogenerated_lord2"/>
+			<template name="NPCCharacter.norway_autogenerated_lord3"/>
+			<template name="NPCCharacter.norway_autogenerated_lord4"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.norway_autogenerated_lord1"/>
+			<template name="NPCCharacter.norway_autogenerated_lord2"/>
+			<template name="NPCCharacter.norway_autogenerated_lord3"/>
+			<template name="NPCCharacter.norway_autogenerated_lord4"/>
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v3"/>
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v3"/>
+			<template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v4"/>
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v3"/>
+			<template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v4"/>
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+            <template name="NPCCharacter.merc_euro_guisarmer"/>
+            <template name="NPCCharacter.merc_euro_crossbowman"/>
+            <template name="NPCCharacter.merc_euro_spearman"/>
+            <template name="NPCCharacter.merc_euro_horseman"/>
+            <template name="NPCCharacter.merc_scandinavian_spearman"/>
+            <template name="NPCCharacter.merc_scandinavian_axeman"/>
+            <template name="NPCCharacter.merc_scandinavian_archer"/>
+            <template name="NPCCharacter.merc_scandinavian_horseman"/>
+            <template name="NPCCharacter.merc_manhunter_root"/>
+        </basic_mercenary_troops>
+	</Culture>
+</SPCultures>

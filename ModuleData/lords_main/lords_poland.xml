@@ -1,0 +1,1165 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- clan 1: -->
+	<NPCCharacter id="dead_lord_poland_1" name="{=polish_lord_1}Konrad I of Masovia" age="60" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7" build="0.6" key="0011880FD13C100D375A76A3977895388783B3188494663232AB272797D235A700068AE6067576B50000037F0000000F00000037049140010000000000781141"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="9"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_1" name="{=polish_lord_5}Bolesław V the Chaste, High Duke of Poland" age="47" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="47.48" weight="0.0015" build="0.4769" key="000260015A2C3201D898DD42394AE8764BE9AC3C4A287E974B885D4C5DC08A7F048706460866714B000000000000000000000000000000000000000051188080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_dukekonrad_combat"/>
+			<EquipmentSet id="pol_dukekonrad_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_1_1" name="{=polish_lady_1}Kinga of Hungary, High Duchess of Poland" age="35" voice="earnest" culture="Culture.hungarian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" is_hero="true" is_female="true" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39.45" weight="0.341" build="0.4486" key="0005BC0FC0FC1004A788A6A7D563959626354AC4353433967A1387A3B6C285E40367563506846635000000000000000000000000000000000000000026CC10C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="hung_lord_combat"/>
+			<EquipmentSet id="hung_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_1_2" name="{=polish_lord_14}Prince Siemowit I, Duke of Masovia" age="18" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="21.51" weight="0.0046" build="0.4182" key="00106C015D2C1148969A9779ACCDBC83AD99C75AD33952475792AA8B8ABD88980086000308365C7A000000000000000000000000000000000000000003089140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_dukesiemowit_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_1_3" name="{=polish_lord_10}Bolesław the Pious, Duke of Greater Poland" age="35" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="35" weight="0.6107" build="0.3602" key="0000DC01402C31CB9796BEA6A5678688752B4BA8258327A976ACABB59CC6976B0785907207776B99000000000000000000000000000000000000000063080000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hungary_1_1_3" name="{=hungary_lady_4}Jolán of Hungary" age="24" voice="softspoken" culture="Culture.hungarian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" is_hero="true" is_female="true" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.41" weight="0.7163" build="0.5042" key="0002D806C0FC200492938896EB986CC53C8B538A76933576867A875867DA2C8B0068B603067AC294000000000000000000000000000000000000000034D01040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="hung_lord_combat"/>
+			<EquipmentSet id="hung_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_1_4" name="{=polish_lord_18}Konrad I Głogowski, Duke of Głogów" age="43" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="43.67" weight="0.017" build="0.6798" key="001828080000134EF476CD68A4E68469CB8565687B7D130698366C5759D9765A038A003508D8B1BB000000000000000000000000000000000000000035101100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_checkered_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 2: -->
+	<NPCCharacter id="dead_lord_poland_2" name="{=polish_lord_3}Kazimierz I Opolski" age="71" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" key="000C5C06407C100D445D46A9BA9361467C67A8684A494AB868898A7575D9673300073A37079B6A780000037F0000000F00000037049140010000000000503003"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_2" name="{=polish_lord_6}Bolesław II Rogatka, Duke of Legnica" voice="curt" age="50" is_female="false" culture="Culture.poland" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" is_hero="true" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.054" build="0.179" key="000004001A00224D09A2E98378975A558A45DB8873A3DB1067A9A757B5A3469E08731689F788EC47000000000000000000000000000000000000000034F48002"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_2_1" name="{=polish_lady_2}Hedwig von Anhalt" age="52" voice="ironic" culture="Culture.poland" skill_template="SkillSet.spc_politician_skills" default_group="Cavalry" is_female="true" is_hero="true" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="52.42" weight="0.3279" build="0.7166" key="000D2C079B00300D79D489387588A5994C6A29C699C78BA67BAAACB75397389A046B564606B7B76A000000000000000000000000000000000000000024BC3040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_2_1_a" name="{=polish_lord_11}Henryk V" age="18" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.48" weight="0.1384" build="0.6321" key="00055C054000074267AC55BB69F986C4BB6295955779733875894A37968974950039200303899877000000000000000000000000000000000000000030703000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_2_1_b" name="{=polish_lord_12}Bolko I Surowy" age="17" voice="curt" is_female="false" culture="Culture.poland" skill_template="SkillSet.spc_healer_scholar_skills" default_group="Cavalry" is_hero="true" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.4" weight="0.4184" build="0.2979" key="0005740800000041C34E1AAC9B83886C9C7695BC97E7394747C84728776837B80A8460A209E398A6000000000000000000000000000000000000000021082000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_2_1_c" name="{=polish_lady_3}Jadwiga Legnicka" age="22" voice="curt" default_group="Cavalry" is_female="true" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.48" weight="0.5807" build="0.4591" key="0005C804DECC4004EB1647579127A8D659653662415683AC838A57D86489A96A0057960305945649000000000000000000000000000000000000000036B400C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_2_1_d" name="{=polish_lady_18}Agnes" age="16" voice="curt" is_female="true" culture="Culture.poland" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" is_hero="true" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" key="00058002C0FC20035646D8A987844C9488F76DD9A2367A3858B6C6698734870800054003073C8C7A000000000000000000000000000000000000000000A04000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills>
+        </skills>
+		<Traits>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_2_1_e" name="{=polish_lady_19}Jadwiga" age="9" voice="curt" is_female="true" culture="Culture.poland" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" is_hero="true" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" key="00058002C0FC20035646D8A987844C9488F76DD9A2367A3858B6C6698734870800054003073C8C7A000000000000000000000000000000000000000000A04000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills>
+        </skills>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_2_1_f" name="{=polish_lord_28}Bernard" age="6" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="6.53" weight="0.1404" build="0.2392" key="0008F00551E410C07B896767A8973A8A7375B614385AB86974B1535B68595843027426240769356A00000000000000000000000000000000000000003CF430C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_2_2" name="{=polish_lord_23}Przemko Ścinawski" age="25" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.31" weight="0" build="0.2392" key="0015700C400001928454D399879B758CB48D3445958558B8BA3B53D679365A6E017400130768DC2D00000000000000000000000000000000000000004CE830C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_checkered_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 3: -->
+	<NPCCharacter id="lord_poland_3" name="{=polish_lord_7}Władysław I Opolski,  Duke of Opole–Racibórz" age="42" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.38" weight="0.0448" build="0.1127" key="00083801402C1480C4A85A567A76C6A7593B3B8625559B492D762683AA1303130382103508688A4A000000000000000000000000000000000000000067180000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_3_1_a" name="{=polish_lord_8}Kazimierz II Opolski" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.4" weight="0.5406" build="0.9126" key="000D68015D58300BB766796FA5979B88A8643986276AAA594D54E8877689C4A00ABE85A20A68955A0000037F0000000F00000037049140010000000013607080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_3_1_b" name="{=polish_lord_13}Mieszko I Opolski" age="20" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.55" weight="0.1552" build="0.4473" key="0005B8014000100FC2AA886358B2FEDE7937B79423289C8D23478C59842152480E3720E20846AB980000000000000000000000000000000000000000306840C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_3_1_c" name="{=polish_lady_4}Konstancja Opolska" age="23" voice="ironic" is_female="true" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="23.25" weight="0.3455" build="0.2467" key="0005AC0540B4400B7DB6842B7D5943B4854A995A8DA7787E9684C638B4A9BDA50074560307D68546000000000000000000000000000000000000000052EC0080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_3_2" name="{=polish_lord_15}Mieszko II Otyły" age="38" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="38.69" weight="0.6497" build="0.3843" key="000290000000181C784750F07601C67AD1DEA5A9664B859B7598396C38DF78DE0286A0250877385B000000000000000000000000000000000000000025108040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 4: -->
+	<NPCCharacter id="lord_poland_4" name="{=polish_lord_16}Świętopełk II Wielki, dux Pomereliae-Gdańsk" age="38" voice="curt" is_female="false" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_cavalry_skills" default_group="Cavalry" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="38.09" weight="0.0293" build="0.0355" key="000038000000218FE6835223CCC1BCA750E153A68746D519373A559A7FF002500261002406185574000000000000000000000000000000000000000028C870C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_4_1" name="{=polish_lady_5}Ermengard von Schwerin" age="37" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="37" weight="0.4306" build="0.8389" key="00025C04000010158A73B55759A79455AA2A9387959865139A3267B777C8B547018D6013089AAAAA00000000000000000000000000000000000000004D083080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_4_1_a" name="{=polish_lady_6}Eufemii Pomorska" age="18" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.63" weight="0.6363" build="0.4906" key="0005000014CC10106A49555617B54486B9BB667B57A6A546AD576457896644430847A682067EB6330000000000000000000000000000000000000000409420C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_4_2" name="{=polish_lord_25}Sambor II Tczewski" age="48" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="26.75" weight="0.0324" build="0.5" key="000A100D807003827748DA3B57429988B1F2BD6945B4B664644589C52864A12701870713087661CB0000037F0000000F00000037049140010000000000F88000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_4_2_1" name="{=polish_lady_17}Mechthild von Mecklenburg" age="44" voice="curt" is_female="true" culture="Culture.germanic" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" is_hero="true" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" key="00058002C0FC20035646D8A987844C9488F76DD9A2367A3858B6C6698734870800054003073C8C7A000000000000000000000000000000000000000000A04000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills>
+        </skills>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_4_3" name="{=polish_lord_9}Warcisław, Duke of Lubiszewo" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.79" weight="0.0571" build="0.2239" key="0005780150B4298D8A3D78A73739AA67B6799D85563886A8A25A8A4884E8A6450163161406937C73000000000000000000000000000000000000000070CC6040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 5: -->
+	<NPCCharacter id="lord_poland_5" name="{=polish_lord_17}Kazimierz I Kujawski" age="36" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="36.76" weight="0.0046" build="0.0386" key="0015A400000011423876977987AC66649A53A79577FB800148BAEA88C84A5A7802610024063C693C000000000000000000000000000000000000000050C89080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_5_1" name="{=polish_lady_7}Eufrozyna Opolska" age="34" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34.82" weight="0.5" build="0.5" key="001568078000000C6A669828A6D33967484A858AD8A7AE173553C184C45A35EC0277762407487B8600000000000000000000000000000000000000003EF430C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_5_1_a" name="{=polish_lady_8}Eufemia Kujawska" age="15" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="15.23" weight="0.5" build="0.5" key="00102408C000000448DA97745ACCAA58869C9CC7AD8286781CA785A8B8AA97650D6776D209DD6654000000000000000000000000000000000000000034C41000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_5_1_b" name="{=polish_lord_20}Leszek II Czarny, Duke of Sieradz" age="19" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.2" weight="0.0262" build="0.5015" key="001B540FC0000382837A9F9B6E5759963FF7B8AAB9EC7884988A92565B9061F801680014069E99C100000000000000000000000000000000000000005EC02000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_5_1_c" name="{=polish_lord_21}Ziemomysł Inowrocławski, Duke of Inowrocław" age="18" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="43.92" weight="0" build="0.2731" key="0008440B800011421329F94CC4956F353844874E92897A62A89B7A477A9B5A2B037406350747735A00000000000000000000000000000000000000003EF45100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_5_2" name="{=polish_lord_22}Mściwój II, Duke of Świecie" age="30" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.92" weight="0.0478" build="0.159" key="00023801400005CDC97A82C4A8949D2B6C55538AC7DA976C92D488B7AD66A4970172101407A7969A00000000000000000000000000000000000000004AE03000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_5_2_1" name="{=polish_lady_14}Jutta von Brehna Wettiner" age="20" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.33" weight="0.5" build="0.5" key="0010B80200B4200B49BA686B9BA56AE8D8E7565777357685CB4746C0B889BB7B0D6776D209993585000000000000000000000000000000000000000034C40000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 6: -->
+	<NPCCharacter id="lord_poland_6" name="{=polish_lord_19}Henryk III Biały, Duke of Wrocław" age="41" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="41.69" weight="0" build="0.1373" key="00059001400001426EAE646266CB8C8788AC4DC72BB649B4A77889499DB9F6F90352003505342176000000000000000000000000000000000000000078A81080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_6_1" name="{=polish_lady_11}Judyta Mazowiecka" age="40" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="40.6" weight="0.2012" build="0.1994" key="000AD00B80FC10056B845D96C8978B4638E479BD1853D78A6B4BD598E2D64396037336350735762400000000000000000000000000000000000000003EF40040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_6_1_a" name="{=polish_lady_12}Jadwiga Śląska" age="20" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.47" weight="0.4" build="0.4" key="0010880AD0E44015EBA8E9155156B285A1B1CCD42A2AB7C65A6A41786A7245990D5666D209A99A18000000000000000000000000000000000000000042B43080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_6_1_b" name="{=polish_lord_29}Henryk IV Wrocławski" age="3" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="3.53" weight="0.1404" build="0.2392" key="0008F00551E410C07B896767A8973A8A7375B614385AB86974B1535B68595843027426240769356A00000000000000000000000000000000000000003CF430C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_6_2" name="{=polish_lord_24}Władysław Wrocławski, Duke of Wrocław" age="30" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.47" weight="0.2052" build="0.1682" key="0010640400B430C5C68ADDC88E87CB8AB767972697AA1C516D897661355B8EA3015336140594C479000000000000000000000000000000000000000000BC5080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 7: -->
+	<NPCCharacter id="lord_poland_7" name="{=polish_lord_26}Przemysł I, Duke of Poznań" age="53" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39.94" weight="0.0571" build="0.125" key="000A3C04D1000342A41493CCBA84C5A9741DF1C46D24C9875777A94573861AA703721635075D848800000000000000000000000000000000000000003EF43100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_7_1" name="{=polish_lady_15}Elżbieta Wrocławska" age="48" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000C100E007C03CD7748DA3B57429988D86DBD6945B4B664644589C5283414BC000427330A7661CB0000037F0000000F00000037049140010000000000288002"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_7_1_a" name="{=polish_lord_27}Przemysł II Wielkopolski" age="18" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.12" weight="0.0077" build="0.5478" key="000AD003401423846BC81CB347B244625377B372B85B876A55A71C7528AA267100D806030DDBC599000000000000000000000000000000000000000063AC6100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_poland_7_1_b" name="{=polish_lady_16}Konstancja Wielkopolska" age="22" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.22" weight="0.142" build="0.5648" key="0008AC0000FC10056B978AE5DA7A2B644E953B585BADA8ACC3B87885653A36A9008826030888E6380000000000000000000000000000000000000000711C0000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 7 for now, needs to be changed -->
+	<!-- Link to Denmark -->
+	<NPCCharacter id="lord_poland_8x" name="{=lord_poland_8x}Hedvig Svantepolks z Gdańska" age="49" voice="softspoken" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="49.27" weight="0.7322" build="0.0587" key="0002A40AC0FC000E7B8A55CB66877CB58849836A74619A36B3966A89969548250181B813080C755700000000000000000000000000000000000000000B183080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="pol_lord_combat"/>
+			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- clan 1: House of della Scala-Scaligeri -->
+	<Hero id="dead_lord_verona_1" alive="false" spouse="Hero.dead_lord_verona_2" faction="Faction.clan_verona_1"/>
+	<Hero id="dead_lord_verona_2" alive="false" spouse="Hero.dead_lord_verona_1" faction="Faction.clan_verona_1"/>
+	<Hero id="lord_verona_1a" father="Hero.dead_lord_verona_1" mother="Hero.dead_lord_verona_2" faction="Faction.clan_verona_1" />
+	<Hero id="lord_verona_1b" father="Hero.dead_lord_verona_1" mother="Hero.dead_lord_verona_2" spouse="Hero.lord_verona_1c" faction="Faction.clan_verona_1"/>
+	<Hero id="lord_verona_1c" spouse="Hero.lord_verona_1b" faction="Faction.clan_verona_1"/>
+
+	<Hero id="lord_verona_1d" father="Hero.lord_verona_1b" mother="Hero.lord_verona_1c" spouse="Hero.lord_verona_1e" faction="Faction.clan_verona_1"/>
+	<Hero id="lord_verona_1e" spouse="Hero.lord_verona_1d" faction="Faction.clan_verona_1"/>
+
+	<Hero id="lord_verona_1f" father="Hero.lord_verona_1b" mother="Hero.lord_verona_1c" spouse="Hero.lord_verona_1g" faction="Faction.clan_verona_1"/>
+	<Hero id="lord_verona_1g" spouse="Hero.lord_verona_1f" faction="Faction.clan_verona_1"/>
+
+	<Hero id="lord_verona_1h" father="Hero.lord_verona_1b" mother="Hero.lord_verona_1c" spouse="Hero.lord_verona_1i" faction="Faction.clan_verona_1"/>
+	<Hero id="lord_verona_1i" spouse="Hero.lord_verona_1h" faction="Faction.clan_verona_1"/>
+	<Hero id="lord_verona_1j" faction="Faction.clan_verona_1"/>
+
+	<Hero id="lord_verona_1k" father="Hero.lord_verona_1h" mother="Hero.lord_verona_1i" faction="Faction.clan_verona_1"/>
+
+	<Hero id="lord_verona_1l" father="Hero.lord_verona_1h" mother="Hero.lord_verona_1i" spouse="Hero.lord_verona_1m" faction="Faction.clan_verona_1"/>
+	<Hero id="lord_verona_1m" spouse="Hero.lord_verona_1l" faction="Faction.clan_verona_1"/>
+
+	<Hero id="lord_verona_1n" father="Hero.lord_verona_1l" mother="Hero.lord_verona_1m" spouse="Hero.lord_verona_1n" faction="Faction.clan_verona_1"/>
+	<Hero id="lord_verona_1o" spouse="Hero.lord_verona_1o" faction="Faction.clan_verona_1" />
+
+	<Hero id="lord_verona_1p" father="Hero.lord_verona_1l" mother="Hero.lord_verona_1m" spouse="Hero.lord_verona_1q" faction="Faction.clan_verona_1" />
+	<Hero id="lord_verona_1q" spouse="Hero.lord_verona_1p" faction="Faction.clan_verona_1"/>
+
+	<Hero id="lord_verona_1r" father="Hero.lord_verona_1l" mother="Hero.lord_verona_1m" faction="Faction.clan_verona_1" />
+
+	<Hero id="lord_verona_1s" father="Hero.lord_verona_1l" mother="Hero.lord_verona_1m" faction="Faction.clan_verona_1"/>
+</Heroes>

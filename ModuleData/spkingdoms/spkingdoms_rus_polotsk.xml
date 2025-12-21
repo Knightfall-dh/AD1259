@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<Kingdom id="polotsk"
+	         initial_home_settlement="Settlement.town_viciebsk"
+	         owner="Hero.lord_polotsk_1a"
+	         banner_key="11.119.119.1750.1750.764.787.0.0.0.505.40.116.250.250.764.624.0.0.0.503.119.116.180.55.684.704.0.0.45.427.121.116.375.375.764.834.0.0.0.427.119.116.396.233.764.903.0.0.0.503.121.116.111.62.635.853.0.0.-48.503.121.116.111.62.893.854.0.1.47.503.119.116.180.55.844.704.0.1.315.503.119.116.180.55.844.544.0.0.45.503.119.116.180.55.684.544.0.1.315"
+	         primary_banner_color="0xff224277"
+	         secondary_banner_color="0xff000000"
+	         color="ff224277"
+	         color2="ffCEDAE7"
+	         culture="Culture.rus"
+	         settlement_banner_mesh="encounter_flag_a"
+	         flag_mesh="info_screen_flags_a"
+	         name="{=rus_kingdom_name}Principality of Polotsk"
+	         short_name="{=rus_kingdom_short_name}Principality of Polotsk"
+	         title="{=rus_kingdom_title}Principality of Polotsk"
+	         ruler_title="{=rus_ruler_title}Prince"
+	         text="{=rus_kingdom_text}Description.">
+		 <relationships>
+           
+        </relationships>
+		<policies>
+			<policy id="policy_hunting_rights"/>
+			<policy id="policy_royal_guard"/>
+			<policy id="policy_serfdom"/>
+			<policy id="policy_imperial_towns"/>
+		</policies>
+	</Kingdom>
+</Kingdoms>

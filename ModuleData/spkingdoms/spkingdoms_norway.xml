@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<Kingdom id="norway"
+	         initial_home_settlement="Settlement.town_bergen"
+	         owner="Hero.lord_norway_1_1"
+	         banner_key="11.145.143.1750.1750.764.764.0.0.0.510.20.116.577.150.587.712.1.0.-86.503.20.116.235.137.513.531.0.0.-86.503.145.116.152.61.520.446.0.0.-61.503.145.116.152.62.535.612.0.1.251.102913.131.116.648.645.723.836.1.0.0.426.116.116.11.76.484.559.0.0.18.426.116.116.11.76.479.504.0.0.-8.340.131.116.148.132.795.505.1.0.346.503.145.116.50.50.798.492.0.0.-13.418.116.116.39.39.797.500.0.0.32.418.131.116.35.35.797.501.0.0.32"
+	         primary_banner_color="0xff000000"
+	         secondary_banner_color="0xff000000"
+	         color="FFbc2e2e"
+	         color2="FFf2bc51"
+	         culture="Culture.norwegian"
+	         settlement_banner_mesh="encounter_flag_b"
+	         flag_mesh="info_screen_flags_c"
+	         name="{=norwayFactionName}Kingdom of Norway"
+	         short_name="{=norwayFactionShortName}Kingdom of Norway"
+	         title="{=norwayFactionTitle}Kingdom of Norway"
+	         ruler_title="{=norwayFactionRulerTitle}King"
+	         text="{=norwayFactionText}After the successful Norwegian Crusade, King Sigurd died in the beginning of the twelfth-century. In the aftermath, civil war broke out that would last a century. King Håkon Håkonsson defeated his rival in 1240, bringing more than 100 years of civil wars to an end. Through crafty negotiations, Håkon obtained the Papacy’s permission to be crowned, and he also formally introduced primogenital succession, and Norway thus became the first Scandinavian kingdom to ensure the succession of the eldest legitimate son.">
+		<relationships>
+           
+        </relationships>
+		<policies>
+			<policy id="policy_hunting_rights"/>
+			<policy id="policy_bailiffs"/>
+			<policy id="policy_royal_privilege"/>
+		</policies>
+	</Kingdom>
+</Kingdoms>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+    <!-- clan 1: Maison de Thouars-->
+    <Hero id="dead_lord_brittany_1" alive="false" spouse="Hero.dead_lord_brittany_2" faction="Faction.clan_brittany_1"/>
+    <Hero id="dead_lord_brittany_2" alive="false" spouse="Hero.dead_lord_brittany_1" faction="Faction.clan_brittany_1"/>
+    <Hero id="lord_brittany_1a" father="Hero.dead_lord_brittany_1" mother="Hero.dead_lord_brittany_2" spouse="Hero.lord_brittany_1b" faction="Faction.clan_brittany_1" text="{=alfonsoXDescription}Theobald was the eldest son of Theobald I of brittany and his third wife, Margaret of Bourbon. He succeeded to the throne as 14 years old."/>
+    <Hero id="lord_brittany_1b" spouse="Hero.lord_brittany_1a" faction="Faction.clan_brittany_1"/>
+    <Hero id="lord_brittany_1c" father="Hero.lord_brittany_1a" mother="Hero.lord_brittany_1b" faction="Faction.clan_brittany_1"/>
+
+    <Hero id="lord_brittany_1d" father="Hero.dead_lord_brittany_1" mother="Hero.dead_lord_brittany_2" spouse="Hero.lord_brittany_1e" faction="Faction.clan_brittany_1"/>
+    <Hero id="lord_brittany_1e" spouse="Hero.lord_brittany_1d" faction="Faction.clan_brittany_1"/>
+    <Hero id="lord_brittany_1f" father="Hero.lord_brittany_1d" mother="Hero.lord_brittany_1e" faction="Faction.clan_brittany_1"/>
+
+    <Hero id="lord_brittany_1g" father="Hero.dead_lord_brittany_1" mother="Hero.dead_lord_brittany_2" spouse="Hero.lord_brittany_1h" faction="Faction.clan_brittany_1"/>
+    <Hero id="lord_brittany_1h" spouse="Hero.lord_brittany_1g" faction="Faction.clan_brittany_1"/>
+    <Hero id="lord_brittany_1i" father="Hero.lord_brittany_1g" mother="Hero.lord_brittany_1h" faction="Faction.clan_brittany_1"/>
+
+    <!-- clan 2: Maison de Rohan -->
+    <Hero id="lord_brittany_2a" spouse="Hero.lord_brittany_2b" faction="Faction.clan_brittany_2"/>
+    <Hero id="lord_brittany_2b" spouse="Hero.lord_brittany_2a" faction="Faction.clan_brittany_2"/>
+    <Hero id="lord_brittany_2c" father="Hero.lord_brittany_2a" mother="Hero.lord_brittany_2b" faction="Faction.clan_brittany_2"/>
+    <Hero id="lord_brittany_2d" father="Hero.lord_brittany_2a" mother="Hero.lord_brittany_2b" faction="Faction.clan_brittany_2"/>
+    <Hero id="lord_brittany_2e" father="Hero.lord_brittany_2a" mother="Hero.lord_brittany_2b" faction="Faction.clan_brittany_2"/>
+
+    <!-- clan 3: Maison de Laval -->
+    <Hero id="lord_brittany_3a" spouse="Hero.lord_brittany_3b" faction="Faction.clan_brittany_3"/>
+    <Hero id="lord_brittany_3b" spouse="Hero.lord_brittany_3a" faction="Faction.clan_brittany_3"/>
+    <Hero id="lord_brittany_3c" father="Hero.lord_brittany_3a" mother="Hero.lord_brittany_3b" faction="Faction.clan_brittany_3"/>
+    <Hero id="lord_brittany_3d" faction="Faction.clan_brittany_3"/>
+    <Hero id="lord_brittany_3e" father="Hero.lord_brittany_3a" mother="Hero.lord_brittany_3b" faction="Faction.clan_brittany_3"/>
+    <Hero id="lord_brittany_3f" father="Hero.lord_brittany_3a" mother="Hero.lord_brittany_3b" faction="Faction.clan_brittany_3"/>
+
+    <!-- clan 4: Maison de Rieux -->
+    <Hero id="lord_brittany_4a" spouse="Hero.lord_brittany_4b" faction="Faction.clan_brittany_4"/>
+    <Hero id="lord_brittany_4b" spouse="Hero.lord_brittany_4a" faction="Faction.clan_brittany_4"/>
+    <Hero id="lord_brittany_4c" father="Hero.lord_brittany_4a" mother="Hero.lord_brittany_4b" faction="Faction.clan_brittany_4"/>
+</Heroes>

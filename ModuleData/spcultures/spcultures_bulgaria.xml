@@ -1,0 +1,268 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<SPCultures>
+	<Culture id="bulgaria"
+	         name="{=bulgariaCulture}Bulgarian"
+	         is_main_culture="true"
+	         color="0xff793191"
+	         color2="0xfff3f3f3"
+	         elite_basic_troop="NPCCharacter.bulgaria_elite_root"
+	         basic_troop="NPCCharacter.bulgaria_basic_root"
+	         melee_militia_troop="NPCCharacter.bulgaria_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.bulgaria_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.bulgaria_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.bulgaria_militia_veteran_archer"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_bulgaria_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_BULGARIA_template"
+	         settlement_patrol_template_level_1="PartyTemplate.patrol_party_BULGARIA_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_BULGARIA_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_BULGARIA_template_level_3"
+	         encounter_background_mesh="encounter_bulgaria"
+	         faction_banner_key="11.132.128.2000.2000.764.764.1.0.180.141.145.116.373.270.740.993.0.0.-1.141.145.116.561.632.754.746.0.0.359.141.145.116.373.270.748.516.0.0.-1"
+	         militia_party_template="PartyTemplate.militia_bulgaria_template"
+	         rebels_party_template="PartyTemplate.rebels_bulgaria_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_bulgaria"
+	         text="{=bulgaria_text}Unused in the game."
+	         tournament_master="NPCCharacter.tournament_master_bulgaria"
+	         villager="NPCCharacter.villager_bulgaria"
+	         caravan_master="NPCCharacter.caravan_master_bulgaria"
+	         caravan_guard="NPCCharacter.caravan_guard_bulgaria"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_bulgaria"
+	         prison_guard="NPCCharacter.prison_guard_bulgaria"
+	         guard="NPCCharacter.guard_bulgaria"
+	         blacksmith="NPCCharacter.blacksmith_bulgaria"
+	         weaponsmith="NPCCharacter.weaponsmith_bulgaria"
+	         townswoman="NPCCharacter.townswoman_bulgaria"
+	         townswoman_infant="NPCCharacter.townswoman_infant_bulgaria"
+	         townswoman_child="NPCCharacter.townswoman_child_bulgaria"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_bulgaria"
+	         townsman="NPCCharacter.townsman_bulgaria"
+	         townsman_infant="NPCCharacter.townsman_infant_bulgaria"
+	         townsman_child="NPCCharacter.townsman_child_bulgaria"
+	         townsman_teenager="NPCCharacter.townsman_teenager_bulgaria"
+	         village_woman="NPCCharacter.village_woman_bulgaria"
+	         villager_male_child="NPCCharacter.villager_child_bulgaria"
+	         villager_male_teenager="NPCCharacter.villager_teenager_bulgaria"
+	         villager_female_child="NPCCharacter.village_woman_child_bulgaria"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_bulgaria"
+	         ransom_broker="NPCCharacter.ransom_broker_bulgaria"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_bulgaria"
+	         merchant_notary="NPCCharacter.merchant_notary_bulgaria"
+	         artisan_notary="NPCCharacter.artisan_notary_bulgaria"
+	         preacher_notary="NPCCharacter.preacher_notary_bulgaria"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_bulgaria"
+	         shop_worker="NPCCharacter.shop_worker_bulgaria"
+	         tavernkeeper="NPCCharacter.tavernkeeper_bulgaria"
+	         taverngamehost="NPCCharacter.taverngamehost_bulgaria"
+	         musician="NPCCharacter.musician_bulgaria"
+	         tavern_wench="NPCCharacter.tavern_wench_bulgaria"
+	         armorer="NPCCharacter.armorer_bulgaria"
+	         horseMerchant="NPCCharacter.horseMerchant_bulgaria"
+	         barber="NPCCharacter.barber_bulgaria"
+	         merchant="NPCCharacter.merchant_bulgaria"
+	         beggar="NPCCharacter.beggar_bulgaria"
+	         female_beggar="NPCCharacter.female_beggar_bulgaria"
+	         female_dancer="NPCCharacter.female_dancer_bulgaria"
+	         default_battle_equipment_roster="EquipmentRoster.bulgaria_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.bulgaria_civ_template_default"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+	         duel_preset_equipment_roster="EquipmentRoster.emp_duel_preset_template"
+	         marriage_bride_equipment_roster="EquipmentRoster.marriage_female_emp_cutscene_template"
+	         board_game_type="Konane"
+	         default_character_creation_body_property="BodyProperty.default_character_creation_body_property_empire"
+	         start_point_position_x="730"
+	         start_point_position_y="997">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_bulgaria"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_bulgaria"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls/>
+		<vassal_reward_items>
+			<item id="Item.avalanche_2haxe"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.sturgia_sword_1_t2"/>
+			<item id="Item.sturgia_sword_2_t3"/>
+			<item id="Item.sturgia_sword_4_t4"/>
+			<item id="Item.sturgia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_lawspeakers"/>
+			<policy id="policy_precarial_land_tenure"/>
+		</default_policies>
+		<male_names>
+			<name name="{=ACDCA43D}Oleg"/>
+			<name name="{=F637C651}Ratimir"/>
+			<name name="{=0421B676}Velimir"/>
+			<name name="{=622C2410}Dawyd"/>
+			<name name="{=5FA63D63}Datsko"/>
+			<name name="{=C22FFD3E}Dmitri"/>
+			<name name="{=043C5954}Boryslav"/>
+			<name name="{=62398FCA}Jaromir"/>
+			<name name="{=76E21A7E}Radovan"/>
+			<name name="{=A8A00175}Stanislav"/>
+			<name name="{=7D17290E}Artem"/>
+			<name name="{=A94E16A1}Izyaslav"/>
+			<name name="{=1B5C5C10}Mal"/>
+			<name name="{=936BBBEE}Oleksandr"/>
+			<name name="{=16D40F45}Mal"/>
+			<name name="{=8A86CE76}Vlastimil"/>
+			<name name="{=05154A7E}Dobromir"/>
+			<name name="{=71D4E2AD}Mykhail"/>
+			<name name="{=3150208B}Fedir"/>
+			<name name="{=2E0FE86F}Jaroslav"/>
+			<name name="{=E8E8B874}Borys"/>
+			<name name="{=2C2500CF}Bohdan"/>
+			<name name="{=E44F74D1}Faddei"/>
+			<name name="{=AC50599A}Ivan"/>
+			<name name="{=E44BBCCC}Stepan"/>
+			<name name="{=AD9E53CA}Sviatoslav"/>
+			<name name="{=F0CB3CF1}Andriy"/>
+			<name name="{=A1026723}Alexander"/>
+			<name name="{=159AB705}Ivan"/>
+			<name name="{=D8BD737A}Volodimir"/>
+			<name name="{=2E0BF3C0}Vasylko"/>
+			<name name="{=D253341B}Roman"/>
+			<name name="{=24B1A739}Lev"/>
+			<name name="{=F115CDE8}Danylo"/>
+			<name name="{=F5935F3B}Mstislav"/>
+			<name name="{=2449A475}Svarn"/>
+			<name name="{=7CC8D271}Bryachislav"/>
+			<name name="{=6552F180}Voloda"/>
+		</male_names>
+		<female_names>
+			<name name="{=C23A87A0}Daryna"/>
+			<name name="{=D48B9A29}Anastasiya"/>
+			<name name="{=8DB2707B}Bohdana"/>
+			<name name="{=A32152B9}Alina"/>
+			<name name="{=5AA87454}Daniela"/>
+			<name name="{=33EA630F}Dobrodeia"/>
+			<name name="{=FD3ED2C5}Dobroniega"/>
+			<name name="{=6B65DA2E}Iadvykha"/>
+			<name name="{=8AEC4E4E}Olenica"/>
+			<name name="{=D75E96FB}Polahia"/>
+			<name name="{=70A6BFB5}Zofeia"/>
+			<name name="{=FF8E2E7A}Zvenislava"/>
+			<name name="{=BE14E6D9}Wyola"/>
+			<name name="{=36C610BF}Stetsia"/>
+			<name name="{=9E7254A0}Poloneia"/>
+			<name name="{=16F7E6D1}Tomyla"/>
+			<name name="{=57297A76}Olena"/>
+			<name name="{=6A915DC6}Kalyna"/>
+			<name name="{=97D538AB}Kateryna"/>
+			<name name="{=7C2ECD17}Inna"/>
+			<name name="{=E09C7EC9}Ivanna"/>
+			<name name="{=8DEB72DE}Anichka"/>
+			<name name="{=87EFD099}Aleksandra"/>
+			<name name="{=7ACD3794}Anna"/>
+			<name name="{=D0D9C2B7}Ionna"/>
+			<name name="{=5A352BD0}Daryna"/>
+			<name name="{=3C90C755}Dina"/>
+			<name name="{=F61D34DD}Olena"/>
+			<name name="{=0E09DA4B}Oksana"/>
+			<name name="{=447E9F09}Maria"/>
+			<name name="{=EA30E30E}Ljudmila"/>
+			<name name="{=11C4849E}Svitlana"/>
+			<name name="{=C464DF85}Zlata"/>
+			<name name="{=10E840CD}Zoriana"/>
+			<name name="{=5A232C8D}Leonida"/>
+			<name name="{=75056306}Yaroslava"/>
+			<name name="{=73AE7FF9}Tetiana"/>
+			<name name="{=A315D49F}Kalyna"/>
+		</female_names>
+		<clan_names>
+			<name name="{=Shishman}Shishman"/>
+			<name name="{=Sratsimir}Sratsimir"/>
+			<name name="{=Smilets}Smilets"/>
+			<name name="{=Ottoman}Ottoman"/>
+			<name name="{=Dobrotitsa}Dobrotitsa"/>
+			<name name="{=Momchil}Momchil"/>
+		</clan_names>
+		<cultural_feats>
+			<feat id="khuzait_cheaper_recruits_mounted"/>
+			<feat id="khuzait_decreased_town_tax"/>
+			<feat id="battanian_forest_speed"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="112"/>
+			<icon id="113"/>
+			<icon id="114"/>
+			<icon id="115"/>
+			<icon id="116"/>
+			<icon id="117"/>
+			<icon id="118"/>
+			<icon id="132"/>
+			<icon id="138"/>
+			<icon id="139"/>
+			<icon id="307"/>
+			<icon id="331"/>
+			<icon id="407"/>
+			<icon id="408"/>
+			<icon id="409"/>
+			<icon id="410"/>
+			<icon id="439"/>
+			<icon id="440"/>
+			<icon id="441"/>
+			<icon id="442"/>
+			<icon id="443"/>
+			<icon id="444"/>
+			<icon id="445"/>
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_bulgaria_0"/>
+			<template name="NPCCharacter.spc_notable_bulgaria_0b"/>
+			<template name="NPCCharacter.spc_notable_bulgaria_1"/>
+			<template name="NPCCharacter.spc_notable_bulgaria_2"/>
+			<template name="NPCCharacter.spc_notable_bulgaria_2b"/>
+			<template name="NPCCharacter.spc_notable_bulgaria_3"/>
+			<template name="NPCCharacter.spc_notable_bulgaria_3b"/>
+			<template name="NPCCharacter.spc_notable_bulgaria_3c"/>
+			<template name="NPCCharacter.spc_notable_bulgaria_4"/>
+			<template name="NPCCharacter.spc_notable_bulgaria_5"/>
+			<template name="NPCCharacter.spc_notable_bulgaria_6"/>
+			<template name="NPCCharacter.spc_notable_bulgaria_7"/>
+			<template name="NPCCharacter.spc_notable_bulgaria_8"/>
+			<template name="NPCCharacter.spc_notable_bulgaria_9"/>
+			<template name="NPCCharacter.spc_notable_bulgaria_10"/>
+			<template name="NPCCharacter.spc_bulgaria_headman_1"/>
+			<template name="NPCCharacter.spc_bulgaria_headman_2"/>
+			<template name="NPCCharacter.spc_bulgaria_headman_3"/>
+		</notable_templates>
+		<lord_templates>
+			<template name="NPCCharacter.bulgaria_autogenerated_lord1"/>
+			<template name="NPCCharacter.bulgaria_autogenerated_lord2"/>
+			<template name="NPCCharacter.bulgaria_autogenerated_lord3"/>
+			<template name="NPCCharacter.bulgaria_autogenerated_lord4"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.bulgaria_autogenerated_lord1"/>
+			<template name="NPCCharacter.bulgaria_autogenerated_lord2"/>
+			<template name="NPCCharacter.bulgaria_autogenerated_lord3"/>
+			<template name="NPCCharacter.bulgaria_autogenerated_lord4"/>
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_sturgia_one_participant_set_v2"/>
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_sturgia_two_participant_set_v3"/>
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_sturgia_four_participant_set_v3"/>
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+            <template name="NPCCharacter.merc_euro_spearman"/>
+            <template name="NPCCharacter.merc_euro_crossbowman"/>
+            <template name="NPCCharacter.merc_balkan_spear1"/>
+            <template name="NPCCharacter.merc_balkan_axe1"/>
+            <template name="NPCCharacter.merc_balkan_archer1"/>
+            <template name="NPCCharacter.merc_manhunter_root"/>
+        </basic_mercenary_troops>
+	</Culture>
+</SPCultures> 

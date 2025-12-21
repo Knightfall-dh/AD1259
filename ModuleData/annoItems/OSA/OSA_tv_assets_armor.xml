@@ -1,0 +1,1844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- RBM Balance -->
+	<!-- Leg Armors -->
+	<Item id="TV_aserai_boots_a" name="{=osa_tv_aserai_boots_a}[OSA] Hide Boots" mesh="TV_aserai_boots_a" culture="Culture.aserai" weight="0.8" appearance="1.3" Type="LegArmor" difficulty="0">
+		<ItemComponent>
+			<Armor leg_armor="28" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_aserai_boots_b" name="{=osa_tv_aserai_boots_b}[OSA] Blackened Hide Boots" mesh="TV_aserai_boots_b" culture="Culture.aserai" weight="0.8" appearance="1.3" Type="LegArmor" difficulty="0">
+		<ItemComponent>
+			<Armor leg_armor="28" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_aserai_boots_c" name="{=osa_tv_aserai_boots_c}[OSA] Southern Boots With Gilded Greaves" mesh="TV_aserai_boots_c" culture="Culture.aserai" weight="2.7" appearance="2" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="48" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_aserai_boots_d" name="{=osa_tv_aserai_boots_d}[OSA] Southern Blackened Boots With Iron Greaves" mesh="TV_aserai_boots_d" culture="Culture.aserai" weight="2.7" appearance="2" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="48" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_aserai_boots_e" name="{=osa_tv_aserai_boots_e}[OSA] Southern Boots With Leather Greaves" mesh="TV_aserai_boots_e" culture="Culture.aserai" weight="2.7" appearance="2" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="38" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_aserai_boots_e2" name="{=osa_tv_aserai_boots_e2}[OSA] Southern Blackened Boots With Leather Greaves" mesh="TV_aserai_boots_e2" culture="Culture.aserai" weight="2.7" appearance="2" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="38" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_aserai_boots_f" name="{=osa_tv_aserai_boots_f}[OSA] Tan Suede Curved Boots" mesh="TV_aserai_boots_f" culture="Culture.khuzait" weight="0.8" difficulty="0" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="24" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_aserai_boots_g" name="{=osa_tv_aserai_boots_g}[OSA] Suede Curved Boots" mesh="TV_aserai_boots_g" culture="Culture.khuzait" weight="0.8" difficulty="0" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="24" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_aserai_boots_h" name="{=osa_tv_aserai_boots_h}[OSA] Leather Boots" mesh="TV_aserai_boots_h" culture="Culture.sturgia" weight="1" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_aserai_boots_i" name="{=osa_tv_aserai_boots_i}[OSA] Blackened Leather Boots" mesh="TV_aserai_boots_i" culture="Culture.sturgia" weight="1" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="20" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_a" name="{=osa_tv_battania_boots_a}[OSA] Highland Shoes With Green Plaid Legwraps" mesh="TV_battania_boots_a" culture="Culture.battania" weight="0.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="30" covers_legs="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_b" name="{=osa_tv_battania_boots_b}[OSA] Highland Shoes With Lime Plaid Legwraps" mesh="TV_battania_boots_b" culture="Culture.battania" weight="0.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="30" covers_legs="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_c" name="{=osa_tv_battania_boots_c}[OSA] Highland Shoes With Orange Plaid Legwraps" mesh="TV_battania_boots_c" culture="Culture.battania" weight="0.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="30" covers_legs="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_d" name="{=osa_tv_battania_boots_d}[OSA] Highland Shoes With Brown Legwraps" mesh="TV_battania_boots_d" culture="Culture.battania" weight="0.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="30" covers_legs="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_e" name="{=osa_tv_battania_boots_e}[OSA] Highland Wrapped Suede Boots" mesh="TV_battania_boots_e" culture="Culture.battania" weight="0.9" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="32" covers_legs="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_f" name="{=osa_tv_battania_boots_f}[OSA] Southern Suede Boots" mesh="TV_battania_boots_f" culture="Culture.aserai" weight="0.8" appearance="1.3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="28" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_g" name="{=osa_tv_battania_boots_g}[OSA] Highland Leather Greave Boots With Green Plaid Legwraps" mesh="TV_battania_boots_g" culture="Culture.battania" weight="1.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="38" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_h" name="{=osa_tv_battania_boots_h}[OSA] Highland Leather Greave Boots With Lime Plaid Legwraps" mesh="TV_battania_boots_h" culture="Culture.battania" weight="1.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="38" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_i" name="{=osa_tv_battania_boots_i}[OSA] Highland Leather Greave Boots With Orange Plaid Legwraps" mesh="TV_battania_boots_i" culture="Culture.battania" weight="1.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="38" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_j" name="{=osa_tv_battania_boots_j}[OSA] Highland Leather Greave Boots With Brown Legwraps" mesh="TV_battania_boots_j" culture="Culture.battania" weight="1.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="38" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_k" name="{=osa_tv_battania_boots_k}[OSA] Highland Brass Greave Boots With Green Plaid Legwraps" mesh="TV_battania_boots_k" culture="Culture.battania" weight="1.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="44" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_l" name="{=osa_tv_battania_boots_l}[OSA] Highland Brass Greave Boots With Lime Plaid Legwraps" mesh="TV_battania_boots_l" culture="Culture.battania" weight="1.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="44" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_m" name="{=osa_tv_battania_boots_m}[OSA] Highland Brass Greave Boots With Orange Plaid Legwraps" mesh="TV_battania_boots_m" culture="Culture.battania" weight="1.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="44" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_n" name="{=osa_tv_battania_boots_n}[OSA] Highland Brass Greave Boots With Brown Legwraps" mesh="TV_battania_boots_n" culture="Culture.battania" weight="1.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="44" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_o" name="{=osa_tv_battania_boots_o}[OSA] Highland Iron Greave Boots With Green Plaid Legwraps" mesh="TV_battania_boots_o" culture="Culture.battania" weight="1.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="44" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_p" name="{=osa_tv_battania_boots_p}[OSA] Highland Iron Greave Boots With Lime Plaid Legwraps" mesh="TV_battania_boots_p" culture="Culture.battania" weight="1.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="44" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_q" name="{=osa_tv_battania_boots_q}[OSA] Highland Iron Greave Boots With Orange Plaid Legwraps" mesh="TV_battania_boots_q" culture="Culture.battania" weight="1.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="44" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_r" name="{=osa_tv_battania_boots_r}[OSA] Highland Iron Greave Boots With Brown Legwraps" mesh="TV_battania_boots_r" culture="Culture.battania" weight="1.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="44" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_s" name="{=osa_tv_battania_boots_s}[OSA] Highland Boots With Lime Plaid Legwraps" mesh="TV_battania_boots_s" culture="Culture.battania" weight="0.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="30" covers_legs="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_t" name="{=osa_tv_battania_boots_t}[OSA] Highland Boots With Green Plaid Legwraps" mesh="TV_battania_boots_t" culture="Culture.battania" weight="0.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="30" covers_legs="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_u" name="{=osa_tv_battania_boots_u}[OSA] Highland Boots With Orange Plaid Legwraps" mesh="TV_battania_boots_u" culture="Culture.battania" weight="0.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="30" covers_legs="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_v" name="{=osa_tv_battania_boots_v}[OSA] Highland Boots With Brown Legwraps" mesh="TV_battania_boots_v" culture="Culture.battania" weight="0.8" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="30" covers_legs="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_w" name="{=osa_tv_battania_boots_w}[OSA] Highland Simple Boots" mesh="TV_battania_boots_w" culture="Culture.battania" weight="0.2" appearance="6" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="16" covers_legs="false" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_x" name="{=osa_tv_battania_boots_x}[OSA] Highland Wrapped Leather Boots" mesh="TV_battania_boots_x" culture="Culture.battania" weight="1" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="33" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_boots_y" name="{=osa_tv_battania_boots_y}[OSA] Highland Wrapped Noble Boots" mesh="TV_battania_boots_y" culture="Culture.battania" weight="0.9" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="32" covers_legs="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="tv_battania_warlord_boots" name="{=osa_tv_battania_warlord_boots}[OSA] Highland Bronze Warlord Boots" mesh="tv_battania_warlord_boots" culture="Culture.battania" weight="2.6" appearance="3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="46" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="tv_battania_warlord_boots_b" name="{=osa_tv_battania_warlord_boots_b}[OSA] Highland Brass Warlord Boots" mesh="tv_battania_warlord_boots_b" culture="Culture.battania" weight="2.6" appearance="3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="46" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="tv_battania_warlord_boots_c" name="{=osa_tv_battania_warlord_boots_c}[OSA] Highland Steel Warlord Boots" mesh="tv_battania_warlord_boots_c" culture="Culture.battania" weight="2.6" appearance="3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="46" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_empire_boots_a" name="{=osa_tv_empire_boots_a}[OSA] Imperial Boots With Gilded Greaves" mesh="TV_empire_boots_a" culture="Culture.empire" weight="2.7" appearance="2" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="48" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_empire_boots_b" name="{=osa_tv_empire_boots_b}[OSA] Imperial Boots With Iron Greaves" mesh="TV_empire_boots_b" culture="Culture.empire" weight="2.7" appearance="2" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="48" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_empire_boots_c" name="{=osa_tv_empire_boots_c}[OSA] Imperial Boots With Leather Greaves" mesh="TV_empire_boots_c" culture="Culture.empire" weight="2.7" appearance="2" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="38" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="tv_empire_plate_a" name="{=osa_tv_empire_plate_a}[OSA] Imperial Mail Boots With Decorated Greaves" mesh="tv_empire_plate_a" culture="Culture.empire" weight="2.3" appearance="3" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="48" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="tv_empire_plate_c" name="{=osa_tv_empire_plate_c}[OSA] Suede Splint Boots" mesh="tv_empire_plate_c" culture="Culture.empire" weight="2.7" appearance="2" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="42" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_boots_a" name="{=osa_tv_khuzait_boots_a}[OSA] Eastern Tan Curved Boots" mesh="TV_khuzait_boots_a" culture="Culture.khuzait" weight="0.9" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="28" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_khuzait_boots_b" name="{=osa_tv_khuzait_boots_b}[OSA] Eastern Suede Curved Boots" mesh="TV_khuzait_boots_b" culture="Culture.khuzait" weight="0.9" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="28" covers_legs="true" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_moccasins_a" name="{=osa_tv_moccasins_a}[OSA] Leather Slippers" mesh="TV_moccasins_a" culture="Culture.empire" weight="0.6" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="14" covers_legs="false" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_moccasins_b" name="{=osa_tv_moccasins_b}[OSA] Southern Decorated Moccasins" mesh="TV_moccasins_b" culture="Culture.aserai" weight="0.5" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="16" covers_legs="false" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_moccasins_c" name="{=osa_tv_moccasins_c}[OSA] Southern Noble Moccasins" mesh="TV_moccasins_c" culture="Culture.aserai" weight="0.5" appearance="1" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="16" covers_legs="false" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_sturgia_boots_a" name="{=osa_tv_sturgia_boots_a}[OSA] Northern Boots With Steel Greaves" mesh="TV_sturgia_boots_a" culture="Culture.sturgia" weight="2.7" appearance="2" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="48" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_boots_b" name="{=osa_tv_sturgia_boots_b}[OSA] Northern Boots With Gilded Greaves" mesh="TV_sturgia_boots_b" culture="Culture.sturgia" weight="2.7" appearance="2" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="48" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_vlandia_boots_a" name="{=osa_tv_vlandia_boots_a}[OSA] Mailled Boots With Leather Greaves" mesh="TV_vlandia_boots_a" culture="Culture.vlandia" weight="3" appearance="1.6" Type="LegArmor" difficulty="0">
+		<ItemComponent>
+			<Armor leg_armor="44" covers_legs="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_vlandia_boots_b" name="{=osa_tv_vlandia_boots_b}[OSA] Mailled Shoes" mesh="TV_vlandia_boots_b" culture="Culture.vlandia" weight="1.8" appearance="1" Type="LegArmor" difficulty="0">
+		<ItemComponent>
+			<Armor leg_armor="42" covers_legs="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_vlandia_boots_c" name="{=osa_tv_vlandia_boots_c}[OSA] Mailled Splint Boots" mesh="TV_vlandia_boots_c" culture="Culture.vlandia" weight="3.5" appearance="3" Type="LegArmor" difficulty="0">
+		<ItemComponent>
+			<Armor leg_armor="62" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<!-- Shoulder Armors -->
+	<Item id="tv_aserai_cloak_a" name="{=osa_tv_aserai_cloak_a}[OSA] Southern Long Cape" mesh="tv_aserai_cloak_a" culture="Culture.aserai" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="12" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="tv_aserai_cloak_b" name="{=osa_tv_aserai_cloak_b}[OSA] Southern Plated Brass Shoulder Straps With Cape" mesh="tv_aserai_cloak_b" culture="Culture.aserai" weight="3.5" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="38" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_cloak_c" name="{=osa_tv_aserai_cloak_c}[OSA] Southern Plated Brass Shoulder Straps With Tassels" mesh="tv_aserai_cloak_c" culture="Culture.aserai" weight="3.5" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="38" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_cloak_a" name="{=osa_tv_battania_cloak_a}[OSA] Long Cape" mesh="tv_battania_cloak_a" culture="Culture.battania" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="12" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="tv_battania_cloak_b" name="{=osa_tv_battania_cloak_b}[OSA] Long Plaid Cape" mesh="tv_battania_cloak_b" culture="Culture.battania" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="12" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="tv_battania_cloak_c" name="{=osa_tv_battania_cloak_c}[OSA] Highland Scale Shoulders With Cape" mesh="tv_battania_cloak_c" culture="Culture.battania" weight="3.9" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="42" modifier_group="plate" material_type="Plate" arm_armor="8"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_cloak_d" name="{=osa_tv_battania_cloak_d}[OSA] Highland Scale Shoulders With Plaid Cape" mesh="tv_battania_cloak_d" culture="Culture.battania" weight="3.9" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="42" modifier_group="plate" material_type="Plate" arm_armor="8"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="tv_battania_cloak_e" name="{=osa_tv_battania_cloak_e}[OSA] Highland Scale Shoulders With Striped Cape" mesh="tv_battania_cloak_e" culture="Culture.battania" weight="3.9" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="42" modifier_group="plate" material_type="Plate" arm_armor="8"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_cloak_f" name="{=osa_tv_battania_cloak_f}[OSA] Long Striped Cape" mesh="tv_battania_cloak_f" culture="Culture.battania" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="12" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="tv_battania_cloak_g" name="{=osa_tv_battania_cloak_g}[OSA] Long Hide Cape" mesh="tv_battania_cloak_g" culture="Culture.battania" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="12" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="tv_battania_cloak_h" name="{=osa_tv_battania_cloak_h}[OSA] Highland Chainmail Shoulders With Cape" mesh="tv_battania_cloak_h" culture="Culture.battania" weight="3.9" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="28" modifier_group="plate" material_type="Plate" arm_armor="8"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_cloak_i" name="{=osa_tv_battania_cloak_i}[OSA] Highland Chainmail Shoulders With Plaid Cape" mesh="tv_battania_cloak_i" culture="Culture.battania" weight="3.9" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="28" modifier_group="plate" material_type="Plate" arm_armor="8"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="tv_battania_cloak_j" name="{=osa_tv_battania_cloak_j}[OSA] Highland Chainmail Shoulders With Striped Cape" mesh="tv_battania_cloak_j" culture="Culture.battania" weight="3.9" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="28" modifier_group="plate" material_type="Plate" arm_armor="8"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_cloak_k" name="{=osa_tv_battania_cloak_k}[OSA] Long Western Cape" mesh="tv_battania_cloak_k" culture="Culture.vlandia" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="22" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_battania_cloak_l" name="{=osa_tv_battania_cloak_l}[OSA] Highland Plaid Cloak" mesh="TV_battania_cloak_l" culture="Culture.battania" weight="4" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="6" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_cloak_l2" name="{=osa_tv_battania_cloak_l2}[OSA] Highland Brown Plaid Cloak" mesh="TV_battania_cloak_l2" culture="Culture.battania" weight="4" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="6" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_cloak_l3" name="{=osa_tv_battania_cloak_l3}[OSA] Highland Green Cloak" mesh="TV_battania_cloak_l3" culture="Culture.battania" weight="4" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="6" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_cloak_m" name="{=osa_tv_battania_cloak_m}[OSA] Long Cape" mesh="TV_battania_cloak_m" culture="Culture.empire" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_cloak_m2" name="{=osa_tv_battania_cloak_m2}[OSA] Long Plaid Cape" mesh="TV_battania_cloak_m2" culture="Culture.empire" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_cloak_m3" name="{=osa_tv_battania_cloak_m3}[OSA] Long Striped Cape" mesh="TV_battania_cloak_m3" culture="Culture.empire" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_cloak_o" name="{=osa_tv_battania_cloak_o}[OSA] Cloth Cape" mesh="TV_battania_cloak_o" culture="Culture.empire" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_cloak_o2" name="{=osa_tv_battania_cloak_o2}[OSA] Plaid Cloth Cape" mesh="TV_battania_cloak_o2" culture="Culture.empire" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_cloak_o3" name="{=osa_tv_battania_cloak_o3}[OSA] Striped Cloth Cape" mesh="TV_battania_cloak_o3" culture="Culture.empire" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_cloak_p" name="{=osa_tv_battania_cloak_p}[OSA] Long Cloak" mesh="TV_battania_cloak_p" culture="Culture.battania" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_cloak_p2" name="{=osa_tv_battania_cloak_p2}[OSA] Long Plaid Cloak" mesh="TV_battania_cloak_p2" culture="Culture.battania" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_cloak_p3" name="{=osa_tv_battania_cloak_p3}[OSA] Long Striped Cloak" mesh="TV_battania_cloak_p3" culture="Culture.battania" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_cloak_q" name="{=osa_tv_battania_cloak_q}[OSA] Plain Woolen Cape" mesh="TV_battania_cloak_q" culture="Culture.battania" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_cloak_q2" name="{=osa_tv_battania_cloak_q2}[OSA] Plaid Woolen Cape" mesh="TV_battania_cloak_q2" culture="Culture.battania" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_cloak_q3" name="{=osa_tv_battania_cloak_q3}[OSA] Striped Woolen Cape" mesh="TV_battania_cloak_q3" culture="Culture.battania" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="tv_battania_cloak_r" name="{=osa_tv_battania_cloak_r}[OSA] Highland Alternating Scale Shoulders With Cape" mesh="tv_battania_cloak_r" culture="Culture.battania" weight="3.9" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="42" modifier_group="plate" material_type="Plate" arm_armor="8"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_cloak_r2" name="{=osa_tv_battania_cloak_r2}[OSA] Highland Alternating Scale Shoulders With Plaid Cape" mesh="tv_battania_cloak_r2" culture="Culture.battania" weight="3.9" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="42" modifier_group="plate" material_type="Plate" arm_armor="8"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="tv_battania_cloak_r3" name="{=osa_tv_battania_cloak_r3}[OSA] Highland Alternating Scale Shoulders With Striped Cape" mesh="tv_battania_cloak_r3" culture="Culture.battania" weight="3.9" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="42" modifier_group="plate" material_type="Plate" arm_armor="8"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_cloak_s" name="{=osa_tv_battania_cloak_s}[OSA] Highland Steel Scale Shoulders With Cape" mesh="tv_battania_cloak_s" culture="Culture.battania" weight="3.9" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="42" modifier_group="plate" material_type="Plate" arm_armor="8"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_cloak_s2" name="{=osa_tv_battania_cloak_s2}[OSA] Highland Steel Scale Shoulders With Plaid Cape" mesh="tv_battania_cloak_s2" culture="Culture.battania" weight="3.9" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="42" modifier_group="plate" material_type="Plate" arm_armor="8"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="tv_battania_cloak_s3" name="{=osa_tv_battania_cloak_s3}[OSA] Highland Steel Scale Shoulders With Striped Cape" mesh="tv_battania_cloak_s3" culture="Culture.battania" weight="3.9" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="42" modifier_group="plate" material_type="Plate" arm_armor="8"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_battania_shoulders_c" name="{=osa_tv_battania_shoulders_c}[OSA] Brown Bear Pelt" mesh="TV_battania_shoulders_c" culture="Culture.sturgia" weight="6.0" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor head_armor="34" body_armor="26" arm_armor="0" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_battania_shoulders_d" name="{=osa_tv_battania_shoulders_d}[OSA] Brown Bear Shoulders" mesh="TV_battania_shoulders_d" culture="Culture.battania" weight="2.3" appearance="3" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="26" modifier_group="leather" material_type="Leather" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_battania_warlord_pauldrons_b" name="{=osa_tv_battania_warlord_pauldrons_b}[OSA] Highland Brass Warlord Pauldrons" mesh="TV_battania_warlord_pauldrons_b" culture="Culture.battania" subtype="body_armor" weight="4.0" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="45" arm_armor="0" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_battania_warlord_pauldrons_c" name="{=osa_tv_battania_warlord_pauldrons_c}[OSA] Highland Steel Warlord Pauldrons" mesh="TV_battania_warlord_pauldrons_c" culture="Culture.battania" subtype="body_armor" weight="4.0" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="45" arm_armor="0" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_wolf_pelt_a" name="{=osa_tv_wolf_pelt_a}[OSA] Brown Wolf Pelt" mesh="TV_wolf_pelt_a" culture="Culture.battania" weight="2" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="13" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_wolf_pelt_b" name="{=osa_tv_wolf_pelt_b}[OSA] Wolf Pelt" mesh="TV_wolf_pelt_b" culture="Culture.battania" weight="2" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="13" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_wolf_pelt_d" name="{=osa_tv_wolf_pelt_d}[OSA] Brown Wolf Shoulders" mesh="TV_wolf_pelt_d" culture="Culture.battania" weight="1.8" appearance="2" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="22" modifier_group="leather" material_type="Leather" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_wolf_pelt_f" name="{=osa_tv_wolf_pelt_f}[OSA] Eastern Heavy Wolf Shoulders" mesh="TV_wolf_pelt_f" culture="Culture.battania" weight="2.6" appearance="2" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="28" modifier_group="leather" material_type="Leather" arm_armor="2"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_wolf_pelt_g" name="{=osa_tv_wolf_pelt_g}[OSA] Eastern Wolf Shoulders" mesh="TV_wolf_pelt_g" culture="Culture.battania" weight="1.8" appearance="2" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="22" modifier_group="leather" material_type="Leather" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_wolf_pelt_h" name="{=osa_tv_wolf_pelt_h}[OSA] Eastern Wolfskin Cloak" mesh="TV_wolf_pelt_h" culture="Culture.battania" weight="3.6" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor head_armor="6" body_armor="22" arm_armor="7" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="tv_imperial_leather_cape_a" name="{=osa_tv_imperial_leather_cape_a}[OSA] Imperial Leather Shoulders With Plaid Cape" mesh="tv_imperial_leather_cape_a" culture="Culture.empire" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="26" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="tv_imperial_leather_cape_b" name="{=osa_tv_imperial_leather_cape_b}[OSA] Imperial Leather Shoulders With Striped Cape" mesh="tv_imperial_leather_cape_b" culture="Culture.empire" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="26" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_shoulders_a" name="{=osa_tv_empire_shoulders_a}[OSA] Imperial Studded Leather Shoulders With Cape" mesh="TV_empire_shoulders_a" culture="Culture.empire" weight="4.1" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="14" modifier_group="leather" material_type="Leather" arm_armor="0"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_shoulders_b" name="{=osa_tv_empire_shoulders_b}[OSA] Imperial Leather Shoulders With Lamellar Pauldrons" mesh="TV_empire_shoulders_b" culture="Culture.empire" weight="4.1" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="34" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="tv_sturgia_cloak_a" name="{=osa_tv_sturgia_cloak_a}[OSA] Northern Long Cape" mesh="tv_sturgia_cloak_a" culture="Culture.sturgia" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="12" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_sturgia_shoulders_a" name="{=osa_tv_sturgia_shoulders_a}[OSA] Nordic Large Lamellar Shoulders" mesh="TV_sturgia_shoulders_a" culture="Culture.sturgia" weight="5" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="32" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_shoulders_b" name="{=osa_tv_sturgia_shoulders_b}[OSA] Nordic Lamellar Shoulders" mesh="TV_sturgia_shoulders_b" culture="Culture.sturgia" weight="5" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_shoulders_c" name="{=osa_tv_sturgia_shoulders_c}[OSA] Nordic Small Lamellar Shoulders" mesh="TV_sturgia_shoulders_c" culture="Culture.sturgia" weight="1" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="8" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_shoulders_d" name="{=osa_tv_sturgia_shoulders_d}[OSA] Large Steel Lamellar Shoulders" mesh="TV_sturgia_shoulders_d" culture="Culture.sturgia" weight="5" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="32" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_shoulders_e" name="{=osa_tv_sturgia_shoulders_e}[OSA] Steel Lamellar Shoulders" mesh="TV_sturgia_shoulders_e" culture="Culture.sturgia" weight="5" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_shoulders_f" name="{=osa_tv_sturgia_shoulders_f}[OSA] Small Steel Lamellar Shoulders" mesh="TV_sturgia_shoulders_f" culture="Culture.sturgia" weight="1" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="8" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_shoulders_g" name="{=osa_tv_sturgia_shoulders_g}[OSA] Steel Lamellar Pauldrons" mesh="TV_sturgia_shoulders_g" culture="Culture.sturgia" weight="4.1" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="22" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_shoulders_h" name="{=osa_tv_sturgia_shoulders_h}[OSA] Brass Lamellar Pauldrons" mesh="TV_sturgia_shoulders_h" culture="Culture.sturgia" weight="4.1" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="22" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_shoulders_i" name="{=osa_tv_sturgia_shoulders_i}[OSA] Large Brass Lamellar Shoulders" mesh="TV_sturgia_shoulders_i" culture="Culture.sturgia" weight="5" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="32" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_shoulders_j" name="{=osa_tv_sturgia_shoulders_j}[OSA] Brass Lamellar Shoulders" mesh="TV_sturgia_shoulders_j" culture="Culture.sturgia" weight="5" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_shoulders_k" name="{=osa_tv_sturgia_shoulders_k}[OSA] Small Brass Lamellar Shoulders" mesh="TV_sturgia_shoulders_k" culture="Culture.sturgia" weight="1" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="8" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_shoulders_l" name="{=osa_tv_sturgia_shoulders_l}[OSA] Nordic Lamellar Cape" mesh="TV_sturgia_shoulders_l" culture="Culture.sturgia" weight="5.0" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="42" arm_armor="0" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_sturgia_shoulders_m" name="{=osa_tv_sturgia_shoulders_m}[OSA] Steel Lamellar Cape" mesh="TV_sturgia_shoulders_m" culture="Culture.sturgia" weight="5.0" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="42" arm_armor="0" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_sturgia_shoulders_n" name="{=osa_tv_sturgia_shoulders_n}[OSA] Brass Lamellar Cape" mesh="TV_sturgia_shoulders_n" culture="Culture.sturgia" weight="5.0" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="42" arm_armor="0" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_a" name="{=osa_tv_khuzait_shoulder_a}[OSA] Eastern Plated Bronze Shoulder Straps" mesh="TV_khuzait_shoulder_a" culture="Culture.khuzait" weight="3.5" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="38" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_b" name="{=osa_tv_khuzait_shoulder_b}[OSA] Eastern Plated Brass Shoulder Straps" mesh="TV_khuzait_shoulder_b" culture="Culture.khuzait" weight="3.5" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="38" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_c" name="{=osa_tv_khuzait_shoulder_c}[OSA] Eastern Leather Pauldrons" mesh="TV_khuzait_shoulder_c" culture="Culture.khuzait" weight="1.5" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20" modifier_group="leather" material_type="Leather" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_d" name="{=osa_tv_khuzait_shoulder_d}[OSA] Eastern Plated Leather Pauldrons" mesh="TV_khuzait_shoulder_d" culture="Culture.khuzait" weight="1.5" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="22" modifier_group="leather" material_type="Leather" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_e" name="{=osa_tv_khuzait_shoulder_e}[OSA] Eastern Steel Lamellar Shoulder Pieces" mesh="TV_khuzait_shoulder_e" culture="Culture.khuzait" weight="5" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="25" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_f" name="{=osa_tv_khuzait_shoulder_f}[OSA] Eastern Heavy Steel Lamellar Shoulders" mesh="TV_khuzait_shoulder_f" culture="Culture.khuzait" weight="5" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="40" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_g" name="{=osa_tv_khuzait_shoulder_g}[OSA] Eastern Lamellar Pauldrons" mesh="TV_khuzait_shoulder_g" culture="Culture.khuzait" weight="3.5" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="55" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_h" name="{=osa_tv_khuzait_shoulder_h}[OSA] Eastern Lamellar Shoulders Over Leather" mesh="TV_khuzait_shoulder_h" culture="Culture.khuzait" weight="3.5" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="60" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_i" name="{=osa_tv_khuzait_shoulder_i}[OSA] Eastern Lamellar Shoulders With Cape" mesh="TV_khuzait_shoulder_i" culture="Culture.khuzait" weight="3.5" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="60" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_j" name="{=osa_tv_khuzait_shoulder_j}[OSA] Eastern Leather Lamellar Pauldrons" mesh="TV_khuzait_shoulder_j" culture="Culture.khuzait" weight="2.3" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18" modifier_group="leather" material_type="Leather" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_k" name="{=osa_tv_khuzait_shoulder_k}[OSA] Eastern Leather Lamellar Shoulders" mesh="TV_khuzait_shoulder_k" culture="Culture.khuzait" weight="2.3" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="32" modifier_group="leather" material_type="Leather" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_l" name="{=osa_tv_khuzait_shoulder_l}[OSA] Eastern Leather Lamellar Shoulders With Cape" mesh="TV_khuzait_shoulder_l" culture="Culture.khuzait" weight="2.3" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="32" modifier_group="leather" material_type="Leather" arm_armor="0"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_m" name="{=osa_tv_khuzait_shoulder_m}[OSA] Eastern Steel Lamellar Shoulder Pieces Over Leather" mesh="TV_khuzait_shoulder_m" culture="Culture.khuzait" weight="3.5" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="55" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_n" name="{=osa_tv_khuzait_shoulder_n}[OSA] Eastern Steel Lamellar Shoulder Pieces With Cape" mesh="TV_khuzait_shoulder_n" culture="Culture.khuzait" weight="3.5" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="55" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_o" name="{=osa_tv_khuzait_shoulder_o}[OSA] Eastern Decorated Steel Lamellar Shoulder Pieces Over Leather" mesh="TV_khuzait_shoulder_o" culture="Culture.khuzait" weight="3.5" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="60" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_p" name="{=osa_tv_khuzait_shoulder_p}[OSA] Eastern Decorated Steel Lamellar Shoulder Pieces With Cape" mesh="TV_khuzait_shoulder_p" culture="Culture.khuzait" weight="3.5" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="60" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_q" name="{=osa_tv_khuzait_shoulder_q}[OSA] Eastern Blackened Leather Lamellar Shoulder Pieces" mesh="TV_khuzait_shoulder_q" culture="Culture.khuzait" weight="5" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="22" modifier_group="leather" material_type="Leather" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_r" name="{=osa_tv_khuzait_shoulder_r}[OSA] Eastern Heavy Blackened Leather Lamellar Shoulders" mesh="TV_khuzait_shoulder_r" culture="Culture.khuzait" weight="5" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="20" modifier_group="leather" material_type="Leather" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_s" name="{=osa_tv_khuzait_shoulder_s}[OSA] Eastern Blackened Leather Lamellar Shoulder Pieces Over Leather" mesh="TV_khuzait_shoulder_s" culture="Culture.khuzait" weight="3.5" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="35" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_khuzait_shoulder_t" name="{=osa_tv_khuzait_shoulder_t}[OSA] Eastern Blackened Leather Lamellar Shoulder Pieces With Cape" mesh="TV_khuzait_shoulder_t" culture="Culture.khuzait" weight="3.5" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="35" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_a" name="{=osa_tv_vlandia_shoulders_a}[OSA] Western Mail Shoulders" mesh="TV_vlandia_shoulders_a" culture="Culture.vlandia" weight="2.7" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="25" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_b" name="{=osa_tv_vlandia_shoulders_b}[OSA] Western Mail Hood" mesh="TV_vlandia_shoulders_b" culture="Culture.vlandia" subtype="body_armor" weight="2.8" appearance="0.6" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="30" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_b2" name="{=osa_tv_vlandia_shoulders_b2}[OSA] Western Chainmail Hood" mesh="TV_vlandia_shoulders_b2" culture="Culture.vlandia" subtype="body_armor" weight="2.8" appearance="0.6" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="30" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_c" name="{=osa_tv_vlandia_shoulders_c}[OSA] Western Heavy Mail Shoulders" mesh="TV_vlandia_shoulders_c" culture="Culture.vlandia" subtype="body_armor" weight="2.8" appearance="0.6" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="30" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_d" name="{=osa_tv_vlandia_shoulders_d}[OSA] Western Lamellar Pauldrons" mesh="TV_vlandia_shoulders_d" culture="Culture.vlandia" weight="3.5" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="50" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_e" name="{=osa_tv_vlandia_shoulders_e}[OSA] Western Lamellar Pauldrons Over Leather" mesh="TV_vlandia_shoulders_e" culture="Culture.vlandia" weight="3.5" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="55" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_f" name="{=osa_tv_vlandia_shoulders_f}[OSA] Western Lamellar Pauldrons With Long Cape" mesh="TV_vlandia_shoulders_f" culture="Culture.vlandia" weight="3.9" appearance="4" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="60" modifier_group="plate" material_type="Plate" arm_armor="8"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_g" name="{=osa_tv_vlandia_shoulders_g}[OSA] Western Padded Leather Hood" mesh="TV_vlandia_shoulders_g" culture="Culture.vlandia" weight="1.4" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="22" modifier_group="leather" material_type="Leather" arm_armor="0"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_h" name="{=osa_tv_vlandia_shoulders_h}[OSA] Western Long Cape" mesh="TV_vlandia_shoulders_h" culture="Culture.vlandia" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_i" name="{=osa_tv_vlandia_shoulders_i}[OSA] Western Patterned Cape" mesh="TV_vlandia_shoulders_i" culture="Culture.vlandia" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_j" name="{=osa_tv_vlandia_shoulders_j}[OSA] Western Hooded Cloak" mesh="TV_vlandia_shoulders_j" culture="Culture.vlandia" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_k" name="{=osa_tv_vlandia_shoulders_k}[OSA] Western Furred Cape" mesh="TV_vlandia_shoulders_k" culture="Culture.vlandia" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_l" name="{=osa_tv_vlandia_shoulders_l}[OSA] Western Patterned Furred Cape" mesh="TV_vlandia_shoulders_l" culture="Culture.vlandia" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="16" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_m" name="{=osa_tv_vlandia_shoulders_m}[OSA] Western Trimmed Leather Shoulders" mesh="TV_vlandia_shoulders_m" culture="Culture.vlandia" weight="2.1" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="18" arm_armor="0" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_n" name="{=osa_tv_vlandia_shoulders_n}[OSA] Western Trimmed Mailled Leather Shoulders" mesh="TV_vlandia_shoulders_n" culture="Culture.vlandia" weight="2.7" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="27" arm_armor="0" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_o" name="{=osa_tv_vlandia_shoulders_o}[OSA] Western Trimmed Mailled Leather Shoulders With Cape" mesh="TV_vlandia_shoulders_o" culture="Culture.vlandia" weight="2.7" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="27" arm_armor="0" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_p" name="{=osa_tv_vlandia_shoulders_p}[OSA] Western Trimmed Mailled Leather Shoulders With Cloak" mesh="TV_vlandia_shoulders_p" culture="Culture.vlandia" weight="2.7" appearance="1" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="27" arm_armor="0" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_q" name="{=osa_tv_vlandia_shoulders_q}[OSA] Western Heavy Trimmed Mail Shoulders" mesh="TV_vlandia_shoulders_q" culture="Culture.vlandia" subtype="body_armor" weight="2.8" appearance="0.6" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="30" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_r" name="{=osa_tv_vlandia_shoulders_r}[OSA] Western Heavy Trimmed Mail Shoulders With Shoulder Plates" mesh="TV_vlandia_shoulders_r" culture="Culture.vlandia" subtype="body_armor" weight="2.8" appearance="0.6" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="36" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_s" name="{=osa_tv_vlandia_shoulders_s}[OSA] Western Heavy Trimmed Mail And Steel Scale Shoulders" mesh="TV_vlandia_shoulders_s" culture="Culture.vlandia" weight="4" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="42" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_vlandia_shoulders_t" name="{=osa_tv_vlandia_shoulders_t}[OSA] Western Heavy Trimmed Mail And Steel Scale Shoulders With Cloak" mesh="TV_vlandia_shoulders_t" culture="Culture.vlandia" weight="4" appearance="3" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="42" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- Arm Armors -->
+	<Item id="TV_aserai_gloves_a" name="{=osa_tv_aserai_gloves_a}[OSA] Engraved Brass Bracers" mesh="TV_aserai_gloves_a" culture="Culture.aserai" weight="1.3" appearance="1.6" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="41" modifier_group="plate" material_type="Plate" covers_hands="false"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_aserai_gloves_b" name="{=osa_tv_aserai_gloves_b}[OSA] Engraved Steel Bracers" mesh="TV_aserai_gloves_b" culture="Culture.aserai" weight="1.3" appearance="1.6" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="41" modifier_group="plate" material_type="Plate" covers_hands="false"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_aserai_gloves_c" name="{=osa_tv_aserai_gloves_c}[OSA] Southern Leather Bracers" mesh="TV_aserai_gloves_c" culture="Culture.aserai" weight="0.6" appearance="1" Type="HandArmor" difficulty="0">
+		<ItemComponent>
+			<Armor arm_armor="29" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_aserai_gloves_d" name="{=osa_tv_aserai_gloves_d}[OSA] Southern Blackened Leather Bracers" mesh="TV_aserai_gloves_d" culture="Culture.aserai" weight="0.6" appearance="1" Type="HandArmor" difficulty="0">
+		<ItemComponent>
+			<Armor arm_armor="29" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="tv_empire_plate_b" name="{=osa_tv_empire_plate_b}[OSA] Imperial Decorated Mail Gauntlets" mesh="tv_empire_plate_b" culture="Culture.empire" weight="1.8" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="61" modifier_group="plate" material_type="Plate" covers_hands="true"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="tv_battania_warlord_bracers" name="{=osa_tv_battania_warlord_bracers}[OSA] Highland Bronze Warlord Bracers" mesh="tv_battania_warlord_bracers" culture="Culture.battania" weight="1.5" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="50" modifier_group="plate" material_type="Plate" covers_hands="true"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_battania_warlord_bracers_b" name="{=osa_tv_battania_warlord_bracers_b}[OSA] Highland Brass Warlord Bracers" mesh="TV_battania_warlord_bracers_b" culture="Culture.battania" weight="1.5" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="44" modifier_group="false" material_type="Plate" covers_hands="false"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_battania_warlord_bracers_c" name="{=osa_tv_battania_warlord_bracers_c}[OSA] Highland Steel Warlord Bracers" mesh="TV_battania_warlord_bracers_c" culture="Culture.battania" weight="1.5" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="44" modifier_group="false" material_type="Plate" covers_hands="false"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_battania_gloves_a" name="{=osa_tv_battania_gloves_a}[OSA] Highland Leather Gauntlets" mesh="TV_battania_gloves_a" culture="Culture.battania" weight="1.5" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="32" modifier_group="leather" material_type="Leather" covers_hands="true"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_battania_gloves_b" name="{=osa_tv_battania_gloves_b}[OSA] Highland Brass Gauntlets" mesh="TV_battania_gloves_b" culture="Culture.battania" weight="1.5" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="50" modifier_group="plate" material_type="Plate" covers_hands="true"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_battania_gloves_c" name="{=osa_tv_battania_gloves_c}[OSA] Highland Iron Gauntlets" mesh="TV_battania_gloves_c" culture="Culture.battania" weight="1.5" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="50" modifier_group="plate" material_type="Plate" covers_hands="true"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_battania_gloves_d" name="{=osa_tv_battania_gloves_d}[OSA] Highland Noble Vambraces" mesh="TV_battania_gloves_d" culture="Culture.battania" weight="0.6" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="34" modifier_group="leather" material_type="Leather" covers_hands="false"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_khuzait_gloves_a" name="{=osa_tv_khuzait_gloves_a}[OSA] Eastern Studded Blackened Leather Vambraces" mesh="TV_khuzait_gloves_a" culture="Culture.khuzait" weight="0.6" appearance="1" Type="HandArmor" difficulty="0">
+		<ItemComponent>
+			<Armor arm_armor="29" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_khuzait_gloves_b" name="{=osa_tv_khuzait_gloves_b}[OSA] Eastern Blackened Leather Vambraces" mesh="TV_khuzait_gloves_b" culture="Culture.khuzait" weight="0.1" appearance="1" Type="HandArmor" difficulty="0">
+		<ItemComponent>
+			<Armor arm_armor="26" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_gloves_a" name="{=osa_tv_sturgia_gloves_a}[OSA] Reinforced Leather Vambraces With Mail" mesh="TV_sturgia_gloves_a" culture="Culture.empire" weight="1.4" appearance="1.3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="61" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_gloves_b" name="{=osa_tv_sturgia_gloves_b}[OSA] Rough Brass Bracers" mesh="TV_sturgia_gloves_b" culture="Culture.sturgia" weight="1.3" appearance="1.6" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="41" modifier_group="plate" material_type="Plate" covers_hands="false"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_gloves_c" name="{=osa_tv_sturgia_gloves_c}[OSA] Rough Iron Bracers" mesh="TV_sturgia_gloves_c" culture="Culture.sturgia" weight="1.3" appearance="1.6" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="41" modifier_group="plate" material_type="Plate" covers_hands="false"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_gloves_d" name="{=osa_tv_sturgia_gloves_d}[OSA] Simple Steel Bracers" mesh="TV_sturgia_gloves_d" culture="Culture.sturgia" weight="1.3" appearance="1.6" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="41" modifier_group="plate" material_type="Plate" covers_hands="false"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_sturgia_gloves_e" name="{=osa_tv_sturgia_gloves_e}[OSA] Simple Brass Bracers" mesh="TV_sturgia_gloves_e" culture="Culture.sturgia" weight="1.3" appearance="1.6" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="41" modifier_group="plate" material_type="Plate" covers_hands="false"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_vlandia_gloves_a" name="{=osa_tv_vlandia_gloves_a}[OSA] Leather Gauntlets" mesh="TV_vlandia_gloves_a" culture="Culture.vlandia" weight="1.5" appearance="3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="32" modifier_group="leather" material_type="Leather" covers_hands="true"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_vlandia_gloves_b" name="{=osa_tv_vlandia_gloves_b}[OSA] Mail Gauntlets" mesh="TV_vlandia_gloves_b" culture="Culture.vlandia" weight="1.4" appearance="1.6" Type="HandArmor" difficulty="0">
+		<ItemComponent>
+			<Armor arm_armor="45" modifier_group="chain" material_type="Chainmail" covers_hands="true"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_vlandia_gloves_c" name="{=osa_tv_vlandia_gloves_c}[OSA] Strapped Leather Bracers" mesh="TV_vlandia_gloves_c" culture="Culture.vlandia" weight="0.5" appearance="1" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="24" modifier_group="leather" material_type="Leather" covers_hands="false"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_vlandia_gloves_d" name="{=osa_tv_vlandia_gloves_d}[OSA] Leather Gloves" mesh="TV_vlandia_gloves_d" culture="Culture.vlandia" weight="0.4" appearance="1" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="24" modifier_group="leather" material_type="Leather" covers_hands="true"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_vlandia_gloves_e" name="{=osa_tv_vlandia_gloves_e}[OSA] Blackened Leather Gloves" mesh="TV_vlandia_gloves_e" culture="Culture.vlandia" weight="0.4" appearance="1" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="24" modifier_group="leather" material_type="Leather" covers_hands="true"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_vlandia_gloves_f" name="{=osa_tv_vlandia_gloves_f}[OSA] Leather Gloves" mesh="TV_vlandia_gloves_f" culture="Culture.vlandia" weight="0.4" appearance="1" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="24" modifier_group="leather" material_type="Leather" covers_hands="true"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="TV_vlandia_gloves_g" name="{=osa_tv_vlandia_gloves_g}[OSA] Mail Gloves" mesh="TV_vlandia_gloves_g" culture="Culture.vlandia" weight="1.4" appearance="1.6" Type="HandArmor" difficulty="0">
+		<ItemComponent>
+			<Armor arm_armor="42" modifier_group="chain" material_type="Chainmail" covers_hands="true"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_vlandia_gloves_h" name="{=osa_tv_vlandia_gloves_h}[OSA] Plated Splint Bracers With Mail" mesh="TV_vlandia_gloves_h" culture="Culture.vlandia" weight="1.4" appearance="1.3" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="60" covers_hands="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="TV_vlandia_gloves_i" name="{=osa_tv_vlandia_gloves_i}[OSA] Plated Splint Gloves" mesh="TV_vlandia_gloves_i" culture="Culture.vlandia" weight="1" appearance="2" Type="HandArmor">
+		<ItemComponent>
+			<Armor arm_armor="44" modifier_group="plate" material_type="Plate" covers_hands="true"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<!-- Body Armors -->
+	<Item id="tv_aserai_lamellar_a" name="{=osa_tv_aserai_lamellar_a}[OSA] Southern Brass Lamellar Vest Over Mailed Silk Kaftan" mesh="tv_aserai_lamellar_a" culture="Culture.aserai" weight="6.2" Type="BodyArmor" appearance="1.8" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="74" leg_armor="32" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="38"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_a2" name="{=osa_tv_aserai_lamellar_a2}[OSA] Southern Brass Lamellar Vest Over Padded Silk Kaftan" mesh="tv_aserai_lamellar_a2" culture="Culture.aserai" weight="6.2" Type="BodyArmor" appearance="1.8" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="58" leg_armor="28" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="32"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_b" name="{=osa_tv_aserai_lamellar_b}[OSA] Southern Brass Lamellar Vest Over Mail" mesh="tv_aserai_lamellar_b" culture="Culture.aserai" weight="23" Type="BodyArmor" appearance="2">
+		<ItemComponent>
+			<Armor body_armor="100" leg_armor="44" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="44"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_b2" name="{=osa_tv_aserai_lamellar_b2}[OSA] Southern Steel Lamellar Vest Over Mail" mesh="tv_aserai_lamellar_b2" culture="Culture.aserai" weight="23" Type="BodyArmor" appearance="2">
+		<ItemComponent>
+			<Armor body_armor="100" leg_armor="44" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="44"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_c" name="{=osa_tv_aserai_lamellar_c}[OSA] Southern Bronze Lamellar Over Long Kaftan" mesh="tv_aserai_lamellar_c" culture="Culture.aserai" weight="6.2" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="58" leg_armor="24" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="31"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_c2" name="{=osa_tv_aserai_lamellar_c2}[OSA] Southern Steel Lamellar Over Long Kaftan" mesh="tv_aserai_lamellar_c2" culture="Culture.aserai" weight="6.2" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="58" leg_armor="24" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="31"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_d" name="{=osa_tv_aserai_lamellar_d}[OSA] Southern Steel Lamellar Vest Over Mailed Silk Kaftan" mesh="tv_aserai_lamellar_d" culture="Culture.aserai" weight="6.2" Type="BodyArmor" appearance="1.8" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="74" leg_armor="32" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="38"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_d2" name="{=osa_tv_aserai_lamellar_d2}[OSA] Southern Steel Lamellar Vest Over Padded Silk Kaftan" mesh="tv_aserai_lamellar_d2" culture="Culture.aserai" weight="6.2" Type="BodyArmor" appearance="1.8" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="58" leg_armor="28" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="32"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_e" name="{=osa_tv_aserai_lamellar_e}[OSA] Southern Heavy Steel Lamellar Over Mail" mesh="tv_aserai_lamellar_e" culture="Culture.aserai" weight="23" Type="BodyArmor" appearance="2">
+		<ItemComponent>
+			<Armor body_armor="105" leg_armor="84" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="44" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_e2" name="{=osa_tv_aserai_lamellar_e2}[OSA] Southern Heavy Brass Lamellar Over Mail" mesh="tv_aserai_lamellar_e2" culture="Culture.aserai" weight="23" Type="BodyArmor" appearance="2">
+		<ItemComponent>
+			<Armor body_armor="105" leg_armor="84" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="44" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_f" name="{=osa_tv_aserai_lamellar_f}[OSA] Southern Steel Lamellar Over Mail" mesh="tv_aserai_lamellar_f" culture="Culture.aserai" weight="23" Type="BodyArmor" appearance="2">
+		<ItemComponent>
+			<Armor body_armor="98" leg_armor="44" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="44" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_f2" name="{=osa_tv_aserai_lamellar_f2}[OSA] Southern Brass Lamellar Over Mail" mesh="tv_aserai_lamellar_f2" culture="Culture.aserai" weight="23" Type="BodyArmor" appearance="2">
+		<ItemComponent>
+			<Armor body_armor="98" leg_armor="44" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="44" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_g" name="{=osa_tv_aserai_lamellar_g}[OSA] Southern Brass Lamellar Over Padded Cloth" mesh="tv_aserai_lamellar_g" culture="Culture.aserai" weight="7" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="54" leg_armor="22" arm_armor="14" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_g2" name="{=osa_tv_aserai_lamellar_g2}[OSA] Southern Steel Lamellar Over Padded Cloth" mesh="tv_aserai_lamellar_g2" culture="Culture.aserai" weight="7" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="54" leg_armor="22" arm_armor="14" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_h" name="{=osa_tv_aserai_lamellar_h}[OSA] Southern Bronze Lamellar Over Mailed Kaftan" mesh="tv_aserai_lamellar_h" culture="Culture.aserai" weight="6.2" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="92" leg_armor="28" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="38"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_h2" name="{=osa_tv_aserai_lamellar_h2}[OSA] Southern Steel Lamellar Over Mailed Kaftan" mesh="tv_aserai_lamellar_h2" culture="Culture.aserai" weight="6.2" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="92" leg_armor="28" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="38"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_i" name="{=osa_tv_aserai_lamellar_i}[OSA] Southern Leather Cuirass Over Padded Cloth" mesh="tv_aserai_lamellar_i" culture="Culture.aserai" weight="7" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="30" leg_armor="22" arm_armor="14" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_aserai_lamellar_j" name="{=osa_tv_aserai_lamellar_j}[OSA] Southern Leather Lamellar Cuirass Over Padded Cloth" mesh="tv_aserai_lamellar_j" culture="Culture.aserai" weight="7" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="30" leg_armor="22" arm_armor="14" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_aserai_robe_a" name="{=osa_tv_aserai_robe_a}[OSA] Southern Decorated Robe With Double Mail" mesh="TV_aserai_robe_a" culture="Culture.aserai" weight="8.2" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="38" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="41"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_armor_a" name="{=osa_tv_battania_armor_a}[OSA] Highland Rugged Scale Vest" mesh="tv_battania_armor_a" culture="Culture.battania" weight="10.7" Type="BodyArmor" appearance="1.4" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="40" leg_armor="28" covers_body="false" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="10"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_armor_b" name="{=osa_tv_battania_armor_b}[OSA] Highland Decorated Ranger Mail" mesh="tv_battania_armor_b" culture="Culture.battania" weight="12" Type="BodyArmor" appearance="2" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="52" leg_armor="40" covers_body="true" modifier_group="chain" material_type="Chainmail" arm_armor="28"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_armor_c" name="{=osa_tv_battania_armor_c}[OSA] Highland Kilt Over Plated Ranger Mail" mesh="tv_battania_armor_c" culture="Culture.battania" weight="8.2" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="40"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_armor_d" name="{=osa_tv_battania_armor_d}[OSA] Highland Sleeveless Noble Armor" mesh="tv_battania_armor_d" culture="Culture.battania" weight="13.6" Type="BodyArmor" appearance="3" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="60" leg_armor="25" covers_body="false" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="40"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_armor_e" name="{=osa_tv_battania_armor_e}[OSA] Highland Plated Leather Vest" mesh="tv_battania_armor_e" culture="Culture.battania" weight="0.8" Type="BodyArmor" appearance="1" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="34" leg_armor="28" covers_body="false" modifier_group="leather" material_type="Leather" has_gender_variations="true" arm_armor="0"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="tv_battania_armor_f" name="{=osa_tv_battania_armor_f}[OSA] Highland Plated Scale Vest" mesh="tv_battania_armor_f" culture="Culture.battania" weight="10.7" Type="BodyArmor" appearance="1.4" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="28" covers_body="false" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="0"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_warlord_armor_a" name="{=osa_tv_battania_warlord_armor_a}[OSA] Highland Bronze Warlord Armor" mesh="tv_battania_warlord_armor_a" culture="Culture.battania" weight="25" Type="BodyArmor" appearance="3" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="105" leg_armor="50" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="70"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_warlord_armor_b" name="{=osa_tv_battania_warlord_armor_b}[OSA] Highland Heavy Brass Warlord Cuirass" mesh="tv_battania_warlord_armor_b" culture="Culture.battania" weight="25" Type="BodyArmor" appearance="3" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="98" leg_armor="30" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="50"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_warlord_armor_b2" name="{=osa_tv_battania_warlord_armor_b2}[OSA] Highland Heavy Steel Warlord Cuirass" mesh="tv_battania_warlord_armor_b2" culture="Culture.battania" weight="25" Type="BodyArmor" appearance="3" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="105" leg_armor="50" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="70"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_warlord_armor_c" name="{=osa_tv_battania_warlord_armor_c}[OSA] Highland Brass Warlord Cuirass" mesh="tv_battania_warlord_armor_c" culture="Culture.battania" weight="25" Type="BodyArmor" appearance="3" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="98" leg_armor="30" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="50"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_battania_warlord_armor_c2" name="{=osa_tv_battania_warlord_armor_c2}[OSA] Highland Steel Warlord Cuirass" mesh="tv_battania_warlord_armor_c2" culture="Culture.battania" weight="25" Type="BodyArmor" appearance="3" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="105" leg_armor="50" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="70"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_empire_armor_a" name="{=osa_tv_empire_armor_a}[OSA] Imperial Lamellar Vest Over Stripped Mail" mesh="tv_empire_armor_a" culture="Culture.empire" weight="15" Type="BodyArmor" appearance="1.3">
+		<ItemComponent>
+			<Armor body_armor="95" leg_armor="35" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="54"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_empire_armor_b" name="{=osa_tv_empire_armor_b}[OSA] Imperial Gilded Lamellar Over Boiled Leather" mesh="tv_empire_armor_b" culture="Culture.empire" weight="15" Type="BodyArmor" appearance="1.3">
+		<ItemComponent>
+			<Armor body_armor="88" leg_armor="25" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="50"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_empire_armor_c" name="{=osa_tv_empire_armor_c}[OSA] Darshi Mail Over Stripped Leather With Gambeson" mesh="tv_empire_armor_c" culture="Culture.aserai" weight="10.2" Type="BodyArmor" appearance="1.3" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="42" leg_armor="32" covers_body="true" modifier_group="chain" material_type="Chainmail" arm_armor="35"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_armor_d" name="{=osa_tv_empire_armor_d}[OSA] Imperial Decorated Brass Heavy Scale Armour" mesh="TV_empire_armor_d" culture="Culture.empire" weight="34" Type="BodyArmor" appearance="3">
+		<ItemComponent>
+			<Armor body_armor="118" leg_armor="122" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="82"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_armor_e" name="{=osa_tv_empire_armor_e}[OSA] Western Scale Over Mail Shirt" mesh="TV_empire_armor_e" culture="Culture.vlandia" weight="7.5" Type="BodyArmor" appearance="1.2" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="95" leg_armor="30" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="68"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_armor_e2" name="{=osa_tv_empire_armor_e2}[OSA] Western Brass Scale Over Mail Shirt" mesh="TV_empire_armor_e2" culture="Culture.vlandia" weight="7.5" Type="BodyArmor" appearance="1.2" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="95" leg_armor="30" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="68"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_armor_f" name="{=osa_tv_empire_armor_f}[OSA] Imperial Alternating Scale Cuirass Over Red Stripped Cloth" mesh="TV_empire_armor_f" culture="Culture.empire" weight="16.5" Type="BodyArmor" appearance="3" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="32" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="34"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_armor_g" name="{=osa_tv_empire_armor_g}[OSA] Imperial Brass Scale Cuirass Over White Stripped Cloth" mesh="TV_empire_armor_g" culture="Culture.empire" weight="16.5" Type="BodyArmor" appearance="3" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="32" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="34"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_armor_h" name="{=osa_tv_empire_armor_h}[OSA] Imperial Steel Scale Cuirass Over Stripped Leather" mesh="TV_empire_armor_h" culture="Culture.empire" weight="16.5" Type="BodyArmor" appearance="3" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="34" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="34"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_armor_i" name="{=osa_tv_empire_armor_i}[OSA] Imperial Auxiliary Lamellar Armor With Straps" mesh="TV_empire_armor_i" culture="Culture.empire" weight="2" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="88" leg_armor="25" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="19"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_armor_j" name="{=osa_tv_empire_armor_j}[OSA] Imperial Cavalry Lamellar Armor" mesh="TV_empire_armor_j" culture="Culture.empire" weight="8.3" Type="BodyArmor" appearance="1.3" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="96" leg_armor="25" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="40"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_armor_k" name="{=osa_tv_empire_armor_k}[OSA] Imperial Decorated Short Tunic" mesh="TV_empire_armor_k" culture="Culture.empire" weight="1" Type="BodyArmor" appearance="0.1" value="120">
+		<ItemComponent>
+			<Armor body_armor="12" leg_armor="3" covers_body="false" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" DoesNotHideChest="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_empire_armor_l" name="{=osa_tv_empire_armor_l}[OSA] Imperial Steel Lamellar Over Padded Coat" mesh="TV_empire_armor_l" culture="Culture.empire" lod_atlas_index="3" weight="7" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="54" leg_armor="27" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_armor_l2" name="{=osa_tv_empire_armor_l2}[OSA] Imperial Brass Lamellar Over Padded Coat" mesh="TV_empire_armor_l2" culture="Culture.empire" lod_atlas_index="3" weight="7" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="54" leg_armor="27" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_armor_m" name="{=osa_tv_empire_armor_m}[OSA] Imperial Long Scale Cuirass Over Mail" mesh="TV_empire_armor_m" culture="Culture.empire" weight="34" Type="BodyArmor" appearance="3">
+		<ItemComponent>
+			<Armor body_armor="110" leg_armor="110" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="40"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_armor_n" name="{=osa_tv_empire_armor_n}[OSA] Western Scale Cuirass Over Mail With Scale Skirt" mesh="TV_empire_armor_n" culture="Culture.vlandia" weight="34" Type="BodyArmor" appearance="3">
+		<ItemComponent>
+			<Armor body_armor="110" leg_armor="100" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="82"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_armor_o" name="{=osa_tv_empire_armor_o}[OSA] Western Scale Cuirass With Scale Skirt" mesh="TV_empire_armor_o" culture="Culture.vlandia" weight="34" Type="BodyArmor" appearance="3">
+		<ItemComponent>
+			<Armor body_armor="84" leg_armor="82" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="25"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_empire_armor_p" name="{=osa_tv_empire_armor_p}[OSA] Imperial Studded Leather Over Mail Shirt" mesh="TV_empire_armor_p" culture="Culture.empire" weight="3" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="65" leg_armor="36" covers_body="true" modifier_group="chain" material_type="Chainmail" arm_armor="34"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_empire_armor_q" name="{=osa_tv_empire_armor_q}[OSA] Darshi Stripped Leather With Gambeson" mesh="tv_empire_armor_q" culture="Culture.aserai" weight="10.2" Type="BodyArmor" appearance="1.3" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="24" leg_armor="22" covers_body="true" modifier_group="leather" material_type="Leather" arm_armor="20"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_empire_armor_r" name="{=osa_tv_empire_armor_r}[OSA] Darshi Stripped Lamellar With Gambeson" mesh="tv_empire_armor_r" culture="Culture.aserai" weight="7" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="82" leg_armor="32" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="34"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_empire_armor_r2" name="{=osa_tv_empire_armor_r2}[OSA] Darshi Stripped Alternating Lamellar With Gambeson" mesh="tv_empire_armor_r2" culture="Culture.aserai" weight="7" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="82" leg_armor="32" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="34"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_empire_armor_s" name="{=osa_tv_empire_armor_s}[OSA] Darshi Stripped Lamellar With Mail" mesh="tv_empire_armor_s" culture="Culture.aserai" weight="7" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="96" leg_armor="74" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="74"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_empire_armor_s2" name="{=osa_tv_empire_armor_s2}[OSA] Darshi Stripped Alternating Lamellar With Mail" mesh="tv_empire_armor_s2" culture="Culture.aserai" weight="7" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="96" leg_armor="74" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="74"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="tv_empire_armor_t" name="{=osa_tv_empire_armor_t}[OSA] Darshi Stripped Cloth With Gambeson" mesh="tv_empire_armor_t" culture="Culture.aserai" weight="10.2" Type="BodyArmor" appearance="1.3" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="24" leg_armor="22" covers_body="true" modifier_group="leather" material_type="Leather" arm_armor="20"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_a" name="{=osa_tv_khuzait_armor_a}[OSA] Eastern Strapped Leather Armor" mesh="TV_khuzait_armor_a" culture="Culture.khuzait" weight="15" Type="BodyArmor" appearance="1.4">
+		<ItemComponent>
+			<Armor body_armor="36" leg_armor="28" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="22"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_b" name="{=osa_tv_khuzait_armor_b}[OSA] Eastern Strapped Iron Lamellar Armor" mesh="TV_khuzait_armor_b" culture="Culture.khuzait" weight="15" Type="BodyArmor" appearance="1.4">
+		<ItemComponent>
+			<Armor body_armor="40" leg_armor="32" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="24"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_c" name="{=osa_tv_khuzait_armor_c}[OSA] Eastern Light Strapped Leather Armor" mesh="TV_khuzait_armor_c" culture="Culture.khuzait" weight="15" Type="BodyArmor" appearance="1.4">
+		<ItemComponent>
+			<Armor body_armor="36" leg_armor="12" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="22"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_d" name="{=osa_tv_khuzait_armor_d}[OSA] Eastern Light Strapped Iron Lamellar Armor" mesh="TV_khuzait_armor_d" culture="Culture.khuzait" weight="15" Type="BodyArmor" appearance="1.4">
+		<ItemComponent>
+			<Armor body_armor="40" leg_armor="12" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="24"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_d2" name="{=osa_tv_khuzait_armor_d2}[OSA] Eastern Light Strapped Lamellar Armor" mesh="TV_khuzait_armor_d2" culture="Culture.khuzait" weight="15" Type="BodyArmor" appearance="1.4">
+		<ItemComponent>
+			<Armor body_armor="40" leg_armor="12" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="24"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_e" name="{=osa_tv_khuzait_armor_e}[OSA] Eastern Stitched Leather Coat Over Mail" mesh="TV_khuzait_armor_e" culture="Culture.khuzait" weight="13.9" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="69" leg_armor="42" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="36"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_f" name="{=osa_tv_khuzait_armor_f}[OSA] Eastern Stitched Leather Vest Over Mail" mesh="TV_khuzait_armor_f" culture="Culture.khuzait" weight="13.9" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="65" leg_armor="42" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="36"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_g" name="{=osa_tv_khuzait_armor_g}[OSA] Eastern Light Lamellar Armor" mesh="TV_khuzait_armor_g" culture="Culture.khuzait" weight="16" Type="BodyArmor" appearance="2">
+		<ItemComponent>
+			<Armor body_armor="75" leg_armor="16" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="22"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_h" name="{=osa_tv_khuzait_armor_h}[OSA] Eastern Blackened Leather Lamellar Vest" mesh="TV_khuzait_armor_h" culture="Culture.khuzait" weight="2.6" Type="BodyArmor" appearance="1.2">
+		<ItemComponent>
+			<Armor body_armor="28" leg_armor="16" covers_body="true" modifier_group="leather" material_type="Leather" has_gender_variations="true" arm_armor="17"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_i" name="{=osa_tv_khuzait_armor_i}[OSA] Eastern Stitched Leather Vest" mesh="TV_khuzait_armor_i" culture="Culture.khuzait" weight="13.9" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="32" leg_armor="20" covers_body="true" modifier_group="leather" material_type="Leather" arm_armor="25"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_j" name="{=osa_tv_khuzait_armor_j}[OSA] Eastern Alternating Lamellar Coat Over Mail" mesh="TV_khuzait_armor_j" culture="Culture.khuzait" weight="25" Type="BodyArmor" appearance="1" lod_atlas_index="3">
+		<ItemComponent>
+			<Armor body_armor="95" leg_armor="76" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="36"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_k" name="{=osa_tv_khuzait_armor_k}[OSA] Eastern Stitched Lamellar Coat Over Mail" mesh="TV_khuzait_armor_k" culture="Culture.khuzait" weight="25" Type="BodyArmor" appearance="1" lod_atlas_index="3">
+		<ItemComponent>
+			<Armor body_armor="105" leg_armor="95" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="36"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_l" name="{=osa_tv_khuzait_armor_l}[OSA] Eastern Alternating Lamellar Coat" mesh="TV_khuzait_armor_l" culture="Culture.khuzait" weight="15.3" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="60" leg_armor="56" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="25"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_m" name="{=osa_tv_khuzait_armor_m}[OSA] Eastern Stitched Lamellar Coat" mesh="TV_khuzait_armor_m" culture="Culture.khuzait" weight="15.3" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="74" leg_armor="64" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="25"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_n" name="{=osa_tv_khuzait_armor_n}[OSA] Eastern Alternating Lamellar Vest Over Mail" mesh="TV_khuzait_armor_n" culture="Culture.khuzait" weight="25" Type="BodyArmor" appearance="1" lod_atlas_index="3">
+		<ItemComponent>
+			<Armor body_armor="95" leg_armor="42" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="36"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_o" name="{=osa_tv_khuzait_armor_o}[OSA] Eastern Stitched Lamellar Vest Over Mail" mesh="TV_khuzait_armor_o" culture="Culture.khuzait" weight="25" Type="BodyArmor" appearance="1" lod_atlas_index="3">
+		<ItemComponent>
+			<Armor body_armor="105" leg_armor="42" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="36"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_p" name="{=osa_tv_khuzait_armor_p}[OSA] Eastern Alternating Lamellar Vest" mesh="TV_khuzait_armor_p" culture="Culture.khuzait" weight="15.3" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="60" leg_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="25"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_q" name="{=osa_tv_khuzait_armor_q}[OSA] Eastern Stitched Lamellar Vest" mesh="TV_khuzait_armor_q" culture="Culture.khuzait" weight="15.3" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="74" leg_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true" arm_armor="25"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_r" name="{=osa_tv_khuzait_armor_r}[OSA] Eastern Studded Leather Coat" mesh="TV_khuzait_armor_r" culture="Culture.khuzait" weight="3" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="32" leg_armor="38" covers_body="true" modifier_group="leather" material_type="Leather" arm_armor="27"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_s" name="{=osa_tv_khuzait_armor_s}[OSA] Eastern Studded Leather Coat Over Mail" mesh="TV_khuzait_armor_s" culture="Culture.khuzait" weight="3" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="65" leg_armor="42" covers_body="true" modifier_group="chain" material_type="Chainmail" arm_armor="34"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_t" name="{=osa_tv_khuzait_armor_t}[OSA] Eastern Blackened Leather Lamellar Armor" mesh="TV_khuzait_armor_t" culture="Culture.khuzait" weight="2.6" Type="BodyArmor" appearance="1.2">
+		<ItemComponent>
+			<Armor body_armor="28" leg_armor="26" covers_body="true" modifier_group="leather" material_type="Leather" arm_armor="17"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_khuzait_armor_u" name="{=osa_tv_khuzait_armor_u}[OSA] Eastern Blackened Leather Lamellar Over Mail" mesh="TV_khuzait_armor_u" culture="Culture.khuzait" weight="26" Type="BodyArmor" appearance="3">
+		<ItemComponent>
+			<Armor body_armor="84" leg_armor="60" covers_body="true" modifier_group="chain" material_type="Chainmail" arm_armor="60"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_monk_robe_a" name="{=osa_tv_monk_robe_a}[OSA] Western Patterned Robe" mesh="TV_monk_robe_a" culture="Culture.vlandia" weight="0.5" Type="BodyArmor" appearance="1" value="120">
+		<ItemComponent>
+			<Armor body_armor="6" leg_armor="6" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" arm_armor="5"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_monk_robe_b" name="{=osa_tv_monk_robe_b}[OSA] Western Mailled Patterned Robe" mesh="TV_monk_robe_b" culture="Culture.vlandia" weight="10" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="40" leg_armor="40" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="false" arm_armor="40"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_monk_robe_c" name="{=osa_tv_monk_robe_c}[OSA] Western Patterned Belted Robe" mesh="TV_monk_robe_c" culture="Culture.vlandia" weight="0.5" Type="BodyArmor" appearance="1" value="120">
+		<ItemComponent>
+			<Armor body_armor="6" leg_armor="6" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" arm_armor="5"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_monk_robe_d" name="{=osa_tv_monk_robe_d}[OSA] Western Mailled Patterned Belted Robe" mesh="TV_monk_robe_d" culture="Culture.vlandia" weight="10" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="40" leg_armor="40" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="false" arm_armor="40"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="TV_sturgia_armor_a" name="{=osa_tv_sturgia_armor_a}[OSA] Northern Double Hauberk" mesh="TV_sturgia_armor_a" culture="Culture.sturgia" weight="12.3" Type="BodyArmor" appearance="1.6" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="70" leg_armor="40" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="40"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_sturgia_armor_a2" name="{=osa_tv_sturgia_armor_a2}[OSA] Northern Decorated Double Hauberk" mesh="TV_sturgia_armor_a2" culture="Culture.sturgia" weight="12.3" Type="BodyArmor" appearance="1.6" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="70" leg_armor="40" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="40"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_sturgia_armor_b" name="{=osa_tv_sturgia_armor_b}[OSA] Northern Alternating Scale Over Hauberk" mesh="TV_sturgia_armor_b" culture="Culture.sturgia" weight="26" Type="BodyArmor" appearance="3">
+		<ItemComponent>
+			<Armor body_armor="120" leg_armor="110" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="100"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_sturgia_armor_c" name="{=osa_tv_sturgia_armor_c}[OSA] Northern Brass Scale Over Hauberk" mesh="TV_sturgia_armor_c" culture="Culture.sturgia" weight="26" Type="BodyArmor" appearance="3">
+		<ItemComponent>
+			<Armor body_armor="120" leg_armor="110" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="100"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_sturgia_armor_d" name="{=osa_tv_sturgia_armor_d}[OSA] Northern Steel Scale Over Hauberk" mesh="TV_sturgia_armor_d" culture="Culture.sturgia" weight="26" Type="BodyArmor" appearance="3">
+		<ItemComponent>
+			<Armor body_armor="120" leg_armor="110" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="100"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_sturgia_armor_e" name="{=osa_tv_sturgia_armor_e}[OSA] Northern Heavy Lamellar Over Hauberk" mesh="TV_sturgia_armor_e" culture="Culture.sturgia" weight="28" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="105" leg_armor="100" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="80"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_sturgia_armor_e2" name="{=osa_tv_sturgia_armor_e2}[OSA] Northern Heavy Decorated Lamellar Over Hauberk" mesh="TV_sturgia_armor_e2" culture="Culture.sturgia" weight="28" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="105" leg_armor="100" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="80"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_sturgia_armor_e3" name="{=osa_tv_sturgia_armor_e3}[OSA] Northern Heavy Gilded Lamellar Over Hauberk" mesh="TV_sturgia_armor_e3" culture="Culture.sturgia" weight="28" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="105" leg_armor="100" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="80"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_sturgia_armor_f" name="{=osa_tv_sturgia_armor_f}[OSA] Northern Lamellar Over Hauberk" mesh="TV_sturgia_armor_f" culture="Culture.sturgia" weight="21.5" Type="BodyArmor" appearance="3">
+		<ItemComponent>
+			<Armor body_armor="79" leg_armor="38" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="46"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_sturgia_armor_f2" name="{=osa_tv_sturgia_armor_f2}[OSA] Northern Decorated Lamellar Over Hauberk" mesh="TV_sturgia_armor_f2" culture="Culture.sturgia" weight="21.5" Type="BodyArmor" appearance="3">
+		<ItemComponent>
+			<Armor body_armor="79" leg_armor="38" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="46"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_sturgia_armor_f3" name="{=osa_tv_sturgia_armor_f3}[OSA] Northern Gilded Lamellar Over Hauberk" mesh="TV_sturgia_armor_f3" culture="Culture.sturgia" weight="21.5" Type="BodyArmor" appearance="3">
+		<ItemComponent>
+			<Armor body_armor="79" leg_armor="38" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="46"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_a" name="{=osa_tv_vlandia_armor_a}[OSA] Western Leather Coat Over Mail" mesh="TV_vlandia_armor_a" culture="Culture.vlandia" weight="28.6" Type="BodyArmor" appearance="1.2" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="64" leg_armor="55" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="54"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_b" name="{=osa_tv_vlandia_armor_b}[OSA] Western Padded Coat Over Hauberk" mesh="TV_vlandia_armor_b" culture="Culture.vlandia" weight="28.6" Type="BodyArmor" appearance="1.2" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="50" leg_armor="42" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="39"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_b2" name="{=osa_tv_vlandia_armor_b2}[OSA] Western Sleeveless Padded Coat Over Hauberk" mesh="TV_vlandia_armor_b2" culture="Culture.vlandia" weight="28.6" Type="BodyArmor" appearance="1.2" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="42" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="34"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_b3" name="{=osa_tv_vlandia_armor_b3}[OSA] Western Padded Short Coat Over Hauberk" mesh="TV_vlandia_armor_b3" culture="Culture.vlandia" weight="28.6" Type="BodyArmor" appearance="1.2" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="50" leg_armor="34" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="39"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_b4" name="{=osa_tv_vlandia_armor_b4}[OSA] Western Sleeveless Padded Short Coat Over Hauberk" mesh="TV_vlandia_armor_b4" culture="Culture.vlandia" weight="28.6" Type="BodyArmor" appearance="1.2" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="34" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="34"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_c" name="{=osa_tv_vlandia_armor_c}[OSA] Western Patterned Tabard Over Mail Hauberk" mesh="TV_vlandia_armor_c" culture="Culture.vlandia" weight="9.6" Type="BodyArmor" appearance="1.2" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="41" leg_armor="35" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="39"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_d" name="{=osa_tv_vlandia_armor_d}[OSA] Western Steel Scale Cuirass Over Chainmail" mesh="TV_vlandia_armor_d" culture="Culture.vlandia" weight="10" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="95" leg_armor="40" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="68"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_d2" name="{=osa_tv_vlandia_armor_d2}[OSA] Western Brass Scale Cuirass Over Chainmail" mesh="TV_vlandia_armor_d2" culture="Culture.vlandia" weight="10" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="95" leg_armor="40" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="68"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_e" name="{=osa_tv_vlandia_armor_e}[OSA] Western Patterned Tabard Over Aketon" mesh="TV_vlandia_armor_e" culture="Culture.vlandia" weight="3.4" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="30" leg_armor="20" arm_armor="22" has_gender_variations="true" covers_body="true" modifier_group="cloth" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_f" name="{=osa_tv_vlandia_armor_f}[OSA] Western Padded Chainmail" mesh="TV_vlandia_armor_f" culture="Culture.vlandia" weight="10" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="45" leg_armor="45" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="45"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_g" name="{=osa_tv_vlandia_armor_g}[OSA] Western Mailled Brigandine With Decorated Tabard" mesh="TV_vlandia_armor_g" culture="Culture.vlandia" weight="20.11" Type="BodyArmor" appearance="3" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="75" leg_armor="40" covers_body="true" modifier_group="chain" material_type="Chainmail" arm_armor="45" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_h" name="{=osa_tv_vlandia_armor_h}[OSA] Western Padded Double Mail Hauberk" mesh="TV_vlandia_armor_h" culture="Culture.vlandia" weight="7.3" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="80" leg_armor="45" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="45"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_h2" name="{=osa_tv_vlandia_armor_h2}[OSA] Western Double Mail Hauberk" mesh="TV_vlandia_armor_h2" culture="Culture.vlandia" weight="7.3" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="70" leg_armor="40" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="40"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_i" name="{=osa_tv_vlandia_armor_i}[OSA] Western Patterned Coat Over Mail" mesh="TV_vlandia_armor_i" culture="Culture.vlandia" weight="28.6" Type="BodyArmor" appearance="1.2" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="41" leg_armor="35" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="39"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_i2" name="{=osa_tv_vlandia_armor_i2}[OSA] Western Decorated Coat Over Mail" mesh="TV_vlandia_armor_i2" culture="Culture.vlandia" weight="28.6" Type="BodyArmor" appearance="1.2" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="41" leg_armor="35" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="39"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_j" name="{=osa_tv_vlandia_armor_j}[OSA] Western Plated Leather Over Mail" mesh="TV_vlandia_armor_j" culture="Culture.vlandia" weight="8.6" Type="BodyArmor" appearance="1.6">
+		<ItemComponent>
+			<Armor body_armor="48" leg_armor="25" covers_body="true" modifier_group="chain" material_type="Chainmail" arm_armor="25" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_k" name="{=osa_tv_vlandia_armor_k}[OSA] Western Decorated Tunic Over Long Hauberk" mesh="TV_vlandia_armor_k" culture="Culture.vlandia" weight="28.6" Type="BodyArmor" appearance="1.2" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="70" leg_armor="65" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="60"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_l" name="{=osa_tv_vlandia_armor_l}[OSA] Western Mail Armor" mesh="TV_vlandia_armor_l" culture="Culture.vlandia" weight="10.3" appearance="0.7" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="36" leg_armor="20" arm_armor="35" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_m" name="{=osa_tv_vlandia_armor_m}[OSA] Western Heavy Padded Mail Hauberk" mesh="TV_vlandia_armor_m" culture="Culture.vlandia" weight="28.6" Type="BodyArmor" appearance="1.2" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="70" leg_armor="65" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="60"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_n" name="{=osa_tv_vlandia_armor_n}[OSA] Western Decorated Aketon Over Mail" mesh="TV_vlandia_armor_n" culture="Culture.vlandia" weight="28.6" Type="BodyArmor" appearance="1.2" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="70" leg_armor="65" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="60"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_o" name="{=osa_tv_vlandia_armor_o}[OSA] Western Heavy Plated Leather Over Mail" mesh="TV_vlandia_armor_o" culture="Culture.vlandia" weight="8.6" Type="BodyArmor" appearance="1.6">
+		<ItemComponent>
+			<Armor body_armor="58" leg_armor="40" covers_body="true" modifier_group="chain" material_type="Chainmail" arm_armor="40" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_p" name="{=osa_tv_vlandia_armor_p}[OSA] Western Decorated Long Bronze Scale Cuirass" mesh="TV_vlandia_armor_p" culture="Culture.vlandia" weight="35.5" Type="BodyArmor" appearance="3" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="95" leg_armor="82" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="52"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_q" name="{=osa_tv_vlandia_armor_q}[OSA] Western Decorated Long Steel Scale Cuirass" mesh="TV_vlandia_armor_q" culture="Culture.vlandia" weight="35.5" Type="BodyArmor" appearance="3" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="95" leg_armor="82" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="52"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_r" name="{=osa_tv_vlandia_armor_r}[OSA] Western Heavy Padded Coat Over Hauberk" mesh="TV_vlandia_armor_r" culture="Culture.vlandia" weight="26" Type="BodyArmor" appearance="2.4" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="82" leg_armor="84" covers_body="true" modifier_group="chain" material_type="Chainmail" has_gender_variations="true" arm_armor="90"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_s" name="{=osa_tv_vlandia_armor_s}[OSA] Western Long Steel Scale Coat" mesh="TV_vlandia_armor_s" culture="Culture.vlandia" weight="35.5" Type="BodyArmor" appearance="3" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="95" leg_armor="82" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="52"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_s2" name="{=osa_tv_vlandia_armor_s2}[OSA] Western Long Bronze Scale Coat" mesh="TV_vlandia_armor_s2" culture="Culture.vlandia" weight="35.5" Type="BodyArmor" appearance="3" difficulty="0" subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="95" leg_armor="82" covers_body="true" has_gender_variations="true" modifier_group="plate" material_type="Plate" arm_armor="52"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_t" name="{=osa_tv_vlandia_armor_t}[OSA] Western Long Steel Scale Coat Over Hauberk" mesh="TV_vlandia_armor_t" culture="Culture.vlandia" weight="26" Type="BodyArmor" appearance="3">
+		<ItemComponent>
+			<Armor body_armor="120" leg_armor="110" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="90" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_t2" name="{=osa_tv_vlandia_armor_t2}[OSA] Western Long Bronze Scale Coat Over Hauberk" mesh="TV_vlandia_armor_t2" culture="Culture.vlandia" weight="26" Type="BodyArmor" appearance="3">
+		<ItemComponent>
+			<Armor body_armor="120" leg_armor="110" covers_body="true" modifier_group="plate" material_type="Plate" arm_armor="90" has_gender_variations="true"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="TV_vlandia_armor_u" name="{=osa_tv_vlandia_armor_u}[OSA] Western Rich Tunic" mesh="TV_vlandia_armor_u" culture="Culture.vlandia" weight="0.4" Type="BodyArmor" appearance="2" value="120">
+		<ItemComponent>
+			<Armor body_armor="6" leg_armor="5" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" arm_armor="5"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+</Items>

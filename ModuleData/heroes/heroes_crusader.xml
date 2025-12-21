@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- Crusader States -->
+	<!-- clan 1: House of Ibelin -->
+	<Hero id="dead_lord_crusaderstates_1" alive="false" faction="Faction.cs_clan_crusaderstates_1"/>
+	<Hero id="lord_crusaderstates_1_1_1" spouse="Hero.dead_lord_crusaderstates_1" faction="Faction.cs_clan_crusaderstates_1"/>
+	<Hero id="lord_crusaderstates_1_2" father="Hero.dead_lord_crusaderstates_1" mother="Hero.lord_crusaderstates_1_1_1" faction="Faction.cs_clan_crusaderstates_1"/>
+	<Hero id="lord_crusaderstates_1_3" spouse="Hero.lord_crusaderstates_1_3_1" faction="Faction.cs_clan_crusaderstates_1"/>
+	<Hero id="lord_crusaderstates_1_3_1" father="Hero.lord_latin_3_1" mother="Hero.lord_latin_2_0_1" spouse="Hero.lord_crusaderstates_1_3" faction="Faction.cs_clan_crusaderstates_1"/>
+	<Hero id="lord_crusaderstates_1_4" spouse="Hero.lord_crusaderstates_1_4_1" faction="Faction.cs_clan_crusaderstates_1"/>
+	<Hero id="lord_crusaderstates_1_4_1" spouse="Hero.lord_crusaderstates_1_4" faction="Faction.cs_clan_crusaderstates_1"/>
+	<Hero id="lord_crusaderstates_1_5" faction="Faction.cs_clan_crusaderstates_1"/>
+	<Hero id="lord_crusaderstates_1_6" faction="Faction.cs_clan_crusaderstates_1"/>
+
+	<!-- clan 3: House of Poitiers-Antioch -->
+	<Hero id="lord_crusaderstates_3_1" spouse="Hero.lord_crusaderstates_3_1_1" faction="Faction.clan_crusaderstates_3"/>
+	<Hero id="lord_crusaderstates_3_1_1" spouse="Hero.lord_crusaderstates_3_1" faction="Faction.clan_crusaderstates_3"/>
+	<Hero id="lord_crusaderstates_3_2" faction="Faction.clan_crusaderstates_3"/>
+	<Hero id="lord_crusaderstates_3_3" faction="Faction.clan_crusaderstates_3"/>
+	<Hero id="lord_crusaderstates_3_4" spouse="Hero.lord_crusaderstates_3_4_1" faction="Faction.clan_crusaderstates_3"/>
+	<Hero id="lord_crusaderstates_3_4_1" spouse="Hero.lord_crusaderstates_3_4" faction="Faction.clan_crusaderstates_3"/>
+	<Hero id="lord_crusaderstates_3_4_2" father="Hero.lord_crusaderstates_3_4" mother="Hero.lord_crusaderstates_3_4_1" faction="Faction.clan_crusaderstates_3"/>
+	<Hero id="lord_crusaderstates_3_4_3" father="Hero.lord_crusaderstates_3_4" mother="Hero.lord_crusaderstates_3_4_1" faction="Faction.clan_crusaderstates_3"/>
+
+	<!-- clan 2: House of Lusignan-Jerusalem  -->
+	<Hero id="lord_crusaderstates_2_1" spouse="Hero.lord_crusaderstates_2_1_1" father="Hero.lord_crusaderstates_3_2" faction="Faction.clan_crusaderstates_2"/>
+	<Hero id="lord_crusaderstates_2_1_1" spouse="Hero.lord_crusaderstates_2_1" faction="Faction.clan_crusaderstates_2"/>
+	<Hero id="dead_lord_crusaderstates_2" alive="false" spouse="Hero.lord_crusaderstates_2_2_1" faction="Faction.clan_crusaderstates_2"/>
+	<Hero id="lord_crusaderstates_2_2_1" spouse="Hero.dead_lord_crusaderstates_2" faction="Faction.clan_crusaderstates_2"/>
+	<Hero id="lord_crusaderstates_2_2_2" father="Hero.dead_lord_crusaderstates_2" mother="Hero.lord_crusaderstates_2_2_1" faction="Faction.clan_crusaderstates_2"/>
+	<Hero id="lord_crusaderstates_2z" spouse="Hero.lord_crusaderstates_7a" faction="Faction.clan_crusaderstates_2"/>
+
+	<!-- clan 4: House of Embriaco -->
+	<Hero id="lord_crusaderstates_4_1" spouse="Hero.lord_crusaderstates_4_1_1" faction="Faction.clan_crusaderstates_4"/>
+	<Hero id="lord_crusaderstates_4_1_1" spouse="Hero.lord_crusaderstates_4_1" father="Hero.dead_lord_crusaderstates_1" faction="Faction.clan_crusaderstates_4"/>
+	<Hero id="lord_crusaderstates_4_1_2" father="Hero.lord_crusaderstates_4_1" mother="Hero.lord_crusaderstates_4_1_1" faction="Faction.clan_crusaderstates_4"/>
+	<Hero id="lord_crusaderstates_4_2" spouse="Hero.lord_crusaderstates_4_2_1" faction="Faction.clan_crusaderstates_4"/>
+	<Hero id="lord_crusaderstates_4_2_1" spouse="Hero.lord_crusaderstates_4_2" faction="Faction.clan_crusaderstates_4"/>
+	<Hero id="lord_crusaderstates_4_2_2" spouse="Hero.lord_crusaderstates_4_2_2_1" father="Hero.lord_crusaderstates_4_2_1" mother="Hero.lord_crusaderstates_4_2" faction="Faction.clan_crusaderstates_4"/>
+	<Hero id="lord_crusaderstates_4_2_2_1" spouse="Hero.lord_crusaderstates_4_2_2" faction="Faction.clan_crusaderstates_4"/>
+	<Hero id="lord_crusaderstates_4_2_2_2" father="Hero.lord_crusaderstates_4_2_2" mother="Hero.lord_crusaderstates_4_2_2_1" faction="Faction.clan_crusaderstates_4"/>
+	<Hero id="lord_crusaderstates_4_2_2_3" father="Hero.lord_crusaderstates_4_2_2" mother="Hero.lord_crusaderstates_4_2_2_1" faction="Faction.clan_crusaderstates_4"/>
+	<Hero id="lord_crusaderstates_4_2_2_4" father="Hero.lord_crusaderstates_4_2_2" mother="Hero.lord_crusaderstates_4_2_2_1" faction="Faction.clan_crusaderstates_4"/>
+
+	<!-- clan 5: House of Montfort-Toron -->
+	<Hero id="lord_crusaderstates_5_1" spouse="Hero.lord_crusaderstates_5_1_1" faction="Faction.clan_crusaderstates_5"/>
+	<Hero id="lord_crusaderstates_5_1_1" spouse="Hero.lord_crusaderstates_5_1" faction="Faction.clan_crusaderstates_5"/>
+	<Hero id="lord_crusaderstates_5_1_2" father="Hero.lord_crusaderstates_5_1" mother="Hero.lord_crusaderstates_5_1_1" faction="Faction.clan_crusaderstates_5"/>
+	<Hero id="lord_crusaderstates_5_1_3" father="Hero.lord_crusaderstates_5_1" mother="Hero.lord_crusaderstates_5_1_1" faction="Faction.clan_crusaderstates_5"/>
+	<Hero id="lord_crusaderstates_5_1_4" father="Hero.lord_crusaderstates_5_1" mother="Hero.lord_crusaderstates_5_1_1" faction="Faction.clan_crusaderstates_5"/>
+	<Hero id="lord_crusaderstates_5_2" spouse="Hero.lord_crusaderstates_5_2_1" father="Hero.lord_crusaderstates_5_1" faction="Faction.clan_crusaderstates_5"/>
+	<Hero id="lord_crusaderstates_5_2_1" spouse="Hero.lord_crusaderstates_5_2" faction="Faction.clan_crusaderstates_5"/>
+	<Hero id="lord_crusaderstates_5_2_2" father="Hero.lord_crusaderstates_5_2" mother="Hero.lord_crusaderstates_5_2_1" faction="Faction.clan_crusaderstates_5"/>
+	<Hero id="lord_crusaderstates_5_2_3" father="Hero.lord_crusaderstates_5_2" mother="Hero.lord_crusaderstates_5_2_1" faction="Faction.clan_crusaderstates_5"/>
+
+	<!-- clan 6: House of Grenier-->
+	<Hero id="lord_crusaderstates_6a" spouse="Hero.lord_crusaderstates_6b" faction="Faction.clan_crusaderstates_6"/>
+	<Hero id="lord_crusaderstates_6b" spouse="Hero.lord_crusaderstates_6a" faction="Faction.clan_crusaderstates_6"/>
+	<Hero id="lord_crusaderstates_6c" father="Hero.lord_crusaderstates_6a" mother="Hero.lord_crusaderstates_6b" faction="Faction.clan_crusaderstates_6"/>
+	<Hero id="lord_crusaderstates_6d" father="Hero.lord_crusaderstates_6a" mother="Hero.lord_crusaderstates_6b" faction="Faction.clan_crusaderstates_6"/>
+	<Hero id="lord_crusaderstates_6e" spouse="Hero.lord_crusaderstates_6f" faction="Faction.clan_crusaderstates_6"/>
+	<Hero id="lord_crusaderstates_6f" spouse="Hero.lord_crusaderstates_6e" faction="Faction.clan_crusaderstates_6"/>
+	<Hero id="lord_crusaderstates_6g" father="Hero.lord_crusaderstates_6e" mother="Hero.lord_crusaderstates_6f" faction="Faction.clan_crusaderstates_6"/>
+	<Hero id="lord_crusaderstates_6h" father="Hero.lord_crusaderstates_6e" mother="Hero.lord_crusaderstates_6f" faction="Faction.clan_crusaderstates_6"/>
+	<Hero id="lord_crusaderstates_6i" father="Hero.lord_crusaderstates_6e" mother="Hero.lord_crusaderstates_6f" faction="Faction.clan_crusaderstates_6"/>
+
+	<!-- clan 7: House of Brienne d'Acre-->
+	<Hero id="lord_crusaderstates_7a" spouse="Hero.lord_crusaderstates_2z" faction="Faction.clan_crusaderstates_7"/>
+	<Hero id="lord_crusaderstates_7b" father="Hero.lord_crusaderstates_7a" mother="Hero.lord_crusaderstates_2z" faction="Faction.clan_crusaderstates_7"/>
+	<Hero id="lord_crusaderstates_7c" father="Hero.lord_crusaderstates_7a" mother="Hero.lord_crusaderstates_2z" faction="Faction.clan_crusaderstates_7"/>
+	<Hero id="lord_crusaderstates_7d" spouse="Hero.lord_crusaderstates_7e" faction="Faction.clan_crusaderstates_7"/>
+	<Hero id="lord_crusaderstates_7e" spouse="Hero.lord_crusaderstates_7d" faction="Faction.clan_crusaderstates_7"/>
+
+</Heroes>

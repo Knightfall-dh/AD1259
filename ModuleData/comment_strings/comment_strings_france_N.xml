@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<strings>
+	<string id="str_comment_vassal_introduces_self.vlandia" text="{=suiFqTxB}I am {CONVERSATION_CHARACTER.LINK} of the house of {CLAN_NAME}, my {?PLAYER.GENDER}lady{?}lord{\?}, and I am honored to serve you.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_noble_introduces_self.vlandia" text="{=WH8P3Y5F}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_noble_introduces_self_and_clan.vlandia" text="{=s1FVPS5D}I am {CONVERSATION_CHARACTER.LINK}, of the house of {CLAN_NAME}. Our family has served the French for generations.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_noble_introduces_self_and_clan.vlandia_2" text="{=cMO9JXvk}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}. We hold our lands in fief to {FIRST_NAME}, and we honor our oaths of fealty.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+			<tag tag_name="HonorTag" weight="1"/>
+			<tag tag_name="PersonaEarnestTag" weight="+1"/>
+		</tags>
+	</string>
+	<string id="str_comment_noble_introduces_self_and_clan.vlandia_honor" text="{=X76WW46v}I am {CONVERSATION_CHARACTER.LINK}, of the house of {CLAN_NAME}. Our family has stood in the House of Lords and discharged its duties honorably since the first days of the French Kingdom.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+			<tag tag_name="HonorTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_noble_introduces_self_and_clan.vlandia_mercy" text="{=kWot38iu}I am {CONVERSATION_CHARACTER.LINK}, of the house of {CLAN_NAME}. Though one should not be too proud of one's lineage, I am glad to say that we have always taken seriously our duty to protect the common folk of the French.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+			<tag tag_name="MercyTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_noble_introduces_self_and_clan.vlandia_boasting" text="{=FFXqPFwl}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}, one of the most illustrious families in the annals of Europe.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+			<tag tag_name="UncharitableTag"/>
+		</tags>
+	</string>
+	<string id="str_comment_noble_introduces_self_and_clan.vlandia_boasting_cruel" text="{=FFXqPFwl}I am {CONVERSATION_CHARACTER.LINK}, of the house of {CLAN_NAME}, one of the most illustrious families in the annals of the French. The Saracens we have slain, and the glory we have won, is second to none.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+			<tag tag_name="UncharitableTag"/>
+			<tag tag_name="CruelTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_comment_noble_introduces_self_and_clan.vlandia_boasting_ironic" text="{=pn79h0aj}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}. Our line has served France in many a battle, and the English know that all too well.">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+			<tag tag_name="PersonaIronicTag" weight="+1"/>
+			<tag tag_name="CruelTag" weight="1"/>
+		</tags>
+	</string>
+	<string id="str_liege_title.vlandia" text="{=80C0gWJ4}King of France">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+		</tags>
+	</string>
+	<string id="str_liege_title_female.vlandia" text="{=Tvy4UvJC}Queen of France">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+		</tags>
+	</string>
+</strings>

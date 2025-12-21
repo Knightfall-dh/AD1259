@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <!-- Villagers -->
+    <MBPartyTemplate id="villager_aragonese_template">
+        <stacks>
+            <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_aragonese"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Lords & Town Garrison -->
+    <MBPartyTemplate id="kingdom_hero_party_ARAGON_template">
+        <stacks>
+      <PartyTemplateStack min_value="6" max_value="13" troop="NPCCharacter.aragon_infantry_root"/>  <!-- Aragonese Levied Peasant -->
+      <PartyTemplateStack min_value="5" max_value="11" troop="NPCCharacter.aragon_infantry_root0"/>  <!-- Aragonese Levy Spearman -->
+      <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.aragon_infantry_root00"/>  <!-- Aragonese Spearman -->
+      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.aragon_infantry_root000"/>  <!-- Aragonese Senior Spearman -->
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.aragon_infantry_root0000"/>  <!-- Aragonese Sergeant Spearman -->
+      <PartyTemplateStack min_value="4" max_value="9" troop="NPCCharacter.aragon_infantry_root1"/>  <!-- Aragonese Levy Infantry -->
+      <PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.aragon_infantry_root10"/>  <!-- Aragonese Infantry -->
+      <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.aragon_infantry_root100"/>  <!-- Aragonese Senior Infantry -->
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.aragon_infantry_root1000"/>  <!-- Aragonese Heavy Infantry -->
+      <PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.aragon_archer_root"/>  <!-- Aragonese Levy Crossbowman -->
+      <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.aragon_archer_root1"/>  <!-- Aragonese Crossbowman -->
+      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.aragon_archer_root10"/>  <!-- Aragonese Senior Crossbowman -->
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aragon_archer_root100"/>  <!-- Aragonese Veteran Crossbowman -->
+      <PartyTemplateStack min_value="2" max_value="5" troop="NPCCharacter.aragon_archer_root0"/>  <!-- Aragonese Skirmisher -->
+      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.aragon_archer_root00"/>  <!-- Aragonese Senior Skirmisher -->
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aragon_archer_root000"/>  <!-- Aragonese Veteran Skirmisher -->
+      <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.aragon_elite_root"/>  <!-- Aragonese Horseman -->
+      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.aragon_elite_root0"/>  <!-- Aragonese Squire -->
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aragon_elite_root00"/>  <!-- Aragonese Lesser Knight -->
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aragon_elite_root000"/>  <!-- Aragonese Knight -->
+    </stacks>
+    </MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_ARAGON_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.aragon_infantry_root"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.aragon_infantry_root0"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.aragon_elite_root"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aragon_elite_root00"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_ARAGON_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.aragon_infantry_root"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.aragon_infantry_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.aragon_elite_root"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.aragon_elite_root00"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_ARAGON_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.aragon_infantry_root"/>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.aragon_infantry_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.aragon_elite_root"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.aragon_elite_root00"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.aragon_elite_root000"/>
+		</stacks>
+	</MBPartyTemplate>
+
+    <!-- Caravans -->
+    <MBPartyTemplate id="caravan_template_aragonese">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_aragonese"/>
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_aragonese"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_aragonese"/>
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="elite_caravan_template_aragonese">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_aragonese"/>
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_aragonese"/>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_aragonese"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_aragonese"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Town Militia -->
+    <MBPartyTemplate id="militia_aragonese_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aragonese_militia_spearman"/>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aragonese_militia_archer"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Rebels -->
+    <MBPartyTemplate id="rebels_aragonese_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aragon_infantry_root"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Vassal Reward Troops-->
+    <MBPartyTemplate id="vassal_reward_troops_aragonese">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.aragon_elite_root000"/>
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.aragon_elite_root00"/>
+        </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<Kingdom id="hungary"
+	         initial_home_settlement="Settlement.town_fehervar"
+	         owner="Hero.lord_hungary_1_1"
+	         banner_key="29.14.33.3142.1953.913.1103.1.0.0.505.14.116.1283.670.1315.475.0.0.0.505.14.116.930.738.367.1109.0.0.0.510.116.116.1800.18.764.764.0.0.90.510.116.116.1800.18.764.764.0.0.0.510.35.116.292.194.902.585.0.0.90.504.35.116.64.51.902.457.0.0.180.510.35.116.154.194.902.519.0.0.0.504.35.116.64.51.970.520.0.0.90.504.35.116.64.51.837.520.0.0.270.510.35.116.188.194.902.618.0.0.0.504.35.116.64.51.984.618.0.0.90.504.35.116.64.51.821.618.0.0.270.504.35.116.64.51.902.713.0.0.0.510.35.116.292.194.630.965.0.0.90.504.35.116.64.51.630.837.0.0.180.510.35.116.154.194.630.899.0.0.0.504.35.116.64.51.697.900.0.0.90.504.35.116.64.51.564.900.0.0.270.510.35.116.188.194.630.998.0.0.0.504.35.116.64.51.711.998.0.0.90.504.35.116.64.51.548.998.0.0.270.504.35.116.64.51.630.1093.0.0.0.503.2.116.100.130.630.1112.0.0.0.514.2.116.180.100.630.1130.0.0.0.505.14.116.180.48.630.1153.0.0.0.503.2.116.100.130.902.742.0.0.0.514.2.116.180.100.902.760.0.0.0.505.14.116.180.46.902.784.0.0.0"
+	         primary_banner_color="0xff000000"
+	         secondary_banner_color="0xff000000"
+	         color="FF8d2a1c"
+	         color2="FFf5f5f5"
+	         culture="Culture.hungarian"
+	         settlement_banner_mesh="encounter_flag_f"
+	         flag_mesh="info_screen_flags_b"
+	         name="{=hungaryFactionName}Kingdom of Hungary"
+	         short_name="{=hungaryFactionShortName}Kingdom of Hungary"
+	         title="{=hungaryFactionTitle}Kingdom of Hungary"
+	         ruler_title="{=hungaryFactionRulerTitle}King"
+	         text="{=hungaryFactionText}Rich in uncultivated lands, silver, gold, and salt deposits, Hungary became the preferred destination of mainly German, Italian, and French colonists. These immigrants were mostly peasants who settled in villages, but some were craftsmen and merchants, who established most of the cities of the Kingdom. Their arrival played a key role in the shaping of an urban lifestyle, habits, and culture in medieval Hungary. The location of the kingdom at the crossroads of international trade routes favored the coexistence of several cultures.">
+		<relationships>
+           
+        </relationships>
+		<policies>
+			<policy id="policy_precarial_land_tenure"/>
+			<policy id="policy_grazing_rights"/>
+			<policy id="policy_forgiveness_of_debts"/>
+			<policy id="policy_imperial_towns"/>
+			<policy id="policy_serfdom"/>
+		</policies>
+	</Kingdom>
+</Kingdoms>

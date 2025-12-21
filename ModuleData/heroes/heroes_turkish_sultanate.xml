@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+
+  	
+	<!-- clan 1 -->
+	<Hero id="dead_lord_rum_1_a" alive="false" spouse="Hero.dead_lord_rum_1_b" faction="Faction.clan_rum_1"/>
+	<Hero id="dead_lord_rum_1_b" alive="false" spouse="Hero.dead_lord_rum_1_a" faction="Faction.clan_rum_1"/>
+
+	<Hero id="lord_rum_1_a" father="Hero.dead_lord_rum_1_a" mother="Hero.dead_lord_rum_1_b" spouse="Hero.lord_rum_1_b" faction="Faction.clan_rum_1" text="{=alfonsoXDescription}Theobald was the eldest son of Theobald I of rum and his third wife, Margaret of Bourbon. He succeeded to the throne as 14 years old."/>
+	<Hero id="lord_rum_1_b" spouse="Hero.lord_rum_1_a" faction="Faction.clan_rum_1"/>
+	<Hero id="lord_rum_1_ab" father="Hero.lord_rum_1_a" mother="Hero.lord_rum_1_b" faction="Faction.clan_rum_1"/>
+
+	<Hero id="lord_rum_1_c" father="Hero.dead_lord_rum_1_a" mother="Hero.dead_lord_rum_1_b" spouse="Hero.lord_rum_1_d" faction="Faction.clan_rum_1"/>
+	<Hero id="lord_rum_1_d" spouse="Hero.lord_rum_1_c" faction="Faction.clan_rum_1"/>
+	<Hero id="lord_rum_1_cd1" father="Hero.lord_rum_1_c" mother="Hero.lord_rum_1_d" faction="Faction.clan_rum_1"/>
+	<Hero id="lord_rum_1_cd2" father="Hero.lord_rum_1_c" mother="Hero.lord_rum_1_d" faction="Faction.clan_rum_1"/>
+
+	<Hero id="lord_rum_1_e" father="Hero.dead_lord_rum_1_a" mother="Hero.dead_lord_rum_1_b" spouse="Hero.lord_rum_1_f" faction="Faction.clan_rum_1"/>
+	<Hero id="lord_rum_1_f" spouse="Hero.lord_rum_1_e" faction="Faction.clan_rum_1"/>
+	<Hero id="lord_rum_1_ef1" father="Hero.lord_rum_1_e" mother="Hero.lord_rum_1_f" faction="Faction.clan_rum_1"/>
+	<Hero id="lord_rum_1_ef2" father="Hero.lord_rum_1_e" mother="Hero.lord_rum_1_f" faction="Faction.clan_rum_1"/>
+
+	<!-- clan 2 -->
+	<Hero id="dead_lord_rum_2_a" alive="false" spouse="Hero.dead_lord_rum_2_b" faction="Faction.clan_rum_2"/>
+	<Hero id="dead_lord_rum_2_b" alive="false" spouse="Hero.dead_lord_rum_2_a" faction="Faction.clan_rum_2"/>
+	<Hero id="lord_rum_2_a" father="Hero.dead_lord_rum_2_a" mother="Hero.dead_lord_rum_2_b" spouse="Hero.lord_rum_2_b" faction="Faction.clan_rum_2"/>
+	<Hero id="lord_rum_2_b" spouse="Hero.lord_rum_2_a" faction="Faction.clan_rum_2"/>
+	<Hero id="lord_rum_2_c" father="Hero.lord_rum_2_a" mother="Hero.lord_rum_2_b" faction="Faction.clan_rum_2"/>
+	<Hero id="lord_rum_2_d" father="Hero.lord_rum_2_a" mother="Hero.lord_rum_2_b" faction="Faction.clan_rum_2"/>
+	<Hero id="lord_rum_2_e" father="Hero.lord_rum_2_a" mother="Hero.lord_rum_2_b" faction="Faction.clan_rum_2"/>
+	<Hero id="lord_rum_2_f" father="Hero.lord_rum_2_a" mother="Hero.lord_rum_2_b" faction="Faction.clan_rum_2"/>
+
+	<!-- clan 3 -->
+	<Hero id="lord_rum_3_a" spouse="Hero.lord_rum_3_b" faction="Faction.clan_rum_3"/>
+	<Hero id="lord_rum_3_b" spouse="Hero.lord_rum_3_a" faction="Faction.clan_rum_3"/>
+	<Hero id="lord_rum_3_c" father="Hero.lord_rum_3_a" mother="Hero.lord_rum_3_b" faction="Faction.clan_rum_3"/>
+	<Hero id="lord_rum_3_d" father="Hero.lord_rum_3_a" mother="Hero.lord_rum_3_b" faction="Faction.clan_rum_3"/>
+	<Hero id="lord_rum_3_e" father="Hero.lord_rum_3_a" mother="Hero.lord_rum_3_b" faction="Faction.clan_rum_3"/>
+
+</Heroes>

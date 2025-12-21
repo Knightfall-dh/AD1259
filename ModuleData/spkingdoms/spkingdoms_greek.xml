@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<Kingdom id="nicaea"
+	         initial_home_settlement="Settlement.town_nicaea"
+	         owner="Hero.lord_nicaea_1_1"
+	         banner_key="11.142.14.3497.3497.684.682.0.0.0.510.15.15.2728.889.764.764.0.0.0.510.15.15.2728.889.764.764.0.0.90.510.15.15.130.217.942.548.0.0.0.510.15.15.130.217.942.548.0.0.90.527.15.15.176.207.942.559.0.0.90.527.15.15.176.207.942.539.0.0.270.510.15.15.130.217.586.548.0.0.0.510.15.15.130.217.586.548.0.0.90.527.15.15.176.207.586.559.0.0.90.527.15.15.176.207.586.539.0.0.270.510.15.15.130.217.586.980.0.0.0.510.15.15.130.217.586.980.0.0.90.527.15.15.176.207.586.991.0.0.90.527.15.15.176.207.586.971.0.0.270.510.15.15.130.217.942.980.0.0.0.510.15.15.130.217.942.980.0.0.90.527.15.15.176.207.942.991.0.0.90.527.15.15.176.207.942.971.0.0.270"
+	         primary_banner_color="0xff000000"
+	         secondary_banner_color="0xff000000"
+	         color="FF8d2a1c"
+	         color2="FFf7bf47"
+	         culture="Culture.greek"
+	         settlement_banner_mesh="encounter_flag_a"
+	         flag_mesh="info_screen_flags_a"
+	         name="{=nicaeaFactionName}Roman Empire of Nicaea"
+	         short_name="{=nicaeaFactionShortName}Nicene Empire"
+	         title="{=nicaeaFactionTitle}Roman Empire of Nicaea"
+	         ruler_title="{=nicaeaFactionRulerTitle}Basileus"
+	         text="{=nicaeaFactionText}In 1204, Byzantine emperor Alexios V Ducas Murtzouphlos fled Constantinople after crusaders invaded the city. Soon after, Theodore I Lascaris, the son-in-law of Emperor Alexios III Angelos, was proclaimed emperor but he too, realizing the situation in Constantinople was hopeless, fled to the city of Nicaea in Bithynia.">
+		<relationships>
+            
+        </relationships>
+		<policies>
+			<policy id="policy_senate"/>
+			<policy id="policy_military_coronae"/>
+			<policy id="policy_citizenship"/>
+			<policy id="policy_magistrates"/>
+		</policies>
+	</Kingdom>
+</Kingdoms>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <!-- Villagers -->
+    <MBPartyTemplate id="villager_latin_template">
+        <stacks>
+            <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_latin"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Lords & Town Garrison -->
+    <MBPartyTemplate id="kingdom_hero_party_LATIN_template">
+        <stacks>
+            <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.latin_basic_root"/> <!-- Latin Levy -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.latin_basic_root0"/> <!-- Latin Footman -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.latin_basic_root00"/> <!-- Latin Light Infantryman -->
+            <PartyTemplateStack min_value="3" max_value="8" troop="NPCCharacter.latin_basic_root000"/> <!-- Latin Veteran Light Infantryman -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.latin_basic_root1"/> <!-- Latin Crossbowman -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.latin_basic_root10"/> <!-- Latin Veteran Crossbowman -->
+            <PartyTemplateStack min_value="8" max_value="16" troop="NPCCharacter.latin_elite_root"/> <!-- Latin Horseman -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.latin_elite_root0"/> <!-- Latin Light Lancer -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.latin_elite_root1"/> <!-- Latin Medium Horseman -->
+            <PartyTemplateStack min_value="2" max_value="8" troop="NPCCharacter.merc_euro_guisarmer"/> <!-- Euro Mercenary Guisarmer -->
+            <PartyTemplateStack min_value="2" max_value="8" troop="NPCCharacter.merc_euro_crossbowman"/> <!-- Euro Mercenary Crossbowman -->
+            <PartyTemplateStack min_value="8" max_value="14" troop="NPCCharacter.merc_genoese_cbow"/> <!-- Genoese Crossbowman -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.merc_genoese_cbow_veteran"/> <!-- Genoese Veteran Crossbowman -->
+            <PartyTemplateStack min_value="5" max_value="15" troop="NPCCharacter.merc_balkan_spear1"/> <!-- Balkan Mercenary Spearman -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.merc_balkan_spear2"/> <!-- Veteran Balkan Mercenary Spearman -->
+            <PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.merc_balkan_spear3"/> <!-- Elite Balkan Mercenary Spearman -->
+            <PartyTemplateStack min_value="5" max_value="15" troop="NPCCharacter.merc_balkan_axe1"/> <!-- Balkan Mercenary Guisarmer -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.merc_balkan_axe2"/> <!-- Veteran Balkan Mercenary Guisarmer -->
+            <PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.merc_balkan_axe3"/> <!-- Elite Balkan Mercenary Guisarmer -->
+            <PartyTemplateStack min_value="5" max_value="15" troop="NPCCharacter.merc_balkan_archer1"/> <!-- Balkan Mercenary Archer -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.merc_balkan_archer2"/> <!-- Veteran Balkan Mercenary Archer -->
+            <PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.merc_balkan_archer3"/> <!-- Elite Balkan Mercenary Archer -->
+            <PartyTemplateStack min_value="1" max_value="5" troop="NPCCharacter.france_elite_root00"/> <!-- French Lesser Knight -->
+           </stacks>
+    </MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_LATIN_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.latin_basic_root"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.latin_basic_root0"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.latin_elite_root"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.latin_elite_root0"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_LATIN_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.latin_basic_root"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.latin_basic_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.latin_elite_root"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.latin_elite_root0"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_LATIN_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.latin_basic_root"/>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.latin_basic_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.latin_elite_root"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.latin_elite_root0"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.latin_elite_root1"/>
+		</stacks>
+	</MBPartyTemplate>
+
+    <!-- Caravans -->
+    <MBPartyTemplate id="caravan_template_latin">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_latin"/>
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_latin"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_latin"/>
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="elite_caravan_template_latin">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_latin"/>
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_latin"/>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_latin"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_latin"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Town Militia -->
+    <MBPartyTemplate id="militia_latin_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.latin_militia_spearman"/>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.latin_militia_archer"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Rebels -->
+    <MBPartyTemplate id="rebels_latin_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.latin_basic_root"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Vassal Reward Troops-->
+    <MBPartyTemplate id="vassal_reward_troops_latin">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.france_elite_root00"/>
+            <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.latin_basic_root10"/>
+        </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

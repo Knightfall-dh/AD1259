@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- Hafsid Kingdom of Ifriqiya -->
+	<!-- Banu Hafs -->
+	<Hero id="dead_lord_hafsid_1" alive="false" faction="Faction.clan_hafsid_1"/>
+	<!-- Abu Zakariya Yahya, First Hafsid Sultan of Ifriqiya -->
+	<!-- Deceased, father of clan ruler -->
+	<Hero id="lord_hafsid_1_1" father="Hero.dead_lord_hafsid_1" spouse="Hero.lord_hafsid_1_1_1" faction="Faction.clan_hafsid_1"/>
+	<!-- Muhammad I al-Mustansir, Hafsid Caliph of Ifriqiya -->
+	<Hero id="lord_hafsid_1_1_1" spouse="Hero.lord_hafsid_1_1" faction="Faction.clan_hafsid_1"/>
+	<!-- Shifa, wife of Caliph Muhammad I -->
+	<Hero id="lord_hafsid_1_1_2" mother="Hero.lord_hafsid_1_1_1" father="Hero.lord_hafsid_1_1" faction="Faction.clan_hafsid_1"/>
+	<!-- Abu Zakariya Yahya II -->
+	<!-- Underage, 15 -->
+	<Hero id="lord_hafsid_1_1_3" mother="Hero.lord_hafsid_1_1_1" father="Hero.lord_hafsid_1_1" faction="Faction.clan_hafsid_1"/>
+	<!-- Banah Hafs bin Muhammad -->
+	<!-- Noncombatant Female -->
+	<!-- Underage, 13 -->
+	<Hero id="lord_hafsid_1_2" father="Hero.dead_lord_hafsid_1" faction="Faction.clan_hafsid_1"/>
+	<!-- Emir Abu Hafs Umar bin Yahya -->
+	<Hero id="lord_hafsid_1_3" father="Hero.dead_lord_hafsid_1" faction="Faction.clan_hafsid_1"/>
+	<!-- Emir Abu Ishaq Ibrahim bin Yahya -->
+	<Hero id="lord_hafsid_1_4" spouse="Hero.lord_hafsid_1_4_1" faction="Faction.clan_hafsid_1"/>
+	<!-- Abu Ghadir al-Abbas Hassan -->
+	<Hero id="lord_hafsid_1_4_1" spouse="Hero.lord_hafsid_1_4" faction="Faction.clan_hafsid_1"/>
+	<!-- Mariyah, wife of Abu al-Abbas Hassan -->
+	<Hero id="lord_hafsid_1_4_2" father="Hero.lord_hafsid_1_4" mother="Hero.lord_hafsid_1_4_1" faction="Faction.clan_hafsid_1"/>
+	<!-- Ghadir bin Hassan -->
+	<Hero id="lord_hafsid_1_4_3" father="Hero.lord_hafsid_1_4" mother="Hero.lord_hafsid_1_4_1" faction="Faction.clan_hafsid_1"/>
+	<!-- Bushra bin Hassan -->
+	<!-- Banu Butrus -->
+	<Hero id="lord_hafsid_2_1" spouse="Hero.lord_hafsid_2_1_1" faction="Faction.clan_hafsid_2"/>
+	<!-- Emir Yahya Butrus al-Mutawakkil -->
+	<Hero id="lord_hafsid_2_1_1" spouse="Hero.lord_hafsid_2_1" faction="Faction.clan_hafsid_2"/>
+	<!-- Halwa, wife of Emir Yahya Butrus al-Mutawakkil -->
+	<Hero id="lord_hafsid_2_1_2" mother="Hero.lord_hafsid_2_1_1" father="Hero.lord_hafsid_2_1" faction="Faction.clan_hafsid_2"/>
+	<!-- Emir Zakariya Butrus bin Yahya -->
+	<Hero id="lord_hafsid_2_1_3" mother="Hero.lord_hafsid_2_1_1" father="Hero.lord_hafsid_2_1" faction="Faction.clan_hafsid_2"/>
+	<!-- Emir Hassan al-Aziz Butrus bin Yahya -->
+	<Hero id="lord_hafsid_2_2" spouse="Hero.lord_hafsid_2_2_1" faction="Faction.clan_hafsid_2"/>
+	<!-- Emir Ahmad Butrus al-Mutawakkil -->
+	<Hero id="lord_hafsid_2_2_1" spouse="Hero.lord_hafsid_2_2" faction="Faction.clan_hafsid_2"/>
+	<!-- Salma, wife of Emir Yahya Butrus al-Mutawakkil -->
+	<Hero id="lord_hafsid_2_2_2" mother="Hero.lord_hafsid_2_2_1" father="Hero.lord_hafsid_2_2" faction="Faction.clan_hafsid_2"/>
+	<!-- Zulaikha Butrus bin Ahmad -->
+	<!-- Banu Gamal -->
+	<Hero id="lord_hafsid_3_1" faction="Faction.clan_hafsid_3"/>
+	<!-- Emir Ismail Gamal an-Nasr -->
+	<Hero id="lord_hafsid_3_1_1" spouse="Hero.lord_hafsid_3_1_1_1" father="Hero.lord_hafsid_3_1" faction="Faction.clan_hafsid_3"/>
+	<!-- Emir Abu Ahmad Hashim ibn Gamal Abd-Allah -->
+	<Hero id="lord_hafsid_3_1_1_1" spouse="Hero.lord_hafsid_3_1_1" faction="Faction.clan_hafsid_3"/>
+	<!-- Jaida, wife of Emir Abu Ahmad Hashim ibn Gamal Abd-Allah -->
+	<Hero id="lord_hafsid_3_1_1_2" spouse="Hero.lord_hafsid_3_1_1_2_1" father="Hero.lord_hafsid_3_1_1" mother="Hero.lord_hafsid_3_1_1_1" faction="Faction.clan_hafsid_3"/>
+	<!-- Emir Ahmad ibn Hashim ibn Gamal -->
+	<Hero id="lord_hafsid_3_1_1_2_1" spouse="Hero.lord_hafsid_3_1_1_2" faction="Faction.clan_hafsid_3"/>
+	<!-- Khayra, wife of Emir Ahmad ibn Hashim ibn Gamal -->
+	<Hero id="lord_hafsid_3_1_1_3" father="Hero.lord_hafsid_3_1_1" mother="Hero.lord_hafsid_3_1_1_1" faction="Faction.clan_hafsid_3"/>
+	<!-- Emir Sulayman Abd-Allah ibn Hashim ibn Gamal -->
+	<!-- Banu Hanif -->
+	<Hero id="lord_hafsid_4_1" spouse="Hero.lord_hafsid_4_1_1" faction="Faction.clan_hafsid_4"/>
+	<!-- Emir Bakr Hanif Abd al-Wahid -->
+	<Hero id="lord_hafsid_4_1_1" spouse="Hero.lord_hafsid_4_1" faction="Faction.clan_hafsid_4"/>
+	<!-- Sanaa, wife of Emir Bakr Hanif Abd al-Wahid -->
+	<Hero id="lord_hafsid_4_1_2" mother="Hero.lord_hafsid_4_1_1" father="Hero.lord_hafsid_4_1" faction="Faction.clan_hafsid_4"/>
+	<!-- Hassan Hanif ibn Bakr Abd al-Wahid -->
+	<Hero id="lord_hafsid_4_1_3" mother="Hero.lord_hafsid_4_1_1" father="Hero.lord_hafsid_4_1" faction="Faction.clan_hafsid_4"/>
+	<!-- Medina Hanif ibn Bakr Abd al-Wahid -->
+</Heroes>

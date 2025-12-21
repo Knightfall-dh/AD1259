@@ -1,0 +1,579 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<SPCultures>
+	<Culture id="empire"
+	         name="{=sicilianCulture}Italian"
+	         is_main_culture="true"
+	         color="0xffFFFFFF"
+	         color2="0xff111112"
+	         elite_basic_troop="NPCCharacter.italy_elite_root"
+	         basic_troop="NPCCharacter.italy_infantry_root"
+	         melee_militia_troop="NPCCharacter.imperial_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.imperial_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.imperial_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.imperial_militia_veteran_archer"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_empire_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_ITALY_template"
+	         settlement_patrol_template_level_1="PartyTemplate.patrol_party_ITALY_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_ITALY_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_ITALY_template_level_3"
+	         militia_party_template="PartyTemplate.militia_empire_template"
+	         rebels_party_template="PartyTemplate.rebels_empire_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_empire"
+	         prosperity_bonus="1"
+	         encounter_background_mesh="encounter_empire"
+	         faction_banner_key="11.40.145.1750.1750.764.764.0.0.0.503.142.40.1.1.764.764.0.0.0.505.142.40.600.140.764.764.0.0.0.505.142.40.720.140.764.764.0.0.90.504.142.40.390.400.763.504.0.0.180.504.142.40.390.400.763.1024.0.1.0.504.142.40.390.300.974.764.0.1.90.504.142.40.390.300.554.764.0.0.270.506.40.40.313.375.962.617.0.0.297.506.40.40.313.398.885.548.0.0.348.506.40.40.313.398.643.548.0.1.11.506.40.40.313.375.565.617.0.1.62.506.40.40.313.375.963.906.0.1.-118.506.40.40.313.414.881.983.0.1.189.506.40.40.313.422.646.991.0.0.170.506.40.40.313.375.565.906.0.0.117"
+	         text="{=X0kKBzsW}Unused in the game."
+	         tournament_master="NPCCharacter.tournament_master_empire"
+	         villager="NPCCharacter.villager_empire"
+	         caravan_master="NPCCharacter.caravan_master_empire"
+	         caravan_guard="NPCCharacter.caravan_guard_empire"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_empire"
+	         prison_guard="NPCCharacter.prison_guard_empire"
+	         guard="NPCCharacter.guard_empire"
+	         blacksmith="NPCCharacter.blacksmith_empire"
+	         weaponsmith="NPCCharacter.weaponsmith_empire"
+	         townswoman="NPCCharacter.townswoman_empire"
+	         townswoman_infant="NPCCharacter.townswoman_infant_empire"
+	         townswoman_child="NPCCharacter.townswoman_child_empire"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_empire"
+	         townsman="NPCCharacter.townsman_empire"
+	         townsman_infant="NPCCharacter.townsman_infant_empire"
+	         townsman_child="NPCCharacter.townsman_child_empire"
+	         village_woman="NPCCharacter.village_woman_empire"
+	         villager_male_child="NPCCharacter.villager_child_empire"
+	         villager_male_teenager="NPCCharacter.villager_teenager_empire"
+	         villager_female_child="NPCCharacter.village_woman_child_empire"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_empire"
+	         townsman_teenager="NPCCharacter.townsman_teenager_empire"
+	         ransom_broker="NPCCharacter.ransom_broker_empire"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_empire"
+	         merchant_notary="NPCCharacter.merchant_notary_empire"
+	         artisan_notary="NPCCharacter.artisan_notary_empire"
+	         preacher_notary="NPCCharacter.preacher_notary_empire"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_empire"
+	         shop_worker="NPCCharacter.shop_worker_empire"
+	         tavernkeeper="NPCCharacter.tavernkeeper_empire"
+	         taverngamehost="NPCCharacter.taverngamehost_empire"
+	         musician="NPCCharacter.musician_empire"
+	         tavern_wench="NPCCharacter.tavern_wench_empire"
+	         armorer="NPCCharacter.armorer_empire"
+	         horseMerchant="NPCCharacter.horseMerchant_empire"
+	         barber="NPCCharacter.barber_empire"
+	         merchant="NPCCharacter.merchant_empire"
+	         beggar="NPCCharacter.beggar_empire"
+	         female_beggar="NPCCharacter.female_beggar_empire"
+	         female_dancer="NPCCharacter.female_dancer_empire"
+	         default_battle_equipment_roster="EquipmentRoster.emp_civ_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.emp_civ_template_default"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+	         duel_preset_equipment_roster="EquipmentRoster.emp_duel_preset_template"
+	         marriage_bride_equipment_roster="EquipmentRoster.marriage_female_emp_cutscene_template"
+	         board_game_type="Tablut"
+	         default_character_creation_body_property="BodyProperty.default_character_creation_body_property_empire"
+	         start_point_position_x="497"
+	         start_point_position_y="934">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_empire"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_empire"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<vassal_reward_items>
+			<item id="Item.justicier_2hsword"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.iron_spatha_sword_t2"/>
+			<item id="Item.empire_sword_1_t2"/>
+			<item id="Item.empire_sword_2_t3"/>
+			<item id="Item.empire_sword_6_t5"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_senate"/>
+		</default_policies>
+		<male_names>
+			<name name="{=yIeBAfwv}Abramo"/>
+			<name name="{=xSSjvElh}Adamo"/>
+			<name name="{=cHvPetgg}Abrammu"/>
+			<name name="{=gJfOceKX}Adelfu"/>
+			<name name="{=GdhMybnf}Adelchi"/>
+			<name name="{=qkPuoPmr}Agnolo"/>
+			<name name="{=wydzVcgz}Albertuccio"/>
+			<name name="{=wRBwHorH}Adalbertu"/>
+			<name name="{=nyABevRd}Achilli"/>
+			<name name="{=ugrAnkXR}Alfreduccio"/>
+			<name name="{=fxdoomkb}Amadore"/>
+			<name name="{=qdgsCFfS}Amerigotto"/>
+			<name name="{=UnEIfeAa}Agatuni"/>
+			<name name="{=ftaHEBoj}Agustinu"/>
+			<name name="{=ljehHSpI}Albertu"/>
+			<name name="{=daCxrALu}Barnabba"/>
+			<name name="{=PcIyiUzs}Bartolomiu"/>
+			<name name="{=wIOIGitR}Basiliu"/>
+			<name name="{=pegSfhFP}Bàrtulu"/>
+			<name name="{=HSVdpAqn}Benedettu"/>
+			<name name="{=aDKIipBB}Benedittu"/>
+			<name name="{=lgOyFrzA}Bertuccio"/>
+			<name name="{=qqNEfJGZ}Bernarduccio"/>
+			<name name="{=NLnGVvCB}Bonfante"/>
+			<name name="{=QbCBbrll}Bonfiglio"/>
+			<name name="{=LmJyBpTE}Bonfilius"/>
+			<name name="{=oIrZzHkB}Braccio"/>
+			<name name="{=ZBpgCiLA}Buonamico"/>
+			<name name="{=vNOngjVF}Bernarduzzu"/>
+			<name name="{=ZSgIDyTT}Birnardu"/>
+			<name name="{=nICqAWnr}Cabbrieli"/>
+			<name name="{=zYHALFMn}Caiu"/>
+			<name name="{=DdkeOUej}Callistu"/>
+			<name name="{=XTbooIPl}Carlotto"/>
+			<name name="{=YaaMIFkX}Carluccio"/>
+			<name name="{=BDlLIajK}Calandro"/>
+			<name name="{=pUjAlNeR}Cesarotto"/>
+			<name name="{=jBFCoIOG}Cherubino"/>
+			<name name="{=SUiOsnyq}Chiaro"/>
+			<name name="{=hQDjdCSJ}Clario"/>
+			<name name="{=YTRnswwQ}Cosmael"/>
+			<name name="{=wsMEpZSN}Cristianuccio"/>
+			<name name="{=cMQpTmTA}Cristofano"/>
+			<name name="{=CrYourpH}Cosimuccio"/>
+			<name name="{=UbwDqefq}Camillu"/>
+			<name name="{=YXuURWfA}Carluzzu"/>
+			<name name="{=uKGiNkWw}Casimiru"/>
+			<name name="{=mglAXmPN}Cassiu"/>
+			<name name="{=qbdBBlxB}Cataldo"/>
+			<name name="{=jYeocEyz}Daviduccio"/>
+			<name name="{=AEaGWvjN}Dolfin"/>
+			<name name="{=jBfqtdlg}Donatuccio"/>
+			<name name="{=zcTkaJXM}Duccio"/>
+			<name name="{=pTJIDIhU}Elmuccio"/>
+			<name name="{=qIRwSVlE}Bonifacio"/>
+			<name name="{=VMxgZrWj}Ciuvanni"/>
+			<name name="{=akTpAnEL}Cristòfaru"/>
+			<name name="{=GcOhpDxr}Cristòfiru"/>
+			<name name="{=NagJsvgW}Damianu"/>
+			<name name="{=bvZEksYd}Danieli"/>
+			<name name="{=KfIjVFRm}Dariu"/>
+			<name name="{=prrFnJKl}Daviddi"/>
+			<name name="{=KtUGNBbA}Davidi"/>
+			<name name="{=EVZZZGPF}Demetriu"/>
+			<name name="{=hUDaEyTK}Daneli"/>
+			<name name="{=oSdIGref}Davide"/>
+			<name name="{=XJKnvqcm}Ferrandino"/>
+			<name name="{=lTvdUdNd}Ferrando"/>
+			<name name="{=shduEIJz}Ferrandus"/>
+			<name name="{=JInBuNKv}Ferrantino"/>
+			<name name="{=nFXIHWvX}Filippuccio"/>
+			<name name="{=LyJcDGtK}Francescuccio"/>
+			<name name="{=ZpLtoOtI}Franchino"/>
+			<name name="{=OpKTJAoB}Francuccio"/>
+			<name name="{=SLQrGUnN}Freduccio"/>
+			<name name="{=mtoKwUKe}Emanueli"/>
+			<name name="{=KwLABhcn}Emilianu"/>
+			<name name="{=yyiallfc}Enricu"/>
+			<name name="{=egBbSPlN}Erasmu"/>
+			<name name="{=eZpYJgRe}Erculi"/>
+			<name name="{=viQCilmt}Ermandu"/>
+			<name name="{=LJKujBXp}Galeotto"/>
+			<name name="{=zCtwMfwt}Galfrido"/>
+			<name name="{=PlCCpOsn}Gennaio"/>
+			<name name="{=FcaAyrJz}Gentile"/>
+			<name name="{=aElCWuOC}Gentiluccio"/>
+			<name name="{=qDaFCjlK}Gesualdo"/>
+			<name name="{=eVcEHjtg}Gherardino"/>
+			<name name="{=lnQNiGQd}Giacomuccio"/>
+			<name name="{=XRQotdIl}Giovannozzo"/>
+			<name name="{=SqRyCioC}Giovannuccio"/>
+			<name name="{=pwobtXKh}Giuseppuccio"/>
+			<name name="{=uhRJzOaY}Giuseppe"/>
+			<name name="{=rYIUvoJb}Giovanni"/>
+			<name name="{=GpaylwEa}Goffreduccio"/>
+			<name name="{=KTMtQHUS}Goffredo"/>
+			<name name="{=zaqPkixG}Gotto"/>
+			<name name="{=jqDXorok}Grifo"/>
+			<name name="{=zNlqoGHL}Grifonetto"/>
+			<name name="{=uhxqwbAc}Grifuccio"/>
+			<name name="{=TlxzVUIZ}Gualduccio"/>
+			<name name="{=lwhdSIop}Enricu"/>
+			<name name="{=pIsWClSo}Enzu"/>
+			<name name="{=fAmjmBmf}Ernestinu"/>
+			<name name="{=hmMSVnSn}Ernestuzzu"/>
+			<name name="{=QDHhWyIJ}Eustachiu"/>
+			<name name="{=DEilvpCd}Fabbianu"/>
+			<name name="{=CXmBmWed}Fabiu"/>
+			<name name="{=LWMsBtnc}Fabriziu"/>
+			<name name="{=yLEqkvnf}Faustinu"/>
+			<name name="{=rPbAQfri}Guidotto"/>
+			<name name="{=shqnIvix}Guilberto"/>
+			<name name="{=pYrBqEkH}Guinibaldo"/>
+			<name name="{=rmmfyGgd}Iacomo"/>
+			<name name="{=eChhPVDn}Iaquinto"/>
+			<name name="{=CatOBjiN}Ido"/>
+			<name name="{=IlqKKQgt}Isambert"/>
+			<name name="{=GKrglTzX}Humilis"/>
+			<name name="{=AAccQdDL}Omobono"/>
+			<name name="{=WiScBFyu}Homobonus"/>
+			<name name="{=XLQiDMgr}Jacobello"/>
+			<name name="{=fxIkWlzi}Jacopuccio"/>
+			<name name="{=kQxaHQlv}Lambertuccio"/>
+			<name name="{=zWadDzEv}Lancilotto"/>
+			<name name="{=fmKVxFLb}Landolfuccio"/>
+			<name name="{=miIWoMtX}Landuccio"/>
+			<name name="{=rgIzFvGU}Lanfranco"/>
+			<name name="{=IBAyFKtR}Lanfrid"/>
+			<name name="{=BnNhmIZK}Lapaccio"/>
+			<name name="{=slbHYQNg}Lenzone"/>
+			<name name="{=HDktLciq}Leonarduccio"/>
+			<name name="{=UmjmaXwM}Lionardo"/>
+			<name name="{=IEyAfwRo}Liutger"/>
+			<name name="{=UtLPyymx}Fediricu"/>
+			<name name="{=mIkoXXsK}Ferdinannu"/>
+			<name name="{=bXSooVYL}Fernandu"/>
+			<name name="{=qZtJIzJe}Ferrucciu"/>
+			<name name="{=azSdAele}Fidiricu"/>
+			<name name="{=SrHhHPUs}Federico"/>
+			<name name="{=OUwowpSZ}Filibertu"/>
+			<name name="{=TaHnSNkh}Filiberto"/>
+			<name name="{=NvwMlyOR}Filicianu"/>
+			<name name="{=bfennkhO}Feliciano"/>
+			<name name="{=YpaCmYlH}Filippeddu"/>
+			<name name="{=VwxwATnf}Fiurenziu"/>
+			<name name="{=YLIbxzSa}Florentinus"/>
+			<name name="{=cRoarTtd}Gabrieli"/>
+			<name name="{=FaWCVtep}Gaspari"/>
+			<name name="{=pmOVDvHc}Luzio"/>
+			<name name="{=GfjWgofN}Mancius"/>
+			<name name="{=SPFqRtyk}Manfreduccio"/>
+			<name name="{=eEtgkbjV}Marcolfo"/>
+			<name name="{=QLpXmKNG}Manfredi"/>
+			<name name="{=doLZGgdF}Marcuccio"/>
+			<name name="{=rPfpDKKW}Marculfo"/>
+			<name name="{=wdEhEvdp}Mariotto"/>
+			<name name="{=oHedYwPc}Martinuccio"/>
+			<name name="{=RBBagsMi}Mazzeo"/>
+			<name name="{=PTJvTRBI}Meo"/>
+			<name name="{=kHCwQKTr}Mercato"/>
+			<name name="{=ouYfxfaZ}Michelino"/>
+			<name name="{=OAQMqHyZ}Michelotto"/>
+			<name name="{=qwTuWxNt}Micheluccio"/>
+			<name name="{=FrlzEAcq}Napolino"/>
+			<name name="{=CYBQGkcX}Napo"/>
+			<name name="{=NAZZVPws}Niccolino"/>
+			<name name="{=jkDWqMbn}Nicoloso"/>
+			<name name="{=hsrrxNFV}Obertus"/>
+			<name name="{=mvSpNohC}Oderigo"/>
+			<name name="{=fjVJQZFW}Offredo"/>
+			<name name="{=jyavDShN}Offreduccio"/>
+			<name name="{=MNrbHjKH}Oliverotto"/>
+			<name name="{=wMFzqFjH}Onesto"/>
+			<name name="{=eqiBaMdj}Orlanduccio"/>
+			<name name="{=hJaqdJdd}Ostrobert"/>
+			<name name="{=ZbqpcUgl}Ottobuono"/>
+			<name name="{=svkstMIb}Paganello"/>
+			<name name="{=JiqCFrtv}Pino"/>
+			<name name="{=hXaaTeyA}Pinuccio"/>
+			<name name="{=aAuTgniW}Rambaldo"/>
+			<name name="{=PgqQHopx}Renatuccio"/>
+			<name name="{=OwZPhVOW}Rinalduccio"/>
+			<name name="{=PErYkYjP}Giraldu"/>
+			<name name="{=NItRwXUm}Girardu"/>
+			<name name="{=dVvvvtLq}Giseppi"/>
+			<name name="{=mxFEfaXf}Giuvanni"/>
+			<name name="{=KNXbMgYu}Ignaziu"/>
+			<name name="{=nEBeMHcx}Jermanu"/>
+			<name name="{=YZaQklMN}Pietru"/>
+			<name name="{=gbHNXdtB}Patriziu"/>
+			<name name="{=OGYKegHD}Quintilianu"/>
+			<name name="{=tPIMVhem}Quintillu"/>
+			<name name="{=qugVKaHL}Raffaele"/>
+			<name name="{=wnJNQoGd}Raffaeli"/>
+			<name name="{=wVEaLcKl}Riccardu"/>
+			<name name="{=DkgHRbIw}Ricu"/>
+			<name name="{=AGJmRKaj}Ròmulu"/>
+			<name name="{=bpSOOKoN}Rudolfu"/>
+			<name name="{=APaVbmpi}Rudrigu"/>
+			<name name="{=tbtMNAbb}Ruggeru"/>
+			<name name="{=qfYCdrAB}Roffredo"/>
+			<name name="{=grHqcYfW}Robaldo"/>
+			<name name="{=pIpBtQwu}Rubeus"/>
+			<name name="{=bnFaZFHl}Robertuccio"/>
+			<name name="{=nUyUaeLy}Santoro"/>
+			<name name="{=vYckTWUA}Santuccio"/>
+			<name name="{=XtHtGVjw}Sigbald"/>
+			<name name="{=PRxvxopi}Stefanuccio"/>
+			<name name="{=HekKHLqZ}Simonuccio"/>
+			<name name="{=WRnXqhLz}Tedaldo"/>
+			<name name="{=SrDQqllM}Tebalduccio"/>
+			<name name="{=LofLUmPt}Tommaso"/>
+			<name name="{=UbNaDSei}Tomma"/>
+			<name name="{=FAgziLSA}Tommo"/>
+			<name name="{=KwMcrvAl}Tommasuccio"/>
+			<name name="{=CvBOpsMQ}Ubalduccio"/>
+			<name name="{=nOLVVtBz}Ubertuccio"/>
+			<name name="{=vmzXKARh}Ugotto"/>
+			<name name="{=yYjtOGxK}Vermilius"/>
+			<name name="{=ktvaHmfh}Vincentio"/>
+			<name name="{=RvFuJrrG}Zacharia"/>
+			<name name="{=HbrOPfLp}Zane"/>
+			<name name="{=hgLbzaEL}Zuane"/>
+			<name name="{=PLcEKEXo}Sebastianu"/>
+			<name name="{=tsTBccvM}Samueli"/>
+			<name name="{=oABHvdCT}Sergghiu"/>
+			<name name="{=MLiFxDgG}Sirvestru"/>
+			<name name="{=FUGbXRoR}Teodoru"/>
+			<name name="{=hPfkhFqG}Unfredu"/>
+			<name name="{=OCuRxbai}Vinanziu"/>
+			<name name="{=yVDkHvwN}Vitturi"/>
+			<name name="{=AsmvsBGU}Zenu"/>
+		</male_names>
+		<female_names>
+			<name name="{=iJFXildS}Abondancia"/>
+			<name name="{=ksApHDzQ}Accorsa"/>
+			<name name="{=tMQkZwGk}Achilla"/>
+			<name name="{=cBVUVzym}Adaleta"/>
+			<name name="{=EcNseBgl}Adelagia"/>
+			<name name="{=GFYrbCDv}Adelasia"/>
+			<name name="{=pfZXIoxP}Adeleta"/>
+			<name name="{=TCVJAFvH}Affrosa"/>
+			<name name="{=QyzuHBHy}Agnesina"/>
+			<name name="{=FOOIaVJo}Agnola"/>
+			<name name="{=HJEaskAF}Alagia"/>
+			<name name="{=CVYPrSOf}Aiguana"/>
+			<name name="{=NEIdIkmz}Abbunnanzia"/>
+			<name name="{=FtDYIjgP}Adalinda"/>
+			<name name="{=mpSVjoUt}Adelaidi"/>
+			<name name="{=TSDxcOgT}Adeluzza"/>
+			<name name="{=ShdHsBND}Adilasia"/>
+			<name name="{=WBTZvfGS}Alfania"/>
+			<name name="{=QtAaDvuf}Altabella"/>
+			<name name="{=WOqdoswg}Angnolina"/>
+			<name name="{=nMpNtxVq}Anthonia"/>
+			<name name="{=QnclsbJd}Austina"/>
+			<name name="{=FmCPhzsm}Beatrisia"/>
+			<name name="{=qLvpmakL}Belaflore"/>
+			<name name="{=qvJowtuu}Belcolore"/>
+			<name name="{=qXRDWdxd}Bellacara"/>
+			<name name="{=gqHgAGQx}Belladonna"/>
+			<name name="{=YJnOHFFe}Bellaflore"/>
+			<name name="{=ZvVgtGyI}Bellina"/>
+			<name name="{=hyoOpZNi}Benessa"/>
+			<name name="{=PeEUzqPI}Benetta"/>
+			<name name="{=BJBSTHDg}Bergama"/>
+			<name name="{=LEADLeMr}Bergamina"/>
+			<name name="{=JZxzIryu}Bertuccia"/>
+			<name name="{=olehhtGX}Blasia"/>
+			<name name="{=VghozYHt}Bona"/>
+			<name name="{=LEKWzdwb}Bonafemina"/>
+			<name name="{=dpJKHzoF}Bonavera"/>
+			<name name="{=rbACLTzU}Brianda"/>
+			<name name="{=FOgEWTTp}Brizia"/>
+			<name name="{=KuTHIDzt}Brunisenda"/>
+			<name name="{=SeQsPYpa}Calomaria"/>
+			<name name="{=dddwFmWs}Capuana"/>
+			<name name="{=FPanKNVG}Caro"/>
+			<name name="{=kwwfofUC}Caterucia"/>
+			<name name="{=dSVJtBQL}Clarice"/>
+			<name name="{=uvbBGLus}Claricia"/>
+			<name name="{=XtFhRVaC}Colleta"/>
+			<name name="{=jsjaNJKA}Corelia"/>
+			<name name="{=nnJMYIIk}Cristofana"/>
+			<name name="{=INdxZkCv}Dionora"/>
+			<name name="{=xeFPsWJa}Donatina"/>
+			<name name="{=mFWBZAPk}Doratea"/>
+			<name name="{=xLhGcCvF}Emerentiana"/>
+			<name name="{=wYAauBhL}Ermellina"/>
+			<name name="{=dGdYqiGU}Eufimia"/>
+			<name name="{=TysTiWOx}Fania"/>
+			<name name="{=HAdJxzuL}Fenicia"/>
+			<name name="{=wumOeCgT}Fiordelise"/>
+			<name name="{=NtShbxqV}Fiordelisia"/>
+			<name name="{=VwHWpsfx}Fiorebella"/>
+			<name name="{=pIkShpYY}Francesa"/>
+			<name name="{=yBzrBmmS}Franchetta"/>
+			<name name="{=GQsNVptm}Gesualda"/>
+			<name name="{=qTNsnXtu}Ginivra"/>
+			<name name="{=YaROoNPF}Ginueffa"/>
+			<name name="{=xKCBEjrz}Giraldina"/>
+			<name name="{=aQNrdNGQ}Giurgina"/>
+			<name name="{=gWRxuvze}Guendolina"/>
+			<name name="{=GHPuGVsg}Iliana"/>
+			<name name="{=tKtXDOrO}Inrica"/>
+			<name name="{=oqHoJoyu}Ireni"/>
+			<name name="{=YlHbYANx}Irmina"/>
+			<name name="{=KtkMpgiU}Jacinta"/>
+			<name name="{=lOcOfclR}Loisa"/>
+			<name name="{=AcFDkplr}Luchina"/>
+			<name name="{=PcDCPrje}Lisabetta"/>
+			<name name="{=wMCXnwZl}Lessandra"/>
+			<name name="{=wYBAmrEV}Loisia"/>
+			<name name="{=AxrPAgQT}Lottiera"/>
+			<name name="{=zIDeIlcv}Malgarita"/>
+			<name name="{=oGcfQeyH}Maralda"/>
+			<name name="{=rRdUQsBQ}Matelda"/>
+			<name name="{=iImKCJSh}Mathiola"/>
+			<name name="{=wAxydvwq}Maximilia"/>
+			<name name="{=nfQyBzHC}Michelotta"/>
+			<name name="{=eDpOxkSi}Niccolosa"/>
+			<name name="{=JuWsJzgQ}Nicoluccia"/>
+			<name name="{=JIoeaxIh}Ninuccia"/>
+			<name name="{=NLtrfylA}Nina"/>
+			<name name="{=IKfGaclv}Odierna"/>
+			<name name="{=AfspVECR}Orelia"/>
+			<name name="{=QkzfUdQX}Oradina"/>
+			<name name="{=JGWqNKPs}Orsetta"/>
+			<name name="{=LaoWcJaG}Palmeria"/>
+			<name name="{=LhpQcQso}Pasquina"/>
+			<name name="{=NgziSaBa}Pleneria"/>
+			<name name="{=BoSiPQoH}Pomellina"/>
+			<name name="{=FHYpuubP}Sancta"/>
+			<name name="{=qXTFkgSx}Smeralda"/>
+			<name name="{=CmWlCRRE}Tessina"/>
+			<name name="{=wqBZolKK}Thomisina"/>
+			<name name="{=bNjVbMIx}Tiberia"/>
+			<name name="{=logxfNsp}Verderosa"/>
+			<name name="{=sGNjeUbY}Verdiana"/>
+			<name name="{=EBFuzemD}Vermilia"/>
+			<name name="{=yAWDZjtf}Marghirita"/>
+			<name name="{=YXdGsdqd}Marìa"/>
+			<name name="{=HSqUEyni}Marza"/>
+			<name name="{=RuEoGUpZ}Matildi"/>
+			<name name="{=pcMjfwLs}Mirinziana"/>
+			<name name="{=NjrsTWQL}Mònica"/>
+			<name name="{=sGElWkpN}Onella"/>
+			<name name="{=IqqbIURw}Orsulina"/>
+			<name name="{=fWaXLOZG}Sufìa"/>
+			<name name="{=BPoRrtWy}Vicenza"/>
+			<name name="{=jEeRhhBU}Virdiana"/>
+		</female_names>
+		<clan_names>
+			<name name="{=qHIuiZDh}Acampora"/>
+			<name name="{=hlXmFULm}Aleghieri"/>
+			<name name="{=pVYQfNJb}Bascherini"/>
+			<name name="{=SYxotFSU}Collazo"/>
+			<name name="{=kGqLwjHo}Coito"/>
+			<name name="{=guygRtpn}Ezzo"/>
+			<name name="{=RyVddYUW}Fratini"/>
+			<name name="{=wrfRbIGf}Puccini"/>
+			<name name="{=JJmOiBNO}Sancto"/>
+			<name name="{=IUGWAwIO}Sanctus"/>
+			<name name="{=lsYMBLTm}Trimboli"/>
+			<name name="{=DUUfffga}Passi"/>
+			<name name="{=TzwyjgdX}Santis"/>
+			<name name="{=ikgmXwir}Cattano"/>
+			<name name="{=PpUQwsJd}Racioppi"/>
+			<name name="{=mcxXRIHR}Balistreri"/>
+			<name name="{=PDiHwMfm}Arolottus"/>
+			<name name="{=FylsPBlz}Raia"/>
+		</clan_names>
+		<cultural_feats>
+			<feat id="empire_decreased_garrison_wage"/>
+			<feat id="empire_army_influence"/>
+			<feat id="empire_slower_hearth_production"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="100"/>
+			<icon id="101"/>
+			<icon id="102"/>
+			<icon id="103"/>
+			<icon id="104"/>
+			<icon id="105"/>
+			<icon id="106"/>
+			<icon id="107"/>
+			<icon id="108"/>
+			<icon id="109"/>
+			<icon id="110"/>
+			<icon id="119"/>
+			<icon id="147"/>
+			<icon id="148"/>
+			<icon id="152"/>
+			<icon id="200"/>
+			<icon id="201"/>
+			<icon id="202"/>
+			<icon id="203"/>
+			<icon id="204"/>
+			<icon id="205"/>
+			<icon id="206"/>
+			<icon id="207"/>
+			<icon id="208"/>
+			<icon id="209"/>
+			<icon id="210"/>
+			<icon id="211"/>
+			<icon id="212"/>
+			<icon id="213"/>
+			<icon id="214"/>
+			<icon id="215"/>
+			<icon id="216"/>
+			<icon id="217"/>
+			<icon id="218"/>
+			<icon id="219"/>
+			<icon id="220"/>
+			<icon id="221"/>
+			<icon id="222"/>
+			<icon id="223"/>
+			<icon id="400"/>
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_empire_0"/>
+			<template name="NPCCharacter.spc_notable_empire_0b"/>
+			<template name="NPCCharacter.spc_notable_empire_1"/>
+			<template name="NPCCharacter.spc_notable_empire_1b"/>
+			<template name="NPCCharacter.spc_notable_empire_2"/>
+			<template name="NPCCharacter.spc_notable_empire_2b"/>
+			<template name="NPCCharacter.spc_notable_empire_3"/>
+			<template name="NPCCharacter.spc_notable_empire_3b"/>
+			<template name="NPCCharacter.spc_notable_empire_4"/>
+			<template name="NPCCharacter.spc_notable_empire_4b"/>
+			<template name="NPCCharacter.spc_notable_empire_5"/>
+			<template name="NPCCharacter.spc_notable_empire_6"/>
+			<template name="NPCCharacter.spc_notable_empire_7"/>
+			<template name="NPCCharacter.spc_notable_empire_8"/>
+			<template name="NPCCharacter.spc_notable_empire_9"/>
+			<template name="NPCCharacter.spc_notable_empire_10"/>
+			<template name="NPCCharacter.spc_notable_empire_11"/>
+			<template name="NPCCharacter.spc_notable_empire_12"/>
+			<template name="NPCCharacter.spc_notable_empire_13"/>
+			<template name="NPCCharacter.spc_notable_empire_21"/>
+			<template name="NPCCharacter.spc_notable_empire_22"/>
+			<template name="NPCCharacter.spc_notable_empire_gl1"/>
+			<template name="NPCCharacter.spc_notable_empire_gl4"/>
+			<template name="NPCCharacter.spc_empire_headman_1"/>
+			<template name="NPCCharacter.spc_empire_headman_2"/>
+			<template name="NPCCharacter.spc_empire_headman_3"/>
+		</notable_templates>
+		<lord_templates>
+			<template name="NPCCharacter.sicily_autogenerated_lord1"/>
+			<template name="NPCCharacter.sicily_autogenerated_lord2"/>
+			<template name="NPCCharacter.sicily_autogenerated_lord3"/>
+			<template name="NPCCharacter.sicily_autogenerated_lord4"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.sicily_autogenerated_lord1"/>
+			<template name="NPCCharacter.sicily_autogenerated_lord2"/>
+			<template name="NPCCharacter.sicily_autogenerated_lord3"/>
+			<template name="NPCCharacter.sicily_autogenerated_lord4"/>
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_empire_one_participant_set_v1"/>
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_empire_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_empire_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_empire_two_participant_set_v3"/>
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_empire_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_empire_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_empire_four_participant_set_v3"/>
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.merc_euro_spearman"/>
+            <template name="NPCCharacter.merc_euro_guisarmer"/>
+            <template name="NPCCharacter.merc_euro_crossbowman"/>
+            <template name="NPCCharacter.merc_euro_horseman"/>
+            <template name="NPCCharacter.merc_manhunter_root"/>
+            <template name="NPCCharacter.merc_balkan_archer1"/>
+            <template name="NPCCharacter.merc_balkan_axe1"/>
+            <template name="NPCCharacter.merc_balkan_spear1"/>
+		</basic_mercenary_troops>
+	</Culture>
+</SPCultures> 

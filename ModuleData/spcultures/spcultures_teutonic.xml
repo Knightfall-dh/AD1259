@@ -1,0 +1,472 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<SPCultures>
+	<Culture id="teutonic"
+	         name="{=teutonicCulture}Teutonic"
+	         is_main_culture="true"
+	         color="0xFFFFFFFF"
+	         color2="0xff000000"
+	         elite_basic_troop="NPCCharacter.teutonic_elite_root"
+	         basic_troop="NPCCharacter.teutonic_infantry_root"
+	         melee_militia_troop="NPCCharacter.teutonic_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.teutonic_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.teutonic_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.teutonic_militia_veteran_archer"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_teutonic_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_TEUTONIC_template"
+	         settlement_patrol_template_level_1="PartyTemplate.patrol_party_TEUTONIC_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_TEUTONIC_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_TEUTONIC_template_level_3"
+	         encounter_background_mesh="encounter_teutonic"
+	         faction_banner_key="11.128.128.2000.2000.764.764.1.0.180.505.128.116.2000.2000.764.764.1.0.180.505.116.116.175.2000.764.764.1.0.180.505.116.116.175.2000.764.764.1.0.90.505.116.116.175.561.764.764.1.0.180"
+	         militia_party_template="PartyTemplate.militia_teutonic_template"
+	         rebels_party_template="PartyTemplate.rebels_teutonic_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_teutonic"
+	         text="{=teutonic_text}Unused in the game."
+	         tournament_master="NPCCharacter.tournament_master_teutonic"
+	         villager="NPCCharacter.villager_teutonic"
+	         caravan_master="NPCCharacter.caravan_master_teutonic"
+	         caravan_guard="NPCCharacter.caravan_guard_teutonic"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_teutonic"
+	         prison_guard="NPCCharacter.prison_guard_teutonic"
+	         guard="NPCCharacter.guard_teutonic"
+	         blacksmith="NPCCharacter.blacksmith_teutonic"
+	         weaponsmith="NPCCharacter.weaponsmith_teutonic"
+	         townswoman="NPCCharacter.townswoman_teutonic"
+	         townswoman_infant="NPCCharacter.townswoman_infant_teutonic"
+	         townswoman_child="NPCCharacter.townswoman_child_teutonic"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_teutonic"
+	         townsman="NPCCharacter.townsman_teutonic"
+	         townsman_infant="NPCCharacter.townsman_infant_teutonic"
+	         townsman_child="NPCCharacter.townsman_child_teutonic"
+	         townsman_teenager="NPCCharacter.townsman_teenager_teutonic"
+	         village_woman="NPCCharacter.village_woman_teutonic"
+	         villager_male_child="NPCCharacter.villager_child_teutonic"
+	         villager_male_teenager="NPCCharacter.villager_teenager_teutonic"
+	         villager_female_child="NPCCharacter.village_woman_child_teutonic"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_teutonic"
+	         ransom_broker="NPCCharacter.ransom_broker_teutonic"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_teutonic"
+	         merchant_notary="NPCCharacter.merchant_notary_teutonic"
+	         artisan_notary="NPCCharacter.artisan_notary_teutonic"
+	         preacher_notary="NPCCharacter.preacher_notary_teutonic"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_teutonic"
+	         shop_worker="NPCCharacter.shop_worker_teutonic"
+	         tavernkeeper="NPCCharacter.tavernkeeper_teutonic"
+	         taverngamehost="NPCCharacter.taverngamehost_teutonic"
+	         musician="NPCCharacter.musician_teutonic"
+	         tavern_wench="NPCCharacter.tavern_wench_teutonic"
+	         armorer="NPCCharacter.armorer_teutonic"
+	         horseMerchant="NPCCharacter.horseMerchant_teutonic"
+	         barber="NPCCharacter.barber_teutonic"
+	         merchant="NPCCharacter.merchant_teutonic"
+	         beggar="NPCCharacter.beggar_teutonic"
+	         female_beggar="NPCCharacter.female_beggar_teutonic"
+	         female_dancer="NPCCharacter.female_dancer_teutonic"
+	         default_battle_equipment_roster="EquipmentRoster.teutonic_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.teutonic_civ_template_default"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+	         duel_preset_equipment_roster="EquipmentRoster.emp_duel_preset_template"
+	         marriage_bride_equipment_roster="EquipmentRoster.marriage_female_vla_cutscene_template"
+	         board_game_type="Konane"
+	         default_character_creation_body_property="BodyProperty.default_character_creation_body_property_vlandia"
+	         start_point_position_x="660"
+	         start_point_position_y="1128">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_teutonic"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_teutonic"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls/>
+		<vassal_reward_items>
+			<item id="Item.justicier_2hsword"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.vlandia_sword_1_t2"/>
+			<item id="Item.sturgia_sword_4_t4"/>
+			<item id="Item.vlandia_sword_5_t5"/>
+			<item id="Item.empire_sword_6_t5"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_imperial_towns"/>
+			<policy id="policy_noble_retinues"/>
+			<policy id="policy_citizenship"/>
+		</default_policies>
+		<male_names>
+			<name name="{=sLkQmpHl}Abbo"/>
+			<name name="{=mzqZXzxX}Aberlin"/>
+			<name name="{=zPMeSfFT}AmnoAccon"/>
+			<name name="{=bPaDBvEC}Adalald"/>
+			<name name="{=WwOrJGXd}Adalbero"/>
+			<name name="{=gxiOuMsf}Adalgaud"/>
+			<name name="{=PcCMoTJO}Adalger"/>
+			<name name="{=HMsYsnuY}Adalolt"/>
+			<name name="{=wJRUEdSY}Adilger"/>
+			<name name="{=AlNqqdnU}Ailbern"/>
+			<name name="{=djuXWfEw}Aildag"/>
+			<name name="{=dZlGmzEr}Alawich"/>
+			<name name="{=hJdWbWKg}Aldred"/>
+			<name name="{=aApmQRzB}Aldstan"/>
+			<name name="{=kVZVcAks}Alef"/>
+			<name name="{=cXaorTlx}Alfgeat"/>
+			<name name="{=TzWkXYlx}Alfgrim"/>
+			<name name="{=juSXUWUh}Alfhelm"/>
+			<name name="{=IJOgKWTJ}Alfhere"/>
+			<name name="{=LDIyTyxX}Alof"/>
+			<name name="{=EDHLDpJa}Altfrid"/>
+			<name name="{=orLxPfAm}Anno"/>
+			<name name="{=EWOmKgYs}Balderich"/>
+			<name name="{=pwVEfmys}Baldram"/>
+			<name name="{=cWImRHZC}Baldrich"/>
+			<name name="{=eguhLNgv}Barnim"/>
+			<name name="{=ivIwkqnn}Bartilmebis"/>
+			<name name="{=YtBAUhHU}Berchtold"/>
+			<name name="{=jEEwUhwi}Bentz"/>
+			<name name="{=LTBrYfAW}Berfrid"/>
+			<name name="{=jaHZxAYd}Bernward"/>
+			<name name="{=UkqTfsYx}Bertelmeß"/>
+			<name name="{=IZOYtUgU}Bröseke"/>
+			<name name="{=KnnoKJau}Brunsten"/>
+			<name name="{=fxquylgG}Burgold"/>
+			<name name="{=vMxUhRuW}Chunizo"/>
+			<name name="{=TTwKOkvT}Chuzo"/>
+			<name name="{=iXbCRExx}Conbert"/>
+			<name name="{=RrvCzKPY}Crafft"/>
+			<name name="{=LcPilKQn}Craft"/>
+			<name name="{=zmswqMPg}Cunad"/>
+			<name name="{=vUfQvjYU}Diem"/>
+			<name name="{=WiudLCfR}Dietz"/>
+			<name name="{=RzBzKkvV}Disibod"/>
+			<name name="{=bGpdVyvT}Ditwin"/>
+			<name name="{=uXTjjJcC}Eginald"/>
+			<name name="{=wsHPYpRI}Eginoald"/>
+			<name name="{=FmeVdeLJ}Eilhart"/>
+			<name name="{=XIMbHYon}Elbel"/>
+			<name name="{=ruiVHOxH}Emich"/>
+			<name name="{=OTnJdgJx}Emicho"/>
+			<name name="{=JwAycpUZ}Emrich"/>
+			<name name="{=jtxXAJnw}Enolf"/>
+			<name name="{=TZJMIXFp}Ercken"/>
+			<name name="{=OuyHepiZ}Everold"/>
+			<name name="{=nWEIrjXG}Fredebald"/>
+			<name name="{=hMltOTyp}Fredebert"/>
+			<name name="{=wQBjAfkY}Fredegis"/>
+			<name name="{=LhBwimXU}Fredemund"/>
+			<name name="{=XEPRDjdo}Fredhelm"/>
+			<name name="{=lMeHGPtr}Fridolin"/>
+			<name name="{=gWdSpCqz}Fridolinus"/>
+			<name name="{=lYrVPAfp}Gelfrat"/>
+			<name name="{=HwvyUXoo}Gebinus"/>
+			<name name="{=NpTLqnZy}Goswinus"/>
+			<name name="{=sExtttEj}Gresmar"/>
+			<name name="{=ZMTEQJBZ}Gresmir"/>
+			<name name="{=UHPPwzqy}Gundlach"/>
+			<name name="{=kOcqNOws}Gundlach"/>
+			<name name="{=lGANihrv}Haimhard"/>
+			<name name="{=HwLZdnqP}Hannemann"/>
+			<name name="{=IeOEFMGE}Hanß"/>
+			<name name="{=iQwJLCba}Hellenboldus"/>
+			<name name="{=IIUjEiVJ}Hellenbrecht"/>
+			<name name="{=FGauyYOL}Helpfrid"/>
+			<name name="{=bHIsSjhL}Henkel"/>
+			<name name="{=XudreTqM}Henne"/>
+			<name name="{=JjZMVpuz}Hildebold"/>
+			<name name="{=OeNainjq}Hinz"/>
+			<name name="{=ZNmpjOkT}Hugdietrich"/>
+			<name name="{=FCyYlDgf}Imfrid"/>
+			<name name="{=UuayUPdT}Islo"/>
+			<name name="{=gpZVyUXi}Ilgen"/>
+			<name name="{=iAWbCVBx}Ido"/>
+			<name name="{=qFWLiXOS}Jakobus"/>
+			<name name="{=RKnfTSen}Kasperl"/>
+			<name name="{=EZdLhxWE}Küngold"/>
+			<name name="{=yGWVehCm}Kunz"/>
+			<name name="{=hHqzmSMY}Lanfrancus"/>
+			<name name="{=vLHgtNfh}Lanfrank"/>
+			<name name="{=drHIAJGs}Lanfrid"/>
+			<name name="{=GCexRytx}Leuthold"/>
+			<name name="{=thBHuXFd}Liawizo"/>
+			<name name="{=JLuvLaGQ}Libentius"/>
+			<name name="{=iiXUmhkt}Linhart"/>
+			<name name="{=RXCrKVJb}Liutger"/>
+			<name name="{=DYlFCJmt}Liuthold"/>
+			<name name="{=nkRZIYlS}Liutrich"/>
+			<name name="{=oqIosTPi}Liutward"/>
+			<name name="{=zPEjJchA}Makko"/>
+			<name name="{=bBRRXroY}Marcswith"/>
+			<name name="{=MGeRTfTA}Markwart"/>
+			<name name="{=ovapismI}Marsilius"/>
+			<name name="{=SuLcLjbj}Meginard"/>
+			<name name="{=atnVeYYz}Meinbald"/>
+			<name name="{=BbmOxmuk}Meinbern"/>
+			<name name="{=RCLPvREt}Meinfrid"/>
+			<name name="{=OiAsLLyl}Meingod"/>
+			<name name="{=WPVEdwcj}Meinward"/>
+			<name name="{=VwqAccBD}Mertein"/>
+			<name name="{=NubgcxPV}Nitsche"/>
+			<name name="{=NYMmSYLd}Nickel"/>
+			<name name="{=ujhLHoTl}Odbald"/>
+			<name name="{=IkUckJko}Odelbald"/>
+			<name name="{=zJelyHsA}Odelbert"/>
+			<name name="{=mezAUFJv}Odelbrand"/>
+			<name name="{=NbXetcWT}Odelhard"/>
+			<name name="{=QTXSBCyd}Otilo"/>
+			<name name="{=tjRyfwjg}Otbert"/>
+			<name name="{=XnfGbEqS}Ott"/>
+			<name name="{=aHGXhXYj}Pascalis"/>
+			<name name="{=jHuDzdMF}Petsche"/>
+			<name name="{=yqnKEqmV}Ratbold"/>
+			<name name="{=nudMlItn}Regimbald"/>
+			<name name="{=MAOvKJUN}Reinbolt"/>
+			<name name="{=pgzXTGFO}Renz"/>
+			<name name="{=qIJeeQyL}Ruthard"/>
+			<name name="{=iXLOTJIk}Riffert"/>
+			<name name="{=oZRTCSPQ}Schweikhard"/>
+			<name name="{=DddqovKU}Sewastian"/>
+			<name name="{=iamzybjM}Sifrit"/>
+			<name name="{=BRXeXJoF}Sigbald"/>
+			<name name="{=XFwEBJue}Sigwin"/>
+			<name name="{=hqSxiowI}Sydel"/>
+			<name name="{=UJlNhnwp}Thiofrid"/>
+			<name name="{=NUXeKCke}Thoman"/>
+			<name name="{=GsWzgOWm}Tristrant"/>
+			<name name="{=hbddgfjl}Trudbert"/>
+			<name name="{=yzpuFayU}Ulbert"/>
+			<name name="{=xfEMhMhm}Ulfhard"/>
+			<name name="{=VfynzKDv}Unnonus"/>
+			<name name="{=lRhRVryn}Urso"/>
+			<name name="{=teMkFztO}Walbert"/>
+			<name name="{=uksPOGGi}Waltram"/>
+			<name name="{=SyiPrWWm}Weigand"/>
+			<name name="{=gPyFaETq}Weirich"/>
+			<name name="{=KlerhOmu}Wenrich"/>
+			<name name="{=rPSwIeAR}Werenfrid"/>
+			<name name="{=AHfaNpLH}Werenfried"/>
+			<name name="{=BnHwAbHw}Wibilo"/>
+			<name name="{=YXnzYqhG}Willo"/>
+			<name name="{=mJMAXOUR}Willolf"/>
+			<name name="{=akVsyyqP}Wolfbern"/>
+			<name name="{=smIQtCbw}Wolfdietrich"/>
+		</male_names>
+		<female_names>
+			<name name="{=BHavoBnF}Adalgaria"/>
+			<name name="{=ZdPVkCVw}Adalinda"/>
+			<name name="{=kruTifvY}Affra"/>
+			<name name="{=WmlLtDti}Aellin"/>
+			<name name="{=uPdlVTIU}Agnise"/>
+			<name name="{=RPSZWhOc}Albreda"/>
+			<name name="{=qgqTEQWd}Aldessa"/>
+			<name name="{=lYheofcO}Aldeva"/>
+			<name name="{=xzGUVHxE}Aldgyth"/>
+			<name name="{=cUNocBts}Aldhild"/>
+			<name name="{=RmqwvjYH}Angnes"/>
+			<name name="{=KRNcasjY}Annlin"/>
+			<name name="{=owrDjpnl}Ansilia"/>
+			<name name="{=JETiqwSG}Anstrude"/>
+			<name name="{=MSKnSqOt}Arna"/>
+			<name name="{=UgrUQeCM}Auffra"/>
+			<name name="{=fdOlpSoo}Ayla"/>
+			<name name="{=mzQZZsGS}Barbera"/>
+			<name name="{=TqPUbclz}Basina"/>
+			<name name="{=SdOxkyUP}Beatrisia"/>
+			<name name="{=XhRmvMdr}Berchte"/>
+			<name name="{=jqekCIwP}Bilhidis"/>
+			<name name="{=bIimuZEz}Brida"/>
+			<name name="{=eRvHAsuP}Clarica"/>
+			<name name="{=GvIGuQBv}Claricia"/>
+			<name name="{=yJGDqJRB}Cunihilda"/>
+			<name name="{=NNPpJsWp}Czyne"/>
+			<name name="{=GnoVusNe}Dietta"/>
+			<name name="{=OLZFnkRa}Dorothye"/>
+			<name name="{=gnUsRaqE}Duretta"/>
+			<name name="{=hOZXhyqu}Eila"/>
+			<name name="{=AZWOaMnp}Eilika"/>
+			<name name="{=JsRSUiWp}Eiliswintha"/>
+			<name name="{=xFVUYTWo}Elsebeth"/>
+			<name name="{=IIbNjpJJ}Elsebethe"/>
+			<name name="{=HaqkCVXn}Emeludt"/>
+			<name name="{=eXqZBhLP}Emnilda"/>
+			<name name="{=lCUGLckO}Enede"/>
+			<name name="{=qyVeIKdH}Engelin"/>
+			<name name="{=IjrfwoFz}Enneleyn"/>
+			<name name="{=vemSKJNU}Fey"/>
+			<name name="{=IHlWPhkM}Francesia"/>
+			<name name="{=CWHCtVuo}Frederuna"/>
+			<name name="{=ZmHFDdrg}Gerswith"/>
+			<name name="{=slHMwHkj}Geruscha"/>
+			<name name="{=UtqWOqKg}Gredechin"/>
+			<name name="{=hmoVmthJ}Gyrlin"/>
+			<name name="{=khKigwDv}Hasala"/>
+			<name name="{=jisYtjEu}Hazecha"/>
+			<name name="{=ixoNIGpk}Heilken"/>
+			<name name="{=GFdigZVQ}Heilwige"/>
+			<name name="{=nXRSpuvs}Helmtrud"/>
+			<name name="{=HuEgKMxL}Henne"/>
+			<name name="{=JPiZhDsH}Hereswind"/>
+			<name name="{=JZrPwHTL}Herlinde"/>
+			<name name="{=rjTyuMDw}Heske"/>
+			<name name="{=FnLNiESK}Hizecha"/>
+			<name name="{=FsmarNKm}Husa"/>
+			<name name="{=nFmGXbDC}Ilsebet"/>
+			<name name="{=RUCfDHCJ}Imagina"/>
+			<name name="{=wkkJWHjE}Imnechildis"/>
+			<name name="{=GDIDGePy}Iremele"/>
+			<name name="{=limuYEDV}Irmgardis"/>
+			<name name="{=HUqoaCjV}Isalda"/>
+			<name name="{=xKmOYywJ}Isalde"/>
+			<name name="{=Cksjjjfs}Isengard"/>
+			<name name="{=UqTdabFd}Thera"/>
+			<name name="{=wWiKYhqs}Thelea"/>
+			<name name="{=iFgadUwN}Tethyclesa"/>
+			<name name="{=lXogkOut}Isentrud"/>
+			<name name="{=QODvqzbm}Islana"/>
+			<name name="{=RYBBglNu}Jonatha"/>
+			<name name="{=jEjYUTbu}Judenta"/>
+			<name name="{=agzuBqks}Judentha"/>
+			<name name="{=CyCCdRjo}Kaetherlin"/>
+			<name name="{=IgKyQFQX}Katherin"/>
+			<name name="{=zvhZmhEf}Katrey"/>
+			<name name="{=zKhFhfIm}Keterlyn"/>
+			<name name="{=AxvhAGwr}Ketha"/>
+			<name name="{=GzZqmpzU}Ketherlein"/>
+			<name name="{=EtNiEJvZ}Ketlin"/>
+			<name name="{=GPoQUEpt}Kunegund"/>
+			<name name="{=nnLvNhhC}Küngold"/>
+			<name name="{=vqyzmtyN}Kunizza"/>
+			<name name="{=IUsipeps}Leonetta"/>
+			<name name="{=DmYACymY}Libeste"/>
+			<name name="{=tGLhdjkF}Libusch"/>
+			<name name="{=HYXLuzbx}Liutberga"/>
+			<name name="{=sILsJUhQ}Liutgarde"/>
+			<name name="{=hKoNJkil}Lüfthildis"/>
+			<name name="{=ToJmngun}Lutrud"/>
+			<name name="{=MuAVhoFH}Magdalin"/>
+			<name name="{=WJzxLAXa}Margred"/>
+			<name name="{=MzkFWRsa}Margreth"/>
+			<name name="{=SjbCFhKx}Marhaus"/>
+			<name name="{=FaVQoyMq}Marlein"/>
+			<name name="{=PoWrjadX}Marusch"/>
+			<name name="{=UQyXnwSC}Maurisia"/>
+			<name name="{=NVQKkCRf}Metze"/>
+			<name name="{=iWMxJlNh}Mechthild"/>
+			<name name="{=ZVDMvMeQ}Odelrada"/>
+			<name name="{=WvEgfkFc}Odolia"/>
+			<name name="{=cYiDqyKF}Osterhild"/>
+			<name name="{=OjItDeID}Osterhilde"/>
+			<name name="{=avdwQgRF}Osterhildis"/>
+			<name name="{=zBzAFkhx}Othilia"/>
+			<name name="{=xTXjRkNh}Peternella"/>
+			<name name="{=FKEbPvRF}Petrissa"/>
+			<name name="{=SumHDumb}Ranulfa"/>
+			<name name="{=deQkxPcT}Regelinda"/>
+			<name name="{=RmEBvBNc}Regißwindis"/>
+			<name name="{=GiSnAWql}Reglindis"/>
+			<name name="{=SqWlANuh}Reineldis"/>
+			<name name="{=tqSlVvgv}Rutharda"/>
+			<name name="{=URADZUyh}Sennehilda"/>
+			<name name="{=RKvsnjrB}Siburgis"/>
+			<name name="{=SwpJFGaa}Sophey"/>
+			<name name="{=QJxmhWbR}Techilde"/>
+			<name name="{=VTrBhicC}Techildis"/>
+			<name name="{=AGxkprLI}Theudelinde"/>
+			<name name="{=FVwYWcRe}Theodelinde"/>
+			<name name="{=hZOhEqyY}Ursilda"/>
+			<name name="{=xdziIcuL}Waltilde"/>
+			<name name="{=jGDUDaNP}Wastrada"/>
+			<name name="{=UNQrpAuk}Weltrude"/>
+			<name name="{=OBqGlRVb}Willberna"/>
+			<name name="{=NnzDdAuH}Willebirg"/>
+			<name name="{=fiVSNIlv}Willelma"/>
+			<name name="{=hwdbmkIO}Williswinda"/>
+			<name name="{=SmbiQtMQ}Willolfa"/>
+			<name name="{=GwrbMETm}Wulfhild"/>
+			<name name="{=SiGwxZwU}Wulfhilde"/>
+			<name name="{=ywiUyIcz}Ysentrud"/>
+			<name name="{=hxRhbdMT}Yslana"/>
+		</female_names>
+		<clan_names>
+			<name name="{=tressler}Summus Thesaurarius"/>
+			<name name="{=marschall}Summus Marescalcus"/>
+			<name name="{=trappier}Summus Trappearius"/>
+			<name name="{=magister}Magister Germaniae"/>
+			<name name="{=magisterP}Magister Prusciae"/>
+			<name name="{=magisterL}Magister Livoniae"/>
+		</clan_names>
+		<cultural_feats>
+			<feat id="khuzait_cheaper_recruits_mounted"/>
+			<feat id="sturgian_cheaper_recruits_infantry"/>
+			<feat id="vlandian_villages_production_bonus"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="419"/>
+			<icon id="336"/>
+			<icon id="319"/>
+			<icon id="321"/>
+			<icon id="316"/>
+			<icon id="327"/>
+			<icon id="326"/>
+			<icon id="325"/>
+			<icon id="331"/>
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_teutonic_0"/>
+			<template name="NPCCharacter.spc_notable_teutonic_0b"/>
+			<template name="NPCCharacter.spc_notable_teutonic_1"/>
+			<template name="NPCCharacter.spc_notable_teutonic_2"/>
+			<template name="NPCCharacter.spc_notable_teutonic_2b"/>
+			<template name="NPCCharacter.spc_notable_teutonic_3"/>
+			<template name="NPCCharacter.spc_notable_teutonic_3b"/>
+			<template name="NPCCharacter.spc_notable_teutonic_3c"/>
+			<template name="NPCCharacter.spc_notable_teutonic_4"/>
+			<template name="NPCCharacter.spc_notable_teutonic_5"/>
+			<template name="NPCCharacter.spc_notable_teutonic_6"/>
+			<template name="NPCCharacter.spc_notable_teutonic_7"/>
+			<template name="NPCCharacter.spc_notable_teutonic_8"/>
+			<template name="NPCCharacter.spc_notable_teutonic_9"/>
+			<template name="NPCCharacter.spc_notable_teutonic_10"/>
+			<template name="NPCCharacter.spc_teutonic_headman_1"/>
+			<template name="NPCCharacter.spc_teutonic_headman_2"/>
+			<template name="NPCCharacter.spc_teutonic_headman_3"/>
+		</notable_templates>
+		<lord_templates>
+			<template name="NPCCharacter.teutonic_autogenerated_lord1"/>
+			<template name="NPCCharacter.teutonic_autogenerated_lord2"/>
+			<template name="NPCCharacter.teutonic_autogenerated_lord3"/>
+			<template name="NPCCharacter.teutonic_autogenerated_lord4"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.teutonic_autogenerated_lord1"/>
+			<template name="NPCCharacter.teutonic_autogenerated_lord2"/>
+			<template name="NPCCharacter.teutonic_autogenerated_lord3"/>
+			<template name="NPCCharacter.teutonic_autogenerated_lord4"/>
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v3"/>
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v3"/>
+			<template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v4"/>
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v3"/>
+			<template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v4"/>
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.merc_euro_spearman"/>
+			<template name="NPCCharacter.merc_euro_guisarmer"/>
+			<template name="NPCCharacter.merc_euro_crossbowman"/>
+			<template name="NPCCharacter.merc_euro_horseman"/>
+			<template name="NPCCharacter.merc_scandinavian_spearman"/>
+			<template name="NPCCharacter.merc_scandinavian_axeman"/>
+			<template name="NPCCharacter.merc_scandinavian_archer"/>
+			<template name="NPCCharacter.merc_manhunter_root"/>
+		</basic_mercenary_troops>
+	</Culture>
+</SPCultures> 

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- clans 1 -->
+	<Hero id="dead_lord_6_1" alive="false" faction="Faction.clan_khuzait_1" text="{=L4b5EWdD}text..."/>
+	
+	<Hero id="lord_6_1" spouse="Hero.lord_6_2" faction="Faction.clan_khuzait_1" preferred_upgrade_formation="HorseArcher" text="{=CzM6y3MT}Batu Khan, the current khan of the Goldenhorde, looks upon Europe in its state of disarray and dreams of glory."/>
+	<Hero id="lord_6_2" spouse="Hero.lord_6_1" faction="Faction.clan_khuzait_1"/>
+	<Hero id="lord_6_7" father="Hero.lord_6_1" mother="Hero.lord_6_2" faction="Faction.clan_khuzait_1"/>
+	<Hero id="lord_6_10" father="Hero.lord_6_1" mother="Hero.lord_6_2" faction="Faction.clan_khuzait_1"/>
+	<Hero id="lord_6_101" father="Hero.lord_6_1" mother="Hero.lord_6_2" faction="Faction.clan_khuzait_1"/>
+	<Hero id="lord_6_13" father="Hero.lord_6_1" faction="Faction.clan_khuzait_1"/>
+	<!-- clans 2 -->
+	<Hero id="dead_lord_6_2" alive="false" faction="Faction.clan_khuzait_2" text="{=dfmSNTZk}text..."/>
+	
+	<Hero id="lord_6_3" faction="Faction.clan_khuzait_2"/>
+	<Hero id="lord_6_4" faction="Faction.clan_khuzait_2" text="{=ALtZaRzc}text..."/>
+	<Hero id="lord_6_8" father="Hero.lord_6_3" mother="Hero.lord_6_4" faction="Faction.clan_khuzait_2"/>
+	<Hero id="lord_6_81" father="Hero.lord_6_3" mother="Hero.lord_6_4" faction="Faction.clan_khuzait_2"/>
+	<Hero id="lord_6_11" father="Hero.lord_6_3" mother="Hero.lord_6_4" faction="Faction.clan_khuzait_2"/>
+	<!-- clans 3 -->
+	<Hero id="dead_lord_6_3" alive="false" faction="Faction.clan_khuzait_3" text="{=CCfjl9eU}text..."/>
+	<Hero id="dead_lord_6_4" father="Hero.dead_lord_6_3" alive="false" faction="Faction.clan_khuzait_3" text="{=f9Ha1S0s}text..."/>
+	
+	<Hero id="lord_6_5" father="Hero.dead_lord_6_3" faction="Faction.clan_khuzait_3"/>
+	<Hero id="lord_6_51" father="Hero.lord_6_5" faction="Faction.clan_khuzait_3"/>
+	<Hero id="lord_6_9" father="Hero.lord_6_5" faction="Faction.clan_khuzait_3"/>
+	<Hero id="lord_6_12" father="Hero.lord_6_5" faction="Faction.clan_khuzait_3"/>
+	<Hero id="lord_6_15" spouse="Hero.lord_6_15_1" father="Hero.dead_lord_6_3" faction="Faction.clan_khuzait_3"/>
+	<Hero id="lord_6_15_1" spouse="Hero.lord_6_15" faction="Faction.clan_khuzait_3"/>
+	<Hero id="lord_6_15_2" father="Hero.lord_6_15" mother="Hero.lord_6_15_1" faction="Faction.clan_khuzait_3"/>
+	<!-- clans 4 -->
+	<Hero id="lord_6_6" faction="Faction.clan_khuzait_4"/>
+	<Hero id="lord_6_16" spouse="Hero.lord_6_16_1" faction="Faction.clan_khuzait_4"/>
+	<Hero id="lord_6_16_1" spouse="Hero.lord_6_16" faction="Faction.clan_khuzait_4"/>
+	<Hero id="lord_6_16_2" father="Hero.lord_6_16" mother="Hero.lord_6_16_1" faction="Faction.clan_khuzait_4"/>
+	<Hero id="lord_6_24" faction="Faction.clan_khuzait_4"/>
+	<!-- clans 5 -->
+	<Hero id="lord_6_17" spouse="Hero.lord_6_17_1" faction="Faction.clan_khuzait_5"/>
+	<Hero id="lord_6_17_1" spouse="Hero.lord_6_17" faction="Faction.clan_khuzait_5"/>
+	<Hero id="lord_6_17_2" father="Hero.lord_6_17" mother="Hero.lord_6_17_1" faction="Faction.clan_khuzait_5"/>
+	<Hero id="lord_6_21" spouse="Hero.lord_6_21_1" faction="Faction.clan_khuzait_5"/>
+	<Hero id="lord_6_21_1" spouse="Hero.lord_6_21" faction="Faction.clan_khuzait_5"/>
+	<!-- clans 6 -->
+	<Hero id="lord_6_18" spouse="Hero.lord_6_18_1" faction="Faction.clan_khuzait_6"/>
+	<Hero id="lord_6_18_1" spouse="Hero.lord_6_18" faction="Faction.clan_khuzait_6"/>
+	<Hero id="lord_6_18_2" father="Hero.lord_6_18" mother="Hero.lord_6_18_1" faction="Faction.clan_khuzait_6"/>
+	<Hero id="lord_6_22" spouse="Hero.lord_6_22_1" faction="Faction.clan_khuzait_6"/>
+	<Hero id="lord_6_22_1" spouse="Hero.lord_6_22" faction="Faction.clan_khuzait_6"/>
+	<!-- clans 7 -->
+	<Hero id="lord_6_19" spouse="Hero.lord_6_19_1" faction="Faction.clan_khuzait_7"/>
+	<Hero id="lord_6_19_1" spouse="Hero.lord_6_19" faction="Faction.clan_khuzait_7"/>
+	<Hero id="lord_6_19_2" father="Hero.lord_6_19" mother="Hero.lord_6_19_1" spouse="Hero.gh_lord_6" faction="Faction.clan_khuzait_7"/>
+	<Hero id="lord_6_23" father="Hero.lord_6_19" mother="Hero.lord_6_19_1" faction="Faction.clan_khuzait_7"/>
+	<Hero id="gh_lord_5" father="Hero.lord_6_19_2" mother="Hero.gh_lord_6" faction="Faction.clan_khuzait_7"/>
+	<Hero id="gh_lord_6" spouse="Hero.lord_6_19_2" faction="Faction.clan_khuzait_7"/>
+	<Hero id="gh_lord_7" father="Hero.lord_6_19_2" mother="Hero.gh_lord_6" faction="Faction.clan_khuzait_7"/>
+	<!-- Yanserit, Khuzait 8 -->
+	<Hero id="lord_6_20" spouse="Hero.lord_6_20_1" faction="Faction.clan_khuzait_8"/>
+	<Hero id="lord_6_20_1" spouse="Hero.lord_6_20" faction="Faction.clan_khuzait_8"/>
+	<Hero id="lord_K8_u" faction="Faction.clan_khuzait_8"/>
+	<Hero id="gh_lord_3" spouse="Hero.gh_lord_4" faction="Faction.clan_khuzait_8"/>
+	<Hero id="gh_lord_4" spouse="Hero.gh_lord_3" faction="Faction.clan_khuzait_8"/>
+	<!-- Oburit -->
+	<Hero id="lord_K9_l" spouse="Hero.lord_K9_s" faction="Faction.clan_khuzait_9"/>
+	<Hero id="lord_K9_s" spouse="Hero.lord_K9_l" faction="Faction.clan_khuzait_9"/>
+	<Hero id="lord_K9_c1" father="Hero.lord_K9_l" mother="Hero.lord_K9_s" spouse="Hero.gh_lord_1" faction="Faction.clan_khuzait_9"/>
+	<Hero id="lord_K9_c2" father="Hero.lord_K9_l" mother="Hero.lord_K9_s" spouse="Hero.gh_lord_2" faction="Faction.clan_khuzait_9"/>
+	<Hero id="gh_lord_1" spouse="Hero.lord_K9_c1" faction="Faction.clan_khuzait_9"/>
+	<Hero id="gh_lord_2" spouse="Hero.lord_K9_c2" faction="Faction.clan_khuzait_9"/>
+</Heroes>

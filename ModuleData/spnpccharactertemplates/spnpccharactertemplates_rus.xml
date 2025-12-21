@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!--rus-->
+	<NPCCharacter id="npc_wanderer_equipment_template_rus" default_group="Infantry" is_hero="false" level="16" name="{=!}wanderer_equipment" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_rus"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_armed_wanderer_equipment_template_rus" default_group="Infantry" is_hero="false" level="16" name="{=!}wanderer_equipment" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_rus"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endregion-->
+	<!--#region Townsfolk Template-->
+	<NPCCharacter id="villager_rus" default_group="Infantry" level="1" name="{=E11NOn01man}Rus Peasant" occupation="Villager" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<skills/>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.rus_basic_root"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.northern_leather_vest"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Body" id="Item.nordic_padded_cloth"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.northern_tunic"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Body" id="Item.northern_padded_gambeson"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.heavy_nordic_coat"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+				<equipment slot="Leg" id="Item.ragged_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.nordic_tunic"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Leg" id="Item.ragged_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.northern_leather_vest"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+				<equipment slot="Leg" id="Item.battania_fur_boots"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.northern_tunic"/>
+				<equipment slot="Leg" id="Item.battania_fur_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.heavy_nordic_coat"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.northern_padded_gambeson"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+				<equipment slot="Leg" id="Item.ragged_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Body" id="Item.nordic_tunic"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Leg" id="Item.ragged_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.northern_leather_vest"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+				<equipment slot="Leg" id="Item.battania_fur_boots"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.northern_tunic"/>
+				<equipment slot="Leg" id="Item.battania_fur_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.heavy_nordic_coat"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Body" id="Item.northern_padded_gambeson"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Leg" id="Item.battania_leather_boots"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="townswoman_rus" default_group="Infantry" is_female="true" level="1" name="{=E11NOn02}Rus Townswoman" occupation="Townsfolk" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_rus"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.plain_dress"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.dress_with_overall"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.northern_dress"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.vlandian_woman_dress"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Body" id="Item.plain_dress"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.dress_with_overall"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.northern_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.vlandian_woman_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Body" id="Item.plain_dress"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.dress_with_overall"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.northern_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.vlandian_woman_dress"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.vlandian_woman_dress"/>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--#endregion-->
+	<!-- #region Fighter Template -->
+	<NPCCharacter id="fighter_rus" default_group="Infantry" level="1" name="{=!}Rus Fighter" occupation="Villager" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_rus"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="fighter_rus"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--#endregion Fighter Template-->
+	<NPCCharacter id="npc_companion_equipment_template_rus" default_group="Infantry" is_hero="false" level="16" name="{=!}wanderer_equipment" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_rus"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--#endregion-->
+	<NPCCharacter id="rus_troop_civilian_template_t1" name="{=!}rus_troop_civilian_template_t1" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.rus" is_template="true" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="rus_troop_civilian_template_t1"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="rus_troop_civilian_template_t2" name="{=!}rus_troop_civilian_template_t2" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.rus" is_template="true" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="rus_troop_civilian_template_t2"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="rus_troop_civilian_template_t3" name="{=!}rus_troop_civilian_template_t3" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.rus" is_template="true" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="rus_troop_civilian_template_t3"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- BATTLE EQUIPMENT-->
+	<NPCCharacter id="rus_bat_template_medium" default_group="Infantry" is_hero="false" level="16" name="{=!}rus_noble_battle_equipment" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="rus_bat_template_lady" default_group="Infantry" is_hero="false" level="16" name="{=!}rus_battle_equipment_for_noncom_lady" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_lady"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="rus_bat_template_heavy" default_group="Infantry" is_hero="false" level="16" name="{=!}rus_bat_template_heavy" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_heavy"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="rus_bat_template_flamboyant" default_group="Infantry" is_hero="false" level="16" name="{=!}rus_bat_template_flamboyant" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_flamboyant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="rus_bat_template_woodsman" default_group="Infantry" is_hero="false" level="16" name="{=!}rus_bat_template_woodsman" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="stu_bat_template_woodsman"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- rus CIVILIAN EQUIPMENT-->
+	<NPCCharacter id="rus_civ_template_default" default_group="Infantry" is_hero="false" level="16" name="{=!}rus_civ_template_default" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="stu_civ_template_default"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Deprecate -->
+	<NPCCharacter id="rus_civ_template_heavy" default_group="Infantry" is_hero="false" level="16" name="{=!}rus_unarmored_noble_equipment_heavy" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Traits>
+			<!-- Deprecate -->
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="stu_civ_template_heavy"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="rus_civ_template_flamboyant" default_group="Infantry" is_hero="false" level="16" name="{=!}rus_civilian_noble_equipment_flamboyant" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="stu_civ_template_flamboyant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="rus_civ_template_woodsman" default_group="Infantry" is_hero="false" level="16" name="{=!}rus_civilian_noble_equipment_woodsman" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="stu_civ_template_woodsman"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- rus NONCOMBATANT TEMPLATES-->
+	<NPCCharacter id="rus_noncom_template_default" default_group="Infantry" is_hero="false" level="16" name="{=!}rus_unarmored_noble_equipment_normal_lady" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="stu_noncom_template_default"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="rus_noncom_template_flamboyant" default_group="Infantry" is_hero="false" level="16" name="{=!}rus_unarmored_noble_equipment_flamboyant_lady" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="stu_noncom_template_flamboyant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="rus_noncom_template_woods" default_group="Infantry" is_hero="false" level="16" name="{=!}Rus civilian sets for noncombatant ladies, woods" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="stu_noncom_template_woods"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

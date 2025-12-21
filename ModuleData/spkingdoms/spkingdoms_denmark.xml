@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<Kingdom id="denmark"
+	         initial_home_settlement="Settlement.town_ribe"
+	         owner="Hero.lord_denmark_1_3"
+	         banner_key="11.15.15.1750.1750.764.764.0.0.0.10293.12.116.700.700.764.764.1.0.0.514.83.83.50.50.518.560.0.0.0.514.83.83.50.50.975.484.0.0.0.514.83.83.50.50.504.696.0.0.0.514.83.83.50.50.522.773.0.0.0.514.83.83.50.50.531.892.0.0.0.514.83.83.50.50.636.1106.0.0.0.514.83.83.50.50.504.1038.0.0.0.514.83.83.50.50.901.1104.0.0.0.514.83.83.50.50.971.907.0.0.0.514.83.83.50.50.966.693.0.0.0.514.83.83.50.50.1012.771.0.0.0.514.83.83.50.50.712.655.0.0.0"
+	         primary_banner_color="0xff000000"
+	         secondary_banner_color="0xff000000"
+	         color="FFf7bf47"
+	         color2="FF3b6298"
+	         culture="Culture.danish"
+	         settlement_banner_mesh="encounter_flag_b"
+	         flag_mesh="info_screen_flags_c"
+	         name="{=denmarkFactionName}Kingdom of Denmark"
+	         short_name="{=denmarkFactionShortName}Kingdom of Denmark"
+	         title="{=denmarkFactionTitle}Kingdom of Denmark"
+	         ruler_title="{=denmarkFactionRulerTitle}King"
+	         text="{=denmarkFactionText}The transition from Viking to feudal society in the late eleventh century, were marked by conflict over the extent of the king’s power. The mid-12th century proved a difficult time for the kingdom of Denmark. Violent civil wars rocked the land. Eventually, Valdemar the Great, gained control of the kingdom, stabilizing it and reorganizing the administration.">
+		<relationships>
+           
+        </relationships>
+		<policies>
+			<policy id="policy_senate"/>
+			<policy id="policy_lawspeakers"/>
+			<policy id="policy_hunting_rights"/>
+			<policy id="policy_road_tolls"/>
+		</policies>
+	</Kingdom>
+</Kingdoms>

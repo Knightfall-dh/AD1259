@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- Tver -->
+	<Hero id="dead_lord_tver_1" alive="false" faction="Faction.clan_tver_1"/>
+
+	<Hero id="lord_tver_1a" mother="Hero.dead_lord_tver_1" spouse="Hero.lord_tver_1b" faction="Faction.clan_tver_1"/>
+	<Hero id="lord_tver_1b" spouse="Hero.lord_tver_1a" faction="Faction.clan_tver_1"/>
+	<Hero id="lord_tver_1c" mother="Hero.dead_lord_tver_1" faction="Faction.clan_tver_1"/>
+	<Hero id="lord_tver_1d" father="Hero.lord_tver_1a" mother="Hero.lord_tver_1b" spouse="Hero.lord_tver_1e" faction="Faction.clan_tver_1"/>
+	<Hero id="lord_tver_1e" spouse="Hero.lord_tver_1d" faction="Faction.clan_tver_1"/>
+	<Hero id="lord_tver_1f" father="Hero.lord_tver_1d" mother="Hero.lord_tver_1e" faction="Faction.clan_tver_1"/>
+	<Hero id="lord_tver_1g" father="Hero.lord_tver_1d" mother="Hero.lord_tver_1e" spouse="Hero.lord_tver_2e" faction="Faction.clan_tver_1"/>
+	<Hero id="lord_tver_1h" father="Hero.lord_tver_1d" mother="Hero.lord_tver_1e" spouse="Hero.lord_tver_2f" faction="Faction.clan_tver_1"/>
+
+	<Hero id="lord_tver_2a" father="Hero.lord_tver_1d" mother="Hero.lord_tver_1e" spouse="Hero.lord_tver_2b" faction="Faction.clan_tver_2"/>
+	<Hero id="lord_tver_2b" spouse="Hero.lord_tver_2a" faction="Faction.clan_tver_2"/>
+	<Hero id="lord_tver_2c" father="Hero.lord_tver_2a" mother="Hero.lord_tver_2b" faction="Faction.clan_tver_2"/>
+	<Hero id="lord_tver_2d" father="Hero.lord_tver_2a" mother="Hero.lord_tver_2b" faction="Faction.clan_tver_2"/>
+	<Hero id="lord_tver_2e" spouse="Hero.lord_tver_1g" faction="Faction.clan_tver_2"/>
+	<Hero id="lord_tver_2f" spouse="Hero.lord_tver_1h" faction="Faction.clan_tver_2"/>
+	<Hero id="lord_tver_2g" faction="Faction.clan_tver_2"/>
+	<Hero id="lord_tver_2h" father="Hero.lord_tver_1h" mother="Hero.lord_tver_2f" faction="Faction.clan_tver_2"/>
+	<Hero id="lord_tver_2i" father="Hero.lord_tver_1h" mother="Hero.lord_tver_2f" faction="Faction.clan_tver_2"/>
+
+</Heroes>

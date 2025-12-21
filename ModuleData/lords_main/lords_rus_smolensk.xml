@@ -1,0 +1,524 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- Principality of Smolensk -->
+	<NPCCharacter id="dead_lord_smolensk_1" name="{=lord_smolensk_1}Mstislav Davidovich" age="52" voice="curt" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000AC001170000E68844A7B5955A69256989B97A185847C36C937ABA3698C8C01977613097BD71A000000000000000000000000000000000000000061341003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_smolensk_2" name="{=lord_smolensk_2}Helena of Polowcen" age="50" voice="softspoken" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000AC001170000E68844A7B5955A69256989B97A185847C36C937ABA3698C8C01977613097BD71A000000000000000000000000000000000000000061341003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_1a" name="{=lord_smolensk_3}Rostislav II Mstislavich" voice="curt" age="38" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_1b" name="{=lord_smolensk_4}Yulia" voice="ironic" age="29" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="0000000000001001797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_2a" name="{=lord_smolensk_5}Gleb I Rostislavich" voice="curt" age="47" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="0000000000002009795B596379B69167A35E866295A0967774414A498C83368600C976030CA7B7A500000000000000000000000000000000000000004B842002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_2b" name="{=lord_smolensk_6}Cvetoslava" voice="softspoken" age="39" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="0000000000001001797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_2c" name="{=lord_smolensk_7}Knyaz Sviatoslav Glebovich" voice="earnest" age="20" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000500000000100F79B3595A684A88BBA35E866295A0967774414A498C8336860089760308A7B7A500000000000000000000000000000000000000004B0C2003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="2"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_2d" name="{=lord_smolensk_8}Knyaz Roman Glebovich" voice="earnest" age="18" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4375" build="0.5" key="0000000000000002797A2785686678B9A35E866295A0967774414A498C8336860097760309A7B7A500000000000000000000000000000000000000003D3C2002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_3a" name="{=lord_smolensk_9}Mikhail I Rostislavich" voice="softspoken" age="39" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000000000000100F795B596379B69167A35E866295A0967774414A498C8336860079760307A7B7A500000000000000000000000000000000000000004AE42003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="-2"/>
+			<Trait id="Authoritarian" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_3b" name="{=lord_smolensk_10}Daryna" voice="earnest" age="37" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="0000000000001001797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_3c" name="{=lord_smolensk_11}Knyaz Andrei Michailovich" voice="curt" age="39" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000000000000100F795B596379B69167A35E866295A0967774414A498C8336860079760307A7B7A500000000000000000000000000000000000000004AE42003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="-2"/>
+			<Trait id="Authoritarian" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_4a" name="{=lord_smolensk_12}Fedor Rostislavich the Black" voice="softspoken" age="24" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000000000000314B79554C96489B6E95A35E866295A0967774414A498C8336860079760307A7B7A500000000000000000000000000000000000000004AFC2002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="-2"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="2"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_4b" name="{=lord_smolensk_13}Anastasia Vasilevna" voice="earnest" age="20" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.6176" build="0.5826" key="000000000000101079ADD3B877596D69A35E866295A0967774414A498C8336860059960305A7B7A500000000000000000000000000000000000000004AB42003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="0"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_4c" name="{=lord_smolensk_14}Anna Mengu-Timuraevna" voice="softspoken" age="18" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.6176" build="0.5826" key="000000000000141B7917B67C7449BB27A35E866295A0967774414A498C83368600A996030AA7B7A500000000000000000000000000000000000000004B5C2002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_4d" name="{=lord_smolensk_15}Knyaz Michail Fedorovich" voice="ironic" age="17" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.7986" build="0.5826" key="000000000000055B7987BCC5B9597664A35E866295A0967774414A498C8336860089C60308A7B7A500000000000000000000000000000000000000004B142002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="-2"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="-2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_4e" name="{=lord_smolensk_16}Knyaz David Fedorovich" voice="softspoken" age="16" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.2612" build="0.5826" key="000000000000200779775A45A5C64489A35E866295A0967774414A498C8336860049460304A7B7A500000000000000000000000000000000000000004A7C2003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_4f" name="{=lord_smolensk_17}Konstantin Jaroslavskij Fedorovich" voice="ironic" age="14" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.655" build="0.2938" key="000200000000000879B3595A684A88BBA35E866295A0967774414A498C8336860044A60304A7B7A500000000000000000000000000000000000000003C842002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="-2"/>
+			<Trait id="Authoritarian" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_5a" name="{=lord_smolensk_18}Konstantin Rostislavich" voice="curt" age="23" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000000000000330879554C96489B6E95A35E866295A0967774414A498C8336860079760307A7B7A500000000000000000000000000000000000000004AFC2002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="2"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_smolensk_5b" name="{=lord_smolensk_19}Evdokia Aleksandrovna" voice="earnest" age="20" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000000000000244D79AD99995768656CA35E866295A0967774414A498C83368600A976030AA7B7A500000000000000000000000000000000000000004B442002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="-2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="2"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

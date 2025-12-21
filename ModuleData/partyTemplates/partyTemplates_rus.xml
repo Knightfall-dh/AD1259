@@ -1,0 +1,96 @@
+<partyTemplates>
+	<!-- Villagers -->
+	<MBPartyTemplate id="villager_rus_template">
+		<stacks>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_rus"/>
+		</stacks>
+	</MBPartyTemplate>
+	<!-- Lords & Town Garrison -->
+	<MBPartyTemplate id="kingdom_hero_party_RUS_template">
+		<stacks>
+			<PartyTemplateStack min_value="12" max_value="18" troop="NPCCharacter.rus_basic_root"/>
+			<PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.rus_basic_root0"/>
+			<PartyTemplateStack min_value="8" max_value="16" troop="NPCCharacter.rus_basic_root00"/>
+			<PartyTemplateStack min_value="8" max_value="14" troop="NPCCharacter.rus_basic_root000"/>
+			<PartyTemplateStack min_value="6" max_value="12" troop="NPCCharacter.rus_basic_root0000"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.rus_basic_root01"/>
+			<PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.rus_basic_root010"/>
+			<PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.rus_basic_root0100"/>
+			<PartyTemplateStack min_value="4" max_value="12" troop="NPCCharacter.rus_basic_root1"/>
+			<PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.rus_basic_root10"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.rus_basic_root100"/>
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.rus_basic_root1000"/>
+			<PartyTemplateStack min_value="4" max_value="10" troop="NPCCharacter.rus_elite_root"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.rus_elite_root0"/>
+			<PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.rus_elite_root00"/>
+			<PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.rus_elite_root000"/>
+			<PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.rus_elite_root0000"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.rus_elite_root0001"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.rus_elite_root10"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.rus_elite_root100"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.rus_elite_root1000"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_RUS_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.rus_basic_root"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.rus_basic_root0"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.rus_elite_root"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.rus_elite_root0"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_RUS_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.rus_basic_root"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.rus_basic_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.rus_elite_root"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.rus_elite_root0"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_RUS_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.rus_basic_root"/>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.rus_basic_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.rus_elite_root"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.rus_elite_root0"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.rus_elite_root00"/>
+		</stacks>
+	</MBPartyTemplate>
+	<!-- Caravans -->
+	<MBPartyTemplate id="caravan_template_rus">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_rus"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_rus"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_rus"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="elite_caravan_template_rus">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_rus"/>
+			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_rus"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_rus"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_rus"/>
+		</stacks>
+	</MBPartyTemplate>
+	<!-- Town Militia -->
+	<MBPartyTemplate id="militia_rus_template">
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.rus_militia_spearman"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.rus_militia_archer"/>
+		</stacks>
+	</MBPartyTemplate>
+	<!-- Rebels -->
+	<MBPartyTemplate id="rebels_rus_template">
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.rus_basic_root0"/>
+		</stacks>
+	</MBPartyTemplate>
+	<!-- Vassal Reward Troops-->
+	<MBPartyTemplate id="vassal_reward_troops_rus">
+		<stacks>
+			<PartyTemplateStack min_value="4" max_value="10" troop="NPCCharacter.rus_elite_root0000"/>
+			<PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.rus_elite_root0001"/>
+			<PartyTemplateStack min_value="0" max_value="6" troop="NPCCharacter.rus_elite_root1000"/>
+		</stacks>
+	</MBPartyTemplate>
+</partyTemplates>

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SPCultures>
+    <Culture id="scottish"
+             name="{=scottishCulture}Scottish"
+             is_main_culture="true"
+             color="0xff3b6298"
+             color2="0xfff3bb08"
+             elite_basic_troop="NPCCharacter.scotland_elite_root"
+             basic_troop="NPCCharacter.scotland_basic_root"
+             melee_militia_troop="NPCCharacter.scottish_militia_spearman"
+             ranged_militia_troop="NPCCharacter.scottish_militia_archer"
+             melee_elite_militia_troop="NPCCharacter.scottish_militia_veteran_spearman"
+             ranged_elite_militia_troop="NPCCharacter.scottish_militia_veteran_archer"
+             can_have_settlement="true"
+             villager_party_template="PartyTemplate.villager_scottish_template"
+             default_party_template="PartyTemplate.kingdom_hero_party_SCOTTISH_template"
+			 settlement_patrol_template_level_1="PartyTemplate.patrol_party_SCOTTISH_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_SCOTTISH_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_SCOTTISH_template_level_3" 
+             encounter_background_mesh="encounter_scottish"
+             faction_banner_key="11.14.14.1750.1750.764.764.0.0.90.503.15.15.-1.-1.2304.1563.0.0.2.307.33.15.417.490.561.628.0.0.2.140.15.15.653.653.778.795.0.0.0.340.15.149.121.121.820.488.1.0.-19"
+             militia_party_template="PartyTemplate.militia_scottish_template"
+             rebels_party_template="PartyTemplate.rebels_scottish_template"
+             vassal_reward_party_template="PartyTemplate.vassal_reward_troops_scottish"
+             text="{=scottishCultureText}Unused in the game."
+             tournament_master="NPCCharacter.tournament_master_scottish"
+             villager="NPCCharacter.villager_scottish"
+             caravan_master="NPCCharacter.caravan_master_scottish"
+             caravan_guard="NPCCharacter.caravan_guard_scottish"
+             veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_scottish"
+             prison_guard="NPCCharacter.prison_guard_scottish"
+             guard="NPCCharacter.guard_scottish"
+             blacksmith="NPCCharacter.blacksmith_scottish"
+             weaponsmith="NPCCharacter.weaponsmith_scottish"
+             townswoman="NPCCharacter.townswoman_scottish"
+             townswoman_infant="NPCCharacter.townswoman_infant_scottish"
+             townswoman_child="NPCCharacter.townswoman_child_scottish"
+             townswoman_teenager="NPCCharacter.townswoman_teenager_scottish"
+             townsman="NPCCharacter.townsman_scottish"
+             townsman_infant="NPCCharacter.townsman_infant_scottish"
+             townsman_child="NPCCharacter.townsman_child_scottish"
+             townsman_teenager="NPCCharacter.townsman_teenager_scottish"
+             village_woman="NPCCharacter.village_woman_scottish"
+             villager_male_child="NPCCharacter.villager_child_scottish"
+             villager_male_teenager="NPCCharacter.villager_teenager_scottish"
+             villager_female_child="NPCCharacter.village_woman_child_scottish"
+             villager_female_teenager="NPCCharacter.village_woman_teenager_scottish"
+             ransom_broker="NPCCharacter.ransom_broker_scottish"
+             gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_scottish"
+             merchant_notary="NPCCharacter.merchant_notary_scottish"
+             artisan_notary="NPCCharacter.artisan_notary_scottish"
+             preacher_notary="NPCCharacter.preacher_notary_scottish"
+             rural_notable_notary="NPCCharacter.rural_notable_notary_scottish"
+             shop_worker="NPCCharacter.shop_worker_scottish"
+             tavernkeeper="NPCCharacter.tavernkeeper_scottish"
+             taverngamehost="NPCCharacter.taverngamehost_scottish"
+             musician="NPCCharacter.musician_scottish"
+             tavern_wench="NPCCharacter.tavern_wench_scottish"
+             armorer="NPCCharacter.armorer_scottish"
+             horseMerchant="NPCCharacter.horseMerchant_scottish"
+             barber="NPCCharacter.barber_scottish"
+             merchant="NPCCharacter.merchant_scottish"
+             beggar="NPCCharacter.beggar_scottish"
+             female_beggar="NPCCharacter.female_beggar_scottish"
+             female_dancer="NPCCharacter.female_dancer_scottish"
+             default_battle_equipment_roster="EquipmentRoster.scot_bat_template_medium"
+             default_civilian_equipment_roster="EquipmentRoster.scot_civ_template_default"
+             default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+			 duel_preset_equipment_roster="EquipmentRoster.emp_duel_preset_template"
+             marriage_bride_equipment_roster="EquipmentRoster.marriage_female_vla_cutscene_template"
+			 board_game_type="Konane"
+			 default_character_creation_body_property="BodyProperty.default_character_creation_body_property_vlandia"
+	         start_point_position_x="172"
+	         start_point_position_y="1221">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_scottish"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_scottish"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+        <vassal_reward_items>
+            <item id="Item.avalanche_2haxe"/>
+        </vassal_reward_items>
+        <banner_bearer_replacement_weapons>
+            <item id="Item.sturgia_sword_1_t2"/>
+            <item id="Item.sturgia_sword_2_t3"/>
+            <item id="Item.sturgia_sword_4_t4"/>
+            <item id="Item.sturgia_sword_5_t5"/>
+        </banner_bearer_replacement_weapons>
+        <default_policies>
+             <policy id="policy_cantons" />
+             <policy id="policy_lawspeakers" />
+        </default_policies>
+        <male_names>
+            <name name="{=JNvsDUsK}"/>
+            <name name="{=ItZbpFIW}"/>
+            <name name="{=oTAcRlvj}Absalom"/>
+            <name name="{=jrFHxLBV}Alan"/>
+            <name name="{=yskJoXds}Alexander"/>
+            <name name="{=lpoGDBrV}Angus"/>
+            <name name="{=zlgFGulA}Aymer"/>
+            <name name="{=isIUjmqc}Eymer"/>
+            <name name="{=skpnubRD}Bernard"/>
+            <name name="{=wXscESud}Brian"/>
+            <name name="{=iAsRrTVD}Colban"/>
+            <name name="{=hNTYNtCG}David"/>
+            <name name="{=dVedYqgv}Douenald"/>
+            <name name="{=HNbVDntu}Donald"/>
+            <name name="{=ctNzzLvd}Dunkan"/>
+            <name name="{=wbxCtZHp}Duncan"/>
+            <name name="{=vfQysLTg}Edward"/>
+            <name name="{=cETdZNVs}Gamelin"/>
+            <name name="{=DkinmhxN}Gaufrid"/>
+            <name name="{=IHVQXIzA}Gilbert"/>
+            <name name="{=NuCtSHCj}Henry"/>
+            <name name="{=JqvZEQBq}Herbert"/>
+            <name name="{=BhHajZSD}Hugh"/>
+            <name name="{=PeQMIium}Ingelram"/>
+            <name name="{=IlVmmEyI}James"/>
+            <name name="{=zrNyBZHN}Jacob"/>
+            <name name="{=MlaVXBCq}John"/>
+            <name name="{=AWlTpOXE}Lawemund"/>
+            <name name="{=tNoscCsR}Luke"/>
+            <name name="{=cLwEHyff}MacDuf"/>
+            <name name="{=NkjhRKtF}Malcolm"/>
+            <name name="{=dkcnUpYU}Maldouen"/>
+            <name name="{=qDgxEfnp}Malise"/>
+            <name name="{=WIdKLIKx}Mathew"/>
+            <name name="{=AnplqKbr}Miles"/>
+            <name name="{=BETQAAAr}Nicholas"/>
+            <name name="{=yhPLpKhi}Nigell"/>
+            <name name="{=JcmcmuWy}Patric"/>
+            <name name="{=HiqzlFPJ}Peter"/>
+            <name name="{=PltFssdr}Radulph"/>
+            <name name="{=NpsZWMDz}Ranulph"/>
+            <name name="{=GpAYZiGN}Raso"/>
+            <name name="{=ckxUhERx}Ricard"/>
+            <name name="{=uUoiBmUl}Robert"/>
+            <name name="{=WvTBRLnE}Roger"/>
+            <name name="{=CNLQkBhS}Stephan"/>
+            <name name="{=FQheOsMn}Symon"/>
+            <name name="{=GwdNknUA}Thomas"/>
+            <name name="{=nxllxDVX}Walter"/>
+            <name name="{=KWjbytpX}Willelm"/>
+            <name name="{=mPTvgSSP}Adamnán"/>
+            <name name="{=ZWPcqWpJ}Allistor"/>
+            <name name="{=KVYpmnlu}Aymer"/>
+            <name name="{=xHUcNNBH}Beolin"/>
+            <name name="{=IiDXYHem}Bróccin"/>
+            <name name="{=ThVefOIK}Colban"/>
+            <name name="{=OxEivCPE}Colle"/>
+            <name name="{=PkPSlbrx}Dawy "/>
+            <name name="{=yPHKXANE}Eaun"/>
+            <name name="{=SecZosgL}Gamelin"/>
+            <name name="{=pjBFJGfH}Gilleandrais"/>
+            <name name="{=zBjiqKhN}Gillebride"/>
+            <name name="{=UYDCjLQi}Gillemicel"/>
+            <name name="{=WnCZqlgJ}Gillepatric"/>
+            <name name="{=rrADumnv}Goerge"/>
+            <name name="{=qHlUNmaW}Gospatric"/>
+            <name name="{=ZxCksMzj}Gylmyne"/>
+            <name name="{=RhAQhLtK}Hendrie"/>
+            <name name="{=uiDHNXRt}Inan"/>
+            <name name="{=gsvRFaMh}Johnne"/>
+            <name name="{=uuTZWPJu}Lamond"/>
+            <name name="{=pKajwwgR}Lowrans"/>
+            <name name="{=ftdHkWEU}Ludan"/>
+            <name name="{=oQdNVpzN}Lulach"/>
+            <name name="{=bZvRJBKz}Maldouen"/>
+            <name name="{=PgdnesCw}Malise"/>
+            <name name="{=ESJzqaZn}Odart"/>
+            <name name="{=iyVCHUpP}Thorfinn"/>
+            <name name="{=BuJOYcmN}Ulchel"/>
+        </male_names>
+        <female_names>
+            <name name="{=wmavDBib}Abigall"/>
+            <name name="{=RwdyVlWH}Ailios"/>
+            <name name="{=gexRdzPt}Alesonne"/>
+            <name name="{=EeQcqzEe}Allissaid"/>
+            <name name="{=OXoPACAH}Angnes"/>
+            <name name="{=NKaZCrCs}Annabill"/>
+            <name name="{=ibkUzsqW}Annas"/>
+            <name name="{=FwSOKlli}Beatie"/>
+            <name name="{=eRTXFINc}Beigis"/>
+            <name name="{=WJrzZmBe}Besseta"/>
+            <name name="{=PtXuSUFV}Burunild"/>
+            <name name="{=PAbXEMxf}Caitrina"/>
+            <name name="{=iMvdaBND}Cannie"/>
+            <name name="{=pCpcJvbR}Canny"/>
+            <name name="{=oPkiWtxA}Christan"/>
+            <name name="{=fwATACsV}Christane"/>
+            <name name="{=nAYTDkkN}Claray"/>
+            <name name="{=sxrYZMQQ}Deredere"/>
+            <name name="{=bFxLMaPP}Dervorgilla"/>
+            <name name="{=gehiiIJT}Dervorguilla"/>
+            <name name="{=GkDdfWqu}Ealusaid"/>
+            <name name="{=PenklAly}Eby"/>
+            <name name="{=depzqcUd}Elesbeth"/>
+            <name name="{=WGrNmZcv}Elspaith"/>
+            <name name="{=cWzavUOa}Eschina"/>
+            <name name="{=OyZjowOp}Eufemie"/>
+            <name name="{=IjJAxQSu}Fernelith"/>
+            <name name="{=YojoLYUi}Finnola"/>
+            <name name="{=ThxLupmw}Finvola"/>
+            <name name="{=SAIVsgHj}Forbflaith"/>
+            <name name="{=WlRZxwqw}Forflissa"/>
+            <name name="{=FOVNFqMl}Forsy"/>
+            <name name="{=VbuGyOCc}Gelis"/>
+            <name name="{=VvHEeBaz}Godith"/>
+            <name name="{=xWJmxQFQ}Grisell "/>
+            <name name="{=odLqCFmj}Gruoch"/>
+            <name name="{=FNvCCbvb}Hextilda"/>
+            <name name="{=XKpwaOko}Isbell"/>
+            <name name="{=MJcltsUR}Isobell"/>
+            <name name="{=wbHDgvNw}Isobella"/>
+            <name name="{=FAyzylTF}Jennet "/>
+            <name name="{=vPVtBGUg}Jonet"/>
+            <name name="{=UbTucQFH}Karistina"/>
+            <name name="{=cEQuvQji}Katherin"/>
+            <name name="{=NnmJVMBd}Katreine"/>
+            <name name="{=PdkVMUxD}Kennera"/>
+            <name name="{=XKuBfNsw}Kennocha"/>
+            <name name="{=Aydvdrfh}Made"/>
+            <name name="{=NinGFRif}Maidlin "/>
+            <name name="{=rTADRsrH}Margret"/>
+            <name name="{=sPmspHUD}Mariory"/>
+            <name name="{=JJqFyLiH}Mariot"/>
+            <name name="{=nFLOPBgf}Mariota"/>
+            <name name="{=VNSbiMVI}Marioziota"/>
+            <name name="{=AzVSFYAS}Marsle"/>
+            <name name="{=oIqQfByi}Merraid"/>
+            <name name="{=zANfiFKy}Murreall"/>
+            <name name="{=DlhpxEAK}Rinalde"/>
+            <name name="{=fBnKsGYC}Sidheag"/>
+            <name name="{=fDdlppDu}Suanach"/>
+            <name name="{=jlRMtPCn}Thebe"/>
+            <name name="{=jlRMtPCn}Theebet"/>
+            <name name="{=jlRMtPCn}Triduana"/>
+            <name name="{=jlRMtPCn}Wyolet"/>
+            <name name="{=jlRMtPCn}Ysenda"/>
+        </female_names>
+        <clan_names>
+            <name name="{=cZSAoysa}Olifard"/>
+            <name name="{=OgKtYYfc}Syward"/>
+            <name name="{=qTwrvkLD}Cornet"/>
+            <name name="{=XYmhDaCe}Corbet"/>
+            <name name="{=dmLUZVgu}Giffard"/>
+            <name name="{=WWcotCWO}Gurle"/>
+            <name name="{=ubFLZuyo}Wyscard"/>
+            <name name="{=hspXDvmp}MacDuf"/>
+            <name name="{=nPIyIJXp}Mackenedi"/>
+            <name name="{=NqWvRImZ}McGregere"/>
+        </clan_names>
+        <cultural_feats>
+            <feat id="battanian_forest_speed"/>
+            <feat id="vlandian_villages_production_bonus"/>
+            <feat id="vlandian_increased_army_influence_cost"/>
+        </cultural_feats>
+        <possible_clan_banner_icon_ids>
+            <icon id="112"/>
+            <icon id="113"/>
+            <icon id="114"/>
+            <icon id="115"/>
+            <icon id="116"/>
+            <icon id="117"/>
+            <icon id="118"/>
+            <icon id="132"/>
+            <icon id="138"/>
+            <icon id="139"/>
+            <icon id="307"/>
+            <icon id="331"/>
+            <icon id="407"/>
+            <icon id="408"/>
+            <icon id="409"/>
+            <icon id="410"/>
+            <icon id="439"/>
+            <icon id="440"/>
+            <icon id="441"/>
+            <icon id="442"/>
+            <icon id="443"/>
+            <icon id="444"/>
+            <icon id="445"/>
+        </possible_clan_banner_icon_ids>
+        <notable_templates>
+            <template name="NPCCharacter.spc_notable_scottish_0"/>
+            <template name="NPCCharacter.spc_notable_scottish_0b"/>
+            <template name="NPCCharacter.spc_notable_scottish_1"/>
+            <template name="NPCCharacter.spc_notable_scottish_2"/>
+            <template name="NPCCharacter.spc_notable_scottish_2b"/>
+            <template name="NPCCharacter.spc_notable_scottish_3"/>
+            <template name="NPCCharacter.spc_notable_scottish_3b"/>
+            <template name="NPCCharacter.spc_notable_scottish_3c"/>
+            <template name="NPCCharacter.spc_notable_scottish_4"/>
+            <template name="NPCCharacter.spc_notable_scottish_5"/>
+            <template name="NPCCharacter.spc_notable_scottish_6"/>
+            <template name="NPCCharacter.spc_notable_scottish_7"/>
+            <template name="NPCCharacter.spc_notable_scottish_8"/>
+            <template name="NPCCharacter.spc_notable_scottish_9"/>
+            <template name="NPCCharacter.spc_notable_scottish_10"/>
+            <template name="NPCCharacter.spc_scottish_headman_1"/>
+            <template name="NPCCharacter.spc_scottish_headman_2"/>
+            <template name="NPCCharacter.spc_scottish_headman_3"/>
+        </notable_templates>
+        <lord_templates>
+            <template name="NPCCharacter.scotland_autogenerated_lord1"/>
+            <template name="NPCCharacter.scotland_autogenerated_lord2"/>
+            <template name="NPCCharacter.scotland_autogenerated_lord3"/>
+            <template name="NPCCharacter.scotland_autogenerated_lord4"/>
+        </lord_templates>
+        <rebellion_hero_templates>
+            <template name="NPCCharacter.scotland_autogenerated_lord1"/>
+            <template name="NPCCharacter.scotland_autogenerated_lord2"/>
+            <template name="NPCCharacter.scotland_autogenerated_lord3"/>
+            <template name="NPCCharacter.scotland_autogenerated_lord4"/>
+        </rebellion_hero_templates>
+        <tournament_team_templates_one_participant>
+            <template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v1"/>
+            <template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v2"/>
+            <template name="NPCCharacter.tournament_template_vlandia_one_participant_set_v3"/>
+        </tournament_team_templates_one_participant>
+        <tournament_team_templates_two_participant>
+            <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v1"/>
+            <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v2"/>
+            <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v3"/>
+            <template name="NPCCharacter.tournament_template_vlandia_two_participant_set_v4"/>
+        </tournament_team_templates_two_participant>
+        <tournament_team_templates_four_participant>
+            <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v1"/>
+            <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v2"/>
+            <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v3"/>
+            <template name="NPCCharacter.tournament_template_vlandia_four_participant_set_v4"/>
+        </tournament_team_templates_four_participant>
+        <basic_mercenary_troops>
+            <template name="NPCCharacter.merc_euro_crossbowman"/>
+            <template name="NPCCharacter.merc_hobelar_root00"/>
+            <template name="NPCCharacter.merc_hobelar_root10"/>
+            <template name="NPCCharacter.merc_scandinavian_spearman"/>
+            <template name="NPCCharacter.merc_scandinavian_archer"/>
+            <template name="NPCCharacter.merc_scandinavian_horseman"/>
+            <template name="NPCCharacter.merc_manhunter_root"/>
+            <template name="NPCCharacter.merc_welsh_bowman"/>
+            <template name="NPCCharacter.merc_welsh_marksman"/>
+        </basic_mercenary_troops>
+    </Culture>
+
+</SPCultures>

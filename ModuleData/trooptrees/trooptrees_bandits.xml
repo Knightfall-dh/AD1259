@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- region Bandits -->
+	<NPCCharacter id="looter" default_group="Infantry" name="Ruffian" level="6" occupation="Bandit" culture="Culture.looters">
+		<face>
+			<face_key_template value="BodyProperty.looter"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="30"/>
+			<skill id="Bow" value="20"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Riding" value="0"/>
+			<skill id="Throwing" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.france_infantry_root"/>
+			<upgrade_target id="NPCCharacter.england_infantry_root"/>
+			<upgrade_target id="NPCCharacter.hre_infantry_root"/>
+			<upgrade_target id="NPCCharacter.poland_infantry_root"/>
+			<upgrade_target id="NPCCharacter.crusader_basic_root"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="looter_bat"/>
+			<EquipmentSet id="looter_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="deserter" default_group="Cavalry" name="{=C8DE6L73}Deserter" level="6" occupation="Bandit" culture="Culture.looters">
+		<face>
+			<face_key_template value="BodyProperty.looter"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Bow" value="15"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Riding" value="60"/>
+			<skill id="Throwing" value="30"/>
+			<skill id="TwoHanded" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.france_infantry_root"/>
+			<upgrade_target id="NPCCharacter.england_infantry_root"/>
+			<upgrade_target id="NPCCharacter.hre_infantry_root"/>
+			<upgrade_target id="NPCCharacter.poland_infantry_root"/>
+			<upgrade_target id="NPCCharacter.crusader_basic_root"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="deserter_civ" civilian="true"/>
+			<EquipmentSet id="deserter_bat"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="sea_raiders_bandit" default_group="Infantry" name="{=Sailor}Sailor" level="11" occupation="Bandit" culture="Culture.sea_raiders">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sweden_infantry_root"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="sea_raiders_bandit_bat"/>
+			<EquipmentSet id="sea_raiders_bandit_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="sea_raiders_raider" default_group="Infantry" name="{=Pirate}Pirate" level="16" occupation="Bandit" culture="Culture.sea_raiders">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="25"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sweden_infantry_root0"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="sea_raiders_raider_bat"/>
+			<EquipmentSet id="sea_raiders_raider_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="sea_raiders_chief" default_group="Infantry" name="{=Pirate Chief}Pirate Chief" level="21" occupation="Bandit" culture="Culture.sea_raiders">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="35"/>
+			<skill id="Throwing" value="140"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sweden_infantry_root10"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="sea_raiders_chief_bat"/>
+			<EquipmentSet id="sea_raiders_chief_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mountain_bandits_bandit" default_group="Infantry" name="{=9laVlEH9}Hillman" level="11" occupation="Bandit" culture="Culture.mountain_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mountain_bandits"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Bow" value="20"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Riding" value="15"/>
+			<skill id="Throwing" value="15"/>
+			<skill id="TwoHanded" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.france_infantry_root"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="mountain_bandits_bandit_bat"/>
+			<EquipmentSet id="mountain_bandits_bandit_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mountain_bandits_raider" default_group="Infantry" name="{=ZKdiaaFo}Brigand" level="16" occupation="Bandit" culture="Culture.mountain_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mountain_bandits"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Bow" value="40"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Riding" value="20"/>
+			<skill id="Throwing" value="70"/>
+			<skill id="TwoHanded" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.france_infantry_root00"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="mountain_bandits_raider_bat"/>
+			<EquipmentSet id="mountain_bandits_raider_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mountain_bandits_chief" default_group="Cavalry" name="{=P6Md9DpR}Highwayman" level="21" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.mountain_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Bow" value="80"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="Polearm" value="110"/>
+			<skill id="Riding" value="120"/>
+			<skill id="Throwing" value="120"/>
+			<skill id="TwoHanded" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.france_infantry_root00"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="mountain_bandits_chief_bat"/>
+			<EquipmentSet id="mountain_bandits_chief_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="forest_bandits_bandit" default_group="Ranged" level="16" name="{=Forest_Bandit}Forest Bandit" occupation="Soldier" culture="Culture.forest_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.forest_bandits_raider"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="forest_bandits_bandit_bat"/>
+			<EquipmentSet id="forest_bandits_bandit_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="forest_bandits_raider" default_group="Ranged" level="21" name="{=Forest_Bandit_raider}Forest Bandit Raider" occupation="Soldier" culture="Culture.forest_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="130"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="90"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.england_archer_root000"/>
+			<upgrade_target id="NPCCharacter.forest_bandits_chief"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="forest_bandits_raider_bat"/>
+			<EquipmentSet id="forest_bandits_raider_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="forest_bandits_chief" default_group="Ranged" level="26" name="{=Forest_Bandit_chief}Forest Bandit Chief" occupation="Bandit" culture="Culture.forest_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="125"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="175"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="90"/>
+		</skills>
+		<upgrade_targets>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="forest_bandits_chief_bat"/>
+			<EquipmentSet id="forest_bandits_chief_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="desert_bandits_bandit" default_group="Infantry" name="{=uOAnHN47}Bedouin Rover" level="6" occupation="Bandit" culture="Culture.desert_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Bow" value="20"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="Polearm" value="75"/>
+			<skill id="Riding" value="20"/>
+			<skill id="Throwing" value="0"/>
+			<skill id="TwoHanded" value="10"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.desert_bandits_raider"/>
+			<upgrade_target id="NPCCharacter.marinid_infantry_root1"/>
+			<upgrade_target id="NPCCharacter.turkish_basic_root0"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="desert_bandits_bandit_bat"/>
+			<EquipmentSet id="desert_bandits_bandit_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="desert_bandits_raider" default_group="Cavalry" name="{=0qDNS83n}Nomad Bandit" level="11" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.desert_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="90"/>
+			<skill id="Bow" value="80"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="Polearm" value="75"/>
+			<skill id="Riding" value="90"/>
+			<skill id="Throwing" value="0"/>
+			<skill id="TwoHanded" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.desert_bandits_chief"/>
+			<upgrade_target id="NPCCharacter.marinid_infantry_root10"/>
+			<upgrade_target id="NPCCharacter.turkish_basic_root00"/>
+			<upgrade_target id="NPCCharacter.turkish_basic_root01"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="desert_bandits_raider_bat"/>
+			<EquipmentSet id="desert_bandits_raider_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="desert_bandits_chief" default_group="Cavalry" name="{=cdbSCr6G}Harami" upgrade_requires="ItemCategory.war_horse" level="16" occupation="Bandit" culture="Culture.desert_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Bow" value="40"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Riding" value="120"/>
+			<skill id="Throwing" value="95"/>
+			<skill id="TwoHanded" value="80"/>
+		</skills>
+		<upgrade_targets>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="desert_bandits_chief_bat"/>
+			<EquipmentSet id="desert_bandits_chief_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="steppe_bandits_bandit" default_group="Cavalry" name="{=ZA4bgJ5V}Steppe Bandit" level="11" occupation="Bandit" culture="Culture.steppe_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Bow" value="0"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Riding" value="80"/>
+			<skill id="Throwing" value="20"/>
+			<skill id="TwoHanded" value="30"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.steppe_bandits_raider"/>
+			<upgrade_target id="NPCCharacter.merc_kipchak_root1"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="steppe_bandits_bandit_bat"/>
+			<EquipmentSet id="steppe_bandits_bandit_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="steppe_bandits_raider" default_group="HorseArcher" name="{=Awc23bFS}Marauder" level="16" occupation="Bandit" culture="Culture.steppe_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Bow" value="90"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Riding" value="120"/>
+			<skill id="Throwing" value="40"/>
+			<skill id="TwoHanded" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.steppe_bandits_chief"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="steppe_bandits_raider_bat"/>
+			<EquipmentSet id="steppe_bandits_raider_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="steppe_bandits_chief" default_group="HorseArcher" name="{=cbnvgVhH}Raider" upgrade_requires="ItemCategory.war_horse" level="21" occupation="Bandit" culture="Culture.steppe_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Riding" value="100"/>
+			<skill id="Throwing" value="60"/>
+			<skill id="TwoHanded" value="50"/>
+		</skills>
+		<upgrade_targets>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="steppe_bandits_chief_bat"/>
+			<EquipmentSet id="steppe_bandits_chief_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- region Boss characters -->
+	<NPCCharacter id="sea_raiders_boss" default_group="Infantry" name="{=Pirate Captain}Pirate Captain" level="26" occupation="Bandit" culture="Culture.sea_raiders">
+		<face>
+			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="165"/>
+			<skill id="TwoHanded" value="160"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Throwing" value="140"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="sea_raiders_boss_bat"/>
+			<EquipmentSet id="sea_raiders_boss_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mountain_bandits_boss" default_group="Infantry" name="{=ziOBJSzR}Mountain Bandit Boss" level="26" occupation="Bandit" culture="Culture.mountain_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="mountain_bandits_boss_bat"/>
+			<EquipmentSet id="mountain_bandits_boss_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="forest_bandits_boss" default_group="Ranged" name="{=dc2qxanZ}Forest Bandit Boss" level="26" occupation="Bandit" culture="Culture.forest_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="forest_bandits_boss_bat"/>
+			<EquipmentSet id="forest_bandits_boss_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="desert_bandits_boss" default_group="Cavalry" name="{=Q2V4uQrr}Desert Bandit Boss" level="26" upgrade_requires="ItemCategory.war_horse" occupation="Bandit" culture="Culture.desert_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="desert_bandits_boss_bat"/>
+			<EquipmentSet id="desert_bandits_boss_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="steppe_bandits_boss" default_group="HorseArcher" name="{=Bg63YFnh}Steppe Bandit Boss" upgrade_requires="ItemCategory.war_horse" level="26" occupation="Bandit" culture="Culture.steppe_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_khuzait"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="140"/>
+			<skill id="Bow" value="160"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="desert_bandits_boss_bat"/>
+			<EquipmentSet id="desert_bandits_boss_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- region NPCSs for Caravan Ambush issue -->
+	<NPCCharacter id="mounted_pillager" default_group="HorseArcher" level="11" occupation="Bandit" is_basic_troop="true" culture="Culture.looters" name="{=C8hwcOdF}Mounted Pillager" skill_template="SkillSet.horsearcher_level11_template_skills" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mounted_pillager"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="15"/>
+			<skill id="Polearm" value="10"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="mounted_pillager_bat"/>
+			<EquipmentSet id="mounted_pillager_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mounted_ransacker" default_group="Cavalry" level="16" name="{=J6Yksji5}Mounted Ransacker" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.looters" is_hidden_encyclopedia="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="70"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="mounted_ransacker_bat"/>
+			<EquipmentSet id="mounted_ransacker_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- region Castle Bandit Hideouts -->
+	<NPCCharacter id="castle_bandits_bandit" default_group="Infantry" name="{=RogueServant}Rogue Servant" level="6" occupation="Bandit" culture="Culture.castle_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.castle_bandits_footman"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="castle_bandits_bandit_bat"/>
+			<EquipmentSet id="castle_bandits_bandit_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="castle_bandits_footman" default_group="Infantry" level="11" name="{=Robber Footman}Rogue Footman" occupation="Bandit" culture="Culture.castle_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="5"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.castle_bandits_raider"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="castle_bandits_footman_bat"/>
+			<EquipmentSet id="castle_bandits_footman_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="castle_bandits_raider" default_group="Cavalry" name="{=RogueSquire}Rogue Squire" level="16" occupation="Bandit" culture="Culture.castle_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="110"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="TwoHanded" value="90"/>
+			<skill id="Polearm" value="120"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.castle_bandits_chief"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="castle_bandits_raider_bat"/>
+			<EquipmentSet id="castle_bandits_raider_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="castle_bandits_chief" default_group="Cavalry" name="{=RogueKnight}Rogue Knight" level="21" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.castle_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_vlandia"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="160"/>
+			<skill id="Riding" value="160"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="140"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="castle_bandits_chief_bat"/>
+			<EquipmentSet id="castle_bandits_chief_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="castle_bandits_boss" default_group="Infantry" name="{=RogueKnightsB}Rogue Knight Boss" level="26" occupation="Bandit" culture="Culture.castle_bandits">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="castle_bandits_boss_bat"/>
+			<EquipmentSet id="castle_bandits_boss_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- region Barbary Pirates-->
+	<NPCCharacter id="barbary_pirates_bandit" default_group="Infantry" name="Barbary Khalasi" is_basic_troop="true" level="11" occupation="Bandit" culture="Culture.barbary_pirates">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Bow" value="20"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Riding" value="0"/>
+			<skill id="Throwing" value="80"/>
+			<skill id="TwoHanded" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.barbary_pirates_raider"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="barbary_pirates_bandit_bat"/>
+			<EquipmentSet id="barbary_pirates_bandit_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="barbary_pirates_raider" default_group="Infantry" name="Barbary Pirate" level="16" occupation="Bandit" culture="Culture.barbary_pirates">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Bow" value="40"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Riding" value="0"/>
+			<skill id="Throwing" value="100"/>
+			<skill id="TwoHanded" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.barbary_pirates_chief"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="barbary_pirates_raider_bat"/>
+			<EquipmentSet id="barbary_pirates_raider_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="barbary_pirates_chief" default_group="Infantry" name="Barbary Ghazi" level="21" occupation="Bandit" culture="Culture.barbary_pirates">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="110"/>
+			<skill id="Bow" value="40"/>
+			<skill id="OneHanded" value="110"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Riding" value="0"/>
+			<skill id="Throwing" value="100"/>
+			<skill id="TwoHanded" value="80"/>
+		</skills>
+		<upgrade_targets>
+        </upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="barbary_pirates_chief_bat"/>
+			<EquipmentSet id="barbary_pirates_chief_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="barbary_pirates_boss" default_group="Infantry" name="Barbary Amir al-Bahr" level="26" occupation="Bandit" culture="Culture.barbary_pirates">
+		<face>
+			<face_key_template value="BodyProperty.fighter_aserai"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="0"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="100"/>
+			<skill id="Polearm" value="110"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="barbary_pirates_boss_bat"/>
+			<EquipmentSet id="barbary_pirates_boss_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

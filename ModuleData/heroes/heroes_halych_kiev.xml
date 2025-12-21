@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- clan 1 -->
+	<Hero id="dead_lord_kiev_1" alive="false" spouse="Hero.dead_lord_kiev_1_1" faction="Faction.clan_kiev_1"/>
+	<Hero id="dead_lord_kiev_1_1" alive="false" spouse="Hero.dead_lord_kiev_1" faction="Faction.clan_kiev_1"/>
+
+	<Hero id="lord_kiev_1a" father="Hero.dead_lord_kiev_1" mother="Hero.dead_lord_kiev_1_1" spouse="Hero.lord_kiev_1b" faction="Faction.clan_kiev_1" text="{=alfonsoXDescription}Description."/>
+	<Hero id="lord_kiev_1b" spouse="Hero.lord_kiev_1a" faction="Faction.clan_kiev_1"/>
+	<Hero id="lord_kiev_1c" father="Hero.lord_kiev_1a" mother="Hero.lord_kiev_1b" faction="Faction.clan_kiev_1"/>
+	<Hero id="lord_kiev_1d" father="Hero.lord_kiev_1a" mother="Hero.lord_kiev_1b" faction="Faction.clan_kiev_1"/>
+
+	<Hero id="lord_kiev_1e" father="Hero.dead_lord_kiev_1" mother="Hero.dead_lord_kiev_1_1" spouse="Hero.lord_kiev_1f" faction="Faction.clan_kiev_1"/>
+	<Hero id="lord_kiev_1f" spouse="Hero.lord_kiev_1e" faction="Faction.clan_kiev_1"/>
+	<Hero id="lord_kiev_1g" father="Hero.lord_kiev_1e" mother="Hero.lord_kiev_1f" faction="Faction.clan_kiev_1"/>
+	<Hero id="lord_kiev_1h" father="Hero.lord_kiev_1e" mother="Hero.lord_kiev_1f" faction="Faction.clan_kiev_1"/>
+
+	<!-- clan 2 -->
+	<Hero id="dead_lord_kiev_2" alive="false" spouse="Hero.dead_lord_kiev_2_2" faction="Faction.clan_kiev_2"/>
+	<Hero id="dead_lord_kiev_2_2" alive="false" spouse="Hero.dead_lord_kiev_2" faction="Faction.clan_kiev_2"/>
+
+	<Hero id="lord_kiev_2a" father="Hero.dead_lord_kiev_2" mother="Hero.dead_lord_kiev_2_2" spouse="Hero.lord_kiev_2b" faction="Faction.clan_kiev_2" text="{=xL95EfpQ} text"/>
+	<Hero id="lord_kiev_2b" spouse="Hero.lord_kiev_2a" faction="Faction.clan_kiev_2"/>
+	<Hero id="lord_kiev_2c" father="Hero.lord_kiev_2a" mother="Hero.lord_kiev_2b" faction="Faction.clan_kiev_2"/>
+	<Hero id="lord_kiev_2d" father="Hero.lord_kiev_2a" mother="Hero.lord_kiev_2b" faction="Faction.clan_kiev_2"/>
+	<Hero id="lord_kiev_2e" father="Hero.lord_kiev_2a" mother="Hero.lord_kiev_2b" faction="Faction.clan_kiev_2"/>
+	<Hero id="lord_kiev_2f" father="Hero.lord_kiev_2a" mother="Hero.lord_kiev_2b" faction="Faction.clan_kiev_2"/>
+	<Hero id="lord_kiev_2g" father="Hero.lord_kiev_2a" mother="Hero.lord_kiev_2b" faction="Faction.clan_kiev_2"/>
+</Heroes>

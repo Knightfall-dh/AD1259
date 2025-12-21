@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<Kingdom id="murcia"
+	         initial_home_settlement="Settlement.town_murcia"
+	         owner="Hero.lord_murcia_1a"
+	         banner_key="11.83.83.3497.3497.684.682.0.0.0.503.131.48.0.0.764.764.0.0.0.505.131.48.2000.180.764.764.0.0.0.505.131.48.2000.180.764.1064.0.0.0.505.131.48.2000.180.764.464.0.0.0"
+	         primary_banner_color="0xff869004"
+	         secondary_banner_color="0xffc56e0b"
+	         color="FF869004"
+	         color2="FFc56e0b"
+	         culture="Culture.aserai"
+	         settlement_banner_mesh="encounter_flag_a"
+	         flag_mesh="info_screen_flags_a"
+	         name="{=pisaFactionName}Taifa of Murcia"
+	         short_name="{=pisaFactionShortName}Taifa of Murcia"
+	         title="{=pisaFactionTitle}Taifa of Murcia"
+	         ruler_title="{=pisaFactionRulerTitle}Emir"
+	         text="{=pisaFactionText}Description">
+		<relationships>
+	       
+        </relationships>
+		<policies>
+			<policy id="policy_serfdom"/>
+			<policy id="policy_grazing_rights"/>
+			<policy id="policy_bailiffs"/>
+			<policy id="policy_war_tax"/>
+			<policy id="policy_noble_retinues"/>
+		</policies>
+	</Kingdom>
+</Kingdoms>

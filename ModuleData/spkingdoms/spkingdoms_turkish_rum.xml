@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<Kingdom id="rum"
+	         initial_home_settlement="Settlement.town_ancyra"
+	         owner="Hero.lord_rum_1_a"
+	         banner_key="1.74.74.1750.1750.764.762.0.0.90.510.74.32.18.20.4857.2525.0.0.0.100.32.121.500.500.764.764.0.0.0"
+	         primary_banner_color="0xff40E0D0"
+	         secondary_banner_color="0xffC0C0C0"
+	         color="FF40E0D0"
+	         color2="FFffffff"
+	         culture="Culture.turkish"
+	         settlement_banner_mesh="encounter_flag_a"
+	         flag_mesh="info_screen_flags_a"
+	         name="{=rumFactionName}Sultanate of Rum"
+	         short_name="{=rumFactionShortName}Sultanate of Rum"
+	         title="{=rumFactionTitle}Sultanate of Rum"
+	         ruler_title="{=rumFactionRulerTitle}Sultan"
+	         text="{=rumFactionText} The Sultanate of Rum seceded from the Seljuk Empire under Suleiman ibn Qutalmish in 1077, just six years after the Byzantine provinces of central Anatolia were conquered at the Battle of Manzikert (1071). It had its capital first at Nicaea and then at Iconium. It reached the height of its power during the late 12th and early 13th century, when it succeeded in taking key Byzantine ports on the Mediterranean and Black Sea coasts. ">
+		<relationships>
+           
+        </relationships>
+		<policies>
+			<policy id="policy_debasement_of_the_currency"/>
+			<policy id="policy_crown_duty"/>
+			<policy id="policy_serfdom"/>
+			<policy id="policy_road_tolls"/>
+		</policies>
+	</Kingdom>
+</Kingdoms>

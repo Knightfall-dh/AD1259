@@ -1,0 +1,1820 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- Kingdom of France  -->
+	<!-- clan 1: Capétiens -->
+	<NPCCharacter id="dead_lord_france_extra_1" name="{=france_extralord_1}Louis VIII of France" age="72" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="72.64" weight="0" build="0.5" key="0000880ADC001303376392B5B864B76949D8B78CB2C75DBB4E2E9C586C366A3C07A700790A4754870000000000000000000000000000000000000000014810C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_kinglouis_combat"/>
+			<EquipmentSet id="fra_kinglouis_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_france_extra_2" name="{=france_deadlord_extra_2}Blanca of Castile" age="71" voice="curt" is_female="true" culture="Culture.vlandia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" is_hero="true" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="71.87" weight="0.3711" build="0.5443" key="0005580013A020158D9B2F4C74A452785673989D7A7846EB699CB1C3BBB98C8A075860780546548B000000000000000000000000000000000000000032A04080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills>
+        </skills>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_kinglouis_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_1" name="{=france_lord_1}Louis IX, King of France" age="48" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="48.78" weight="0" build="0.5" key="0000680FC000000237B64C676876669E5CEB9456D37555894E2E9C58885AC61504970046094754870000000000000000000000000000000000000000012870C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="9"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_kinglouis_combat"/>
+			<EquipmentSet id="fra_kinglouis_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_2" name="{=france_lady_1}Marguerite de Provence, Queen consort of France" age="47" voice="softspoken" is_female="true" culture="Culture.vlandia" skill_template="SkillSet.spc_politician_skills" is_hero="true" default_group="Cavalry" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="000044000000000577707780b7c07777c2bb71f7eff77aa7956746991c7775c70000000005c7966a000000000000000000000000000000000000000000000100" /-->
+			<BodyProperties version="4" key="000044000000000577707780B7C07777C2BB71F7EFF77AA7956746991C7775C70000000505C7966A000000000000000000000000000000000000000000000100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_7" name="{=france_lord_4}Jean Tristan de France" age="26" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="26.16" weight="0.0509" build="0.2917" key="000510014000224232731956310564E637157818708138648CEB5D28733570350164101306571C8200000000000000000000000000000000000000004AD88080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_10" name="{=france_lady_6}Isabelle de France, Princess of France" age="22" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vlandia" skill_template="SkillSet.spc_spy_master_skills_rookie" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="000080000000000b67874369563b575737063939bc84896c773744465293778c000000000f97cdd9000000000000000000000000000000000000000000000000" /-->
+			<BodyProperties version="4" key="000080000000000B67874369563B575737063939BC84896C773744465293778C000000030F97CDD9000000000000000000000000000000000000000000000000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_13" name="{=france_lord_8}Alphonse de Poitiers, Count of Poitiers" age="35" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="35.91" weight="0.1404" build="0.2917" key="0005B0080000300248802D04476A22F69E19714BC2BB1B05FF6F00777B853103027420240759705000000000000000000000000000000000000000007CE82000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_14" name="{=france_lord_9}Louis de France" age="28" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="28.78" weight="0.0077" build="0.6973" key="000510028000038552722B57125576F5232384586361A9027B355D2470527234019A001309682751000000000000000000000000000000000000000073301040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_141" name="{=france_lord_10}Pierre de France" age="18" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.81" weight="0" build="0.3657" key="000A1C040000200213731F53422567A40340782A62818C5644865A29823404310875008208534CA3000000000000000000000000000000000000000024F070C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_15" name="{=france_lord_11}Philippe de France, Count of Orléans" age="27" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="27.04" weight="0.4362" build="0.5381" key="00004C040000030323834B56123476B60987754B71517D2544947746753675230178701307648B8400000000000000000000000000000000000000006CE84100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 2: Maison de Foix -->
+	<NPCCharacter id="lord_4_3" name="{=france_lord_2}Roger IV de Foix" age="45" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="45.34" weight="0.0201" build="0.3287" key="0002A004C000000E54975688391A9A8474338B9A236815AB5C58B7799B776A8B037500350752C777000000000000000000000000000000000000000046F82100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="2"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_3_1" name="{=france_lady_2}Sibylle de Foix" age="22" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0011A407144400062897A829649497DB8C988BB9BCD4B379A5868D485A689A9A0167761306297985000000000000000000000000000000000000000038D42003"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_4" name="{=france_lady_3}Brunissende de Cardona" age="45" voice="earnest" is_hero="true" default_group="Cavalry" is_female="true" culture="Culture.vlandia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4706" build="0.6001" key="0005180A00CC00049172105733863178A76987A967716698AB94AE398C6A5582036976350666486B00000000000000000000000000000000000000002EDC2042"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_8" name="{=france_lord_5}Roger-Bernard III" age="26" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="00006d528000000977a84702762098cb27ad8d4d54c9895378c97b1e27408574000000000f88276b000000000000000000000000000000000000000000000000" /-->
+			<BodyProperties version="4" key="00006C02C000000977A84702762098CB27AD8D4D54C9895378C97B1E27408574000440040488276B000000000000000000000000000000000000000000780000"/>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_11" name="{=france_lady_7}Esclarmonde de Foix" age="24" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vlandia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="00127cf4803c3004b7d8465988d18c845a24288fad8ab786279b9caa78aa48b500098a44a39aa965000000000000000000000000000000000000000000002000" /-->
+			<BodyProperties version="4" key="00127C04403C3004B7D8465988D98C845A24288FAD8AB786279B9CAA78AA48B500059A43059AA965000000000000000000000000000000000000000000282000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- COMBATANT FEMALE -->
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<!--  <equipment slot="Horse" id="Item.noble_horse" />
+    <equipment slot="HorseHarness" id="Item.chain_horse_harness" />  -->
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 3: Maison de Clermont-Nesle -->
+	<NPCCharacter id="lord_4_6" name="{=france_lord_3}Jean II de Nesle, Count of Soissons and Lord of Chimay" age="45" voice="curt" default_group="Cavalry" is_hero="true" is_female="false" culture="Culture.vlandia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="45.26" weight="0" build="0.1806" key="000A60014000200865734C57613665A5354588837351AC1455E8373072131432037300350768BB63000000000000000000000000000000000000000026E01080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<!-- NONCOMBATANT LEADER -->
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_lion_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_6_1" name="{=france_lady_5}Eléonore de Nesle" age="22" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vlandia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000B040B4070300A59453CA886740D767888B63281AA8878BC957C5659C2945701777613078AB58600000000000000000000000000000000000000006AF420C3"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<!-- Arrogant, but does have authority -->
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_5" name="{=france_lady_4}Marie de Chimay, Countess of Soissons and Lady of Chimay" age="44" voice="earnest" culture="Culture.vlandia" is_female="true" skill_template="SkillSet.spc_spy_master_skills_rookie" is_hero="true" default_group="Cavalry" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6517" build="0.5949" key="0004640700CC000A937028572492B2C7877F875AA7536C989859FD27797983B304995646096E3949000000000000000000000000000000000000000071243043"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="0"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_9" name="{=france_lord_6}Jean III de Nesle" age="23" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="23.78" weight="0.0077" build="0.6943" key="00021C040000200535813C56515565A7186478496341BE2334D8792573325632007A0003076ABD61000000000000000000000000000000000000000036E830C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="9"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_lion_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_12" name="{=france_lady_8}Isabelle de Nesle" age="24" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vlandia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4524" build="0.5804" key="0005340140CC00017071527435736265B7BE7A79B0614997BAB7F9397C2A987203597635053CBA5A00000000000000000000000000000000000000005CB41044"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- COMBATANT FEMALE -->
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_lion_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_121" name="{=france_lord_7}Raoul de Nesle, Lord of Coeuvres" age="19" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="0003a0048084038958d4b272715091678097f276629a809f777927adb757c82200000000065c7c52000000000000000000000000000000000000000000000080" /-->
+			<BodyProperties version="4" age="30.02" weight="0" build="0.1867" key="0005440400FC304E332B7C6D8A45CA881E6E4D6784343CC64C9A3A598476688909930692098C555B0000000000000000000000000000000000000000012C3100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_lion_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 4: Maison Capétienne d'Anjou -->
+	<NPCCharacter id="lord_4_16" name="{=france_lord_12}Charles I d'Anjou, Count of Anjou and Maine" age="42" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.96" weight="0.0448" build="0.2299" key="00053C0D800006029A657A927A69975784F937879448655772BC76547538108B03A310350AECA68C00000000000000000000000000000000000000006B400100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_anjou_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_16_1" name="{=france_lady_9}Blanche d'Anjou" age="18" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00006807104410036436583353C5743893B76C7627786754569AB47979575AE801E776130E7A225F00000000000000000000000000000000000000001DDC1083"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_anjou_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_17" name="{=france_lady_10}Béatrice de Provence" age="45" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vlandia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6956" build="0.6722" key="0000280440CC000E72603755334384AA85A98979B1628696AAB6E9298A3B9358019AA6130944AAB5000000000000000000000000000000000000000025342040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_18" name="{=france_lord_13}Charles II d'Anjou" age="21" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="00055c4880bc0245678789a8c8b5c2728588854b98886843b5dcd6c879c68937000a576109844933000000000000000000000000000000000000000000008000" /-->
+			<BodyProperties version="4" age="21.73" weight="0.1188" build="0.5" key="00055C0FC0B40245678789A8C8B6C2728588854B98886843B5DCD6C879C689370077270307844933000000000000000000000000000000000000000000F08000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_anjou_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_181" name="{=france_lord_14}Philippe d'Anjou" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="00055c4880bc0245678789a8c8b5c2728588854b98886843b5dcd6c879c68937000a576109844933000000000000000000000000000000000000000000008000" /-->
+			<BodyProperties version="4" age="19.15" weight="0.5" build="0.5" key="00055C0F00B40045678789A8C8B6C2728588854B98886843B5DCD6C879C689370977779208844933000000000000000000000000000000000000000000F08000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_anjou_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_19" name="{=france_lady_11}Elisabeth d'Anjou" age="22" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vlandia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6483" build="0.7136" key="0000440440CC000B92611464264492D99ADB8BA86151568799A9EE218B4A645603BBA6350B363A260000000000000000000000000000000000000000616C2084"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_anjou_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 5: Maison Capétienne de Dreux -->
+	<NPCCharacter id="lord_4_25" name="{=france_lord_21}Jean II de Bretagne" age="20" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6867" build="0.7269" key="0000100456B4020DC66F69A052632C57D98458CAA8CA55C96B66BB47ACB9C85407ABA6780A886647000000000000000000000000000000000000000001602000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_dreux_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_25_1" name="{=france_lady_20}Blanche of Navarre" age="33" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000540E4070100B9D95A3A74EA8C8B848778365688C85437456344D43777968014776130475B2940000000000000000000000000000000000000000268C30C4"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_21" name="{=france_lord_16}Jean I le Roux, Duke of Bretagne" age="30" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="00057bfb513c12425eb3a9aa48b3487295c668767888682ddb89a87662a4415a000536af057746e8000000000000000000000000000000000000000000002000" /-->
+			<BodyProperties version="4" key="0005780B513C12425EB3A9AA48B5487295C668767888682DDB89A87662A4415A000556A7057746E8000000000000000000000000000000000000000000A02000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_dreux_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 6: Maison de Châtillon -->
+	<NPCCharacter id="lord_4_20" name="{=france_lord_15}Jean I de Blois-Châtillon" age="33" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="33.72" weight="0" build="0.6666" key="000004040000308233821857532569D41066841B71415A515D56762987126334028A002408692C53000000000000000000000000000000000000000057001040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_20_1" name="{=france_lady_12}Alix de Bretagne, Dame de Pontarcy" is_female="true" age="22" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.84" weight="0.5" build="0.5" key="000B680A1070000AB27B84CD4CC38B9CBA75B4AABB9AC152965A9D22CEADBE45019776130998732700000000000000000000000000000000000000001B2C2084"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_22" name="{=france_lord_17}Guy III de Châtillon, Count of Saint-Pol" age="29" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="000ce3f30000220e72233a57c8668b97395b684b174bd5d7474584799d857bdd0004656f89ada5a9000000000000000000000000000000000000000000004000" /-->
+			<BodyProperties version="4" age="29.23" weight="0.0015" build="0.2052" key="000AD00D800005C57AA58C6734BB76CBA189958C7C78626839A3CD4BA6C8378401530513057B4788000000000000000000000000000000000000000000A020C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_22_1" name="{=france_lady_13}Mathilde de Brabant" is_female="true" age="27" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.84" weight="0.5" build="0.5" key="000B940FC0CC300B5E978629B4A6CA781483E65C40AD89896542A3579A64759501977613098AC7B500000000000000000000000000000000000000000D3C20C3"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="1"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="+1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 7: Maison Capétienne de Bourgogne -->
+	<NPCCharacter id="lord_4_23" name="{=france_lord_18}Guigues VII de Viennois" age="44" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="44.43" weight="0.0262" build="0.6064" key="0000700B80FC338249BCC64637879B8175459586A5698658BD7965E8C6C987670399093509A74796000000000000000000000000000000000000000001301000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_23_1" name="{=france_lady_14}Anne de Viennois" age="24" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0005240A002C300B65878AA361487BE89C5DA5467D8C9167894C6C892799E3780167761306C636A600000000000000000000000000000000000000002CBC3083"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_23_2" name="{=france_lady_15}Catherine de Viennois" age="22" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000800700E4200E6A7938ACAABBC636B19B894B4EF8878987AC657B57532B3701877613089ADB2300000000000000000000000000000000000000003F140083"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_23_3" name="{=france_lord_19}Jean I de Viennois" age="19" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000740E4044000B3969339927553498A84BB8A877D96D6645597984592A439501477613046A3907000000000000000000000000000000000000000050942043"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 8: Maison de Lusignan -->
+	<NPCCharacter id="lord_4_24" name="{=france_lord_20}Hugues XII de Lusignan" age="47" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="67.24" weight="0.0201" build="0.2423" key="00053C0000000005E9CCE4D7B6A976C7389B73A5D796570984B5685D77746D4E06A400680A67C676000000000000000000000000000000000000000011483000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_lusignan_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_24_1" name="{=france_lady_16}Jeanne de Fougéres" age="45" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00052C089314100B599B39385A8372459867775D8A397A98773789A84B355847019776130946854400000000000000000000000000000000000000003F1C3044"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_24_2" name="{=france_lady_17}Yolande de Lusignan" age="22" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_spy_master_skills_rookie" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00052C089314100B599B39385A8372459867775D8A397A98773789A84B355847019776130946854400000000000000000000000000000000000000003F1C3044"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_24_3" name="{=france_lady_18}Jeanne de Lusignan" age="20" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00052C089314100B599B39385A8372459867775D8A397A98773789A84B355847019776130946854400000000000000000000000000000000000000003F1C3044"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_24_4" name="{=france_lady_19}Marie de Lusignan" age="17" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00052C089314100B599B39385A8372459867775D8A397A98773789A84B355847019776130946854400000000000000000000000000000000000000003F1C3044"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<!-- TEENAGER, NO SKILLS OR TRAITS -->
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_26" name="{=france_lord_22}Guy de Lusignan" age="27" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="000b4bf58ffc300578e42aab88c5a5bd924b6988339398973d8ea8676aa76865000d5d2f07336c86000000000000000000000000000000000000000000001000" /-->
+			<BodyProperties version="4" key="000B48058FFC300578E42AAB88C6A5BD924B6988339398973D8EA8676AA7686500056D2507336C86000000000000000000000000000000000000000000C81000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_lusignan_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_26_1" name="{=france_lady_25}Alice de Lusignan" age="21" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4" build="0.3" key="000BB80B40001003963657A49E536D58A75688678546525569688969855687D600043005049779870000000000000FFE00000000000000000000000000500000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<!-- kind but antisocial -->
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 9: Maison de Évreux -->
+	<NPCCharacter id="lord_4_27" name="{=france_lord_23}Hugues IV de Rodez, Count of Rodez" age="27" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="000c73f31a0003cd33bd62c7862c39599c824998719e7eb543b588b88b13688b0007c2af855a1122000000000000000000000000000000000000000000000000" /-->
+			<BodyProperties version="4" age="27.68" weight="0.0077" build="0.446" key="000A28061A00200274989D5C277A29DABA7579AD5B4CA88AB54D879536BB84780147021304B79B270000000000000000000000000000000000000000007820C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_striped_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_27_1" name="{=france_lady_21}Isabeau de Roquefeuil" age="23" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000B30071014200B845CA2CD6B97D578576756477263BCB7C7664675989C2A94019776130944A9870000000000000000000000000000000000000000593440C3"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_V9_u" name="{=france_lord_24}Guibert de Rodez" age="47" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!-- PLACEHOLDER FACE KEY-->
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00027C08C0A011947C766ADCCD59C44A7896BC65968D76BA64B6B5926A7C849500D776030DCCB6D5000000000000000000000000000000000000000063B42002"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 10: Maison Capétienne d'Artois -->
+	<NPCCharacter id="lord_4_28" name="{=france_lord_25}Robert II, Count of Artois" age="40" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="40.78" weight="0.0355" build="0.6713" key="0005AC09804430044968988542884AB219AAA66D376646D834A791629748A4FF039A16350957565A000000000000000000000000000000000000000001207000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_28_1" name="{=france_lady_22}Mahaut d'Artois" age="20" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_spy_master_skills_rookie" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.84" weight="0.5" build="0.5" key="00113C0891880002654AAC95A9972C89D33975D5959CC9D4C9754C08398B35770177761307A5606700000000000000000000000000000000000000003EDC0083"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_4_28_2" name="{=france_lady_23}Agnes d'Artois" age="18" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_spy_master_skills_rookie" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000540E4070100B9D95A3A74EA8C8B848778365688C85437456344D43777968014776130475B2940000000000000000000000000000000000000000268C30C4"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="3"/>
+			<!-- ambitious and good at it -->
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 11: Maison de La Tour d'Auvergne -->
+	<NPCCharacter id="lord_V11_l" name="{=france_lord_26}Robert V, Dauphin of Auvergne" age="48" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!-- PLACEHOLDER FACE KEY -->
+			<BodyProperties version="4" age="48.57" weight="0.0293" build="0.4" key="00007004C070100355391C5577A792A7678B77BA7697689A667C4D498A8C697204460646047AC8950000000000000000000000000000000000000000268C1040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<!-- Impulsive, generous at times, not especially warlike. -->
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_V11_u" name="{=france_lord_27}Gauthier VI Berthout" age="46" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!-- PLACEHOLDER FACE KEY -->
+			<BodyProperties version="4" weight="0.7" build="0.7" key="00113C0891880002654AAC95A9972C89D33975D5959CC9D4C9754C08398B35770177761307A5606700000000000000000000000000000000000000003EDC0083"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<!-- His younger brother. Better fighter but somewhat unpleasant -->
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_V11_c1" name="{=france_lady_24}Mathilde d'Auvergne" age="22" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!-- Placeholder face key -->
+			<BodyProperties version="4" weight="0.4" build="0.5" key="00113C0891880002654AAC95A9972C89D33975D5959CC9D4C9754C08398B35770177761307A5606700000000000000000000000000000000000000003EDC0083"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="3"/>
+			<!--Daughter of the clan. Somewhat unsatisfied in her current circumstances -->
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_V11_c2" name="{=france_lord_28}Guillaume d'Auvergne" age="19" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!-- Placeholder face key -->
+			<BodyProperties version="4" weight="0.4" build="0.5" key="00113C0891880002654AAC95A9972C89D33975D5959CC9D4C9754C08398B35770177761307A5606700000000000000000000000000000000000000003EDC0083"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<!-- Heir -->
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 12: Maison de Dampierre-Flanders -->
+	<NPCCharacter id="dead_lord_france_1" name="{=france_deadlord_1}Guillaume II de Dampierre, Lord of Dampierre" age="63" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="63.02" weight="0.0509" build="0.2423" key="0005400540CC38C98A787DCCA45A3484357688711C74EB62318A19BBA695BA9D0294102409C8DDB60000000000000000000000000000000000000000553810C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_flanders_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_france_2" name="{=france_deadlord_2}Guillaume III de Dampierre, Count of Flanders and Lord of Dampierre" age="35" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="35.21" weight="0.1003" build="0.5075" key="0005780980CC04803A967CB9B4C155BA1DB53B27978A774C348668AC8A2B749E02A820240A55845B000000000000000000000000000000000000000019404140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_flanders_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_france_12_2_1" name="{=france_lady_27}Béatrice de Brabant" age="34" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vlandia" skill_template="SkillSet.spc_spy_master_skills_rookie" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34.06" weight="0.7127" build="0.6855" key="0008440C4044400B9959549B85B852679B54D3957817965D7BAA848947E24793027AB6240796C585000000000000000000000000000000000000000012EC1080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_flanders_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_france_12_0" name="{=france_lady_28}Marguerite II de Flandre, Countess of Flanders and Hainaut" age="57" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vlandia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="57.98" weight="0.0015" build="0.3925" key="0005C8020088301548C41AC79D9774CD7869AD4A776778986A84D9476A57B68905C606570C785656000000000000000000000000000000000000000037841000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_flanders_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_france_12_1" name="{=france_lord_29}Gui de Dampierre, Count of Flanders" age="33" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="33.29" weight="0.1065" build="0.3071" key="0008240200FC034B535DB775943D72A8764A895778442378C69B746646B4432702952024098B6983000000000000000000000000000000000000000047289140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_flanders_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_france_12_1_1" name="{=france_lady_29}Mahaut de Béthune, Countess consort of Flanders" age="29" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vlandia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.43" weight="0.3814" build="0.7518" key="0008280C4058000E79846CB8C4B2BBC5B7655A594A7A79AA563753AA676845B9017B66130771766300000000000000000000000000000000000000003CEC4040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_flanders_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_france_12_1_2" name="{=france_lady_30}Marie de Dampierre" age="11" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vlandia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="11.68" weight="0.0262" build="0.0386" key="0005580B80E44001AB9A1548DB9867A479445646ACDAC4C397393A466868EA8704D1064109CD94A800000000000000000000000000000000000000002BAC3080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait id="Manager" value="3"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_flanders_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_france_12_1_3" name="{=france_lord_30}Robert III de Dampierre" age="10" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="10.14" weight="0.1065" build="0.3071" key="00081C0200FC10D2681668797B6D83A544845A654A9686A616E87C5A698535780095200105945686000000000000000000000000000000000000000047286080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_flanders_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_france_12_1_4" name="{=france_lord_31}Guillaume IV de Dampierre" age="9" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="9.37" weight="0.1497" build="0.3164" key="0008540280FC22C284788A88AA488793777A794875CB2C3987B3995A27979CAA0D8520D10B398D96000000000000000000000000000000000000000033086080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_flanders_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_france_12_1_5" name="{=france_lord_32}Jean II de Dampierre" age="9" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="9.37" weight="0.2634" build="0.5198" key="0008540540FC334DB97B68C99AC688685299987D89962AA7564A4E983759BB570D8840D10BD2985400000000000000000000000000000000000000001B0840C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_flanders_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_france_12_1_6" name="{=france_lady_31}Margaret de Dampierre" age="9" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vlandia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="9.75" weight="0.6212" build="0.5805" key="0005580AC0FC200A6794259559769A85888C5876AAC6A9CAB778BE75A94A65460E9990110BC5464700000000000000000000000000000000000000001F183080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_flanders_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_france_12_1_7" name="{=france_lord_33}Baudouin de Dampierre" age="7" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="7.44" weight="0.4824" build="0.4185" key="000850028000091C83667D946286C9468A976A6C5A49C67A94BA473C5594677E07A67071095B8A7B000000000000000000000000000000000000000059603140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_flanders_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_france_12_3" name="{=france_lord_34}Jean I de Dampierre, Lord of Dampierre" age="29" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.81" weight="0.0725" build="0.338" key="000558098000300128D4388B41267C4586757A6A96A8777879C5AA9726B945D401951013094CA64600000000000000000000000000000000000000003B204140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_flanders_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_france_12_3_1" name="{=france_lady_32}Laure de Haute Lorraine" age="29" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.vlandia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.27" weight="0.1528" build="0.233" key="0005600400CC200A5C3845794B64DA4756C9747844B83C97A96613BDD7859C6601A320130A459B2900000000000000000000000000000000000000002B584080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_flanders_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_france_12_3_2" name="{=france_lord_35}Jean III de Dampierre" age="4" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="4.35" weight="0.0141" build="0.5123" key="0008C8080000278532873A7888767D95676A387321387948CB83A442993474A90A7080A109248C5E000000000000000000000000000000000000000064E81140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_flanders_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

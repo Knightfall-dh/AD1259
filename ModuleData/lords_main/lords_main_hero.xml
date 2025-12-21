@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!--main hero-->
+	<NPCCharacter id="main_hero" default_group="Cavalry" is_hero="true" voice="earnest" age="22" is_female="false" culture="Culture.battania" name="{=ekcBrNN1}Eren" banner_symbol_mesh_name="test_symbol_a" occupation="Lord" banner_symbol_color="FF000000" face_mesh_cache="true">
+		<face>
+			<!--face_key value="0011014700fc100e979b77279874cd97b97a74867996a78976e7589688b77ad4000a46550abb987d0000000000000000000000000000000000000000012c3040 " /-->
+			<BodyProperties version="3" age="22.55" weight="0.5355" build="0.5015" key="00109C0D8000134D59A4894CAAA8A4A6BC7262A86699976479AD7D8A99877A3A007886030768E986000000000000000000000000000000000000000000FC1142"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills>
+			<skill id="OneHanded" value="0"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+			<skill id="Riding" value="0"/>
+			<skill id="Athletics" value="0"/>
+			<skill id="Crafting" value="0"/>
+			<skill id="Tactics" value="0"/>
+			<skill id="Scouting" value="0"/>
+			<skill id="Roguery" value="0"/>
+			<skill id="Leadership" value="0"/>
+			<skill id="Charm" value="0"/>
+			<skill id="Trade" value="0"/>
+			<skill id="Steward" value="0"/>
+			<skill id="Medicine" value="0"/>
+			<skill id="Engineering" value="0"/>
+		</skills>
+		<Traits>
+			<Trait id="Commander" value="0"/>
+		</Traits>
+		<feats>
+			<!--<feat id="VlandianBattlePerception" value="10" />-->
+			<!--<feat id="BattanianForestAgility" value="10" />-->
+			<!--<feat id="KhuzaitCavalryAgility" value="10" />-->
+			<!--<feat id="SturgianSnowAgility" value="10" />-->
+		</feats>
+		<!-- Light Armor -->
+		<!-- <equipment slot="Head" id="Item.leather_cap" />
+	  <equipment slot="Body" id="Item.studded_fur_armor_mp" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.leather_shoes" /> -->
+		<!-- Medium Armor -->
+		<!-- <equipment slot="Head" id="Item.nasal_helmet_with_leather" />
+	  <equipment slot="Body" id="Item.eastern_plated_leather_mp" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.leather_shoes" /> -->
+		<!-- Heavy Armor -->
+		<!-- <equipment slot="Head" id="Item.nasal_helmet_with_mail" />
+	  <equipment slot="Body" id="Item.brass_lamellar_over_mail_mp" />
+      <equipment slot="Gloves" id="Item.highland_gloves" />
+      <equipment slot="Leg" id="Item.leather_shoes" /> -->
+		<!-- Heaviest Armor -->
+		<!--<equipment slot="Body" id="Item.fur_armor_with_strap" />
+    <equipment slot="Leg" id="Item.leather_shoes" />-->
+		<!--equipment slot="Head" id="Item.nasal_helmet_with_mail" />
+	  <equipment slot="Body" id="Item.leather_lamellar_armor" />
+	  <equipment slot="Cape" id="Item.leather_lamellar_shoulders" />
+      <equipment slot="Gloves" id="Item.HandArmor" />
+      <equipment slot="Leg" id="Item.decorated_imperial_boots" /-->
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
+				<equipment slot="Item1" id="Item.khuzait_lance_2_t4"/>
+				<equipment slot="Item2" id="Item.lowland_longbow"/>
+				<equipment slot="Item3" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Body" id="Item.battania_civil_b"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+				<equipment slot="Cape" id="Item.battania_civil_cloak"/>
+				<equipment slot="Horse" id="Item.noble_horse"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.khuzait_civil_coat"/>
+				<equipment slot="Leg" id="Item.fine_town_boots"/>
+				<equipment slot="Item0" id="Item.vlandia_sword_2_t3"/>
+			</EquipmentRoster>
+			<!--Make sure to update main_hero riding skill to horse difficulty if you change horse-->
+			<equipment slot="Horse" id="Item.saddle_horse"/>
+			<equipment slot="HorseHarness" id="Item.battania_horse_harness_scaled"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

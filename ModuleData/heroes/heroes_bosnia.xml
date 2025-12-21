@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- clan_bosnia_1: Kotromanić -->
+	<Hero id="lord_bosnia_1a" spouse="Hero.lord_bosnia_1b" faction="Faction.clan_bosnia_1"/>
+	<Hero id="lord_bosnia_1b" spouse="Hero.lord_bosnia_1a" faction="Faction.clan_bosnia_1"/>
+
+	<Hero id="lord_bosnia_1c" father="Hero.lord_bosnia_1a" mother="Hero.lord_bosnia_1b" faction="Faction.clan_bosnia_1"/>
+	<Hero id="lord_bosnia_1d" father="Hero.lord_bosnia_1a" mother="Hero.lord_bosnia_1b" faction="Faction.clan_bosnia_1"/>
+	<Hero id="lord_bosnia_1e" father="Hero.lord_bosnia_1a" mother="Hero.lord_bosnia_1b" faction="Faction.clan_bosnia_1"/>
+	<Hero id="lord_bosnia_1f" father="Hero.lord_bosnia_1a" mother="Hero.lord_bosnia_1b" faction="Faction.clan_bosnia_1"/>
+
+	<!-- clan_bosnia_2: Šubić -->
+	<Hero id="lord_bosnia_2a" spouse="Hero.lord_bosnia_2b" faction="Faction.clan_bosnia_2"/>
+	<Hero id="lord_bosnia_2b" spouse="Hero.lord_bosnia_2a" faction="Faction.clan_bosnia_2"/>
+	<Hero id="lord_bosnia_2c" father="Hero.lord_bosnia_2a" mother="Hero.lord_bosnia_2b" faction="Faction.clan_bosnia_2"/>
+	<Hero id="lord_bosnia_2d" father="Hero.lord_bosnia_2a" mother="Hero.lord_bosnia_2b" faction="Faction.clan_bosnia_2"/>
+	<Hero id="lord_bosnia_2e" father="Hero.lord_bosnia_2a" mother="Hero.lord_bosnia_2b" faction="Faction.clan_bosnia_2"/>
+
+	<Hero id="lord_bosnia_2f" spouse="Hero.lord_bosnia_2g" faction="Faction.clan_bosnia_2"/>
+	<Hero id="lord_bosnia_2g" spouse="Hero.lord_bosnia_2f" faction="Faction.clan_bosnia_2"/>
+	<Hero id="lord_bosnia_2h" father="Hero.lord_bosnia_2f" mother="Hero.lord_bosnia_2g" faction="Faction.clan_bosnia_2"/>
+	<Hero id="lord_bosnia_2i" father="Hero.lord_bosnia_2f" mother="Hero.lord_bosnia_2g" faction="Faction.clan_bosnia_2"/>
+
+	<!-- clan_bosnia_3: Frankopan -->
+	<Hero id="lord_bosnia_3a" spouse="Hero.lord_bosnia_3b" faction="Faction.clan_bosnia_3"/>
+	<Hero id="lord_bosnia_3b" spouse="Hero.lord_bosnia_3a" faction="Faction.clan_bosnia_3"/>
+
+	<Hero id="lord_bosnia_3c" father="Hero.lord_bosnia_3a" mother="Hero.lord_bosnia_3b" faction="Faction.clan_bosnia_3"/>
+	<Hero id="dead_lord_bosnia_3a" alive="false" father="Hero.lord_bosnia_3a" mother="Hero.lord_bosnia_3b" faction="Faction.clan_bosnia_3"/>
+
+	<Hero id="lord_bosnia_3d" father="Hero.dead_lord_bosnia_3a" spouse="Hero.lord_bosnia_3e" faction="Faction.clan_bosnia_3"/>
+	<Hero id="lord_bosnia_3e" spouse="Hero.lord_bosnia_3d" faction="Faction.clan_bosnia_3"/>
+	<Hero id="lord_bosnia_3f" father="Hero.lord_bosnia_3d" mother="Hero.lord_bosnia_3e" faction="Faction.clan_bosnia_3"/>
+	<Hero id="lord_bosnia_3g" father="Hero.lord_bosnia_3d" mother="Hero.lord_bosnia_3e" faction="Faction.clan_bosnia_3"/>
+	<Hero id="lord_bosnia_3h" father="Hero.lord_bosnia_3d" mother="Hero.lord_bosnia_3e" faction="Faction.clan_bosnia_3"/>
+
+	<Hero id="lord_bosnia_3i" father="Hero.dead_lord_bosnia_3a" spouse="Hero.lord_bosnia_3j" faction="Faction.clan_bosnia_3"/>
+	<Hero id="lord_bosnia_3j" spouse="Hero.lord_bosnia_3i" faction="Faction.clan_bosnia_3"/>
+	<Hero id="lord_bosnia_3k" father="Hero.lord_bosnia_3i" mother="Hero.lord_bosnia_3j" faction="Faction.clan_bosnia_3"/>
+	<Hero id="lord_bosnia_3l" father="Hero.lord_bosnia_3i" mother="Hero.lord_bosnia_3j" faction="Faction.clan_bosnia_3"/>
+	<Hero id="lord_bosnia_3m" father="Hero.lord_bosnia_3i" mother="Hero.lord_bosnia_3j" faction="Faction.clan_bosnia_3"/>
+
+	<!-- clan_bosnia_4: Sanneck-Celje -->
+	<Hero id="lord_bosnia_4a" spouse="Hero.lord_bosnia_4b" faction="Faction.clan_bosnia_4"/>
+	<Hero id="lord_bosnia_4a2" faction="Faction.clan_bosnia_4"/>
+	<Hero id="lord_bosnia_4b" spouse="Hero.lord_bosnia_4a" faction="Faction.clan_bosnia_4"/>
+	<Hero id="lord_bosnia_4c" father="Hero.lord_bosnia_4a" mother="Hero.lord_bosnia_4b" spouse="Hero.lord_bosnia_4d" faction="Faction.clan_bosnia_4"/>
+	<Hero id="lord_bosnia_4d" spouse="Hero.lord_bosnia_4c" faction="Faction.clan_bosnia_4"/>
+	<Hero id="lord_bosnia_4e" father="Hero.lord_bosnia_4a" mother="Hero.lord_bosnia_4b" faction="Faction.clan_bosnia_4"/>
+	<Hero id="lord_bosnia_4f" father="Hero.lord_bosnia_4a" mother="Hero.lord_bosnia_4b" faction="Faction.clan_bosnia_4"/>
+	<Hero id="lord_bosnia_4g" father="Hero.lord_bosnia_4a" mother="Hero.lord_bosnia_4b" faction="Faction.clan_bosnia_4"/>
+	<Hero id="lord_bosnia_4h" father="Hero.lord_bosnia_4a" mother="Hero.lord_bosnia_4b" faction="Faction.clan_bosnia_4"/>
+	<Hero id="lord_bosnia_4i" father="Hero.lord_bosnia_4a" mother="Hero.lord_bosnia_4b" faction="Faction.clan_bosnia_4"/>
+
+	<!-- clan_bosnia_5: Babonići -->
+	<Hero id="lord_bosnia_5a" spouse="Hero.lord_bosnia_5b" faction="Faction.clan_bosnia_5"/>
+	<Hero id="lord_bosnia_5b" spouse="Hero.lord_bosnia_5a" faction="Faction.clan_bosnia_5"/>
+	<Hero id="lord_bosnia_5c" father="Hero.lord_bosnia_5a" mother="Hero.lord_bosnia_5b" faction="Faction.clan_bosnia_5"/>
+	<Hero id="lord_bosnia_5d" father="Hero.lord_bosnia_5a" mother="Hero.lord_bosnia_5b" faction="Faction.clan_bosnia_5"/>
+	<Hero id="lord_bosnia_5e" father="Hero.lord_bosnia_5a" mother="Hero.lord_bosnia_5b" faction="Faction.clan_bosnia_5"/>
+	<Hero id="lord_bosnia_5f" father="Hero.lord_bosnia_5a" mother="Hero.lord_bosnia_5b" faction="Faction.clan_bosnia_5"/>
+
+</Heroes>
