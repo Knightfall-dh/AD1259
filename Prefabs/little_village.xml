@@ -1,0 +1,164 @@
+<prefabs>
+	<game_entity name="little_village" old_prefab_name="">
+		<transform position="662.322, 991.222, 1.800" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="map_icons_production_farm_flax_a" old_prefab_name="">
+				<transform position="0.300, 1.101, -0.030" rotation_euler="0.000, 0.000, 2.393"/>
+				<components>
+					<decal_component material="decal_production_farm_flax_a" argument="0.490, 0.490, -0.020, -0.040"/>
+				</components>
+				<scripts>
+					<script name="sound_emitter">
+						<variables>
+							<variable name="Event Path" value="event:/map/ambient/node/settlements/farms"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Is Static" value="false"/>
+							<variable name="Override Sound" value="false"/>
+							<variable name="Overrided Max Distance" value="40.000000"/>
+							<variable name="Overrided Min Distance" value="2.000000"/>
+							<variable name="Sound Preset" value="Speakers"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="map_icons_production_flax_mesh_a" old_prefab_name="">
+						<transform position="-0.053, 0.160, -0.068" rotation_euler="0.000, 0.000, 1.539" scale="0.065, 0.130, 0.340"/>
+						<components>
+							<meta_mesh_component name="wheat_group_summer_flax_4x"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_production_flax_mesh_b" old_prefab_name="">
+						<transform position="0.316, -0.188, -0.068" rotation_euler="0.000, 0.000, 0.015" scale="0.102, 0.102, 0.297"/>
+						<components>
+							<meta_mesh_component name="wheat_group_spring_flax_4x"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_production_flax_mesh_b" old_prefab_name="">
+						<transform position="0.733, 0.057, -0.068" rotation_euler="0.000, 0.000, 0.000" scale="0.130, 0.130, 0.340"/>
+						<components>
+							<meta_mesh_component name="wheat_group_spring_flax_4x"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_production_flax_mesh_b" old_prefab_name="">
+						<transform position="0.740, -0.168, -0.068" rotation_euler="0.000, 0.000, 0.000" scale="0.130, 0.130, 0.340"/>
+						<components>
+							<meta_mesh_component name="wheat_group_spring_flax_4x"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_production_flax_mesh_b" old_prefab_name="">
+						<transform position="0.463, 0.026, -0.068" rotation_euler="0.000, 0.000, -0.570" scale="0.130, 0.130, 0.340"/>
+						<components>
+							<meta_mesh_component name="wheat_group_spring_flax_4x"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_production_flax_mesh_a" old_prefab_name="">
+						<transform position="-0.526, 0.304, -0.068" rotation_euler="0.000, 0.000, 0.000" scale="0.130, 0.130, 0.340"/>
+						<components>
+							<meta_mesh_component name="wheat_group_summer_flax_4x"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_production_flax_mesh_a" old_prefab_name="">
+						<transform position="-0.317, 0.304, -0.068" rotation_euler="0.000, 0.000, 0.000" scale="0.130, 0.130, 0.340"/>
+						<components>
+							<meta_mesh_component name="wheat_group_summer_flax_4x"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_production_flax_mesh_a" old_prefab_name="">
+						<transform position="-0.362, 0.086, -0.068" rotation_euler="0.000, 0.000, 0.759" scale="0.130, 0.130, 0.340"/>
+						<components>
+							<meta_mesh_component name="wheat_group_summer_flax_4x"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_production_flax_mesh_a" old_prefab_name="">
+						<transform position="-0.198, -0.062, -0.068" rotation_euler="0.000, 0.000, 1.095" scale="0.130, 0.130, 0.340"/>
+						<components>
+							<meta_mesh_component name="wheat_group_summer_flax_4x"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_icons_production_farm_wheat_c" old_prefab_name="">
+				<transform position="-1.033, -0.380, 0.000" rotation_euler="0.000, 0.000, 0.532"/>
+				<components>
+					<decal_component material="decal_production_farm_wheat_c" argument="0.490, 0.510, -0.020, 0.450"/>
+				</components>
+				<scripts>
+					<script name="sound_emitter">
+						<variables>
+							<variable name="Event Path" value="event:/map/ambient/node/settlements/farms"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Is Static" value="false"/>
+							<variable name="Override Sound" value="false"/>
+							<variable name="Overrided Max Distance" value="40.000000"/>
+							<variable name="Overrided Min Distance" value="2.000000"/>
+							<variable name="Sound Preset" value="Speakers"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="map_icons_production_wheat_mesh_a" old_prefab_name="">
+						<transform position="0.453, -0.570, -0.093" rotation_euler="0.000, 0.000, 0.000" scale="0.206, 0.206, 0.371"/>
+						<components>
+							<meta_mesh_component name="wheat_group_summer_4x"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_production_wheat_mesh_a" old_prefab_name="">
+						<transform position="-0.109, -0.567, -0.093" rotation_euler="0.000, 0.000, 0.000" scale="0.206, 0.206, 0.371"/>
+						<components>
+							<meta_mesh_component name="wheat_group_summer_4x"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_production_wheat_mesh_a" old_prefab_name="">
+						<transform position="-0.416, -0.278, -0.093" rotation_euler="0.000, 0.000, 0.000" scale="0.206, 0.206, 0.371"/>
+						<components>
+							<meta_mesh_component name="wheat_group_summer_4x"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_production_wheat_mesh_a" old_prefab_name="">
+						<transform position="-0.277, -0.557, -0.093" rotation_euler="0.000, 0.000, 0.000" scale="0.206, 0.206, 0.371"/>
+						<components>
+							<meta_mesh_component name="wheat_group_summer_4x"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_production_wheat_mesh_b" old_prefab_name="">
+						<transform position="-0.237, 0.553, -0.131" rotation_euler="0.000, 0.000, 0.000" scale="0.285, 0.249, 0.514"/>
+						<components>
+							<meta_mesh_component name="wheat_group_spring_4x"/>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+			<game_entity name="map_icons_empire_house_a" old_prefab_name="">
+				<transform position="-0.715, 0.512, 0.122" rotation_euler="0.000, 0.000, 0.529" scale="1.726, 1.726, 1.726"/>
+				<components>
+					<meta_mesh_component name="mi_emp_house_a"/>
+				</components>
+			</game_entity>
+			<game_entity name="map_icon_docks_c" old_prefab_name="">
+				<transform position="-0.585, 0.471, -0.087" rotation_euler="0.000, 0.000, 0.523" scale="0.958, 0.958, 0.958"/>
+				<components>
+					<meta_mesh_component name="mi_docks_c"/>
+				</components>
+			</game_entity>
+			<game_entity name="map_icons_khuzait_fence" old_prefab_name="">
+				<transform position="-0.475, -0.134, 0.112" rotation_euler="0.000, 0.000, 2.094"/>
+				<components>
+					<meta_mesh_component name="mi_khuz_arena_fence"/>
+				</components>
+			</game_entity>
+			<game_entity name="map_icons_khuzait_fence" old_prefab_name="">
+				<transform position="-0.801, 0.005, 0.112" rotation_euler="0.000, 0.000, -2.837"/>
+				<components>
+					<meta_mesh_component name="mi_khuz_arena_fence"/>
+				</components>
+			</game_entity>
+			<game_entity name="map_icons_khuzait_fence" old_prefab_name="">
+				<transform position="-0.025, 0.455, 0.112" rotation_euler="0.000, 0.000, -2.581"/>
+				<components>
+					<meta_mesh_component name="mi_khuz_arena_fence"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

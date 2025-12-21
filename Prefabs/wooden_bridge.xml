@@ -1,0 +1,22 @@
+<prefabs>
+	<game_entity name="wooden_brige" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.799, 0.799, 0.799"/>
+		<children>
+			<game_entity name="map_bridge_b" old_prefab_name="">
+				<transform position="-0.485, -0.442, -0.869" rotation_euler="0.000, 0.000, -0.772" scale="3.739, 3.739, 3.739"/>
+				<physics shape="bo_mi_emp_bridge_wooden"/>
+				<components>
+					<meta_mesh_component name="mi_emp_bridge_wooden"/>
+				</components>
+			</game_entity>
+			<game_entity name="map_bridge_b" old_prefab_name="">
+				<transform position="0.569, 0.643, -0.869" rotation_euler="0.000, 0.000, -0.772" scale="3.739, 3.739, 3.739"/>
+				<physics shape="bo_mi_emp_bridge_wooden"/>
+				<components>
+					<meta_mesh_component name="mi_emp_bridge_wooden"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

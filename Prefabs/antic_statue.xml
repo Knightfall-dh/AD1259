@@ -1,0 +1,41 @@
+<prefabs>
+	<game_entity name="antic_statue" old_prefab_name="">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="map_icons_empire_arc" old_prefab_name="">
+				<transform position="-0.175, -0.031, 0.807" rotation_euler="0.000, 0.000, -2.331" scale="3.728, 3.728, 3.728"/>
+				<components>
+					<meta_mesh_component name="mi_emp_arc"/>
+				</components>
+			</game_entity>
+			<game_entity name="bd_battania_statue_male_medium" old_prefab_name="">
+				<transform position="-0.163, -0.050, 0.334" rotation_euler="0.000, 0.000, -0.670" scale="0.541, 0.541, 0.541"/>
+				<physics shape="bo_bd_battania_statue_male_medium" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="bd_battania_statue_male_medium">
+						<mesh name="bd_battania_statue_male_medium" material="roman_column_base"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="map_icon_docks_d" old_prefab_name="">
+				<transform position="-0.136, -0.020, 0.155" rotation_euler="0.000, 0.000, -2.269" scale="1.000, 1.043, 1.652"/>
+				<components>
+					<meta_mesh_component name="mi_docks_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="map_icons_empire_arc" old_prefab_name="">
+				<transform position="0.077, 0.234, 0.807" rotation_euler="0.000, 0.000, -2.331" scale="3.728, 3.728, 3.728"/>
+				<components>
+					<meta_mesh_component name="mi_emp_arc"/>
+				</components>
+			</game_entity>
+			<game_entity name="map_icons_empire_wall_small_l2" old_prefab_name="">
+				<transform position="0.117, 0.252, 0.769" rotation_euler="0.000, 0.000, -2.252"/>
+				<components>
+					<meta_mesh_component name="mi_emp_wall_2s"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

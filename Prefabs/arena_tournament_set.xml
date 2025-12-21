@@ -1,0 +1,127 @@
+<prefabs>
+	<game_entity name="tournament_fight_set2" old_prefab_name="">
+		<tags>
+			<tag name="tournament_fight"/>
+			<tag name="arena_set"/>
+		</tags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="sp_arena_1" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="sp_arena"/>
+					<tag name="sp_arena_1"/>
+				</tags>
+				<transform position="33.773, -1.658, 0.238" rotation_euler="-0.152, 0.044, 2.476" scale="0.750, 0.750, 1.000"/>
+				<components>
+					<meta_mesh_component name="animation_stand_arrow_blue"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_arena_2" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="sp_arena"/>
+					<tag name="sp_arena_2"/>
+				</tags>
+				<transform position="-34.153, 6.865, 0.310" rotation_euler="-0.233, -0.036, -2.593" scale="0.750, 0.750, 1.000"/>
+				<components>
+					<meta_mesh_component name="animation_stand_arrow_blue"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_arena_3" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="sp_arena"/>
+					<tag name="sp_arena_3"/>
+				</tags>
+				<transform position="-23.365, -17.170, -1.024" rotation_euler="0.000, 0.000, -0.852" scale="0.750, 0.750, 1.000"/>
+				<components>
+					<meta_mesh_component name="animation_stand_arrow_blue"/>
+				</components>
+			</game_entity>
+			<game_entity name="sp_arena_4" old_prefab_name="">
+				<visibility_masks>
+					<visibility_mask name="visible_only_when_editing" value="true"/>
+				</visibility_masks>
+				<tags>
+					<tag name="sp_arena_4"/>
+					<tag name="sp_arena"/>
+				</tags>
+				<transform position="49.176, -24.552, 0.025" rotation_euler="0.000, 0.000, 1.096" scale="0.750, 0.750, 1.000"/>
+				<components>
+					<meta_mesh_component name="animation_stand_arrow_blue"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+	<game_entity name="torch_outdoors_a_burning_lc" old_prefab_name="">
+		<flags>
+			<flag name="not_affected_by_season" value="true"/>
+		</flags>
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<physics shape="bo_torch_outdoors_a"/>
+		<components>
+			<meta_mesh_component name="torch_outdoors_a">
+				<mesh name="torch_outdoors_a.lod1" argument="0.580, 0.500, 1.000, 75.000" argument2="5.000, 5.000, 5.000, 5.000"/>
+				<mesh name="torch_outdoors_a.lod1.3" argument="1.000, 0.500, 1.000, 10.000" argument2="5.000, 5.000, 5.000, 5.000"/>
+				<mesh name="torch_outdoors_a.lod2" argument="0.580, 0.500, 1.000, 75.000" argument2="5.000, 5.000, 5.000, 5.000"/>
+				<mesh name="torch_outdoors_a.lod2.3" argument="1.000, 0.500, 1.000, 10.000" argument2="5.000, 5.000, 5.000, 5.000"/>
+				<mesh name="torch_outdoors_a" argument="0.580, 0.500, 1.000, 75.000" argument2="5.000, 5.000, 5.000, 5.000"/>
+				<mesh name="torch_outdoors_a.3" argument="1.000, 0.500, 1.000, 10.000" argument2="5.000, 5.000, 5.000, 5.000"/>
+				<mesh name="torch_outdoors_a.lod3" argument="0.580, 0.500, 1.000, 75.000" argument2="5.000, 5.000, 5.000, 5.000"/>
+				<mesh name="torch_outdoors_a.lod3.3" argument="1.000, 0.500, 1.000, 10.000" argument2="5.000, 5.000, 5.000, 5.000"/>
+				<mesh name="torch_outdoors_a.lod4" argument="0.580, 0.500, 1.000, 75.000" argument2="5.000, 5.000, 5.000, 5.000"/>
+				<mesh name="torch_outdoors_a.lod4.3" argument="1.000, 0.500, 1.000, 10.000" argument2="5.000, 5.000, 5.000, 5.000"/>
+				<mesh name="torch_outdoors_a.lod5.3" argument="1.000, 0.500, 1.000, 10.000" argument2="5.000, 5.000, 5.000, 5.000"/>
+			</meta_mesh_component>
+		</components>
+		<children>
+			<game_entity name="light" old_prefab_name="">
+				<flags>
+					<flag name="not_affected_by_season" value="true"/>
+				</flags>
+				<transform position="0.000, 0.000, 1.630" rotation_euler="0.000, 0.000, -0.777"/>
+				<components>
+					<light_component color="1.000, 0.596, 0.243" intensity="180.000" radius="9.000" flicker_interval="0.400" flicker_magnitude="2.000" local_frame_rot="9.000000, 0.000000, 0.000000, 0.000000, 9.000000, 0.000000, 0.000000, 0.000000, 9.000000" hotspot_angle="30.000" falloff_angle="45.000" shadow="1" shadow_size_multiplier="1" shadow_radius="5.000"/>
+				</components>
+				<scripts>
+					<script name="LightCycle">
+						<variables>
+							<variable name="alwaysBurn" value="false"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="particle" old_prefab_name="">
+				<transform position="-0.031, 0.015, 0.323"/>
+				<scripts>
+					<script name="LightCycle">
+						<variables>
+							<variable name="alwaysBurn" value="false"/>
+						</variables>
+					</script>
+				</scripts>
+				<children>
+					<game_entity name="torch_aa" old_prefab_name="">
+						<flags>
+							<flag name="not_affected_by_season" value="true"/>
+						</flags>
+						<transform position="0.023, -0.026, 0.040" rotation_euler="0.000, 0.000, 0.646"/>
+						<components>
+							<particle_system_instanced_component>
+								<effect_ref base_effect="{4DF2A56D-207E-4A7D-BE16-C7321F819A38}"/>
+							</particle_system_instanced_component>
+						</components>
+					</game_entity>
+				</children>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

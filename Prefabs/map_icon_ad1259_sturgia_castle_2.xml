@@ -1,0 +1,1997 @@
+<prefabs>
+	<game_entity name="map_icon_ad1259_sturgia_castle_2" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="Town Entity Manager">
+				<variables>
+					<variable name="Override Factor Color" value="false"/>
+					<variable name="Factor Color" value="1.000, 1.000, 1.000, 1.000"/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="stu_siege" old_prefab_name="" mobility="1">
+				<tags>
+					<tag name="main_map_castle_gate"/>
+				</tags>
+				<transform position="-3.551, -0.295, 0.000" rotation_euler="0.000, 0.000, -0.079" scale="1.075, 1.075, 1.075"/>
+				<children>
+					<game_entity name="map_icon_siege_camp_4" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+							<flag name="align_rotation_to_terrain" value="true"/>
+						</flags>
+						<tags>
+							<tag name="siege_preparation"/>
+						</tags>
+						<transform position="0.919, 2.197, 0.000" rotation_euler="0.000, 0.000, -0.534" scale="0.973, 0.973, 0.973"/>
+						<components>
+							<meta_mesh_component name="map_icon_siege_camp_4"/>
+						</components>
+					</game_entity>
+					<game_entity name="volume_box_corner" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_camp_area_2"/>
+						</tags>
+						<transform position="-0.624, 3.923, 0.000" rotation_euler="0.000, 0.000, -3.074" scale="2.176, 1.988, 1.403"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500" rotation_euler="0.000, 0.000, 0.000" scale="1.056, 0.951, 1.000"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<levels>
+									<level name="base"/>
+								</levels>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="base"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+							<flag name="align_rotation_to_terrain" value="true"/>
+						</flags>
+						<transform position="-0.626, -1.706, 0.000" rotation_euler="0.000, 0.000, 0.788" scale="0.779, 0.779, 0.779"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="volume_box_corner" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_camp_area_2"/>
+						</tags>
+						<transform position="-3.756, 1.554, 0.000" rotation_euler="0.000, 0.000, -1.529" scale="4.349, 1.988, 1.403"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.486, 0.396, -0.500" rotation_euler="0.000, 0.000, 0.000" scale="1.019, 0.996, 1.000"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<levels>
+									<level name="base"/>
+								</levels>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="base"/>
+						</levels>
+					</game_entity>
+					<game_entity name="volume_box_corner" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_camp_area_2"/>
+						</tags>
+						<transform position="-0.091, -1.743, 0.000" rotation_euler="0.000, 0.000, -2.322" scale="2.176, 2.660, 1.403"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<levels>
+									<level name="base"/>
+								</levels>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="base"/>
+						</levels>
+					</game_entity>
+					<game_entity name="volume_box_corner" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_camp_area_1"/>
+						</tags>
+						<transform position="-1.702, -1.018, 0.000" rotation_euler="0.000, 0.000, 0.094" scale="1.378, 2.061, 1.403"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<levels>
+									<level name="base"/>
+								</levels>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="base"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+							<flag name="align_rotation_to_terrain" value="true"/>
+						</flags>
+						<transform position="-0.004, 2.408, 0.000" rotation_euler="0.000, 0.000, -0.195" scale="0.779, 0.779, 0.779"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_barrel_c" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+							<flag name="align_rotation_to_terrain" value="true"/>
+						</flags>
+						<transform position="-0.128, 2.110, 0.000" rotation_euler="0.000, 0.000, 1.199" scale="1.618, 1.618, 1.618"/>
+						<components>
+							<meta_mesh_component name="mi_barrels_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+							<flag name="align_rotation_to_terrain" value="true"/>
+						</flags>
+						<transform position="-0.548, 1.664, 0.000" rotation_euler="0.000, 0.000, 1.343" scale="0.779, 0.779, 0.779"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icon_siege_camp_4" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+							<flag name="align_rotation_to_terrain" value="true"/>
+						</flags>
+						<tags>
+							<tag name="siege_preparation"/>
+						</tags>
+						<transform position="0.670, 1.154, 0.000" rotation_euler="0.000, 0.000, -0.021" scale="1.014, 1.014, 1.014"/>
+						<components>
+							<meta_mesh_component name="map_icon_siege_camp_4"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icon_siege_camp_1" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+							<flag name="align_rotation_to_terrain" value="true"/>
+						</flags>
+						<tags>
+							<tag name="siege_preparation"/>
+						</tags>
+						<transform position="1.025, 0.292, 0.000" rotation_euler="0.000, 0.000, -2.194" scale="1.188, 1.188, 1.188"/>
+						<components>
+							<meta_mesh_component name="map_icon_siege_camp_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icon_siege_camp_4" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+							<flag name="align_rotation_to_terrain" value="true"/>
+						</flags>
+						<tags>
+							<tag name="siege_preparation"/>
+						</tags>
+						<transform position="0.838, -0.189, 0.000" rotation_euler="0.000, 0.000, 0.035" scale="1.014, 1.014, 1.014"/>
+						<components>
+							<meta_mesh_component name="map_icon_siege_camp_4"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icon_siege_camp_1" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+							<flag name="align_rotation_to_terrain" value="true"/>
+						</flags>
+						<tags>
+							<tag name="siege_preparation"/>
+						</tags>
+						<transform position="0.928, -1.053, 0.000" rotation_euler="0.000, 0.000, -2.187" scale="1.188, 1.188, 1.188"/>
+						<components>
+							<meta_mesh_component name="map_icon_siege_camp_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icon_siege_camp_5" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+							<flag name="align_rotation_to_terrain" value="true"/>
+						</flags>
+						<tags>
+							<tag name="siege_preparation"/>
+						</tags>
+						<transform position="1.499, -1.904, 0.000" rotation_euler="0.000, 0.000, 0.445"/>
+						<components>
+							<meta_mesh_component name="map_icon_siege_camp_5"/>
+						</components>
+					</game_entity>
+					<game_entity name="attacker_ranged_engine" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_siege_engine_0"/>
+						</tags>
+						<transform position="0.538, 2.296, 0.000" rotation_euler="0.000, 0.000, -2.029" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="0.024, -0.093, -0.028" rotation_euler="0.000, 0.000, 2.879" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="attacker_ranged_engine" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_siege_engine_1"/>
+						</tags>
+						<transform position="0.142, 1.302, 0.000" rotation_euler="0.000, 0.000, -1.616" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="0.051, -0.014, 0.009" rotation_euler="0.000, 0.000, 2.889" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="attacker_ranged_engine" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_siege_engine_2"/>
+						</tags>
+						<transform position="0.044, 0.374, 0.000" rotation_euler="0.000, 0.000, -1.519" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="0.006, -0.038, -0.017" rotation_euler="0.000, 0.000, -0.236" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="attacker_ranged_engine" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_siege_engine_3"/>
+						</tags>
+						<transform position="0.185, -1.278, 0.000" rotation_euler="0.000, 0.000, -1.282" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="0.048, 0.021, -0.013" rotation_euler="0.000, 0.000, 2.438" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="attacker_siege_ram" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_siege_ram"/>
+						</tags>
+						<transform position="-1.445, -1.894, 0.000" rotation_euler="0.000, 0.000, -1.453" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="0.079, 0.058, -0.020" rotation_euler="0.000, 0.000, 1.922" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="attacker_siege_tower" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_siege_tower"/>
+						</tags>
+						<transform position="-1.268, 1.322, 0.000" rotation_euler="0.000, 0.000, -1.461" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="0.024, 0.028, -0.022" rotation_euler="0.000, 0.000, -2.195" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="attacker_siege_tower" old_prefab_name="" mobility="1">
+						<flags>
+							<flag name="align_to_terrain" value="true"/>
+						</flags>
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_siege_tower"/>
+						</tags>
+						<transform position="-1.717, 1.658, 0.000" rotation_euler="0.000, 0.000, -1.189" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="-0.023, 0.025, -0.024" rotation_euler="0.000, 0.000, -0.555" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="defender_ranged_l1" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_0"/>
+						</tags>
+						<transform position="3.251, 1.774, 0.545" rotation_euler="0.000, 0.000, 1.648" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.102" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_1"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l1" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_3"/>
+						</tags>
+						<transform position="3.467, -0.705, 0.546" rotation_euler="0.000, 0.000, 1.669" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -2.776" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_1"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l1" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_1"/>
+						</tags>
+						<transform position="2.406, 0.726, 0.386" rotation_euler="0.000, 0.000, 1.670" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.088" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_1"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l1" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_2"/>
+						</tags>
+						<transform position="2.436, 0.109, 0.391" rotation_euler="0.000, 0.000, 1.640" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_1"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l2" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_3"/>
+						</tags>
+						<transform position="3.431, -0.765, 0.548" rotation_euler="0.000, 0.000, 1.642" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_2"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l2" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_0"/>
+						</tags>
+						<transform position="3.244, 1.716, 0.545" rotation_euler="0.000, 0.000, 1.657" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -2.776" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_2"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l2" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_1"/>
+						</tags>
+						<transform position="2.338, 0.733, 0.520" rotation_euler="0.000, 0.000, 1.658" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.102" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_2"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l2" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_2"/>
+						</tags>
+						<transform position="2.392, 0.024, 0.514" rotation_euler="0.000, 0.000, 1.661" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.088" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_2"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l3" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_3"/>
+						</tags>
+						<transform position="3.451, -0.983, 0.725" rotation_euler="0.000, 0.000, 1.631" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l3" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_1"/>
+						</tags>
+						<transform position="2.148, 0.731, 0.758" rotation_euler="0.000, 0.000, 1.656" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.102" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l3" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_2"/>
+						</tags>
+						<transform position="2.202, 0.095, 0.753" rotation_euler="0.000, 0.000, 1.642" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.088" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l3" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_0"/>
+						</tags>
+						<transform position="3.239, 2.067, 0.722" rotation_euler="0.000, 0.000, 1.654" scale="0.326, 0.326, 0.326"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+				</children>
+				<levels>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="sturgia_castle_main" old_prefab_name="" mobility="1">
+				<transform position="0.144, 0.036, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.488, 0.488, 0.488"/>
+				<children>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="1.779, 1.813, 0.000" rotation_euler="0.000, 0.000, -2.336"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="0.087, 1.673, 0.000" rotation_euler="0.000, 0.000, -3.114"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="-1.878, -2.409, 0.000" rotation_euler="0.000, 0.000, -1.561"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_khuzait_fence" old_prefab_name="" mobility="1">
+						<transform position="-1.260, 1.531, 0.000" rotation_euler="0.000, 0.000, -2.373"/>
+						<components>
+							<meta_mesh_component name="mi_khuz_arena_fence"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="-1.158, -2.401, 0.000" rotation_euler="0.000, 0.000, -1.556"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_c" old_prefab_name="" mobility="1">
+						<transform position="2.289, 0.884, 0.005" rotation_euler="0.000, 0.000, -0.007" scale="0.982, 1.084, 1.084"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="1.198, -2.338, 0.000" rotation_euler="0.000, 0.000, -1.622"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="0.596, -1.417, 0.000" rotation_euler="0.000, 0.000, -1.622"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_c" old_prefab_name="" mobility="1">
+						<transform position="1.859, -1.527, 0.000" rotation_euler="0.000, 0.000, 1.473" scale="0.906, 1.000, 1.000"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_khuzait_fence" old_prefab_name="" mobility="1">
+						<transform position="-1.538, 2.230, 0.000" rotation_euler="0.000, 0.000, -3.046"/>
+						<components>
+							<meta_mesh_component name="mi_khuz_arena_fence"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_tavern" old_prefab_name="" mobility="1">
+						<transform position="0.831, 1.853, 0.000" rotation_euler="0.000, 0.000, -0.018"/>
+						<components>
+							<meta_mesh_component name="mi_stu_tavern"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="-1.083, -1.854, 0.000" rotation_euler="0.000, 0.000, -3.086"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="-1.666, -1.849, 0.000" rotation_euler="0.000, 0.000, -3.087"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="0.577, -2.017, 0.000" rotation_euler="0.000, 0.000, -1.622"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="0.561, -2.534, 0.000" rotation_euler="0.000, 0.000, -1.622"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_b" old_prefab_name="" mobility="1">
+						<transform position="0.840, 0.579, 0.011" rotation_euler="0.000, 0.000, 1.585" scale="1.297, 1.297, 1.297"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_b" old_prefab_name="" mobility="1">
+						<transform position="1.759, 0.948, 0.011" rotation_euler="0.000, 0.000, 0.083" scale="1.297, 1.297, 1.297"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="-1.529, -2.404, 0.000" rotation_euler="0.000, 0.000, -1.561"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_d" old_prefab_name="" mobility="1">
+						<transform position="-1.026, -0.974, 0.000" rotation_euler="0.000, 0.000, -3.132" scale="1.195, 1.195, 1.195"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_d"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_tavern" old_prefab_name="" mobility="1">
+						<transform position="-1.883, 2.412, 0.000" rotation_euler="0.000, 0.000, -1.583" scale="0.598, 0.598, 0.598"/>
+						<components>
+							<meta_mesh_component name="mi_stu_tavern"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_c" old_prefab_name="" mobility="1">
+						<transform position="-0.741, 1.667, 0.000" rotation_euler="0.000, 0.000, 3.131" scale="0.906, 1.000, 1.000"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_barrel_a" old_prefab_name="" mobility="1">
+						<transform position="1.557, -1.955, 0.000" rotation_euler="0.000, 0.000, -2.704" scale="2.195, 2.195, 2.195"/>
+						<components>
+							<meta_mesh_component name="mi_barrels_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sack_a" old_prefab_name="" mobility="1">
+						<transform position="-0.818, 0.940, 0.000" rotation_euler="0.000, 0.000, -1.193" scale="2.049, 2.049, 2.049"/>
+						<components>
+							<meta_mesh_component name="mi_sack_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sack_a" old_prefab_name="" mobility="1">
+						<transform position="0.063, 1.280, 0.000" rotation_euler="0.000, 0.000, -1.193" scale="2.049, 2.049, 2.049"/>
+						<components>
+							<meta_mesh_component name="mi_sack_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_straw" old_prefab_name="" mobility="1">
+						<transform position="-1.274, 2.308, 0.000" rotation_euler="0.000, 0.000, -0.606" scale="2.798, 2.798, 2.798"/>
+						<components>
+							<meta_mesh_component name="mi_straw_pile"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_straw" old_prefab_name="" mobility="1">
+						<transform position="-1.259, 1.809, 0.000" rotation_euler="0.000, 0.000, -0.606" scale="1.719, 1.719, 1.719"/>
+						<components>
+							<meta_mesh_component name="mi_straw_pile"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_barrel_a" old_prefab_name="" mobility="1">
+						<transform position="-1.033, -0.332, 0.000" rotation_euler="0.000, 0.000, -2.664" scale="2.195, 2.195, 2.195"/>
+						<components>
+							<meta_mesh_component name="mi_barrels_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sack_a" old_prefab_name="" mobility="1">
+						<transform position="1.180, -0.897, 0.000" rotation_euler="0.000, 0.000, -2.648" scale="2.049, 2.049, 2.049"/>
+						<components>
+							<meta_mesh_component name="mi_sack_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_barrel_a" old_prefab_name="" mobility="1">
+						<transform position="-1.424, -1.831, 0.000" rotation_euler="0.000, 0.000, 2.059" scale="2.195, 2.195, 2.195"/>
+						<components>
+							<meta_mesh_component name="mi_barrels_a"/>
+						</components>
+					</game_entity>
+				</children>
+				<levels>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+					<level name="looted"/>
+				</levels>
+			</game_entity>
+			<game_entity name="bo_castle" old_prefab_name="" mobility="1">
+				<transform position="0.319, -0.006, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.237, 1.237, 1.237"/>
+				<physics shape="bo_sphere_collider"/>
+			</game_entity>
+			<game_entity name="castle_gate" old_prefab_name="" mobility="1">
+				<tags>
+					<tag name="main_map_city_gate"/>
+				</tags>
+				<transform position="-1.630, -0.046, 0.000"/>
+			</game_entity>
+			<game_entity name="sturgia_castle_l3" old_prefab_name="" mobility="1">
+				<transform rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<children>
+					<game_entity name="map_icons_sturgia_small_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="1.335, -2.020, -0.024" rotation_euler="0.000, 0.000, 2.092" scale="0.800, 0.889, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3s"/>
+						</components>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="-0.326, -2.120, -0.324" rotation_euler="0.000, 0.000, 1.547" scale="0.800, 0.889, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="0.542, -2.235, -0.024" rotation_euler="0.000, 0.000, 1.590" scale="0.800, 0.889, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3s"/>
+						</components>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="-0.058, 1.017, -0.026" rotation_euler="0.000, 0.000, -0.009" scale="0.800, 0.889, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="-0.069, -0.821, -0.026" rotation_euler="0.000, 0.000, -0.034" scale="0.800, 0.889, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_keep_l3" old_prefab_name="" mobility="1">
+						<transform position="1.740, -0.135, 0.026" rotation_euler="0.000, 0.000, -0.015" scale="1.022, 1.010, 1.010"/>
+						<components>
+							<meta_mesh_component name="mi_stu_keep_3"/>
+						</components>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="1.972, -1.449, -0.024" rotation_euler="0.000, 0.000, 2.502" scale="0.800, 0.889, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3s"/>
+						</components>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="0.349, 2.270, -0.024" rotation_euler="0.000, 0.000, -1.603" scale="0.800, 0.889, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3s"/>
+						</components>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="-1.473, -1.815, -0.342" rotation_euler="0.000, 0.000, 0.667" scale="0.800, 0.895, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3s"/>
+						</components>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_square_tower_l3" old_prefab_name="" mobility="1">
+						<transform position="-0.029, 2.070, 0.047" rotation_euler="0.000, 0.000, -0.027" scale="0.936, 0.936, 0.936"/>
+						<components>
+							<meta_mesh_component name="mi_stu_squaretower_3"/>
+						</components>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="2.286, -0.687, -0.024" rotation_euler="0.000, 0.000, 3.012" scale="0.800, 0.889, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3s"/>
+						</components>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="2.222, 0.887, -0.024" rotation_euler="0.000, 0.000, -2.948" scale="0.800, 0.889, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3s"/>
+						</components>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="-0.360, 2.102, -0.345" rotation_euler="0.000, 0.000, -1.574" scale="0.800, 0.889, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="-1.495, 1.787, -0.342" rotation_euler="0.000, 0.000, -0.633" scale="0.800, 0.895, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3s"/>
+						</components>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_breach_l3" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="map_breachable_wall"/>
+						</tags>
+						<transform position="-1.762, 1.064, -0.355" rotation_euler="0.000, 0.000, -0.036" scale="0.813, 0.813, 0.813"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3s"/>
+						</components>
+						<children>
+							<game_entity name="solid" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_solid_wall"/>
+								</tags>
+								<transform position="0.025, 0.052, 0.028"/>
+							</game_entity>
+							<game_entity name="bo_siege_wall" old_prefab_name="" mobility="1">
+								<transform position="-0.006, -0.008, 0.488" rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+							<game_entity name="broken" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_broken_wall"/>
+								</tags>
+								<transform position="0.006, 0.046, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.988, 1.000"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_square_tower_l3" old_prefab_name="" mobility="1">
+						<transform position="-0.019, -2.068, 0.047" rotation_euler="0.000, 0.000, -0.027" scale="0.936, 0.936, 0.936"/>
+						<components>
+							<meta_mesh_component name="mi_stu_squaretower_3"/>
+						</components>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="banner_pos" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_banner_placeholder"/>
+						</tags>
+						<transform position="-0.093, 0.426, 0.733" rotation_euler="0.000, 0.000, -1.574" scale="1.028, 0.136, 0.056"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="banner_pos" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_banner_placeholder"/>
+						</tags>
+						<transform position="0.311, 0.240, 0.889" rotation_euler="0.000, 0.000, -1.574" scale="0.578, 0.568, 0.056"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="1.161, 2.096, -0.024" rotation_euler="0.000, 0.000, -1.986" scale="0.800, 0.889, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3s"/>
+						</components>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="1.850, 1.612, -0.024" rotation_euler="0.000, 0.000, -2.363" scale="0.800, 0.889, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3s"/>
+						</components>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_mini_gatehouse_l3" old_prefab_name="" mobility="1">
+						<transform position="-1.718, -0.047, 0.095" rotation_euler="0.000, 0.000, 0.000" scale="0.853, 0.853, 0.853"/>
+						<components>
+							<meta_mesh_component name="mi_stu_mini_gatehouse_3"/>
+						</components>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="banner_pos" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_banner_placeholder"/>
+						</tags>
+						<transform position="-1.715, 0.308, 1.000" rotation_euler="0.000, 0.000, -1.574" scale="0.723, 0.328, 0.056"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_breach_l3" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="map_breachable_wall"/>
+						</tags>
+						<transform position="-1.735, -1.135, -0.355" rotation_euler="0.000, 0.000, 0.022" scale="0.813, 0.813, 0.813"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_3s"/>
+						</components>
+						<children>
+							<game_entity name="solid" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_solid_wall"/>
+								</tags>
+								<transform position="0.025, 0.052, 0.028"/>
+							</game_entity>
+							<game_entity name="bo_siege_wall" old_prefab_name="" mobility="1">
+								<transform position="-0.006, -0.008, 0.488" rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+							<game_entity name="broken" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_broken_wall"/>
+								</tags>
+								<transform position="0.006, 0.046, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.988, 1.000"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+				</children>
+				<levels>
+					<level name="level_3"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="sturgia_castle_l2" old_prefab_name="" mobility="1">
+				<transform rotation_euler="0.000, 0.000, 0.043" scale="0.800, 0.800, 0.800"/>
+				<children>
+					<game_entity name="map_icons_sturgia_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="1.819, -0.570, -0.133" rotation_euler="0.000, 0.000, 3.065" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="-0.688, -1.752, -0.178" rotation_euler="0.000, 0.000, 1.465" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_square_tower_l2" old_prefab_name="" mobility="1">
+						<transform position="0.015, 1.585, 0.080" rotation_euler="0.000, 0.000, -0.067"/>
+						<components>
+							<meta_mesh_component name="mi_stu_squaretower_2"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="1.107, -1.709, -0.133" rotation_euler="0.000, 0.000, 2.160" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_keep_l2" old_prefab_name="" mobility="1">
+						<transform position="1.712, -0.177, -0.036" rotation_euler="0.000, 0.000, -0.067" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_stu_keep_2"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="-0.019, 0.787, 0.017" rotation_euler="0.000, 0.000, -0.068" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="-1.449, -1.575, -0.147" rotation_euler="0.000, 0.000, -0.032" scale="0.800, 0.401, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="0.439, -1.891, -0.133" rotation_euler="0.000, 0.000, 1.530" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="-0.083, -0.851, 0.017" rotation_euler="0.000, 0.000, -0.068" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="-0.610, 1.709, -0.178" rotation_euler="0.000, 0.000, -1.616" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_square_tower_l2" old_prefab_name="" mobility="1">
+						<transform position="-0.127, -1.719, 0.080" rotation_euler="0.000, 0.000, -0.067"/>
+						<components>
+							<meta_mesh_component name="mi_stu_squaretower_2"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_breach_l2" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="map_breachable_wall"/>
+						</tags>
+						<transform position="-1.432, -1.114, -0.142" rotation_euler="0.000, 0.000, -0.009" scale="0.813, 0.813, 0.813"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2s"/>
+						</components>
+						<children>
+							<game_entity name="solid" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_solid_wall"/>
+								</tags>
+								<transform position="-0.010, 0.066, 0.028"/>
+							</game_entity>
+							<game_entity name="bo_siege_wall" old_prefab_name="" mobility="1">
+								<transform position="-0.041, 0.006, 0.285" rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+							<game_entity name="broken" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_broken_wall"/>
+								</tags>
+								<transform position="-0.029, 0.060, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.988, 1.000"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_2"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="1.838, 0.129, -0.133" rotation_euler="0.000, 0.000, 3.113" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="1.717, 0.845, -0.133" rotation_euler="0.000, 0.000, -2.771" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="1.295, 1.401, -0.133" rotation_euler="0.000, 0.000, -2.216" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="banner_pos" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_banner_placeholder"/>
+						</tags>
+						<transform position="-0.069, 0.382, 0.551" rotation_euler="0.000, 0.000, -1.627" scale="1.128, 0.131, 0.056"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="banner_pos" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_banner_placeholder"/>
+						</tags>
+						<transform position="-1.641, -0.216, 0.665" rotation_euler="0.000, 0.000, -1.574" scale="0.470, 0.459, 0.056"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="-1.369, 1.565, -0.147" rotation_euler="0.000, 0.000, -0.040" scale="0.800, 0.401, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="0.654, 1.643, -0.133" rotation_euler="0.000, 0.000, -1.651" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="1.597, -1.221, -0.133" rotation_euler="0.000, 0.000, 2.570" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_mini_gatehouse_l2" old_prefab_name="" mobility="1">
+						<transform position="-1.443, -0.054, -0.041" rotation_euler="0.000, 0.000, -0.052" scale="0.846, 0.846, 0.846"/>
+						<components>
+							<meta_mesh_component name="mi_stu_mini_gatehouse_2"/>
+						</components>
+					</game_entity>
+					<game_entity name="banner_pos" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_banner_placeholder"/>
+						</tags>
+						<transform position="-0.170, 1.816, 0.670" rotation_euler="0.000, 0.000, -1.609" scale="0.524, 0.519, 0.056"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_breach_l2" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="map_breachable_wall"/>
+						</tags>
+						<transform position="-1.384, 1.065, -0.142" rotation_euler="0.000, 0.000, -0.034" scale="0.812, 0.812, 0.813"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_2s"/>
+						</components>
+						<children>
+							<game_entity name="solid" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_solid_wall"/>
+								</tags>
+								<transform position="-0.010, 0.066, 0.028"/>
+							</game_entity>
+							<game_entity name="bo_siege_wall" old_prefab_name="" mobility="1">
+								<transform position="-0.041, 0.006, 0.285" rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+							<game_entity name="broken" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_broken_wall"/>
+								</tags>
+								<transform position="-0.029, 0.060, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.988, 1.000"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_2"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+				</children>
+				<levels>
+					<level name="level_2"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="sturgia_castle_l1" old_prefab_name="" mobility="1">
+				<transform position="0.123, 0.037, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.800, 0.800, 0.800"/>
+				<children>
+					<game_entity name="banner_pos" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_banner_placeholder"/>
+						</tags>
+						<transform position="-0.401, -1.480, 0.751" rotation_euler="0.000, 0.000, -1.574" scale="0.524, 0.519, 0.056"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="0.429, 1.684, 0.000" rotation_euler="0.000, 0.000, -1.596" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="-1.490, -1.636, 0.000" rotation_euler="0.000, 0.000, -0.027" scale="0.800, 0.466, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="banner_pos" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_banner_placeholder"/>
+						</tags>
+						<transform position="-0.170, -0.561, 0.494" rotation_euler="0.000, 0.000, -0.002" scale="0.048, 1.014, 0.056"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="-0.711, -1.813, 0.016" rotation_euler="0.000, 0.000, 1.544" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="-0.788, 1.656, 0.016" rotation_euler="0.000, 0.000, -1.587" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="0.435, -1.866, 0.000" rotation_euler="0.000, 0.000, 1.557" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="1.077, 1.466, 0.000" rotation_euler="0.000, 0.000, -2.199" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="-1.552, 1.504, 0.000" rotation_euler="0.000, 0.000, 0.031" scale="0.800, 0.466, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="1.525, -1.184, 0.000" rotation_euler="0.000, 0.000, 2.627" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="1.533, 0.919, 0.000" rotation_euler="0.000, 0.000, -2.701" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_square_tower_l1" old_prefab_name="" mobility="1">
+						<transform position="-0.212, 1.582, 0.394" rotation_euler="0.000, 0.000, 0.000" scale="0.868, 0.868, 0.868"/>
+						<components>
+							<meta_mesh_component name="mi_stu_squaretower_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="1.720, -0.515, 0.000" rotation_euler="0.000, 0.000, 3.097" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="-0.187, 0.504, 0.220" rotation_euler="0.000, 0.000, -0.002" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="1.719, 0.200, 0.000" rotation_euler="0.000, 0.000, -3.072" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_keep_l1" old_prefab_name="" mobility="1">
+						<transform position="1.478, -0.122, 0.088" rotation_euler="0.000, 0.000, -0.005" scale="0.605, 0.605, 0.606"/>
+						<components>
+							<meta_mesh_component name="mi_stu_keep_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_mini_gatehouse_l1" old_prefab_name="" mobility="1">
+						<transform position="-1.426, -0.123, 0.229" rotation_euler="0.000, 0.000, 0.028" scale="0.786, 0.786, 0.786"/>
+						<components>
+							<meta_mesh_component name="mi_stu_mini_gatehouse_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="1.095, -1.646, 0.000" rotation_euler="0.000, 0.000, 2.184" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_square_tower_l1" old_prefab_name="" mobility="1">
+						<transform position="-0.155, -1.715, 0.394" rotation_euler="0.000, 0.000, 0.000" scale="0.868, 0.868, 0.868"/>
+						<components>
+							<meta_mesh_component name="mi_stu_squaretower_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_breach_l1" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="map_breachable_wall"/>
+						</tags>
+						<transform position="-1.532, 0.944, -0.032" rotation_euler="0.000, 0.000, 0.028" scale="0.875, 0.875, 0.875"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1s"/>
+						</components>
+						<children>
+							<game_entity name="solid" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_solid_wall"/>
+								</tags>
+								<transform position="1.308, 0.160, 0.028"/>
+							</game_entity>
+							<game_entity name="bo_siege_wall" old_prefab_name="" mobility="1">
+								<transform position="-0.034, 0.029, 0.000" rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+							<game_entity name="broken" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_broken_wall"/>
+								</tags>
+								<transform position="1.289, 0.154, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.988, 1.000"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_1"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_small_breach_l1" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="map_breachable_wall"/>
+						</tags>
+						<transform position="-1.496, -1.184, -0.031" rotation_euler="0.000, 0.000, 0.015" scale="0.875, 0.875, 0.875"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1s"/>
+						</components>
+						<children>
+							<game_entity name="solid" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_solid_wall"/>
+								</tags>
+								<transform position="-0.003, 0.048, 0.028"/>
+							</game_entity>
+							<game_entity name="bo_siege_wall" old_prefab_name="" mobility="1">
+								<transform position="-0.034, 0.029, 0.000" rotation_euler="0.000, 0.000, 1.590" scale="0.368, 0.368, 0.367"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+							<game_entity name="broken" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_broken_wall"/>
+								</tags>
+								<transform position="-0.022, 0.042, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 0.988, 1.000"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_1"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="-0.172, -1.146, 0.220" rotation_euler="0.000, 0.000, -0.002" scale="0.800, 0.800, 0.800"/>
+						<components>
+							<meta_mesh_component name="mi_stu_wall_1"/>
+						</components>
+					</game_entity>
+				</children>
+				<levels>
+					<level name="level_1"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="town_circle_decal" old_prefab_name="" mobility="1">
+				<tags>
+					<tag name="map_settlement_circle"/>
+				</tags>
+				<transform position="0.204, -0.015, 0.000" rotation_euler="0.000, 0.000, 1.584" scale="3.120, 3.120, 2.301"/>
+				<components>
+					<decal_component material="decal_city_circle_a" argument="1.000, 1.000, 0.000, 0.000"/>
+				</components>
+			</game_entity>
+			<game_entity name="sturgia_castle_main_3" old_prefab_name="" mobility="1">
+				<transform position="0.083, 0.314, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.488, 0.488, 0.488"/>
+				<children>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="2.067, 2.040, 0.000" rotation_euler="0.000, 0.000, -2.418" scale="1.279, 1.279, 1.279"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="0.199, 1.735, 0.000" rotation_euler="0.000, 0.000, -3.114" scale="1.312, 1.312, 1.312"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="-1.878, -3.706, 0.000" rotation_euler="0.000, 0.000, -1.590"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_khuzait_fence" old_prefab_name="" mobility="1">
+						<transform position="-1.428, 1.472, 0.000" rotation_euler="0.000, 0.000, -2.373"/>
+						<components>
+							<meta_mesh_component name="mi_khuz_arena_fence"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="-1.158, -3.719, 0.000" rotation_euler="0.000, 0.000, -1.585"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_c" old_prefab_name="" mobility="1">
+						<transform position="2.917, 0.829, 0.005" rotation_euler="0.000, 0.000, -3.117" scale="1.389, 1.533, 1.533"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="1.312, -2.831, 0.000" rotation_euler="0.000, 0.000, -1.622" scale="1.216, 1.216, 1.216"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="0.605, -1.786, 0.000" rotation_euler="0.000, 0.000, -1.609" scale="1.216, 1.216, 1.216"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_c" old_prefab_name="" mobility="1">
+						<transform position="1.859, -1.527, 0.000" rotation_euler="0.000, 0.000, 1.473" scale="0.906, 1.000, 1.000"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_khuzait_fence" old_prefab_name="" mobility="1">
+						<transform position="-1.699, 1.999, 0.000" rotation_euler="0.000, 0.000, -2.911"/>
+						<components>
+							<meta_mesh_component name="mi_khuz_arena_fence"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_tavern" old_prefab_name="" mobility="1">
+						<transform position="0.971, 2.115, 0.000" rotation_euler="0.000, 0.000, -0.018"/>
+						<components>
+							<meta_mesh_component name="mi_stu_tavern"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="-1.067, -3.175, 0.000" rotation_euler="0.000, 0.000, -3.115"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="-1.650, -3.153, 0.000" rotation_euler="0.000, 0.000, -3.116"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="0.583, -2.488, 0.000" rotation_euler="0.000, 0.000, -1.589" scale="1.216, 1.216, 1.216"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="0.565, -3.149, 0.000" rotation_euler="0.000, 0.000, -1.622" scale="1.216, 1.216, 1.216"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_b" old_prefab_name="" mobility="1">
+						<transform position="0.751, 0.174, 0.011" rotation_euler="0.000, 0.000, 1.585" scale="1.297, 1.297, 1.297"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_b" old_prefab_name="" mobility="1">
+						<transform position="1.761, 0.892, 0.011" rotation_euler="0.000, 0.000, -0.074" scale="1.834, 1.834, 1.834"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_a" old_prefab_name="" mobility="1">
+						<transform position="-1.529, -3.711, 0.000" rotation_euler="0.000, 0.000, -1.590"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_barrel_a" old_prefab_name="" mobility="1">
+						<transform position="0.898, 1.431, 0.000" rotation_euler="0.000, 0.000, -2.744" scale="2.195, 2.195, 2.195"/>
+						<components>
+							<meta_mesh_component name="mi_barrels_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_tavern" old_prefab_name="" mobility="1">
+						<transform position="-1.883, 2.412, 0.000" rotation_euler="0.000, 0.000, -1.583" scale="0.598, 0.598, 0.598"/>
+						<components>
+							<meta_mesh_component name="mi_stu_tavern"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_c" old_prefab_name="" mobility="1">
+						<transform position="-0.729, 1.671, 0.000" rotation_euler="0.000, 0.000, 3.131" scale="1.007, 1.111, 1.111"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_tavern" old_prefab_name="" mobility="1">
+						<transform position="2.377, -2.653, 0.000" rotation_euler="0.000, 0.000, -0.055"/>
+						<components>
+							<meta_mesh_component name="mi_stu_tavern"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_d" old_prefab_name="" mobility="1">
+						<transform position="-1.325, 0.123, 0.000" rotation_euler="0.000, 0.000, 1.560" scale="1.640, 1.640, 1.640"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_d"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_straw" old_prefab_name="" mobility="1">
+						<transform position="-1.232, 2.353, 0.000" rotation_euler="0.000, 0.000, -0.606" scale="2.944, 2.944, 2.944"/>
+						<components>
+							<meta_mesh_component name="mi_straw_pile"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sack_a" old_prefab_name="" mobility="1">
+						<transform position="1.093, -1.389, 0.000" rotation_euler="0.000, 0.000, 0.949" scale="2.049, 2.049, 2.049"/>
+						<components>
+							<meta_mesh_component name="mi_sack_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_barrel_a" old_prefab_name="" mobility="1">
+						<transform position="2.037, -3.299, 0.000" rotation_euler="0.000, 0.000, -2.714" scale="2.195, 2.195, 2.195"/>
+						<components>
+							<meta_mesh_component name="mi_barrels_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sack_a" old_prefab_name="" mobility="1">
+						<transform position="-1.351, -2.755, 0.000" rotation_euler="0.000, 0.000, 0.949" scale="1.717, 1.717, 1.717"/>
+						<components>
+							<meta_mesh_component name="mi_sack_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_straw" old_prefab_name="" mobility="1">
+						<transform position="-1.530, 2.052, 0.000" rotation_euler="0.000, 0.000, -0.606" scale="2.026, 2.026, 2.026"/>
+						<components>
+							<meta_mesh_component name="mi_straw_pile"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_straw" old_prefab_name="" mobility="1">
+						<transform position="-1.333, 1.687, 0.000" rotation_euler="0.000, 0.000, -0.606" scale="2.026, 2.026, 2.026"/>
+						<components>
+							<meta_mesh_component name="mi_straw_pile"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_barrel_a" old_prefab_name="" mobility="1">
+						<transform position="-1.717, 0.731, 0.000" rotation_euler="0.000, 0.000, -2.702" scale="2.195, 2.195, 2.195"/>
+						<components>
+							<meta_mesh_component name="mi_barrels_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sturgia_house_d" old_prefab_name="" mobility="1">
+						<transform position="-0.851, -2.318, 0.000" rotation_euler="0.000, 0.000, 3.122" scale="1.195, 1.195, 1.195"/>
+						<components>
+							<meta_mesh_component name="mi_stu_house_d"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_barrel_a" old_prefab_name="" mobility="1">
+						<transform position="-4.186, 6.451, 0.000" rotation_euler="0.000, 0.000, 2.914" scale="2.195, 2.195, 2.195"/>
+						<components>
+							<meta_mesh_component name="mi_barrels_a"/>
+						</components>
+					</game_entity>
+				</children>
+				<levels>
+					<level name="level_3"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+					<level name="looted"/>
+				</levels>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

@@ -1,0 +1,1700 @@
+<prefabs>
+	<game_entity name="map_icon_ad1259_aserai_castle_1" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.700, 0.700, 0.700"/>
+		<scripts>
+			<script name="Town Entity Manager">
+				<variables>
+					<variable name="Override Factor Color" value="false"/>
+					<variable name="Factor Color" value="1.000, 1.000, 1.000, 1.000"/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="bo_castle" old_prefab_name="" mobility="1">
+				<transform position="0.144, -0.304, 0.000" rotation_euler="0.000, 0.000, -0.025" scale="1.598, 1.598, 1.598"/>
+				<physics shape="bo_sphere_collider"/>
+			</game_entity>
+			<game_entity name="ase_siege" old_prefab_name="" mobility="1">
+				<tags>
+					<tag name="main_map_castle_gate"/>
+				</tags>
+				<transform position="-2.988, -0.936, 0.000" rotation_euler="0.000, 0.000, 0.032"/>
+				<children>
+					<game_entity name="map_icon_siege_camp_4" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="siege_preparation"/>
+						</tags>
+						<transform position="1.082, 2.338, 0.000" rotation_euler="0.000, 0.000, -0.665" scale="0.973, 0.973, 0.973"/>
+						<components>
+							<meta_mesh_component name="map_icon_siege_camp_4"/>
+						</components>
+					</game_entity>
+					<game_entity name="volume_box_corner" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_camp_area_2"/>
+						</tags>
+						<transform position="0.237, -1.950, 0.000" rotation_euler="0.000, 0.000, -2.388" scale="1.748, 3.091, 1.631"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<levels>
+									<level name="base"/>
+								</levels>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="base"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<transform position="0.061, -1.556, 0.000" rotation_euler="0.000, 0.000, 1.903" scale="0.779, 0.779, 0.779"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="volume_box_corner" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_camp_area_1"/>
+						</tags>
+						<transform position="-1.506, -1.386, 0.000" rotation_euler="0.000, 0.000, 0.048" scale="1.271, 2.395, 1.631"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<levels>
+									<level name="base"/>
+								</levels>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="base"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icon_siege_camp_1" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="siege_preparation"/>
+						</tags>
+						<transform position="2.059, -2.772, 0.000" rotation_euler="0.000, 0.000, -1.615" scale="1.188, 1.188, 1.188"/>
+						<components>
+							<meta_mesh_component name="map_icon_siege_camp_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="volume_box_corner" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_camp_area_2"/>
+						</tags>
+						<transform position="-4.089, 2.156, 0.000" rotation_euler="0.000, 0.000, -1.548" scale="5.054, 2.310, 1.631"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<levels>
+									<level name="base"/>
+								</levels>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="base"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_barrel_c" old_prefab_name="" mobility="1">
+						<transform position="-0.907, 1.809, 0.000" rotation_euler="0.000, 0.000, 1.202" scale="1.618, 1.618, 1.618"/>
+						<components>
+							<meta_mesh_component name="mi_barrels_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="volume_box_corner" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_camp_area_2"/>
+						</tags>
+						<transform position="0.978, 3.574, 0.000" rotation_euler="0.000, 0.000, 2.438" scale="2.529, 2.310, 1.631"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+								<levels>
+									<level name="base"/>
+								</levels>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="base"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<transform position="0.065, 1.597, 0.000" rotation_euler="0.000, 0.000, 1.541" scale="0.779, 0.779, 0.779"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icon_siege_camp_4" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="siege_preparation"/>
+						</tags>
+						<transform position="0.684, 1.256, 0.000" rotation_euler="0.000, 0.000, 0.163" scale="1.014, 1.014, 1.014"/>
+						<components>
+							<meta_mesh_component name="map_icon_siege_camp_4"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icon_siege_camp_1" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="siege_preparation"/>
+						</tags>
+						<transform position="1.025, 0.292, 0.000" rotation_euler="0.000, 0.000, -2.194" scale="1.188, 1.188, 1.188"/>
+						<components>
+							<meta_mesh_component name="map_icon_siege_camp_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icon_siege_camp_4" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="siege_preparation"/>
+						</tags>
+						<transform position="0.838, -0.189, 0.000" rotation_euler="0.000, 0.000, 0.035" scale="1.014, 1.014, 1.014"/>
+						<components>
+							<meta_mesh_component name="map_icon_siege_camp_4"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icon_siege_camp_1" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="siege_preparation"/>
+						</tags>
+						<transform position="0.928, -1.053, 0.000" rotation_euler="0.000, 0.000, -2.177" scale="1.188, 1.188, 1.188"/>
+						<components>
+							<meta_mesh_component name="map_icon_siege_camp_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icon_siege_camp_5" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="siege_preparation"/>
+						</tags>
+						<transform position="1.328, -2.048, 0.000" rotation_euler="0.000, 0.000, 0.157"/>
+						<components>
+							<meta_mesh_component name="map_icon_siege_camp_5"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<transform position="-1.309, 1.809, 0.000" rotation_euler="0.000, 0.000, -0.194" scale="0.779, 0.779, 0.779"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icon_siege_camp_5" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="siege_preparation"/>
+						</tags>
+						<transform position="2.514, -3.615, 0.000" rotation_euler="0.000, 0.000, -0.201"/>
+						<components>
+							<meta_mesh_component name="map_icon_siege_camp_5"/>
+						</components>
+					</game_entity>
+					<game_entity name="attacker_ranged_engine" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_siege_engine_3"/>
+						</tags>
+						<transform position="0.421, 2.623, 0.000" rotation_euler="0.000, 0.000, -2.118" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="0.048, 0.021, -0.013" rotation_euler="0.000, 0.000, 2.438" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="attacker_ranged_engine" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_siege_engine_2"/>
+						</tags>
+						<transform position="-0.027, 0.725, 0.000" rotation_euler="0.000, 0.000, -1.540" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="0.006, -0.038, -0.017" rotation_euler="0.000, 0.000, -0.236" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="attacker_ranged_engine" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_siege_engine_1"/>
+						</tags>
+						<transform position="0.158, -0.695, 0.000" rotation_euler="0.000, 0.000, -1.331" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="0.051, -0.014, 0.009" rotation_euler="0.000, 0.000, 2.889" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="attacker_ranged_engine" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_siege_engine_0"/>
+						</tags>
+						<transform position="0.829, -2.043, 0.000" rotation_euler="0.000, 0.000, -1.058" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="0.024, -0.093, -0.028" rotation_euler="0.000, 0.000, 2.879" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="attacker_siege_ram" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_siege_ram"/>
+						</tags>
+						<transform position="-0.794, 1.406, 0.000" rotation_euler="0.000, 0.000, -1.564" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="0.079, 0.058, -0.020" rotation_euler="0.000, 0.000, 1.922" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="attacker_siege_tower" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_siege_tower"/>
+						</tags>
+						<transform position="-1.182, -1.917, 0.000" rotation_euler="0.000, 0.000, -1.264" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="-0.023, 0.025, -0.024" rotation_euler="0.000, 0.000, -0.555" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="attacker_siege_tower" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_siege_tower"/>
+						</tags>
+						<transform position="-1.150, -2.592, 0.000" rotation_euler="0.000, 0.000, -0.894" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="0.024, 0.028, -0.022" rotation_euler="0.000, 0.000, -2.195" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="defender_ranged_l1" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_3"/>
+						</tags>
+						<transform position="3.997, -0.291, 0.559" rotation_euler="0.000, 0.000, 1.821" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -2.776" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_1"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l1" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_0"/>
+						</tags>
+						<transform position="3.716, 1.518, 0.682" rotation_euler="0.000, 0.000, 1.702" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.102" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_1"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l1" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_1"/>
+						</tags>
+						<transform position="2.564, -0.211, 0.337" rotation_euler="0.000, 0.000, 1.828" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.088" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_1"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l1" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_2"/>
+						</tags>
+						<transform position="2.759, -0.872, 0.338" rotation_euler="0.000, 0.000, 1.841" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_1"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l2" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_2"/>
+						</tags>
+						<transform position="2.540, -0.332, 0.618" rotation_euler="0.000, 0.000, 1.828" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.088" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_2"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l2" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_3"/>
+						</tags>
+						<transform position="2.776, -1.078, 0.619" rotation_euler="0.000, 0.000, 1.856" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_2"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l2" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_0"/>
+						</tags>
+						<transform position="4.138, 1.880, 0.701" rotation_euler="0.000, 0.000, 1.599" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -2.776" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_2"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l2" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_1"/>
+						</tags>
+						<transform position="2.282, 1.518, 0.665" rotation_euler="0.000, 0.000, 1.730" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.102" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_2"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l3" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_1"/>
+						</tags>
+						<transform position="2.416, 1.946, 0.778" rotation_euler="0.000, 0.000, 1.730" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.102" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l3" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_2"/>
+						</tags>
+						<transform position="2.596, -0.239, 0.786" rotation_euler="0.000, 0.000, 1.863" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.088" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l3" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_3"/>
+						</tags>
+						<transform position="2.865, -1.035, 0.787" rotation_euler="0.000, 0.000, 1.898" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -3.076" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+					<game_entity name="defender_ranged_l3" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_defensive_engine_0"/>
+						</tags>
+						<transform position="4.255, 1.919, 1.062" rotation_euler="0.000, 0.000, 1.551" scale="0.350, 0.350, 0.350"/>
+						<components>
+							<meta_mesh_component name="arrow_new_icon"/>
+						</components>
+						<children>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -2.776" scale="1.050, 1.050, 1.050"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+						</levels>
+					</game_entity>
+				</children>
+				<levels>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="aserai_castle_l2" old_prefab_name="" mobility="1">
+				<transform position="-0.411, -0.094, 0.000"/>
+				<children>
+					<game_entity name="map_barrel_b" old_prefab_name="" mobility="1">
+						<transform position="0.796, -0.691, 0.000" rotation_euler="0.000, 0.000, -1.326" scale="1.158, 1.158, 1.158"/>
+						<components>
+							<meta_mesh_component name="mi_barrels_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="1.217, -0.707, 0.273" rotation_euler="0.000, 0.000, -0.053" scale="0.636, 0.919, 0.724"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="1.177, -1.250, 0.000" rotation_euler="0.000, 0.000, -0.017" scale="0.911, 0.911, 0.911"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="0.695, -1.492, 0.000" rotation_euler="0.000, 0.000, -1.239" scale="0.609, 0.609, 0.609"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="-0.127, -0.184, 0.000" rotation_euler="0.000, 0.000, 1.877" scale="0.799, 0.799, 0.799"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_straw" old_prefab_name="" mobility="1">
+						<transform position="0.048, 0.714, 0.000" rotation_euler="0.000, 0.000, -0.025" scale="2.266, 2.266, 2.266"/>
+						<components>
+							<meta_mesh_component name="mi_straw_pile"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="-0.279, 0.084, 0.000" rotation_euler="0.000, 0.000, -2.834" scale="0.845, 0.845, 0.845"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<transform position="-0.098, -1.118, 0.518" rotation_euler="0.000, 0.000, -1.224" scale="0.586, 0.435, 0.586"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a">
+								<mesh name="mi_market_tent_a.0" factor="4287460957"/>
+								<mesh name="mi_market_tent_a.1" factor="4287460957"/>
+							</meta_mesh_component>
+						</components>
+						<levels>
+							<level name="level_1"/>
+							<level name="level_2"/>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_straw" old_prefab_name="" mobility="1">
+						<transform position="0.260, 0.852, 0.000" rotation_euler="0.000, 0.000, 1.160" scale="2.266, 2.266, 2.266"/>
+						<components>
+							<meta_mesh_component name="mi_straw_pile"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="0.454, 1.151, -0.028" rotation_euler="0.000, 0.000, -1.574" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="breach_wall" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="map_breachable_wall"/>
+						</tags>
+						<transform position="-0.243, -0.728, -0.022" rotation_euler="0.000, 0.000, 0.380"/>
+						<children>
+							<game_entity name="map_icons_empire_wall_small_breach_l2" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_broken_wall"/>
+								</tags>
+								<transform rotation_euler="0.000, 0.000, 0.012" scale="0.700, 0.701, 0.700"/>
+								<components>
+									<meta_mesh_component name="mi_emp_wall_2s_collapsed">
+										<mesh name="mi_emp_wall_2s_collapsed.2" material="map_icon_aserai_city_01"/>
+										<mesh name="mi_emp_wall_2s_collapsed.3" material="map_icon_aserai_city_01"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="map_icons_aserai_small_wall_l2" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -0.001" scale="0.700, 0.700, 0.700"/>
+								<components>
+									<meta_mesh_component name="mi_aserai_wall_2s"/>
+								</components>
+							</game_entity>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -1.193" scale="0.367, 0.367, 0.368"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_2"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_straw" old_prefab_name="" mobility="1">
+						<transform position="0.203, 0.645, 0.000" rotation_euler="0.000, 0.000, 1.160" scale="1.909, 1.909, 1.909"/>
+						<components>
+							<meta_mesh_component name="mi_straw_pile"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_straw" old_prefab_name="" mobility="1">
+						<transform position="-0.121, 0.607, 0.000" rotation_euler="0.000, 0.000, 0.237" scale="2.574, 2.574, 2.574"/>
+						<components>
+							<meta_mesh_component name="mi_straw_pile"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="0.648, -1.432, -0.079" rotation_euler="0.000, 0.000, 1.894"/>
+					</game_entity>
+					<game_entity name="breach_wall" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="map_breachable_wall"/>
+						</tags>
+						<transform position="-0.882, 0.367, 0.000"/>
+						<children>
+							<game_entity name="map_icons_empire_wall_small_breach_l2" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_broken_wall"/>
+								</tags>
+								<transform position="0.359, -0.099, -0.016" rotation_euler="0.000, 0.000, 0.012" scale="0.700, 0.582, 0.700"/>
+								<components>
+									<meta_mesh_component name="mi_emp_wall_2s_collapsed">
+										<mesh name="mi_emp_wall_2s_collapsed.2" material="map_icon_aserai_city_01"/>
+										<mesh name="mi_emp_wall_2s_collapsed.3" material="map_icon_aserai_city_01"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="map_icons_aserai_small_wall_l2" old_prefab_name="" mobility="1">
+								<transform position="0.359, -0.099, -0.016" rotation_euler="0.000, 0.000, -0.001" scale="0.700, 0.700, 0.700"/>
+								<components>
+									<meta_mesh_component name="mi_aserai_wall_2s"/>
+								</components>
+							</game_entity>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="0.359, -0.099, -0.016" rotation_euler="0.000, 0.000, -1.193" scale="0.367, 0.367, 0.368"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_2"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_aserai_tower_l2" old_prefab_name="" mobility="1">
+						<transform position="-0.425, 0.728, 0.000" rotation_euler="0.000, 0.000, -0.003" scale="0.719, 0.772, 0.675"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_tower_2"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="0.753, -1.710, -0.028" rotation_euler="0.000, 0.000, 1.920" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="1.218, -1.541, -0.028" rotation_euler="0.000, 0.000, 1.920" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="0.926, 1.151, -0.028" rotation_euler="0.000, 0.000, -1.574" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="1.419, 0.765, -0.028" rotation_euler="0.000, 0.000, 3.138" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_square_tower_l2" old_prefab_name="" mobility="1">
+						<transform position="1.441, 1.149, 0.000" rotation_euler="0.000, 0.000, -0.003" scale="0.871, 0.871, 0.871"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_square_tower_2"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_keep_l2" old_prefab_name="" mobility="1">
+						<transform position="1.355, 0.032, 0.000" rotation_euler="0.000, 0.000, -0.003" scale="0.740, 0.740, 0.740"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_keep_2"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="1.424, -0.852, -0.022" rotation_euler="0.000, 0.000, 3.138" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_2"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_gatehouse_l2" old_prefab_name="" mobility="1">
+						<transform position="0.141, -1.425, 0.000" rotation_euler="0.000, 0.000, 0.350" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_gatehouse_2"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_barrel_a" old_prefab_name="" mobility="1">
+						<transform position="0.633, -0.466, 0.000" rotation_euler="0.000, 0.000, -1.274" scale="1.154, 1.154, 1.154"/>
+						<components>
+							<meta_mesh_component name="mi_barrels_a"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_c" old_prefab_name="" mobility="1">
+						<transform position="1.208, -0.797, 0.000" rotation_euler="0.000, 0.000, -0.013" scale="0.697, 0.822, 0.821"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="-0.061, 1.038, -0.028" rotation_euler="0.000, 0.000, -1.148" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_2s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="1.056, -1.296, -0.079" rotation_euler="0.000, 0.000, -2.851"/>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<transform position="-0.048, 0.522, 0.084" rotation_euler="0.000, 0.000, -0.568" scale="0.747, 0.747, 0.747"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a">
+								<mesh name="mi_market_tent_a.0" factor="4294943280"/>
+								<mesh name="mi_market_tent_a.1" factor="4294943280"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<transform position="0.068, -1.842, 0.547" rotation_euler="0.000, 0.000, 0.360" scale="0.313, 0.400, 0.586"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a">
+								<mesh name="mi_market_tent_a.0" factor="4287447330"/>
+								<mesh name="mi_market_tent_a.1" factor="4287447330"/>
+							</meta_mesh_component>
+						</components>
+						<levels>
+							<level name="level_1"/>
+							<level name="level_2"/>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_c" old_prefab_name="" mobility="1">
+						<transform position="-0.229, -0.165, 0.238" rotation_euler="0.000, 0.000, -2.792" scale="0.461, 0.537, 0.541"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_c" old_prefab_name="" mobility="1">
+						<transform position="1.104, 0.773, -0.019" rotation_euler="0.000, 0.000, 0.003" scale="0.865, 0.731, 0.865"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="banner_pos" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_banner_placeholder"/>
+						</tags>
+						<transform position="0.007, -0.903, 0.648" rotation_euler="0.000, 0.000, -2.786" scale="0.178, 1.059, 0.045"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="banner_pos" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_banner_placeholder"/>
+						</tags>
+						<transform position="-0.124, -0.855, 0.485" rotation_euler="0.000, 0.000, 0.359" scale="0.060, 1.121, 0.045"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l2" old_prefab_name="" mobility="1">
+						<transform position="-0.446, -0.223, -0.019" rotation_euler="0.000, 0.000, 0.372" scale="0.700, 0.616, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_2s"/>
+						</components>
+					</game_entity>
+				</children>
+				<levels>
+					<level name="level_2"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="aserai_castle_l3" old_prefab_name="" mobility="1">
+				<transform position="-0.675, -0.677, 0.000" rotation_euler="0.000, 0.000, -0.013"/>
+				<children>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="0.806, 1.634, 0.254" rotation_euler="0.000, 0.000, 1.540" scale="0.744, 0.744, 0.744"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="breach_wall" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="map_breachable_wall"/>
+						</tags>
+						<transform position="-0.040, 0.314, 0.000" rotation_euler="0.000, 0.000, 0.013"/>
+						<children>
+							<game_entity name="map_icons_empire_wall_small_breach_l2" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_broken_wall"/>
+								</tags>
+								<transform position="0.066, -0.029, 0.000" rotation_euler="0.000, 0.000, 0.001" scale="0.700, 0.700, 0.700"/>
+								<components>
+									<meta_mesh_component name="mi_emp_wall_2s_collapsed">
+										<mesh name="mi_emp_wall_2s_collapsed.2" material="map_icon_aserai_city_01"/>
+										<mesh name="mi_emp_wall_2s_collapsed.3" material="map_icon_aserai_city_01"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="map_icons_aserai_small_wall_l3" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_solid_wall"/>
+								</tags>
+								<transform position="0.064, -0.028, -0.271" rotation_euler="0.000, 0.000, -0.012" scale="0.663, 0.700, 0.700"/>
+								<components>
+									<meta_mesh_component name="mi_aserai_wall_3s"/>
+								</components>
+							</game_entity>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="-0.149, 0.008, 0.497" rotation_euler="0.000, 0.000, -1.193" scale="0.367, 0.367, 0.368"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="0.251, 1.246, 0.000" rotation_euler="0.000, 0.000, 1.505" scale="0.741, 0.741, 0.741"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="0.307, 1.535, 0.000" rotation_euler="0.000, 0.000, 3.080" scale="0.904, 0.904, 0.904"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<transform position="1.392, 0.166, 1.413" rotation_euler="0.000, 0.000, 3.068" scale="0.597, 0.597, 0.597"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a">
+								<mesh name="mi_market_tent_a.0" factor="4294943317"/>
+								<mesh name="mi_market_tent_a.1" factor="4294943317"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<transform position="1.385, 1.010, 0.223" rotation_euler="0.000, 0.000, -0.003" scale="0.749, 0.749, 0.749"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a">
+								<mesh name="mi_market_tent_a.0" factor="4283710245"/>
+								<mesh name="mi_market_tent_a.1" factor="4283710245"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="0.119, -0.233, -0.265" rotation_euler="0.000, 0.000, 0.370" scale="0.663, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_3s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="1.119, 1.815, -0.269" rotation_euler="0.000, 0.000, -1.571" scale="0.700, 0.727, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_3"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_square_tower_l3" old_prefab_name="" mobility="1">
+						<transform position="1.782, 1.766, 0.158" rotation_euler="0.000, 0.000, -0.045" scale="1.126, 1.126, 1.126"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_square_tower_3"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="1.792, 1.163, -0.269" rotation_euler="0.000, 0.000, 3.141" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_3"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_keep_l3" old_prefab_name="" mobility="1">
+						<transform position="1.751, 0.030, 0.000" rotation_euler="0.000, 0.000, -0.020" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_keep_3"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="1.085, -1.167, -0.273" rotation_euler="0.000, 0.000, 1.929" scale="0.700, 0.672, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_3"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_stairs_c" old_prefab_name="" mobility="1">
+						<transform position="0.878, 0.955, -0.200" rotation_euler="0.000, 0.000, -0.042" scale="0.771, 0.771, 0.771"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_stairs_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_c" old_prefab_name="" mobility="1">
+						<transform position="0.778, 1.600, 0.000" rotation_euler="0.000, 0.000, 1.552" scale="0.780, 0.915, 0.780"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_c" old_prefab_name="" mobility="1">
+						<transform position="1.247, 1.560, 0.241" rotation_euler="0.000, 0.000, 1.542" scale="0.699, 0.699, 0.699"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<transform position="0.388, 0.532, 0.073" rotation_euler="0.002, -0.023, -2.700" scale="0.646, 0.646, 0.646"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a">
+								<mesh name="mi_market_tent_a.0" factor="4284684551"/>
+								<mesh name="mi_market_tent_a.1" factor="4284684551"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="banner_pos" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_banner_placeholder"/>
+						</tags>
+						<transform position="0.671, -0.952, 0.802" rotation_euler="0.000, 0.000, -2.780" scale="0.374, 0.388, 0.045"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<transform position="1.098, -0.806, 0.000" rotation_euler="0.000, 0.000, -1.288" scale="0.502, 0.477, 0.597"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a">
+								<mesh name="mi_market_tent_a.0" factor="4283710245"/>
+								<mesh name="mi_market_tent_a.1" factor="4283710245"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<transform position="0.009, 1.770, 0.681" rotation_euler="0.000, 0.000, -0.003" scale="0.604, 0.478, 0.749"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a">
+								<mesh name="mi_market_tent_a.0" factor="4287463005"/>
+								<mesh name="mi_market_tent_a.1" factor="4287463005"/>
+							</meta_mesh_component>
+						</components>
+						<levels>
+							<level name="level_1"/>
+							<level name="level_2"/>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_aserai_docks_d" old_prefab_name="" mobility="1">
+						<transform position="1.405, 1.184, 0.000" rotation_euler="0.000, 0.000, -0.031" scale="0.681, 1.000, 1.000"/>
+						<components>
+							<meta_mesh_component name="mi_asera_docks_d"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_tower_l3" old_prefab_name="" mobility="1">
+						<transform position="0.010, 1.777, -0.293" rotation_euler="0.000, 0.000, 0.000" scale="0.747, 0.747, 0.747"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_tower_3"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="0.136, 1.822, -0.271" rotation_euler="0.000, 0.000, -1.562" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_3s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="1.656, -0.735, -0.271" rotation_euler="0.000, 0.000, 3.094" scale="0.663, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_3s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_gatehouse_l3" old_prefab_name="" mobility="1">
+						<transform position="0.515, -0.767, 0.000" rotation_euler="0.000, 0.000, 0.361" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_gatehouse_3"/>
+						</components>
+					</game_entity>
+					<game_entity name="banner_pos" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_banner_placeholder"/>
+						</tags>
+						<transform position="0.018, 0.049, 0.515" rotation_euler="0.000, 0.000, -0.005" scale="0.060, 1.396, 0.045"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="banner_pos" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_banner_placeholder"/>
+						</tags>
+						<transform position="0.374, -0.166, 0.802" rotation_euler="0.000, 0.000, -2.780" scale="0.374, 0.388, 0.045"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l3" old_prefab_name="" mobility="1">
+						<transform position="0.021, 0.782, -0.271" rotation_euler="0.000, 0.000, 0.001" scale="0.663, 0.597, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_3s"/>
+						</components>
+					</game_entity>
+					<game_entity name="breach_wall" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="map_breachable_wall"/>
+						</tags>
+						<transform position="-0.053, 1.291, 0.000" rotation_euler="0.000, 0.000, 0.013"/>
+						<children>
+							<game_entity name="map_icons_empire_wall_small_breach_l2" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_broken_wall"/>
+								</tags>
+								<transform position="0.066, -0.029, 0.000" rotation_euler="0.000, 0.000, 0.001" scale="0.700, 0.700, 0.700"/>
+								<components>
+									<meta_mesh_component name="mi_emp_wall_2s_collapsed">
+										<mesh name="mi_emp_wall_2s_collapsed.2" material="map_icon_aserai_city_01"/>
+										<mesh name="mi_emp_wall_2s_collapsed.3" material="map_icon_aserai_city_01"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="map_icons_aserai_small_wall_l3" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_solid_wall"/>
+								</tags>
+								<transform position="0.064, -0.028, -0.271" rotation_euler="0.000, 0.000, -0.012" scale="0.663, 0.700, 0.700"/>
+								<components>
+									<meta_mesh_component name="mi_aserai_wall_3s"/>
+								</components>
+							</game_entity>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="0.020, -0.004, 0.279" rotation_euler="0.000, 0.000, -1.193" scale="0.368, 0.368, 0.368"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+				</children>
+				<levels>
+					<level name="level_3"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="aserai_castle_l1" old_prefab_name="" mobility="1">
+				<transform position="-0.171, -0.336, 0.000"/>
+				<children>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="-0.226, -0.431, 0.000" rotation_euler="0.000, -0.001, -2.934" scale="0.755, 0.755, 0.755"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="-0.351, 0.223, 0.000" rotation_euler="0.001, 0.000, 1.531" scale="0.755, 0.755, 0.755"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_production_aserai_lumberjack_b" old_prefab_name="" mobility="1">
+						<transform position="0.188, 1.007, 0.000" rotation_euler="0.000, 0.000, -3.094" scale="0.230, 0.230, 0.230"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_lumberjack_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_khuzait_fence" old_prefab_name="" mobility="1">
+						<transform position="0.217, 0.611, 0.000" rotation_euler="0.000, 0.000, -0.215" scale="0.685, 0.685, 0.685"/>
+						<components>
+							<meta_mesh_component name="mi_khuz_arena_fence"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_khuzait_fence" old_prefab_name="" mobility="1">
+						<transform position="0.016, 0.352, 0.000" rotation_euler="0.000, 0.000, -1.094" scale="0.685, 0.685, 0.685"/>
+						<components>
+							<meta_mesh_component name="mi_khuz_arena_fence"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sack_c" old_prefab_name="" mobility="1">
+						<transform position="-0.034, 0.651, 0.031" rotation_euler="-0.071, -0.012, 0.379" scale="1.398, 1.398, 1.398"/>
+						<components>
+							<meta_mesh_component name="mi_sack_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_sack_c" old_prefab_name="" mobility="1">
+						<transform position="-0.034, 0.484, 0.041" rotation_euler="-0.057, -0.044, -0.108" scale="1.398, 1.398, 1.398"/>
+						<components>
+							<meta_mesh_component name="mi_sack_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_straw" old_prefab_name="" mobility="1">
+						<transform position="0.457, -1.057, 0.000" rotation_euler="0.000, 0.000, 1.800" scale="2.114, 2.114, 2.114"/>
+						<components>
+							<meta_mesh_component name="mi_straw_pile"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_straw" old_prefab_name="" mobility="1">
+						<transform position="0.329, -1.132, 0.000" rotation_euler="0.000, 0.000, 2.103" scale="1.470, 1.470, 1.470"/>
+						<components>
+							<meta_mesh_component name="mi_straw_pile"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="-0.351, 0.223, 0.000" rotation_euler="0.001, 0.000, 1.531" scale="0.755, 0.755, 0.755"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_b"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="-0.452, 0.650, 0.002" rotation_euler="0.000, 0.000, -0.365" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<transform position="-0.171, 0.622, 0.019" rotation_euler="0.000, 0.000, 2.837" scale="0.566, 0.566, 0.566"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a">
+								<mesh name="mi_market_tent_a.0" factor="4287442452"/>
+								<mesh name="mi_market_tent_a.1" factor="4287442452"/>
+							</meta_mesh_component>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_c" old_prefab_name="" mobility="1">
+						<transform position="0.863, -0.299, 0.000" rotation_euler="0.000, 0.000, 1.564" scale="0.648, 0.648, 0.648"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_c" old_prefab_name="" mobility="1">
+						<transform position="0.829, -0.993, 0.000" rotation_euler="0.000, 0.000, -1.265" scale="0.648, 0.648, 0.648"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_city_house_c"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_market_tent_a" old_prefab_name="" mobility="1">
+						<transform position="-0.280, -0.761, 0.310" rotation_euler="0.000, 0.000, -1.271" scale="0.471, 0.471, 0.579"/>
+						<components>
+							<meta_mesh_component name="mi_market_tent_a">
+								<mesh name="mi_market_tent_a.0" factor="4293301305"/>
+								<mesh name="mi_market_tent_a.1" factor="4293301305"/>
+							</meta_mesh_component>
+						</components>
+						<levels>
+							<level name="level_1"/>
+							<level name="level_2"/>
+							<level name="level_3"/>
+							<level name="civilian"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+					<game_entity name="breach_wall" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="map_breachable_wall"/>
+						</tags>
+						<transform position="-0.560, 0.134, -0.187" rotation_euler="0.000, 0.000, -0.010"/>
+						<children>
+							<game_entity name="map_icons_empire_wall_small_breach_l2" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_broken_wall"/>
+								</tags>
+								<transform rotation_euler="0.000, 0.000, 0.012" scale="0.700, 0.701, 0.700"/>
+								<components>
+									<meta_mesh_component name="mi_emp_wall_2s_collapsed">
+										<mesh name="mi_emp_wall_2s_collapsed.2" material="map_icon_aserai_city_01"/>
+										<mesh name="mi_emp_wall_2s_collapsed.3" material="map_icon_aserai_city_01"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="map_icons_aserai_small_wall_l2" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -0.001" scale="0.700, 0.700, 0.700"/>
+								<components>
+									<meta_mesh_component name="mi_aserai_wall_2s"/>
+								</components>
+							</game_entity>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform rotation_euler="0.000, 0.000, -1.193" scale="0.367, 0.367, 0.368"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_1"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="0.734, 1.434, 0.000" rotation_euler="0.000, 0.000, -1.571" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="0.390, -1.325, 0.000" rotation_euler="0.000, 0.000, 1.820" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="breach_wall" old_prefab_name="" mobility="1">
+						<tags>
+							<tag name="map_breachable_wall"/>
+						</tags>
+						<transform position="-0.374, 1.028, 0.000" rotation_euler="0.000, 0.000, -0.422"/>
+						<children>
+							<game_entity name="map_icons_empire_wall_small_breach_l2" old_prefab_name="" mobility="1">
+								<tags>
+									<tag name="map_broken_wall"/>
+								</tags>
+								<transform position="0.156, 0.135, -0.205" rotation_euler="0.000, 0.000, -0.313" scale="0.700, 0.712, 0.700"/>
+								<components>
+									<meta_mesh_component name="mi_emp_wall_2s_collapsed">
+										<mesh name="mi_emp_wall_2s_collapsed.2" material="map_icon_aserai_city_01"/>
+										<mesh name="mi_emp_wall_2s_collapsed.3" material="map_icon_aserai_city_01"/>
+									</meta_mesh_component>
+								</components>
+							</game_entity>
+							<game_entity name="map_icons_aserai_small_wall_l2" old_prefab_name="" mobility="1">
+								<transform position="0.156, 0.135, -0.205" rotation_euler="0.000, 0.000, -0.326" scale="0.700, 0.700, 0.700"/>
+								<components>
+									<meta_mesh_component name="mi_aserai_wall_2s"/>
+								</components>
+							</game_entity>
+							<game_entity name="bo_siege_engine" old_prefab_name="" mobility="1">
+								<transform position="0.156, 0.135, -0.205" rotation_euler="0.000, 0.000, -1.518" scale="0.367, 0.367, 0.367"/>
+								<physics shape="bo_sphere_collider"/>
+							</game_entity>
+						</children>
+						<levels>
+							<level name="level_1"/>
+							<level name="civilian"/>
+							<level name="siege"/>
+							<level name="looted"/>
+						</levels>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="1.193, -0.867, 0.000" rotation_euler="0.000, 0.000, 3.131" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_square_tower_l1" old_prefab_name="" mobility="1">
+						<transform position="1.179, -0.733, 0.000" rotation_euler="0.000, 0.000, -0.039" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_square_tower_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="0.965, 1.229, 0.000" rotation_euler="0.000, 0.000, 3.104" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="0.247, 1.356, 0.000" rotation_euler="0.000, 0.000, -1.229" scale="0.700, 0.600, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="0.831, -0.240, 0.000" rotation_euler="0.000, 0.000, 1.567" scale="0.884, 1.041, 0.884"/>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="0.746, -0.871, 0.000" rotation_euler="0.000, 0.000, 0.543" scale="0.884, 0.884, 0.884"/>
+					</game_entity>
+					<game_entity name="map_icons_aserai_house_ab" old_prefab_name="" mobility="1">
+						<transform position="-0.061, -1.217, 0.000" rotation_euler="0.000, 0.000, 1.613" scale="0.884, 0.884, 0.884"/>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="0.951, -1.181, 0.000" rotation_euler="0.000, 0.000, 1.820" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="1.197, -0.399, 0.000" rotation_euler="0.000, 0.000, 3.104" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_gatehouse_l1" old_prefab_name="" mobility="1">
+						<transform position="-0.171, -1.068, 0.108" rotation_euler="0.000, 0.000, 0.281" scale="0.544, 0.544, 0.544"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_gatehouse_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_small_wall_l1" old_prefab_name="" mobility="1">
+						<transform position="-0.496, -0.350, 0.000" rotation_euler="0.000, 0.000, 0.227" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_wall_1s"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_square_tower_l1" old_prefab_name="" mobility="1">
+						<transform position="0.878, 1.024, 0.121" rotation_euler="0.000, 0.000, -0.039" scale="0.700, 0.700, 0.700"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_square_tower_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="map_icons_aserai_keep_l1" old_prefab_name="" mobility="1">
+						<transform position="1.028, 0.326, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.740, 0.740, 0.740"/>
+						<components>
+							<meta_mesh_component name="mi_aserai_keep_1"/>
+						</components>
+					</game_entity>
+					<game_entity name="banner_pos" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_banner_placeholder"/>
+						</tags>
+						<transform position="-0.431, -1.000, 0.543" rotation_euler="0.000, 0.000, -1.271" scale="0.290, 0.459, 0.045"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+						</children>
+					</game_entity>
+					<game_entity name="banner_pos" old_prefab_name="" mobility="1">
+						<visibility_masks>
+							<visibility_mask name="visible_only_when_editing" value="true"/>
+						</visibility_masks>
+						<tags>
+							<tag name="map_banner_placeholder"/>
+						</tags>
+						<transform position="-0.456, -0.617, 0.326" rotation_euler="0.000, 0.000, 0.152" scale="0.060, 0.873, 0.045"/>
+						<children>
+							<game_entity name="volume_box" old_prefab_name="" mobility="1">
+								<flags>
+									<flag name="record_to_scene_replay" value="true"/>
+								</flags>
+								<visibility_masks>
+									<visibility_mask name="visible_only_when_editing" value="true"/>
+								</visibility_masks>
+								<transform position="0.500, 0.500, -0.500"/>
+								<components>
+									<meta_mesh_component name="volume_box"/>
+								</components>
+								<scripts>
+									<script name="VolumeBox">
+										<variables>
+											<variable name="NavMeshPrefabName" value=""/>
+										</variables>
+									</script>
+								</scripts>
+							</game_entity>
+						</children>
+					</game_entity>
+				</children>
+				<levels>
+					<level name="level_1"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="gate_position" old_prefab_name="" mobility="1">
+				<tags>
+					<tag name="main_map_city_gate"/>
+				</tags>
+				<transform position="-0.877, -1.534, 0.000" rotation_euler="0.000, 0.000, 0.561"/>
+			</game_entity>
+			<game_entity name="town_circle_decal" old_prefab_name="" mobility="1">
+				<tags>
+					<tag name="map_settlement_circle"/>
+				</tags>
+				<transform position="0.490, -0.339, 1.319" rotation_euler="0.000, 0.000, 2.301" scale="3.120, 3.120, 2.301"/>
+				<components>
+					<decal_component material="decal_city_circle_a" argument="1.000, 1.000, 0.000, 0.000"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

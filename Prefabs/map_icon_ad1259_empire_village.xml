@@ -1,0 +1,90 @@
+<prefabs>
+	<game_entity name="map_icon_ad1259_empire_village" old_prefab_name="" mobility="1">
+		<transform position="0.000, 0.000, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<scripts>
+			<script name="Town Entity Manager">
+				<variables>
+					<variable name="Override Factor Color" value="false"/>
+					<variable name="Factor Color" value="1.000, 1.000, 1.000, 1.000"/>
+				</variables>
+			</script>
+		</scripts>
+		<children>
+			<game_entity name="bo_village" old_prefab_name="" mobility="1">
+				<transform position="0.062, 0.008, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="1.323, 1.323, 1.323"/>
+				<physics shape="bo_sphere_collider"/>
+			</game_entity>
+			<game_entity name="map_icons_empire_village_l1" old_prefab_name="" mobility="1">
+				<transform position="-0.452, 0.194, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.440, 0.440, 0.440"/>
+				<components>
+					<meta_mesh_component name="village_empire_1"/>
+				</components>
+				<levels>
+					<level name="level_1"/>
+					<level name="civilian"/>
+				</levels>
+			</game_entity>
+			<game_entity name="map_icons_empire_village_l2" old_prefab_name="" mobility="1">
+				<transform position="-0.339, 0.114, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.440, 0.440, 0.440"/>
+				<components>
+					<meta_mesh_component name="village_empire_2"/>
+				</components>
+				<levels>
+					<level name="level_2"/>
+					<level name="civilian"/>
+				</levels>
+			</game_entity>
+			<game_entity name="map_icons_empire_village_l3" old_prefab_name="" mobility="1">
+				<transform position="-0.150, 0.040, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="0.440, 0.440, 0.440"/>
+				<components>
+					<meta_mesh_component name="village_empire_3"/>
+				</components>
+				<levels>
+					<level name="level_3"/>
+					<level name="civilian"/>
+				</levels>
+			</game_entity>
+			<game_entity name="map_icons_empire_village_looted" old_prefab_name="" mobility="1">
+				<transform rotation_euler="0.000, 0.000, 0.000" scale="0.430, 0.440, 0.430"/>
+				<components>
+					<meta_mesh_component name="village_empire_1">
+						<mesh name="village_empire_1.0" factor="4282598211"/>
+						<mesh name="village_empire_1.1" factor="4282598211"/>
+						<mesh name="village_empire_1.2" factor="4282598211"/>
+						<mesh name="village_empire_1.3" factor="4282598211"/>
+						<mesh name="village_empire_1.4" factor="4282598211"/>
+						<mesh name="village_empire_1.5" factor="4282598211"/>
+						<mesh name="village_empire_1.6" factor="4282598211"/>
+						<mesh name="village_empire_1.7" factor="4282598211"/>
+						<mesh name="village_empire_1.8" factor="4282598211"/>
+						<mesh name="village_empire_1.9" factor="4282598211"/>
+						<mesh name="village_empire_1.10" factor="4282598211"/>
+						<mesh name="village_empire_1.11" factor="4282598211"/>
+						<mesh name="village_empire_1.12" factor="4282598211"/>
+						<mesh name="village_empire_1.13" factor="4282598211"/>
+					</meta_mesh_component>
+				</components>
+				<children>
+					<game_entity name="siege_fire_particle_e" old_prefab_name="" mobility="1">
+						<transform position="-0.055, 0.076, 0.000" rotation_euler="0.000, 0.000, 0.000" scale="2.326, 2.273, 2.326"/>
+						<components>
+							<particle_system_instanced_component>
+								<effect_ref base_effect="{39CDECB3-046B-4A8B-8E71-533BB7F6C882}"/>
+							</particle_system_instanced_component>
+						</components>
+						<levels>
+							<level name="level_3"/>
+						</levels>
+					</game_entity>
+				</children>
+				<levels>
+					<level name="level_1"/>
+					<level name="level_2"/>
+					<level name="level_3"/>
+					<level name="looted"/>
+				</levels>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

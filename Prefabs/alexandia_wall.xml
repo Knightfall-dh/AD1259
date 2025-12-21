@@ -1,0 +1,63 @@
+<prefabs>
+	<game_entity name="alexandria_wall" old_prefab_name="">
+		<transform position="876.499, 739.021, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="map_icons_empire_tower_l3" old_prefab_name="">
+				<transform position="0.183, 0.464, 2.166" rotation_euler="0.000, 0.000, 1.326" scale="0.790, 0.790, 0.790"/>
+				<components>
+					<meta_mesh_component name="mi_emp_tower_3"/>
+				</components>
+			</game_entity>
+			<game_entity name="map_icons_empire_square_tower_l3" old_prefab_name="">
+				<transform position="0.165, 0.449, 1.130" rotation_euler="0.000, 0.000, -0.679" scale="1.430, 1.430, 1.000"/>
+				<components>
+					<meta_mesh_component name="mi_emp_square_tower_3"/>
+				</components>
+			</game_entity>
+			<game_entity name="map_icons_empire_monument_1" old_prefab_name="">
+				<transform position="0.188, 0.447, 4.006" rotation_euler="0.000, 0.000, 0.214" scale="1.847, 1.847, 2.771"/>
+				<components>
+					<meta_mesh_component name="mi_emp_3_monument_1"/>
+				</components>
+			</game_entity>
+			<game_entity name="map_icons_empire_tower_l3" old_prefab_name="">
+				<transform position="0.183, 0.464, 3.292" rotation_euler="0.000, 0.000, 1.326" scale="0.700, 0.700, 0.700"/>
+				<components>
+					<meta_mesh_component name="mi_emp_tower_3"/>
+				</components>
+			</game_entity>
+			<game_entity name="map_icons_production_datefarm_d" old_prefab_name="">
+				<transform position="-0.899, -0.488, 0.581" rotation_euler="0.000, 0.000, 0.405" scale="0.821, 0.821, 0.821"/>
+				<components>
+					<meta_mesh_component name="mi_date_d"/>
+				</components>
+				<scripts>
+					<script name="sound_emitter">
+						<variables>
+							<variable name="Event Path" value="event:/map/ambient/node/settlements/orchard"/>
+							<variable name="Play On Startup" value="true"/>
+							<variable name="Is Static" value="false"/>
+							<variable name="Override Sound" value="false"/>
+							<variable name="Overrided Max Distance" value="40.000000"/>
+							<variable name="Overrided Min Distance" value="2.000000"/>
+							<variable name="Sound Preset" value="Speakers"/>
+						</variables>
+					</script>
+				</scripts>
+			</game_entity>
+			<game_entity name="mainmap_cliff_e" old_prefab_name="">
+				<transform position="2.158, 2.228, -3.414" rotation_euler="0.018, 0.334, 1.948" scale="0.589, 0.589, 0.510"/>
+				<components>
+					<meta_mesh_component name="mainmap_cliff_e"/>
+				</components>
+			</game_entity>
+			<game_entity name="mainmap_cliff_e" old_prefab_name="">
+				<transform position="-2.401, -1.365, -2.965" rotation_euler="-0.079, -0.303, -0.856" scale="0.589, 0.589, 0.510"/>
+				<components>
+					<meta_mesh_component name="mainmap_cliff_e"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+

@@ -1,0 +1,46 @@
+<prefabs>
+	<game_entity name="little_pyramid" old_prefab_name="">
+		<transform position="815.570, 862.440, 0.893" rotation_euler="0.000, 0.000, 0.000"/>
+		<children>
+			<game_entity name="map_icon_docks_b" old_prefab_name="">
+				<transform position="-0.126, -0.018, 1.388" rotation_euler="0.000, 0.000, -1.340" scale="0.691, 0.393, 0.691"/>
+				<components>
+					<meta_mesh_component name="mi_docks_b"/>
+				</components>
+			</game_entity>
+			<game_entity name="pyramid" old_prefab_name="">
+				<transform position="-0.169, -0.029, -0.328" rotation_euler="0.000, 0.000, 0.248" scale="1.382, 1.382, 0.911"/>
+				<components>
+					<meta_mesh_component name="mi_emp_3_mini_gatehouse">
+						<mesh name="mi_emp_3_mini_gatehouse.0" material="roman_column_base"/>
+						<mesh name="mi_emp_3_mini_gatehouse.lod4.0" material="roman_column_base"/>
+						<mesh name="mi_emp_3_mini_gatehouse.lod5.0" material="roman_column_base"/>
+						<mesh name="mi_emp_3_mini_gatehouse.lod1.0" material="roman_column_base"/>
+						<mesh name="mi_emp_3_mini_gatehouse.lod2.0" material="roman_column_base"/>
+						<mesh name="mi_emp_3_mini_gatehouse.lod3.0" material="roman_column_base"/>
+					</meta_mesh_component>
+				</components>
+			</game_entity>
+			<game_entity name="map_icon_docks_d" old_prefab_name="">
+				<transform position="-0.165, -0.069, 0.226" rotation_euler="0.000, 0.000, -2.904" scale="1.000, 1.043, 1.652"/>
+				<components>
+					<meta_mesh_component name="mi_docks_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="map_icon_docks_d" old_prefab_name="">
+				<transform position="-0.165, -0.069, 0.764" rotation_euler="0.000, 0.000, -2.904" scale="0.875, 0.912, 1.445"/>
+				<components>
+					<meta_mesh_component name="mi_docks_d"/>
+				</components>
+			</game_entity>
+			<game_entity name="empire_statue_chariot" old_prefab_name="">
+				<transform position="0.078, 0.032, 1.544" rotation_euler="0.000, 0.000, 0.191" scale="0.127, 0.127, 0.127"/>
+				<physics shape="bo_empire_statue_chariot" override_material="stone"/>
+				<components>
+					<meta_mesh_component name="empire_statue_chariot"/>
+				</components>
+			</game_entity>
+		</children>
+	</game_entity>
+</prefabs>
+
