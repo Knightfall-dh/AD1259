@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- #region Swadian Armoury RBM -->
+	<!-- #region Helmets -->
+	<Item id="winged_great_helm_brass" name="[XIII][Head] Great Helmet (Winged)" subtype="head_armor" mesh="winged_great_helm_brass" culture="Culture.vlandia" weight="4.8" difficulty="0" appearance="1" value="45000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="115" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="great_helm_dark" name="[XIII][Head] Great Helmet (Blackened)" subtype="head_armor" mesh="great_helm_dark" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="40000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="115" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="winged_great_helm_dark" name="[XIII][Head] Great Helmet (Winged, Blackened)" subtype="head_armor" mesh="winged_great_helm_dark" culture="Culture.vlandia" weight="4.8" difficulty="0" appearance="1" value="45000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="115" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="vlandian_helm_with_faceplate" name="[XIII][Head] Western Full Plate Helmet" subtype="head_armor" mesh="vlandian_helm_with_faceplate" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="35000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="110" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="vlandian_helm_with_faceplate_blackend_brass" name="[XIII][Head] Western Full Plate Helmet (Ornate)" subtype="head_armor" mesh="vlandian_helm_with_faceplate_black" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="37000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="110" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="vlandian_helm_with_faceplate_brass" name="[XIII][Head] Western Full Plate Helmet (Ornate)" subtype="head_armor" mesh="vlandian_helm_with_faceplate_brass" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="37000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="110" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="vlandian_helm_with_faceplate_painted" name="[XIII][Head] Western Full Plate Helmet (Painted)" subtype="head_armor" mesh="vlandian_helm_with_faceplate_paint" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="35000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="110" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="italio_norman_helm_crown" name="[XIII][Head] Western Crowned Helmet with Faceplate" subtype="head_armor" mesh="italio_norman_helm_crown" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="40000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="90" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="italio_norman_helm_bronze" name="[XIII][Head] Western helm With Faceplate (Brass)" subtype="head_armor" mesh="italio_norman_helm_bronze" culture="Culture.vlandia" weight="3.5" difficulty="0" appearance="1" value="30000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="90" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="italio_norman_helm" name="[XIII][Head] Western helm With Faceplate" subtype="head_armor" mesh="italio_norman_helm" culture="Culture.vlandia" weight="3.5" difficulty="0" appearance="1" value="30000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="90" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="crowned_helm_with_brass_faceplate" name="[XIII][Head] Crowned Helm With Faceplate (Brass)" subtype="head_armor" mesh="crowned_helm_with_brass_faceplate" culture="Culture.vlandia" weight="3.7" difficulty="0" appearance="1" value="40000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="92" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="crowned_helm_with_faceplate" name="[XIII][Head] Crowned Helm With Faceplate" subtype="head_armor" mesh="crowned_helm_with_faceplate" culture="Culture.vlandia" weight="3.7" difficulty="0" appearance="1" value="40000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="92" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="fluted_helm_with_brass_faceplate" name="[XIII][Head] Fluted Helm With Faceplate (Brass)" subtype="head_armor" mesh="fluted_helm_with_brass_faceplate" culture="Culture.vlandia" weight="3.4" value="25000" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="92" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="fluted_helm_with_faceplate" name="[XIII][Head] Fluted Helm With Faceplate" subtype="head_armor" mesh="fluted_helm_with_faceplate" culture="Culture.vlandia" weight="3.4" difficulty="0" value="25000" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="92" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="vlandian_helm_with_visor" name="[XIII][Head] Western Helmet With Visor" subtype="head_armor" mesh="vlandian_helm_with_visor" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="40000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="100" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="engraved_vlandian_helm_with_visor" name="[XIII][Head] Western Helmet With Visor (Ornate)" subtype="head_armor" mesh="engraved_vlandian_helm_with_visor" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="40000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="100" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="crowned_royal_vlandian_helm_with_visor" name="[XIII][Head] Western Helmet With Visor (Ornate)" subtype="head_armor" mesh="crowned_royal_vlandian_helm_with_visor" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="45000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="109" body_armor="101" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="crowned_vlandian_helm_with_visor" name="[XIII][Head] Western Helmet With Visor (Crowned)" subtype="head_armor" mesh="crowned_vlandian_helm_with_visor" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="50000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="109" body_armor="101" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags Civilian="true"/>
+	</Item>
+	<Item id="great_prankh_helm" name="[XIII][Head] Round Top Great Helmet" subtype="head_armor" mesh="great_prankh_helm" culture="Culture.vlandia" weight="4.5" difficulty="0" appearance="1" value="60000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="112" body_armor="115" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="great_prankh_helm_crest" name="[XIII][Head] Round Top Great Helmet (Crested)" subtype="head_armor" mesh="great_prankh_helm_crest" culture="Culture.vlandia" weight="5" difficulty="0" appearance="1" value="65000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="112" body_armor="115" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="great_prankh_helm_winged" name="[XIII][Head] Round Top Great Helmet (Winged)" subtype="head_armor" mesh="great_prankh_helm_winged" culture="Culture.vlandia" weight="5" difficulty="0" appearance="1" value="62000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="112" body_armor="115" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="great_prankh_helm_horns" name="[XIII][Head] Round Top Great Helmet (Horns)" subtype="head_armor" mesh="great_prankh_helm_horns" culture="Culture.vlandia" weight="5" difficulty="0" appearance="1" value="62000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="112" body_armor="115" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="great_prankh_helm_royal" name="[XIII][Head] Round Top Great Helmet (Royal)" subtype="head_armor" mesh="great_prankh_helm_royal" culture="Culture.vlandia" weight="5" difficulty="0" appearance="1" value="65000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="113" body_armor="116" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="Pothelm" name="[XIII][Head] Round Top Full Helm" subtype="head_armor" mesh="pothelm" culture="Culture.vlandia" weight="4.2" difficulty="0" appearance="1" value="35000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="110" body_armor="110" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="Pothelm2" name="[XIII][Head] Round Top Full Helm (Painted)" subtype="head_armor" mesh="pothelm2" culture="Culture.vlandia" weight="4.2" difficulty="0" appearance="1" value="35000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="110" body_armor="110" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="Sugarloaf_helm" name="[XIII][Head] Sugarloaf Greathelm (Banded)" subtype="head_armor" mesh="sugarloaf_helm" culture="Culture.vlandia" weight="4.2" difficulty="0" appearance="1" value="47000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="110" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="Sugarloaf_helm2" name="[XIII][Head] Sugarloaf Greathelm (Banded, Brass)" subtype="head_armor" mesh="sugarloaf_helm2" culture="Culture.vlandia" weight="4.2" difficulty="0" appearance="1" value="47000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="110" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="Sugarloaf_helm3" name="[XIII][Head] Sugarloaf Greathelm (Brass)" subtype="head_armor" mesh="sugarloaf_helm3" culture="Culture.vlandia" weight="4.2" difficulty="0" appearance="1" value="47000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="110" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="Sugarloaf_helm4" name="[XIII][Head] Sugarloaf Greathelm" subtype="head_armor" mesh="sugarloaf_helm4" culture="Culture.vlandia" weight="4.2" difficulty="0" appearance="1" value="47000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="110" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="sa_butterlord1" name="[XIII][Head] Great Helmet (Antler Crest)" subtype="head_armor" mesh="sa_butterlord1" culture="Culture.vlandia" weight="6" difficulty="0" appearance="1" value="70000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="109" body_armor="115" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sa_butterlord2" name="[XIII][Head] Great Helmet (Eagle Crest)" subtype="head_armor" mesh="sa_butterlord2" culture="Culture.vlandia" weight="6" difficulty="0" appearance="1" value="70000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="109" body_armor="115" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sa_butterlord3" name="[XIII][Head] Great Helmet (Grail Crest)" subtype="head_armor" mesh="sa_butterlord3" culture="Culture.vlandia" weight="6" difficulty="0" appearance="1" value="70000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="109" body_armor="115" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sa_butterlord4" name="[XIII][Head] Great Helmet (Painted)" subtype="head_armor" mesh="sa_butterlord4" culture="Culture.vlandia" weight="6" difficulty="0" appearance="1" value="68000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="109" body_armor="115" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sa_butterlord5" name="[XIII][Head] Great Helmet (Antler Crest, brass)" subtype="head_armor" mesh="sa_butterlord5" culture="Culture.vlandia" weight="6" difficulty="0" appearance="1" value="72000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="109" body_armor="115" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sa_butterlord6" name="[XIII][Head] Great Helmet (Eagle Crest, brass)" subtype="head_armor" mesh="sa_butterlord6" culture="Culture.vlandia" weight="6" difficulty="0" appearance="1" value="72000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="109" body_armor="115" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sa_butterlord7" name="[XIII][Head] Great Helmet (Grail Crest, brass)" subtype="head_armor" mesh="sa_butterlord7" culture="Culture.vlandia" weight="6" difficulty="0" appearance="1" value="72000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="109" body_armor="115" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- #endregion -->
+	<!-- #region Shoulders -->
+	<Item id="engraved_swadian_shoulders" name="[XIII][Shoulders] Western Ornate Shoulder Plates" mesh="engraved_swadian_shoulders" is_merchandise="true" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="40" arm_armor="10" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="swadian_shoulders" name="[XIII][Shoulders] Western Shoulder Plates" mesh="swadian_shoulders" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="40" arm_armor="10" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="Western_chain_shoulders" name="[XIII][Shoulders] Western chain shoulders" mesh="chain_shoulders" is_merchandise="true" value="8000" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+		<ItemComponent>
+			<Armor body_armor="30" modifier_group="Chainmail" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<!-- #endregion -->
+	<!-- #region Body - done-->
+	<Item id="coat_of_plates1_c" name="[XIII][Body] Coat of plates (Plain)" mesh="coat_of_plates1_c" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" value="70000" weight="25.11" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="48" arm_armor="50" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="coat_of_plates2_c" name="[XIII][Body] Coat of plates (Royal)" mesh="coat_of_plates2_c" is_merchandise="true" subtype="body_armor" value="70000" culture="Culture.vlandia" weight="25.11" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="48" arm_armor="50" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="coat_of_plates3_c" name="[XIII][Body] Coat of plates (Fleur de lys)" mesh="coat_of_plates3_c" is_merchandise="true" subtype="body_armor" value="70000" culture="Culture.vlandia" weight="25.11" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="48" arm_armor="50" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="coat_of_plates4_c" name="[XIII][Body] Coat of plates (Checkered)" mesh="coat_of_plates4_c" is_merchandise="true" subtype="body_armor" value="70000" culture="Culture.vlandia" weight="25.11" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="48" arm_armor="50" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="coat_of_plates5_c" name="[XIII][Body] Coat of plates (Cross)" mesh="coat_of_plates5_c" is_merchandise="true" subtype="body_armor" value="70000" culture="Culture.vlandia" weight="25.11" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="48" arm_armor="50" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="coat_of_plates6_c" name="[XIII][Body] Armoured coat of plates (Checkered, gold)" mesh="coat_of_plates6_c" is_merchandise="true" subtype="body_armor" value="80000" culture="Culture.vlandia" weight="26" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="76" leg_armor="48" arm_armor="56" covers_body="true" modifier_group="chain" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="coat_of_plates7_c" name="[XIII][Body] Armoured coat of plates (Triangle, gold)" mesh="coat_of_plates7_c" is_merchandise="true" subtype="body_armor" value="80000" culture="Culture.vlandia" weight="26" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="76" leg_armor="48" arm_armor="56" covers_body="true" modifier_group="chain" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="coat_of_plates8_c" name="[XIII][Body] Armoured coat of plates (Fleur de lys, gold)" mesh="coat_of_plates8_c" is_merchandise="true" subtype="body_armor" value="80000" culture="Culture.vlandia" weight="26" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="76" leg_armor="48" arm_armor="56" covers_body="true" modifier_group="chain" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="coat_of_plates9_c" name="[XIII][Body] Armoured coat of plates (Triangle)" mesh="coat_of_plates9_c" is_merchandise="true" subtype="body_armor" value="80000" culture="Culture.vlandia" weight="26" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="76" leg_armor="48" arm_armor="56" covers_body="true" modifier_group="chain" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="coat_of_plates10_c" name="[XIII][Body] Armoured coat of plates (Checkered)" mesh="coat_of_plates10_c" is_merchandise="true" subtype="body_armor" value="80000" culture="Culture.vlandia" weight="26" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="76" leg_armor="48" arm_armor="56" covers_body="true" modifier_group="chain" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="coat_of_plates11_c" name="[XIII][Body] Armoured coat of plates (Blackend)" mesh="coat_of_plates11_c" is_merchandise="true" subtype="body_armor" value="80000" culture="Culture.vlandia" weight="26" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="76" leg_armor="48" arm_armor="56" covers_body="true" modifier_group="chain" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="coat_of_plates12_c" name="[XIII][Body] Armoured coat of plates (Blackend)" mesh="coat_of_plates12_c" is_merchandise="true" subtype="body_armor" value="80000" culture="Culture.vlandia" weight="26" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="76" leg_armor="48" arm_armor="56" covers_body="true" modifier_group="chain" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sacoat1" name="[XIII][Body] Tabbard over Coat of plate (Royal)" mesh="coat1" is_merchandise="true" subtype="body_armor" value="65000" culture="Culture.vlandia" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="76" leg_armor="45" arm_armor="48" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sacoat2" name="[XIII][Body] Tabbard over Coat of plate (Striped)" mesh="coat2" is_merchandise="true" subtype="body_armor" value="65000" culture="Culture.vlandia" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="76" leg_armor="45" arm_armor="48" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sacoat3" name="[XIII][Body] Tabbard over Coat of plate (Checkered)" mesh="coat3" is_merchandise="true" subtype="body_armor" value="65000" culture="Culture.vlandia" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="76" leg_armor="45" arm_armor="48" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- #endregion -->
+	<!-- #region Swadian Armoury - hidden from stores -->
+	<Item id="Sa_tabbartplate" name="[XIV][Body] Western Plate Armor (Skirt)" mesh="sa_surcoatplate" is_merchandise="false" subtype="body_armor" value="105000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="106" leg_armor="85" arm_armor="94" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="swadian_brass_plate_armor" name="[XIV][Body] Western Plate Armor (Brass)" mesh="swadian_brass_plate_armor" is_merchandise="false" subtype="body_armor" value="100000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="106" leg_armor="92" arm_armor="94" covers_body="true" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="swadian_striped_cuirass" name="[XV][Body] Western Cuirass" mesh="swadian_striped_cuirass" is_merchandise="false" subtype="body_armor" value="78000" culture="Culture.neutral_culture" weight="25" difficulty="1" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="106" leg_armor="92" arm_armor="70" covers_body="true" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="swadian_cuirass" name="[XV][Body] Western Cuirass (Armguards)" mesh="swadian_leather_plate_with_armguards" is_merchandise="false" subtype="body_armor" value="78000" culture="Culture.neutral_culture" weight="25" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="106" leg_armor="92" arm_armor="70" covers_body="true" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="swadian_plate_with_armguards" name="[XV][Body] Western Cuirass With Armguards" mesh="swadian_plate_with_armguards" is_merchandise="true" subtype="body_armor" value="85000" culture="Culture.neutral_culture" weight="26.5" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="106" leg_armor="92" arm_armor="70" covers_body="true" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="swadian_leather_plate_armor" name="[XIV][Body] Western Leather Plate Armor" mesh="swadian_leather_plate_armor" is_merchandise="false" subtype="body_armor" value="100000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="106" leg_armor="92" arm_armor="94" covers_body="true" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="swadian_plate_armor" name="[XIV][Body] Western Plate Armor" mesh="swadian_plate_armor" is_merchandise="false" subtype="body_armor" value="100000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="106" leg_armor="92" arm_armor="94" covers_body="true" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="swadian_striped_plate_armor" name="[XIV][Body] Western Plate Armor (Striped)" mesh="swadian_striped_plate_armor" is_merchandise="false" subtype="body_armor" value="100000" culture="Culture.neutral_culture" weight="29" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="106" leg_armor="92" arm_armor="94" covers_body="true" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="swadian_leather_plate_with_armguards" name="[XIV][Body] Western Leather Plate Armor With Armguards" mesh="swadian_leather_plate_with_armguards" is_merchandise="false" subtype="body_armor" value="85000" culture="Culture.neutral_culture" weight="26.5" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="106" leg_armor="92" arm_armor="70" covers_body="true" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="Sa_brigandine_plate1" name="[XIV][Body] Brigandine with mail (Red)" mesh="sa_brigandine_plate1" is_merchandise="false" subtype="body_armor" value="70000" culture="Culture.neutral_culture" weight="25" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="82" leg_armor="65" arm_armor="65" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="Sa_brigandine_plate2" name="[XIV][Body] Brigandine with mail (Blue)" mesh="sa_brigandine_plate2" is_merchandise="false" subtype="body_armor" value="70000" culture="Culture.neutral_culture" weight="25" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="82" leg_armor="65" arm_armor="65" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="Sa_brigandine_plate3" name="[XIV][Body] Brigandine with mail (Black)" mesh="sa_brigandine_plate3" is_merchandise="false" subtype="body_armor" value="70000" culture="Culture.neutral_culture" weight="25" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="82" leg_armor="65" arm_armor="65" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="Sa_brigandine1" name="[XIV][Body] Brigandine with armpads (Red)" mesh="sa_brigandine1" is_merchandise="false" subtype="body_armor" value="25000" culture="Culture.neutral_culture" weight="12" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="82" leg_armor="48" arm_armor="60" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="Sa_brigandine2" name="[XIV][Body] Brigandine with armpads (Blue)" mesh="sa_brigandine2" is_merchandise="false" subtype="body_armor" value="25000" culture="Culture.neutral_culture" weight="12" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="82" leg_armor="48" arm_armor="60" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="Sa_brigandine5" name="[XIV][Body] Brigandine with armpads (Black)" mesh="sa_brigandine5" is_merchandise="false" subtype="body_armor" value="25000" culture="Culture.neutral_culture" weight="12" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="82" leg_armor="48" arm_armor="60" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="Sa_brigandine3" name="[XIV][Body] Brigandine (Blue)" mesh="sa_brigandine3" is_merchandise="false" subtype="body_armor" value="20000" culture="Culture.neutral_culture" weight="12" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="82" leg_armor="48" arm_armor="60" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="Sa_brigandine4" name="[XIV][Body] Brigandine (Red)" mesh="sa_brigandine4" is_merchandise="false" subtype="body_armor" value="20000" culture="Culture.neutral_culture" weight="12" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="82" leg_armor="48" arm_armor="60" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="Sa_brigandine6" name="[XIV][Body] Brigandine (Black)" mesh="sa_brigandine6" is_merchandise="false" subtype="body_armor" value="20000" culture="Culture.neutral_culture" weight="12" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="82" leg_armor="48" arm_armor="60" covers_body="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+
+	<!-- #region Head-->
+	<Item id="armet" name="[XV][Head] Armet (Feathered)" subtype="head_armor" mesh="armet" is_merchandise="false" culture="Culture.neutral_culture" weight="4.6" difficulty="0" appearance="1" value="68000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="111" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="armet1" name="[XV][Head] Armet" subtype="head_armor" mesh="armet2" is_merchandise="false" culture="Culture.neutral_culture" weight="4.6" difficulty="0" appearance="1" value="68000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="111" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="sa_bacinet_with_facemask" name="[XIV][Head] Bascinet with facemask" subtype="head_armor" mesh="sa_bacinet_with_facemask" is_merchandise="false" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="40000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="112" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="sa_barbute1" name="[XV][Head] Western Barbute" subtype="head_armor" mesh="sa_barbute1" is_merchandise="false" culture="Culture.neutral_culture" weight="4" difficulty="0" appearance="1" value="40000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="sa_barbute2" name="[XV][Head] Western Barbute (Painted)" subtype="head_armor" mesh="sa_barbute2" is_merchandise="false" culture="Culture.neutral_culture" weight="4" difficulty="0" appearance="1" value="41000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sa_barbute3" name="[XV][Head] Western Barbute (Plumed)" subtype="head_armor" mesh="sa_barbute3" is_merchandise="false" culture="Culture.neutral_culture" weight="4" difficulty="0" appearance="1" value="41000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sa_barbute4" name="[XV][Head] Western Barbute (Painted, Plumed)" subtype="head_armor" mesh="sa_barbute4" is_merchandise="false" culture="Culture.neutral_culture" weight="4" difficulty="0" appearance="1" value="41000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="40" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="pigface_bascinet" name="[XIV][Head] Western Bascinet" subtype="head_armor" mesh="pigface_bascinet" is_merchandise="false" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="58000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="120" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="pigface_bascinet_feather" name="[XIV][Head] Western Bascinet (Plumed)" subtype="head_armor" mesh="pigface_bascinet_feather" is_merchandise="false" culture="Culture.neutral_culture" weight="4.6" difficulty="0" appearance="1" value="58000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="120" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="pigface_bascinet_tail" name="[XIV][Head] Western Bascinet (Mane)" subtype="head_armor" mesh="pigface_bascinet_tail" is_merchandise="false" culture="Culture.neutral_culture" weight="4.6" difficulty="0" appearance="1" value="58000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="120" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sallet_base" name="[XV][Head] Western Sallet (Basic)" subtype="head_armor" mesh="sallet_base" is_merchandise="false" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="50000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="112" body_armor="116" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="sallet_crowned" name="[XV][Head] Western Sallet (Crowned)" subtype="head_armor" mesh="sallet_crowned" is_merchandise="false" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="55000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="113" body_armor="116" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="sallet_wings" name="[XV][Head] Western Sallet (Winged)" subtype="head_armor" mesh="sallet_winged" is_merchandise="false" culture="Culture.neutral_culture" weight="4.6" difficulty="0" appearance="1" value="50000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="112" body_armor="116" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="sallet_no_visor" name="[XV][Head] Western Sallet (Open)" subtype="head_armor" mesh="sallet_no_visor" is_merchandise="false" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="40000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="100" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="sa_churburghHelm_black_trimmed_feather" name="[XIV][Head] Hounskull Bascinet (Plumed, Trimmed)" subtype="head_armor" mesh="sa_churburghHelm_black_trimmed_feather" is_merchandise="false" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="65000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="120" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sa_churburghHelm_feather" name="[XIV][Head] Hounskull Bascinet (Plumed)" subtype="head_armor" mesh="sa_churburghHelm_feather" is_merchandise="false" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="65000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="120" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sa_churburghHelm_trimmed_feather" name="[XIV][Head] Hounskull Bascinet (Plumed)" subtype="head_armor" mesh="sa_churburghHelm_trimmed_feather" is_merchandise="false" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="65000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="120" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sa_1ChurburghHelm" name="[XIV][Head] Hounskull Bascinet" subtype="head_armor" mesh="sa_1churburghhelm" is_merchandise="false" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="58000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="120" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="sa_2ChurburghHelm" name="[XIV][Head] Hounskull Bascinet (Blackend)" subtype="head_armor" mesh="sa_2churburghhelm" is_merchandise="false" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="62000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="120" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="sa_ChurburghHelm" name="[XIV][Head] Hounskull Bascinet (Trimmed)" subtype="head_armor" mesh="sa_churburghhelm" is_merchandise="false" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="62000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="115" body_armor="120" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="sa_visoredkettlehelmet" name="[XV][Head] Visored Kettle Helmet" subtype="head_armor" mesh="sa_visoredkettlehelmet" is_merchandise="false" culture="Culture.neutral_culture" weight="4" difficulty="0" appearance="1" value="22000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="sa_visoredkettlehelmet1" name="[XV][Head] Visored Kettle Helmet (Painted)" subtype="head_armor" mesh="sa_visoredkettlehelmet1" is_merchandise="false" culture="Culture.neutral_culture" weight="4" difficulty="0" appearance="1" value="22000" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="108" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- #endregion -->
+	<!-- #region Body-->
+	<Item id="sa_1ChurburghTorso" name="[XIV][Body] Plate Cuirass" mesh="sa_1churburghtorso" is_merchandise="false" subtype="body_armor" value="90000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="110" leg_armor="85" arm_armor="85" covers_body="true" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sa_2ChurburghTorso" name="[XIV][Body] Plate Cuirass (Blackend)" mesh="sa_2churburghtorso" is_merchandise="false" subtype="body_armor" value="100000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="110" leg_armor="85" arm_armor="85" covers_body="true" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="sa_ChurburghTorso" name="[XIV][Body] Plate Cuirass (Trimmed)" mesh="sa_churburghtorso" is_merchandise="false" subtype="body_armor" value="100000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="1" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="110" leg_armor="85" arm_armor="85" covers_body="true" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- #endregion -->
+	<!-- #region Arms-->
+	<Item id="sa_1ChurburghGauntlet" name="[XIV][Arms] Plate Mittens" mesh="sa_1churburghgauntlet" is_merchandise="false" subtype="body_armor" value="35000" culture="Culture.neutral_culture" weight="2.9" difficulty="0" appearance="1" Type="HandArmor">
+		<ItemComponent>
+			<Armor body_armor="0" leg_armor="0" arm_armor="65" covers_hands="true" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="sa_2ChurburghGauntlet" name="[XIV][Arms] Plate Mittens (Blackend)" mesh="sa_2churburghgauntlet" is_merchandise="false" subtype="body_armor" value="39000" culture="Culture.neutral_culture" weight="2.9" difficulty="0" appearance="1" Type="HandArmor">
+		<ItemComponent>
+			<Armor body_armor="0" leg_armor="0" arm_armor="65" covers_hands="true" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<Item id="sa_ChurburghGauntlet" name="[XIV][Arms] Plate Mittens (Trimmed)" mesh="sa_churburghgauntlet" is_merchandise="false" subtype="body_armor" value="39000" culture="Culture.neutral_culture" weight="2.9" difficulty="0" appearance="1" Type="HandArmor">
+		<ItemComponent>
+			<Armor body_armor="0" leg_armor="0" arm_armor="65" covers_hands="true" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="false"/>
+	</Item>
+	<!-- #endregion -->
+	<!-- #region Boots-->
+	<Item id="plate_boots" name="[XIV][Boots] Plate Boots" mesh="plateboot" is_merchandise="false" culture="Culture.neutral_culture" weight="1.8" difficulty="0" appearance="1" value="30000" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="65" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="plate_boots2" name="[XIV][Boots] Plate Boots (Brass)" mesh="plateboot2" is_merchandise="false" culture="Culture.neutral_culture" weight="1.8" difficulty="0" appearance="1" value="35000" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="65" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="sa_1ChurburghBoots" name="[XIV][Boots] Plate Boots" mesh="sa_1churburghboots" is_merchandise="false" culture="Culture.neutral_culture" weight="2.5" difficulty="0" appearance="1" value="36000" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="65" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="sa_2ChurburghBoots" name="[XIV][Boots] Plate Boots (Blackend)" mesh="sa_2churburghboots" is_merchandise="false" culture="Culture.neutral_culture" weight="2.5" difficulty="0" appearance="1" value="39000" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="65" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="sa_ChurburghBoots" name="[XIV][Boots] Plate Boots (Trimmed)" mesh="sa_churburghboots" is_merchandise="false" culture="Culture.neutral_culture" weight="2.5" difficulty="0" appearance="1" value="39000" Type="LegArmor">
+		<ItemComponent>
+			<Armor leg_armor="65" covers_legs="true" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<!-- #endregion -->
+	<!-- #endregion -->
+	<!-- #endregion -->
+</Items>

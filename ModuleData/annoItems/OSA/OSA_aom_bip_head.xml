@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- RBM Balance -->
+	<!-- region Crowns -->
+	<Item id="ao_crown_a" name="{=osa_ao_crown_a}[OSA][Crown] Pointed Crown" mesh="ao_crown_a" weight="3.1" appearance="1.6" Type="HeadArmor" culture="Culture.vlandia" is_merchandise="false">
+		<ItemComponent>
+			<Armor head_armor="18" body_armor="0" has_gender_variations="false" hair_cover_type="none" beard_cover_type="none" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_crown_b" name="{=osa_ao_crown_b}[OSA][Crown] Jewelled Circlet" mesh="AR_circlet_c" weight="3.1" appearance="1.6" Type="HeadArmor" culture="Culture.vlandia" value="10650">
+		<ItemComponent>
+			<Armor head_armor="18" body_armor="0" has_gender_variations="false" hair_cover_type="none" beard_cover_type="none" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_gold_circlet_a" name="{=osa_ao_gold_circlet_a}[OSA][Crown] Simple Gilded Circlet" mesh="AR_circlet_a" weight="3.1" appearance="1.6" Type="HeadArmor" culture="Culture.vlandia" value="8650">
+		<ItemComponent>
+			<Armor head_armor="15" body_armor="0" has_gender_variations="false" hair_cover_type="none" beard_cover_type="none" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_angevin_crown" name="{=osa_ao_angevin_crown}[OSA][Crown] Western Ornate Spiked Crown" mesh="ao_angevin_crown" weight="3.1" appearance="1.6" Type="HeadArmor" culture="Culture.vlandia" is_merchandise="false">
+		<ItemComponent>
+			<Armor head_armor="20" body_armor="0" has_gender_variations="false" hair_cover_type="none" beard_cover_type="none" modifier_group="Plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_mabili_feathered_headband" name="{=osa_ao_mabili_feathered_headband}[OSA][Crown] Southern Feathered Headband" mesh="ao_mabili_cap_a" culture="Culture.aserai" weight="1" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="8" body_armor="0" has_gender_variations="false" hair_cover_type="none" beard_cover_type="none" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_mabili_leather_headband" name="{=osa_ao_mabili_leather_headband}[OSA][Crown] Southern Leather Headband" mesh="ao_mabili_cap_b" culture="Culture.aserai" weight="1" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="8" body_armor="0" has_gender_variations="false" hair_cover_type="none" beard_cover_type="none" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_crowned_mail_coif_b" name="{=osa_ao_crowned_mail_coif_b}[OSA] Crowned Mail Coif With Helmet Padding" subtype="head_armor" mesh="AO_crown_c" is_merchandise="false" culture="Culture.vlandia" weight="1.7" appearance="1" Type="HeadArmor" difficulty="0">
+		<ItemComponent>
+			<Armor head_armor="38" body_armor="12" has_gender_variations="false" hair_cover_type="all" modifier_group="chain" material_type="Chainmail" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_mailed_angevin_crown" name="{=osa_ao_mailed_angevin_crown}[OSA] Western Ornate Spiked Crown Over Mail Coif" subtype="head_armor" mesh="AO_crown_e" is_merchandise="false" culture="Culture.vlandia" weight="1.7" appearance="1" Type="HeadArmor" difficulty="0">
+		<ItemComponent>
+			<Armor head_armor="40" body_armor="0" has_gender_variations="false" hair_cover_type="all" modifier_group="chain" material_type="Chainmail" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_subuwari_helmet_a" name="{=osa_ao_subuwari_helmet_a}[OSA][Crown] Southern Bronze Cone Helmet" mesh="AO_subuwari_helmet_a" culture="Culture.aserai" weight="0.5" appearance="0.3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="57" body_armor="0" has_gender_variations="false" hair_cover_type="type2" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_subuwari_helmet_a2" name="{=osa_ao_subuwari_helmet_a2}[OSA][Crown] Southern Iron Cone Helmet" mesh="AO_subuwari_helmet_a2" culture="Culture.aserai" weight="0.5" appearance="0.3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="57" body_armor="0" has_gender_variations="false" hair_cover_type="type2" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_subuwari_noblemans_helmet" name="{=osa_ao_subuwari_noblemans_helmet}[OSA] Southern Bronze Cone Helmet Over Mail" mesh="AO_subuwari_lord_helmet_a" culture="Culture.aserai" weight="4.1" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="90" body_armor="10" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_subuwari_noblemans_helmet_b" name="{=osa_ao_subuwari_noblemans_helmet_b}[OSA] Southern Iron Cone Helmet Over Mail" mesh="AO_subuwari_lord_helmet_b" culture="Culture.aserai" weight="4.1" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="90" body_armor="10" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_vlandian_nasal_helmet_with_mail_coif" name="{=osa_ao_vlandian_nasal_helmet_with_mail_coif}[OSA] Nasal Helmet With Mail Coif" mesh="AO_vlandia_helmet_a" culture="Culture.vlandia" weight="3.5" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="25" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_zhonghai_cavalry_helmet" name="{=osa_ao_zhonghai_cavalry_helmet}[OSA] Silver Lamellar Helmet With Tall Plume" subtype="head_armor" mesh="AO_zhonghai_helmet_a" culture="Culture.khuzait" weight="1.3" appearance="1" Type="HeadArmor" difficulty="0">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="0" has_gender_variations="false" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- #endregion -->
+	<!-- region Durkhan Helmets -->
+	<Item id="ao_durkhan_fur_trimmed_helmet" name="{=osa_ao_durkhan_fur_trimmed_helmet}[OSA] Eastern Guarded Fur Trimmed Helmet" mesh="AO_durkhan_helmet_c" culture="Culture.khuzait" weight="1.2" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="82" body_armor="0" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_durkhan_cataphract_helmet_a" name="{=osa_ao_durkhan_cataphract_helmet_a}[OSA] Eastern Mailed Cataphract Helmet" mesh="AO_durkhan_helmet_a" culture="Culture.khuzait" weight="3.7" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="130" body_armor="41" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_durkhan_cataphract_helmet_b" name="{=osa_ao_durkhan_cataphract_helmet_b}[OSA] Eastern Lamellar Cataphract Helmet" mesh="AO_durkhan_helmet_b" culture="Culture.khuzait" weight="3.7" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="130" body_armor="30" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_durkhan_iron_horsehair_helmet" name="{=osa_ao_durkhan_iron_horsehair_helmet}[OSA] Eastern Iron Horsehair Helmet" mesh="AO_durkhan_helmet_k" culture="Culture.khuzait" weight="3.3" appearance="3" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="71" body_armor="0" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_durkhan_guarded_iron_helmet" name="{=osa_ao_durkhan_guarded_iron_helmet}[OSA] Eastern Guarded Iron Helmet" mesh="AO_durkhan_helmet_e" culture="Culture.khuzait" weight="3.7" difficulty="0" appearance="1.3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="94" body_armor="0" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" beard_cover_type="type2" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_durkhan_iron_lamellar_helmet" name="{=osa_ao_durkhan_iron_lamellar_helmet}[OSA] Eastern Iron Lamellar Helmet" mesh="AO_durkhan_helmet_l" culture="Culture.khuzait" weight="3.3" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="84" body_armor="0" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_durkhan_heavy_lamellar_helmet" name="{=osa_ao_durkhan_heavy_lamellar_helmet}[OSA] Eastern Heavy Lamellar Helmet" mesh="AO_durkhan_helmet_g" culture="Culture.khuzait" weight="1.2" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="0" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="type2" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_durkhan_guarded_bronze_helmet" name="{=osa_ao_durkhan_guarded_bronze_helmet}[OSA] Eastern Guarded Bronze Helmet" mesh="AO_durkhan_helmet_d" culture="Culture.khuzait" weight="3" appearance="3" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="61" body_armor="0" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_durkhan_horsehair_noble_bronze_helmet" name="{=osa_ao_durkhan_horsehair_noble_bronze_helmet}[OSA] Eastern Horsehair Fur Trimmed Bronze Helmet" mesh="AO_durkhan_helmet_h" culture="Culture.khuzait" weight="1.2" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="81" body_armor="0" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_durkhan_iron_helmet_with_leather" name="{=osa_ao_durkhan_iron_helmet_with_leather}[OSA] Eastern Iron Helmet With Leather" mesh="AO_durkhan_helmet_i" culture="Culture.khuzait" weight="1.8" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="84" body_armor="0" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="type2" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_durkhan_iron_helmet_with_leather_spiked" name="{=osa_ao_durkhan_iron_helmet_with_leather_spiked}[OSA] Eastern Spiked Iron Helmet With Leather" mesh="AO_durkhan_helmet_j" weight="1.8" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="84" body_armor="0" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="type2" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_durkhan_heavy_fur_trimmed_helmet" name="{=osa_ao_durkhan_heavy_fur_trimmed_helmet}[OSA] Eastern Heavy Fur Trimmed Lamellar Helmet" mesh="AO_durkhan_helmet_f" culture="Culture.khuzait" weight="4.1" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="104" body_armor="0" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="type2" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- #endregion -->
+	<!-- region Eorling Helmets -->
+	<Item id="ao_eorling_riveted_nasal_helmet" name="{=osa_ao_eorling_riveted_nasal_helmet}[OSA] Highland Riveted Nasal Helmet With Mail Aventail" mesh="AO_eorling_helmet_f" culture="Culture.battania" weight="1" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="87" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_eorling_mailed_nasal_helmet" name="{=osa_ao_eorling_mailed_nasal_helmet}[OSA] Highland Nasal Helmet With Mail Aventail" mesh="AO_eorling_helmet_e" culture="Culture.battania" weight="1" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="87" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_eorling_guarded_noblemans_helmet" name="{=osa_ao_eorling_guarded_noblemans_helmet}[OSA] Highland Plumed Guarded Nobleman's Helmet" subtype="head_armor" mesh="AO_eorling_helmet_c" culture="Culture.battania" weight="1.8" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="89" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_eorling_guarded_noblemans_helmet_b" name="{=osa_ao_eorling_guarded_noblemans_helmet_b}[OSA] Highland Guarded Nobleman's Helmet" subtype="head_armor" mesh="AO_eorling_helmet_g" culture="Culture.battania" weight="1.8" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="89" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_eorling_heavy_guarded_noblemans_helmet" name="{=osa_ao_eorling_heavy_guarded_noblemans_helmet}[OSA] Highland Heavy Plumed Guarded Nobleman's Helmet" subtype="head_armor" mesh="AO_eorling_helmet_d" culture="Culture.battania" weight="3.7" difficulty="0" appearance="1.3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="90" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" beard_cover_type="none" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_eorling_heavy_guarded_noblemans_helmet_a" name="{=osa_ao_eorling_heavy_guarded_noblemans_helmet_a}[OSA] Highland Heavy Guarded Nobleman's Helmet" subtype="head_armor" mesh="AO_eorling_helmet_h" culture="Culture.battania" weight="3.7" difficulty="0" appearance="1.3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="90" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" beard_cover_type="none" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_eorling_heavy_guarded_noblemans_helmet_b" name="{=osa_ao_eorling_heavy_guarded_noblemans_helmet_b}[OSA] Highland Decorated Plumed Guarded Nobleman's Helmet" subtype="head_armor" mesh="AO_eorling_helmet_d2" culture="Culture.battania" weight="3.7" difficulty="0" appearance="1.3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="96" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" beard_cover_type="none" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_eorling_heavy_guarded_noblemans_helmet_c" name="{=osa_ao_eorling_heavy_guarded_noblemans_helmet_c}[OSA] Highland Decorated Guarded Nobleman's Helmet" subtype="head_armor" mesh="AO_eorling_helmet_i" culture="Culture.battania" weight="3.7" difficulty="0" appearance="1.3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="96" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" beard_cover_type="none" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_eorling_dunheres_crowned_helmet" name="{=osa_ao_eorling_dunheres_crowned_helmet}[OSA] Highland Crowned Helmet" is_merchandise="false" subtype="head_armor" mesh="AO_eorling_lord_helmet_a" culture="Culture.battania" weight="1.9" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="119" body_armor="16" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_eorling_guarded_nasal_helmet_with_leather" name="{=osa_ao_eorling_guarded_nasal_helmet_with_leather}[OSA] Northern Guarded Nasal Helmet With Leather" subtype="head_armor" mesh="AO_eorling_helmet_a" culture="Culture.sturgia" weight="1.8" appearance="6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="67" body_armor="12" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_eorling_guarded_nasal_helmet_with_mail" name="{=osa_ao_eorling_guarded_nasal_helmet_with_mail}[OSA] Northern Guarded Nasal Helmet With Mail" mesh="AO_eorling_helmet_b" culture="Culture.sturgia" weight="3.2" appearance="1.3" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="84" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_eorling_guarded_nasal_helmet_with_closed_mail" name="{=osa_ao_eorling_guarded_nasal_helmet_with_closed_mail}[OSA] Northern Plumed Guarded Nasal Helmet With Closed Mail" mesh="AO_eorling_helmet_b2" culture="Culture.sturgia" weight="3.2" appearance="1.3" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="105" body_armor="41" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_eorling_guardian_helmet" name="{=osa_ao_eorling_guardian_helmet}[OSA] Highland Heavy Guarded Helmet" subtype="head_armor" mesh="AO_eorling_lord_helmet_b" culture="Culture.battania" weight="3.2" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="119" body_armor="16" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- #endregion -->
+	<!-- region Empire Helmets -->
+	<Item id="ao_imperial_spangenhelm_with_mail" name="{=osa_ao_imperial_spangenhelm_with_mail}[OSA] Imperial Spangenhelm With Mail" mesh="AO_empire_helmet_k" culture="Culture.empire" weight="3.2" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="75" body_armor="0" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_nasal_spangenhelmet_with_mail" name="{=osa_ao_imperial_nasal_spangenhelmet_with_mail}[OSA] Imperial Nasal Spangenhelm With Mail" mesh="AO_empire_helmet_v" culture="Culture.empire" weight="3.3" appearance="1.6" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="77" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_spangenhelm_with_leather" name="{=osa_ao_imperial_spangenhelm_with_leather}[OSA] Imperial Spangenhelm With Leather" mesh="AO_empire_helmet_j" culture="Culture.empire" weight="3.1" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50" body_armor="0" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_spangenhelm_over_padded_coif" name="{=osa_ao_imperial_spangenhelm_over_padded_coif}[OSA] Imperial Spangenhelm Over Padded Coif" mesh="AO_empire_helmet_i" culture="Culture.empire" weight="3.2" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="57" body_armor="7" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_heavy_spangenhelm_with_mail" name="{=osa_ao_imperial_heavy_spangenhelm_with_mail}[OSA] Imperial Heavy Spangenhelm With Mail" mesh="AO_empire_helmet_o" culture="Culture.empire" weight="3.8" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="75" body_armor="0" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_heavy_spangenhelm_with_leather" name="{=osa_ao_imperial_heavy_spangenhelm_with_leather}[OSA] Imperial Heavy Spangenhelm With Leather" mesh="AO_empire_helmet_n" culture="Culture.empire" weight="3.1" appearance="1.3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="55" body_armor="0" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_nasal_helmet_over_mail_coif" name="{=osa_ao_imperial_nasal_helmet_over_mail_coif}[OSA] Imperial Spangenhelm Over Mail Coif" mesh="AO_empire_helmet_s" culture="Culture.empire" weight="3.6" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="86" body_armor="25" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_heavy_spangenhelm_over_mail_coif" name="{=osa_ao_imperial_heavy_spangenhelm_over_mail_coif}[OSA] Imperial Heavy Spangenhelm Over Mail Coif" mesh="AO_empire_helmet_m" culture="Culture.empire" weight="3.2" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="81" body_armor="12" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_heavy_nasal_spangenhelm_over_mail_coif" name="{=osa_ao_imperial_heavy_nasal_spangenhelm_over_mail_coif}[OSA] Imperial Heavy Spangenhelm Over Mail Coif" mesh="AO_empire_helmet_l" culture="Culture.empire" weight="3.4" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="87" body_armor="25" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_redcrest_bronze_spangenhelm_over_mail_coif" name="{=osa_ao_imperial_redcrest_bronze_spangenhelm_over_mail_coif}[OSA] Imperial Plumed Bronze Spangenhelm Over Mail Coif" mesh="AO_empire_lord_helmet_f" culture="Culture.empire" weight="3.2" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="97" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type3" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_conical_nasal_helmet_over_mail_coif" name="{=osa_ao_imperial_conical_nasal_helmet_over_mail_coif}[OSA] Imperial Plumed Cataphract's Conical Helmet Over Mail Coif" mesh="AO_empire_lord_helmet_g" culture="Culture.empire" weight="3.6" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="116" body_armor="25" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_guarded_conical_nasal_helmet" name="{=osa_ao_imperial_guarded_conical_nasal_helmet}[OSA] Imperial Guarded Cataphract's Conical Helmet" mesh="AO_empire_lord_helmet_h" culture="Culture.empire" weight="3.7" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="130" body_armor="15" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_kettlehelm_with_leather" name="{=osa_ao_imperial_kettlehelm_with_leather}[OSA] Imperial Roundkettle With Leather" mesh="AO_empire_helmet_q" culture="Culture.empire" weight="3.1" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="56" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_kettlehelm_with_mail" name="{=osa_ao_imperial_kettlehelm_with_mail}[OSA] Imperial Roundkettle With Mail" mesh="AO_empire_helmet_r" culture="Culture.empire" weight="1.4" appearance="1.3" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="67" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_kettlehelm_over_mail_coif" name="{=osa_ao_imperial_kettlehelm_over_mail_coif}[OSA] Imperial Roundkettle Over Mail Coif" mesh="AO_empire_helmet_p" culture="Culture.empire" weight="3.1" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="83" body_armor="15" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type3" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_crowned_nasal_helmet" name="{=osa_ao_imperial_crowned_nasal_helmet}[OSA] Imperial Crowned Bronze Spangenhelm With Cloth" mesh="AO_empire_lord_helmet_a" is_merchandise="false" culture="Culture.empire" weight="3.2" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="97" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type2" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_cataphracts_closed_mail_helmet" name="{=osa_ao_imperial_cataphracts_closed_mail_helmet}[OSA] Imperial Cataphract's Closed Mail Helmet" mesh="AO_empire_helmet_a" culture="Culture.empire" weight="4.2" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="120" body_armor="82" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_cataphracts_plumed_closed_mail_helmet" name="{=osa_ao_imperial_cataphracts_plumed_closed_mail_helmet}[OSA] Imperial Cataphract's Plumed Spangenhelm Over Closed Mail" mesh="AO_empire_helmet_c" culture="Culture.empire" weight="4.2" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="120" body_armor="82" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_cataphracts_flamboyant_helmet" name="{=osa_ao_imperial_cataphracts_flamboyant_helmet}[OSA] Imperial Ornate Cataphract's Helmet" mesh="AO_empire_helmet_b" culture="Culture.empire" weight="3.7" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="130" body_armor="30" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_evocati_helmet" name="{=osa_ao_imperial_evocati_helmet}[OSA] Imperial Evocatus' Helmet" mesh="AO_empire_lord_helmet_b" culture="Culture.empire" weight="3.7" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="130" body_armor="15" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_closed_mail_nasal_spangenhelmet" name="{=osa_ao_imperial_closed_mail_nasal_spangenhelmet}[OSA] Imperial Feathered Spangenhelm With Closed Mail" mesh="AO_empire_helmet_d" culture="Culture.empire" weight="3.5" appearance="2" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="121" body_armor="82" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_guarded_decorated_nasal_helmet" name="{=osa_ao_imperial_guarded_decorated_nasal_helmet}[OSA] Imperial Guarded Decorated Nasal Helmet" mesh="AO_empire_lord_helmet_i" culture="Culture.empire" weight="3.7" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="130" body_armor="30" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_nasal_spangenhelm_with_leather_strips_alt" name="{=osa_ao_imperial_nasal_spangenhelm_with_leather_strips_alt}[OSA] Imperial Nasal Spangenhelm With Leather Strips" mesh="AO_empire_helmet_u" culture="Culture.empire" weight="1.1" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50" body_armor="12" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_nasal_spangenhelm_with_leather_strips" name="{=osa_ao_imperial_nasal_spangenhelm_with_leather_strips}[OSA] Imperial Nasal Spangenhelm With Leather Strips" mesh="AO_empire_helmet_t" culture="Culture.empire" weight="1.1" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50" body_armor="12" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_palatine_guard_helmet" name="{=osa_ao_imperial_palatine_guard_helmet}[OSA] Imperial Palatine Helmet Over Mail" mesh="AO_empire_lord_helmet_d" culture="Culture.empire" subtype="head_armor" weight="3.3" difficulty="0" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="121" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_pointed_helmet_with_lamellar_strips" name="{=osa_ao_imperial_pointed_helmet_with_lamellar_strips}[OSA] Pointed Helmet With Lamellar Strips" mesh="AO_empire_helmet_x" culture="Culture.empire" weight="3.8" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="75" body_armor="0" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_pointed_helmet_with_leather" name="{=osa_ao_imperial_pointed_helmet_with_leather}[OSA] Pointed Helmet With Leather" mesh="AO_empire_helmet_y" culture="Culture.empire" weight="3.1" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50" body_armor="0" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_pointed_helmet_with_mail_coif" name="{=osa_ao_imperial_pointed_helmet_with_mail_coif}[OSA] Pointed Helmet With Lamellar Strips" mesh="AO_empire_helmet_z" culture="Culture.empire" weight="3.6" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="86" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_pointed_helmet_with_cloth_wrap" name="{=osa_ao_imperial_pointed_helmet_with_cloth_wrap}[OSA] Pointed Helmet With Cloth Wrap" mesh="AO_empire_helmet_w" culture="Culture.empire" weight="1.1" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="48" body_armor="0" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type1" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_cone_helmet_with_closed_mail" name="{=osa_ao_imperial_cone_helmet_with_closed_mail}[OSA] Imperial Conical Helmet With Closed Mail" mesh="AO_empire_helmet_e" culture="Culture.empire" weight="4.2" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="120" body_armor="82" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_plumed_cone_helmet_with_closed_mail" name="{=osa_ao_imperial_plumed_cone_helmet_with_closed_mail}[OSA] Imperial Plumed Conical Helmet With Closed Mail" mesh="AO_empire_lord_helmet_e" culture="Culture.empire" weight="4.2" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="121" body_armor="82" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_cone_helmet_with_mail_coif" name="{=osa_ao_imperial_cone_helmet_with_mail_coif}[OSA] Imperial Conical Helmet Over Mail Coif" mesh="AO_empire_helmet_h" culture="Culture.empire" weight="3.4" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="87" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_noblemans_cone_helmet" name="{=osa_ao_imperial_noblemans_cone_helmet}[OSA] Imperial Plumed Conical Helmet Over Mail Coif" mesh="AO_empire_lord_helmet_c" culture="Culture.empire" weight="2.6" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="15" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_cone_helmet_with_leather" name="{=osa_ao_imperial_cone_helmet_with_leather}[OSA] Imperial Conical Helmet With Leather" mesh="AO_empire_helmet_g" culture="Culture.empire" weight="1.3" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="74" body_armor="0" has_gender_variations="false" beard_cover_type="none" hair_cover_type="type3" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_cone_helmet_with_lamellar_strips" name="{=osa_ao_imperial_cone_helmet_with_lamellar_strips}[OSA] Imperial Conical Helmet With Mail And Lamellar Strips" mesh="AO_empire_helmet_f" culture="Culture.empire" weight="3.6" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="80" body_armor="0" has_gender_variations="false" beard_cover_type="none" hair_cover_type="type3" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_imperial_aristocrats_helmet" name="{=osa_ao_imperial_aristocrats_helmet}[OSA] Imperial Guarded Noble Helmet With Feather Crest" mesh="AO_empire_lord_helmet_j" culture="Culture.empire" weight="3.7" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="130" body_armor="30" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AO_empire_lord_helmet_k" name="{=osa_ao_empire_lord_helmet_k}[OSA] Imperial Plumed Heavy Palatine Helmet" mesh="AO_empire_lord_helmet_k" culture="Culture.empire" weight="3.7" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="130" body_armor="30" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AO_empire_helmet_za" name="{=osa_ao_empire_helmet_za}[OSA] Imperial Palatine Helmet Over Leather" mesh="AO_empire_helmet_za" culture="Culture.empire" weight="3.6" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="80" body_armor="0" has_gender_variations="false" beard_cover_type="none" hair_cover_type="type3" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AO_empire_helmet_zb" name="{=osa_ao_empire_helmet_zb}[OSA] Imperial Palatine Helmet Over Cloth" mesh="AO_empire_helmet_zb" culture="Culture.empire" weight="1.3" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="74" body_armor="0" has_gender_variations="false" beard_cover_type="none" hair_cover_type="type3" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- #endregion -->
+	<!-- region Battanian Helmets -->
+	<Item id="ao_battanian_hood" name="{=osa_ao_battanian_hood}[OSA] Hood" subtype="head_armor" mesh="AO_battania_hood_a" culture="Culture.battania" weight="0.5" appearance="1" Type="HeadArmor" difficulty="0">
+		<ItemComponent>
+			<Armor head_armor="11" body_armor="12" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="none" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_battanian_nasal_helmet" name="{=osa_ao_battanian_nasal_helmet}[OSA] Highland Nasal Helmet" mesh="AO_battania_helmet_c" culture="Culture.battania" weight="1.1" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50" body_armor="15" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_battanian_nasal_helmet_with_neckguard" name="{=osa_ao_battanian_nasal_helmet_with_neckguard}[OSA] Highland Nasal Helmet With Neckguard" mesh="AO_battania_helmet_d" culture="Culture.battania" weight="3.3" appearance="1.6" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="77" body_armor="12" has_gender_variations="false" hair_cover_type="type2" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_battanian_nasal_spangenhelm" name="{=osa_ao_battanian_nasal_spangenhelm}[OSA] Highland Nasal Spangenhelmet" mesh="AO_battania_helmet_e" culture="Culture.battania" weight="1.1" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="49" body_armor="12" has_gender_variations="false" hair_cover_type="type1" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_battanian_segmented_helmet" name="{=osa_ao_battanian_segmented_helmet}[OSA] Highland Segmented Helmet" mesh="AO_battania_helmet_f" culture="Culture.battania" weight="1.1" difficulty="0" appearance="1" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="50" body_armor="0" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_battanian_noblemans_ridge_helmet" name="{=osa_ao_battanian_noblemans_ridge_helmet}[OSA] Highland Ridge Helmet With Mail" mesh="AO_battania_lord_helmet_f" culture="Culture.battania" weight="3.3" appearance="1.6" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_battanian_plumed_noblemans_helmet" name="{=osa_ao_battanian_plumed_noblemans_helmet}[OSA] Highland Plumed Helmet" mesh="AO_battania_lord_helmet_g" culture="Culture.battania" weight="2.9" appearance="1.3" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="104" body_armor="15" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_battanian_noblemans_plumed_ridge_helmet" name="{=osa_ao_battanian_noblemans_plumed_ridge_helmet}[OSA] Highland Plumed Ridge Helmet With Mail" mesh="AO_battania_lord_helmet_h" culture="Culture.battania" weight="3.3" appearance="1.6" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="88" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_battanian_guarded_segmented_helmet" name="{=osa_ao_battanian_guarded_segmented_helmet}[OSA] Highland Guarded Segmented Helmet" mesh="AO_battania_helmet_a" culture="Culture.battania" weight="3.4" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="94" body_armor="12" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_battanian_noblemans_guarded_helmet" name="{=osa_ao_battanian_noblemans_guarded_helmet}[OSA] Highland Nobleman's Guarded Helmet" mesh="AO_battania_lord_helmet_e" culture="Culture.battania" weight="3.7" difficulty="0" appearance="1.3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="98" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" beard_cover_type="none" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_battanian_noblemans_cone_helmet" name="{=osa_ao_battanian_noblemans_cone_helmet}[OSA] Highland Nobleman's Guarded Cone Helmet" mesh="AO_battania_lord_helmet_d" culture="Culture.battania" weight="2.9" appearance="1.3" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="104" body_armor="12" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_battanian_guarded_spangenhelmet" name="{=osa_ao_battanian_guarded_spangenhelmet}[OSA] Highland Guarded Nasalhelm" mesh="AO_battania_helmet_b" culture="Culture.battania" weight="2.9" appearance="1.3" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="104" body_armor="12" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_battanian_guarded_aristocrats_helmet" name="{=osa_ao_battanian_guarded_aristocrats_helmet}[OSA] Highland Plated Noble Nasalhelm" mesh="AO_battania_lord_helmet_a" culture="Culture.battania" weight="1.9" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="119" body_armor="16" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_battanian_guarded_aristocrats_spangenhelmet" name="{=osa_ao_battanian_guarded_aristocrats_spangenhelmet}[OSA] Western Guarded Spangenhelm" mesh="AO_battania_lord_helmet_c" culture="Culture.vlandia" weight="3.2" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="121" body_armor="16" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_battanian_guarded_aristocrats_spangenhelmet_crest" name="{=osa_ao_battanian_guarded_aristocrats_spangenhelmet_crest}[OSA] Western Crested Guarded Spangenhelm" mesh="AO_battania_lord_helmet_c2" culture="Culture.vlandia" weight="3.2" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="136" body_armor="16" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_battanian_crowned_helmet" name="{=osa_ao_battanian_crowned_helmet}[OSA] Highland Crowned Plated Noble Nasalhelm With Plume" mesh="AO_battania_lord_helmet_b" culture="Culture.battania" weight="3.2" appearance="3" Type="headArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="121" body_armor="16" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- #endregion -->
+	<!-- region Sturgian Helmets -->
+	<Item id="ao_sturgian_feathered_helmet" name="{=osa_ao_sturgian_feathered_helmet}[OSA] Northern Feathered Nasal Helmet" mesh="AO_sturgia_helmet_a" culture="Culture.sturgia" weight="1.8" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_sturgian_feathered_helmet_closed" name="{=osa_ao_sturgian_feathered_helmet_closed}[OSA] Northern Feathered Closed Nasal Helmet" mesh="AO_sturgia_helmet_a2" culture="Culture.sturgia" weight="1.8" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="118" body_armor="82" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_sturgian_feathered_helmet_with_mail" name="{=osa_ao_sturgian_feathered_helmet_with_mail}[OSA] Northern Feathered Nasal Helmet With Full Mail" mesh="AO_sturgia_helmet_b" culture="Culture.sturgia" weight="1.8" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="118" body_armor="12" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_sturgian_feathered_helmet_with_closed_mail" name="{=osa_ao_sturgian_feathered_helmet_with_closed_mail}[OSA] Northern Feathered Nasal Helmet With Closed Mail" mesh="AO_sturgia_helmet_b2" culture="Culture.sturgia" weight="1.8" appearance="3" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="121" body_armor="82" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_sturgian_spiked_nasal_helmet" name="{=osa_ao_sturgian_spiked_nasal_helmet}[OSA] Northern Simple Nasal Helmet With Full Mail" mesh="AO_sturgia_helmet_f" culture="Culture.sturgia" weight="1.8" appearance="1.6" Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="85" body_armor="12" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type2"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_sturgian_helmet_with_leather" name="{=osa_ao_sturgian_helmet_with_leather}[OSA] Northern Nasal Helmet With Leather" mesh="AO_sturgia_helmet_c" culture="Culture.sturgia" weight="1.2" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="80" body_armor="12" has_gender_variations="false" hair_cover_type="type3" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_sturgian_spangenhelm_with_leather" name="{=osa_ao_sturgian_spangenhelm_with_leather}[OSA] Northern Spangenhelm With Leather" mesh="AO_sturgia_helmet_e" culture="Culture.sturgia" weight="1.1" appearance="1" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="50" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" beard_cover_type="none" material_type="Plate"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="ao_sturgian_pointed_helmet_with_ring" name="{=osa_ao_sturgian_pointed_helmet_with_ring}[OSA] Northern Pointed Helmet With Ring" mesh="AO_sturgia_helmet_d" culture="Culture.sturgia" weight="3.2" appearance="3" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="92" body_armor="12" has_gender_variations="false" hair_cover_type="type3" modifier_group="plate" material_type="Plate" beard_cover_type="none"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<!-- #endregion -->
+</Items>

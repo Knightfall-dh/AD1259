@@ -1,0 +1,1224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SPCultures>
+	
+	<!---vanilla minor clan culture, rest is removed -->
+	<Culture id="darshi"
+	         name="{=IHhWB1aa}Darshi"
+	         is_main_culture="false"
+	         elite_basic_troop="NPCCharacter.ghilman_tier_3"
+	         basic_troop="NPCCharacter.ghilman_tier_1"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_aserai_template"
+	         encounter_background_mesh="encounter_aserai"
+	         militia_party_template="PartyTemplate.militia_aserai_template"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_aserai"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_aserai"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.aserai_sword_1_t2"/>
+			<item id="Item.aserai_sword_3_t3"/>
+			<item id="Item.aserai_sword_4_t4"/>
+			<item id="Item.aserai_sword_5_t4"/>
+		</banner_bearer_replacement_weapons>
+		<male_names>
+			<name name="{=JJtww9pt}Aryush"/>
+			<name name="{=Zm0Ee6sp}Azadun"/>
+			<name name="{=nisA6W98}Baheshtur"/>
+			<name name="{=pEvpjIa9}Bunduk"/>
+			<name name="{=Z261F0mj}Hamezan"/>
+			<name name="{=KmzQabkH}Hivan"/>
+			<name name="{=QR3aNalC}Imirza"/>
+			<name name="{=mDZqpa9Z}Sanjar"/>
+		</male_names>
+		<female_names>
+			<name name="{=lGRde77R}Anahita"/>
+			<name name="{=sa0YrXiv}Azareh"/>
+			<name name="{=epxmhQav}Daria"/>
+			<name name="{=zSL3MgNQ}Ilzar"/>
+			<name name="{=R7avnODK}Nasmeen"/>
+			<name name="{=ZPHdPglH}Raksana"/>
+			<name name="{=SHXt3kC5}Roshaneh"/>
+			<name name="{=wERVdmjj}Sulnaz"/>
+			<name name="{=Btb7NzFM}Shima"/>
+			<name name="{=GqEEIYay}Tilzad"/>
+		</female_names>
+	</Culture>
+	<!---custom minor clans -->
+	<Culture id="cuman"
+	         name="{=cumanCulture}Cuman"
+	         is_main_culture="false"
+	         elite_basic_troop="NPCCharacter.cuman_bek"
+	         basic_troop="NPCCharacter.cuman_rider"
+	         can_have_settlement="false"
+	         villager_party_template="PartyTemplate.villager_khuzait_template"
+	         encounter_background_mesh="encounter_khuzait"
+	         militia_party_template="PartyTemplate.militia_khuzait_template"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_khuzait"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_khuzait"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.khuzait_sword_1_t2"/>
+			<item id="Item.khuzait_sword_2_t3"/>
+			<item id="Item.khuzait_sword_3_t3"/>
+			<item id="Item.khuzait_sword_4_t4"/>
+		</banner_bearer_replacement_weapons>
+		<male_names>
+			<name name="{=xGIWBMfL}Al-bura"/>
+			<name name="{=QrvCBGsX}Begovars"/>
+			<name name="{=ysPamJxy}Menk"/>
+			<name name="{=BiNbzllY}Uzur"/>
+			<name name="{=raHzUJVJ}Tolon"/>
+			<name name="{=ccTEnAjo}Arbuz"/>
+			<name name="{=yHQuYpAg}Kemenche"/>
+			<name name="{=KIZfirvc}Zeyhan"/>
+			<name name="{=vsCBmlSl}Zehanus"/>
+			<name name="{=JqIEuRLs}Eltut"/>
+			<name name="{=JQEIfmvS}Kitzes"/>
+			<name name="{=fzOWnJMi}Membrok"/>
+			<name name="{=GERRvTww}Adony"/>
+			<name name="{=unqhGDOC}Álmus"/>
+			<name name="{=rjrsCyTc}Ajtony"/>
+			<name name="{=qbkhccSS}Árpád"/>
+			<name name="{=OGjJcuhw}Bátur"/>
+			<name name="{=YzhydIUh}Berény"/>
+			<name name="{=bbniarnq}Botos"/>
+			<name name="{=bJqrrsmK}Bogát"/>
+			<name name="{=yFMLtjXN}Csanád"/>
+			<name name="{=HCxmdnUg}Előd"/>
+			<name name="{=mnWmQDGj}Ezelek"/>
+			<name name="{=vlMWCcZb}Farkas"/>
+			<name name="{=YLcbzCsY}Hetény"/>
+			<name name="{=xeATAmKG}Hollós"/>
+			<name name="{=VALAuSuA}Huba"/>
+			<name name="{=QjoEVhUK}Jelek"/>
+			<name name="{=RigHtxsS}Kadocsa"/>
+			<name name="{=QjhvypGt}Kál"/>
+			<name name="{=ZVHTGnlw}Karád"/>
+			<name name="{=zPhywRkg}Kusid"/>
+			<name name="{=DYFlTHzY}Levéd"/>
+			<name name="{=tGNyAnGo}Örkény"/>
+			<name name="{=yDxelHSk}Szecsőd"/>
+			<name name="{=mKAWvsUm}Toksuny"/>
+			<name name="{=ThynQjID}Tormacsu"/>
+			<name name="{=FIHtYaSd}Tühütüm"/>
+			<name name="{=BOjMnhGU}Vajk"/>
+			<name name="{=bCBdahMI}Zoltán"/>
+			<name name="{=UiQmtKxW}Zombor"/>
+		</male_names>
+		<female_names>
+			<name name="{=QQUlBmKZ}Gurandukht"/>
+			<name name="{=OCMnhmcq}Konchakovna"/>
+			<name name="{=eaDEtyas}Ajándék"/>
+			<name name="{=qQnonnwf}Arany"/>
+			<name name="{=rJaMZCoa}Bolda"/>
+			<name name="{=kJOehrHp}Bogárd"/>
+			<name name="{=UamlpgVJ}Csuda"/>
+			<name name="{=GkWVxQhZ}Cseperka "/>
+			<name name="{=frdsjdjp}Gyöngy"/>
+			<name name="{=WKZjUPTM}Gilvád"/>
+			<name name="{=ahiMHmTh}Havadi"/>
+			<name name="{=UvZGChcu}Hitvánd"/>
+			<name name="{=leOBQZqD}Karold"/>
+			<name name="{=UkmdXvHh}Köncse"/>
+			<name name="{=hPyzLeQE}Lelle"/>
+			<name name="{=coNyTTZS}Lente"/>
+			<name name="{=RAXCsAHm}Mag"/>
+			<name name="{=TVaweReb}Nyesta"/>
+			<name name="{=XhftspjD}Öte"/>
+			<name name="{=UwdZwgMU}Rázdi"/>
+			<name name="{=pGOOKjhK}Réka"/>
+			<name name="{=tXfqIBYY}Sáfély"/>
+			<name name="{=XzIdDnbF}Sarolt"/>
+			<name name="{=XYvpLLww}Somocska"/>
+			<name name="{=MEqNvkHg}Szecsőke"/>
+			<name name="{=QXROvocn}Szépa"/>
+			<name name="{=siNJLwAa}Virág"/>
+		</female_names>
+	</Culture>
+	<Culture id="genoa"
+	         name="{=genoeseCulture}Genoese"
+	         is_main_culture="false"
+	         elite_basic_troop="NPCCharacter.merc_genoese_cbow"
+	         basic_troop="NPCCharacter.merc_genoese_cbow_serjeant"
+	         can_have_settlement="false"
+	         villager_party_template="PartyTemplate.villager_empire_template"
+	         encounter_background_mesh="encounter_empire"
+	         militia_party_template="PartyTemplate.militia_empire_template"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_vlandia"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_vlandia"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.vlandia_sword_1_t2"/>
+			<item id="Item.vlandia_sword_2_t3"/>
+			<item id="Item.vlandia_sword_3_t4"/>
+			<item id="Item.vlandia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<male_names>
+			<name name="{=HlkUILtE}Abramo"/>
+			<name name="{=BFDpFAdx}Adamo"/>
+			<name name="{=ejIadXNO}Abrammu"/>
+			<name name="{=gWKjEodW}Adelfu"/>
+			<name name="{=ICupMcQl}Adelchi"/>
+			<name name="{=pjicLcgN}Agnolo"/>
+			<name name="{=iHIQKwWB}Albertuccio"/>
+			<name name="{=EsxSznlu}Adalbertu"/>
+			<name name="{=YkheLLvv}Achilli"/>
+			<name name="{=RmIRGQSX}Alfreduccio"/>
+			<name name="{=LJcdgGVD}Amadore"/>
+			<name name="{=qPIVdMeY}Amerigotto"/>
+			<name name="{=rEIGEEKT}Agatuni"/>
+			<name name="{=CKKYAFTD}Agustinu"/>
+			<name name="{=nIgJRAGH}Albertu"/>
+			<name name="{=PbscHmJO}Barnabba"/>
+			<name name="{=VeizuPsD}Bartolomiu"/>
+			<name name="{=ONHFYvcO}Basiliu"/>
+			<name name="{=ksHwrXGy}Bàrtulu"/>
+			<name name="{=niYMjPHd}Benedettu"/>
+			<name name="{=futmuAOd}Benedittu"/>
+			<name name="{=JXRrjvzf}Bertuccio"/>
+			<name name="{=ixruBFwx}Bernarduccio"/>
+			<name name="{=lXrkxsiG}Bonfante"/>
+			<name name="{=RNnXBMpw}Bonfiglio"/>
+			<name name="{=dEWGfrXJ}Bonfilius"/>
+			<name name="{=yUxQXdJL}Braccio"/>
+			<name name="{=SsnTaMFK}Buonamico"/>
+			<name name="{=PNXNxmPa}Bernarduzzu"/>
+			<name name="{=OvOJpzSL}Birnardu"/>
+			<name name="{=rOoNqJoT}Cabbrieli"/>
+			<name name="{=BSdjrmDe}Caiu"/>
+			<name name="{=PuvaqIgF}Callistu"/>
+			<name name="{=ZSGkcOrl}Carlotto"/>
+			<name name="{=WMbepkoO}Carluccio"/>
+			<name name="{=AsdQYMzM}Calandro"/>
+			<name name="{=sEfiQKxQ}Cesarotto"/>
+			<name name="{=ZghSNRbI}Cherubino"/>
+			<name name="{=FmvcYETZ}Chiaro"/>
+			<name name="{=RXkBnNpd}Clario"/>
+			<name name="{=PlFystLC}Cosmael"/>
+			<name name="{=wUIyULLg}Cristianuccio"/>
+			<name name="{=pbcCGMpi}Cristofano"/>
+			<name name="{=AdvfLCMy}Cosimuccio"/>
+			<name name="{=cQtrlCGI}Camillu"/>
+			<name name="{=gNfcwgtH}Carluzzu"/>
+			<name name="{=NYbjzznv}Casimiru"/>
+			<name name="{=xwGRzaLj}Cassiu"/>
+			<name name="{=RffpVmzs}Cataldo"/>
+			<name name="{=SOKDVrYE}Daviduccio"/>
+			<name name="{=YXNLrqCF}Dolfin"/>
+			<name name="{=vbdTdMYv}Donatuccio"/>
+			<name name="{=hhXpuUYT}Duccio"/>
+			<name name="{=LcahJCmM}Elmuccio"/>
+			<name name="{=RTBAwVAG}Bonifacio"/>
+			<name name="{=tMPtCiYq}Ciuvanni"/>
+			<name name="{=xEoCctrN}Cristòfaru"/>
+			<name name="{=JCmPyoOc}Cristòfiru"/>
+			<name name="{=wmoqgLgV}Damianu"/>
+			<name name="{=NNaefbMH}Danieli"/>
+			<name name="{=YHuMPoYW}Dariu"/>
+			<name name="{=QGRZksDJ}Daviddi"/>
+			<name name="{=DOwGSeFy}Davidi"/>
+			<name name="{=YvfvozCL}Demetriu"/>
+			<name name="{=QkUkycxl}Daneli"/>
+			<name name="{=MRTowhHP}Davide"/>
+			<name name="{=nYIhTqiS}Ferrandino"/>
+			<name name="{=BVACwxhA}Ferrando"/>
+			<name name="{=wqaXkMUm}Ferrandus"/>
+			<name name="{=wwKFfcIQ}Ferrantino"/>
+			<name name="{=MTDKYheu}Filippuccio"/>
+			<name name="{=NgkcnASC}Francescuccio"/>
+			<name name="{=SkfFdabw}Franchino"/>
+			<name name="{=EtLWvwcN}Francuccio"/>
+			<name name="{=hIJyRsnB}Freduccio"/>
+			<name name="{=VrpZVqAs}Emanueli"/>
+			<name name="{=jZJAwPNT}Emilianu"/>
+			<name name="{=tSVSWLMw}Enricu"/>
+			<name name="{=ImgkbxbF}Erasmu"/>
+			<name name="{=WogmiCbm}Erculi"/>
+			<name name="{=pwcwhOpj}Ermandu"/>
+			<name name="{=QYsVFLJb}Galeotto"/>
+			<name name="{=ADJgXVOa}Galfrido"/>
+			<name name="{=DYyItpLS}Gennaio"/>
+			<name name="{=xrBBUgfA}Gentile"/>
+			<name name="{=PMCvYTxB}Gentiluccio"/>
+			<name name="{=Zrqfahnv}Gesualdo"/>
+			<name name="{=ahbsTgqA}Gherardino"/>
+			<name name="{=CyyFSJJs}Giacomuccio"/>
+			<name name="{=OFGGtbOs}Giovannozzo"/>
+			<name name="{=qoMVionZ}Giovannuccio"/>
+			<name name="{=dSsCYaXj}Giuseppuccio"/>
+			<name name="{=VgVqjBAl}Giuseppe"/>
+			<name name="{=wVUSBwas}Giovanni"/>
+			<name name="{=OFUvXoBp}Goffreduccio"/>
+			<name name="{=aJbbegKE}Goffredo"/>
+			<name name="{=WbVQJSXy}Gotto"/>
+			<name name="{=vsftxRKN}Grifo"/>
+			<name name="{=YktXndHb}Grifonetto"/>
+			<name name="{=sEyCtIdu}Grifuccio"/>
+			<name name="{=WkiLfXgo}Gualduccio"/>
+			<name name="{=KHbFXKVz}Enricu"/>
+			<name name="{=ZQIgiHno}Enzu"/>
+			<name name="{=OEEkBgfz}Ernestinu"/>
+			<name name="{=QDywENEE}Ernestuzzu"/>
+			<name name="{=DFhgGQwH}Eustachiu"/>
+			<name name="{=fqTfBGjc}Fabbianu"/>
+			<name name="{=FLlilvAJ}Fabiu"/>
+			<name name="{=zjUWNWIy}Fabriziu"/>
+			<name name="{=wotuKkxA}Faustinu"/>
+			<name name="{=emNOlsna}Guidotto"/>
+			<name name="{=pgKxwber}Guilberto"/>
+			<name name="{=EmccMqHp}Guinibaldo"/>
+			<name name="{=yZvRzpmK}Iacomo"/>
+			<name name="{=rQWfGwRT}Iaquinto"/>
+			<name name="{=HDrezKVo}Ido"/>
+			<name name="{=EZuTwewx}Isambert"/>
+			<name name="{=YaxxSHqY}Humilis"/>
+			<name name="{=dLyOdEBd}Omobono"/>
+			<name name="{=rwfzeSYc}Homobonus"/>
+			<name name="{=cWRJrEvT}Jacobello"/>
+			<name name="{=BcZzywTn}Jacopuccio"/>
+			<name name="{=pQGlwPTr}Lambertuccio"/>
+			<name name="{=FxvSsVtC}Lancilotto"/>
+			<name name="{=iJgyTsIN}Landolfuccio"/>
+			<name name="{=uTimEYpk}Landuccio"/>
+			<name name="{=MIEqYHZq}Lanfranco"/>
+			<name name="{=vUYDFFKE}Lanfrid"/>
+			<name name="{=xnNXqZqz}Lapaccio"/>
+			<name name="{=fAtPMgoR}Lenzone"/>
+			<name name="{=YPykIbFE}Leonarduccio"/>
+			<name name="{=MuvLpCdS}Lionardo"/>
+			<name name="{=wPOjZdVG}Liutger"/>
+			<name name="{=RGkUFTcs}Fediricu"/>
+			<name name="{=HGxIEldP}Ferdinannu"/>
+			<name name="{=BduZyOoV}Fernandu"/>
+			<name name="{=KUVDhiOO}Ferrucciu"/>
+			<name name="{=vRnxbqhv}Fidiricu"/>
+			<name name="{=YIaqTUlY}Federico"/>
+			<name name="{=sdagdESd}Filibertu"/>
+			<name name="{=atDzCBHV}Filiberto"/>
+			<name name="{=MWqsitWN}Filicianu"/>
+			<name name="{=zjsgovFU}Feliciano"/>
+			<name name="{=EzBdylfN}Filippeddu"/>
+			<name name="{=VvfnLMkg}Fiurenziu"/>
+			<name name="{=HGvDGJqY}Florentinus"/>
+			<name name="{=KIhjwCUE}Gabrieli"/>
+			<name name="{=pbDpQFYZ}Gaspari"/>
+			<name name="{=AtoOYKmE}Luzio"/>
+			<name name="{=YlzeomtS}Mancius"/>
+			<name name="{=FWSoNPWq}Manfreduccio"/>
+			<name name="{=NPzpXbcG}Marcolfo"/>
+			<name name="{=LwEmGuaX}Manfredi"/>
+			<name name="{=lFWAWMJc}Marcuccio"/>
+			<name name="{=pFJXmlpE}Marculfo"/>
+			<name name="{=TCITPyQB}Mariotto"/>
+			<name name="{=XmslJQmL}Martinuccio"/>
+			<name name="{=xsYhYUeS}Mazzeo"/>
+			<name name="{=JllTBsRg}Meo"/>
+			<name name="{=PlnodTht}Mercato"/>
+			<name name="{=vpPhoyjL}Michelino"/>
+			<name name="{=EAwbcluF}Michelotto"/>
+			<name name="{=kquWnPxL}Micheluccio"/>
+			<name name="{=bWAeJoBN}Napolino"/>
+			<name name="{=RXhdwrIj}Napo"/>
+			<name name="{=DqWLftkW}Niccolino"/>
+			<name name="{=CVGryKWw}Nicoloso"/>
+			<name name="{=BAKKirPE}Obertus"/>
+			<name name="{=OotIlxzG}Oderigo"/>
+			<name name="{=zRDabJKy}Offredo"/>
+			<name name="{=KDjamKyx}Offreduccio"/>
+			<name name="{=MTFBaJrX}Oliverotto"/>
+			<name name="{=tcTAnXPq}Onesto"/>
+			<name name="{=OECyWeNM}Orlanduccio"/>
+			<name name="{=WUBsctKU}Ostrobert"/>
+			<name name="{=GGVwQLXY}Ottobuono"/>
+			<name name="{=IQSHLuWf}Paganello"/>
+			<name name="{=qqRYxupD}Pino"/>
+			<name name="{=UzhZlGfN}Pinuccio"/>
+			<name name="{=olIlBqKX}Rambaldo"/>
+			<name name="{=mnbBFCGb}Renatuccio"/>
+			<name name="{=RyWTxDSn}Rinalduccio"/>
+			<name name="{=LjFnCZEF}Giraldu"/>
+			<name name="{=QUadoYOj}Girardu"/>
+			<name name="{=wTLoPtAF}Giseppi"/>
+			<name name="{=KuCTjdCu}Giuvanni"/>
+			<name name="{=QkeynbpD}Ignaziu"/>
+			<name name="{=byWUVUfd}Jermanu"/>
+			<name name="{=mUGKDIIO}Pietru"/>
+			<name name="{=pYwCZiYa}Patriziu"/>
+			<name name="{=QHBjPhha}Quintilianu"/>
+			<name name="{=LvargIOe}Quintillu"/>
+			<name name="{=JkYIPUnG}Raffaele"/>
+			<name name="{=hFxwjUIj}Raffaeli"/>
+			<name name="{=pHAXxyJj}Riccardu"/>
+			<name name="{=vEIXVYtE}Ricu"/>
+			<name name="{=bogQmcxA}Ròmulu"/>
+			<name name="{=unDHLFSY}Rudolfu"/>
+			<name name="{=fGyymzaQ}Rudrigu"/>
+			<name name="{=GFiDwnCF}Ruggeru"/>
+			<name name="{=QabxcEcx}Roffredo"/>
+			<name name="{=lSymPAik}Robaldo"/>
+			<name name="{=cafBtuWk}Rubeus"/>
+			<name name="{=jLPlLRWT}Robertuccio"/>
+			<name name="{=cOXXHtYF}Santoro"/>
+			<name name="{=OblBPyRO}Santuccio"/>
+			<name name="{=ZOvfvAir}Sigbald"/>
+			<name name="{=mpqAZRxd}Stefanuccio"/>
+			<name name="{=VwBfDwtK}Simonuccio"/>
+			<name name="{=LMiTtePX}Tedaldo"/>
+			<name name="{=CvRkzZbu}Tebalduccio"/>
+			<name name="{=UyaaoyaM}Tommaso"/>
+			<name name="{=kdJCwESR}Tomma"/>
+			<name name="{=ensBKCZN}Tommo"/>
+			<name name="{=MnkpQYLp}Tommasuccio"/>
+			<name name="{=puDphigk}Ubalduccio"/>
+			<name name="{=LKPwtAvK}Ubertuccio"/>
+			<name name="{=kazNgQKy}Ugotto"/>
+			<name name="{=ZyNwDoNK}Vermilius"/>
+			<name name="{=ZNCosIjI}Vincentio"/>
+			<name name="{=ZfxEPsWJ}Zacharia"/>
+			<name name="{=dhjgnbDF}Zane"/>
+			<name name="{=OCuxpYkl}Zuane"/>
+			<name name="{=yVNOYwqc}Sebastianu"/>
+			<name name="{=XIxYzdAn}Samueli"/>
+			<name name="{=ISOopvFH}Sergghiu"/>
+			<name name="{=uiiDsOXq}Sirvestru"/>
+			<name name="{=grZxCRad}Teodoru"/>
+			<name name="{=XzvgxrMc}Unfredu"/>
+			<name name="{=GfFWYoDc}Vinanziu"/>
+			<name name="{=lVSldCSG}Vitturi"/>
+			<name name="{=bQJIaVtj}Zenu"/>
+		</male_names>
+		<female_names>
+			<name name="{=CeSNiUkv}Abondancia"/>
+			<name name="{=rFfFXHwO}Accorsa"/>
+			<name name="{=laOhumDQ}Achilla"/>
+			<name name="{=tAfGksnu}Adaleta"/>
+			<name name="{=cCYkjtYw}Adelagia"/>
+			<name name="{=FXgEotOI}Adelasia"/>
+			<name name="{=kftLpnqH}Adeleta"/>
+			<name name="{=bJpSoXhC}Affrosa"/>
+			<name name="{=BpWBhcWq}Agnesina"/>
+			<name name="{=QCjRFXbf}Agnola"/>
+			<name name="{=cuVwpUeO}Alagia"/>
+			<name name="{=dxsEfezZ}Aiguana"/>
+			<name name="{=SZcqiQoa}Abbunnanzia"/>
+			<name name="{=lriVUGps}Adalinda"/>
+			<name name="{=IgddJTYz}Adelaidi"/>
+			<name name="{=oRIjRjLl}Adeluzza"/>
+			<name name="{=jUdJiTWS}Adilasia"/>
+			<name name="{=leZMNHRU}Alfania"/>
+			<name name="{=eJhlQjdK}Altabella"/>
+			<name name="{=kosWOLUf}Angnolina"/>
+			<name name="{=bXZsRQER}Anthonia"/>
+			<name name="{=TMiLkZPa}Austina"/>
+			<name name="{=WTKEaqdZ}Beatrisia"/>
+			<name name="{=ECWmzaYd}Belaflore"/>
+			<name name="{=JoFUfCyq}Belcolore"/>
+			<name name="{=kUAhxfga}Bellacara"/>
+			<name name="{=hVdpAact}Belladonna"/>
+			<name name="{=TisllRhn}Bellaflore"/>
+			<name name="{=duYEyJHb}Bellina"/>
+			<name name="{=QxfNpzmx}Benessa"/>
+			<name name="{=anOFUGGT}Benetta"/>
+			<name name="{=Zbxpobzw}Bergama"/>
+			<name name="{=NJslBedN}Bergamina"/>
+			<name name="{=DUcwdUWj}Bertuccia"/>
+			<name name="{=YWwzeVGT}Blasia"/>
+			<name name="{=vScXdfiv}Bona"/>
+			<name name="{=kdMKZagu}Bonafemina"/>
+			<name name="{=UHpbVmWc}Bonavera"/>
+			<name name="{=DEBVegzj}Brianda"/>
+			<name name="{=iExyNwKC}Brizia"/>
+			<name name="{=NAKJLwcD}Brunisenda"/>
+			<name name="{=hTTjcIAp}Calomaria"/>
+			<name name="{=egXXXVKp}Capuana"/>
+			<name name="{=LfYUYfek}Caro"/>
+			<name name="{=tTfDLNhR}Caterucia"/>
+			<name name="{=eFmaFSBM}Clarice"/>
+			<name name="{=vfiHioWV}Claricia"/>
+			<name name="{=hqBMmcld}Colleta"/>
+			<name name="{=yKhKNbXo}Corelia"/>
+			<name name="{=wcJrnCJA}Cristofana"/>
+			<name name="{=kCJPWmif}Dionora"/>
+			<name name="{=IVYnuGQG}Donatina"/>
+			<name name="{=pTsVbZHP}Doratea"/>
+			<name name="{=QRMJohmp}Emerentiana"/>
+			<name name="{=dqWTWwrU}Ermellina"/>
+			<name name="{=HqYIDhMw}Eufimia"/>
+			<name name="{=cydwDArv}Fania"/>
+			<name name="{=dGBNuERm}Fenicia"/>
+			<name name="{=gjsTCqab}Fiordelise"/>
+			<name name="{=GCagzFZN}Fiordelisia"/>
+			<name name="{=tUWvDwUN}Fiorebella"/>
+			<name name="{=kihweiuU}Francesa"/>
+			<name name="{=JhxLYfTE}Franchetta"/>
+			<name name="{=QdkitBeI}Gesualda"/>
+			<name name="{=aRtYUhKs}Ginivra"/>
+			<name name="{=EuxcRpkv}Ginueffa"/>
+			<name name="{=tcJaKAyr}Giraldina"/>
+			<name name="{=qPwQOGxP}Giurgina"/>
+			<name name="{=fMsHtjFH}Guendolina"/>
+			<name name="{=lIjhnHGD}Iliana"/>
+			<name name="{=UioOgFYe}Inrica"/>
+			<name name="{=Ngbladuj}Ireni"/>
+			<name name="{=oVHkbjRl}Irmina"/>
+			<name name="{=xbWClQJV}Jacinta"/>
+			<name name="{=PXGeLJVH}Loisa"/>
+			<name name="{=djSplbmB}Luchina"/>
+			<name name="{=fXuvnAsT}Lisabetta"/>
+			<name name="{=BVrnyRYI}Lessandra"/>
+			<name name="{=RADnWdZa}Loisia"/>
+			<name name="{=zqxwMUBp}Lottiera"/>
+			<name name="{=JlvUriPe}Malgarita"/>
+			<name name="{=tZbZcfsS}Maralda"/>
+			<name name="{=MJpLTcnP}Matelda"/>
+			<name name="{=eORpuXSZ}Mathiola"/>
+			<name name="{=LGWGkGcc}Maximilia"/>
+			<name name="{=OSegWAEN}Michelotta"/>
+			<name name="{=yKKhfcHz}Niccolosa"/>
+			<name name="{=JOSXQgzP}Nicoluccia"/>
+			<name name="{=yTKYPEOq}Ninuccia"/>
+			<name name="{=VVXhwzuZ}Nina"/>
+			<name name="{=TjZGcZIn}Odierna"/>
+			<name name="{=emphDAAi}Orelia"/>
+			<name name="{=lHFPrMZR}Oradina"/>
+			<name name="{=yEcHtaPV}Orsetta"/>
+			<name name="{=OelojUON}Palmeria"/>
+			<name name="{=schSuTJj}Pasquina"/>
+			<name name="{=isvHxCXq}Pleneria"/>
+			<name name="{=cTGGpDzi}Pomellina"/>
+			<name name="{=gHawShQT}Sancta"/>
+			<name name="{=bGlCtlaf}Smeralda"/>
+			<name name="{=ualiwPqE}Tessina"/>
+			<name name="{=kMUdeHYH}Thomisina"/>
+			<name name="{=aBdSwXvA}Tiberia"/>
+			<name name="{=rNxuAHrL}Verderosa"/>
+			<name name="{=xAblUQrI}Verdiana"/>
+			<name name="{=XqdEfpTX}Vermilia"/>
+			<name name="{=CSxMMoLE}Marghirita"/>
+			<name name="{=NmjERrMl}Marìa"/>
+			<name name="{=gkMQakLD}Marza"/>
+			<name name="{=IASrmKsO}Matildi"/>
+			<name name="{=jWAxikfj}Mirinziana"/>
+			<name name="{=JzJzpQMo}Mònica"/>
+			<name name="{=PeYSLEmX}Onella"/>
+			<name name="{=OWYERDjW}Orsulina"/>
+			<name name="{=MGvZiAdF}Sufìa"/>
+			<name name="{=CvDnkmUk}Vicenza"/>
+			<name name="{=tpDhaEAi}Virdiana"/>
+		</female_names>
+	</Culture>
+	<Culture id="santiago"
+	         name="{= }Spanish"
+	         is_main_culture="false"
+	         elite_basic_troop="NPCCharacter.santiago_grandknight"
+	         basic_troop="NPCCharacter.santiago_initiate"
+	         can_have_settlement="false"
+	         villager_party_template="PartyTemplate.villager_empire_template"
+	         encounter_background_mesh="encounter_empire"
+	         militia_party_template="PartyTemplate.militia_empire_template"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_empire"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_empire"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.vlandia_sword_1_t2"/>
+			<item id="Item.vlandia_sword_2_t3"/>
+			<item id="Item.vlandia_sword_3_t4"/>
+			<item id="Item.vlandia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<male_names>
+			<name name="{=XplKUihj}Gonzalo"/>
+			<name name="{=aGNuMxjU}Rodrigo"/>
+			<name name="{=xHxOvziT}Juan"/>
+			<name name="{=XoowKbjg}Alfonso"/>
+			<name name="{=ehAGVGpE}Fernando"/>
+			<name name="{=mlXehMyd}Garci"/>
+			<name name="{=raWruIQv}Fernán"/>
+			<name name="{=kdlBnsBF}Petrus"/>
+			<name name="{=VTjUylJh}Íñigo"/>
+			<name name="{=rMeIOTts}Pedro"/>
+			<name name="{=WHZTrlwK}Álvaro"/>
+			<name name="{=abQOhcAh}Açach"/>
+			<name name="{=QEbYfDOD}Aio"/>
+			<name name="{=VSTJcWAX}Ansurius"/>
+			<name name="{=BkCuWsuE}Aznaro"/>
+			<name name="{=RnLPBoNG}Cresconio"/>
+			<name name="{=PJtFPNGt}Cristoval"/>
+			<name name="{=bWeOvNBx}Çulema"/>
+			<name name="{=ISpMQMxr}Diago"/>
+			<name name="{=MtBGPHSR}Donadei"/>
+			<name name="{=atwqjhTP}Estevan"/>
+			<name name="{=yqqKhhvv}Ezmael"/>
+			<name name="{=oeqcHGGy}Fadrique"/>
+			<name name="{=PBUZCwur}Ferrando"/>
+			<name name="{=SDkFiZzX}Ferrandus"/>
+			<name name="{=pjzCuwkV}Flaín"/>
+			<name name="{=DTimdoZD}Fortún"/>
+			<name name="{=qswYCrIc}Galindo"/>
+			<name name="{=jdpLhpgJ}Gascon"/>
+			<name name="{=zhAAsaTQ}Gelmiro"/>
+			<name name="{=LRYgIYBM}Gilo"/>
+			<name name="{=XwLLYOIc}Graviel"/>
+			<name name="{=MOxSbJqF}Gudesteo"/>
+			<name name="{=EdDGakyF}Guillén"/>
+			<name name="{=WjlMlhMJ}Gundisalvo"/>
+			<name name="{=dYGsZdRp}Juçe"/>
+			<name name="{=LbfklzOq}Laín"/>
+			<name name="{=yeIigQaE}Laurente"/>
+			<name name="{=lUDgqrNN}Marculfo"/>
+			<name name="{=sjKyQicT}Mauregato"/>
+			<name name="{=zvlTmHCh}Alfonso"/>
+			<name name="{=kvoZSnAk}Menendo"/>
+			<name name="{=ykqjmCpP}Narcisus"/>
+			<name name="{=UQMaVUch}Narciso"/>
+			<name name="{=tujDnFxM}Ordoño"/>
+			<name name="{=QvNwqSbH}Peiro"/>
+			<name name="{=BEzYNwKF}Polo"/>
+			<name name="{=xFnIKoHM}Paolo"/>
+			<name name="{=eTEfgtCM}Paulo"/>
+			<name name="{=dApYBNtM}Recaredo"/>
+			<name name="{=LingZllx}Sandalius"/>
+			<name name="{=xnAXNgev}Servusdei"/>
+			<name name="{=pZvHYeFt}Siserich"/>
+			<name name="{=RPrDDoQG}Sisulf"/>
+			<name name="{=VBzxfaFO}Tello"/>
+			<name name="{=XRpwiwgR}Viterico"/>
+			<name name="{=IhbSAohX}Wilesindo"/>
+			<name name="{=kSeqCeyS}Ranemiro"/>
+			<name name="{=BRYWDHlP}Recessvindo"/>
+			<name name="{=VFRXcEMY}Frunimius"/>
+			<name name="{=fJPrCWZx}Ordonius"/>
+			<name name="{=kSFFltLa}Teodemiro"/>
+			<name name="{=FRYnZCoV}Fortes"/>
+			<name name="{=mkRNskYZ}Obecco"/>
+			<name name="{=FawGuait}Piniolo"/>
+			<name name="{=ZToliLTT}Sanzo"/>
+			<name name="{=kzwccGdw}Vicentius"/>
+			<name name="{=TpcaQBlx}Ermegildus"/>
+			<name name="{=ReBmrXkB}Fredenando"/>
+			<name name="{=MUBLCnps}Donino"/>
+			<name name="{=zaFrygSP}Garseo"/>
+			<name name="{=ZZUblEwm}Petro"/>
+			<name name="{=EEnmLNBG}Iohannes"/>
+			<name name="{=YXUVcSxP}Felix"/>
+			<name name="{=opZxUQGd}Dulcidio"/>
+			<name name="{=OFppKbFs}Iuliano"/>
+			<name name="{=tQJVQlWb}Monnio"/>
+			<name name="{=MuQOpfpT}Teodulfus"/>
+			<name name="{=xKOVQlnj}Christoforo"/>
+			<name name="{=axJqsQYB}Ciprianus"/>
+			<name name="{=qkKwSXCG}Ferro"/>
+			<name name="{=TEoULLvx}Flazino"/>
+			<name name="{=eurnwFlE}Godemundo"/>
+			<name name="{=BZBfkxUo}Godesteo"/>
+			<name name="{=pWvdKHqz}Iustus"/>
+			<name name="{=ZGOBuDiu}Magino"/>
+			<name name="{=IrtkBwdA}Maurellus"/>
+			<name name="{=lstRCFRB}Pepino"/>
+			<name name="{=xHxwQBxe}Stephano"/>
+			<name name="{=TEDpeUvR}Abdias"/>
+			<name name="{=FWnSpgdK}Andemio"/>
+			<name name="{=BsAbXOpM}Andreas"/>
+			<name name="{=YstNNPtI}Antonio"/>
+			<name name="{=SzVocBMW}Artemio"/>
+			<name name="{=fQzsoqIo}Cesario"/>
+			<name name="{=yGCNCVGA}Eugenio"/>
+			<name name="{=UzCqTeeH}Gomiz"/>
+			<name name="{=unUxWWZp}Gontino"/>
+			<name name="{=bililRYe}Martinus"/>
+			<name name="{=NtmOYvRV}Rodrico"/>
+			<name name="{=xDZiGGjd}Dominico"/>
+			<name name="{=sMdPIfkc}Donno"/>
+			<name name="{=RgGnmLvD}Deodavi"/>
+			<name name="{=kJVFqots}Gebuldus"/>
+			<name name="{=iSgGYKDM}Genadius"/>
+			<name name="{=qxvzBObL}Sabiano"/>
+			<name name="{=XxdzosBm}Sebastiano"/>
+			<name name="{=ggNkeAsp}Valdeo"/>
+			<name name="{=clzNjnHR}Zacarias"/>
+			<name name="{=NvsrUJxP}Pascuale"/>
+			<name name="{=ZXZcQMcJ}Petro"/>
+			<name name="{=zPiXvjdQ}Raimundo"/>
+			<name name="{=qoUCTzmx}Domingo"/>
+			<name name="{=tDCKKWnv}Bernardo"/>
+			<name name="{=wdisqRNf}Enrique"/>
+			<name name="{=lgydqzKs}Miguel"/>
+			<name name="{=QGNQDFHA}Saluador"/>
+			<name name="{=dWstsryR}Ildefonso"/>
+			<name name="{=mgUNtviC}Sancho"/>
+			<name name="{=Wvqmblwy}Rutbertus"/>
+			<name name="{=YawkKGpy}Sebastian"/>
+			<name name="{=DTLTqbmR}Esteuan"/>
+			<name name="{=DuqvCatZ}Bartolome"/>
+			<name name="{=ZNTwNeyo}Silvestre"/>
+			<name name="{=rMMYcYtP}Felipe"/>
+			<name name="{=soVZnJzJ}Marcos"/>
+			<name name="{=pnsEYEOn}Lorenzo"/>
+		</male_names>
+		<female_names>
+			<name name="{=sHkTzjqb}Aldonza"/>
+			<name name="{=BNikpgQH}Adosinda"/>
+			<name name="{=ngGVBTrq}Beatriz"/>
+			<name name="{=QKUGdvZE}Briceida"/>
+			<name name="{=tFZHvvZT}Castellana"/>
+			<name name="{=ZNHBkZVF}Clarencia"/>
+			<name name="{=tVkDEhhE}Cristofania"/>
+			<name name="{=KZxDjMIB}Dionora"/>
+			<name name="{=mtuQZINq}Domenga"/>
+			<name name="{=NOCwNGwj}Eduvigis"/>
+			<name name="{=rXfXxVTA}Egilona"/>
+			<name name="{=wqWiLBYf}Eldara"/>
+			<name name="{=xDeCfZsJ}Eulalia"/>
+			<name name="{=ugExrmPe}Enderquina"/>
+			<name name="{=hsdaIFYE}Engraçia"/>
+			<name name="{=hLyqjuZC}Ermengarda"/>
+			<name name="{=dzmScygd}Ermesinda"/>
+			<name name="{=jwwysVKp}Estevania"/>
+			<name name="{=JICarQQC}Fradegundia"/>
+			<name name="{=oHrlwckf}Fronilde"/>
+			<name name="{=dhJmriPR}Berengaria"/>
+			<name name="{=RvyyWSzC}Blanche"/>
+			<name name="{=CELfISyP}Urraca"/>
+			<name name="{=qgBkpRrH}Leonor"/>
+			<name name="{=AFtfHZEp}Sancha"/>
+			<name name="{=aDYjjbsJ}María"/>
+			<name name="{=IRASJVVa}Inés"/>
+			<name name="{=fHVFzxMe}Teresa"/>
+			<name name="{=cbADXrrC}Juana"/>
+			<name name="{=ymQhYKTx}Mafalda"/>
+			<name name="{=rNmIVaYT}Mécia"/>
+			<name name="{=JnExOVDU}Gelvira"/>
+			<name name="{=wsqobVhj}Geronima"/>
+			<name name="{=SbnWOdZg}Graciosa"/>
+			<name name="{=ssEdqldV}Graña"/>
+			<name name="{=rbPMWaUq}Guntroda"/>
+			<name name="{=zWlkIRGs}Ildaria"/>
+			<name name="{=xJPwoXXA}Ilduara"/>
+			<name name="{=OyQMaAgA}Iñiguez"/>
+			<name name="{=fCdEdtnk}Lorencia"/>
+			<name name="{=TLfPzQeo}Madelena"/>
+			<name name="{=QWQewsoG}Mayor"/>
+			<name name="{=BwJqMLUr}Monnia"/>
+			<name name="{=VnxegGZR}Ochanda"/>
+			<name name="{=IqqKvWTD}Odulina"/>
+			<name name="{=XagTanGV}Onofria"/>
+			<name name="{=LQslhkuC}Oreca"/>
+			<name name="{=feCHUpJg}Oroana"/>
+			<name name="{=lsEfklFR}Orodueyna"/>
+			<name name="{=nPsVOrAx}Ostosia"/>
+			<name name="{=QwJnffkW}Peironella"/>
+			<name name="{=eQULxmpT}Sancia"/>
+			<name name="{=eVfhwYne}Placia"/>
+			<name name="{=sWXJUAYj}Soloro"/>
+			<name name="{=iEPoKAIR}Sonifrida"/>
+			<name name="{=brfgfGKx}Taresa"/>
+			<name name="{=UAqdDhId}Talesa"/>
+			<name name="{=HxowgOlb}Tegrida"/>
+			<name name="{=ZJvtiEwo}Velasquita"/>
+			<name name="{=uzWkaIWw}Ynes"/>
+			<name name="{=GXZEJDsm}Scemena"/>
+			<name name="{=ePAVdoFB}Maria"/>
+			<name name="{=GVlZSqkA}Sesildi"/>
+			<name name="{=pFOfKROA}Auria"/>
+			<name name="{=rwVqAueY}Aurofilo"/>
+			<name name="{=qmejcGJj}Bennadda"/>
+			<name name="{=CmNPyKEp}Ermesinda"/>
+			<name name="{=ubbXUSpV}Gontilli"/>
+			<name name="{=OTtJeWgI}Iuliana"/>
+			<name name="{=ttpGoxeZ}Servanda"/>
+			<name name="{=vLEdWNNa}Berta"/>
+			<name name="{=hohCLioF}Eldonza"/>
+			<name name="{=JsTmwMtO}Eufemia"/>
+			<name name="{=SmEFotdq}Monnia"/>
+			<name name="{=CJMCbKDN}Costanza"/>
+			<name name="{=tGvMpcak}Isabel"/>
+			<name name="{=aXkAfMmx}Mariana"/>
+			<name name="{=yBFDmzsV}Marinella"/>
+		</female_names>
+	</Culture>
+	<Culture id="templar"
+	         name="{=templarCulture}Templar"
+	         is_main_culture="false"
+	         elite_basic_troop="NPCCharacter.templar_brother_squire"
+	         basic_troop="NPCCharacter.templar_initiate"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_empire_template"
+	         encounter_background_mesh="encounter_empire"
+	         militia_party_template="PartyTemplate.militia_empire_template"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_vlandia"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_vlandia"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.vlandia_sword_1_t2"/>
+			<item id="Item.vlandia_sword_2_t3"/>
+			<item id="Item.vlandia_sword_3_t4"/>
+			<item id="Item.vlandia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<male_names>
+			<name name="{=hlibvwVO}Hugues"/>
+			<name name="{=KCNZTuMk}Godfrey"/>
+			<name name="{=rVQlEgLq}Payen"/>
+			<name name="{=xxZcUsQk}Gundemar"/>
+			<name name="{=YIDJmDVS}Clairvaux"/>
+			<name name="{=ATbcSQdR}Geoffrey"/>
+			<name name="{=HkWHosPH}Raymond"/>
+			<name name="{=wBGLDlpc}Pons"/>
+			<name name="{=RRENqjmV}Gerald"/>
+			<name name="{=OikzthHX}Arnold "/>
+			<name name="{=kQWDzJHo}William"/>
+			<name name="{=ZZLWYxyb}Fulk"/>
+			<name name="{=ssZwoGnb}Stephen"/>
+			<name name="{=CHOxCHpy}Fridericus"/>
+			<name name="{=YdgwZBaD}Berthramus"/>
+			<name name="{=KRkTaLTf}Bernhard"/>
+			<name name="{=UqZGMdKY}Hoston"/>
+			<name name="{=gynWMDzJ}Richard"/>
+			<name name="{=pPqlpbSl}Lawrence"/>
+			<name name="{=sZQjyfUE}Roger"/>
+			<name name="{=rYmpcyeX}Henri"/>
+			<name name="{=XZeGsKAf}Louis"/>
+			<name name="{=yFPTfPCu}Nicolas"/>
+			<name name="{=RBVijiXt}Raoul"/>
+			<name name="{=vWhuVvVf}Simon"/>
+			<name name="{=ridqGMMq}Vilain"/>
+			<name name="{=bnDIQogW}Anseau"/>
+			<name name="{=KbTJXTWy}Dreux"/>
+			<name name="{=YPotJdGL}Ignato"/>
+			<name name="{=jIlTYnyy}Gervais"/>
+			<name name="{=GZldwivH}Jacques"/>
+			<name name="{=cLDZztoA}Jarik"/>
+			<name name="{=LhIogEqF}Mathieu"/>
+			<name name="{=pffkWUaO}Malko"/>
+			<name name="{=iTubFMKk}Mirad"/>
+			<name name="{=HcfcPTou}Renier"/>
+			<name name="{=mYJyrHnk}Thierry"/>
+			<name name="{=FUnzVzzi}Nifont"/>
+			<name name="{=HvdsQRwu}Aimery"/>
+			<name name="{=hgVihtQR}Aimon"/>
+			<name name="{=oMwkhDTc}Bernard"/>
+			<name name="{=MeczvcZj}Charles"/>
+			<name name="{=LkgiyFub}Enguerrand"/>
+			<name name="{=PVPNreQL}Stanilo"/>
+			<name name="{=yuUxleyj}Josserand"/>
+			<name name="{=YNTAkhvJ}Olivier"/>
+			<name name="{=JAkzGKle}Achard"/>
+			<name name="{=YSuIeaxS}Aubert"/>
+			<name name="{=MHHLKWJa}Clarembaud"/>
+			<name name="{=dPoslFFw}Garnier"/>
+		</male_names>
+		<female_names>
+			<name name="{=wqrwawxN}Aalis"/>
+			<name name="{=QEghLZRc}Amelia"/>
+			<name name="{=HxPYMffs}Isabeau"/>
+			<name name="{=PpmWTvna}Jehanne"/>
+			<name name="{=gMNfquBF}Cateline"/>
+			<name name="{=ysquxxSa}Alice"/>
+			<name name="{=bKHsHdPY}Jeanne"/>
+			<name name="{=aYtCunVL}Joan"/>
+			<name name="{=mgDQZiQj}Ida"/>
+			<name name="{=ZFEPVdXt}Peronnelle"/>
+			<name name="{=IXzxRZxI}Angéle"/>
+			<name name="{=tekafzXu}Beatrice"/>
+			<name name="{=TnGiLFrU}Mathilde"/>
+			<name name="{=kXOlMUtd}Avoise"/>
+			<name name="{=eEQcmguo}Marie"/>
+			<name name="{=ZXEbkMUk}Alys"/>
+			<name name="{=cZCKiQLe}Alix"/>
+			<name name="{=qAhgPVXo}Alamanda"/>
+			<name name="{=ChEFtvct}Margaret"/>
+			<name name="{=lwDoqjbu}Adelaide"/>
+			<name name="{=DflSCeiW}Martha"/>
+			<name name="{=IrRmFGmd}Matilda"/>
+			<name name="{=vgIFbUlI}Constance"/>
+			<name name="{=gpUWfXjB}Clementia"/>
+			<name name="{=ByTdFYpa}Philippa"/>
+			<name name="{=bPsOipzJ}Catherine"/>
+			<name name="{=fJTrVcVp}Stéphanie"/>
+			<name name="{=pxQDnNDQ}Petronilla"/>
+			<name name="{=UttEWvbD}Yolanda"/>
+			<name name="{=shzrlCEU}Amicie"/>
+			<name name="{=lvmSafbW}Douceline"/>
+			<name name="{=ltnVSOPh}Marguerite"/>
+			<name name="{=tqSkHbtJ}Eleanor"/>
+			<name name="{=FwSiABiu}Gertrude"/>
+			<name name="{=kJkJbhgp}Guillemette"/>
+			<name name="{=rRRNqKxu}Blanche"/>
+			<name name="{=mGoVCckW}Elizabeth"/>
+			<name name="{=tvjZDadS}Yolande"/>
+			<name name="{=VhNQqxHS}Fiva"/>
+			<name name="{=vXkRRkFp}Fomaida"/>
+			<name name="{=kafxcNud}Gordislava"/>
+			<name name="{=WELMNVjf}Iarina"/>
+			<name name="{=JgWhheBx}Igarthic"/>
+			<name name="{=dvAQNIvP}Iraida"/>
+			<name name="{=kbOXLREJ}Irodia"/>
+			<name name="{=vuCcEowY}Jarena"/>
+			<name name="{=FmWJuOyV}Justinja"/>
+			<name name="{=vLFACUKz}Kalisfena"/>
+			<name name="{=MebDqbKN}Kapitelina"/>
+			<name name="{=rmpZBBMx}Kilikeja"/>
+			<name name="{=wUZXKEgP}Kosenila"/>
+			<name name="{=swrbrmHU}Maremeiana"/>
+			<name name="{=NOhseBgg}Mirofa"/>
+			<name name="{=UxWemHek}Miropia"/>
+			<name name="{=MuhkqsrA}Olenica"/>
+			<name name="{=rLWrszhy}Peredeslava"/>
+			<name name="{=ppMDiIIO}Ragneda"/>
+			<name name="{=DDcwlHOW}Rogneda"/>
+			<name name="{=FwTfvIQp}Samona"/>
+			<name name="{=ixkOcthG}Smirenka"/>
+			<name name="{=DYRFEbeT}Solomonida"/>
+			<name name="{=TXmtbagB}Tekusa"/>
+			<name name="{=AtOGumOE}Vasalisa"/>
+			<name name="{=yZaBHlNZ}Virineia"/>
+			<name name="{=nrBSZCKt}Vivka"/>
+			<name name="{=zzPyawtt}Zvenislava"/>
+		</female_names>
+	</Culture>
+	<!-- - -->
+	<Culture id="sami"
+	         name="{=samiCulture}Sámi"
+	         is_main_culture="false"
+	         elite_basic_troop="NPCCharacter.sami_chieftain"
+	         basic_troop="NPCCharacter.sami_tribesman"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.kingdom_hero_party_sami_template"
+	         encounter_background_mesh="encounter_sturgia"
+	         militia_party_template="PartyTemplate.militia_sturgia_template"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_sturgia"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_sturgia"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.sturgia_sword_1_t2"/>
+			<item id="Item.sturgia_sword_2_t3"/>
+			<item id="Item.sturgia_sword_4_t4"/>
+			<item id="Item.sturgia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<male_names>
+			<name name="{=WqEWsTgv}Åållaž"/>
+			<name name="{=qSqecFtp}Ååskaž"/>
+			<name name="{=bgGvhEba}Ábo"/>
+			<name name="{=XWnvoQsW}Ábrrán"/>
+			<name name="{=XUuBYpmx}Ádo"/>
+			<name name="{=CSbpvTVo}Ágá"/>
+			<name name="{=wkItbsDt}Ággi"/>
+			<name name="{=RWsBxPrV}Ahkebeaivi"/>
+			<name name="{=QiWBvqSm}Ahkejuoksa"/>
+			<name name="{=GycSKQsq}Áibmu"/>
+			<name name="{=gsSEqVhp}Áksel"/>
+			<name name="{=eFHzDlcv}Bánccu"/>
+			<name name="{=BONRubOM}Báncu"/>
+			<name name="{=GxYHENsQ}Bánnos"/>
+			<name name="{=DyBEGYsR}Bávlos"/>
+			<name name="{=lDqauuVM}Bávvál"/>
+			<name name="{=eBCokORN}Beahkká"/>
+			<name name="{=logVyweq}Beaivvet"/>
+			<name name="{=sNMueuSs}Beđar"/>
+			<name name="{=xpsosKcn}Beʹnjam"/>
+			<name name="{=IEhIgdfk}Benjáme"/>
+			<name name="{=KmijmCZc}Biejaš"/>
+			<name name="{=BuIRyrtr}Bierdna"/>
+			<name name="{=oKIMuDPp}Cáijá"/>
+			<name name="{=wvEgUysL}Čuivi"/>
+			<name name="{=ThlBqgCv}Dáidu"/>
+			<name name="{=JqCGnhvu}Deahppán"/>
+			<name name="{=dYWUJDlp}Duttá"/>
+			<name name="{=irOGBzXK}Eaddji"/>
+			<name name="{=kfqfcCig}Egel"/>
+			<name name="{=ynBPlzOj}Erke"/>
+			<name name="{=hWWtrnCU}Gáktu"/>
+			<name name="{=vAPlgrzr}Gealbu"/>
+			<name name="{=AAcsuTqj}Geažotmiella"/>
+			<name name="{=jyMQapJo}Guivi"/>
+			<name name="{=hHVKDSJy}Heaibmu"/>
+			<name name="{=lyxeHfYT}Heandarak"/>
+			<name name="{=EYhBDLxY}Heiká"/>
+			<name name="{=upZgATHn}Huâttar"/>
+			<name name="{=nkpVhthL}Inari"/>
+			<name name="{=cyLuoElM}Julejus"/>
+			<name name="{=fgCeeZdL}Junne"/>
+			<name name="{=OimvEtOr}Juoksa"/>
+			<name name="{=HUPjgHis}Juvvá"/>
+			<name name="{=nnwZjrur}Kállá"/>
+			<name name="{=RoduVThG}Kálle"/>
+			<name name="{=bVuKQWnU}Klemmá"/>
+			<name name="{=zFHuQozW}Lääda"/>
+			<name name="{=NyXKaQlr}Lääzar"/>
+			<name name="{=eNTQcLNm}Lájár"/>
+			<name name="{=UrRXBqRj}Lejo"/>
+			<name name="{=FvERhzVf}Leaifa"/>
+			<name name="{=NgfyIfHS}Mellet"/>
+			<name name="{=BbKvdULU}Mielat"/>
+			<name name="{=UjwEChqR}Mohkku"/>
+			<name name="{=mFKMrgKV}Oanet"/>
+			<name name="{=NmAwrGCu}Oaván"/>
+			<name name="{=KBvixiZW}Oijá"/>
+			<name name="{=aeztMAoN}Orddot"/>
+			<name name="{=RDqruKOY}Peivas"/>
+			<name name="{=YhTzDcZh}Sabbe"/>
+			<name name="{=jcZvpCMG}Valljáš"/>
+			<name name="{=rHNOpsrD}Várvá"/>
+			<name name="{=gyWXmPxz}Volbmar"/>
+			<name name="{=kUQKzFuT}Vuollá"/>
+			<name name="{=LeMDoXgN}Viggu"/>
+			<name name="{=JXEXsCOX}Uvllá"/>
+			<name name="{=WehHOLOU}Uhkku"/>
+		</male_names>
+		<female_names>
+			<name name="{=jcFLxeUD}Ablunia"/>
+			<name name="{=aHqPjOyf}Engelicka"/>
+			<name name="{=OqVOSaOd}Kersa"/>
+			<name name="{=BiBObenz}Lastikka"/>
+			<name name="{=qtFSbvtJ}Mechtil"/>
+			<name name="{=nvXgAXQj}Miksitär"/>
+			<name name="{=vqhwTKNk}Rikitsa"/>
+			<name name="{=zieHJBcC}Ååʹlga"/>
+			<name name="{=iZGnHinp}Ádá"/>
+			<name name="{=xTYxAMDw}Áidná"/>
+			<name name="{=fIptcWKF}Áidnu"/>
+			<name name="{=UMheOHor}Áila"/>
+			<name name="{=QzVCmPCU}Áirá"/>
+			<name name="{=zhSYlfEq}Aja"/>
+			<name name="{=KZYEoqvX}Biellá"/>
+			<name name="{=fvfvlgNS}Bigga"/>
+			<name name="{=EQuQioRu}Bigge"/>
+			<name name="{=yGKlfvdA}Biret"/>
+			<name name="{=fJElIXNs}Čuvje"/>
+			<name name="{=etLyiVps}Dávdna"/>
+			<name name="{=lyqKsgkT}Duojá"/>
+			<name name="{=ItRbcYfA}Edel"/>
+			<name name="{=WIjeBuDS}Elen"/>
+			<name name="{=sAapfshp}Elbmá"/>
+			<name name="{=sQQIvWDY}Elve"/>
+			<name name="{=VhlXuEEj}Gealá"/>
+			<name name="{=xefNgZSE}Gollá"/>
+			<name name="{=WQepzbUC}Gierá"/>
+			<name name="{=SuCUmsLP}Helbme"/>
+			<name name="{=SCZWIrzG}Helgá"/>
+			<name name="{=RqrErVKA}Iggá"/>
+			<name name="{=XUuXGNso}Inari"/>
+			<name name="{=QybazBPu}Irbmá"/>
+			<name name="{=lOdiKIeV}Jaská"/>
+			<name name="{=Uyveepna}Juoksáhkká"/>
+			<name name="{=yQZUmnxy}Kirste"/>
+			<name name="{=ecvwNfFR}Lieđđi"/>
+			<name name="{=uksJkAQl}Linne"/>
+			<name name="{=UFzTfuzP}Mággá"/>
+			<name name="{=CrTwPsVk}Máttaráhkká"/>
+			<name name="{=gRVDwPMU}Nienná"/>
+			<name name="{=fVArIuPI}Oggi"/>
+			<name name="{=vgnnpSrF}Oggvi"/>
+			<name name="{=DQeYNBhW}Ráfi"/>
+			<name name="{=ckxUiYDz}Rana"/>
+			<name name="{=fUvNYRFE}Ruvsá"/>
+			<name name="{=tDQLJRYd}Runá"/>
+			<name name="{=PrRDWUCo}Sáráhkká"/>
+			<name name="{=GhpyOWpK}Seita"/>
+			<name name="{=vdqJewFj}Soabá"/>
+			<name name="{=srnCUIeV}Suoinná"/>
+			<name name="{=GurAwKXa}Uksáhkká"/>
+			<name name="{=pkicvKVF}Unni"/>
+			<name name="{=VysQqNmD}Veâra"/>
+		</female_names>
+	</Culture>
+	<Culture id="nizari"
+	         name="{=nizariCulture}Nizari"
+	         is_main_culture="false"
+	         elite_basic_troop="NPCCharacter.nizari_mujahid"
+	         basic_troop="NPCCharacter.nizari_fidayin"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_aserai_template"
+	         encounter_background_mesh="encounter_aserai"
+	         militia_party_template="PartyTemplate.militia_aserai_template"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_aserai"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_aserai"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.aserai_sword_1_t2"/>
+			<item id="Item.aserai_sword_3_t3"/>
+			<item id="Item.aserai_sword_4_t4"/>
+			<item id="Item.aserai_sword_5_t4"/>
+		</banner_bearer_replacement_weapons>
+		<male_names>
+			<name name="{=tzlrrCGl}Hassan"/>
+			<name name="{=dfUOGNkN}Kiyā"/>
+			<name name="{=gRzjgwZw}Muhammad"/>
+			<name name="{=EsntzzMS}Ummid"/>
+			<name name="{=YNSibQxz}Nur"/>
+			<name name="{=fASAIRHZ}Jalal"/>
+			<name name="{=NsdPfHtm}Ala"/>
+			<name name="{=vXephQfj}Rukn"/>
+		</male_names>
+		<female_names>
+			<name name="{=QGwjqBhi}Adrina"/>
+			<name name="{=psXHwrcl}Amuhia"/>
+			<name name="{=AvDhnGoC}Barsine"/>
+			<name name="{=UFvoFXMg}Cassandane"/>
+		</female_names>
+	</Culture>
+	<Culture id="lazarus"
+	         name="{= }Lazarists"
+	         is_main_culture="false"
+	         elite_basic_troop="NPCCharacter.lazarus_grandknight"
+	         basic_troop="NPCCharacter.lazarus_initiate"
+	         can_have_settlement="false"
+	         villager_party_template="PartyTemplate.villager_empire_template"
+	         encounter_background_mesh="encounter_empire"
+	         militia_party_template="PartyTemplate.militia_empire_template"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_vlandia"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_vlandia"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.vlandia_sword_1_t2"/>
+			<item id="Item.vlandia_sword_2_t3"/>
+			<item id="Item.vlandia_sword_3_t4"/>
+			<item id="Item.vlandia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<male_names>
+			<name name="{=lazarusm1}John"/>
+			<name name="{=lazarusm2}William"/>
+			<name name="{=lazarusm3}Robert"/>
+			<name name="{=lazarusm4}Geoffrey"/>
+			<name name="{=lazarusm5}Matthew"/>
+			<name name="{=lazarusm6}Hugh"/>
+		</male_names>
+		<female_names>
+			<name name="{=lazarusw1}Maria"/>
+			<name name="{=lazarusw2}Nina"/>
+			<name name="{=lazarusw3}Agnes"/>
+		</female_names>
+	</Culture>
+	<Culture id="cathars"
+	         name="{= }Catharism"
+	         is_main_culture="false"
+	         elite_basic_troop="NPCCharacter.cathar_grail_protector"
+	         basic_troop="NPCCharacter.cathar_credente"
+	         can_have_settlement="false"
+	         villager_party_template="PartyTemplate.villager_empire_template"
+	         encounter_background_mesh="encounter_empire"
+	         militia_party_template="PartyTemplate.militia_empire_template"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_vlandia"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_vlandia"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.vlandia_sword_1_t2"/>
+			<item id="Item.vlandia_sword_2_t3"/>
+			<item id="Item.vlandia_sword_3_t4"/>
+			<item id="Item.vlandia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<male_names>
+			<name name="{=catharsm1}Raymond"/>
+			<name name="{=catharsm2}Roger"/>
+			<name name="{=catharsm3}Guillaume"/>
+			<name name="{=catharsm4}Guilhabert"/>
+			<name name="{=catharsm5}Raimon"/>
+			<name name="{=catharsm6}Arnaut"/>
+		</male_names>
+		<female_names>
+			<name name="{=catharsw1}Béatrice"/>
+			<name name="{=catharsw2}Clara"/>
+			<name name="{=catharsw3}Blanche"/>
+		</female_names>
+	</Culture>
+	<Culture id="hospitaller"
+	         name="{= }Hospitaliers"
+	         is_main_culture="false"
+	         elite_basic_troop="NPCCharacter.hospitaller_brother_knight_captain"
+	         basic_troop="NPCCharacter.hospitaller_initiate"
+	         can_have_settlement="false"
+	         villager_party_template="PartyTemplate.villager_empire_template"
+	         encounter_background_mesh="encounter_empire"
+	         militia_party_template="PartyTemplate.militia_empire_template"
+	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
+	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_vlandia"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_vlandia"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.vlandia_sword_1_t2"/>
+			<item id="Item.vlandia_sword_2_t3"/>
+			<item id="Item.vlandia_sword_3_t4"/>
+			<item id="Item.vlandia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<male_names>
+			<name name="{=hospita1}Guillaume"/>
+			<name name="{=hospita2}Hugues"/>
+			<name name="{=hospita3}Nicolas"/>
+			<name name="{=hospita4}Bertrand"/>
+			<name name="{=hospita5}Geoffroy"/>
+			<name name="{=hospita6}Raymond"/>
+		</male_names>
+		<female_names>
+			<name name="{=hospitb1}Caterina"/>
+			<name name="{=hospitb2}Isabella"/>
+			<name name="{=hospitb3}Eleanor"/>
+		</female_names>
+	</Culture>
+</SPCultures>

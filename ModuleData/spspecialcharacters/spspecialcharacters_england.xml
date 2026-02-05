@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- WANDERERS -->
+	<!-- formerly the ornery, merlin-type. 'By the time I became a woman I was sick of filthy huts and puking babies.' -->
+	<NPCCharacter id="spc_wanderer_england_0" name="{=G8mawcBV}{FIRSTNAME} Herbwyfe" voice="ironic" age="30" is_female="true" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_0_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_england"/>
+		</face>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_england"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- boastful, keeps a collection of his enemies' heads  -->
+	<NPCCharacter id="spc_wanderer_england_1" name="{=qslA0bVb}{FIRSTNAME} Reed" voice="earnest" age="28" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.england" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_1_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_england"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_england"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--Set up to die in a duel by his stepfather, but won the duels -->
+	<NPCCharacter id="spc_wanderer_england_2" name="{=2U2Hy2Su}{FIRSTNAME} Blond" voice="ironic" age="28" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.england" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_2_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_england"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_england"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- the grey, professional veteran. fought for the empire -->
+	<NPCCharacter id="spc_wanderer_england_3" name="{=pTuZB1Hj}{FIRSTNAME} Mercer" voice="ironic" age="35" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.england" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_3_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_england"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_england"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- horsethief, boastful -->
+	<NPCCharacter id="spc_wanderer_england_4" name="{=fJmGKlaO}{FIRSTNAME} Mallet" voice="ironic" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.england" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_4_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_england"/>
+		</face>
+		<Traits>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_england"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--loner, deserted the wolfskins -->
+	<NPCCharacter id="spc_wanderer_england_5" name="{=CQOlMayc}{FIRSTNAME} Lovell" voice="softspoken" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.england" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_5_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_england"/>
+		</face>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_england"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--talkative bandit, of the hills -->
+	<NPCCharacter id="spc_wanderer_england_6" name="{=nqE62lQW}{FIRSTNAME} Blaketoth" voice="ironic" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.england" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_6_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_england"/>
+		</face>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_england"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--female, the wanderer. killed a chief's son who pestered her -->
+	<NPCCharacter id="spc_wanderer_england_7" name="{=28tWEFNi}{FIRSTNAME} Wanderinge" voice="ironic" age="21" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.england" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_7_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_england"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_england"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- The accursed, believed to be bad luck -->
+	<NPCCharacter id="spc_wanderer_england_8" name="{=w9u2RUgm}{FIRSTNAME} Wyrde" voice="curt" age="26" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.england" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_8_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_england"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_england"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- 'Cowthief' - caught up in feud, raided cattle as revenge -->
+	<NPCCharacter id="spc_wanderer_england_9" name="{=KnTl4ESh}{FIRSTNAME} Hockley" voice="ironic" age="22" is_female="false" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.england" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_0_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_england"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_battania" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_battania"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- URBAN CHARACTERS OF england -->
+	<NPCCharacter id="spc_notable_england_merchant_1" name="{=!}Cautious English merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_notable_battania_merchant_1" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_england_0b" name="{=!}{FIRSTNAME} the Measurer" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_notable_battania_0b" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait id="Commander" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="spc_notable_england_0b"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_england_0c" name="{=!}{FIRSTNAME} Swift" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_notable_battania_0c" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait id="Commander" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="spc_notable_england_0c"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_england_0d" name="{=!}{FIRSTNAME} Woller" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_notable_battania_0d" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait id="Commander" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="spc_notable_england_0d"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_england_0e" name="{=!}{FIRSTNAME} Boursier" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_notable_battania_0e" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait id="Commander" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="spc_notable_england_0e"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_england_1" name="{=!}{FIRSTNAME} Chylde" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_notable_battania_1" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="spc_notable_england_1"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_england_1b" name="{=!}{FIRSTNAME} Burgess" voice="softspoken" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_notable_battania_1b" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait id="Commander" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="spc_notable_england_1b"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_england_2" name="{=!}English mystic" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_notable_battania_2" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="spc_notable_england_2"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_england_3" name="{=!}Female preacher" voice="curt" is_template="true" default_group="Infantry" is_female="true" culture="Culture.england" skill_template="SkillSet.spc_notable_battania_3" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="spc_notable_england_3"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_england_4" name="{=!}Standard male gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_notable_battania_4" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.fighter_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="spc_notable_england_4"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_england_5" name="{=!}Female gang leader" voice="ironic" is_template="true" default_group="Infantry" is_female="true" culture="Culture.england" skill_template="SkillSet.spc_notable_battania_5" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- Add skill groups -->
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+			<EquipmentSet id="spc_notable_england_5"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_england_rural_notable_1" name="{=!}English rural notable Fergus" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_notable_rural_notable_1" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_england_rural_notable_2" name="{=!}English proud rural notable" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_battania_rural_notable_2" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_england_artisan_1" name="{=!}English rebellious artisan" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_battania_artisan_1" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CelticHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_england_artisan_2" name="{=!}English conservative artisan" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_battania_artisan_2" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CelticHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_england_artisan_3" name="{=!}English devious artisan" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_battania_artisan_3" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CelticHair" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Headmen -->
+	<NPCCharacter id="spc_england_headman_1" name="{=!}English rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_battania_headman_1" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CelticHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_england_headman_2" name="{=!}English conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_battania_headman_2" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CelticHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_england_headman_3" name="{=!}English devious headman" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_battania_headman_3" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CelticHair" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_england"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_england" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--Notable Templates -->
+	<NPCCharacter id="npc_wanderer_equipment_england" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}wanderer_equipment" occupation="NotAssigned" culture="Culture.england" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_england"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_england"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_artisan_equipment_england" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}artisan_equipment" occupation="NotAssigned" culture="Culture.england" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_artisan_equipment_england"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_gang_leader_equipment_england" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}gang_leader_equipment" occupation="NotAssigned" culture="Culture.england" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_gang_leader_equipment_england"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_preacher_equipment_england" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}preacher_equipment" occupation="NotAssigned" culture="Culture.england" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_preacher_equipment_england"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_merchant_equipment_england" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}merchant_equipment" occupation="NotAssigned" culture="Culture.england" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_england"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_merchant_equipment_england"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Kingdom of England-->
+	<NPCCharacter id="england_autogenerated_lord1" name="{=COmjiKGZ} test" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="eng_lord_combat"/>
+			<EquipmentSet id="eng_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="england_autogenerated_lord2" name="{=IfThpVlq} test" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="eng_lord_combat"/>
+			<EquipmentSet id="eng_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="england_autogenerated_lord3" name="{=XsGvqLgV} test" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_england"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="eng_lord_combat"/>
+			<EquipmentSet id="eng_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="england_autogenerated_lord4" name="{=tyFkTpqO} test" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.england" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_england"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="eng_lord_combat"/>
+			<EquipmentSet id="eng_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+	<!-- RBM Balance -->
+	<!-- #region Shields -->
+	<Item id="AR_shield_infantry_a" name="{=osa_ar_shield_infantry_a}[Shield] Oval Shield (Iron Rimmed)" body_name="bo_cap_shield_aserai_infantary_a" shield_body_name="bo_shield_aserai_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_a" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="540" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_a2" name="{=osa_ar_shield_infantry_a2}[Shield] Oval Shield (Bronze Rimmed)" body_name="bo_cap_shield_aserai_infantary_a" shield_body_name="bo_shield_aserai_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_a2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="540" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_b" name="{=osa_ar_shield_infantry_b}[Shield] Oval Shield (Iron Reinforced)" body_name="bo_cap_shield_aserai_infantary_b" shield_body_name="bo_shield_aserai_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_b" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4800">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="560" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_b2" name="{=osa_ar_shield_infantry_b2}[Shield] Oval Shield (Bronze Reinforced)" body_name="bo_cap_shield_aserai_infantary_b" shield_body_name="bo_shield_aserai_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_b2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4800">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="560" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_c" name="{=osa_ar_shield_infantry_c}[Shield] Oval Shield (Iron Decorated)" body_name="bo_cap_shield_aserai_infantary_c" shield_body_name="bo_shield_aserai_infantary_c" recalculate_body="false" mesh="AR_shield_infantry_c" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6000">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="610" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_c2" name="{=osa_ar_shield_infantry_c2}[Shield] Oval Shield (Bronze Decorated)" body_name="bo_cap_shield_aserai_infantary_c" shield_body_name="bo_shield_aserai_infantary_c" recalculate_body="false" mesh="AR_shield_infantry_c2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6000">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="610" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_d" name="{=osa_ar_shield_infantry_d}[Shield] Round Shield (Iron Simple)" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_d" culture="Culture.empire" using_tableau="true" weight="3.3" value="3400" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="195.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="460">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" HeldInOffHand="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_d2" name="{=osa_ar_shield_infantry_d2}[Shield] Round Shield (Bronze Simple)" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_d2" culture="Culture.empire" using_tableau="true" weight="3.3" value="3400" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="195.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="460">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" HeldInOffHand="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_e" name="{=osa_ar_shield_infantry_e}[Shield] Round Shield (Iron Reinforced)" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_shield_sturgia_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_e" culture="Culture.empire" using_tableau="true" weight="3.5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="6100">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="630">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_e2" name="{=osa_ar_shield_infantry_e2}[Shield] Round Shield (Bronze Reinforced)" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_shield_sturgia_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_e2" culture="Culture.empire" using_tableau="true" weight="3.5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="6100">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="630">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_f" name="{=osa_ar_shield_infantry_f}[Shield] Oval Shield (Iron Rimmed, Wooden)" body_name="bo_cap_aserai_shields_b" shield_body_name="bo_aserai_shields_b" recalculate_body="false" mesh="AR_shield_infantry_f" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="132" center_of_mass="0.0,0.065,0.05" hit_points="540" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_f2" name="{=osa_ar_shield_infantry_f2}[Shield] Oval Shield (Bronze Rimmed, Wooden)" body_name="bo_cap_aserai_shields_b" shield_body_name="bo_aserai_shields_b" recalculate_body="false" mesh="AR_shield_infantry_f2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="132" center_of_mass="0.0,0.065,0.05" hit_points="540" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_g" name="{=osa_ar_shield_infantry_g}[Shield] Oval Shield (Iron Reinforced, Wooden)" body_name="bo_cap_aserai_shields_a" shield_body_name="bo_aserai_shields_a" recalculate_body="false" mesh="AR_shield_infantry_g" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="132" center_of_mass="0.0,0.065,0.05" hit_points="560" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_g2" name="{=osa_ar_shield_infantry_g2}[Shield] Oval Shield (Bronze Reinforced, Wooden)" body_name="bo_cap_aserai_shields_a" shield_body_name="bo_aserai_shields_a" recalculate_body="false" mesh="AR_shield_infantry_g2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="132" center_of_mass="0.0,0.065,0.05" hit_points="560" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_h" name="{=osa_ar_shield_infantry_h}[Shield] Oval Shield (Iron Decorated, Wooden)" body_name="bo_cap_aserai_shields_a" shield_body_name="bo_aserai_shields_a" recalculate_body="false" mesh="AR_shield_infantry_h" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6100">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="132" center_of_mass="0.0,0.065,0.05" hit_points="610" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_h2" name="{=osa_ar_shield_infantry_h2}[Shield] Oval Shield (Bronze Decorated, Wooden)" body_name="bo_cap_aserai_shields_a" shield_body_name="bo_aserai_shields_a" recalculate_body="false" mesh="AR_shield_infantry_h2" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6100">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="132" center_of_mass="0.0,0.065,0.05" hit_points="610" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_i" name="{=osa_ar_shield_infantry_i}[Shield] Wicker Shield (Wrapped)" body_name="bo_cap_shield_khuzait_infantary_a" shield_body_name="bo_shield_khuzait_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_i" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="90" center_of_mass="0.0,0.065,0.05" hit_points="460" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_j" name="{=osa_ar_shield_infantry_j}[Shield] Wicker Shield (Reinforced)" body_name="bo_cap_shield_khuzait_infantary_a" shield_body_name="bo_shield_khuzait_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_j" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="90" center_of_mass="0.0,0.065,0.05" hit_points="510" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_k" name="{=osa_ar_shield_infantry_k}[Shield] Wicker Shield (Decorated)" body_name="bo_cap_shield_khuzait_infantary_a" shield_body_name="bo_shield_khuzait_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_k" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6100">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="90" center_of_mass="0.0,0.065,0.05" hit_points="550" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_l" name="{=osa_ar_shield_infantry_l}[Shield] Wicker Shield" body_name="bo_cap_shield_khuzait_infantary_a" shield_body_name="bo_shield_khuzait_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_l" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="90" center_of_mass="0.0,0.065,0.05" hit_points="420" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_m" name="{=osa_ar_shield_infantry_m}[Shield]  Round Shield (Strapped, Iron, Bound)" body_name="bo_cap_aserai_shields_c" shield_body_name="bo_aserai_shields_d" recalculate_body="false" mesh="AR_shield_infantry_m" using_tableau="true" weight="7.3" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.15,-0.025" value="4000" culture="Culture.aserai">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="60" center_of_mass="-0.0, 0.1, 0.1" hit_points="445">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_m2" name="{=osa_ar_shield_infantry_m2}[Shield] Round Shield (Strapped, Bronze, Bound)" body_name="bo_cap_aserai_shields_c" shield_body_name="bo_aserai_shields_d" recalculate_body="false" mesh="AR_shield_infantry_m2" using_tableau="true" weight="7.3" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.15,-0.025" value="4000" culture="Culture.aserai">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="60" center_of_mass="-0.0, 0.1, 0.1" hit_points="445">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_n" name="{=osa_ar_shield_infantry_n}[Shield] Round Shield (Strapped, Iron, Reinforced)" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_n" using_tableau="true" weight="7.3" appearance="0.9" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08" value="3000" culture="Culture.aserai">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="-0.0, 0.12, 0.1" hit_points="500">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_n2" name="{=osa_ar_shield_infantry_n2}[Shield] Round Shield (Strapped, Bronze, Reinforced)" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_n2" using_tableau="true" weight="7.3" appearance="0.9" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08" value="3000" culture="Culture.aserai">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="-0.0, 0.12, 0.1" hit_points="500">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_o" name="{=osa_ar_shield_infantry_o}[Shield] Round Shield (Strapped, Iron, Decorated)" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_o" using_tableau="true" weight="7.3" appearance="0.9" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08" value="4200" culture="Culture.aserai">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="-0.0, 0.12, 0.1" hit_points="530">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_o2" name="{=osa_ar_shield_infantry_o2}[Shield] Round Shield (Strapped, Bronze, Decorated)" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_o2" using_tableau="true" weight="7.3" appearance="0.9" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08" value="4200" culture="Culture.aserai">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="-0.0, 0.12, 0.1" hit_points="530">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_p" name="{=osa_ar_shield_infantry_p}[Shield] Round Shield (Strapped, Slavic)" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_p" culture="Culture.sturgia" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="460" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_q" name="{=osa_ar_shield_infantry_q}[Shield] Round Shield (Strapped, Norse)" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_q" culture="Culture.sturgia" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="630" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_r" name="{=osa_ar_shield_infantry_r}[Shield] Round Shield (Strapped, Iron, Simple)" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_r" culture="Culture.empire" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="460" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_r2" name="{=osa_ar_shield_infantry_r2}[Shield] Round Shield (Strapped, Bronze, Simple)" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_r2" culture="Culture.empire" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="460" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_s" name="{=osa_ar_shield_infantry_s}[Shield] Round Shield (Strapped, Iron, Reinforced)" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_s" culture="Culture.empire" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="630" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_s2" name="{=osa_ar_shield_infantry_s2}[Shield] Round Shield (Strapped, Bronze, Reinforced)" using_tableau="true" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_s2" culture="Culture.empire" weight="7.3" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" value="3400" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.20,-0.08">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="630" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_t" name="{=osa_ar_shield_infantry_t}[Shield] Round Shield (Iron, Reinforced)" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_t" culture="Culture.empire" using_tableau="true" weight="3.5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="3000">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="500">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_t2" name="{=osa_ar_shield_infantry_t2}[Shield] Round Shield (Bronze, Reinforced)" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_t2" culture="Culture.empire" using_tableau="true" weight="3.5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="3000">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="500">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_u" name="{=osa_ar_shield_infantry_u}[Shield] Round Shield (Iron, Decorated)" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_u" culture="Culture.empire" using_tableau="true" weight="3.5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="530">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_u2" name="{=osa_ar_shield_infantry_u2}[Shield] Round Shield (Bronze, Decorated)" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_u2" culture="Culture.empire" using_tableau="true" weight="3.5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="530">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_v" name="{=osa_ar_shield_infantry_v}[Shield] Square Shield (Wooden)" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_v" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="80" center_of_mass="0.0,0.065,0.05" hit_points="460" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_w" name="{=osa_ar_shield_infantry_w}[Shield] Square Shield (Leather Rimmed, Wooden)" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_w" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="80" center_of_mass="0.0,0.065,0.05" hit_points="510" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_x" name="{=osa_ar_shield_infantry_x}[Shield] Square Shield (Iron Rimmed, Wooden)" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_x" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6100">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="80" center_of_mass="0.0,0.065,0.05" hit_points="550" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_y" name="{=osa_ar_shield_infantry_y}[Shield] Square Shield (Iron Reinforced, Wooden)" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_y" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6400">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="80" center_of_mass="0.0,0.065,0.05" hit_points="600" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_z" name="{=osa_ar_shield_infantry_z}[Shield] Coffin Shield (Leather Rimmed)" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_z" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="120" center_of_mass="0.0,0.065,0.05" hit_points="540" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_za" name="{=osa_ar_shield_infantry_za}[Shield] Coffin Shield (Iron Reinforced)" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_za" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4800">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="120" center_of_mass="0.0,0.065,0.05" hit_points="560" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zb" name="{=osa_ar_shield_infantry_zb}[Shield] Coffin Shield (Iron Decorated)" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_zb" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6000">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="120" center_of_mass="0.0,0.065,0.05" hit_points="610" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zc" name="{=osa_ar_shield_infantry_zc}[Shield] Round Shield (Steel)" body_name="bo_cap_aserai_shields_g" shield_body_name="bo_aserai_shields_g" recalculate_body="false" mesh="AR_shield_infantry_zc" weight="4" appearance="0.9" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.07,-0.05" value="12000" culture="Culture.khuzait">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="15" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="metal_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="60" center_of_mass="0.01, 0.07, 0.1" hit_points="2000">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zd" name="{=osa_ar_shield_infantry_zd}[Shield] Rectangular Shield (Leather Rimmed)" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_zd" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="120" center_of_mass="0.0,0.065,0.05" hit_points="540" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_ze" name="{=osa_ar_shield_infantry_ze}[Shield] Rectangular Shield (Iron Reinforced)" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_ze" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4800">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="120" center_of_mass="0.0,0.065,0.05" hit_points="560" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zf" name="{=osa_ar_shield_infantry_zf}[Shield] Rectangular Shield (Cloth Wrapped)" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_zf" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="3600">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="120" center_of_mass="0.0,0.065,0.05" hit_points="460" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zg" name="{=osa_ar_shield_infantry_zg}[Shield] Adarga (Zebra Skin)" body_name="bo_cap_aserai_shields_h" shield_body_name="bo_aserai_shields_h" recalculate_body="false" mesh="AR_shield_infantry_zg" using_tableau="false" weight="7.3" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.0,0" value="4000" culture="Culture.aserai">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="60" center_of_mass="0.0,0.05,0.05" hit_points="440">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zh" name="{=osa_ar_shield_infantry_zh}[Shield] Adarga (Leopard Pelt)" body_name="bo_cap_aserai_shields_h" shield_body_name="bo_aserai_shields_h" recalculate_body="false" mesh="AR_shield_infantry_zh" using_tableau="false" weight="7.3" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.0,0" value="4000" culture="Culture.aserai">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="60" center_of_mass="0.0,0.05,0.05" hit_points="460">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zi" name="{=osa_ar_shield_infantry_zi}[Shield] Adarga (Lion Pelt)" body_name="bo_cap_aserai_shields_h" shield_body_name="bo_aserai_shields_h" recalculate_body="false" mesh="AR_shield_infantry_zi" using_tableau="false" weight="7.3" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.0,0" value="4000" culture="Culture.aserai">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="60" center_of_mass="0.0,0.05,0.05" hit_points="460">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zj" name="{=osa_ar_shield_infantry_zj}[Shield] Oval Shield (Zebra Skin)" body_name="bo_cap_aserai_shields_c" shield_body_name="bo_aserai_shields_d" recalculate_body="false" mesh="AR_shield_infantry_zj" using_tableau="false" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="120" center_of_mass="0.0,0.065,0.05" hit_points="480" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zk" name="{=osa_ar_shield_infantry_zk}[Shield] Oval Shield (Leopard Pelt)" body_name="bo_cap_aserai_shields_c" shield_body_name="bo_aserai_shields_d" recalculate_body="false" mesh="AR_shield_infantry_zk" using_tableau="false" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="120" center_of_mass="0.0,0.065,0.05" hit_points="480" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zl" name="{=osa_ar_shield_infantry_zl}[Shield] Oval Shield (Lion Pelt)" body_name="bo_cap_aserai_shields_c" shield_body_name="bo_aserai_shields_d" recalculate_body="false" mesh="AR_shield_infantry_zl" using_tableau="false" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="120" center_of_mass="0.0,0.065,0.05" hit_points="480" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zm" name="{=osa_ar_shield_infantry_zm}[Shield] Domed Shield (Iron Simple)" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_zm" culture="Culture.empire" using_tableau="true" weight="3.3" value="3400" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="460">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" HeldInOffHand="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zm2" name="{=osa_ar_shield_infantry_zm2}[Shield] Domed Shield (Bronze Simple)" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_cap_shield_sturgia_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_zm2" culture="Culture.empire" using_tableau="true" weight="3.3" value="3400" appearance="5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="87" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="460">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" HeldInOffHand="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zn" name="{=osa_ar_shield_infantry_zn}[Shield] Domed Shield (Iron Reinforced)" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_shield_sturgia_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_zn" culture="Culture.empire" using_tableau="true" weight="3.5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="6100">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="550">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zn2" name="{=osa_ar_shield_infantry_zn2}[Shield] Domed Shield (Bronze Reinforced)" body_name="bo_cap_shield_sturgia_infantary_a" shield_body_name="bo_shield_sturgia_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_zn2" culture="Culture.empire" using_tableau="true" weight="3.5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="6100">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="550">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zo" name="{=osa_ar_shield_infantry_zo}[Shield] Domed Shield (Iron Decorated)" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_zo" culture="Culture.empire" using_tableau="true" weight="3.5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="610">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zo2" name="{=osa_ar_shield_infantry_zo2}[Shield] Domed Shield (Bronze Decorated)" body_name="bo_cap_aserai_shields_d" shield_body_name="bo_aserai_shields_c" recalculate_body="false" mesh="AR_shield_infantry_zo2" culture="Culture.empire" using_tableau="true" weight="3.5" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0,0.01" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="610">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zp" name="{=osa_ar_shield_infantry_zp}[Shield] Round Shield (Leather Bound, Heavy)" body_name="bo_cap_sturgia_shield_a" shield_body_name="bo_sturgia_shield_a" recalculate_body="false" mesh="AR_shield_infantry_zp" using_tableau="true" weight="4.7" appearance="0.9" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0,0,0" value="9000" difficulty="0" culture="Culture.sturgia">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="7" thrust_speed="86" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="86" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0, 0, 0" hit_points="650">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zq" name="{=osa_ar_shield_infantry_zq}[Shield] Round Shield (Leather Bound, Large)" body_name="bo_cap_sturgia_shield_a" shield_body_name="bo_sturgia_shield_b" recalculate_body="false" mesh="AR_shield_infantry_zq" using_tableau="true" weight="6.9" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0,0,0.01" value="6500" difficulty="0" culture="Culture.sturgia">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="89" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="89" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0, 0.15, 0" hit_points="640">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zr" name="{=osa_ar_shield_infantry_zr}[Shield] Round Shield (Large)" body_name="bo_cap_sturgia_shield_a" shield_body_name="bo_sturgia_shield_c" recalculate_body="false" mesh="AR_shield_infantry_zr" using_tableau="true" weight="7.3" Type="Shield" item_holsters="shield_round:shield_4" has_lower_holster_priority="true" holster_position_shift="0,0,0.01" value="8000" difficulty="0" culture="Culture.sturgia">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="6" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="-0.02, 0.0, 0.0" rotation="-15.0,-90.0,-10.0" weapon_length="70" center_of_mass="0, 0, 0" hit_points="610">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zs" name="{=osa_ar_shield_infantry_zs}[Shield] Wicker Shield (Round)" body_name="bo_cap_aserai_shields_c" shield_body_name="bo_aserai_shields_d" recalculate_body="false" mesh="AR_shield_infantry_zs" using_tableau="true" weight="7.3" appearance="1" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.15,-0.025" culture="Culture.aserai">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="60" center_of_mass="-0.0, 0.1, 0.1" hit_points="445">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zt" name="{=osa_ar_shield_infantry_zt}[Shield] Wicker Shield (Heavy Round)" body_name="bo_cap_aserai_shields_c" shield_body_name="bo_aserai_shields_d" recalculate_body="false" mesh="AR_shield_infantry_zt" using_tableau="true" weight="7.3" appearance="1" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.12,-0.15,-0.025" culture="Culture.aserai">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="60" center_of_mass="-0.0, 0.1, 0.1" hit_points="550">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zu" name="{=osa_ar_shield_infantry_zu}[Shield] Wicker Shield (Oval)" body_name="bo_cap_shield_aserai_infantary_a" shield_body_name="bo_shield_aserai_infantary_a" recalculate_body="false" mesh="AR_shield_infantry_zu" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4200">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="1" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="460" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zv" name="{=osa_ar_shield_infantry_zv}[Shield] Wicker Shield (Heavy, Oval)" body_name="bo_cap_shield_aserai_infantary_b" shield_body_name="bo_shield_aserai_infantary_b" recalculate_body="false" mesh="AR_shield_infantry_zv" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="4800">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="2" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="510" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zw" name="{=osa_ar_shield_infantry_zw}[Shield] Wicker Shield (Decorated, Oval)" body_name="bo_cap_shield_aserai_infantary_c" shield_body_name="bo_shield_aserai_infantary_c" recalculate_body="false" mesh="AR_shield_infantry_zw" using_tableau="true" weight="4.7" appearance="1.1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0" value="6000">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="5" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.19, -0.02, -0.05" rotation="-20,40,-10" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="550" modifier_group="shield">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zx" name="{=osa_ar_shield_infantry_zx}[Shield] Nomadic Steppe Shield" body_name="bo_cap_shield_khuzait_cavalary_a" shield_body_name="bo_shield_khuzait_cavalary_a" recalculate_body="false" mesh="AR_shield_infantry_zx" using_tableau="true" weight="4.7" appearance="0.9" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.05,0.01" culture="Culture.khuzait">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="metal_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="60" center_of_mass="-0.0,0.075,0.05" hit_points="700">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zy" name="{=osa_ar_shield_infantry_zy}[Shield] Eastern Rider Shield" body_name="bo_cap_shield_khuzait_cavalary_d" shield_body_name="bo_shield_khuzait_cavalary_d" recalculate_body="false" mesh="AR_shield_infantry_zy" using_tableau="true" weight="2.7" appearance="0.9" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.05,0.01" culture="Culture.khuzait">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="8" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="metal_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="60" center_of_mass="-0.0,0.075,0.05" hit_points="750">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zz" name="{=osa_ar_shield_infantry_zz}[Shield] Highland Large Rimmed Shield" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_zz" using_tableau="true" weight="3.5" appearance="0.5" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0,0" culture="Culture.battania">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.01, 0.0, -0.01" rotation="254.50,-68.80,8.70" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="630">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zza" name="{=osa_ar_shield_infantry_zza}[Shield] Highland Large Reinforced Shield" body_name="bo_cap_battania_large_shield_c" shield_body_name="bo_battania_large_shield_c" recalculate_body="false" mesh="AR_shield_infantry_zza" using_tableau="true" weight="3.5" appearance="0.5" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="0.0,0.1,0,0" culture="Culture.battania">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="hand_shield" position="0.01, 0.0, -0.01" rotation="254.50,-68.80,8.70" weapon_length="70" center_of_mass="0.0,0.065,0.05" hit_points="700">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zzb" name="{=osa_ar_shield_infantry_zzb}[Shield] Buckler (Iron, Reinforced)" body_name="bo_cap_battania_targe_b" shield_body_name="bo_battania_targe_b" recalculate_body="false" mesh="AR_shield_infantry_zzb" using_tableau="true" weight="2.5" appearance="1.1" Type="Shield" item_holsters="left_forearm_shield" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,0" culture="Culture.empire">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.02,-0.05, 0.02" rotation="3.70,9.50,36.40" weapon_length="70" center_of_mass="-0.0, 0.12, 0.1" hit_points="500">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zzb2" name="{=osa_ar_shield_infantry_zzb2}[Shield] Buckler (Bronze, Reinforced)" body_name="bo_cap_battania_targe_b" shield_body_name="bo_battania_targe_b" recalculate_body="false" mesh="AR_shield_infantry_zzb2" using_tableau="true" weight="2.5" appearance="1.1" Type="Shield" item_holsters="left_forearm_shield" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,0" culture="Culture.empire">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.02,-0.05, 0.02" rotation="3.70,9.50,36.40" weapon_length="70" center_of_mass="-0.0, 0.12, 0.1" hit_points="500">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zzc" name="{=osa_ar_shield_infantry_zzc}[Shield] Buckler (Iron, Decorated)" body_name="bo_cap_battania_targe_b" shield_body_name="bo_battania_targe_b" recalculate_body="false" mesh="AR_shield_infantry_zzc" using_tableau="true" weight="2.5" appearance="1.1" Type="Shield" item_holsters="left_forearm_shield" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,0" culture="Culture.empire">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.02,-0.05, 0.02" rotation="3.70,9.50,36.40" weapon_length="70" center_of_mass="-0.0, 0.12, 0.1" hit_points="580">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zzc2" name="{=osa_ar_shield_infantry_zzc2}[Shield] Buckler (Bronze, Decorated)" body_name="bo_cap_battania_targe_b" shield_body_name="bo_battania_targe_b" recalculate_body="false" mesh="AR_shield_infantry_zzc2" using_tableau="true" weight="2.5" appearance="1.1" Type="Shield" item_holsters="left_forearm_shield" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,0" culture="Culture.empire">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.02,-0.05, 0.02" rotation="3.70,9.50,36.40" weapon_length="70" center_of_mass="-0.0, 0.12, 0.1" hit_points="580">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zzd" name="{=osa_ar_shield_infantry_zzd}[Shield] Round Shield (Bronze)" body_name="bo_cap_aserai_shields_g" shield_body_name="bo_aserai_shields_g" recalculate_body="false" mesh="AR_shield_infantry_zzd" weight="4" appearance="0.9" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.07,-0.05" value="12000" culture="Culture.empire">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="15" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="metal_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="60" center_of_mass="0.01, 0.07, 0.1" hit_points="2000">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zzd2" name="{=osa_ar_shield_infantry_zzd2}[Shield] Round Shield (Rimmed, Bronze)" body_name="bo_cap_aserai_shields_g" shield_body_name="bo_aserai_shields_g" recalculate_body="false" mesh="AR_shield_infantry_zzd2" weight="4" appearance="0.9" Type="Shield" item_holsters="shield:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.07,-0.05" value="12000" culture="Culture.empire">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="15" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="metal_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="60" center_of_mass="0.01, 0.07, 0.1" hit_points="2000">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zze" name="{=osa_ar_shield_infantry_zze}[Shield] Buckler (Bronze)" body_name="bo_cap_battania_targe_b" shield_body_name="bo_battania_targe_b" recalculate_body="false" mesh="AR_shield_infantry_zze" using_tableau="true" weight="2.5" appearance="1.1" Type="Shield" item_holsters="left_forearm_shield" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,0" culture="Culture.empire">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="metal_shield" item_usage="shield" position="0.02,-0.05, 0.02" rotation="3.70,9.50,36.40" weapon_length="70" center_of_mass="-0.0, 0.12, 0.1" hit_points="580">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zze2" name="{=osa_ar_shield_infantry_zze2}[Shield] Buckler (Rimmed, Bronze)" body_name="bo_cap_battania_targe_b" shield_body_name="bo_battania_targe_b" recalculate_body="false" mesh="AR_shield_infantry_zze2" using_tableau="true" weight="2.5" appearance="1.1" Type="Shield" item_holsters="left_forearm_shield" has_lower_holster_priority="true" holster_position_shift="-0.1,0.0,0" culture="Culture.empire">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="4" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="metal_shield" item_usage="shield" position="0.02,-0.05, 0.02" rotation="3.70,9.50,36.40" weapon_length="70" center_of_mass="-0.0, 0.12, 0.1" hit_points="580">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zzf" name="{=osa_ar_shield_infantry_zzf}[Shield] Tower Shield (Wooden)" body_name="bo_cap_heater_shield_d" shield_body_name="bo_heater_shield_d" recalculate_body="false" mesh="AR_shield_infantry_zzf" using_tableau="true" weight="4.7" appearance="1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.1,-0.0" culture="Culture.vlandia">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="90" center_of_mass="0.0,0.1,0.05" hit_points="500">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+	<Item id="AR_shield_infantry_zzg" name="{=osa_ar_shield_infantry_zzg}[Shield] Tower Shield (Hide Wrapped)" body_name="bo_cap_heater_shield_d" shield_body_name="bo_heater_shield_d" recalculate_body="false" mesh="AR_shield_infantry_zzg" using_tableau="true" weight="4.7" appearance="1" Type="Shield" item_holsters="shield_kite:shield_2:shield_3:shield_4" has_lower_holster_priority="true" holster_position_shift="-0.1,-0.1,-0.0" culture="Culture.vlandia">
+		<ItemComponent>
+			<Weapon weapon_class="LargeShield" body_armor="5" thrust_speed="82" thrust_damage="8" thrust_damage_type="Blunt" speed_rating="82" physics_material="wood_shield" item_usage="shield" position="0.0, 0.00, 0.00" rotation="0.0,10.0,40.00" weapon_length="90" center_of_mass="0.0,0.1,0.05" hit_points="550">
+				<WeaponFlags CanBlockRanged="true" HasHitPoints="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags WoodenParry="true" HeldInOffHand="true" ForceAttachOffHandSecondaryItemBone="true"/>
+	</Item>
+</Items>
