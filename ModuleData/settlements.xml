@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Settlements>
   <!-- Sorted and grouped as per stage-2 on https://docs.google.com/spreadsheets/d/11zvdd5h5lTF7J8fCFsrKyvX0YNgrjHQ76IP0f48yMLE/edit?gid=0#gid=0   -->
   <!-- Best reference map: https://www.deviantart.com/cyowari/art/Europe-in-Details-AD-1261-900171266   -->
@@ -1341,7 +1341,7 @@
   </Settlement>
   <!-- endregion -->
   <!-- region Kingdom of Navarre : French (Vlandia) culture-->
-  <Settlement id="castle_javier" name="{=castle_javier_name}Castillo de Javier" owner="Faction.clan_england_1" posX="223.581" posY="904.174" culture="Culture.england" gate_posX="224.0877" gate_posY="903.7947">
+  <Settlement id="castle_javier" name="{=castle_javier_name}Castillo de Javier" owner="Faction.clan_navarre_2" posX="223.581" posY="904.174" culture="Culture.french" gate_posX="224.0877" gate_posY="903.7947">
     <Components>
       <Town id="castle_comp_javier" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -1366,7 +1366,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_javier_navascues" name="{=castle_javier_navascues_name}Navascues" posX="225.66" posY="911.318" culture="Culture.england" text="{=castle_javier_navascues_text}Navascues text...">
+  <Settlement id="castle_javier_navascues" name="{=castle_javier_navascues_name}Navascues" posX="225.66" posY="911.318" culture="Culture.french" text="{=castle_javier_navascues_text}Navascues text...">
     <Components>
       <Village id="castle_comp_javier_navascues" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.castle_javier" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1379,7 +1379,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_pamplona" name="{=town_pamplona_name}Pamplona" owner="Faction.clan_england_1" posX="210.528" posY="910.937" culture="Culture.england" gate_posX="212.5998" gate_posY="909.2466" text="{=town_pamplona_text}Pamplona text...">
+  <Settlement id="town_pamplona" name="{=town_pamplona_name}Pamplona" owner="Faction.clan_navarre_1" posX="210.528" posY="910.937" culture="Culture.french" gate_posX="212.5998" gate_posY="909.2466" text="{=town_pamplona_text}Pamplona text...">
     <Components>
       <Town id="town_comp_pamplona" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -1415,7 +1415,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_pamplona_najera" name="{=town_pamplona_najera_name}Najera" posX="192.129" posY="902.647" culture="Culture.england" text="{=town_pamplona_najera_text}Najera text...">
+  <Settlement id="town_pamplona_najera" name="{=town_pamplona_najera_name}Najera" posX="192.129" posY="902.647" culture="Culture.french" text="{=town_pamplona_najera_text}Najera text...">
     <Components>
       <Village id="town_comp_pamplona_najera" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_pamplona" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1428,7 +1428,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_pamplona_gasteiz" name="{=town_pamplona_gasteiz_name}Gasteiz" posX="196.024" posY="912.863" culture="Culture.england" text="{=town_pamplona_gasteiz_text}Gasteiz text...">
+  <Settlement id="town_pamplona_gasteiz" name="{=town_pamplona_gasteiz_name}Gasteiz" posX="196.024" posY="912.863" culture="Culture.french" text="{=town_pamplona_gasteiz_text}Gasteiz text...">
     <Components>
       <Village id="town_comp_pamplona_gasteiz" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_pamplona" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1441,7 +1441,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_pamplona_artajona" name="{=town_pamplona_artajona_name}Artajona" posX="209.651" posY="898.143" culture="Culture.england" text="{=town_pamplona_artajona_text}Artajona text...">
+  <Settlement id="town_pamplona_artajona" name="{=town_pamplona_artajona_name}Artajona" posX="209.651" posY="898.143" culture="Culture.french" text="{=town_pamplona_artajona_text}Artajona text...">
     <Components>
       <Village id="town_comp_pamplona_artajona" village_type="VillageType.olive_trees" hearth="400" bound="Settlement.town_pamplona" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1458,7 +1458,7 @@
   <!-- endregion -->
   <!-- region France -->
   <!--region Kingdom of France : French (Vlandia)-->
-  <Settlement id="town_paris" name="{=town_paris_name}Paris" owner="Faction.clan_england_1" posX="300.566" posY="1054.587" culture="Culture.england" gate_posX="304.7548" gate_posY="1052.21" text="{=town_paris_text}Paris text...">
+  <Settlement id="town_paris" name="{=town_paris_name}Paris" owner="Faction.clan_france_1" posX="300.566" posY="1054.587" culture="Culture.french" gate_posX="304.7548" gate_posY="1052.21" text="{=town_paris_text}Paris text...">
     <Components>
       <Town id="town_comp_paris" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.208" prosperity="4000">
         <Buildings>
@@ -1494,7 +1494,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_paris_poissy" name="{=town_paris_poissy_name}Poissy" posX="286.074" posY="1059.459" culture="Culture.england" text="{=town_paris_poissy_text}Poissy text...">
+  <Settlement id="town_paris_poissy" name="{=town_paris_poissy_name}Poissy" posX="286.074" posY="1059.459" culture="Culture.french" text="{=town_paris_poissy_text}Poissy text...">
     <Components>
       <Village id="town_comp_paris_poissy" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_paris" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1507,7 +1507,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_paris_amiens" name="{=town_paris_amiens_name}Amiens" posX="297.514" posY="1082.828" culture="Culture.england" text="{=town_paris_amiens_text}Amiens text...">
+  <Settlement id="town_paris_amiens" name="{=town_paris_amiens_name}Amiens" posX="297.514" posY="1082.828" culture="Culture.french" text="{=town_paris_amiens_text}Amiens text...">
     <Components>
       <Village id="town_comp_paris_amiens" village_type="VillageType.clay_mine" hearth="400" bound="Settlement.town_paris" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1520,7 +1520,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_paris_evreux" name="{=town_paris_evreux_name}Evreux" posX="268.325" posY="1059.453" culture="Culture.england" text="{=town_paris_evreux_text}Evreux text...">
+  <Settlement id="town_paris_evreux" name="{=town_paris_evreux_name}Evreux" posX="268.325" posY="1059.453" culture="Culture.french" text="{=town_paris_evreux_text}Evreux text...">
     <Components>
       <Village id="town_comp_paris_evreux" village_type="VillageType.cattle_farm" hearth="600" bound="Settlement.town_paris" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1533,7 +1533,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_orleans" name="{=town_orleans_name}Orleans" owner="Faction.clan_england_1" posX="288.493" posY="1038.555" culture="Culture.england" gate_posX="287.1877" gate_posY="1040.89" text="{=town_orleans_text}Orleans text...">
+  <Settlement id="town_orleans" name="{=town_orleans_name}Orleans" owner="Faction.clan_france_1" posX="288.493" posY="1038.555" culture="Culture.french" gate_posX="287.1877" gate_posY="1040.89" text="{=town_orleans_text}Orleans text...">
     <Components>
       <Town id="town_comp_orleans" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -1569,7 +1569,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_orleans_blois" name="{=town_orleans_blois_name}Blois" posX="275.488" posY="1024.631" culture="Culture.england" text="{=town_orleans_blois_text}Blois text...">
+  <Settlement id="town_orleans_blois" name="{=town_orleans_blois_name}Blois" posX="275.488" posY="1024.631" culture="Culture.french" text="{=town_orleans_blois_text}Blois text...">
     <Components>
       <Village id="town_comp_orleans_blois" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_orleans" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1582,7 +1582,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_orleans_chartres" name="{=town_orleans_chartres_name}Chartres" posX="273.253" posY="1043.03" culture="Culture.england" text="{=town_orleans_chartres_text}Chartres text...">
+  <Settlement id="town_orleans_chartres" name="{=town_orleans_chartres_name}Chartres" posX="273.253" posY="1043.03" culture="Culture.french" text="{=town_orleans_chartres_text}Chartres text...">
     <Components>
       <Village id="town_comp_orleans_chartres" village_type="VillageType.fisherman" hearth="500" bound="Settlement.town_orleans" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1595,7 +1595,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_orleans_dreux" name="{=town_orleans_dreux_name}Dreux" posX="270.392" posY="1049.218" culture="Culture.england" text="{=town_orleans_dreux_text}Dreux text...">
+  <Settlement id="town_orleans_dreux" name="{=town_orleans_dreux_name}Dreux" posX="270.392" posY="1049.218" culture="Culture.french" text="{=town_orleans_dreux_text}Dreux text...">
     <Components>
       <Village id="town_comp_orleans_dreux" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.town_orleans" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1608,7 +1608,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_bourges" name="{=town_bourges_name}Bourges" owner="Faction.clan_england_1" posX="288.419" posY="1009.305" culture="Culture.england" gate_posX="289.7403" gate_posY="1006.704" text="{=town_bourges_text}Bourges text...">
+  <Settlement id="town_bourges" name="{=town_bourges_name}Bourges" owner="Faction.clan_france_1" posX="288.419" posY="1009.305" culture="Culture.french" gate_posX="289.7403" gate_posY="1006.704" text="{=town_bourges_text}Bourges text...">
     <Components>
       <Town id="town_comp_bourges" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -1644,7 +1644,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_bourges_chateauroux" name="{=town_bourges_chateauroux_name}Chateauroux" posX="279.323" posY="999.17" culture="Culture.england" text="{=town_bourges_chateauroux_text}Chateauroux text...">
+  <Settlement id="town_bourges_chateauroux" name="{=town_bourges_chateauroux_name}Chateauroux" posX="279.323" posY="999.17" culture="Culture.french" text="{=town_bourges_chateauroux_text}Chateauroux text...">
     <Components>
       <Village id="town_comp_bourges_chateauroux" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.town_bourges" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1657,7 +1657,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_bourges_sancerre" name="{=town_bourges_sancerre_name}Sancerre" posX="304.144" posY="1018.55" culture="Culture.england" text="{=town_bourges_sancerre_text}Sancerre text...">
+  <Settlement id="town_bourges_sancerre" name="{=town_bourges_sancerre_name}Sancerre" posX="304.144" posY="1018.55" culture="Culture.french" text="{=town_bourges_sancerre_text}Sancerre text...">
     <Components>
       <Village id="town_comp_bourges_sancerre" village_type="VillageType.cattle_farm" hearth="400" bound="Settlement.town_bourges" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1670,7 +1670,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_bourges_nevers" name="{=town_bourges_nevers_name}Nevers" posX="309.961" posY="1009.743" culture="Culture.england" text="{=town_bourges_nevers_text}Nevers text...">
+  <Settlement id="town_bourges_nevers" name="{=town_bourges_nevers_name}Nevers" posX="309.961" posY="1009.743" culture="Culture.french" text="{=town_bourges_nevers_text}Nevers text...">
     <Components>
       <Village id="town_comp_bourges_nevers" village_type="VillageType.vineyard" hearth="400" bound="Settlement.town_bourges" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1683,7 +1683,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_limoges" name="{=town_limoges_name}Limoges" owner="Faction.clan_england_1" posX="269.549" posY="981.486" culture="Culture.england" gate_posX="271.5892" gate_posY="980.1517" text="{=town_limoges_text}Limoges text...">
+  <Settlement id="town_limoges" name="{=town_limoges_name}Limoges" owner="Faction.clan_france_11" posX="269.549" posY="981.486" culture="Culture.french" gate_posX="271.5892" gate_posY="980.1517" text="{=town_limoges_text}Limoges text...">
     <Components>
       <Town id="town_comp_limoges" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -1719,7 +1719,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_limoges_perigueux" name="{=town_limoges_perigueux_name}Perigueux" posX="257.022" posY="968.714" culture="Culture.england" text="{=town_limoges_perigueux_text}Perigueux text...">
+  <Settlement id="town_limoges_perigueux" name="{=town_limoges_perigueux_name}Perigueux" posX="257.022" posY="968.714" culture="Culture.french" text="{=town_limoges_perigueux_text}Perigueux text...">
     <Components>
       <Village id="town_comp_limoges_perigueux" village_type="VillageType.trapper" hearth="400" bound="Settlement.town_limoges" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1732,7 +1732,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_limoges_poitiers" name="{=town_limoges_poitiers_name}Poitiers" posX="247.493" posY="988.983" culture="Culture.england" text="{=town_limoges_poitiers_text}Poitiers text...">
+  <Settlement id="town_limoges_poitiers" name="{=town_limoges_poitiers_name}Poitiers" posX="247.493" posY="988.983" culture="Culture.french" text="{=town_limoges_poitiers_text}Poitiers text...">
     <Components>
       <Village id="town_comp_limoges_poitiers" village_type="VillageType.vineyard" hearth="400" bound="Settlement.town_limoges" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1745,7 +1745,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_limoges_angouleme" name="{=town_limoges_angouleme_name}Angouleme" posX="248.26" posY="977.0229" culture="Culture.england" text="{=town_limoges_angouleme_text}Angouleme text...">
+  <Settlement id="town_limoges_angouleme" name="{=town_limoges_angouleme_name}Angouleme" posX="248.26" posY="977.0229" culture="Culture.french" text="{=town_limoges_angouleme_text}Angouleme text...">
     <Components>
       <Village id="town_comp_limoges_angouleme" village_type="VillageType.flax_plant" hearth="400" bound="Settlement.town_limoges" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1758,7 +1758,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ventadour" name="{=castle_ventadour_name}Ventadour Castle" owner="Faction.clan_england_1" posX="284.084" posY="961.564" culture="Culture.england" gate_posX="284.5514" gate_posY="961.3137">
+  <Settlement id="castle_ventadour" name="{=castle_ventadour_name}Ventadour Castle" owner="Faction.clan_france_4" posX="284.084" posY="961.564" culture="Culture.french" gate_posX="284.5514" gate_posY="961.3137">
     <Components>
       <Town id="castle_comp_ventadour" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -1783,7 +1783,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_ventadour_lepuy" name="{=castle_ventadour_lepuy_name}Le Puy" posX="294.802" posY="953.266" culture="Culture.england" text="{=castle_ventadour_lepuy_text}Le Puy text...">
+  <Settlement id="castle_ventadour_lepuy" name="{=castle_ventadour_lepuy_name}Le Puy" posX="294.802" posY="953.266" culture="Culture.french" text="{=castle_ventadour_lepuy_text}Le Puy text...">
     <Components>
       <Village id="castle_comp_ventadour_lepuy" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.castle_ventadour" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1796,7 +1796,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ventadour_sauves" name="{=castle_ventadour_sauves_name}Sauves dAuvergne" posX="295.091" posY="968.738" culture="Culture.england" text="{=castle_ventadour_sauves_text}Sauves d'Auvergne text...">
+  <Settlement id="castle_ventadour_sauves" name="{=castle_ventadour_sauves_name}Sauves dAuvergne" posX="295.091" posY="968.738" culture="Culture.french" text="{=castle_ventadour_sauves_text}Sauves d'Auvergne text...">
     <Components>
       <Village id="castle_comp_ventadour_sauves" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.castle_ventadour" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1809,7 +1809,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_bourges_clermont" name="{=town_bourges_clermont_name}Clermont" posX="311.997" posY="981.264" culture="Culture.england" text="{=town_bourges_clermont_text}Clermont text...">
+  <Settlement id="town_bourges_clermont" name="{=town_bourges_clermont_name}Clermont" posX="311.997" posY="981.264" culture="Culture.french" text="{=town_bourges_clermont_text}Clermont text...">
     <Components>
       <Village id="town_comp_bourges_clermont" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.town_bourges" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1822,7 +1822,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_caen" name="{=castle_caen_name}Caen Castle" owner="Faction.clan_england_1" posX="238.534" posY="1058.427" culture="Culture.england" gate_posX="238.7299" gate_posY="1056.808">
+  <Settlement id="castle_caen" name="{=castle_caen_name}Caen Castle" owner="Faction.clan_france_6" posX="238.534" posY="1058.427" culture="Culture.french" gate_posX="238.7299" gate_posY="1056.808">
     <Components>
       <Town id="castle_comp_caen" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -1847,7 +1847,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_caen_lisieux" name="{=castle_caen_lisieux_name}Lisieux" posX="256.267" posY="1059.334" culture="Culture.england" text="{=castle_caen_lisieux_text}Lisieux text...">
+  <Settlement id="castle_caen_lisieux" name="{=castle_caen_lisieux_name}Lisieux" posX="256.267" posY="1059.334" culture="Culture.french" text="{=castle_caen_lisieux_text}Lisieux text...">
     <Components>
       <Village id="castle_comp_caen_lisieux" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.castle_caen" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1860,7 +1860,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_caen_barfleur" name="{=castle_caen_barfleur_name}Barfleur" posX="223.354" posY="1064.898" culture="Culture.england" text="{=castle_caen_barfleur_text}Barfleur text...">
+  <Settlement id="castle_caen_barfleur" name="{=castle_caen_barfleur_name}Barfleur" posX="223.354" posY="1064.898" culture="Culture.french" text="{=castle_caen_barfleur_text}Barfleur text...">
     <Components>
       <Village id="castle_comp_caen_barfleur" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_caen" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1873,7 +1873,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_calais" name="{=castle_calais_name}Calais Castle" owner="Faction.clan_england_1" posX="284.177" posY="1101.375" culture="Culture.england" gate_posX="285.7438" gate_posY="1100.569">
+  <Settlement id="castle_calais" name="{=castle_calais_name}Calais Castle" owner="Faction.clan_france_3" posX="284.177" posY="1101.375" culture="Culture.french" gate_posX="285.7438" gate_posY="1100.569">
     <Components>
       <Town id="castle_comp_calais" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -1898,7 +1898,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_calais_stomer" name="{=castle_calais_stomer_name}Saint Omer" posX="290.174" posY="1093.657" culture="Culture.england" text="{=castle_calais_stomer_text}Saint Omer text...">
+  <Settlement id="castle_calais_stomer" name="{=castle_calais_stomer_name}Saint Omer" posX="290.174" posY="1093.657" culture="Culture.french" text="{=castle_calais_stomer_text}Saint Omer text...">
     <Components>
       <Village id="castle_comp_calais_stomer" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.castle_calais" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1911,7 +1911,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_calais_dunkirk" name="{=castle_calais_dunkirk_name}Dunkirk" posX="302.316" posY="1110.729" culture="Culture.england" text="{=castle_calais_dunkirk_text}Dunkirk text...">
+  <Settlement id="castle_calais_dunkirk" name="{=castle_calais_dunkirk_name}Dunkirk" posX="302.316" posY="1110.729" culture="Culture.french" text="{=castle_calais_dunkirk_text}Dunkirk text...">
     <Components>
       <Village id="castle_comp_calais_dunkirk" village_type="VillageType.fisherman" hearth="600" bound="Settlement.castle_calais" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1924,7 +1924,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_talmont" name="{=castle_talmont_name}Talmont Castle" owner="Faction.clan_england_1" posX="223.165" posY="982.115" culture="Culture.england" gate_posX="224.4061" gate_posY="983.2753">
+  <Settlement id="castle_talmont" name="{=castle_talmont_name}Talmont Castle" owner="Faction.clan_france_8" posX="223.165" posY="982.115" culture="Culture.french" gate_posX="224.4061" gate_posY="983.2753">
     <Components>
       <Town id="castle_comp_talmont" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -1949,7 +1949,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_talmont_bressuire" name="{=castle_talmont_bressuire_name}Bressuire" posX="231.556" posY="994.959" culture="Culture.england" text="{=castle_talmont_bressuire_text}Bressuire text...">
+  <Settlement id="castle_talmont_bressuire" name="{=castle_talmont_bressuire_name}Bressuire" posX="231.556" posY="994.959" culture="Culture.french" text="{=castle_talmont_bressuire_text}Bressuire text...">
     <Components>
       <Village id="castle_comp_talmont_bressuire" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.castle_talmont" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1962,7 +1962,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_talmont_montaigu" name="{=castle_talmont_montaigu_name}Montaigu" posX="219.725" posY="1000.557" culture="Culture.england" text="{=castle_talmont_montaigu_text}Montaigu text...">
+  <Settlement id="castle_talmont_montaigu" name="{=castle_talmont_montaigu_name}Montaigu" posX="219.725" posY="1000.557" culture="Culture.french" text="{=castle_talmont_montaigu_text}Montaigu text...">
     <Components>
       <Village id="castle_comp_talmont_montaigu" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.castle_talmont" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -1975,7 +1975,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_falaise" name="{=castle_falaise_name}Falaise Castle" owner="Faction.clan_england_1" posX="239.347" posY="1047.232" culture="Culture.england" gate_posX="240.0933" gate_posY="1047.495">
+  <Settlement id="castle_falaise" name="{=castle_falaise_name}Falaise Castle" owner="Faction.clan_france_8" posX="239.347" posY="1047.232" culture="Culture.french" gate_posX="240.0933" gate_posY="1047.495">
     <Components>
       <Town id="castle_comp_falaise" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="600">
         <Buildings>
@@ -2000,7 +2000,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_falaise_laval" name="{=castle_falaise_laval_name}Laval" posX="224.903" posY="1034.896" culture="Culture.england" text="{=castle_falaise_laval_text}Laval text...">
+  <Settlement id="castle_falaise_laval" name="{=castle_falaise_laval_name}Laval" posX="224.903" posY="1034.896" culture="Culture.french" text="{=castle_falaise_laval_text}Laval text...">
     <Components>
       <Village id="town_comp_falaise_laval" village_type="VillageType.flax_plant" hearth="400" bound="Settlement.castle_falaise" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2013,7 +2013,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_falaise_alencon" name="{=castle_falaise_alecnon_name}Alecnon" posX="245.955" posY="1034.535" culture="Culture.england" text="{=castle_falaise_alecnon_text}Alecnon text...">
+  <Settlement id="castle_falaise_alencon" name="{=castle_falaise_alecnon_name}Alecnon" posX="245.955" posY="1034.535" culture="Culture.french" text="{=castle_falaise_alecnon_text}Alecnon text...">
     <Components>
       <Village id="town_comp_falaise_alecnon" village_type="VillageType.flax_plant" hearth="600" bound="Settlement.castle_falaise" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2026,7 +2026,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_falaise_argentan" name="{=castle_falaise_argentan_name}Argentan" posX="244.788" posY="1043.044" culture="Culture.england" text="{=castle_falaise_argentan_text}Argentan text...">
+  <Settlement id="castle_falaise_argentan" name="{=castle_falaise_argentan_name}Argentan" posX="244.788" posY="1043.044" culture="Culture.french" text="{=castle_falaise_argentan_text}Argentan text...">
     <Components>
       <Village id="town_comp_falaise_argentan" village_type="VillageType.wheat_farm" hearth="600" bound="Settlement.castle_falaise" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2039,7 +2039,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_rouen" name="{=castle_rouen_name}Rouen Castle" owner="Faction.clan_england_1" posX="275.782" posY="1071.669" culture="Culture.england" gate_posX="275.7134" gate_posY="1072.457">
+  <Settlement id="castle_rouen" name="{=castle_rouen_name}Rouen Castle" owner="Faction.clan_france_1" posX="275.782" posY="1071.669" culture="Culture.french" gate_posX="275.7134" gate_posY="1072.457">
     <Components>
       <Town id="castle_comp_rouen" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -2064,7 +2064,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_rouen_harfleur" name="{=castle_rouen_harfleur_name}Harfleur" posX="257.746" posY="1072.685" culture="Culture.england" text="{=castle_rouen_harfleur_text}Harfleur text...">
+  <Settlement id="castle_rouen_harfleur" name="{=castle_rouen_harfleur_name}Harfleur" posX="257.746" posY="1072.685" culture="Culture.french" text="{=castle_rouen_harfleur_text}Harfleur text...">
     <Components>
       <Village id="castle_comp_rouen_harfleur" village_type="VillageType.fisherman" hearth="600" bound="Settlement.castle_rouen" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2077,7 +2077,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_stlo" name="{=castle_stlo_name}Chateaux de St. Lo" owner="Faction.clan_england_1" posX="225.363" posY="1053.76" culture="Culture.england" gate_posX="225.7713" gate_posY="1053.082">
+  <Settlement id="castle_stlo" name="{=castle_stlo_name}Chateaux de St. Lo" owner="Faction.clan_france_6" posX="225.363" posY="1053.76" culture="Culture.french" gate_posX="225.7713" gate_posY="1053.082">
     <Components>
       <Town id="castle_comp_stlo" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -2102,7 +2102,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_stlo_bayeux" name="{=castle_stlo_bayeux_name}Bayeux" posX="230.369" posY="1059.937" culture="Culture.england" text="{=castle_stlo_bayeux_text}Bayeux text...">
+  <Settlement id="castle_stlo_bayeux" name="{=castle_stlo_bayeux_name}Bayeux" posX="230.369" posY="1059.937" culture="Culture.french" text="{=castle_stlo_bayeux_text}Bayeux text...">
     <Components>
       <Village id="castle_comp_stlo_bayeux" village_type="VillageType.fisherman" hearth="500" bound="Settlement.castle_stlo" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2115,7 +2115,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_stlo_ourville" name="{=castle_stlo_ourville_name}Ourville" posX="216.902" posY="1058.313" culture="Culture.england" text="{=castle_stlo_ourville_text}Ourville text...">
+  <Settlement id="castle_stlo_ourville" name="{=castle_stlo_ourville_name}Ourville" posX="216.902" posY="1058.313" culture="Culture.french" text="{=castle_stlo_ourville_text}Ourville text...">
     <Components>
       <Village id="castle_comp_stlo_ourville" village_type="VillageType.sheep_farm" hearth="700" bound="Settlement.castle_stlo" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2130,7 +2130,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region County of Champagne : French (Vlandia)-->
-  <Settlement id="town_reims" name="{=town_reims_name}Reims" owner="Faction.clan_england_1" posX="332.036" posY="1078.039" culture="Culture.england" gate_posX="328.3767" gate_posY="1076.756" text="{=town_reims_text}Reims text...">
+  <Settlement id="town_reims" name="{=town_reims_name}Reims" owner="Faction.clan_france_1" posX="332.036" posY="1078.039" culture="Culture.french" gate_posX="328.3767" gate_posY="1076.756" text="{=town_reims_text}Reims text...">
     <Components>
       <Town id="town_comp_reims" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -2166,7 +2166,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_reims_chalons" name="{=town_reims_chalons_name}Chalons" posX="334.987" posY="1066.648" culture="Culture.england" text="{=town_reims_chalons_text}Chalons text...">
+  <Settlement id="town_reims_chalons" name="{=town_reims_chalons_name}Chalons" posX="334.987" posY="1066.648" culture="Culture.french" text="{=town_reims_chalons_text}Chalons text...">
     <Components>
       <Village id="town_comp_reims_chalons" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_reims" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2179,7 +2179,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_reims_quentin" name="{=town_reims_quentin_name}Saint Quentin" posX="321.532" posY="1088.977" culture="Culture.england" text="{=town_reims_quentin_text}Saint Quentin text...">
+  <Settlement id="town_reims_quentin" name="{=town_reims_quentin_name}Saint Quentin" posX="321.532" posY="1088.977" culture="Culture.french" text="{=town_reims_quentin_text}Saint Quentin text...">
     <Components>
       <Village id="town_comp_reims_quentin" village_type="VillageType.swine_farm" hearth="400" bound="Settlement.town_reims" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2192,7 +2192,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_reims_arras" name="{=town_reims_arras_name}Arras" posX="305.609" posY="1094.213" culture="Culture.england" text="{=town_reims_arras_text}Arras text...">
+  <Settlement id="town_reims_arras" name="{=town_reims_arras_name}Arras" posX="305.609" posY="1094.213" culture="Culture.french" text="{=town_reims_arras_text}Arras text...">
     <Components>
       <Village id="town_comp_reims_arras" village_type="VillageType.sheep_farm" hearth="500" bound="Settlement.town_reims" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2205,7 +2205,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_reims_troyes" name="{=town_reims_troyes_name}Troyes" posX="339.149" posY="1054.786" culture="Culture.england" text="{=town_reims_troyes_text}Troyes text...">
+  <Settlement id="town_reims_troyes" name="{=town_reims_troyes_name}Troyes" posX="339.149" posY="1054.786" culture="Culture.french" text="{=town_reims_troyes_text}Troyes text...">
     <Components>
       <Village id="town_comp_reims_troyes" village_type="VillageType.iron_mine" hearth="600" bound="Settlement.town_reims" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2220,7 +2220,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region Duchy Brittany : French (Vlandia)-->
-  <Settlement id="castle_quimper" name="{=castle_quimper_name}Chateaux a Quimper" owner="Faction.clan_england_1" posX="165.488" posY="1018.071" culture="Culture.england" gate_posX="165.7861" gate_posY="1018.989">
+  <Settlement id="castle_quimper" name="{=castle_quimper_name}Chateaux a Quimper" owner="Faction.clan_brittany_1" posX="165.488" posY="1018.071" culture="Culture.french" gate_posX="165.7861" gate_posY="1018.989">
     <Components>
       <Town id="castle_comp_quimper" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -2245,7 +2245,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_quimper_brest" name="{=castle_quimper_brest_name}Brest" posX="155.982" posY="1028.956" culture="Culture.england" text="{=castle_quimper_brest_text}Brest text...">
+  <Settlement id="castle_quimper_brest" name="{=castle_quimper_brest_name}Brest" posX="155.982" posY="1028.956" culture="Culture.french" text="{=castle_quimper_brest_text}Brest text...">
     <Components>
       <Village id="castle_comp_quimper_brest" village_type="VillageType.cattle_farm" hearth="400" bound="Settlement.castle_quimper" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2258,7 +2258,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_quimper_carhaix" name="{=castle_quimper_carhaix_name}Carhaix" posX="173.973" posY="1026.195" culture="Culture.england" text="{=castle_quimper_carhaix_text}Carhaix text...">
+  <Settlement id="castle_quimper_carhaix" name="{=castle_quimper_carhaix_name}Carhaix" posX="173.973" posY="1026.195" culture="Culture.french" text="{=castle_quimper_carhaix_text}Carhaix text...">
     <Components>
       <Village id="castle_comp_quimper_carhaix" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.castle_quimper" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2271,7 +2271,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_josselin" name="{=castle_josselin_name}Josselin Castle" owner="Faction.clan_england_1" posX="195.888" posY="1022.01" culture="Culture.england" gate_posX="196.6799" gate_posY="1021.62">
+  <Settlement id="castle_josselin" name="{=castle_josselin_name}Josselin Castle" owner="Faction.clan_brittany_1" posX="195.888" posY="1022.01" culture="Culture.french" gate_posX="196.6799" gate_posY="1021.62">
     <Components>
       <Town id="castle_comp_josselin" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -2296,7 +2296,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_josselin_vannes" name="{=castle_josselin_vannes_name}Vannes" posX="184.633" posY="1019.225" culture="Culture.england" text="{=castle_josselin_vannes_text}Vannes text...">
+  <Settlement id="castle_josselin_vannes" name="{=castle_josselin_vannes_name}Vannes" posX="184.633" posY="1019.225" culture="Culture.french" text="{=castle_josselin_vannes_text}Vannes text...">
     <Components>
       <Village id="castle_comp_josselin_vannes" village_type="VillageType.salt_mine" hearth="400" bound="Settlement.castle_josselin" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2309,7 +2309,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_josselin_pontivy" name="{=castle_josselin_pontivy_name}Pontivy" posX="184.996" posY="1029.391" culture="Culture.england" text="{=castle_josselin_pontivy_text}Pontivy text...">
+  <Settlement id="castle_josselin_pontivy" name="{=castle_josselin_pontivy_name}Pontivy" posX="184.996" posY="1029.391" culture="Culture.french" text="{=castle_josselin_pontivy_text}Pontivy text...">
     <Components>
       <Village id="castle_comp_josselin_pontivy" village_type="VillageType.wheat_farm" hearth="600" bound="Settlement.castle_josselin" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2322,7 +2322,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_rennes" name="{=town_rennes_name}Rennes" owner="Faction.clan_england_1" posX="209.556" posY="1027.657" culture="Culture.england" gate_posX="208.1725" gate_posY="1025.488" text="{=town_rennes_text}Rennes text...">
+  <Settlement id="town_rennes" name="{=town_rennes_name}Rennes" owner="Faction.clan_brittany_1" posX="209.556" posY="1027.657" culture="Culture.french" gate_posX="208.1725" gate_posY="1025.488" text="{=town_rennes_text}Rennes text...">
     <Components>
       <Town id="town_comp_rennes" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -2358,7 +2358,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_rennes_clisson" name="{=town_rennes_clisson_name}Clisson" posX="225.75" posY="1006.998" culture="Culture.england" text="{=town_rennes_clisson_text}Clisson text...">
+  <Settlement id="town_rennes_clisson" name="{=town_rennes_clisson_name}Clisson" posX="225.75" posY="1006.998" culture="Culture.french" text="{=town_rennes_clisson_text}Clisson text...">
     <Components>
       <Village id="town_comp_rennes_clisson" village_type="VillageType.clay_mine" hearth="400" bound="Settlement.town_rennes" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2371,7 +2371,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_rennes_nantes" name="{=town_rennes_nantes_name}Nantes" posX="219.331" posY="1017.024" culture="Culture.england" text="{=town_rennes_nantes_text}Nantes text...">
+  <Settlement id="town_rennes_nantes" name="{=town_rennes_nantes_name}Nantes" posX="219.331" posY="1017.024" culture="Culture.french" text="{=town_rennes_nantes_text}Nantes text...">
     <Components>
       <Village id="town_comp_rennes_nantes" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_rennes" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2384,7 +2384,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_pierre_ii" name="{=castle_pierre_ii_name}Chateaux de Pierre II" owner="Faction.clan_england_1" posX="180.546" posY="1039.679" culture="Culture.england" gate_posX="180.2943" gate_posY="1038.929">
+  <Settlement id="castle_pierre_ii" name="{=castle_pierre_ii_name}Chateaux de Pierre II" owner="Faction.clan_brittany_3" posX="180.546" posY="1039.679" culture="Culture.french" gate_posX="180.2943" gate_posY="1038.929">
     <Components>
       <Town id="castle_comp_pierre_ii" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -2409,7 +2409,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_pierre_ii_morlaix" name="{=castle_pierre_ii_morlaix_name}Morlaix" posX="163.788" posY="1032.503" culture="Culture.england" text="{=castle_pierre_ii_morlaix_text}Morlaix text...">
+  <Settlement id="castle_pierre_ii_morlaix" name="{=castle_pierre_ii_morlaix_name}Morlaix" posX="163.788" posY="1032.503" culture="Culture.french" text="{=castle_pierre_ii_morlaix_text}Morlaix text...">
     <Components>
       <Village id="castle_comp_pierre_ii_morlaix" village_type="VillageType.sheep_farm" hearth="600" bound="Settlement.castle_pierre_ii" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2422,7 +2422,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_vitre" name="{=castle_vitre_name}Chateaux de Vitre" owner="Faction.clan_england_1" posX="219.919" posY="1029.362" culture="Culture.england" gate_posX="219.136" gate_posY="1029.475">
+  <Settlement id="castle_vitre" name="{=castle_vitre_name}Chateaux de Vitre" owner="Faction.clan_brittany_2" posX="219.919" posY="1029.362" culture="Culture.french" gate_posX="219.136" gate_posY="1029.475">
     <Components>
       <Town id="castle_comp_vitre" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -2447,7 +2447,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_vitre_ancenis" name="{=castle_vitre_ancenis_name}Ancenis" posX="227.661" posY="1022.733" culture="Culture.england" text="{=castle_vitre_ancenis_text}Ancenis text...">
+  <Settlement id="castle_vitre_ancenis" name="{=castle_vitre_ancenis_name}Ancenis" posX="227.661" posY="1022.733" culture="Culture.french" text="{=castle_vitre_ancenis_text}Ancenis text...">
     <Components>
       <Village id="castle_comp_vitre_ancenis" village_type="VillageType.vineyard" hearth="500" bound="Settlement.castle_vitre" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2460,7 +2460,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_fougeres" name="{=castle_fougeres_name}Chateaux de Fougeres" owner="Faction.clan_england_1" posX="215.889" posY="1038.623" culture="Culture.england" gate_posX="215.099" gate_posY="1038.579">
+  <Settlement id="castle_fougeres" name="{=castle_fougeres_name}Chateaux de Fougeres" owner="Faction.clan_brittany_3" posX="215.889" posY="1038.623" culture="Culture.french" gate_posX="215.099" gate_posY="1038.579">
     <Components>
       <Town id="castle_comp_fougeres" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -2485,7 +2485,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_fougeres_stmalo" name="{=castle_fougeres_stmalo_name}St.Malo" posX="198.541" posY="1037.781" culture="Culture.england" text="{=castle_fougeres_stmalo_text}St.Malo text...">
+  <Settlement id="castle_fougeres_stmalo" name="{=castle_fougeres_stmalo_name}St.Malo" posX="198.541" posY="1037.781" culture="Culture.french" text="{=castle_fougeres_stmalo_text}St.Malo text...">
     <Components>
       <Village id="castle_comp_fougeres_stmalo" village_type="VillageType.fisherman" hearth="500" bound="Settlement.castle_fougeres" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2500,7 +2500,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region County of Anjou : French (Vlandia)-->
-  <Settlement id="town_tours" name="{=town_tours_name}Tours" owner="Faction.clan_england_1" posX="254.86" posY="1014.226" culture="Culture.england" gate_posX="253.359" gate_posY="1011.3" text="{=town_tours_text}Tours text...">
+  <Settlement id="town_tours" name="{=town_tours_name}Tours" owner="Faction.clan_france_3" posX="254.86" posY="1014.226" culture="Culture.french" gate_posX="253.359" gate_posY="1011.3" text="{=town_tours_text}Tours text...">
     <Components>
       <Town id="town_comp_tours" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -2536,7 +2536,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tours_angers" name="{=town_tours_angers_name}Angers" posX="241.461" posY="1023.251" culture="Culture.england" text="{=town_tours_angers_text}Angers text...">
+  <Settlement id="town_tours_angers" name="{=town_tours_angers_name}Angers" posX="241.461" posY="1023.251" culture="Culture.french" text="{=town_tours_angers_text}Angers text...">
     <Components>
       <Village id="town_comp_tours_angers" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_tours" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2549,7 +2549,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tours_lemans" name="{=town_tours_lemans_name}Le Mans" posX="249.712" posY="1028.553" culture="Culture.england" text="{=town_tours_lemans_text}Le Mans text...">
+  <Settlement id="town_tours_lemans" name="{=town_tours_lemans_name}Le Mans" posX="249.712" posY="1028.553" culture="Culture.french" text="{=town_tours_lemans_text}Le Mans text...">
     <Components>
       <Village id="town_comp_tours_lemans" village_type="VillageType.trapper" hearth="400" bound="Settlement.town_tours" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2564,7 +2564,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region Duchy of Burgundy : French (Vlandia)-->
-  <Settlement id="castle_stgeorge" name="{=castle_stgeorge_name}Chateau de Bazoches" owner="Faction.clan_england_1" posX="330.683" posY="1029.736" culture="Culture.england" gate_posX="331.4853" gate_posY="1030.996">
+  <Settlement id="castle_stgeorge" name="{=castle_stgeorge_name}Chateau de Bazoches" owner="Faction.clan_france_3" posX="330.683" posY="1029.736" culture="Culture.french" gate_posX="331.4853" gate_posY="1030.996">
     <Components>
       <Town id="castle_comp_stgeorge" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -2589,7 +2589,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_stgeorge_dijon" name="{=castle_stgeorge_dijon_name}Dijon" posX="338.105" posY="1030.719" culture="Culture.england" text="{=castle_stgeorge_dijon_text}Dijon text...">
+  <Settlement id="castle_stgeorge_dijon" name="{=castle_stgeorge_dijon_name}Dijon" posX="338.105" posY="1030.719" culture="Culture.french" text="{=castle_stgeorge_dijon_text}Dijon text...">
     <Components>
       <Village id="castle_comp_stgeorge_dijon" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.castle_stgeorge" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2602,7 +2602,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_stgeorge_macon" name="{=castle_stgeorge_macon_name}Macon" posX="337.826" posY="1010.513" culture="Culture.england" text="{=castle_stgeorge_macon_text}Macon text...">
+  <Settlement id="castle_stgeorge_macon" name="{=castle_stgeorge_macon_name}Macon" posX="337.826" posY="1010.513" culture="Culture.french" text="{=castle_stgeorge_macon_text}Macon text...">
     <Components>
       <Village id="castle_comp_stgeorge_macon" village_type="VillageType.trapper" hearth="400" bound="Settlement.castle_stgeorge" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2615,7 +2615,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_stgeorge_bescanon" name="{=castle_stgeorge_bescanon_name}Besancon" posX="359.355" posY="1037.07" culture="Culture.england" text="{=castle_stgeorge_bescanon_text}Bescanon text...">
+  <Settlement id="castle_stgeorge_bescanon" name="{=castle_stgeorge_bescanon_name}Besancon" posX="359.355" posY="1037.07" culture="Culture.french" text="{=castle_stgeorge_bescanon_text}Bescanon text...">
     <Components>
       <Village id="castle_comp_stgeorge_bescanon" village_type="VillageType.cattle_farm" hearth="400" bound="Settlement.castle_stgeorge" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2630,7 +2630,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region County of Foix : French (Vlandia)-->
-  <Settlement id="town_auch" name="{=town_auch_name}Auch" owner="Faction.clan_england_1" posX="260.217" posY="935.9109" culture="Culture.england" gate_posX="257.7855" gate_posY="935.7374" text="{=town_auch_text}Auch text...">
+  <Settlement id="town_auch" name="{=town_auch_name}Auch" owner="Faction.clan_france_6" posX="260.217" posY="935.9109" culture="Culture.french" gate_posX="257.7855" gate_posY="935.7374" text="{=town_auch_text}Auch text...">
     <Components>
       <Town id="town_comp_auch" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -2666,7 +2666,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_auch_agen" name="{=town_auch_agen_name}Agen" posX="257.803" posY="944.991" culture="Culture.england" text="{=town_auch_agen_text}Agen text...">
+  <Settlement id="town_auch_agen" name="{=town_auch_agen_name}Agen" posX="257.803" posY="944.991" culture="Culture.french" text="{=town_auch_agen_text}Agen text...">
     <Components>
       <Village id="town_comp_auch_agen" village_type="VillageType.swine_farm" hearth="400" bound="Settlement.town_auch" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2679,7 +2679,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_auch_aire" name="{=town_auch_aire_name}Aire" posX="242.455" posY="941.263" culture="Culture.england" text="{=town_auch_aire_text}Aire text...">
+  <Settlement id="town_auch_aire" name="{=town_auch_aire_name}Aire" posX="242.455" posY="941.263" culture="Culture.french" text="{=town_auch_aire_text}Aire text...">
     <Components>
       <Village id="town_comp_auch_aire" village_type="VillageType.vineyard" hearth="400" bound="Settlement.town_auch" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2692,7 +2692,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_auch_pau" name="{=town_auch_pau_name}Pau" posX="238.48" posY="933.5179" culture="Culture.england" text="{=town_auch_pau_text}Pau text...">
+  <Settlement id="town_auch_pau" name="{=town_auch_pau_name}Pau" posX="238.48" posY="933.5179" culture="Culture.french" text="{=town_auch_pau_text}Pau text...">
     <Components>
       <Village id="town_comp_auch_pau" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.town_auch" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2707,7 +2707,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region County of Toulouse : French (Vlandia)-->
-  <Settlement id="town_toulouse" name="{=town_toulouse_name}Toulouse" owner="Faction.clan_england_1" posX="282.777" posY="936.505" culture="Culture.england" gate_posX="285.1634" gate_posY="935.008" text="{=town_toulouse_text}Toulouse text...">
+  <Settlement id="town_toulouse" name="{=town_toulouse_name}Toulouse" owner="Faction.clan_france_7" posX="282.777" posY="936.505" culture="Culture.french" gate_posX="285.1634" gate_posY="935.008" text="{=town_toulouse_text}Toulouse text...">
     <Components>
       <Town id="town_comp_toulouse" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -2743,7 +2743,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_toulouse_carcassonne" name="{=town_toulouse_carcassonne_name}Carcassonne" posX="297.66" posY="928.943" culture="Culture.england" text="{=town_toulouse_carcassonne_text}Carcassonne text...">
+  <Settlement id="town_toulouse_carcassonne" name="{=town_toulouse_carcassonne_name}Carcassonne" posX="297.66" posY="928.943" culture="Culture.french" text="{=town_toulouse_carcassonne_text}Carcassonne text...">
     <Components>
       <Village id="town_comp_toulouse_carcassonne" village_type="VillageType.vineyard" hearth="400" bound="Settlement.town_toulouse" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2756,7 +2756,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_toulouse_castres" name="{=town_toulouse_castres_name}Castres" posX="295.7" posY="939.785" culture="Culture.england" text="{=town_toulouse_castres_text}Castres text...">
+  <Settlement id="town_toulouse_castres" name="{=town_toulouse_castres_name}Castres" posX="295.7" posY="939.785" culture="Culture.french" text="{=town_toulouse_castres_text}Castres text...">
     <Components>
       <Village id="town_comp_toulouse_castres" village_type="VillageType.silver_mine" hearth="400" bound="Settlement.town_toulouse" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2769,7 +2769,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_aumelas" name="{=castle_aumelas_name}Chateau de Aumulas" owner="Faction.clan_england_1" posX="321.327" posY="948.0699" culture="Culture.england" gate_posX="320.7824" gate_posY="948.1708">
+  <Settlement id="castle_aumelas" name="{=castle_aumelas_name}Chateau de Aumulas" owner="Faction.clan_france_7" posX="321.327" posY="948.0699" culture="Culture.french" gate_posX="320.7824" gate_posY="948.1708">
     <Components>
       <Town id="castle_comp_aumelas" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -2794,7 +2794,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_aumelas_narbonne" name="{=castle_aumelas_narbonne_name}Narbonne" posX="309.41" posY="928.31" culture="Culture.england" text="{=castle_aumelas_narbonne_text}Narbonne text...">
+  <Settlement id="castle_aumelas_narbonne" name="{=castle_aumelas_narbonne_name}Narbonne" posX="309.41" posY="928.31" culture="Culture.french" text="{=castle_aumelas_narbonne_text}Narbonne text...">
     <Components>
       <Village id="castle_comp_aumelas_narbonne" village_type="VillageType.vineyard" hearth="500" bound="Settlement.castle_aumelas" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2807,7 +2807,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_aumelas_beziers" name="{=castle_aumelas_beziers_name}Beziers" posX="313.521" posY="936.765" culture="Culture.england" text="{=castle_aumelas_beziers_text}Beziers text...">
+  <Settlement id="castle_aumelas_beziers" name="{=castle_aumelas_beziers_name}Beziers" posX="313.521" posY="936.765" culture="Culture.french" text="{=castle_aumelas_beziers_text}Beziers text...">
     <Components>
       <Village id="castle_comp_aumelas_beziers" village_type="VillageType.fisherman" hearth="500" bound="Settlement.castle_aumelas" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2822,7 +2822,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region Kingdom of Provence : French (Vlandia)-->
-  <Settlement id="town_marseilles" name="{=town_marseilles_name}Marseilles" owner="Faction.clan_england_1" posX="354.316" posY="952.115" culture="Culture.england" gate_posX="349.5401" gate_posY="952.8161" text="{=town_marseilles_text}Marseilles text...">
+  <Settlement id="town_marseilles" name="{=town_marseilles_name}Marseilles" owner="Faction.clan_france_9" posX="354.316" posY="952.115" culture="Culture.french" gate_posX="349.5401" gate_posY="952.8161" text="{=town_marseilles_text}Marseilles text...">
     <Components>
       <Town id="town_comp_marseilles" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -2858,7 +2858,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_marseilles_sisteron" name="{=town_marseilles_sisteron_name}Sisteron" posX="368.002" posY="959.928" culture="Culture.england" text="{=town_marseilles_sisteron_text}Sisteron text...">
+  <Settlement id="town_marseilles_sisteron" name="{=town_marseilles_sisteron_name}Sisteron" posX="368.002" posY="959.928" culture="Culture.french" text="{=town_marseilles_sisteron_text}Sisteron text...">
     <Components>
       <Village id="town_comp_marseilles_sisteron" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_marseilles" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2871,7 +2871,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_marseilles_tropez" name="{=town_marseilles_tropez_name}Saint Tropez" posX="378.441" posY="947.777" culture="Culture.england" text="{=town_marseilles_tropez_text}Saint Tropez text...">
+  <Settlement id="town_marseilles_tropez" name="{=town_marseilles_tropez_name}Saint Tropez" posX="378.441" posY="947.777" culture="Culture.french" text="{=town_marseilles_tropez_text}Saint Tropez text...">
     <Components>
       <Village id="town_comp_marseilles_tropez" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_marseilles" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2884,7 +2884,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_marseilles_montpellier" name="{=town_marseilles_montpellier_name}Montpellier" posX="331.888" posY="950.003" culture="Culture.england" text="{=town_marseilles_montpellier_text}Montpellier text...">
+  <Settlement id="town_marseilles_montpellier" name="{=town_marseilles_montpellier_name}Montpellier" posX="331.888" posY="950.003" culture="Culture.french" text="{=town_marseilles_montpellier_text}Montpellier text...">
     <Components>
       <Village id="town_comp_marseilles_montpellier" village_type="VillageType.cattle_farm" hearth="400" bound="Settlement.town_marseilles" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2897,7 +2897,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_marseilles_ales" name="{=town_marseilles_ales_name}Ales" posX="331.915" posY="961.813" culture="Culture.england" text="{=town_marseilles_ales_text}Ales text...">
+  <Settlement id="town_marseilles_ales" name="{=town_marseilles_ales_name}Ales" posX="331.915" posY="961.813" culture="Culture.french" text="{=town_marseilles_ales_text}Ales text...">
     <Components>
       <Village id="town_comp_marseilles_ales" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.town_marseilles" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2912,7 +2912,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region Bishopric of Lyonnais : French (Vlandia)-->
-  <Settlement id="town_lyon" name="{=town_lyon_name}Lyon" owner="Faction.clan_england_1" posX="347.674" posY="993.7209" culture="Culture.england" gate_posX="348.9841" gate_posY="991.1121" text="{=town_lyon_text}Lyon text...">
+  <Settlement id="town_lyon" name="{=town_lyon_name}Lyon" owner="Faction.clan_france_7" posX="347.674" posY="993.7209" culture="Culture.french" gate_posX="348.9841" gate_posY="991.1121" text="{=town_lyon_text}Lyon text...">
     <Components>
       <Town id="town_comp_lyon" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -2948,7 +2948,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_lyon_montbrison" name="{=town_lyon_montbrison_name}Montbrison" posX="329.519" posY="984.964" culture="Culture.england" text="{=town_lyon_montbrison_text}Montbrison text...">
+  <Settlement id="town_lyon_montbrison" name="{=town_lyon_montbrison_name}Montbrison" posX="329.519" posY="984.964" culture="Culture.french" text="{=town_lyon_montbrison_text}Montbrison text...">
     <Components>
       <Village id="town_comp_lyon_montbrison" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.town_lyon" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2961,7 +2961,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_lyon_grenoble" name="{=town_lyon_grenoble_name}Grenoble" posX="360.329" posY="977.827" culture="Culture.england" text="{=town_lyon_grenoble_text}Grenoble text...">
+  <Settlement id="town_lyon_grenoble" name="{=town_lyon_grenoble_name}Grenoble" posX="360.329" posY="977.827" culture="Culture.french" text="{=town_lyon_grenoble_text}Grenoble text...">
     <Components>
       <Village id="town_comp_lyon_grenoble" village_type="VillageType.vineyard" hearth="400" bound="Settlement.town_lyon" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -2974,7 +2974,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_avignon" name="{=castle_avignon_name}Avignon Castle" owner="Faction.clan_england_1" posX="348.415" posY="961.416" culture="Culture.england" gate_posX="348.7638" gate_posY="961.0939">
+  <Settlement id="castle_avignon" name="{=castle_avignon_name}Avignon Castle" owner="Faction.clan_france_7" posX="348.415" posY="961.416" culture="Culture.french" gate_posX="348.7638" gate_posY="961.0939">
     <Components>
       <Town id="castle_comp_avignon" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -2999,7 +2999,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_avignon_valence" name="{=castle_avignon_valence_name}Valence" posX="350.405" posY="973.934" culture="Culture.england" text="{=castle_avignon_valence_text}Valence text...">
+  <Settlement id="castle_avignon_valence" name="{=castle_avignon_valence_name}Valence" posX="350.405" posY="973.934" culture="Culture.french" text="{=castle_avignon_valence_text}Valence text...">
     <Components>
       <Village id="castle_comp_avignon_valence" village_type="VillageType.wheat_farm" hearth="500" bound="Settlement.castle_avignon" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -3014,7 +3014,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region Duchy of Flandres : French (Vlandia)-->
-  <Settlement id="castle_hetsteen" name="{=castle_hetsteen_name}Het Steen Castle" owner="Faction.clan_england_1" posX="355.426" posY="1119.073" culture="Culture.england" gate_posX="354.648" gate_posY="1119.217">
+  <Settlement id="castle_hetsteen" name="{=castle_hetsteen_name}Het Steen Castle" owner="Faction.clan_france_3" posX="355.426" posY="1119.073" culture="Culture.french" gate_posX="354.648" gate_posY="1119.217">
     <Components>
       <Town id="castle_comp_hetsteen" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -3039,7 +3039,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_hetsteen_brussels" name="{=castle_hetsteen_brussels_name}Brussels" posX="353.353" posY="1108.866" culture="Culture.england" text="{=castle_hetsteen_brussels_text}Brussels text...">
+  <Settlement id="castle_hetsteen_brussels" name="{=castle_hetsteen_brussels_name}Brussels" posX="353.353" posY="1108.866" culture="Culture.french" text="{=castle_hetsteen_brussels_text}Brussels text...">
     <Components>
       <Village id="castle_comp_hetsteen_brussels" village_type="VillageType.silver_mine" hearth="400" bound="Settlement.castle_hetsteen" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -3052,7 +3052,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_hetsteen_eindhoven" name="{=castle_hetsteen_eindhoven_name}Ghent" posX="371.025" posY="1127.888" culture="Culture.england" text="{=castle_hetsteen_eindhoven_text}Ghent text...">
+  <Settlement id="castle_hetsteen_eindhoven" name="{=castle_hetsteen_eindhoven_name}Ghent" posX="371.025" posY="1127.888" culture="Culture.french" text="{=castle_hetsteen_eindhoven_text}Ghent text...">
     <Components>
       <Village id="castle_comp_hetsteen_eindhoven" village_type="VillageType.wheat_farm" hearth="300" bound="Settlement.castle_hetsteen" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -3065,7 +3065,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_hetsteen_antwerp" name="{=castle_hetsteen_antwerp_name}Antwerp" posX="352.062" posY="1130.196" culture="Culture.england" text="{=castle_hetsteen_antwerp_text}Antwerp text...">
+  <Settlement id="castle_hetsteen_antwerp" name="{=castle_hetsteen_antwerp_name}Antwerp" posX="352.062" posY="1130.196" culture="Culture.french" text="{=castle_hetsteen_antwerp_text}Antwerp text...">
     <Components>
       <Village id="castle_comp_hetsteen_antwerp" village_type="VillageType.swine_farm" hearth="400" bound="Settlement.castle_hetsteen" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -3078,7 +3078,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kortrijk" name="{=castle_kortrijk_name}Kortrijk Castle" owner="Faction.clan_england_1" posX="320.914" posY="1103.528" culture="Culture.england" gate_posX="321.6771" gate_posY="1103.319">
+  <Settlement id="castle_kortrijk" name="{=castle_kortrijk_name}Kortrijk Castle" owner="Faction.clan_france_3" posX="320.914" posY="1103.528" culture="Culture.french" gate_posX="321.6771" gate_posY="1103.319">
     <Components>
       <Town id="castle_comp_kortrijk" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlandia" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -3103,7 +3103,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_kortrijk_mons" name="{=castle_kortrijk_mons_name}Mons" posX="339.701" posY="1095.516" culture="Culture.england" text="{=castle_kortrijk_mons_text}Mons text...">
+  <Settlement id="castle_kortrijk_mons" name="{=castle_kortrijk_mons_name}Mons" posX="339.701" posY="1095.516" culture="Culture.french" text="{=castle_kortrijk_mons_text}Mons text...">
     <Components>
       <Village id="castle_comp_kortrijk_mons" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.castle_kortrijk" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -3116,7 +3116,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kortrijk_ghent" name="{=castle_kortrijk_ghent_name}Ghent" posX="327.644" posY="1112.369" culture="Culture.england" text="{=castle_kortrijk_ghent_text}Ghent text...">
+  <Settlement id="castle_kortrijk_ghent" name="{=castle_kortrijk_ghent_name}Ghent" posX="327.644" posY="1112.369" culture="Culture.french" text="{=castle_kortrijk_ghent_text}Ghent text...">
     <Components>
       <Village id="castle_comp_kortrijk_ghent" village_type="VillageType.swine_farm" hearth="500" bound="Settlement.castle_kortrijk" background_crop_position="0.0" background_mesh="gui_bg_village_vlandia" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlandia" />
     </Components>
@@ -4106,7 +4106,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_edinburgh_sellark" name="{=town_edinburgh_sellark_name}Sellark" posX="195.407" posY="1213.248" culture="Culture.england" text="{=town_edinburgh_sellark_text}Lanark text...">
+  <Settlement id="town_edinburgh_sellark" name="{=town_edinburgh_sellark_name}Sellark" posX="195.407" posY="1213.248" culture="Culture.scottish" text="{=town_edinburgh_sellark_text}Lanark text...">
     <Components>
       <Village id="town_comp_edinburgh_sellark" village_type="VillageType.swine_farm" hearth="400" bound="Settlement.town_edinburgh" background_crop_position="0.0" background_mesh="gui_bg_village_scottish" wait_mesh="wait_scottish_village" castle_background_mesh="gui_bg_castle_scottish" />
     </Components>
@@ -4119,7 +4119,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_edinburgh_dunbar" name="{=town_edinburgh_dunbar_name}Dunbar" posX="209.936" posY="1227.303" culture="Culture.england" text="{=town_edinburgh_dunbar_text}Dunbar text...">
+  <Settlement id="town_edinburgh_dunbar" name="{=town_edinburgh_dunbar_name}Dunbar" posX="209.936" posY="1227.303" culture="Culture.scottish" text="{=town_edinburgh_dunbar_text}Dunbar text...">
     <Components>
       <Village id="town_comp_edinburgh_dunbar" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_edinburgh" background_crop_position="0.0" background_mesh="gui_bg_village_scottish" wait_mesh="wait_scottish_village" castle_background_mesh="gui_bg_castle_scottish" />
     </Components>
@@ -4132,7 +4132,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_stirling" name="{=town_stirling_name}Stirling" owner="Faction.clan_england_1" posX="179.739" posY="1226.14" culture="Culture.england" gate_posX="180.0949" gate_posY="1225.567" text="{=town_stirling_text}Stirling text...">
+  <Settlement id="town_stirling" name="{=town_stirling_name}Stirling" owner="Faction.clan_scotland_5" posX="179.739" posY="1226.14" culture="Culture.scottish" gate_posX="180.0949" gate_posY="1225.567" text="{=town_stirling_text}Stirling text...">
     <Components>
       <Town id="town_comp_stirling" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_scottish" wait_mesh="wait_scottish_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -4168,7 +4168,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_stirling_lanark" name="{=town_stirling_lanark_name}Lanark" posX="179.432" posY="1210.936" culture="Culture.england" text="{=town_stirling_lanark_text}Lanark text...">
+  <Settlement id="town_stirling_lanark" name="{=town_stirling_lanark_name}Lanark" posX="179.432" posY="1210.936" culture="Culture.scottish" text="{=town_stirling_lanark_text}Lanark text...">
     <Components>
       <Village id="town_comp_stirling_lanark" village_type="VillageType.trapper" hearth="400" bound="Settlement.town_stirling" background_crop_position="0.0" background_mesh="gui_bg_village_scottish" wait_mesh="wait_scottish_village" castle_background_mesh="gui_bg_castle_scottish" />
     </Components>
@@ -4181,7 +4181,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_stirling_glasgow" name="{=town_stirling_glasgow_name}Glasgow" posX="172.853" posY="1215.928" culture="Culture.england" text="{=town_stirling_glasgow_text}Glasgow text...">
+  <Settlement id="town_stirling_glasgow" name="{=town_stirling_glasgow_name}Glasgow" posX="172.853" posY="1215.928" culture="Culture.scottish" text="{=town_stirling_glasgow_text}Glasgow text...">
     <Components>
       <Village id="town_comp_stirling_glasgow" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_stirling" background_crop_position="0.0" background_mesh="gui_bg_village_scottish" wait_mesh="wait_scottish_village" castle_background_mesh="gui_bg_castle_scottish" />
     </Components>
@@ -4194,7 +4194,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_stirling_dumfries" name="{=town_stirling_dumfries_name}Dumfries" posX="172.876" posY="1201.32" culture="Culture.england" text="{=town_stirling_dumfries_text}Dumfries text...">
+  <Settlement id="town_stirling_dumfries" name="{=town_stirling_dumfries_name}Dumfries" posX="172.876" posY="1201.32" culture="Culture.scottish" text="{=town_stirling_dumfries_text}Dumfries text...">
     <Components>
       <Village id="town_comp_stirling_dumfries" village_type="VillageType.battanian_horse_ranch" hearth="400" bound="Settlement.town_stirling" background_crop_position="0.0" background_mesh="gui_bg_village_scottish" wait_mesh="wait_scottish_village" castle_background_mesh="gui_bg_castle_scottish" />
     </Components>
@@ -4207,7 +4207,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_perth" name="{=town_perth_name}Perth" owner="Faction.clan_england_1" posX="191.762" posY="1239.782" culture="Culture.england" gate_posX="192.3437" gate_posY="1239.367" text="{=town_perth_text}Perth text...">
+  <Settlement id="town_perth" name="{=town_perth_name}Perth" owner="Faction.clan_scotland_5" posX="191.762" posY="1239.782" culture="Culture.scottish" gate_posX="192.3437" gate_posY="1239.367" text="{=town_perth_text}Perth text...">
     <Components>
       <Town id="town_comp_perth" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_scottish" wait_mesh="wait_scottish_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -4243,7 +4243,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_perth_dundee" name="{=town_perth_dundee_name}Dundee" posX="204.168" posY="1241.244" culture="Culture.england" text="{=town_perth_dundee_text}Dundee text...">
+  <Settlement id="town_perth_dundee" name="{=town_perth_dundee_name}Dundee" posX="204.168" posY="1241.244" culture="Culture.scottish" text="{=town_perth_dundee_text}Dundee text...">
     <Components>
       <Village id="town_comp_perth_dundee" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_perth" background_crop_position="0.0" background_mesh="gui_bg_village_scottish" wait_mesh="wait_scottish_village" castle_background_mesh="gui_bg_castle_scottish" />
     </Components>
@@ -4256,7 +4256,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_perth_aberdeen" name="{=town_perth_aberdeen_name}Aberdeen" posX="218.423" posY="1261.189" culture="Culture.england" text="{=town_perth_aberdeen_text}Aberdeen text...">
+  <Settlement id="town_perth_aberdeen" name="{=town_perth_aberdeen_name}Aberdeen" posX="218.423" posY="1261.189" culture="Culture.scottish" text="{=town_perth_aberdeen_text}Aberdeen text...">
     <Components>
       <Village id="town_comp_perth_aberdeen" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_perth" background_crop_position="0.0" background_mesh="gui_bg_village_scottish" wait_mesh="wait_scottish_village" castle_background_mesh="gui_bg_castle_scottish" />
     </Components>
@@ -4269,7 +4269,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kendal" name="{=castle_kendal_name}Kendal Castle" owner="Faction.clan_england_1" posX="197.047" posY="1187.319" culture="Culture.england" gate_posX="196.843" gate_posY="1186.555">
+  <Settlement id="castle_kendal" name="{=castle_kendal_name}Kendal Castle" owner="Faction.clan_scotland_3" posX="197.047" posY="1187.319" culture="Culture.scottish" gate_posX="196.843" gate_posY="1186.555">
     <Components>
       <Town id="castle_comp_kendal" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_scottish" wait_mesh="wait_scottish_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -4294,7 +4294,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_kendal_carlisle" name="{=castle_kendal_carlisle_name}Carlisle" posX="195.453" posY="1199.609" culture="Culture.england" text="{=castle_kendal_carlisle_text}Carlisle text...">
+  <Settlement id="castle_kendal_carlisle" name="{=castle_kendal_carlisle_name}Carlisle" posX="195.453" posY="1199.609" culture="Culture.scottish" text="{=castle_kendal_carlisle_text}Carlisle text...">
     <Components>
       <Village id="castle_comp_kendal_carlisle" village_type="VillageType.cattle_farm" hearth="400" bound="Settlement.castle_kendal" background_crop_position="0.0" background_mesh="gui_bg_village_scottish" wait_mesh="wait_scottish_village" castle_background_mesh="gui_bg_castle_scottish" />
     </Components>
@@ -4307,7 +4307,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kendal_lancaster" name="{=castle_kendal_lancaster_name}Lancaster" posX="196.8" posY="1177.062" culture="Culture.england" text="{=castle_kendal_lancaster_text}Lancaster text...">
+  <Settlement id="castle_kendal_lancaster" name="{=castle_kendal_lancaster_name}Lancaster" posX="196.8" posY="1177.062" culture="Culture.scottish" text="{=castle_kendal_lancaster_text}Lancaster text...">
     <Components>
       <Village id="castle_comp_kendal_lancaster" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.castle_kendal" background_crop_position="0.0" background_mesh="gui_bg_village_scottish" wait_mesh="wait_scottish_village" castle_background_mesh="gui_bg_castle_scottish" />
     </Components>
@@ -4320,7 +4320,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_dingwall" name="{=castle_dingwall_name}Dingwall Castle" owner="Faction.clan_england_1" posX="183.041" posY="1269.465" culture="Culture.england" gate_posX="181.512" gate_posY="1268.724">
+  <Settlement id="castle_dingwall" name="{=castle_dingwall_name}Dingwall Castle" owner="Faction.clan_scotland_2" posX="183.041" posY="1269.465" culture="Culture.scottish" gate_posX="181.512" gate_posY="1268.724">
     <Components>
       <Town id="castle_comp_dingwall" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_scottish" wait_mesh="wait_scottish_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -4345,7 +4345,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_dingwall_kiliwhimin" name="{=castle_dingwall_kiliwhimin_name}Kiliwhimin" posX="169.529" posY="1241.897" culture="Culture.england" text="{=castle_dingwall_kiliwhimin_text}Kiliwhimin text...">
+  <Settlement id="castle_dingwall_kiliwhimin" name="{=castle_dingwall_kiliwhimin_name}Kiliwhimin" posX="169.529" posY="1241.897" culture="Culture.scottish" text="{=castle_dingwall_kiliwhimin_text}Kiliwhimin text...">
     <Components>
       <Village id="castle_comp_dingwall_kiliwhimin" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.castle_dingwall" background_crop_position="0.0" background_mesh="gui_bg_village_scottish" wait_mesh="wait_scottish_village" castle_background_mesh="gui_bg_castle_scottish" />
     </Components>
@@ -4358,7 +4358,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_dingwall_inverlael" name="{=castle_dingwall_inverlael_name}Inverlael" posX="163.472" posY="1259.066" culture="Culture.england" text="{=castle_dingwall_inverlael_text}Inverlael text...">
+  <Settlement id="castle_dingwall_inverlael" name="{=castle_dingwall_inverlael_name}Inverlael" posX="163.472" posY="1259.066" culture="Culture.scottish" text="{=castle_dingwall_inverlael_text}Inverlael text...">
     <Components>
       <Village id="castle_comp_dingwall_inverlael" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.castle_dingwall" background_crop_position="0.0" background_mesh="gui_bg_village_scottish" wait_mesh="wait_scottish_village" castle_background_mesh="gui_bg_castle_scottish" />
     </Components>
@@ -4371,7 +4371,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_dunvegan" name="{=castle_dunvegan_name}Dunvegan Castle" owner="Faction.clan_england_1" posX="135.494" posY="1252.171" culture="Culture.england" gate_posX="135.8937" gate_posY="1252.406">
+  <Settlement id="castle_dunvegan" name="{=castle_dunvegan_name}Dunvegan Castle" owner="Faction.clan_scotland_4" posX="135.494" posY="1252.171" culture="Culture.scottish" gate_posX="135.8937" gate_posY="1252.406">
     <Components>
       <Town id="castle_comp_dunvegan" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_scottish" wait_mesh="wait_scottish_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -4396,7 +4396,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_dunvegan_stornoway" name="{=castle_dunvegan_stornoway_name}Stornoway" posX="134.114" posY="1270.001" culture="Culture.england" text="{=castle_dunvegan_stornoway_text}Stornoway text...">
+  <Settlement id="castle_dunvegan_stornoway" name="{=castle_dunvegan_stornoway_name}Stornoway" posX="134.114" posY="1270.001" culture="Culture.scottish" text="{=castle_dunvegan_stornoway_text}Stornoway text...">
     <Components>
       <Village id="castle_comp_dunvegan_stornoway" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_dunvegan" background_crop_position="0.0" background_mesh="gui_bg_village_scottish" wait_mesh="wait_scottish_village" castle_background_mesh="gui_bg_castle_scottish" />
     </Components>
@@ -4409,7 +4409,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_dunvegan_balivanich" name="{=castle_dunvegan_balivanich_name}Balivanich" posX="119.041" posY="1252.292" culture="Culture.england" text="{=castle_dunvegan_balivanich_text}Balivanich text...">
+  <Settlement id="castle_dunvegan_balivanich" name="{=castle_dunvegan_balivanich_name}Balivanich" posX="119.041" posY="1252.292" culture="Culture.scottish" text="{=castle_dunvegan_balivanich_text}Balivanich text...">
     <Components>
       <Village id="castle_comp_dunvegan_balivanich" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.castle_dunvegan" background_crop_position="0.0" background_mesh="gui_bg_village_scottish" wait_mesh="wait_scottish_village" castle_background_mesh="gui_bg_castle_scottish" />
     </Components>

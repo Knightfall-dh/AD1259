@@ -260,101 +260,24 @@
             </xsl:copy>
         </xsl:template>
 
-        <!-- delete native mercenaries -->
-        <xsl:template match="NPCCharacter[@id='western_mercenary']"/>	
-        <xsl:template match="NPCCharacter[@id='western_mercenary_t4']"/>	
-        <xsl:template match="NPCCharacter[@id='western_mercenary_t5']"/>	
-        <xsl:template match="NPCCharacter[@id='western_crossbow_t4']"/>	
-        <xsl:template match="NPCCharacter[@id='western_crossbow_t5']"/>	
-
-        <xsl:template match="NPCCharacter[@id='eastern_mercenary']"/>	
-        <xsl:template match="NPCCharacter[@id='eastern_mercenary_t4']"/>	
-        <xsl:template match="NPCCharacter[@id='eastern_mercenary_t5']"/>	
-        <xsl:template match="NPCCharacter[@id='eastern_mounted_mercenary_t4']"/>	
-        <xsl:template match="NPCCharacter[@id='eastern_mounted_mercenary_t5']"/>	
-
-        <xsl:template match="NPCCharacter[@id='sword_sisters_sister_infantry_t5']"/>	
-
+       
 
         <!-- NavalDLC -->
         <xsl:template match="NPCCharacter[
-            @id='naval_armed_trader_aserai' or 
-            @id='aserai_marine_t5' or 
-            @id='naval_caravan_guard_aserai' or 
-            @id='naval_caravan_master_aserai' or 
-            @id='naval_veteran_caravan_guard_aserai' or 
-            @id='aserai_marine_t4' or 
-            @id='naval_armed_trader_battania' or 
-            @id='naval_caravan_guard_battania' or 
-            @id='naval_caravan_master_battania' or 
-            @id='battanian_marine_t4' or 
-            @id='battanian_marine_t5' or 
-            @id='naval_veteran_caravan_guard_battania' or 
-            @id='gangradirs_kin_ranged' or 
-            @id='gangradirs_kin_melee' or 
-            @id='southern_pirates_bandit' or 
-            @id='southern_pirates_chief' or 
-            @id='southern_pirates_raider' or 
-            @id='naval_armed_trader_empire' or 
-            @id='empire_marine_t4' or 
-            @id='naval_caravan_guard_empire' or 
-            @id='naval_caravan_master_empire' or 
-            @id='empire_marine_t5' or 
-            @id='empire_marine_t3' or 
-            @id='naval_veteran_caravan_guard_empire' or 
-            @id='naval_armed_trader_khuzait' or 
-            @id='naval_caravan_guard_khuzait' or 
-            @id='naval_caravan_master_khuzait' or 
-            @id='naval_veteran_caravan_guard_khuzait' or 
-            @id='naval_armed_trader_nord' or 
-            @id='nord_axe_warrior' or 
-            @id='nord_berserkr' or 
-            @id='naval_caravan_guard_nord' or 
-            @id='naval_caravan_master_nord' or 
-            @id='nord_freeman_archer' or 
-            @id='nord_jarlsmann' or 
-            @id='nord_huntsman' or 
-            @id='nord_huscarl' or 
-            @id='nord_hew-bearer' or 
-            @id='nord_marksman' or 
-            @id='nord_ungmann' or 
-            @id='nord_boandi' or 
-            @id='nord_hirdmann' or 
-            @id='nord_skjaldbrestir' or 
-            @id='nord_skathi' or 
-            @id='nord_spear_warrior' or 
-            @id='nord_ulfhednar' or 
-            @id='naval_veteran_caravan_guard_nord' or 
-            @id='nord_vargr' or 
-            @id='nord_thegn' or 
-            @id='nord_drengr' or 
-            @id='nord_youngling' or                
-            @id='sea_hounds_marksman' or 
-            @id='sea_hound_captivity' or 
-            @id='naval_armed_trader_sturgia' or 
-            @id='naval_caravan_guard_sturgia' or 
-            @id='naval_caravan_master_sturgia' or 
-            @id='sturgia_marine_t3' or 
-            @id='sturgia_marine_t5' or 
-            @id='naval_veteran_caravan_guard_sturgia' or 
-            @id='sturgia_marine_t4' or 
-            @id='naval_armed_trader_vlandia' or 
-            @id='naval_caravan_guard_vlandia' or 
-            @id='naval_caravan_master_vlandia' or 
-            @id='vlandian_marine_t5' or 
-            @id='vlandian_marine_t4' or 
-            @id='vlandian_sea_trader' or 
-            @id='armed_trader_nord' or 
-            @id='caravan_guard_nord' or 
-            @id='caravan_master_nord' or 
-            @id='nord_militia_archer' or 
-            @id='nord_militia_spearman' or 
-            @id='nord_militia_veteran_archer' or 
-            @id='nord_militia_veteran_spearman' or 
-            @id='villager_nord' or 
-            @id='veteran_caravan_guard_nord' or 
-            @id='vlandian_fortune_seekers' or 
-            @id='naval_veteran_caravan_guard_vlandia']">
+            @id='sword_sisters_sister_t3' or 
+            @id='sword_sisters_sister_t4' or 
+            @id='sword_sisters_sister_t5' or 
+            @id='sword_sisters_sister_infantry_t5' or 
+            @id='eastern_mercenary' or 
+            @id='eastern_mercenary_t4' or 
+			@id='eastern_mercenary_t5' or 
+            @id='eastern_mounted_mercenary_t4' or 
+            @id='eastern_mounted_mercenary_t5' or 
+            @id='western_mercenary' or 
+            @id='western_mercenary_t4' or 
+            @id='western_mercenary_t5' or 
+            @id='western_crossbow_t4' or 
+            @id='western_crossbow_t5']">
             <xsl:copy>
                 <xsl:apply-templates select="@*"/>
                 <xsl:attribute name="is_hidden_encyclopedia">true</xsl:attribute>

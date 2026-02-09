@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <MBPartyTemplate id="villager_french_template">
+        <stacks>
+            <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_french"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <MBPartyTemplate id="kingdom_hero_party_FRANCE_template">
+        <stacks>
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.france_infantry_root"/> <!--French Commoner Footman-->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.france_infantry_root0"/> <!--French Lesser Spearman-->
+            <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.france_infantry_root00"/> <!--French Senior Spearman-->
+            <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.france_infantry_root000"/> <!--French Veteran Spearman-->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.france_infantry_root0000"/> <!--French Serjeant Spearman-->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.france_infantry_root1"/> <!--French Lesser Guisarmer-->
+            <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.france_infantry_root10"/> <!--French Senior Guisarmer-->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.france_infantry_root100"/> <!--French Veteran Guisarmer-->
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.france_infantry_root1000"/> <!--French Serjeant Guisarmer-->
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.france_archer_root"/> <!--French Levy Archer-->
+            <PartyTemplateStack min_value="6" max_value="10" troop="NPCCharacter.france_archer_root1"/> <!--French Lesser Crossbowman-->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.france_archer_root10"/> <!--French Senior Crossbowman-->
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.france_archer_root100"/> <!--French Veteran Crossbowman-->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.france_archer_root1000"/> <!--French Serjeant Crossbowman-->
+            <PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.france_archer_root0"/> <!--French Lesser Archer-->
+            <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.france_archer_root00"/> <!--French Senior Archer-->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.france_archer_root000"/> <!--French Veteran Archer-->
+            <PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.france_elite_root"/> <!--French Mounted Serjeant-->
+            <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.france_elite_root0"/> <!--French Man at Arms-->
+            <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.france_elite_root00"/> <!--French Lesser Knight-->
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.france_elite_root000"/> <!--French Senior Knight-->
+        </stacks>
+    </MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_FRANCE_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.france_infantry_root"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.france_infantry_root0"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.france_elite_root"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.france_elite_root00"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_FRANCE_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.france_infantry_root"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.france_infantry_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.france_elite_root"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.france_elite_root00"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_FRANCE_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.france_infantry_root"/>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.france_infantry_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.france_elite_root0"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.france_elite_root00"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.france_elite_root000"/>
+		</stacks>
+	</MBPartyTemplate>
+
+    <MBPartyTemplate id="caravan_template_french">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_french"/>
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_french"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_french"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <MBPartyTemplate id="elite_caravan_template_french">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_french"/>
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_french"/>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_french"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_french"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <MBPartyTemplate id="militia_french_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.french_militia_spearman"/>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.french_militia_archer"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <MBPartyTemplate id="rebels_french_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.france_infantry_root"/>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.france_archer_root"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <MBPartyTemplate id="vassal_reward_troops_french">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.france_elite_root000"/>
+            <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.france_elite_root00"/>
+        </stacks>
+    </MBPartyTemplate>
+
+</partyTemplates>

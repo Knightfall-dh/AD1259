@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+    <!-- -->
+	<NPCCharacter id="npc_wanderer_equipment_template_french" default_group="Infantry" is_hero="false" level="16" name="{=!}wanderer_equipment" culture="Culture.french" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_french"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_armed_wanderer_equipment_template_french" default_group="Infantry" is_hero="false" level="16" name="{=!}wanderer_equipment" culture="Culture.french" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_french"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_companion_equipment_template_french" default_group="Infantry" is_hero="false" level="16" name="{=!}wanderer_equipment" culture="Culture.french" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_french"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endregion-->
+	<!--#region Townsfolk Template-->
+	<NPCCharacter id="villager_french" default_group="Infantry" level="1" name="{=vlandiapeasantman}French Peasant" occupation="Villager" culture="Culture.french" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<skills/>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.france_infantry_root"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.monk_robe"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.monk_robe"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.monk_robe"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cloth_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.long_hemp_tunic"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.long_hemp_tunic"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+				<equipment slot="Head" id="Item.leather_cap"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_polearm_1_t1"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.long_hemp_tunic"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Body" id="Item.long_hemp_tunic"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.leather_gloves"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Body" id="Item.long_woolen_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.throwing_stone"/>
+				<equipment slot="Item1" id="Item.peasant_2haxe_1_t1"/>
+				<equipment slot="Cape" id="Item.hood"/>
+				<equipment slot="Body" id="Item.sackcloth_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="townswoman_french" default_group="Infantry" is_female="true" level="1" name="{=baAQDdE5}French Townswoman" occupation="Townsfolk" culture="Culture.french" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_french"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.vlandian_woman_dress"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.plain_dress"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.dress_with_overall"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress"/>
+				<equipment slot="Cape" id="Item.female_hood"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.vlandian_woman_dress"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.plain_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.dress_with_overall"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.laced_dress"/>
+				<equipment slot="Cape" id="Item.female_scarf"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress"/>
+				<equipment slot="Leg" id="Item.leather_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.cut_dress_with_pouch"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--#endregion-->
+	<!-- #region Fighter Template -->
+	<NPCCharacter id="fighter_french" default_group="Infantry" level="1" name="{=!}French Fighter" occupation="Villager" culture="Culture.french" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_french"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="fighter_french"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--#endregion Fighter Template-->
+	<NPCCharacter id="french_troop_civilian_template_t1" name="{=!}vlandia_troop_civilian_template_t1" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.french" is_template="true" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="french_troop_civilian_template_t1"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_troop_civilian_template_t2" name="{=!}vlandia_troop_civilian_template_t2" voice="curt" default_group="infantry" is_hero="false" culture="Culture.french" is_template="true" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="french_troop_civilian_template_t2"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_troop_civilian_template_t3" name="{=!}vlandia_troop_civilian_template_t3" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.french" is_template="true" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="french_troop_civilian_template_t3"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- VLANDIA BATTLE TEMPLATES-->
+	<NPCCharacter id="french_bat_template_medium" default_group="Infantry" is_hero="false" level="16" name="{=!}French medium battle sets" culture="Culture.french" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="french_bat_template_medium"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_bat_template_heavy" default_group="Infantry" is_hero="false" level="16" name="{=!}French_lord_lady_equipment" culture="Culture.french" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="french_bat_template_heavy"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_bat_template_flamboyant" default_group="Infantry" is_hero="false" level="16" name="{=!}French_lord_lady_equipment_flamboyant" culture="Culture.french" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="french_bat_template_flamboyant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_bat_template_lady" default_group="Infantry" is_hero="false" level="16" name="{=!}French battle set for noncombatant lady" culture="Culture.french" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="french_bat_template_lady"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- VLANDIA CIVILIAN TEMPLATES -->
+	<NPCCharacter id="french_civ_template_default" default_group="Infantry" is_hero="false" level="16" name="{=!}French_unarmored_noble_equipment_normal" culture="Culture.french" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="french_civ_template_default"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_civ_template_flamboyant" default_group="Infantry" is_hero="false" level="16" name="{=!}French_unarmored_noble_equipment_flamboyant" culture="Culture.french" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="french_civ_template_flamboyant"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_civ_template_heavy" default_group="Infantry" is_hero="false" level="16" name="{=!}French_unarmored_noble_equipment_heavy" culture="Culture.french" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="french_civ_template_heavy"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- VLANDIA NONCOMBATANT TEMPLATES -->
+	<NPCCharacter id="french_noncom_template_default" default_group="Infantry" is_hero="false" level="16" name="{=!}French_noncom_template_lady" culture="Culture.french" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="french_noncom_template_default"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="french_noncom_template_flamboyant" default_group="Infantry" is_hero="false" level="16" name="{=!}French_unarmored_noble_flamboyant_lady" culture="Culture.french" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_french"/>
+		</face>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="french_noncom_template_flamboyant"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
