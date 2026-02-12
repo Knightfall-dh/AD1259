@@ -111,6 +111,15 @@
 		<xsl:template match="Faction[@id='forest_people']"/>
 		<xsl:template match="Faction[@id='eleftheroi']"/>
 		
+		<!-- Override only the player faction's home -->
+        <xsl:template match="Faction[@id='player_faction']">
+            <xsl:copy>
+               <xsl:apply-templates select="@*[name() != 'initial_home_settlement']"/>
+                   <xsl:attribute name="initial_home_settlement">Settlement.town_V6</xsl:attribute>
+              <xsl:apply-templates select="node()"/>
+           </xsl:copy>
+        </xsl:template>
+		
 		
 		
 	

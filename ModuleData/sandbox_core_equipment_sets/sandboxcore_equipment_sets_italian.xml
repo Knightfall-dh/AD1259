@@ -135,6 +135,66 @@
 		</EquipmentSet>
 		<Flags IsCombatantTemplate="true" IsWandererEquipment="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
+	<EquipmentRoster id="npc_companion_equipment_template_italian" culture="Culture.italian">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Head" id="Item.leather_cap"/>
+			<Equipment slot="Body" id="Item.footmans_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.footmans_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_b"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.footmans_tunic"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+		<EquipmentSet civilian="true">
+			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			<Equipment slot="Body" id="Item.fine_town_tunic"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
+	</EquipmentRoster>
+	<!--  -->
 	<EquipmentRoster id="civillian_template_gangster_tier1_italian" culture="Culture.italian">
 		<EquipmentSet civilian="true">
 			<Equipment slot="Item0" id="Item.empire_mace_1_t2"/>
@@ -313,6 +373,7 @@
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
+	<!--  -->
 	<EquipmentRoster id="italian_troop_civilian_template_t1" culture="Culture.italian">
 		<EquipmentSet civilian="true">
 			<Equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
@@ -374,65 +435,7 @@
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="npc_companion_equipment_template_italian" culture="Culture.italian">
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-			<Equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
-			<Equipment slot="Leg" id="Item.strapped_shoes"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-			<Equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
-			<Equipment slot="Leg" id="Item.strapped_shoes"/>
-			<Equipment slot="Cape" id="Item.scarf"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-			<Equipment slot="Head" id="Item.leather_cap"/>
-			<Equipment slot="Body" id="Item.footmans_tunic"/>
-			<Equipment slot="Leg" id="Item.strapped_shoes"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-			<Equipment slot="Cape" id="Item.scarf"/>
-			<Equipment slot="Body" id="Item.footmans_tunic"/>
-			<Equipment slot="Leg" id="Item.strapped_shoes"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-			<Equipment slot="Cape" id="Item.scarf"/>
-			<Equipment slot="Body" id="Item.fine_town_tunic"/>
-			<Equipment slot="Leg" id="Item.fine_town_boots"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-			<Equipment slot="Body" id="Item.fine_town_tunic"/>
-			<Equipment slot="Leg" id="Item.fine_town_boots"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
-			<Equipment slot="Leg" id="Item.fine_town_boots"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_b"/>
-			<Equipment slot="Cape" id="Item.scarf"/>
-			<Equipment slot="Leg" id="Item.fine_town_boots"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-			<Equipment slot="Cape" id="Item.scarf"/>
-			<Equipment slot="Body" id="Item.footmans_tunic"/>
-			<Equipment slot="Leg" id="Item.strapped_shoes"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-			<Equipment slot="Body" id="Item.fine_town_tunic"/>
-			<Equipment slot="Leg" id="Item.fine_town_boots"/>
-		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
-	</EquipmentRoster>
+	<!-- autogenerated battle/civ/noncom templates -->
 	<EquipmentRoster id="italian_bat_template_medium" culture="Culture.italian">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.empire_noble_sword_1_t5"/>
