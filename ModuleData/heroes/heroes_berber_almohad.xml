@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- Almohad clan 1-->
+	<Hero id="dead_lord_almohad_1" alive="false" faction="Faction.clan_almohad_1"/>
+	<Hero id="dead_lord_almohad_2" alive="false" father="Hero.dead_lord_almohad_1" faction="Faction.clan_almohad_1"/>
+	<Hero id="dead_lord_almohad_3" alive="false" father="Hero.dead_lord_almohad_2" faction="Faction.clan_almohad_1"/>
+	<Hero id="dead_lord_almohad_4" alive="false" father="Hero.dead_lord_almohad_3" faction="Faction.clan_almohad_1"/>
+	<Hero id="dead_lord_almohad_7" alive="false" faction="Faction.clan_almohad_1"/>
+	<Hero id="lord_almohad_1_1" father="Hero.dead_lord_almohad_7" faction="Faction.clan_almohad_1"/>
+	<Hero id="lord_almohad_1_2" father="Hero.dead_lord_almohad_7" faction="Faction.clan_almohad_1"/>
+	<Hero id="lord_almohad_1_3" father="Hero.dead_lord_almohad_7" faction="Faction.clan_almohad_1"/>
+	<Hero id="lord_almohad_1_4" father="Hero.lord_almohad_1_1" faction="Faction.clan_almohad_1"/>
+	<Hero id="lord_almohad_1_5" father="Hero.lord_almohad_1_1" faction="Faction.clan_almohad_1"/>
+	<Hero id="lord_almohad_1_6" father="Hero.lord_almohad_1_1" faction="Faction.clan_almohad_1"/>
+	<!-- Almohad clan 2-->
+	<Hero id="dead_lord_almohad_8" alive="false" father="Hero.dead_lord_almohad_1" faction="Faction.clan_almohad_2"/>
+	<Hero id="dead_lord_almohad_9" alive="false" father="Hero.dead_lord_almohad_8" faction="Faction.clan_almohad_2"/>
+	<Hero id="dead_lord_almohad_10" alive="false" father="Hero.dead_lord_almohad_9" faction="Faction.clan_almohad_2"/>
+	<Hero id="lord_almohad_2_1" father="Hero.dead_lord_almohad_9" faction="Faction.clan_almohad_2"/>
+	<Hero id="lord_almohad_2_2" father="Hero.dead_lord_almohad_9" faction="Faction.clan_almohad_2"/>
+	<Hero id="lord_almohad_2_3" father="Hero.lord_almohad_2_1" faction="Faction.clan_almohad_2"/>
+	<!-- Almohad clan 3-->
+	<Hero id="dead_lord_almohad_5" alive="false" father="Hero.dead_lord_almohad_4" faction="Faction.clan_almohad_3"/>
+	<Hero id="dead_lord_almohad_6" alive="false" father="Hero.dead_lord_almohad_4" faction="Faction.clan_almohad_3"/>
+	<Hero id="lord_almohad_3_1" father="Hero.dead_lord_almohad_4" faction="Faction.clan_almohad_3"/>
+	<Hero id="lord_almohad_3_2" father="Hero.dead_lord_almohad_4" faction="Faction.clan_almohad_3"/>
+	<Hero id="lord_almohad_3_3" father="Hero.dead_lord_almohad_4" faction="Faction.clan_almohad_3"/>
+	<!-- Almohad clan 4-->
+	<Hero id="lord_almohad_4_1" father="Hero.dead_lord_almohad_10" faction="Faction.clan_almohad_4"/>
+	<!-- Almohad clan 5-->
+	<Hero id="lord_almohad_5_1" father="Hero.dead_lord_almohad_9" faction="Faction.clan_almohad_5"/>
+	<Hero id="lord_almohad_5_2" father="Hero.lord_almohad_5_1" faction="Faction.clan_almohad_5"/>
+	<Hero id="lord_almohad_5_3" father="Hero.lord_almohad_5_1" faction="Faction.clan_almohad_5"/>
+	<Hero id="lord_almohad_5_4" father="Hero.lord_almohad_5_1" faction="Faction.clan_almohad_5"/>
+	<Hero id="lord_almohad_5_5" father="Hero.lord_almohad_5_1" faction="Faction.clan_almohad_5"/>
+	<Hero id="lord_almohad_5_6" father="Hero.lord_almohad_5_1" faction="Faction.clan_almohad_5"/>
+	<Hero id="lord_almohad_5_7" father="Hero.lord_almohad_5_1" faction="Faction.clan_almohad_5"/>
+	<Hero id="lord_almohad_5_8" father="Hero.lord_almohad_5_1" faction="Faction.clan_almohad_5"/>
+</Heroes>

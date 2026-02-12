@@ -1,0 +1,340 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<SPCultures>
+	<Culture id="berber"
+	         name="{=berberCulture}Berber"
+	         is_main_culture="true"
+	         color="0xffa34402"
+	         color2="0xff429081"
+	         elite_basic_troop="NPCCharacter.marinid_elite_root"
+	         basic_troop="NPCCharacter.marinid_infantry_root"
+	         melee_militia_troop="NPCCharacter.berber_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.berber_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.berber_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.berber_militia_veteran_archer"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_berber_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_MARINID_template"
+			 settlement_patrol_template_level_1="PartyTemplate.patrol_party_MARINID_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_MARINID_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_MARINID_template_level_3"
+	         encounter_background_mesh="encounter_berber"
+	         faction_banner_key="11.0.0.4345.4345.764.764.1.0.0.463.1.1.466.466.764.764.1.0.0"
+	         militia_party_template="PartyTemplate.militia_berber_template"
+	         rebels_party_template="PartyTemplate.rebels_berber_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_berber"
+	         text="{=berberCultureText}Unused in the game."
+	         tournament_master="NPCCharacter.tournament_master_berber"
+	         villager="NPCCharacter.villager_berber"
+	         caravan_master="NPCCharacter.caravan_master_berber"
+	         caravan_guard="NPCCharacter.caravan_guard_berber"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_berber"
+	         prison_guard="NPCCharacter.prison_guard_berber"
+	         guard="NPCCharacter.guard_berber"
+	         blacksmith="NPCCharacter.blacksmith_berber"
+	         weaponsmith="NPCCharacter.weaponsmith_berber"
+	         townswoman="NPCCharacter.townswoman_berber"
+	         townswoman_infant="NPCCharacter.townswoman_infant_berber"
+	         townswoman_child="NPCCharacter.townswoman_child_berber"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_berber"
+	         townsman="NPCCharacter.townsman_berber"
+	         townsman_infant="NPCCharacter.townsman_infant_berber"
+	         townsman_child="NPCCharacter.townsman_child_berber"
+	         townsman_teenager="NPCCharacter.townsman_teenager_berber"
+	         village_woman="NPCCharacter.village_woman_berber"
+	         villager_male_child="NPCCharacter.villager_child_berber"
+	         villager_male_teenager="NPCCharacter.villager_teenager_berber"
+	         villager_female_child="NPCCharacter.village_woman_child_berber"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_berber"
+	         ransom_broker="NPCCharacter.ransom_broker_berber"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_berber"
+	         merchant_notary="NPCCharacter.merchant_notary_berber"
+	         artisan_notary="NPCCharacter.artisan_notary_berber"
+	         preacher_notary="NPCCharacter.preacher_notary_berber"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_berber"
+	         shop_worker="NPCCharacter.shop_worker_berber"
+	         tavernkeeper="NPCCharacter.tavernkeeper_berber"
+	         taverngamehost="NPCCharacter.taverngamehost_berber"
+	         musician="NPCCharacter.musician_berber"
+	         tavern_wench="NPCCharacter.tavern_wench_berber"
+	         armorer="NPCCharacter.armorer_berber"
+	         horseMerchant="NPCCharacter.horseMerchant_berber"
+	         barber="NPCCharacter.barber_berber"
+	         merchant="NPCCharacter.merchant_berber"
+	         beggar="NPCCharacter.beggar_berber"
+	         female_beggar="NPCCharacter.female_beggar_berber"
+	         female_dancer="NPCCharacter.female_dancer_berber"
+	         default_battle_equipment_roster="EquipmentRoster.berber_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.berber_civ_template_default"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+	         duel_preset_equipment_roster="EquipmentRoster.ase_duel_preset_template"
+	         marriage_bride_equipment_roster="EquipmentRoster.marriage_female_berber_cutscene_template"
+	         board_game_type="Seega"
+	         default_character_creation_body_property="BodyProperty.default_character_creation_body_property_aserai"
+	         start_point_position_x="154"
+		     start_point_position_y="718">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_berber"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_berber"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<vassal_reward_items>
+			<item id="Item.noble_horse_khamseen"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.aserai_sword_1_t2"/>
+			<item id="Item.aserai_sword_3_t3"/>
+			<item id="Item.aserai_sword_4_t4"/>
+			<item id="Item.aserai_sword_5_t4"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_council_of_the_commons"/>
+			<policy id="policy_senate"/>
+		</default_policies>
+		<male_names>
+			<name name="{=eutSGwXa}Aban"/>
+			<name name="{=CESARaFa}Asbat"/>
+			<name name="{=GILBgWMD}Darras"/>
+			<name name="{=zpvtezSG}Farraj"/>
+			<name name="{=BoZSiYvO}Galib"/>
+			<name name="{=NvClCVOA}Garsiyya"/>
+			<name name="{=UonLmSvE}Hamdun"/>
+			<name name="{=NLksCluB}Hazm"/>
+			<name name="{=WocJDBnD}Jalid"/>
+			<name name="{=uYxOsltI}Jasib"/>
+			<name name="{=SmWOTHfc}Jattab"/>
+			<name name="{=pIMcUGmZ}Jawar"/>
+			<name name="{=GfdJAZXz}Lubb"/>
+			<name name="{=TcoYqezL}Majlad"/>
+			<name name="{=RCZYedCG}Maymun"/>
+			<name name="{=nPSeMhYT}Mundir"/>
+			<name name="{=AFeBPtvh}Mutariff"/>
+			<name name="{=ZEdFbxBW}Razin"/>
+			<name name="{=BmpVRyMs}Razon"/>
+			<name name="{=TkBtAdOV}Siraj"/>
+			<name name="{=CuCOiSUy}Sumayl"/>
+			<name name="{=PaEabzpY}Tasufin"/>
+			<name name="{=pwTZnkPC}Ubaid"/>
+			<name name="{=SWbtkuQg}Zakarriyya"/>
+			<name name="{=ywRZiMVN}Ahmad"/>
+			<name name="{=gloZJEJH}Hamdun"/>
+			<name name="{=fxvsEMJX}Idder"/>
+			<name name="{=nwOusnCu}Iften"/>
+			<name name="{=fjIwtQHw}Ighlaf"/>
+			<name name="{=rpmwoOnT}Igider"/>
+			<name name="{=SFiaZgfb}Ilayetmas"/>
+			<name name="{=NIzADvNG}Izebboudjen"/>
+			<name name="{=elmGhkqb}Izemrasen"/>
+			<name name="{=FDFLsohS}Maqrin"/>
+			<name name="{=CLVahQKm}Aderfi"/>
+			<name name="{=iTdOlWfU}Makoud"/>
+			<name name="{=epvNZeSx}Meziane"/>
+			<name name="{=AwrFvTpr}Mimum"/>
+			<name name="{=qwYobcri}Muhammad"/>
+			<name name="{=XNKeWlYW}Muhand"/>
+			<name name="{=LOMyPeGC}Mohand"/>
+			<name name="{=MURFiqBA}Munatas"/>
+			<name name="{=goslMoSs}Naravas"/>
+			<name name="{=OAcudcJE}Navil"/>
+			<name name="{=ShiFSTRH}Nayram"/>
+			<name name="{=bUgQmzUF}Rezki"/>
+			<name name="{=GIHejaPe}Said"/>
+			<name name="{=NEiANBBQ}Udad"/>
+			<name name="{=pKTOJSAJ}Ugwistan"/>
+			<name name="{=xKgPBSvw}Usem"/>
+			<name name="{=ZdkprwVm}Yedder"/>
+			<name name="{=uXPvIbZZ}Yeddes"/>
+			<name name="{=waOqfzmK}Yufayyur"/>
+			<name name="{=oqmcLNdI}Yuften"/>
+			<name name="{=qTVsHOpg}Wiwurgh"/>
+			<name name="{=OhnSLkly}Winaruz"/>
+			<name name="{=gqsUwMIr}Ziri"/>
+			<name name="{=GqduWXYV}Abbas"/>
+			<name name="{=QugMProC}Ashraf"/>
+			<name name="{=mKPUaSVt}Dhakir"/>
+			<name name="{=ViOObzRd}Fakhir"/>
+			<name name="{=ZFZjmOBP}Falih"/>
+			<name name="{=uPWxlQaL}Fath"/>
+			<name name="{=OWnhtpEY}Habbab"/>
+			<name name="{=jBWLdlys}Hashim"/>
+			<name name="{=nxGLGLUa}Hassan"/>
+			<name name="{=nDPyBGLo}Ismail"/>
+			<name name="{=RmHAFkvO}Jabalah"/>
+			<name name="{=sJXqiccq}Sulayman"/>
+		</male_names>
+		<female_names>
+			<name name="{=pHzgxhRP}Amacéi"/>
+			<name name="{=rqjGAmsQ}Amat"/>
+			<name name="{=sKbFGejY}Auriya"/>
+			<name name="{=pfgWmyKz}Badhl"/>
+			<name name="{=sqHQiBPT}Bahja"/>
+			<name name="{=ZwdAGPCd}Banafsaj"/>
+			<name name="{=xEPTcjEQ}Barira"/>
+			<name name="{=eOjzsfUu}Bazzu"/>
+			<name name="{=OPcTpbeQ}Dhana"/>
+			<name name="{=CGgsvvgt}Dhayl"/>
+			<name name="{=xYSqTrQi}Durr"/>
+			<name name="{=ZEbuOsdt}Fathuna"/>
+			<name name="{=PLTduhdu}Fatyan"/>
+			<name name="{=wBzUZjmH}Galiba"/>
+			<name name="{=DUXbZKpl}Gamama"/>
+			<name name="{=NYblFJeJ}Ganiya"/>
+			<name name="{=PNCrMbfK}Gaya"/>
+			<name name="{=kgikrJCT}Halawa"/>
+			<name name="{=ZnuxaPmQ}Halhal"/>
+			<name name="{=gasebror}Halwa"/>
+			<name name="{=vMnmZOgK}Hamda"/>
+			<name name="{=ShtQRajT}Hamduna"/>
+			<name name="{=znwNKrVE}Hulla"/>
+			<name name="{=PaNjReDC}Human"/>
+			<name name="{=ttmowCPJ}Ihtizaz"/>
+			<name name="{=tibyFSes}Ishraq"/>
+			<name name="{=NxovUpuX}Itr"/>
+			<name name="{=xDZgvnlB}Jalida"/>
+			<name name="{=GJUNQPTX}Jariya"/>
+			<name name="{=QGPEmMeU}Jawhara"/>
+			<name name="{=gRTCNvZg}Jawla"/>
+			<name name="{=eQFjGjku}Jawra"/>
+			<name name="{=LiIWdkoH}Judur"/>
+			<name name="{=OdkBRpWY}Kanza"/>
+			<name name="{=aAyNlXWV}Kitman"/>
+			<name name="{=gaXLZsOg}Mahja"/>
+			<name name="{=fFivUmXh}Mahjuna"/>
+			<name name="{=QfVSsOOy}Mahua"/>
+			<name name="{=cpmDnQIw}Mireti"/>
+			<name name="{=cHFVHPwl}Mutayyam"/>
+			<name name="{=tQFOfxVb}Muzna"/>
+			<name name="{=jwXffksB}Narjis"/>
+			<name name="{=zpzBGVVR}Nuzha"/>
+			<name name="{=GzLypkcp}Qasmuna"/>
+			<name name="{=PuqqAGol}Raha"/>
+			<name name="{=LFMtwnJe}Rima"/>
+			<name name="{=VPMxKOYr}Rumayla"/>
+			<name name="{=gTYFusuE}Safya"/>
+			<name name="{=THDqgRRd}Salma"/>
+			<name name="{=rRucsVmc}Sama"/>
+			<name name="{=HPUYalAF}Satara"/>
+			<name name="{=qBkOhTQC}Subh"/>
+			<name name="{=erbKsgIQ}Sukayna"/>
+			<name name="{=whUAReXs}Umayna"/>
+			<name name="{=PjtkJdmE0}Umayma"/>
+			<name name="{=NWhbJLNl1}Wallada"/>
+			<name name="{=KIZlzxTb2}Yanduza"/>
+			<name name="{=CLOHntFP3}Zubiya"/>
+			<name name="{=dmxmNydr4}Zumurrud"/>
+			<name name="{=upzEAzRX}Hawwa"/>
+			<name name="{=jrBYWCob}Ghadir"/>
+			<name name="{=JfRyATSX}Bushra"/>
+			<name name="{=oURtuzmS}Banah"/>
+			<name name="{=qLnHeMoQ}Mariyah"/>
+			<name name="{=nvbtBXsw}Bilqis"/>
+			<name name="{=vEIIIkHt}Kasif"/>
+			<name name="{=bieWcsdS}Hullah"/>
+			<name name="{=igBFAOHD}Qaribah"/>
+			<name name="{=JbMZSKgC}Zulaikha"/>
+		</female_names>
+		<clan_names>
+			<name name="{=uaKjxVmD}Banu Aderfi"/>
+			<name name="{=yryWvpLw}Banu Brahim"/>
+			<name name="{=CCPqdorv}Banu Gwafa"/>
+			<name name="{=MvJhhQAv}Banu Iken"/>
+			<name name="{=jkyuJKcP}Banu Meddur"/>
+			<name name="{=mqjNbapE}Banu Munatas"/>
+			<name name="{=NtyykJCR}Banu Warmaksan"/>
+			<name name="{=hwegCURC}Banu Zdan"/>
+			<name name="{=faJYdEGH}Banu Sufian"/>
+			<name name="{=biDDpDze}Banu Yeddur"/>
+			<name name="{=bLHVJaMt}Banu Amastan"/>
+		</clan_names>
+		<cultural_feats>
+			<feat id="aserai_cheaper_caravans"/>
+			<feat id="aserai_desert_speed"/>
+			<feat id="aserai_increased_wages"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="110"/>
+			<icon id="155"/>
+			<icon id="156"/>
+			<icon id="200"/>
+			<icon id="201"/>
+			<icon id="204"/>
+			<icon id="212"/>
+			<icon id="218"/>
+			<icon id="219"/>
+			<icon id="220"/>
+			<icon id="221"/>
+			<icon id="222"/>
+			<icon id="223"/>
+			<icon id="321"/>
+			<icon id="400"/>
+			<icon id="401"/>
+			<icon id="403"/>
+			<icon id="404"/>
+			<icon id="405"/>
+			<icon id="425"/>
+			<icon id="426"/>
+			<icon id="427"/>
+			<icon id="428"/>
+			<icon id="430"/>
+			<icon id="309"/>
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_berber_0"/>
+			<template name="NPCCharacter.spc_notable_berber_0b"/>
+			<template name="NPCCharacter.spc_notable_berber_1"/>
+			<template name="NPCCharacter.spc_notable_berber_1b"/>
+			<template name="NPCCharacter.spc_notable_berber_2"/>
+			<template name="NPCCharacter.spc_notable_berber_2b"/>
+			<template name="NPCCharacter.spc_notable_berber_3"/>
+			<template name="NPCCharacter.spc_notable_berber_3b"/>
+			<template name="NPCCharacter.spc_notable_berber_4"/>
+			<template name="NPCCharacter.spc_notable_berber_5"/>
+			<template name="NPCCharacter.spc_notable_berber_6"/>
+			<template name="NPCCharacter.spc_notable_berber_7"/>
+			<template name="NPCCharacter.spc_notable_berber_8"/>
+			<template name="NPCCharacter.spc_notable_berber_9"/>
+			<template name="NPCCharacter.spc_notable_berber_10"/>
+			<template name="NPCCharacter.spc_notable_berber_11"/>
+			<template name="NPCCharacter.spc_notable_berber_12"/>
+			<template name="NPCCharacter.spc_berber_headman_1"/>
+			<template name="NPCCharacter.spc_berber_headman_2"/>
+			<template name="NPCCharacter.spc_berber_headman_3"/>
+		</notable_templates>
+		<lord_templates>
+			<template name="NPCCharacter.marinid_autogenerated_lord1"/>
+			<template name="NPCCharacter.marinid_autogenerated_lord2"/>
+			<template name="NPCCharacter.marinid_autogenerated_lord3"/>
+			<template name="NPCCharacter.marinid_autogenerated_lord4"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.marinid_autogenerated_lord1"/>
+			<template name="NPCCharacter.marinid_autogenerated_lord2"/>
+			<template name="NPCCharacter.marinid_autogenerated_lord3"/>
+			<template name="NPCCharacter.marinid_autogenerated_lord4"/>
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_berber_one_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_berber_one_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_berber_one_participant_set_v3"/>
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_berber_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_berber_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_berber_two_participant_set_v3"/>
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_berber_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_berber_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_berber_four_participant_set_v3"/>
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.merc_euro_spearman"/>
+			<template name="NPCCharacter.merc_euro_guisarmer"/>
+			<template name="NPCCharacter.merc_euro_crossbowman"/>
+			<template name="NPCCharacter.merc_euro_horseman"/>
+			<template name="NPCCharacter.merc_manhunter_root"/>
+			<template name="NPCCharacter.nubian_mercenary_spearman"/>
+		</basic_mercenary_troops>
+	</Culture>
+</SPCultures> 

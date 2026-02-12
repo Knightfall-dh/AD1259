@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+    <Kingdom id="tlemcen_algeria"
+	         initial_home_settlement="Settlement.castle_melilla"
+             owner="Hero.lord_zyani_1_1"
+             banner_key="11.12.19.1836.1836.793.740.1.0.-30.427.40.116.390.390.754.764.0.1.-79"
+             primary_banner_color="0xff2C4D86"
+             secondary_banner_color="0xff830808"
+             color="ff2C4D86"
+             color2="ff830808"
+             culture="Culture.berber"
+             settlement_banner_mesh="encounter_flag_c"
+             flag_mesh="info_screen_flags_a"
+             name="{=tlemcenFactionName}Tlemcen Sultanate of Algeria"
+             short_name="{=tlemcenFactionShortName}Algerians"
+             title="{=tlemcenFactionTitle}Sultan of Tlemcen"
+             ruler_title="{=tlemcenFactionRulerTitle}Sultan"
+             text="{=tlemcenFactionText}The Zayyanid Sultanate of Tlemcen was a sultanate ruled by the Berber Zayyanid dynasty in what is now the northwest of Algeria. The Tlemcen Kingdom was established after the collapse of the Almohad Caliphate in 1236 by Yaghmurasen.">
+        <relationships>
+
+        </relationships>
+        <policies>
+            <policy id="policy_charter_of_liberties"/>
+            <policy id="policy_marshals"/>
+            <policy id="policy_road_tolls"/>
+            <policy id="policy_royal_guard"/>
+            <policy id="policy_serfdom"/>
+        </policies>
+    </Kingdom>
+</Kingdoms>

@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- clan 1: Banu Hud -->
+	<NPCCharacter id="lord_murcia_1a" name="{=murcia_lord_3}Baha' ad-Dawla Muhammad ibn Hud" age="48" voice="ironic" is_female="false" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="43.35" weight="0.0046" build="0.1528" key="00105C0B80FC25C288433A43FE0401450FB1351563471786A55976533E9879280372063507DA524A000000000000000000000000000000000000000000F43040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_sultan_combat"/>
+			<EquipmentSet id="granada_sultan_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_murcia_1b" name="{=murcia_lord_4}Yasmin bint Idris al-Mursi" age="46" voice="curt" is_female="true" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5507" build="0.5759" key="000BDC0A000020028672362967865369A91887176B723646DCA3773773849A54056986570636A93300000000000000000000000000000000000000004ADC2082"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_murcia_1c" name="{=murcia_lord_5}Ja'far ibn Muhammad al-Hudi" age="28" voice="ironic" is_female="false" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="57.92" weight="0.0046" build="0.091" key="000A580000B430028876167CD74E897A97D70B78BC5DA4385685A47656A685A50501085700767799000000000000000000000000000000000000000000001100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_murcia_1d" name="{=murcia_lord_6}Hamduna" age="28" voice="earnest" is_female="true" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4241" build="0.7095" key="000BAC0A00141004B77326194AC4402599338A6798924403D8C24F3379749A46047B6646071634C300000000000000000000000000000000000000001EF41083"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_murcia_1e" name="{=murcia_lord_7}Sa'd ibn Ja'far al-Hudi" age="11" voice="earnest" is_female="false" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.7" key="0000B002C000300DEB67D938447261A7658B5985A9A6594E143D5345AAE756A7000522540598D94800001105000030A30000001F000000000000000000787000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_murcia_1f" name="{=murcia_lord_8}Zayd ibn Muhammad al-Hudi" age="27" voice="softspoken" is_female="false" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" weight="0.6154" build="0.6899" key="00057C04400020029673264B47856554EA72881968858A46D9A28774766555770374963507334537000000000000000000000000000000000000000020FC2003"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_murcia_1g" name="{=murcia_lord_9}Razana bint Najih" age="24" voice="earnest" is_female="true" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7886" build="0.5725" key="000BAC088000368E94800B923B3A288737AC765AF2D7A91197858F34731640730199C013097777C600000000000000000000000000000000000000005D204000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_murcia_1h" name="{=murcia_lord_10}Aisha bint Razana" age="6" voice="curt" is_female="true" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7886" build="0.5725" key="000BAC088000368E94800B923B3A288737AC765AF2D7A91197858F34731640730199C013097777C600000000000000000000000000000000000000005D204000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_murcia_1i" name="{=murcia_lord_11}Ayyub ibn Muhammad al-Hudi" age="25" voice="softspoken" is_female="false" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" weight="0.6154" build="0.6899" key="00057C04400020029673264B47856554EA72881968858A46D9A28774766555770374963507334537000000000000000000000000000000000000000020FC2003"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_murcia_1j" name="{=murcia_lord_12}Rihana bint Manzor" age="20" voice="earnest" is_female="true" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7886" build="0.5725" key="000BAC088000368E94800B923B3A288737AC765AF2D7A91197858F34731640730199C013097777C600000000000000000000000000000000000000005D204000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_murcia_1k" name="{=murcia_lord_13}Marwan ibn Ayyub al-Hudi" age="2" voice="curt" is_female="false" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7886" build="0.5725" key="000BAC088000368E94800B923B3A288737AC765AF2D7A91197858F34731640730199C013097777C600000000000000000000000000000000000000005D204000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_murcia_1l" name="{=murcia_lord_13}Hamda bint Muhammad al-Hudi" age="1" voice="curt" is_female="true" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7886" build="0.5725" key="000BAC088000368E94800B923B3A288737AC765AF2D7A91197858F34731640730199C013097777C600000000000000000000000000000000000000005D204000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

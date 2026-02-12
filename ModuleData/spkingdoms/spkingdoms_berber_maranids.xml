@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+
+    <Kingdom id="marinid"
+	         initial_home_settlement="Settlement.town_tanger"
+             owner="Hero.lord_marinid_1_1"
+             banner_key="11.51.37.1750.1750.892.1037.1.0.0.510.15.116.3081.200.764.464.0.0.0.510.15.116.3035.200.764.1064.0.0.0.502.15.116.338.338.763.765.0.0.0.502.15.116.338.338.763.765.0.0.45"
+             primary_banner_color="0xff000000"
+             secondary_banner_color="0xff000000"
+             color="FFc94b4d"
+             color2="FFf7bf47"
+             culture="Culture.berber"
+             settlement_banner_mesh="encounter_flag_c"
+             flag_mesh="info_screen_flags_a"
+             name="{=marinidFactionName}Marinid Sultanate"
+             short_name="{=marinidFactionShortName}Marinids"
+             title="{=marinidFactionTitle}Marinid Sultanate of Morocco"
+             ruler_title="{=marinidFactionRulerTitle}Sultan"
+             text="{=marinidFactionText}The Marinid Sultanate is a Berber Muslim empire since the mid-13th century which controls most parts of North Africa and of the southern Iberian Peninsula (Spain) around Gibraltar. It was named after the Banu Marin (Ayt Mrin), a Zenata Berber tribe. The sultanate is ruled by the Marinid dynasty (al-marīniyyūn), founded by Abd al-Haqq I.">
+        <relationships>
+           
+        </relationships>
+        <policies>
+            <policy id="policy_land_tax"/>
+            <policy id="policy_magistrates"/>
+            <policy id="policy_war_tax"/>
+            <policy id="policy_precarial_land_tenure"/>
+            <policy id="policy_state_monopolies"/>
+            <policy id="policy_road_tolls"/>
+        </policies>
+    </Kingdom>
+</Kingdoms>

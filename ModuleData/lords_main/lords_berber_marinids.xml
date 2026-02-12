@@ -1,0 +1,1480 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+    <!-- marinid clan 1 -->
+	<NPCCharacter id="dead_lord_marinid_1" name="{=marinid_lord_1}'Abd al-Haqq ibn Muhyu az-Zenati" age="50" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="50" weight="0.0965" build="0.3904" key="0029E00D80FC0244C4A855755253857A59986C5867748BBA5739FAD468B75A2B04A616460A36434900000000000000000000000000000000000000003B644002"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_marinid_2" name="{=marinid_lord_ancestor_wife}Urtatiya" age="47" voice="curt" is_female="true" culture="Culture.berber" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="47" weight="0.3106" build="0.6843" key="0031C80E511420017E8B669F7EA9295323167A3D74B532DB3F6C9F6A79A236BD017A561307E2463A000000000000000000000000000000000000000072E44040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_1_1" name="{=marinid_lord_1}Abu Yusuf Ya'qub II ibn 'Abd al-Haqq, Marinid Sultan of Morocco" age="47" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="47" weight="0.1582" build="0.5787" key="0029C80C40FC094438A8557A5253857A7584B5377C684E481597ADB88D64455D03992635096AD5550000000000000000000000000000000000000000292C3100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="9"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="6"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_sultan_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_1_2" name="{=marinid_lady_1}Lalla Umm al-'Izz bint Muhammad al-'Alawi" age="45" voice="curt" is_female="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" key="0022500FD13C0001A7E3C8A64757B4876BA6785E867C96D8249D763F3BB7D86400000C5401A663680000000000000CE600000000000000000000000000286000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_1_3" name="{=marinid_lord_6}Yusuf an-Nasir ibn Abu Yusuf Ya'qub II" age="24" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.03" weight="0.125" build="0.1497" key="0029780F000033197D647293753569A8D7EA5B8A56A88674E538E892737E508F0072260307236379000000000000000000000000000000000000000046E45080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="3"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_1_4" name="{=marinid_lady_4}'Ariba bint Abu Yusuf Ya'qub II" age="20" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.berber" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20" weight="0.4784" build="0.5191" key="0023C80800001015BA83341737814FC43B578027A2557115ABB98E678A0A6867049870450979E5240000000000000000000000000000000000000000253840C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_1_5" name="{=marinid_lord_1_1}'Abd al-Wahid ibn Abu Yusuf Ya'qub II" age="12" voice="curt" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="12" weight="0.0934" build="0.517" key="0020B00D80FC01826AA855765253857A7584799AA75A78CE4C688B638D64455D01981613098968640000000000000000000000000000000000000000472C6001"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="9"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="6"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_sultan_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_1_6" name="{=marinid_lord_female_1}Urtatlim bint 'Abd al-Haqq" age="44" voice="curt" is_female="true" culture="Culture.berber" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="44" weight="0.4892" build="0.4015" key="001ECC0B802C200FE47B5157A5A94299C8A7678C75B546759685783534687646035676350568475900000000000000000000000000000000000000005ABC40C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- marinid clan 2 -->
+	<NPCCharacter id="dead_lord_marinid_3" name="{=x9LbvJYp}Muhammad al-Idrisi" age="32" voice="ironic" default_group="Infantry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4" build="0.7" key="003F880FC03C314064666A926C75C85988588A453C598D6A663AC7AB7D9B6B7A00035AC80396C8950000037F0000000F00000037049140010000000000283140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="9"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ase_bat_template_medium"/>
+			<EquipmentSet id="ase_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_marinid_4" name="{=abu_l_ula_lord_01}Idris bin 'Abd al-Haqq" age="58" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="58.24" weight="0.234" build="0.3454" key="0023CC0E40FC13C886899931423946DB88E588765AA3947958825CAD467C7D47057546570757A12A000000000000000000000000000000000000000056EC8040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="5"/>
+			<Trait id="Egalitarian" value="9"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_2_1" name="{=abu_l_ula_lord_02}Muhammad ibn Idris" age="54" voice="curt" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="54" weight="0.234" build="0.3454" key="001ED00D00FC131486899931423946DB82BB88765AA394799938875243EB7C7A05A546560A2EC684000000000000000000000000000000000000000001443140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_2_2" name="{=abu_l_ula_lord_04}Abu Darda ibn Muhammad" age="29" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29" weight="0.2334" build="0.6435" key="0023D408C0000344869C5A8B7746749AC8CC564639947345843A86579D766AD9019A4013099687970000000000000CE600000000000000000000000001380000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="10"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_2_3" name="{=abu_l_ula_lord_05}Abu l-'Ula Idris ibn Abu Darda" age="4" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="4" weight="0.2231" build="0.4233" key="001CF40880002959988044094881DCF25D518415A18656179A8899478D2C5A5304AAB0460A3CC435000000000000000000000000000000000000000037402000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_2_4" name="{=abu_l_ula_lord_03}Amir ibn Idris" age="52" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="54" weight="0.234" build="0.5386" key="001ED00D00FC23C586899931423946DB63B98376E872487999888B558B49778705984656095CB624000000000000000000000000000000000000000041348140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Calculating" value="6"/>
+			<Trait id="Egalitarian" value="7"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_2_5" name="{=marinid_lord_7}Ali ibn Amir" age="24" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24" weight="0.5959" build="0.39" key="002BD00F000019169A8325164C717EB41DB68247C1766706898A77398C1C65570066900306669571000000000000000000000000000000000000000030D850C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_2_6" name="{=marinid_lady_5}Dihya bint Amir" age="22" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22" weight="0.3049" build="0.6602" key="0026D80E510030026982414945B1545163D4722B77A701124043B50577B76384007A560307084367000000000000000000000000000000000000000058EC1002"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- 3 -->
+	<NPCCharacter id="dead_lord_marinid_5" name="{=marinid_lord_4}Abu Ma'ruf Muhammad ibn 'Abd al-Haqq" age="54" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="54" weight="0.4583" build="0.3904" key="002ED00D800019464655A25AB88BA65A847C9A6894859575D879766CA57AD878037670350768671C000000000000000000000000000000000000000056D84003"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_sultan_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_marinid_6" name="{=marinid_lady_3}Zeyneb al-Mariniyya" age="41" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.3981" build="0.2729" key="0022D80B400020128982510588A2A7348A60717AC375A0229E99C736896F575501A466130A1CB332000000000000000000000000000000000000000007542043"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_3_1" name="{=marinid_lord_5}Emir al-'Abbas ibn Muhammad al-Marini" age="49" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="49" weight="0.8353" build="0.6819" key="001EC80B8000240479859EB982A5A499985A8887673313948789A7A98A7731BA047AD04607176B79000000000000000000000000000000000000000034E87045"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_3_2" name="{=marinid_lord_5_2}'Uthman al-'Affan ibn Muhammad" age="21" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7171" build="0.6445" key="001CF40880002959988044094881DCF25D518415A18656179A8899478D2C5A5304AAB0460A3CC435000000000000000000000000000000000000000037402000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_3_3" name="{=marinid_lord_8}'Abd al-Haqq ibn 'Uthman al-'Affan" age="24" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7171" build="0.6445" key="001CF40880002959988044094881DCF25D518415A18656179A8899478D2C5A5304AAB0460A3CC435000000000000000000000000000000000000000037402000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_3_4" name="{=marinid_lord_9}Bazzu bint 'Uthman al-'Affan" age="22" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22" weight="0.59" build="0.2584" key="0023D80D8000100F5C816132B5B2A70B76B1737A82668521ABCA353857CC137B0064C6030638887800000000000000000000000000000000000000002ADC2100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- 4 -->
+	<NPCCharacter id="dead_lord_marinid_7" name="{=marinid_lord_adergal}'Uthman Adergal ibn 'Abd al-Haqq" age="49" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="49" weight="0.3117" build="0.5553" key="0031BC0B80B41414D5D8A7D95976B659A9685CA25B44AB797BB5675975578C4903A850350AA8447B000000000000000000000000000000000000000027602080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="9"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_4_1" name="{=marinid_lord_14}'Ali ibn 'Uthman Adergal" age="44" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="28.27" weight="0.3945" build="0.1858" key="0026400FC00036C4819C7CB98B5B6597AA55745AC773B9848A8C4C69AC8B878A01C360130C829268000000000000000000000000000000000000000055A02040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_4_2" name="{=marinid_lady_10}Raha" age="34" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="001CA80CD1883007A555B462CE8A55A6578B58BB799A8ACCAA7D8CC7765CB31201277613025AAA3B0000000000000000000000000000000000000000583C4043"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_4_3" name="{=marinid_lord_12}'Umar ibn 'Uthman Adergal" age="43" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="47.46" weight="0.1373" build="0.2052" key="001B980FC0001082BC80243829815A955AA18339B27543258DB878188B178D45046320460659885500000000000000000000000000000000000000006AD07080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_4_4" name="{=marinid_lady_7}Banafsaj" age="35" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="002D700CD0881003A5C589888A5675AAC7B2869B794AB978A79C47747B19B58801577613057CC3E6000000000000000000000000000000000000000042B41003"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_4_5" name="{=marinid_lord_13}Abu Rabi' Sulayman ibn 'Uthman Adergal" age="39" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39" weight="0.3117" build="0.5553" key="0031BC0B80B41414D5D8A7D95976B659A9685CA25B44AB797BB5675975578C4903A850350AA8447B000000000000000000000000000000000000000027602080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="9"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_4_6" name="{=marinid_lady_8}Safiyya" age="26" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00288C0CD2880004A395E7AA463A6E1C4BAA43633B1986E5A89857745CAB736C0167761306667684000000000000000000000000000000000000000066C410C3"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_4_7" name="{=marinid_lady_9}Fatyan bint Abdallah" age="5" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0022500CD2E4000457A8EAA7469C9552DEABB756A9349BC76A7768A8D898CA880187761308BAA6890000000000000000000000000000000000000000731C0083"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- 5 -->
+	<NPCCharacter id="lord_marinid_5_1" name="{=marinid_lord_15}Ibrahim ibn 'Uthman Adergal" age="39" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="36" weight="0.2793" build="0.1028" key="002BE40F0000334C6D858733A1661D758FF98E464A5858A96AB7CC949FE5F66E01524013056A6487000000000000000000000000000000000000000010A07000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_5_2" name="{=marinid_lady_11}Jariya" age="37" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="31" weight="0.3191" build="0.1072" key="00315C0D80B400036A63CA749B5593A62C368885CB78CCDACC79969B9CBBE9E80142561304C46263000000000000000000000000000000000000000058943000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_5_3" name="{=marinid_lady_12}Badis ibn Ibrahim" age="6" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0028A40FC044200D7BA421B1984A6141392DDD94B48251365E6857BBD67B978B01C776130C9683850000000000000000000000000000000000000000338C3003"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_5_4" name="{=marinid_lord_20}Faris ibn Ibrahim" age="20" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="28.66" weight="0.3616" build="0.2119" key="0026440FC000140F7765AA4D36C7C828359A3976214CDB3C934EF335A7A2576901835013088C8A29000000000000000000000000000000000000000063184140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_5_5" name="{=marinid_lady_21}Zaynab" age="19" is_female="true" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.18" weight="0.7013" build="0.7944" key="002E380F00CC200EE9B77884497A5B760CED1548676B5465E2649B885EEFDDEE01CCB6130CD698670000000000000000000000000000000000000000558C4040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- 6 -->
+	<NPCCharacter id="dead_lord_marinid_8" name="{=marinid_lord_10}Abu Yahya Abu Bakr ibn 'Abd al-Haqq" age="44" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="44" weight="0.2817" build="0.7357" key="0029D408C0B42405AB7951859526745C47B746B58637AC72748767E98C448853039B4035096896B8000000000000000000000000000000000000000047308080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_sultan_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_6_1" name="{=marinid_lord_11}Abu Muzahhir ibn Abu Yahya Abu Bakr" age="24" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="23.96" weight="0.4383" build="0.4414" key="001ED40FC0FC020279615D88977453634B8B895C74B382164C93D947647785A700877603082563410000000000000000000000000000000000000000631440C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_6_2" name="{=marinid_lady_6}Salma" is_female="true" age="41" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0022880E504430048D6DA84AA9B668434696F8AC7F826778683B65553B844B7A01A776130A85794900000000000000000000000000000000000000005D542044"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_6_3" name="{=marinid_lord_11_1}Abu Hafs 'Umar ibn Abu Yahya Abu Bakr" age="22" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22" weight="0.3519" build="0.5062" key="001ED40FC0FC240648615D88974453694464895B648782167C39596C66A37DAA009856030995C9A30000000000000000000000000000000000000000373C4081"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="5"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_6_4" name="{=marinid_lord_11_2}Ibrahim ibn Abu Yahya Abu Bakr" age="20" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20" weight="0.3519" build="0.5062" key="001ED40FC0FC238348615D88974453694464895B648782167C39596C66A37DAA008856030895C9A3000000000000000000000000000000000000000037144081"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_6_5" name="{=marinid_lord_11_3}Yahya ibn Abu Yahya Abu Bakr" age="9" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="9" weight="0.3519" build="0.5062" key="001ED40FC0FC000848615D88154453694464895B64878216766A743C66A37DAA0088560308771AB4000000000000000000000000000000000000000037145141"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- 7 -->
+	<NPCCharacter id="lord_marinid_7_1" name="{=marinid_lord_18}'Umar ibn 'Abd al-Haqq" age="48" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="48.72" weight="0.1435" build="0.1682" key="0023E00FC000214AF79677DD74B79578877688A269825D1E224A9979C69DAA5B048320460823456900000000000000000000000000000000000000004F008040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_7_2" name="{=marinid_lady_16}Salma" age="46" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4784" build="0.5191" key="0016C80880001597BA83341737814FC43B578027A2557115ABB98E678A0A6867049870460979E5240000000000000000000000000000000000000000253850C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_7_3" name="{=marinid_lady_17}Subh bint Umar" age="22" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0028780FD1B40004C774C93FC6B607A25B78358D77AA3A167785D8575938737C0167761306A6AB4600000000000000000000000000000000000000004ABC10C4"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_7_4" name="{=marinid_lady_18}Sukayna bint Umar" age="20" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="001C240FC00010037AC4EAE9849538381157953AB4819A17898B5984272D3C660187761308B6393700000000000000000000000000000000000000002F0440C4"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_7_5" name="{=marinid_lord_22}Abu Masal al-Rabat" age="24" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.41" weight="0.0664" build="0.1915" key="001BB80F175837CF55E867899876684A7A54A7D869A39D26A7CD6549D7C7E56A00631103065264870000387A00000AEB00000033000000000000000026D05140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_7_6" name="{=marinid_lady_26}Sukayna" age="22" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0022700CD114300258D8AD87875435B9EA4385AA274487967CCCCB676A89755A0137761303B03A99000000000000000000000000000000000000000038643004"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- 8 -->
+	<NPCCharacter id="dead_lord_marinid_9" name="{=marinid_lord_21_ancestor}'Abdallah al-Marini ibn 'Abd al-Haqq" age="45" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="45" weight="0.0875" build="0.6288" key="0029E00D80002A5A77C458576E733B8A466856964E652898882AE7897449A698038910350818B773000000000000000000000000000000000000000061106040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_8_1" name="{=marinid_lord_21}Ya'qub ibn 'Abdallah al-Marini" age="34" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34" weight="0.5633" build="0.273" key="0023C00D80001346F57CB5A88C9955B3FA6277B8A4954D05772984D77EA5F4FF03848135082A7D760000387A00000AEB00000033000000000000000052F83040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_8_2" name="{=marinid_lady_22}Narjis" age="38" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0020640A405820064A37ACFE612B9A4AACB69A98683BB57DB7965D8AC65346250287762408627CDB0000000000000000000000000000000000000000270C3040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_8_3" name="{=marinid_lady_23}Jawla bint Ya'qub" age="19" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0028540E52143001722BD61A88448B8B8985B5B635BF97A4BABEA16D8882527C0167761306957C88000000000000000000000000000000000000000048D400C3"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_8_4" name="{=marinid_lady_24}Jariya bint Ya'qub" age="17" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0022700CC014101263B8C87941868498779B3D75E97B5678C27788B8C8AE759501B776130B95A6650000000000000000000000000000000000000000396C00C3"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_8_5" name="{=marinid_lady_25}Jalida bint Ya'qub" age="13" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0028240E5088200E38B5E59AB258BA6668952E7A5AD5B8797BC7A8E8796233690177761307C6896400000000000000000000000000000000000000003EEC10C3"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- 9 -->
+	<NPCCharacter id="lord_marinid_9_1" name="{=marinid_lord_23}Said ibn 'Abd al-Haqq" age="43" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="43.32" weight="0.0139" build="0.1929" key="0020900FD8B417C885827386399ACB56AC917E7FE5FE5E698C6AB8756AC5E1F903530635059C6865000000000000000000000000000000000000000058B43040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_9_2" name="{=marinid_lady_27}Hamduna" age="42" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0028240E5088200E38B5E59AB258BA6668952E7A5AD5B8797BC7A8E8796233690177761307C6896400000000000000000000000000000000000000003EEC10C3"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_9_3" name="{=marinid_lady_28}Nuzha bint Said" age="19" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6389" build="0.5926" key="0023840E401410059AB8C8794186849896635A43A91AA68AC27788B88A37A6B600C9A6030C95A6650000000000000000000000000000000000000000478C00C3"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_marinid_9_4" name="{=marinid_lord_24}Emir Abu Hayyan al-Alger" age="29" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.04" weight="0.1713" build="0.1157" key="0029E40F001402499226234722C85AA985BCC26A8AEAEE13853CBBDA5183A477018236130869AC7D00000000000000000000000000000000000000004D043140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

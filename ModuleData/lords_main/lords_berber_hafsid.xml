@@ -1,0 +1,728 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+    <!-- Hafsid clan 1 -->
+	<NPCCharacter id="dead_lord_hafsid_1" name="{=hafsid_deadlord_1}Abu Zakariya Yahya, First Hafsid Sultan of Ifriqiya" age="56" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="56.43" weight="0.4071" build="0.5493" key="00265C0FC014094CAB65885B63287A7838DB66B191749453E5C383C29896A74D05B866570B98A885000000000000000000000000000000000000000033743100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="8"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_1_1" name="{=hafsid_lord_1}Muhammad I al-Mustansir, Hafsid Caliph of Ifriqiya" age="31" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="31.2" weight="0.3818" build="0.2661" key="0029E80F005834CF6317D7CA3773671E26478B4452594A449823A8AA6763768901A466140A784A5400000000000000000000000000000000000000001B443140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_1_1_1" name="{=hafsid_lady_1}Shifa" age="29" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.81" weight="0.5887" build="0.2674" key="0029D40D951430046A968779776D64579723439C487E9BB354968CC4B188788A01949613099BA5BE000000000000000000000000000000000000000025342080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_1_1_2" name="{=hafsid_lord_2}Abu Zakariya Yahya II" age="15" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="15.27" weight="0.3148" build="0.5693" key="001ED40FC014398E44DE677854748AD348918918B6C3BABAA54B7DA8769A378B014956130475B745000000000000000000000000000000000000000038843040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_1_1_3" name="{=hafsid_lady_2}Banah Hafs bin Muhammad" age="13" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="13.03" weight="0.2429" build="0.4647" key="0026FC0D950030065B5C8D82B3233679D67D937937779A86D97D45B77495A72A04A746460A27487100000000000000000000000000000000000000001F540040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_1_2" name="{=hafsid_lord_3}Emir Abu Hafs Umar bin Yahya" age="28" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="28.42" weight="0.3574" build="0.5077" key="0026E40D8088318DD979C98758716374D59719921A716676B9682863E6CC842E01A856130A1673B500000000000000000000000000000000000000004D5C3140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_1_3" name="{=hafsid_lord_4}Emir Abu Ishaq Ibrahim bin Yahya" age="29" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.97" weight="0.3574" build="0.5077" key="0020E40F1414315298C7AC5777B7048386C4245A496BB937B28678484E78747B01A856140ACE4C7500000000000000000000000000000000000000004D5C1080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_1_4" name="{=hafsid_lord_5}Abu Ghadir al-Abbas Hassan" age="48" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="48.72" weight="0.3053" build="0.6766" key="0026E00FDC2C0204669FDDCA435222137DDC978C6494B837DD283E6EA961416D047A56460782115D00000000000000000000000000000000000000002CE47040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_1_4_1" name="{=hafsid_lady_3}Mariyah" age="46" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="46.02" weight="0.8164" build="0.2591" key="00263C0FC044000C5A47750865A584BB977A9BB597A2916CBC2D37268D7677680454C645051AB84D0000000000000000000000000000000000000000449C2040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_1_4_2" name="{=hafsid_lady_4}Ghadir bin Hassan" age="23" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="23.25" weight="0.5995" build="0.6433" key="0029440F0088300D8B4A8AB478754A88D425613676B58857AAB5793A8E937479009A960309AA873700000000000000000000000000000000000000002F2C30C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_1_4_3" name="{=hafsid_lady_5}Bushra bin Hassan" age="18" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.63" weight="0.2672" build="0.574" key="00233C0FC0702006957D28537AB847868719988993DAC43AAB9C7A78B69716AA08994682082AD28C0000000000000000000000000000000000000000412C0080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Hafsid clan 2 -->
+	<NPCCharacter id="lord_hafsid_2_1" name="{=hafsid_lord_6}Emir Yahya Butrus al-Mutawakkil" age="41" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_politician_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="41.77" weight="0.2233" build="0.426" key="0023E80FC01428C024B38332478CCBBE32E297495ED4BB843DCC9BDCB3B39EAD03B636350B223232000000000000000000000000000000000000000045744000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_2_1_1" name="{=hafsid_lady_6}Halwa" age="41" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="41.39" weight="0.4254" build="0.4879" key="001EE80C40A000045D843D79737B9A78149567B43789A9B4779DC87435516D4A03D766350DCA6869000000000000000000000000000000000000000055BC4000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_2_1_2" name="{=hafsid_lord_7}Emir Zakariya Butrus bin Yahya" age="21" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="21.93" weight="0.1188" build="0.2238" key="0029980F00001382A75A86991202002288E3A5787BE98A4837B3A83A7AAA0E6B0073260307996225000000000000000000000000000000000000000022EC1080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_2_1_3" name="{=hafsid_lord_8}Emir Hassan al-Aziz Butrus bin Yahya" age="19" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.03" weight="0.1188" build="0.2238" key="0029B00F0000168687666763932222127448988879251B6D38E9EAB649569AE7009326030997542A000000000000000000000000000000000000000023348100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_2_2" name="{=hafsid_lord_9}Emir Ahmad Butrus al-Mutawakkil" age="38" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="38.69" weight="0.3529" build="0.2339" key="0029FC0F00002A0154AC9ECDDDDEDCDE6867D908357EBEEE4DFFEEFFB6D9B7B702E456250E8A52AE00000000000000000000000000000000000000006BDC5040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_2_2_1" name="{=hafsid_lady_7}Salma" age="35" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="35.6" weight="0.946" build="0.2337" key="0020DC0F00E44005ACE776B24496A5C44D344B6D67666366D87DC4274A53664D0294E624093A3576000000000000000000000000000000000000000027340080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_2_2_2" name="{=hafsid_lady_8}Zulaikha Butrus bin Ahmad" age="16" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.63" weight="0.4504" build="0.4115" key="0020D00E5058200435DA7A36ECB44B6D8599B7498B58586A185CC75BAA8D49A90896768208C4868D000000000000000000000000000000000000000033244080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Hafsid clan 3 -->
+	<NPCCharacter id="lord_hafsid_3_1" name="{=hafsid_lord_10}Emir Ismail Gamal Abd-Allah" age="55" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="55.28" weight="0.1929" build="0.2978" key="0023F40F00A020432CF0F3F0F0F0F0F09534060F0F0F0F1F374C5B7D4798854605743656073B295B00000000000000000000000000000000000000003EF41100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_3_1_1" name="{=hafsid_lord_11}Emir Abu Ahmad Hashim ibn Gamal Abd-Allah" age="36" voice="earnest" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="36.37" weight="0.1929" build="0.2978" key="0023DC0F00A028862CF0F3F1C1A1E2E49534063F0F1D0F1F374C5B7D4798854602A436240A3B295B00000000000000000000000000000000000000003F4C1100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_3_1_1_1" name="{=hafsid_lady_9}Jaida" age="38" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="38.32" weight="0.9429" build="0.0257" key="0026D40FC0CC4001B74EA7D055BBDCC62192872753426AB1B9B48C56E955345B0240E62404198944000000000000000000000000000000000000000050944000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_3_1_1_2" name="{=hafsid_lord_12}Emir Ahmad ibn Hashim ibn Gamal" age="22" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.48" weight="0.1929" build="0.2978" key="0029DC0F00A0285276F0136771919786E0DE9539081D067F38A94BC84743C5D600843603083B299800000000000000000000000000000000000000003F141100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="5"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_3_1_1_2_1" name="{=hafsid_lady_10}Khayra" age="19" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_politician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.4" weight="0.9707" build="0.0015" key="0020D40F00141013688A177582A97799369D768458592BC83643574BB84C88890A10F6A206A5879B00000000000000000000000000000000000000003A242000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_3_1_1_3" name="{=hafsid_lord_13}Emir Sulayman Abd-Allah ibn Hashim ibn Gamal" age="17" voice="curt" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="17.48" weight="0.1929" build="0.2978" key="0023E40FC0A0294677F216A7D1BFF7E63F1FC3B40175647838A94BC869A2C54C00843603083B299800000000000000000000000000000000000000003F141100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Hafsid clan 4 -->
+	<NPCCharacter id="lord_hafsid_4_1" name="{=hafsid_lord_14}Emir Bakr Hanif Abd al-Wahid" age="25" voice="earnest" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.57" weight="0.0386" build="0.6127" key="0020E00F00E418149E7ABA757E2CA6B61DF2C95A9D62837A6AA69CE47878DCEF01C916130CAD956900000000000000000000000000000000000000001B9C9040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_4_1_1" name="{=hafsid_lady_11}Sanaa" age="22" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.48" weight="0.2176" build="0.2037" key="0020200F1000200CA6A75AA865B7779F786A067DB576750BC5C83F9C77A5727A007336030786186C000000000000000000000000000000000000000032F420C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_4_1_2" name="{=hafsid_lord_15}Hassan Hanif ibn Bakr Abd al-Wahid" age="4" voice="curt" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="4.56" weight="0.0823" build="0.724" key="0023400F0058031AB6AA59797668644DD0E9AAC9963969A4AC71C7A885E7C9AE04CB16460C357A6200000000000000000000000000000000000000002D8C8000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_hafsid_4_1_3" name="{=hafsid_lady_12}Medina Hanif ibn Bakr Abd al-Wahid" age="3" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="3.2" weight="0.3966" build="0.2485" key="0029D40F0014300B666B504E87B6E81A0DC043A775E4584A39ADBDD7DEFA8CCB00546603058C8875000000000000000000000000000000000000000048B40080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

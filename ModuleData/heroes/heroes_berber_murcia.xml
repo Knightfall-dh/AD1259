@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- clan 1: Banu Hud -->
+	<Hero id="lord_murcia_1a" spouse="Hero.lord_murcia_1b" faction="Faction.clan_murcia_1" />
+	<Hero id="lord_murcia_1b" spouse="Hero.lord_murcia_1a" faction="Faction.clan_murcia_1"/>
+
+	<Hero id="lord_murcia_1c" father="Hero.lord_murcia_1a" mother="Hero.lord_murcia_1b" spouse="Hero.lord_murcia_1d" faction="Faction.clan_murcia_1"/>
+	<Hero id="lord_murcia_1d" spouse="Hero.lord_murcia_1c" faction="Faction.clan_murcia_1"/>
+	<Hero id="lord_murcia_1e" father="Hero.lord_murcia_1c" mother="Hero.lord_murcia_1d" faction="Faction.clan_murcia_1"/>
+
+	<Hero id="lord_murcia_1f" father="Hero.lord_murcia_1a" mother="Hero.lord_murcia_1b" spouse="Hero.lord_murcia_1g" faction="Faction.clan_murcia_1"/>
+	<Hero id="lord_murcia_1g" spouse="Hero.lord_murcia_1f" faction="Faction.clan_murcia_1"/>
+	<Hero id="lord_murcia_1h" father="Hero.lord_murcia_1f" mother="Hero.lord_murcia_1g" faction="Faction.clan_murcia_1"/>
+
+	<Hero id="lord_murcia_1i" father="Hero.lord_murcia_1a" mother="Hero.lord_murcia_1b" spouse="Hero.lord_murcia_1j" faction="Faction.clan_murcia_1"/>
+	<Hero id="lord_murcia_1j" spouse="Hero.lord_murcia_1i" faction="Faction.clan_murcia_1"/>
+	<Hero id="lord_murcia_1k" father="Hero.lord_murcia_1i" mother="Hero.lord_murcia_1j" faction="Faction.clan_murcia_1"/>
+	<Hero id="lord_murcia_1l" father="Hero.lord_murcia_1i" mother="Hero.lord_murcia_1j" faction="Faction.clan_murcia_1"/>
+
+</Heroes>
