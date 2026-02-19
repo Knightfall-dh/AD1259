@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- clan 1: Bjälboätten -->
+	<Hero id="lord_swedish_1_1" father="Hero.lord_swedish_1_2" mother="Hero.lord_swedish_1_3" faction="Faction.clan_swedish_1"/>
+	<Hero id="lord_swedish_1_2" spouse="Hero.lord_swedish_1_3" faction="Faction.clan_swedish_1" text="{=LW92PgZz} "/>
+	<Hero id="lord_swedish_1_3" spouse="Hero.lord_swedish_1_2" faction="Faction.clan_swedish_1"/>
+	<Hero id="lord_swedish_1_2_1" father="Hero.lord_swedish_1_2" mother="Hero.lord_swedish_1_3" faction="Faction.clan_swedish_1"/>
+	<Hero id="lord_swedish_1_2_2" father="Hero.lord_swedish_1_2" mother="Hero.lord_swedish_1_3" faction="Faction.clan_swedish_1"/>
+	<Hero id="lord_swedish_1_4" faction="Faction.clan_swedish_1"/>
+	<Hero id="lord_swedish_1_5" father="Hero.lord_swedish_1_4" faction="Faction.clan_swedish_1"/>
+	<Hero id="lord_swedish_1_6" father="Hero.lord_swedish_1_4" faction="Faction.clan_swedish_1"/>
+	<Hero id="lord_swedish_1_7" father="Hero.lord_swedish_1_4" faction="Faction.clan_swedish_1"/>
+	<Hero id="lord_swedish_1_8" father="Hero.lord_swedish_1_4" faction="Faction.clan_swedish_1"/>
+	<!-- clan 2: Aspenäsätten -->
+	<Hero id="dead_lord_swedish_1" spouse="Hero.dead_lord_swedish_2" alive="false" faction="Faction.clan_swedish_2"/>
+	<Hero id="dead_lord_swedish_2" spouse="Hero.dead_lord_swedish_1" alive="false" faction="Faction.clan_swedish_2"/>
+	<Hero id="lord_swedish_2_1" father="Hero.dead_lord_swedish_1" mother="Hero.dead_lord_swedish_2" faction="Faction.clan_swedish_2" text="{=5939sUCg}text.."/>
+	<Hero id="lord_swedish_2_2" faction="Faction.clan_swedish_2"/>
+	<Hero id="lord_swedish_2_3" mother="Hero.lord_swedish_2_2" faction="Faction.clan_swedish_2"/>
+	<Hero id="lord_swedish_2_4" father="Hero.lord_swedish_2_1" faction="Faction.clan_swedish_2"/>
+	<Hero id="lord_swedish_2_5" father="Hero.lord_swedish_2_1" faction="Faction.clan_swedish_2"/>
+	<Hero id="lord_swedish_2_6" father="Hero.lord_swedish_2_1" faction="Faction.clan_swedish_2"/>
+	<Hero id="lord_swedish_2_7" father="Hero.dead_lord_swedish_1" mother="Hero.dead_lord_swedish_2" spouse="Hero.lord_swedish_4_2" faction="Faction.clan_swedish_4"/>
+	<!-- clan 3: Färlaätten -->
+	<Hero id="lord_swedish_3_1" spouse="Hero.lord_swedish_3_2" faction="Faction.clan_swedish_3" text="{=6lZGNChB} "/>
+	<Hero id="lord_swedish_3_2" spouse="Hero.lord_swedish_3_1" faction="Faction.clan_swedish_3"/>
+	<Hero id="lord_swedish_3_3" father="Hero.lord_swedish_3_1" mother="Hero.lord_swedish_3_2" faction="Faction.clan_swedish_3"/>
+	<Hero id="lord_swedish_3_4" father="Hero.lord_swedish_3_1" mother="Hero.lord_swedish_3_2" faction="Faction.clan_swedish_3"/>
+	<Hero id="lord_swedish_3_5" father="Hero.lord_swedish_3_1" mother="Hero.lord_swedish_3_2" faction="Faction.clan_swedish_3"/>
+	<!-- clan 4: Fånöätten -->
+	<Hero id="lord_swedish_4_1" faction="Faction.clan_swedish_4"/>
+	<Hero id="lord_swedish_4_2" spouse="Hero.lord_swedish_2_7" faction="Faction.clan_swedish_4"/>
+	<Hero id="lord_swedish_4_3" father="Hero.lord_swedish_4_2" mother="Hero.lord_swedish_2_7" faction="Faction.clan_swedish_4"/>
+	<Hero id="lord_swedish_4_4" father="Hero.lord_swedish_4_2" mother="Hero.lord_swedish_2_7" faction="Faction.clan_swedish_4"/>
+	<Hero id="lord_swedish_4_5" spouse="Hero.lord_swedish_4_6" faction="Faction.clan_swedish_4"/>
+	<Hero id="lord_swedish_4_6" spouse="Hero.lord_swedish_4_5" faction="Faction.clan_swedish_4"/>
+	<!-- clan 5: Vinstorpaätten -->
+	<Hero id="lord_swedish_5_1" spouse="Hero.lord_swedish_5_2" faction="Faction.clan_swedish_5"/>
+	<Hero id="lord_swedish_5_2" spouse="Hero.lord_swedish_5_1" faction="Faction.clan_swedish_5"/>
+	<Hero id="lord_swedish_5_3" father="Hero.lord_swedish_5_1" mother="Hero.lord_swedish_5_2" faction="Faction.clan_swedish_5"/>
+	<Hero id="lord_swedish_5_4" father="Hero.lord_swedish_5_1" mother="Hero.lord_swedish_5_2" faction="Faction.clan_swedish_5"/>
+	<Hero id="lord_swedish_5_5" father="Hero.lord_swedish_5_1" mother="Hero.lord_swedish_5_2" faction="Faction.clan_swedish_5"/>
+	<!-- clan 6: Andätten -->
+	<Hero id="lord_swedish_6_1" spouse="Hero.lord_swedish_6_2" faction="Faction.clan_swedish_6"/>
+	<Hero id="lord_swedish_6_2" spouse="Hero.lord_swedish_6_1" faction="Faction.clan_swedish_6"/>
+	<Hero id="lord_swedish_6_3" father="Hero.lord_swedish_6_1" mother="Hero.lord_swedish_6_2" faction="Faction.clan_swedish_6"/>
+	<Hero id="lord_swedish_6_4" father="Hero.lord_swedish_6_1" mother="Hero.lord_swedish_6_2" faction="Faction.clan_swedish_6"/>
+	<Hero id="lord_swedish_6_5" spouse="Hero.lord_swedish_8_2" faction="Faction.clan_swedish_6"/>
+	<!-- clan 7: Algotssönernaätten -->
+	<Hero id="lord_swedish_7_1" faction="Faction.clan_swedish_7"/>
+	<Hero id="lord_swedish_7_2" father="Hero.lord_swedish_7_1" faction="Faction.clan_swedish_7"/>
+	<Hero id="lord_swedish_7_3" father="Hero.lord_swedish_7_1" faction="Faction.clan_swedish_7"/>
+	<Hero id="lord_swedish_7_4" father="Hero.lord_swedish_7_1" faction="Faction.clan_swedish_7"/>
+	<Hero id="lord_swedish_7_5" father="Hero.lord_swedish_7_1" faction="Faction.clan_swedish_7"/>
+	<Hero id="lord_swedish_7_6" spouse="Hero.lord_swedish_7_7" father="Hero.lord_swedish_7_1" faction="Faction.clan_swedish_7"/>
+	<Hero id="lord_swedish_7_7" spouse="Hero.lord_swedish_7_6" faction="Faction.clan_swedish_7"/>
+	<!-- clan 8: -->
+	<Hero id="lord_swedish_8_1" faction="Faction.clan_swedish_8"/>
+	<Hero id="lord_swedish_8_2" father="Hero.lord_swedish_8_1" spouse="Hero.lord_swedish_6_5" faction="Faction.clan_swedish_8"/>
+	<Hero id="lord_swedish_8_3" faction="Faction.clan_swedish_8"/>
+	<!-- clan 9: -->
+	<Hero id="lord_swedish_9_1" mother="Hero.lord_swedish_9_2" faction="Faction.clan_swedish_9"/>
+	<Hero id="lord_swedish_9_2" faction="Faction.clan_swedish_9"/>
+	<Hero id="lord_swedish_9_3" father="Hero.lord_swedish_9_1" faction="Faction.clan_swedish_9"/>
+	<Hero id="lord_swedish_9_4" father="Hero.lord_swedish_9_1" faction="Faction.clan_swedish_9"/>
+</Heroes>

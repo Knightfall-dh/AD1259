@@ -1,0 +1,1402 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- clan 1: Bjälboätten -->
+	<NPCCharacter id="lord_swedish_1_1" name="{=sweden_lord_5}Valdemar Birgersson, King of Sweden" age="18" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.63" weight="0.0386" build="0.6595" key="0005D80340B4204539458875BC7963818984C566754954793379647517868B8D085A1882077C77B500000000000000000000000000000000000000003AB01080"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_kingvaldemar_combat"/>
+			<EquipmentSet id="swe_kingvaldemar_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_1_2" name="{=sweden_lord_2}Birger Magnusson, Dux Sweorum" age="54" voice="curt" is_hero="true" default_group="Cavalry" culture="Culture.swedish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="54.96" weight="0" build="0.0046" key="0005880400B410041C556A28D4C495B927E17B6B7524B90068C999975766850F05C008560C5AA777000000000000000000000000000000000000000041A00100"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="6"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_birgerjarl_combat"/>
+			<EquipmentSet id="swe_birgerjarl_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_1_3" name="{=sweden_lady_2}Mechthild von Holstein" age="37" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.swedish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="37.1" weight="0.2458" build="0.5715" key="000D500340704006A37A429A919D984C27B87C578DD58D3D7DAD8318533D85870279462407C96A68000000000000000000000000000000000000000050F440C0"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills>
+			
+		</skills>
+		<Traits>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_1_2_1" name="{=sweden_lord_6}Magnus III Birgersson" age="18" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.63" weight="0.162" build="0.1929" key="0000B00280B4000E6BB6AEDA4C4C8484AA5A67B3946B742A755AC26895544A6308B328820AB9E5C8000000000000000000000000000000000000000055782040"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="HopliteFightingSkills" value="3"/>
+			<Trait id="Commander" value="1"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_bjalbo_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_1_2_2" name="{=sweden_lady_6}Catherine Birgersdotter av Bjelbo" age="17" voice="ironic" is_female="true" is_hero="true" default_group="Cavalry" culture="Culture.swedish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="17.85" weight="0.5503" build="0.1687" key="000D3006C07020158887265A178568DB2F17279A9459798A97C9A6697749A57806838962076735E60000000000000000000000000000000000000000071820C0"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_1_4" name="{=sweden_lord_11}Elof Ingridsson" age="52" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="52.54" weight="0.4132" build="0.3212" key="00057404000029C893978FB762879B723C79AA5A7466D996396B928A9895735804B560460B86238400000000000000000000000000000000000000001D705140"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_bjalbo_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_1_5" name="{=sweden_lady_9}Ingeborg Elofsdotter" age="22" is_female="true" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.48" weight="0.7534" build="0.2957" key="00006C0AC0700002771E98BB8A58258389968CC65467979D277748189768567700E4B6030EE7989E000000000000000000000000000000000000000045E42000"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_1_6" name="{=sweden_lady_10}Cecilia Elofsdotter" age="20" is_female="true" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.17" weight="0.8696" build="0.1936" key="0008540290CC100E8924776A6961C47685986E49977845C816A3C92A8D8B96BA0D53D6D209362AA2000000000000000000000000000000000000000020BC0040"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_1_7" name="{=sweden_lady_11}Ingrid Elofsdotter" age="17" is_female="true" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="17.08" weight="0.2954" build="0.7055" key="000558041070201093A625BC72B7622597A986C734969698AB878B633DC6878B03BB4632074AD9A6000000000000000000000000000000000000000037743080"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_1_8" name="{=sweden_lady_12}Kristina Elofsdotter" age="15" is_female="true" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0005400151143004747C738A7A775752715CC25D4B5787956D76849495A949330177761307C5ADB800000000000000000000000000000000000000002EEC2043"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 2: Aspenäsätten -->
+	<NPCCharacter id="dead_lord_swedish_1" name="{=pkJy3oQL}Filip Birgersson" age="67" voice="curt" default_group="Infantry" is_female="false" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" key="0016200140BC140143FBBB8747BD9C66A9446A946C85E738A778E765678CA9B4000BD8350BB5C64C0000037F0000000F00000037049140010000000001903000"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swedish_bat_template_medium"/>
+			<EquipmentSet id="swedish_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_swedish_2" name="{=jIOMwnka}Cecilia Knutsdotter" age="66" voice="softspoken" default_group="Infantry" is_hero="true" is_female="true" culture="Culture.swedish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" key="001C900580BC3004946A9B5AA87AD8B3C9B53ACB38775717464D46BA9D9767A50004AB1804BB8A6D0000037F0000000F00000037049140010000000001E00000"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swedish_bat_template_medium"/>
+			<EquipmentSet id="swedish_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_2_1" name="{=sweden_lord_3}Johan Filipsson" voice="curt" default_group="Cavalry" age="48" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="48.11" weight="0" build="0.1581" key="00058808C05831428C8B9CBA9BA68296A566567649B27566359C87A95D13175504A200460AB99A37000000000000000000000000000000000000000033506080"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_2_2" name="{=sweden_lady_3}Cecilia Filipsdotter" age="41" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.swedish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="41.75" weight="0.6713" build="0.2696" key="0002F80980701006B2A7968C59B8716E8B56A49748B881D97A6B497A4725B5B40394A635094DAB75000000000000000000000000000000000000000025244080"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="PeltastFightingSkills" value="9"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_2_3" name="{=sweden_lady_4}Birgitta Filipsdotter" age="21" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.swedish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="21.33" weight="0.5446" build="0.4736" key="00028804D11420067DA8674C97722D6C586EA655C6E8496669578B64CDA5B547008786020874889C0000000000000000000000000000000000000000650C1000"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_2_4" name="{=sweden_lord_7}Knut Jonsson" age="24" voice="softspoken" is_hero="true" default_group="Cavalry" culture="Culture.swedish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.38" weight="0.6068" build="0.3128" key="0002440A582C111B89A8C4C376C4D696D17B7C6CDD32269C83D9845B785C887800A590030A39965C0000000000000000000000000000000000000000475000C0"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_2_5" name="{=sweden_lady_7}Birgitta Jonsdotter" voice="softspoken" default_group="Cavalry" age="20" is_hero="true" is_female="true" culture="Culture.swedish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.17" weight="0.4079" build="0.5739" key="0002800B92B44010BC5979677FB394577777653476D456C5D595BA92C68379770D9966D20B55886B00000000000000000000000000000000000000003D3C1000"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills>
+			
+		</skills>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_2_6" name="{=sweden_lord_9}Gustaf Tunasson" voice="softspoken" default_group="Cavalry" age="18" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.63" weight="0.206" build="0.5697" key="0002BC060058204657CCAA896B69578CD8948BBC6826B5B8CC65D92A7D7CC57908A93282091498BC000000000000000000000000000000000000000017509000"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="5"/>
+			<Trait id="Commander" value="1"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_2_7" name="{=sweden_lady_13}Ingegärd Filipsdotter Aspenäsätten" voice="earnest" age="38" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000400891A0200FDD78477A6AB5556B977C4D59CBAD8427CD47DE9AB8BC887A01B776130BC9A5B80000000000000000000000000000000000000000517C20C3"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 3: Färlaätten -->
+	<NPCCharacter id="lord_swedish_3_1" name="{=sweden_lord_4}Björn Näf" default_group="Cavalry" age="50" voice="softspoken" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="50.65" weight="0.1219" build="0.2022" key="0005B804C00030027796D557A75879E679DB49698AE71592EBA393598866C86704B320460BD766E7000000000000000000000000000000000000000065683080"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="HopliteFightingSkills" value="5"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_3_2" name="{=sweden_lady_5}Kristina Ulvåsedotter" voice="earnest" default_group="Cavalry" age="47" is_hero="true" is_female="true" culture="Culture.swedish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="47.14" weight="0.4086" build="0.7192" key="0008B40D8070200A677D8AB8E883E91CE695847D9A477837D68736A4C95962B8049B664609849945000000000000000000000000000000000000000013244080"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_3_3" name="{=sweden_lord_8}Nils Björnsson" default_group="Cavalry" age="25" voice="ironic" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.57" weight="0.1817" build="0.4514" key="0005B0040000088D976DA99B8BB8A3A69994AB9D4B29B6A6456DB89BA8D567CA01D730130D8A44C9000000000000000000000000000000000000000007A82140"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="PeltastFightingSkills" value="5"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_3_4" name="{=sweden_lady_8}Katarina Björnsdotter" age="22" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.swedish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.48" weight="0.5281" build="0.5727" key="000590035288400C848122775D6AE637266D3767B97977AB9990ABAACB805A980099860309A566360000000000000000000000000000000000000000431C3000"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_3_5" name="{=sweden_lord_10}Björn Björnsson" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.4" weight="0.6417" build="0.171" key="0002A802800000466A397353BBA66B99492D3C568638CC34697D987C54649C460A83A0A209E9849A000000000000000000000000000000000000000055183000"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 4: Fånöätten -->
+	<NPCCharacter id="lord_swedish_4_1" name="{=sweden_lord_17}Karl Tjälfvesson" voice="earnest" default_group="Cavalry" age="42" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34.83" weight="0.125" build="0.2731" key="00050808C07003828843998835BBCA7A64A99B86546677B984598539A35B764C026422240666C766000000000000000000000000000000000000000042D01080"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_4_2" name="{=sweden_lord_12}Peter Karlsson" voice="earnest" age="33" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="33.29" weight="0.5444" build="0.4777" key="0002680400700094B46A5233379E87864ED653CC64C787446EB2AD5F692959B802F786240FB4E6A8000000000000000000000000000000000000000049EC00C0"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_4_3" name="{=sweden_lady_14}Ingeborg Petersdotter" voice="earnest" age="18" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.63" weight="0.3172" build="0.7204" key="0002600210A0100EB77927D36D667B845948449E842865B993A8B44A78879C1A084B568206D987C400000000000000000000000000000000000000001C8C3080"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_4_4" name="{=sweden_lady_15}Kristina Petersdotter" voice="earnest" age="16" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="16.31" weight="0.1003" build="0.1188" key="00053C0990A040034B9AB3CA549A935477E8D97463A8BB7B7886A483593C1553019226120582A5820000000000000000000000000000000000000000392C0040"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_4_5" name="{=sweden_lord_23}Johan Karlsson" age="27" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="27.11" weight="0.373" build="0.4198" key="00056802922C10C839979B4A4A683A7B485A79D563C678354988B4A6615862270176601307A9A815000000000000000000000000000000000000000020E02140"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_4_6" name="{=sweden_lady_21}Ragnhild Erlandsdotter" age="28" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000B0C02D2B410069419993888AD9C89477AB8686789AB88845B929CA6AC5C670197761309E3999800000000000000000000000000000000000000002D341003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 5: Vinstorpaätten -->
+	<NPCCharacter id="lord_swedish_5_1" name="{=sweden_lord_12}Tune DeVinsarp Vinstorpaätten" voice="earnest" age="54" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="54.29" weight="0.5444" build="0.4777" key="0002680400700094B46A5233379E87864ED653CC64C787446EB2AD5F692959B802F786240FB4E6A8000000000000000000000000000000000000000049EC00C0"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_5_2" name="{=sweden_lady_14}Gertrud" voice="earnest" age="50" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="50.63" weight="0.3172" build="0.7204" key="0002600210A0100EB77927D36D667B845948449E842865B993A8B44A78879C1A084B568206D987C400000000000000000000000000000000000000001C8C3080"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_5_3" name="{=sweden_lady_15}Helena Tunadotter Vinstorp" voice="earnest" age="30" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.31" weight="0.1003" build="0.1188" key="00053C0990A040034B9AB3CA549A935477E8D97463A8BB7B7886A483593C1553019226120582A5820000000000000000000000000000000000000000392C0040"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Mercy" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_5_4" name="{=sweden_lord_17}Håkan Tunason" voice="earnest" default_group="Cavalry" age="20" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.83" weight="0.125" build="0.2731" key="00050808C07003828843998835BBCA7A64A99B86546677B984598539A35B764C026422240666C766000000000000000000000000000000000000000042D01080"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_5_5" name="{=sweden_lady_15}Kristina Tunadotter" voice="earnest" age="18" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.31" weight="0.1003" build="0.1188" key="00053C0990A040034B9AB3CA549A935477E8D97463A8BB7B7886A483593C1553019226120582A5820000000000000000000000000000000000000000392C0040"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="2"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 6: Andätten -->
+	<NPCCharacter id="lord_swedish_6_1" name="{=sweden_lord_19}Anders Israelsson" age="25" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.34" weight="0.1867" build="0.162" key="00025C00000013823715372B738468D687898DBC596760D5868C6D32888376A7015230130578A745000000000000000000000000000000000000000032981140"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_6_2" name="{=sweden_lady_18}Ramfrida Israelsdotter Finstaätten" age="22" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22" weight="0.5" build="0.5" key="000B740A11001001583A7894D487CE78C5AA46B87A7486657B1B789866D6823901277613028B77670000000000000000000000000000000000000000623C3003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_6_3" name="{=sweden_lord_25}Israel Andersson And" age="1" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="1" weight="0.692" build="0.8011" key="00001000000003805971111366849B6739397673A3B03D03BCD6078CAA996146005CA00305E77987000000000000000000000000000000000000000012B050C0"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_6_4" name="{=sweden_lady_23}Andreas Andreæ And" age="9" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="9" weight="0.5" build="0.5" key="0005BC001114200DEA72114080326643E10B706785AD15119FF6AFA17086F0510137761303105059000000000000000000000000000000000000000020641044"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_6_5" name="{=lord_sweden_10a}Erland Israelsson Israelsson Finstaätten" age="36" voice="softspoken" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39.27" weight="0.7322" build="0.0587" key="0002A40AC0FC000E7B8A55CB66877CB58849836A74619A36B3966A89969548250181B813080C755700000000000000000000000000000000000000000B183080"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 7: Algotssönernaätten -->
+	<NPCCharacter id="lord_swedish_7_1" name="{=sweden_lord_13}Algot Brynjolfsson" age="49" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="49.49" weight="0.267" build="0.2114" key="00058002000013021BB799344E2C78C744A434B9D867BA774E44EDED87BC8444048340460879998300000000000000000000000000000000000000002B185000"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_7_2" name="{=sweden_lord_14}Brynolf Algotsson" age="25" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000060000F00100975925786945A54575A985E7B86842539B77B877A4459B68101C77613FC66B77700000000000000000000000000000000000000005B8C8142"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_7_3" name="{=sweden_lord_15}Magnus Algotsson" age="21" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000050008E70085BA374DA7468A72C84AC5B5855287794D85D665E956797CBDD00C77603FCA6C91600000000000000000000000000000000000000005B8C6142"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_7_4" name="{=sweden_lady_16}Margareta Algotsson" age="17" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000B4C0710E4100D9BB5B85867759DB27C84967BC8BB966AF371F5599496277B00C776030CE4B6C500000000000000000000000000000000000000005B8C3043"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_7_5" name="{=sweden_lord_16}Karl Algotsson" age="22" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6" build="0.6" key="00164C02C0882342BAB7B9566DA53AD368A6628171B9A586A7883546559D974501977613094979CE000000000000000000000000000000000000000041341002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_7_6" name="{=sweden_lord_20}Rörik Algotsson" age="29" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.8275" build="0.6594" key="0000140880001343987138114783EC9AE5067865A1A5939078866E0A8C66108A018AC0130868557500000000000000000000000000000000000000006B187040"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_7_7" name="{=sweden_lady_19}Birgitta Filipsdotter av Hjorthorn" age="22" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0005680000882007AD47C86E48547C993A35BCC45C5A3488EB979A9B364B66A701377613031CB39B00000000000000000000000000000000000000002C5C3003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 8: -->
+	<NPCCharacter id="lord_swedish_8_1" name="{=sweden_lord_21}Johan Johansson Ängel" age="63" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.76" weight="0.1096" build="0.1651" key="0005AC0400003004C5E518F93A86667B35A5A7867449AA5A9B66B5D85B645465014227130416486A000000000000000000000000000000000000000026802040"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_8_2" name="{=sweden_lady_20}Katarina Johansdotter Ängel" age="22" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000B080150CC30064899E76527D86898746C92BAB8DAA66B7B8B3698896A983101B776130BB47BA900000000000000000000000000000000000000005B6C0083"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_8_3" name="{=sweden_lord_22}Folke Johansson Ängel" age="59" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0015C8054044068CB7A388848DA2B46798378B58269B28772C23873661A7A63600477603042744BE000000000000000000000000000000000000000030940102"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 9: -->
+	<NPCCharacter id="lord_swedish_9_1" name="{=sweden_lord_27}Torne Jonsson" is_female="false" age="52" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="52.19" weight="0.2392" build="0.3441" key="00009806DC580A5B86594AA748A2199999D8AA38982957355BAA68265ACA176904C546460C665BA70000000000000000000000000000000000000000698C1080"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_9_2" name="{=sweden_lady_25}Birgitta Johansdotter" is_female="true" age="73" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00054C0140B400039659749D884A5B5E6754C9967C75966FAF9645C8B6BA9BC5015776130587C7630000000000000000000000000000000000000000629C0083"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_9_3" name="{=sweden_lord_28}Nils Törnesson Hjorthorn" age="29" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.78" weight="0.1342" build="0.1814" key="00028406C0B404909A56888A54369D58CB66A5878EBB94A5AE45AD667927696701B326130B686C87000000000000000000000000000000000000000047748000"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_swedish_9_4" name="{=sweden_lord_29}Filip Törnesson Hjorthorn" age="32" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.swedish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="32.51" weight="0.1373" build="0.4707" key="00059C0540B4270959E988BCD2799866596366467A84A7BBA5787C4BAB61EC330297262409D5B254000000000000000000000000000000000000000041248000"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
