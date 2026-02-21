@@ -3197,7 +3197,7 @@
   <!-- endregion -->
   <!-- region English Isles -->
   <!--region Irish Gaelic Kingdoms : Gaelic (Battania) culture-->
-  <Settlement id="castle_kinbane" name="{=castle_kinbane_name}Kinbane Castle" owner="Faction.clan_england_1" posX="133.738" posY="1197.703" culture="Culture.england" gate_posX="132.6452" gate_posY="1196.402">
+  <Settlement id="castle_kinbane" name="{=castle_kinbane_name}Kinbane Castle" owner="Faction.clan_gaelic_1" posX="133.738" posY="1197.703" culture="Culture.gaelic" gate_posX="132.6452" gate_posY="1196.402">
     <Components>
       <Town id="castle_comp_kinbane" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_battania" wait_mesh="wait_battania_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -3222,7 +3222,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_kinbane_derry" name="{=castle_kinbane_derry_name}Derry" posX="119.329" posY="1193.402" culture="Culture.england" text="{=castle_kinbane_derry_text}Derry text...">
+  <Settlement id="castle_kinbane_derry" name="{=castle_kinbane_derry_name}Derry" posX="119.329" posY="1193.402" culture="Culture.gaelic" text="{=castle_kinbane_derry_text}Derry text...">
     <Components>
       <Village id="castle_comp_kinbane_derry" village_type="VillageType.trapper" hearth="400" bound="Settlement.castle_kinbane" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
     </Components>
@@ -3235,7 +3235,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_galway" name="{=town_galway_name}Galway" owner="Faction.clan_england_1" posX="75.866" posY="1143.109" culture="Culture.england" gate_posX="76.11186" gate_posY="1143.642" text="{=town_galway_text}Galway text...">
+  <Settlement id="town_galway" name="{=town_galway_name}Galway" owner="Faction.clan_gaelic_2" posX="75.866" posY="1143.109" culture="Culture.gaelic" gate_posX="76.11186" gate_posY="1143.642" text="{=town_galway_text}Galway text...">
     <Components>
       <Town id="town_comp_galway" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_battania" wait_mesh="wait_battania_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -3271,7 +3271,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_galway_loughrea" name="{=town_galway_loughrea_name}Loughrea" posX="84.332" posY="1137.145" culture="Culture.england" text="{=town_galway_loughrea_text}Loughrea text...">
+  <Settlement id="town_galway_loughrea" name="{=town_galway_loughrea_name}Loughrea" posX="84.332" posY="1137.145" culture="Culture.gaelic" text="{=town_galway_loughrea_text}Loughrea text...">
     <Components>
       <Village id="town_comp_galway_loughrea" village_type="VillageType.cattle_farm" hearth="400" bound="Settlement.town_galway" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
     </Components>
@@ -3284,7 +3284,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_galway_tuam" name="{=town_galway_tuam_name}Tuam" posX="78.016" posY="1152.35" culture="Culture.england" text="{=town_galway_tuam_text}Tuam text...">
+  <Settlement id="town_galway_tuam" name="{=town_galway_tuam_name}Tuam" posX="78.016" posY="1152.35" culture="Culture.gaelic" text="{=town_galway_tuam_text}Tuam text...">
     <Components>
       <Village id="town_comp_galway_tuam" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_galway" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
     </Components>
@@ -3297,7 +3297,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_maine" name="{=castle_maine_name}Maine Castle" owner="Faction.clan_england_1" posX="59.289" posY="1113.168" culture="Culture.england" gate_posX="60.0578" gate_posY="1113.355">
+  <Settlement id="castle_maine" name="{=castle_maine_name}Maine Castle" owner="Faction.clan_gaelic_3" posX="59.289" posY="1113.168" culture="Culture.gaelic" gate_posX="60.0578" gate_posY="1113.355">
     <Components>
       <Town id="castle_comp_maine" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_battania" wait_mesh="wait_battania_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -3322,7 +3322,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_maine_kenmare" name="{=castle_maine_kenmare_name}Kenmare" posX="52.839" posY="1098.078" culture="Culture.england" text="{=castle_maine_kenmare_text}Kenmare text...">
+  <Settlement id="castle_maine_kenmare" name="{=castle_maine_kenmare_name}Kenmare" posX="52.839" posY="1098.078" culture="Culture.gaelic" text="{=castle_maine_kenmare_text}Kenmare text...">
     <Components>
       <Village id="castle_comp_maine_kenmare" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_maine" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
     </Components>
@@ -3335,7 +3335,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_maine_cork" name="{=castle_maine_cork_name}Cork" posX="77.558" posY="1106.947" culture="Culture.england" text="{=castle_maine_cork_text}Cork text...">
+  <Settlement id="castle_maine_cork" name="{=castle_maine_cork_name}Cork" posX="77.558" posY="1106.947" culture="Culture.gaelic" text="{=castle_maine_cork_text}Cork text...">
     <Components>
       <Village id="castle_comp_maine_cork" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.castle_maine" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
     </Components>

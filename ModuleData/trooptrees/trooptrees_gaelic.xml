@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- #region Infantry -->
+	<NPCCharacter id="gaelic_basic_root" default_group="Infantry" level="6" name="{=Gaelic Armed Peasant}Gaelic Armed Peasant" occupation="Soldier" culture="Culture.gaelic" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="5"/>
+			<skill id="Crossbow" value="5"/>
+			<skill id="Throwing" value="5"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gaelic_basic_root0"/>
+			<upgrade_target id="NPCCharacter.gaelic_basic_root1"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="gaelic_basic_root_bat"/>
+			<EquipmentSet id="gaelic_basic_root_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_basic_root0" default_group="Infantry" level="11" name="{=Kern Recruit}Kern Recruit" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="20"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="20"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gaelic_basic_root00"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="gaelic_basic_root0_bat"/>
+			<EquipmentSet id="gaelic_basic_root0_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_basic_root00" default_group="Infantry" level="16" name="{=Kern Spearman}Kern Spearman" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="40"/>
+			<skill id="Bow" value="30"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="70"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gaelic_basic_root000"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="gaelic_basic_root00_bat"/>
+			<EquipmentSet id="gaelic_basic_root00_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_basic_root000" default_group="Infantry" level="21" name="{=Kern Veteran Spearman}Kern Veteran Spearman" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="45"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="60"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gaelic_basic_root0000"/>
+			<upgrade_target id="NPCCharacter.gaelic_basic_root0001"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="gaelic_basic_root000_bat"/>
+			<EquipmentSet id="gaelic_basic_root000_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_basic_root0000" default_group="Infantry" level="26" name="{=Kern Serjeant}Kern Serjeant" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="80"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="gaelic_basic_root0000_bat"/>
+			<EquipmentSet id="gaelic_basic_root0000_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_basic_root0001" default_group="Cavalry" level="26" name="{=Kern Horse Boy}Kern Horse Boy" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="80"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="80"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="gaelic_basic_root0001_bat"/>
+			<EquipmentSet id="gaelic_basic_root0001_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- #region Archers -->
+	<NPCCharacter id="gaelic_basic_root1" default_group="Ranged" level="11" name="{=Kern Recruit Archer}Kern Recruit Archer" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="40"/>
+			<skill id="Riding" value="5"/>
+			<skill id="OneHanded" value="40"/>
+			<skill id="TwoHanded" value="15"/>
+			<skill id="Polearm" value="20"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="20"/>
+			<skill id="Throwing" value="15"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gaelic_basic_root10"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="gaelic_basic_root1_bat"/>
+			<EquipmentSet id="gaelic_basic_root1_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_basic_root10" default_group="Ranged" level="16" name="{=Kern Archer}Kern Archer" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="70"/>
+			<skill id="TwoHanded" value="40"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="70"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gaelic_basic_root100"/>
+			<upgrade_target id="NPCCharacter.gaelic_basic_root101"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="gaelic_basic_root10_bat"/>
+			<EquipmentSet id="gaelic_basic_root10_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_basic_root100" default_group="Ranged" level="21" name="{=Kern Longbowman}Kern Longbowman" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="45"/>
+			<skill id="Throwing" value="45"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="gaelic_basic_root100_bat"/>
+			<EquipmentSet id="gaelic_basic_root100_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_basic_root101" default_group="Ranged" level="21" name="{=Kern Crossbowman}Kern Crossbowman" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="45"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="100"/>
+			<skill id="Throwing" value="45"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="gaelic_basic_root101_bat"/>
+			<EquipmentSet id="gaelic_basic_root101_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- #region Elite -->
+	<NPCCharacter id="gaelic_elite_root" default_group="Infantry" level="16" name="{=Gaelic Scion}Gaelic Scion" occupation="Soldier" culture="Culture.gaelic" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="10"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="90"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="110"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gaelic_elite_root0"/>
+			<upgrade_target id="NPCCharacter.gaelic_elite_root1"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="gaelic_elite_root_bat"/>
+			<EquipmentSet id="gaelic_elite_root_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_elite_root0" default_group="Cavalry" level="21" name="{=Gaelic Noble Cavalryman}Gaelic Noble Cavalryman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="70"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="70"/>
+			<skill id="Bow" value="10"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="140"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gaelic_elite_root00"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="gaelic_elite_root0_bat"/>
+			<EquipmentSet id="gaelic_elite_root0_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_elite_root00" default_group="Cavalry" level="26" name="{=Gaelic Noble Clansman}Gaelic Noble Clansman" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="80"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="80"/>
+			<skill id="Bow" value="15"/>
+			<skill id="Crossbow" value="15"/>
+			<skill id="Throwing" value="150"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gaelic_elite_root000"/>
+			<upgrade_target id="NPCCharacter.gaelic_elite_root001"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="gaelic_elite_root00_bat"/>
+			<EquipmentSet id="gaelic_elite_root00_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_elite_root000" default_group="Cavalry" level="31" name="{=Gaelic Noble Chieftain}Gaelic Noble Chieftain" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="170"/>
+			<skill id="Riding" value="220"/>
+			<skill id="OneHanded" value="90"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="260"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="180"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="gaelic_elite_root000_bat"/>
+			<EquipmentSet id="gaelic_elite_root000_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_elite_root001" default_group="Cavalry" level="31" name="{=Gaelic Noble Chieftain}Gaelic Hobelar" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="170"/>
+			<skill id="Riding" value="220"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="260"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="120"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="gaelic_elite_root001_bat"/>
+			<EquipmentSet id="gaelic_elite_root001_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_elite_root1" default_group="Infantry" level="21" name="{=Gallóglach Recruit}Gallóglach Recruit" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="140"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gaelic_elite_root10"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="gaelic_elite_root1_bat"/>
+			<EquipmentSet id="gaelic_elite_root1_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_elite_root10" default_group="Infantry" level="26" name="{=Gallóglach Footman}Gallóglach Footman" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="180"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.gaelic_elite_root100"/>
+			<upgrade_target id="NPCCharacter.gaelic_elite_root101"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="gaelic_elite_root10_bat"/>
+			<EquipmentSet id="gaelic_elite_root10_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_elite_root100" default_group="Infantry" level="31" name="{=Gallóglach Shieldbreaker}Gallóglach Shieldbreaker" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="gaelic_elite_root100_bat"/>
+			<EquipmentSet id="gaelic_elite_root100_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="gaelic_elite_root101" default_group="Infantry" level="31" name="{=Gallóglach Sword-bearer}Gallóglach Sword-bearer" occupation="Soldier" culture="Culture.gaelic">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gaelic"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="180"/>
+			<skill id="TwoHanded" value="220"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="100"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="gaelic_elite_root101_bat"/>
+			<EquipmentSet id="gaelic_elite_root101_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
