@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!--  Wanderers -->
+	<NPCCharacter id="spc_wanderer_andalus_0" name="{=yr5pa0hs}{FIRSTNAME} Al-'Attar" voice="softspoken" age="28" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_0_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_andalus"/>
+		</face>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_andalus"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--braggart backstory - claims he found skolderbrotva too soft -->
+	<NPCCharacter id="spc_wanderer_andalus_1" name="{=W7aa22Yl}{FIRSTNAME} al-Jabbar" voice="earnest" age="27" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_2_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_andalus"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_andalus"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--enterprising young would-be raider, wants to do his father proud -->
+	<NPCCharacter id="spc_wanderer_andalus_2" name="{=aE8abvsQ}{FIRSTNAME} al-Had" voice="earnest" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.andalus" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_2_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_andalus"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_andalus"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- vaegir guard veteran backstory - bitter about riots -->
+	<NPCCharacter id="spc_wanderer_andalus_3" name="{=LmlL8fVu}{FIRSTNAME} al-Damiy" voice="curt" age="35" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.andalus" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_3_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_andalus"/>
+		</face>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_andalus"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--outlaw backstory,  easily angered  -->
+	<NPCCharacter id="spc_wanderer_andalus_4" name="{=WU5GnkvR}{FIRSTNAME} the Fish" voice="softspoken" age="23" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.andalus" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_4_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_andalus"/>
+		</face>
+		<Traits>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_andalus"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- coalbiter backstory -->
+	<NPCCharacter id="spc_wanderer_andalus_5" name="{=NSaetzNJ}{FIRSTNAME} Coalbiter" voice="curt" age="30" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.andalus" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_5_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_andalus"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_andalus"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_wanderer_andalus_6" name="{=zXjdb1zT}{FIRSTNAME} Frostbeard" voice="curt" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.andalus" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_6_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_andalus"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_andalus"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- dispossessed because of birthmark -->
+	<NPCCharacter id="spc_wanderer_andalus_7" name="{=QyQPJJ9B}{FIRSTNAME} the Accursed" voice="ironic" age="24" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.andalus" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_7_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_andalus"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_andalus"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- shield maiden -->
+	<NPCCharacter id="spc_wanderer_andalus_8" name="{=rtsnnL2J}{FIRSTNAME} the Shieldmaiden" voice="curt" age="29" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.andalus" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_8_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_andalus"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_andalus"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--proud hireling who will do any task, values professionalism -->
+	<NPCCharacter id="spc_wanderer_andalus_9" name="{=akALDUs0}{FIRSTNAME} Longknife" voice="ironic" age="26" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.andalus" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_9_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_andalus"/>
+		</face>
+		<Traits>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_andalus"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Notables -->
+	<NPCCharacter id="spc_notable_andalus_0" name="{=!}Cautious Latin merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_notable_sturgia_0" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="spc_notable_andalus_0"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_andalus_0b" name="{=!}Caustic Latin merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_notable_sturgia_0b" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Commander" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="spc_notable_andalus_0b"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_andalus_1" name="{=!}curt Latin merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_notable_sturgia_1" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_1" faction="Kingdom.sturgia" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<!-- Add skill groups -->
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="spc_notable_andalus_1"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_andalus_2" name="{=!}Adventurous Latin merchant" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_notable_sturgia_2" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_2" faction="Kingdom.sturgia" />-->
+		<skills/>
+		<Traits>
+			<!-- TEMPLATE INFO -->
+			<Trait id="RusHair" value="1"/>
+			<!-- Add skill groups -->
+			<!-- CHARACTER -->
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="spc_notable_andalus_2"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_andalus_2b" name="{=!}Honest Latin merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_notable_sturgia_2b" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_2b" faction="Kingdom.sturgia" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<!-- Add skill groups -->
+			<Trait id="Commander" value="3"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="spc_notable_andalus_2b"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_andalus_3b" name="{=!}Affable Latin merchant" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_notable_sturgia_3b" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_3b" faction="Kingdom.sturgia" />-->
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<!-- Add skill groups -->
+			<Trait id="Commander" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="spc_notable_andalus_3b"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_andalus_3" name="{=!}Honorable female Latin merchant" voice="earnest" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_notable_sturgia_3" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_3" faction="Kingdom.sturgia" />-->
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="spc_notable_andalus_3"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_andalus_3c" name="{=!}Devious female Latin merchant" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_notable_sturgia_3c" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_3c" faction="Kingdom.sturgia" />-->
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<!-- Add skill groups -->
+			<Trait id="Commander" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="spc_notable_andalus_3c"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_andalus_4" name="{=!}Latin seer" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_notable_sturgia_4" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_4" faction="Kingdom.sturgia" />-->
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="spc_notable_andalus_4"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_andalus_5" name="{=!}Latin female mystic" voice="softspoken" is_template="true" default_group="Infantry" is_female="true" culture="Culture.andalus" skill_template="SkillSet.spc_notable_sturgia_5" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_5" faction="Kingdom.sturgia" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="spc_notable_andalus_5"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_andalus_6" name="{=!}Latin gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_notable_sturgia_6" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.fighter_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_6" faction="Kingdom.sturgia" />-->
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="spc_notable_andalus_6"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_andalus_7" name="{=!}Latin female gang leader" voice="ironic" is_template="true" default_group="Infantry" is_female="true" culture="Culture.andalus" skill_template="SkillSet.spc_notable_sturgia_7" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_7" faction="Kingdom.sturgia" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="spc_notable_andalus_7"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_andalus_8" name="{=!}Latin artisan" voice="curt" is_template="true" default_group="Infantry" culture="Culture.andalus" skill_template="SkillSet.spc_notable_sturgia_8" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_8" faction="Kingdom.sturgia" />-->
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+			<EquipmentSet id="spc_notable_andalus_8"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_andalus_9" name="{=!}Latin land captain gruff notable" voice="curt" is_template="true" default_group="Infantry" culture="Culture.andalus" skill_template="SkillSet.spc_notable_sturgia_9" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_9" faction="Kingdom.sturgia" />-->
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_andalus_10" name="{=!}Latin land captain helpful notable" voice="softspoken" is_template="true" default_group="Infantry" culture="Culture.andalus" skill_template="SkillSet.spc_notable_sturgia_10" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_10" faction="Kingdom.sturgia" />-->
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Headmen -->
+	<NPCCharacter id="spc_andalus_headman_1" name="{=!}Latin rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_sturgia_headman_1" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_4" faction="Kingdom.sturgia" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_andalus_headman_2" name="{=!}Latin conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_sturgia_headman_2" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_4" faction="Kingdom.sturgia" />-->
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_andalus_headman_3" name="{=!}Latin devious headman" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_sturgia_headman_3" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<!--<Hero id="spc_notable_andalus_4" faction="Kingdom.sturgia" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_andalus"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_andalus" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--Notable Templates -->
+	<NPCCharacter id="npc_wanderer_equipment_andalus" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}wanderer_equipment" occupation="NotAssigned" culture="Culture.andalus" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_andalus"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_andalus"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_artisan_equipment_andalus" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}artisan_equipment" occupation="NotAssigned" culture="Culture.andalus" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_artisan_equipment_andalus"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_gang_leader_equipment_andalus" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}gang_leader_equipment" occupation="NotAssigned" culture="Culture.andalus" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_andalus"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_gang_leader_equipment_andalus"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_preacher_equipment_andalus" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}preacher_equipment" occupation="NotAssigned" culture="Culture.andalus" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_preacher_equipment_andalus"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_merchant_equipment_andalus" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}merchant_equipment" occupation="NotAssigned" culture="Culture.andalus" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_andalus"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_merchant_equipment_andalus"/>
+		</Equipments>
+	</NPCCharacter>
+	
+	<!-- Auto generated lords for Rebellions & lords in your companions' clans -->
+	<NPCCharacter id="andalus_autogenerated_lord1" name="{=reJpmqBO} YouAreNotMeantToSeeThis" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_andalus"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="andalus_autogenerated_lord2" name="{=oJPkrJZe} YouAreNotMeantToSeeThis" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_andalus"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="andalus_autogenerated_lord3" name="{=ZWJxepQv} YouAreNotMeantToSeeThis" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_andalus"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="andalus_autogenerated_lord4" name="{=ddOTRNYD} YouAreNotMeantToSeeThis" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.andalus" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_andalus"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

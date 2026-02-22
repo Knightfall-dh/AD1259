@@ -14,7 +14,7 @@
   <!-- endregion -->
   <!--region Iberian peninsula -->
   <!--region Kingdom of Granada : Andalus culture-->
-  <Settlement id="town_seville" name="{=town_seville_name}Seville" owner="Faction.clan_england_1" posX="150.931" posY="785.129" culture="Culture.england" gate_posX="149.5527" gate_posY="780.5029" text="{=town_seville_text}Seville text...">
+  <Settlement id="town_seville" name="{=town_seville_name}Seville" owner="Faction.clan_granada_1" posX="150.931" posY="785.129" culture="Culture.andalus" gate_posX="149.5527" gate_posY="780.5029" text="{=town_seville_text}Seville text...">
     <Components>
       <Town id="town_comp_seville" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_andalus" wait_mesh="wait_andalus_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -50,7 +50,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_seville_xeres" name="{=town_seville_xeres_name}Xeres" posX="143.323" posY="765.896" culture="Culture.england" text="{=town_seville_xeres_text}Xeres text...">
+  <Settlement id="town_seville_xeres" name="{=town_seville_xeres_name}Xeres" posX="143.323" posY="765.896" culture="Culture.andalus" text="{=town_seville_xeres_text}Xeres text...">
     <Components>
       <Village id="town_comp_seville_xeres" village_type="VillageType.swine_farm" hearth="400" bound="Settlement.town_seville" background_crop_position="0.0" background_mesh="gui_bg_village_andalus" wait_mesh="wait_andalus_village" castle_background_mesh="gui_bg_castle_andalus" />
     </Components>
@@ -63,7 +63,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_seville_cadiz" name="{=town_seville_cadiz_name}Cadiz" posX="138.216" posY="759.063" culture="Culture.england" text="{=town_seville_cadiz_text}Cadiz text...">
+  <Settlement id="town_seville_cadiz" name="{=town_seville_cadiz_name}Cadiz" posX="138.216" posY="759.063" culture="Culture.andalus" text="{=town_seville_cadiz_text}Cadiz text...">
     <Components>
       <Village id="town_comp_seville_cadiz" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_seville" background_crop_position="0.0" background_mesh="gui_bg_village_andalus" wait_mesh="wait_andalus_village" castle_background_mesh="gui_bg_castle_andalus" />
     </Components>
@@ -76,7 +76,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_seville_cordoba" name="{=town_seville_cordoba_name}Cordoba" posX="159.253" posY="795.947" culture="Culture.england" text="{=town_seville_cordoba_text}Cordoba text...">
+  <Settlement id="town_seville_cordoba" name="{=town_seville_cordoba_name}Cordoba" posX="159.253" posY="795.947" culture="Culture.andalus" text="{=town_seville_cordoba_text}Cordoba text...">
     <Components>
       <Village id="town_comp_seville_cordoba" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.town_seville" background_crop_position="0.0" background_mesh="gui_bg_village_andalus" wait_mesh="wait_andalus_village" castle_background_mesh="gui_bg_castle_andalus" />
     </Components>
@@ -89,7 +89,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_guejar" name="{=castle_guejar_name}Guejar Castle" owner="Faction.clan_england_1" posX="184.943" posY="786.17" culture="Culture.england" gate_posX="184.3219" gate_posY="784.9373">
+  <Settlement id="castle_guejar" name="{=castle_guejar_name}Guejar Castle" owner="Faction.clan_granada_1" posX="184.943" posY="786.17" culture="Culture.andalus" gate_posX="184.3219" gate_posY="784.9373">
     <Components>
       <Town id="castle_comp_guejar" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_town_andalus" wait_mesh="wait_andalus_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -114,7 +114,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_guejar_malaga" name="{=castle_guejar_malaga_name}Malaga" posX="172.114" posY="772.168" culture="Culture.england" text="{=castle_guejar_malaga_text}Malaga text...">
+  <Settlement id="castle_guejar_malaga" name="{=castle_guejar_malaga_name}Malaga" posX="172.114" posY="772.168" culture="Culture.andalus" text="{=castle_guejar_malaga_text}Malaga text...">
     <Components>
       <Village id="castle_comp_guejar_malaga" village_type="VillageType.desert_horse_ranch" hearth="400" bound="Settlement.castle_guejar" background_crop_position="0.0" background_mesh="gui_bg_village_andalus" wait_mesh="wait_andalus_village" castle_background_mesh="gui_bg_castle_andalus" />
     </Components>
@@ -127,7 +127,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_guejar_almeria" name="{=castle_guejar_almeria_name}Almeria" posX="202.725" posY="779.548" culture="Culture.england" text="{=castle_guejar_almeria_text}Almeria text...">
+  <Settlement id="castle_guejar_almeria" name="{=castle_guejar_almeria_name}Almeria" posX="202.725" posY="779.548" culture="Culture.andalus" text="{=castle_guejar_almeria_text}Almeria text...">
     <Components>
       <Village id="castle_comp_guejar_almeria" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_guejar" background_crop_position="0.0" background_mesh="gui_bg_village_andalus" wait_mesh="wait_andalus_village" castle_background_mesh="gui_bg_castle_andalus" />
     </Components>

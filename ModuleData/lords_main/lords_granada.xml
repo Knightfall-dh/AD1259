@@ -1,0 +1,833 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- Emirate of Granada -->
+	<!-- Yusuf ibn Nasr -->
+	<NPCCharacter id="dead_lord_granada_1" name="{=granada_deadlord_1}Yusuf ibn Nasr" age="100" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.andalus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="100.23" weight="0.5108" build="0.1651" key="001BEC0B80581A4E7AE75D79332928573A3BCC788C923A79B49CC287625765880B8286BC088838A200000000000000000000000000000000000000003F147040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Muhammad I ibn Yusuf ibn Nasr, Sultan of Granada -->
+	<NPCCharacter id="lord_granada_1_1" name="{=granada_lord_1}Muhammad I ibn Yusuf ibn Nasr, Sultan of Granada" age="64" voice="curt" culture="Culture.andalus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="64.35" weight="0.2546" build="0.1003" key="0018EC0FC0FC39CDD7B96C9495AE3C4868A476765C487589352AC805699551C90692466809A74C57000000000000000000000000000000000000000043245080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="5"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_sultan_combat"/>
+			<EquipmentSet id="granada_sultan_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Malika Aisha bint Ibrahim -->
+	<NPCCharacter id="lord_granada_1_1_1" name="{=granada_lady_1}Malika Aisha bint Ibrahim" age="60" voice="softspoken" culture="Culture.andalus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="60.29" weight="0.3392" build="0.7589" key="001BE80F0014300E5991B727798351C0BB99B6AB7778B5C27C5BE8D374646DA706BB56670B6CD34B0000000000000000000000000000000000000000476C30C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Faraj ibn Muhammad ibn Nasr -->
+	<NPCCharacter id="dead_lord_granada_2" name="{=granada_deadlord_2}Faraj ibn Muhammad ibn Nasr" age="37" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.andalus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="37.14" weight="0.2166" build="0.4222" key="001B840FC02C395AC8C4887A7B97422456B96899765A3A3B2669C746C78647C8027636240794685500000000000000000000000000000000000000002EFC4080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Muhammad II ibn Muhammad ibn Nasr, Vizier of Granada -->
+	<NPCCharacter id="lord_granada_1_1_2" name="{=granada_lord_2}Muhammad II ibn Muhammad ibn Nasr, Vizier of Granada" age="24" voice="ironic" culture="Culture.andalus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.03" weight="0.2999" build="0.4379" key="0018EC0F002C06D2914A86A77B63789556B94967919B45AC2669C746C78647C80087460308946855000000000000000000000000000000000000000023042080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="8"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emira Umayma bint Ahmad al-Aswad -->
+	<NPCCharacter id="lord_granada_1_1_2_1" name="{=granada_lady_2}Emira Umayma bint Ahmad al-Aswad" age="19" voice="softspoken" culture="Culture.andalus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.78" weight="0.5033" build="0.7477" key="001BEC0F00A00015787484AA93CA4BDB5A79922697299B55B86CAC99987895490B5B86B2083454C2000000000000000000000000000000000000000048B43080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Muhammad III ibn Muhammad ibn Nasr -->
+	<NPCCharacter id="lord_granada_1_1_2_2" name="{=granada_lord_3}Muhammad III ibn Muhammad ibn Nasr" age="3" voice="ironic" culture="Culture.andalus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="3.3" weight="0.3202" build="0.0624" key="0018980F004417D3DE49A59B9B69597A6436569DC5C38684B34679C42F78666A0571565707689769000000000000000000000000000000000000000038FC50C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Muhammad III ibn Muhammad ibn Nasr -->
+	<NPCCharacter id="lord_granada_1_1_3" name="{=granada_lord_4}Yusuf II ibn Muhammad ibn Nasr" age="23" voice="earnest" culture="Culture.andalus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="23.56" weight="0.6316" build="0.6778" key="0020A80F002C31423996D7593776754677D39845CF986CAB3891855D47BA967A006A960306747498000000000000000000000000000000000000000044CC3100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mu'mina ibn Muhammad ibn Nasr -->
+	<NPCCharacter id="lord_granada_1_1_4" name="{=granada_lady_3}Mu'mina ibn Muhammad ibn Nasr" age="20" voice="curt" culture="Culture.andalus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.21" weight="0.3487" build="0.5327" key="0023F40F00A0400ACC86269AAC1C8BD55A63717C89362448887471B9968D683A0088560208B58A63000000000000000000000000000000000000000063040040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Shams ibn Muhammad ibn Nasr -->
+	<NPCCharacter id="lord_granada_1_1_5" name="{=granada_lady_4}Shams ibn Muhammad ibn Nasr" age="24" voice="softspoken" culture="Culture.andalus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.41" weight="0.5681" build="0.5693" key="0020DC0FC0A01004829656D9394586B6A2CC75D795A339928255A5E187DA899B00899603087A473700000000000000000000000000000000000000001D0C30C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ismail ibn Yusuf ibn Nasr -->
+	<NPCCharacter id="lord_granada_1_2" name="{=granada_lord_5}Ismail ibn Yusuf ibn Nasr" age="55" voice="curt" culture="Culture.andalus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="55.28" weight="0.6057" build="0.2998" key="0020EC0F00143780A888766D394E94E514B7BC998B7B98A66848BA54C7769658059496560977B3860000000000000000000000000000000000000000312440C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="5"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Faraj ibn Ismail ibn Nasr -->
+	<NPCCharacter id="lord_granada_1_2_1" name="{=granada_lord_6}Faraj ibn Ismail ibn Nasr" age="30" voice="ironic" culture="Culture.andalus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.58" weight="0.4724" build="0.5045" key="0020F40F00143688D88686778C959B388AB835B2AABA973C872532C47664676801B876140B4A964400000000000000000000000000000000000000001B7C8100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Safya bint Ahmad al-Aswad -->
+	<NPCCharacter id="lord_granada_1_2_1_1" name="{=granada_lady_5}Safya bint Ahmad al-Aswad" age="25" voice="softspoken" culture="Culture.andalus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.18" weight="0.3637" build="0.7173" key="001BEC0F00FC000AA9E346A56587CBA6877E8787C637954B643473B625556BC6019B5613093C7A9700000000000000000000000000000000000000003F240040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ismail II ibn Faraj ibn Nasr -->
+	<NPCCharacter id="lord_granada_1_2_1_2" name="{=granada_lord_7}Ismail II ibn Faraj ibn Nasr" age="8" voice="earnest" culture="Culture.andalus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="8.47" weight="0.3781" build="0.267" key="0010F40F0000274078876458525C6984A6C8839598C953B727843BA7496544C400A466030A5B57A300000000000000000000000000000000000000004D3C9100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Abu Sultan Aziz ibn Ali ibn al-Mun'im -->
+	<NPCCharacter id="lord_granada_1_3" name="{=granada_lord_8}Abu Aziz ibn Ali ibn al-Mun'im" age="33" voice="curt" culture="Culture.andalus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.87" weight="0.1157" build="0.4799" key="0023D80F0088055B464D73874495E4517B5C4998A8BB98976B65E77874496A5B01D726140D63A88D000000000000000000000000000000000000000041A45040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="8"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Fatima bint Said ibn Said -->
+	<NPCCharacter id="lord_granada_1_3_1" name="{=granada_lady_6}Fatima bint Said ibn Said" age="35" voice="ironic" culture="Culture.andalus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="35.99" weight="0.4478" build="0.1093" key="001BF00F007000064575256338AAA877885853375AA553E756954938622598890272762407BB6379000000000000000000000000000000000000000066E42080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Yahya ibn Aziz ibn al-Mun'im -->
+	<NPCCharacter id="lord_granada_1_3_2" name="{=granada_lord_9}Yahya ibn Aziz ibn al-Mun'im" age="18" voice="ironic" culture="Culture.andalus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.64" weight="0.3753" build="0.8361" key="0020EC0FC0A011CD888DA97DB238D6665B78984873A2C579D6358B264494ACEA007D6603072B57E4000000000000000000000000000000000000000050FC7140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Hawa bint Muhammad -->
+	<NPCCharacter id="lord_granada_1_3_2_1" name="{=granada_lady_7}Hawa bint Muhammad" age="19" voice="softspoken" culture="Culture.andalus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.78" weight="0.6066" build="0.6158" key="0015F40FC014200575757C7BB3713B9AAC77A59979569B36B95B48C8C6C749A40B5996B20877498500000000000000000000000000000000000000003EB43080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Abu Muhammad ibn Ashqilula, Emir of Málaga -->
+	<NPCCharacter id="lord_granada_2_1" name="{=granada_lord_11}Abu Muhammad ibn Ashqilula, Emir of Málaga" age="37" voice="curt" culture="Culture.andalus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="37.73" weight="0.0619" build="0.4108" key="0013FC0F00003A4C92249C74385595B7CEF1A459B95DA6BBB986A8AD5423657A02761624078BC67C000000000000000000000000000000000000000046FC2040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Arwa bint Ahmad al-Aswad, Emira of Málaga -->
+	<NPCCharacter id="lord_granada_2_1_1" name="{=granada_lady_8}Arwa bint Ahmad al-Aswad, Emira of Málaga" age="35" voice="softspoken" culture="Culture.andalus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="35.94" weight="0.5192" build="0.9202" key="001BF00FC0B4000E7781845AB748378638A756756A6753B962B3AB758EE93C570F5E86F20A7789C9000000000000000000000000000000000000000024A40080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Muhammad ibn Ashqilula -->
+	<NPCCharacter id="lord_granada_2_1_2" name="{=granada_lord_12}Muhammad ibn Ashqilula" age="18" voice="ironic" culture="Culture.andalus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="23.64" weight="0.2668" build="0.628" key="001BF40FC088158D6A5B7874D33D548488A6B5495A6438966584884839E976D70079460307BAA2D5000000000000000000000000000000000000000052E48040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Arwa bint Abu Muhammad ibn Ashqilula -->
+	<NPCCharacter id="lord_granada_2_1_3" name="{=granada_lady_9}Arwa bint Abu Muhammad ibn Ashqilula" age="15" voice="softspoken" culture="Culture.andalus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="15.63" weight="0.0924" build="0.4391" key="0020DC0FC0A030078941C497468587757D9A6575DAE887AD9721AB697A8485DA086716820744A265000000000000000000000000000000000000000044CC0040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Layla bint Abu Muhammad ibn Ashqilula -->
+	<NPCCharacter id="lord_granada_2_1_4" name="{=granada_lady_10}Layla bint Abu Muhammad ibn Ashqilula" age="10" voice="softspoken" culture="Culture.andalus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="10.31" weight="0.4676" build="0.6248" key="0023FC0F00A0400B1D89778A599796A57D9A586866BEEAA6E86AC5887A8485DA01797612040A8986000000000000000000000000000000000000000042EC40C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Abu al-Hasan Ali ibn Ashqilula -->
+	<NPCCharacter id="lord_granada_2_2" name="{=granada_lord_13}Abu al-Hasan Ali ibn Ashqilula" age="65" voice="earnest" culture="Culture.andalus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="65.69" weight="0.1806" build="0.1373" key="001BF40F0044154E4AC88976858EED9687B8585BDEC7DDA3666DD8872A24755606A236680A576295000000000000000000000000000000000000000041448040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="5"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Aisha bint Yahya ibn Muhammad al-Fath -->
+	<NPCCharacter id="lord_granada_2_2_1" name="{=granada_lady_11}Aisha bint Yahya ibn Muhammad al-Fath" age="64" voice="softspoken" culture="Culture.andalus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="64.92" weight="0.5913" build="0.5608" key="001BF00F00CC1002477A4889475B758E31AA68C6B7632592CE28259978874663065896680588567E000000000000000000000000000000000000000008AC40C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Generosity" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Abdallah ibn Ali ibn Ashqilula -->
+	<NPCCharacter id="lord_granada_2_2_2" name="{=granada_lord_14}Abdallah ibn Ali ibn Ashqilula" age="41" voice="ironic" culture="Culture.andalus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="41.77" weight="0.0585" build="0.5627" key="0013F40F00A019027B3C74AA6CB7BD475665ECE7C8C983B55E4F1FEE9DDC99840378163507AA6A88000000000000000000000000000000000000000058E47140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Aminah bint Abdallah al-Qasim -->
+	<NPCCharacter id="lord_granada_2_2_2_1" name="{=granada_lady_12}Aminah bint Abdallah al-Qasim" age="37" voice="softspoken" culture="Culture.andalus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="37.73" weight="0.5361" build="0.3602" key="0029F40F00A010027B29715B6C2E23BB2FB0E4E7544933B598B386BBD962DB2D027586240768B626000000000000000000000000000000000000000048E47040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Aminah bint Abdallah ibn Ashqilula -->
+	<NPCCharacter id="lord_granada_2_2_2_2" name="{=granada_lady_13}Aminah bint Abdallah ibn Ashqilula" age="14" voice="softspoken" culture="Culture.andalus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="14.22" weight="0.5361" build="0.3602" key="0029F80F112C100339F87D97A43287492FB084AA34C85BA4D8D3E593D962DB2D0A7586A20868B6DD000000000000000000000000000000000000000048E40040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Abdallah II bint Abdallah ibn Ashqilula -->
+	<NPCCharacter id="lord_granada_2_2_2_3" name="{=granada_lord_15}Abdallah II bint Abdallah ibn Ashqilula" age="12" voice="ironic" culture="Culture.andalus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="12.91" weight="0.3873" build="0.5924" key="0013F40F0E70318486A5757989899A8D7988A77783CF56C18E6D64759B68848C01996613095A715700000000000000000000000000000000000000002D349040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Fatima bint Ali ibn Ashqilula -->
+	<NPCCharacter id="lord_granada_2_2_3" name="{=granada_lady_14}Fatima bint Ali ibn Ashqilula" age="26" voice="softspoken" culture="Culture.andalus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="26.73" weight="0.4247" build="0.189" key="0023DC0F16CC30036AFB655559C287D32968B79CA886AD7DB287787B5864A65701536613057256AC00000000000000000000000000000000000000006EAC3080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Hasan ibn Ali ibn Ashqilula -->
+	<NPCCharacter id="lord_granada_2_2_4" name="{=granada_lord_16}Hasan ibn Ali ibn Ashqilula" age="25" voice="ironic" culture="Culture.andalus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.61" weight="0.3657" build="0.1065" key="001EE80F0E0015885BA58879BBCBA99A6666FDA478695C2492364EA7BC81276604C256460C2C6A9B00000000000000000000000000000000000000004F9400C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Mariyah bint Yahya ibn Muhammad -->
+	<NPCCharacter id="lord_granada_2_2_4_1" name="{=granada_lady_15}Mariyah bint Yahya ibn Muhammad" age="20" voice="softspoken" culture="Culture.andalus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.36" weight="0.3966" build="0.6118" key="0020EC0F16003005BB5456937AD5B6C84A6B7C3998B842979B77154854BA4E250D7966D20A29745B00000000000000000000000000000000000000004EF430C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="granada_lord_combat"/>
+			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

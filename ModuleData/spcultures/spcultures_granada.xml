@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SPCultures>
+	<Culture id="andalus"
+	         name="{=andalusCulture}Andalusi Arabic"
+	         is_main_culture="true"
+	         color="0xff3b6298"
+	         color2="0xfff3bb08"
+	         elite_basic_troop="NPCCharacter.granada_elite_root"
+	         basic_troop="NPCCharacter.granada_basic_root"
+	         melee_militia_troop="NPCCharacter.andalus_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.andalus_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.andalus_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.andalus_militia_veteran_archer"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_andalus_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_ANDALUS_template"
+	         settlement_patrol_template_level_1="PartyTemplate.patrol_party_ANDALUS_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_ANDALUS_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_ANDALUS_template_level_3"
+	         encounter_background_mesh="encounter_andalus"
+	         faction_banner_key="11.14.14.2012.3574.780.728.1.0.0.505.15.15.242.2299.764.732.0.0.45.529.14.14.35.49.824.844.0.1.-51.427.14.14.73.33.791.849.0.1.-11.427.14.14.148.33.825.787.0.1.59.427.14.14.148.33.860.799.0.0.-148.428.14.14.28.33.788.809.0.0.-95.427.14.14.36.20.776.814.0.0.-34.427.14.14.92.19.789.777.0.0.-133.427.14.14.130.20.781.760.0.0.47.427.14.14.28.26.736.794.0.0.-46.427.14.14.130.20.691.740.0.0.-54.427.14.14.100.20.772.732.0.0.48.510.14.14.118.32.777.723.0.0.21.427.14.14.100.20.750.717.0.0.67.427.14.14.21.20.723.752.0.0.-72.427.14.14.26.26.727.751.0.0.-72.154.14.14.16.31.789.679.0.0.-135.154.14.14.13.9.728.773.0.0.-40.427.14.14.100.20.731.694.0.0.47.427.14.14.69.20.719.686.0.0.47.427.14.14.57.20.705.671.0.0.47.427.14.14.21.20.691.699.0.0.-58.427.14.14.21.20.681.681.0.0.-58.529.14.14.41.36.683.662.0.1.-58.529.14.14.41.36.709.616.0.1.-58.427.14.14.91.24.688.641.0.0.-149.427.14.14.64.24.651.687.0.0.-98.427.14.14.105.21.665.735.0.0.-60.503.14.14.9.9.714.792.0.0.-56.503.14.14.10.11.793.786.0.0.-56.428.14.14.43.46.731.614.0.0.49.427.14.14.42.21.727.620.0.0.-16"
+	         militia_party_template="PartyTemplate.militia_andalus_template"
+	         rebels_party_template="PartyTemplate.rebels_andalus_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_andalus"
+	         text="{=andalusCultureText}Unused in the game."
+	         tournament_master="NPCCharacter.tournament_master_andalus"
+	         villager="NPCCharacter.villager_andalus"
+	         caravan_master="NPCCharacter.caravan_master_andalus"
+	         caravan_guard="NPCCharacter.caravan_guard_andalus"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_andalus"
+	         prison_guard="NPCCharacter.prison_guard_andalus"
+	         guard="NPCCharacter.guard_andalus"
+	         blacksmith="NPCCharacter.blacksmith_andalus"
+	         weaponsmith="NPCCharacter.weaponsmith_andalus"
+	         townswoman="NPCCharacter.townswoman_andalus"
+	         townswoman_infant="NPCCharacter.townswoman_infant_andalus"
+	         townswoman_child="NPCCharacter.townswoman_child_andalus"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_andalus"
+	         townsman="NPCCharacter.townsman_andalus"
+	         townsman_infant="NPCCharacter.townsman_infant_andalus"
+	         townsman_child="NPCCharacter.townsman_child_andalus"
+	         townsman_teenager="NPCCharacter.townsman_teenager_andalus"
+	         village_woman="NPCCharacter.village_woman_andalus"
+	         villager_male_child="NPCCharacter.villager_child_andalus"
+	         villager_male_teenager="NPCCharacter.villager_teenager_andalus"
+	         villager_female_child="NPCCharacter.village_woman_child_andalus"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_andalus"
+	         ransom_broker="NPCCharacter.ransom_broker_andalus"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_andalus"
+	         merchant_notary="NPCCharacter.merchant_notary_andalus"
+	         artisan_notary="NPCCharacter.artisan_notary_andalus"
+	         preacher_notary="NPCCharacter.preacher_notary_andalus"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_andalus"
+	         shop_worker="NPCCharacter.shop_worker_andalus"
+	         tavernkeeper="NPCCharacter.tavernkeeper_andalus"
+	         taverngamehost="NPCCharacter.taverngamehost_andalus"
+	         musician="NPCCharacter.musician_andalus"
+	         tavern_wench="NPCCharacter.tavern_wench_andalus"
+	         armorer="NPCCharacter.armorer_andalus"
+	         horseMerchant="NPCCharacter.horseMerchant_andalus"
+	         barber="NPCCharacter.barber_andalus"
+	         merchant="NPCCharacter.merchant_andalus"
+	         beggar="NPCCharacter.beggar_andalus"
+	         female_beggar="NPCCharacter.female_beggar_andalus"
+	         female_dancer="NPCCharacter.female_dancer_andalus"
+	         default_battle_equipment_roster="EquipmentRoster.andalus_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.andalus_civ_template_default"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+	         duel_preset_equipment_roster="EquipmentRoster.ase_duel_preset_template"
+	         marriage_bride_equipment_roster="EquipmentRoster.marriage_female_andalus_cutscene_template"
+	         board_game_type="Konane"
+	         default_character_creation_body_property="BodyProperty.default_character_creation_body_property_aserai"
+	         start_point_position_x="172"
+	         start_point_position_y="788">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_andalus"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_andalus"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls/>
+		<vassal_reward_items>
+			<item id="Item.avalanche_2haxe"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.sturgia_sword_1_t2"/>
+			<item id="Item.sturgia_sword_2_t3"/>
+			<item id="Item.sturgia_sword_4_t4"/>
+			<item id="Item.sturgia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_debasement_of_the_currency"/>
+			<policy id="policy_road_tolls"/>
+		</default_policies>
+		<male_names>
+			<name name="{=LQrWtfcf}Adī"/>
+			<name name="{=anysqIrF}Affan"/>
+			<name name="{=CUHDXJVj}A'idh"/>
+			<name name="{=kScNyCWn}Ajannas"/>
+			<name name="{=kZBBupUf}Ala"/>
+			<name name="{=nUXqFJsF}Alī"/>
+			<name name="{=xJotQJSP}Amir"/>
+			<name name="{=IZKVNfTL}Amir"/>
+			<name name="{=TxvFWDbR}Amr"/>
+			<name name="{=EQzKFfwu}Aqīl"/>
+			<name name="{=dDnRdVrH}Asim"/>
+			<name name="{=ANwCaPNI}Atarid"/>
+			<name name="{=koGLEuGB}Atiyya"/>
+			<name name="{=uiEuILFS}Atiq"/>
+			<name name="{=UEeryMvA}Ayshūn"/>
+			<name name="{=zFoqQEKR}Ayyash"/>
+			<name name="{=uzcjkrhF}Azīz"/>
+			<name name="{=iEGrUzjd}Aban"/>
+			<name name="{=IgfQhMgY}Aflah"/>
+			<name name="{=vhBbQjzO}Afnan"/>
+			<name name="{=xfDzMccn}Ahmad"/>
+			<name name="{=QuTTDQfH}Asbag"/>
+			<name name="{=BeiXVuNg}Asad"/>
+			<name name="{=gxbsmwaE}Asbat"/>
+			<name name="{=pyMSSQmt}Ashhab"/>
+			<name name="{=IiXktwGR}Aslam"/>
+			<name name="{=ZIODcSNy}Atrad"/>
+			<name name="{=koNwniOk}Ayyūb"/>
+			<name name="{=qOelIFDT}Bahram"/>
+			<name name="{=eXfHoQhs}Bakr"/>
+			<name name="{=VWVHYJFY}Balj"/>
+			<name name="{=gZrVruke}Baqī"/>
+			<name name="{=iHjEEcyC}Barakat"/>
+			<name name="{=fWlUSElL}Bashīr"/>
+			<name name="{=VedSrdfB}Battal"/>
+			<name name="{=uVEGqoAy}Bulqasim"/>
+			<name name="{=eHqmalFW}Ḍimam"/>
+			<name name="{=wORQhlKE}Darras"/>
+			<name name="{=qEYxJKrd}Dawūd"/>
+			<name name="{=EPIJgyyt}Dhul-Nūn"/>
+			<name name="{=aWsIQjnL}Dulaf"/>
+			<name name="{=cffwPPja}Fadl"/>
+			<name name="{=agLaYsqX}Faraj"/>
+			<name name="{=kyuUlVbO}Farqad"/>
+			<name name="{=oDZVpuwM}Fath"/>
+			<name name="{=oEzJNdwi}Fulayh"/>
+			<name name="{=FIYVxKJj}Fulays"/>
+			<name name="{=kojGHLAY}Galib"/>
+			<name name="{=DaomKeLp}Ganim"/>
+			<name name="{=XcBvubGD}Garīb"/>
+			<name name="{=uwBEHOQb}Gazī"/>
+			<name name="{=LdaFMPoc}Habīb"/>
+			<name name="{=BIMGvbgw}Hafs"/>
+			<name name="{=ToBHIvLP}Hajib"/>
+			<name name="{=eZDqzqrl}Hajjaj"/>
+			<name name="{=wLDNyNpP}Hakam"/>
+			<name name="{=UTJLvbsL}Hamda"/>
+			<name name="{=rCkFKmFm}Hamdīn"/>
+			<name name="{=SmHCtQGB}Hamdīs"/>
+			<name name="{=vevtiBti}Hamdūn"/>
+			<name name="{=DsPcyIau}Hamid"/>
+			<name name="{=bgAZVPAH}Hammad"/>
+			<name name="{=aYvkCpsm}Hamza"/>
+			<name name="{=SjdMRRne}Hasan"/>
+			<name name="{=jDFrINQv}Hassan"/>
+			<name name="{=YsFmveBX}Haway"/>
+			<name name="{=dlDTYlCV}Hayyan"/>
+			<name name="{=KjYeMOoO}Hazm"/>
+			<name name="{=fodwcehg}Hiyaz"/>
+			<name name="{=XLTTyOvp}Hizam"/>
+			<name name="{=uCzPUBCr}Hubab"/>
+			<name name="{=wDwWGeje}Hudayda"/>
+			<name name="{=kkxyFrmB}Hurayth"/>
+			<name name="{=ZfWyokFz}Husayn"/>
+			<name name="{=xeXxdRhS}Hani`"/>
+			<name name="{=OyliIbEK}Harith"/>
+			<name name="{=XVMSThDu}Harūn"/>
+			<name name="{=FbajAsNg}Hashim"/>
+			<name name="{=RVQOlGsy}Hatim"/>
+			<name name="{=tAmtRGoN}Haykal"/>
+			<name name="{=SVRNLmpU}Hisham"/>
+			<name name="{=QObssXeG}Hunayn"/>
+			<name name="{=eiyKvSua}Imran"/>
+			<name name="{=GLieCjqi}Isa"/>
+			<name name="{=sXmIBkKB}Iyad"/>
+			<name name="{=rneCSnjf}Ibrahīm"/>
+			<name name="{=lDzXpwBL}Idrīs"/>
+			<name name="{=sJWNkIrP}Ishaq"/>
+			<name name="{=xtOdcmOy}Isma'īl"/>
+			<name name="{=cYPwWECa}Ja`far"/>
+			<name name="{=LlqJUTwC}Jabir"/>
+			<name name="{=MJyTAOWr}Jahhaf"/>
+			<name name="{=SGUcyLoR}Jahwar"/>
+			<name name="{=ZTWQYqlw}Jalaf"/>
+			<name name="{=MyjkCpTb}Jalaf Allah"/>
+			<name name="{=IFoCFwUa}Jalhama"/>
+			<name name="{=cUmMrwkp}Jalid"/>
+			<name name="{=JzHBomir}Jalīl"/>
+			<name name="{=HBrKOlid}Jalsa"/>
+			<name name="{=jNDFSClu}Jami`"/>
+			<name name="{=TGOkvBGX}Jarīr"/>
+			<name name="{=YlTtVqfd}Jattab"/>
+			<name name="{=hNHMuOIo}Jayr"/>
+			<name name="{=JkcktDtR}Jayrūn"/>
+			<name name="{=pbKKuDAM}Jidr"/>
+			<name name="{=HlvIUURB}Jubayr"/>
+			<name name="{=sDiJoVpU}Jūda"/>
+			<name name="{=pMpJQrxr}Jumahir"/>
+			<name name="{=HggdgIuC}Juzayy"/>
+			<name name="{=MLFxCCFm}Kathīr"/>
+			<name name="{=GJNfUEsf}Kaysan"/>
+			<name name="{=SqwnpVvd}Kulayb"/>
+			<name name="{=AidLHWoR}Ma`bad"/>
+			<name name="{=HzeuReSw}Ma`n"/>
+			<name name="{=dJzUdAZt}Mahbūb"/>
+			<name name="{=qdnfdipc}Mahfūẓ"/>
+			<name name="{=XWNTJtua}Mahmūd"/>
+			<name name="{=DxmTkXpt}Majlūf"/>
+			<name name="{=EsHtjSiL}Makkī"/>
+			<name name="{=MfxZtVOD}Malik"/>
+			<name name="{=RVlSyjQW}Mansūr"/>
+			<name name="{=qHroFxeU}Marwan"/>
+			<name name="{=wgbElLMB}Mas`ūd"/>
+			<name name="{=GXDrYImL}Maslama"/>
+			<name name="{=TuUCHSIr}Maymūn"/>
+			<name name="{=gzqIkuPW}Mirdas"/>
+			<name name="{=MxrfGrzD}Misbah"/>
+			<name name="{=fWSrRFrD}Mu'awiya"/>
+			<name name="{=XhwnnExA}Mubarak"/>
+			<name name="{=xKPJYEkS}Mudrik"/>
+			<name name="{=gJufvaUF}Mufarrij"/>
+			<name name="{=PBrylyio}Muflit"/>
+			<name name="{=DNuYcEdF}Muhallab"/>
+			<name name="{=JCbyamKA}Muhammad"/>
+			<name name="{=cJEmmXyJ}Mujahid"/>
+			<name name="{=abTleKnH}Mujariq"/>
+			<name name="{=rWCIqJRa}Mulahhab"/>
+			<name name="{=APiZbofR}Mundhir"/>
+			<name name="{=nIxDAUSu}Mus'ab"/>
+			<name name="{=bpmpZjzN}Mūsa"/>
+			<name name="{=fosPxGqD}Mutarrif"/>
+			<name name="{=NPABmYbK}Nabit"/>
+			<name name="{=DRJNAGcN}Nadar"/>
+			<name name="{=IFGFvORM}Nafidh"/>
+			<name name="{=xsToJryx}Nafīs"/>
+			<name name="{=bHfsLBOI}Nasir"/>
+			<name name="{=dbZYyoIV}Nasr"/>
+			<name name="{=wTFJapmE}Nizar"/>
+			<name name="{=OJbNYHSY}Nudhayr"/>
+			<name name="{=yGMwAsAB}Nūh"/>
+			<name name="{=OGNzsUMB}Qar`ūs"/>
+			<name name="{=NStQtmJW}Qasim"/>
+			<name name="{=yvYjJufi}Qatan"/>
+			<name name="{=xQdpowIC}Qays"/>
+			<name name="{=MECcEeIX}Rashid"/>
+			<name name="{=XSXoPrlp}Razīn"/>
+			<name name="{=uKybeWAF}Sabah"/>
+			<name name="{=nmJkWJHy}Sadiq"/>
+			<name name="{=xwyBvNGt}Safī"/>
+			<name name="{=RpdPqDwE}Safwan"/>
+			<name name="{=cJSzpXIv}Sajr"/>
+			<name name="{=IFGFvORM}Salih"/>
+			<name name="{=xsToJryx}Sa`d"/>
+			<name name="{=bHfsLBOI}Sa`dan"/>
+			<name name="{=dbZYyoIV}Sa`īd"/>
+			<name name="{=wTFJapmE}Sa'ib Jatir"/>
+			<name name="{=OJbNYHSY}Sahl"/>
+			<name name="{=yGMwAsAB}Salama"/>
+			<name name="{=OGNzsUMB}Salim"/>
+			<name name="{=NStQtmJW}Sallama"/>
+			<name name="{=yvYjJufi}Salmūn"/>
+			<name name="{=xQdpowIC}Saqī"/>
+			<name name="{=MECcEeIX}Sarūr"/>
+			<name name="{=XSXoPrlp}Shabīb"/>
+			<name name="{=uKybeWAF}Shabtūn"/>
+			<name name="{=nmJkWJHy}Shajara"/>
+			<name name="{=xwyBvNGt}Shīth"/>
+			<name name="{=RpdPqDwE}Shu`ayb"/>
+			<name name="{=cJSzpXIv}Shu`ba"/>
+			<name name="{=IFGFvORM}Shurayh"/>
+			<name name="{=xsToJryx}Shurayq"/>
+			<name name="{=bHfsLBOI}Sind"/>
+			<name name="{=dbZYyoIV}Siraj"/>
+			<name name="{=wTFJapmE}Sufyan"/>
+			<name name="{=OJbNYHSY}Suktan"/>
+			<name name="{=yGMwAsAB}Sulayman"/>
+			<name name="{=OGNzsUMB}Tahir"/>
+			<name name="{=NStQtmJW}Talha"/>
+			<name name="{=yvYjJufi}Tariq"/>
+			<name name="{=xQdpowIC}Taytal"/>
+			<name name="{=MECcEeIX}Tayyib"/>
+			<name name="{=XSXoPrlp}Tamīm"/>
+			<name name="{=uKybeWAF}Tammam"/>
+			<name name="{=nmJkWJHy}Tawd"/>
+			<name name="{=xwyBvNGt}Thabit"/>
+			<name name="{=RpdPqDwE}Tuways"/>
+			<name name="{=cJSzpXIv}Ubada"/>
+			<name name="{=IFGFvORM}Ubayd"/>
+			<name name="{=bHfsLBOI}Ubayda"/>
+			<name name="{=dbZYyoIV}Ubaydūn"/>
+			<name name="{=wTFJapmE}Ulaym"/>
+			<name name="{=OJbNYHSY}Umar"/>
+			<name name="{=yGMwAsAB}Uqayl"/>
+			<name name="{=OGNzsUMB}Urayb"/>
+			<name name="{=NStQtmJW}Uthman"/>
+			<name name="{=yvYjJufi}Umayya"/>
+			<name name="{=xQdpowIC}Wadih"/>
+			<name name="{=MECcEeIX}Wahb"/>
+			<name name="{=XSXoPrlp}Walīd"/>
+			<name name="{=uKybeWAF}Wasīm"/>
+			<name name="{=nmJkWJHy}Waslas"/>
+			<name name="{=xwyBvNGt}Wathīma"/>
+			<name name="{=RpdPqDwE}Wazīr"/>
+			<name name="{=cJSzpXIv}Ya`īsh"/>
+			<name name="{=IFGFvORM}Ya`qūb"/>
+			<name name="{=xsToJryx}Yabqà"/>
+			<name name="{=bHfsLBOI}Yahyà"/>
+			<name name="{=dbZYyoIV}Yajlaf"/>
+			<name name="{=wTFJapmE}Yaqūt"/>
+			<name name="{=OJbNYHSY}Yasin"/>
+			<name name="{=yGMwAsAB}Yasir"/>
+			<name name="{=OGNzsUMB}Yaskar"/>
+			<name name="{=NStQtmJW}Yazīd"/>
+			<name name="{=yvYjJufi}Yujamir"/>
+			<name name="{=xQdpowIC}Yūnus"/>
+			<name name="{=MECcEeIX}Yusr"/>
+			<name name="{=XSXoPrlp}Yūsuf"/>
+			<name name="{=uKybeWAF}Zaban"/>
+			<name name="{=nmJkWJHy}Ẓafir"/>
+			<name name="{=xwyBvNGt}Ẓahīra"/>
+			<name name="{=RpdPqDwE}Zakariyya"/>
+			<name name="{=cJSzpXIv}Zarb"/>
+			<name name="{=IFGFvORM}Zayn"/>
+			<name name="{=xsToJryx}Ziyad"/>
+			<name name="{=bHfsLBOI}Zuhayr"/>
+			<name name="{=dbZYyoIV}Zuhr"/>
+			<name name="{=wTFJapmE}Zurar"/>
+			<name name="{=eutSGwXa}Aban"/>
+			<name name="{=CESARaFa}Asbat"/>
+			<name name="{=GILBgWMD}Darras"/>
+			<name name="{=zpvtezSG}Farraj"/>
+			<name name="{=BoZSiYvO}Galib"/>
+			<name name="{=NvClCVOA}Garsiyya"/>
+			<name name="{=UonLmSvE}Hamdun"/>
+			<name name="{=NLksCluB}Hazm"/>
+			<name name="{=WocJDBnD}Jalid"/>
+			<name name="{=uYxOsltI}Jasib"/>
+			<name name="{=SmWOTHfc}Jattab"/>
+			<name name="{=pIMcUGmZ}Jawar"/>
+			<name name="{=GfdJAZXz}Lubb"/>
+			<name name="{=TcoYqezL}Majlad"/>
+			<name name="{=RCZYedCG}Maymun"/>
+			<name name="{=nPSeMhYT}Mundir"/>
+			<name name="{=AFeBPtvh}Mutariff"/>
+			<name name="{=ZEdFbxBW}Razin"/>
+			<name name="{=BmpVRyMs}Razon"/>
+			<name name="{=TkBtAdOV}Siraj"/>
+			<name name="{=CuCOiSUy}Sumayl"/>
+			<name name="{=PaEabzpY}Tasufin"/>
+			<name name="{=pwTZnkPC}Ubaid"/>
+			<name name="{=SWbtkuQg}Zakarriyya"/>
+			<name name="{=ywRZiMVN}Ahmad"/>
+			<name name="{=gloZJEJH}Hamdun"/>
+			<name name="{=fxvsEMJX}Idder"/>
+			<name name="{=nwOusnCu}Iften"/>
+			<name name="{=fjIwtQHw}Ighlaf"/>
+			<name name="{=rpmwoOnT}Igider"/>
+			<name name="{=SFiaZgfb}Ilayetmas"/>
+			<name name="{=NIzADvNG}Izebboudjen"/>
+			<name name="{=elmGhkqb}Izemrasen"/>
+			<name name="{=FDFLsohS}Maqrin"/>
+			<name name="{=CLVahQKm}Aderfi"/>
+			<name name="{=iTdOlWfU}Makoud"/>
+			<name name="{=epvNZeSx}Meziane"/>
+			<name name="{=AwrFvTpr}Mimum"/>
+			<name name="{=qwYobcri}Muhammad"/>
+			<name name="{=XNKeWlYW}Muhand"/>
+			<name name="{=LOMyPeGC}Mohand"/>
+			<name name="{=MURFiqBA}Munatas"/>
+			<name name="{=goslMoSs}Naravas"/>
+			<name name="{=OAcudcJE}Navil"/>
+			<name name="{=ShiFSTRH}Nayram"/>
+			<name name="{=bUgQmzUF}Rezki"/>
+			<name name="{=GIHejaPe}Said"/>
+			<name name="{=NEiANBBQ}Udad"/>
+			<name name="{=pKTOJSAJ}Ugwistan"/>
+			<name name="{=xKgPBSvw}Usem"/>
+			<name name="{=ZdkprwVm}Yedder"/>
+			<name name="{=uXPvIbZZ}Yeddes"/>
+			<name name="{=waOqfzmK}Yufayyur"/>
+			<name name="{=oqmcLNdI}Yuften"/>
+			<name name="{=qTVsHOpg}Wiwurgh"/>
+			<name name="{=OhnSLkly}Winaruz"/>
+			<name name="{=gqsUwMIr}Ziri"/>
+			<name name="{=GqduWXYV}Abbas"/>
+			<name name="{=QugMProC}Ashraf"/>
+			<name name="{=mKPUaSVt}Dhakir"/>
+			<name name="{=ViOObzRd}Fakhir"/>
+			<name name="{=ZFZjmOBP}Falih"/>
+			<name name="{=uPWxlQaL}Fath"/>
+			<name name="{=OWnhtpEY}Habbab"/>
+			<name name="{=jBWLdlys}Hashim"/>
+			<name name="{=nxGLGLUa}Hassan"/>
+			<name name="{=nDPyBGLo}Ismail"/>
+			<name name="{=RmHAFkvO}Jabalah"/>
+			<name name="{=sJXqiccq}Sulayman"/>
+		</male_names>
+		<female_names>
+			<name name="{=EGdShMWm}A'isha"/>
+			<name name="{=XWyuaBdw}Ayshūna"/>
+			<name name="{=fSVNuinW}Ishūsh"/>
+			<name name="{=qEEHQOvE}Atika"/>
+			<name name="{=eJsqrQNH}Abda"/>
+			<name name="{=Eiptlndn}Afiya"/>
+			<name name="{=CxQeNLyu}Azīza"/>
+			<name name="{=ooxnkuVR}Aziza"/>
+			<name name="{=mNTKRlTR}Ubayda"/>
+			<name name="{=vQdzLgXH}Ulla"/>
+			<name name="{=JylJQSsF}Utayqa"/>
+			<name name="{=NVJcePAH}Amina"/>
+			<name name="{=DdRAsKWc}Umayna"/>
+			<name name="{=CTczArDB}Amīra"/>
+			<name name="{=STtyfsfM}Arwa"/>
+			<name name="{=SqdGtuXg}Asmā"/>
+			<name name="{=chjjlYyF}Asmūna"/>
+			<name name="{=bNxGleNV}Asmūnīya"/>
+			<name name="{=WFJwfugp}Athl"/>
+			<name name="{=RCdBBMDs}Awriya"/>
+			<name name="{=XvfGfcng}Ayluh"/>
+			<name name="{=DYsroKHO}al-Bahā"/>
+			<name name="{=ppjYaMys}Balāg"/>
+			<name name="{=qegqDowp}Baraka"/>
+			<name name="{=ZEsukDqW}Bazī`a"/>
+			<name name="{=VuwenMnf}Burayha"/>
+			<name name="{=PnidCnwo}Buthayna"/>
+			<name name="{=TAjqvrwh}Ḍanā"/>
+			<name name="{=HJqFTiAF}Dhūna†"/>
+			<name name="{=EJJDwqXK}Elvira†"/>
+			<name name="{=EOxqvvxC}Fāṭima"/>
+			<name name="{=pGTYwMzV}Faṭhūna"/>
+			<name name="{=LYKwnfiQ}Fuṭayma"/>
+			<name name="{=iwsPJASD}Fahr"/>
+			<name name="{=UOpgLAsu}Fannū"/>
+			<name name="{=VwLQmtHU}Fatna"/>
+			<name name="{=NWrnrMyL}Faynān"/>
+			<name name="{=vKLPJLGJ}Gāliba"/>
+			<name name="{=WCpBsJpw}Gamāma"/>
+			<name name="{=fuxXRVvO}Gāniya"/>
+			<name name="{=brPUAepJ}Gislān"/>
+			<name name="{=QpjbPktM}Habība"/>
+			<name name="{=dbXuJDCl}Habāb"/>
+			<name name="{=WIaVSkPN}Hafṣa"/>
+			<name name="{=lZoOEGHF}Hadīja"/>
+			<name name="{=kAlFpAju}Hakīma"/>
+			<name name="{=gFBQDAyY}Halāwa"/>
+			<name name="{=lenvLIXh}Hamda"/>
+			<name name="{=KatGbRTv}Hamīda"/>
+			<name name="{=RkpeAwpQ}Hassāna"/>
+			<name name="{=kjURuNoE}Hawā'"/>
+			<name name="{=csaAwtjV}Hayāl"/>
+			<name name="{=BvUYtJrC}Hayzurān"/>
+			<name name="{=EZiXgINL}Hind"/>
+			<name name="{=HMCazBxz}Hushayma"/>
+			<name name="{=nbwOvSzT}Idlāl"/>
+			<name name="{=GWaReIJD}Ihtizāz"/>
+			<name name="{=RjnEsTGH}Ishrāq"/>
+			<name name="{=hJzwdKoa}I`timād"/>
+			<name name="{=JkfSZJSd}Jālida"/>
+			<name name="{=wWUNajYp}Jamāl"/>
+			<name name="{=KVXyGcKR}Jamīla"/>
+			<name name="{=fySPmOTj}Jawrā'"/>
+			<name name="{=ciPwchpa}Kanza"/>
+			<name name="{=WkrVKMRk}Karīma"/>
+			<name name="{=ZsYJwBrW}Kinda"/>
+			<name name="{=VPmzTlfb}Labbuna"/>
+			<name name="{=fXyAubVa}Layla"/>
+			<name name="{=mkeYrCFe}Lidhdha"/>
+			<name name="{=zMzrsuXl}Lubna"/>
+			<name name="{=mOrBDsoZ}Mahabba"/>
+			<name name="{=laixwZKB}Mahjūna"/>
+			<name name="{=ivOhqZiq}Makkīya"/>
+			<name name="{=iMjALSwt}Marjān"/>
+			<name name="{=XJIybvNE}Maryam"/>
+			<name name="{=XoWWUYok}Maṣābīh"/>
+			<name name="{=mVDZjCFi}Ma`shūq"/>
+			<name name="{=SpXxBNlh}Maymūna"/>
+			<name name="{=tWiMygBc}Mayya"/>
+			<name name="{=opQOhBrX}Mu'ammara"/>
+			<name name="{=KILXHQaw}Mu'mina"/>
+			<name name="{=LcYxjDAy}Muhja"/>
+			<name name="{=wAvXXCGX}Mūna"/>
+			<name name="{=UfTDOnXW}Mahrajān"/>
+			<name name="{=hmcvGdgo}Hawrā'"/>
+			<name name="{=updtSFec}Hamdūna"/>
+			<name name="{=dGaCjRfi}Hubāba"/>
+			<name name="{=hUGWbDWs}Fajr"/>
+			<name name="{=HEFATNIT}Mut`a"/>
+			<name name="{=QkZFHSgS}Muzāhima"/>
+			<name name="{=wNvUKDfB}Muzna"/>
+			<name name="{=syjjuaTq}Muzayna"/>
+			<name name="{=NFjQarTx}Najāt"/>
+			<name name="{=lwuTQoyX}Najm"/>
+			<name name="{=LOFRSzLi}Najma"/>
+			<name name="{=koiJDbwc}Nazhūn"/>
+			<name name="{=TekfWfou}Niẓām"/>
+			<name name="{=GAZUjHIo}Nu'ayma"/>
+			<name name="{=MjnpjzCg}Nuwayra"/>
+			<name name="{=OWiAHNwO}Nuzha"/>
+			<name name="{=WClkKnab}Qasmūna"/>
+			<name name="{=OhNxiqBY}Qusayma"/>
+			<name name="{=KHRrHglS}Rādiya"/>
+			<name name="{=fbGrvCqd}Rāh*"/>
+			<name name="{=qxjLgjJr}Rashīda"/>
+			<name name="{=nYflbBAg}Rasīs"/>
+			<name name="{=hgViNtXi}Ra'y"/>
+			<name name="{=biVzFDew}Rayhāna"/>
+			<name name="{=SCTbqRFp}Ruhayma"/>
+			<name name="{=phjdeayj}Rumayla"/>
+			<name name="{=aDDtQJZp}Ruqayya"/>
+			<name name="{=QEUJtfBS}Sa`dūna"/>
+			<name name="{=BiUiwDyY}Sa`āda"/>
+			<name name="{=OfYugNMF}Sa`da"/>
+			<name name="{=XDpQweoi}Sa`dūna"/>
+			<name name="{=OasrqIXG}Safīya"/>
+			<name name="{=sWqatgYB}Sa`īda"/>
+			<name name="{=mnjPqDTf}Sāra"/>
+			<name name="{=zGGvPbNF}Sakan"/>
+			<name name="{=mOBRckru}Salma"/>
+			<name name="{=fXYyhCXk}Salwa"/>
+			<name name="{=PQqoneKU}Samra"/>
+			<name name="{=enFWKqzv}Satāra"/>
+			<name name="{=NVVcSTYW}Sawwāb"/>
+			<name name="{=uZNlxxCU}Sayyida"/>
+			<name name="{=YfKsjECE}Shams"/>
+			<name name="{=JKtqiTKK}al-Shifā"/>
+			<name name="{=GUSqwNcf}Su`ād"/>
+			<name name="{=NPjuOfmh}Subh"/>
+			<name name="{=yIowHQaQ}Sukayna"/>
+			<name name="{=vIhNFVnP}al-Sūra"/>
+			<name name="{=jLUbuvnK}Tahr"/>
+			<name name="{=dEiNFgma}Tahtazz"/>
+			<name name="{=tYSZPWqY}Tāgīshit"/>
+			<name name="{=WxxzPImG}Tarūb"/>
+			<name name="{=vJYiZAuX}Tkfāt"/>
+			<name name="{=cFGGGbXH}Tūna"/>
+			<name name="{=hZAtrCaN}Ubayda"/>
+			<name name="{=iUSqDEkP}Ulla"/>
+			<name name="{=RUqcXKRj}Ulayya"/>
+			<name name="{=lZUvRvUR}Umayma"/>
+			<name name="{=xnCYJLGl}Urrāka"/>
+			<name name="{=CPVoLrGV}Usaymā'"/>
+			<name name="{=cChonwcR}Utayqa"/>
+			<name name="{=ABqEOLMM}Wājid"/>
+			<name name="{=apMCCGUS}Wallāda"/>
+			<name name="{=vupJqLuU}Zahra"/>
+			<name name="{=xfykGIZB}Zaynab"/>
+			<name name="{=pHzgxhRP}Amacéi"/>
+			<name name="{=rqjGAmsQ}Amat"/>
+			<name name="{=sKbFGejY}Auriya"/>
+			<name name="{=pfgWmyKz}Badhl"/>
+			<name name="{=sqHQiBPT}Bahja"/>
+			<name name="{=ZwdAGPCd}Banafsaj"/>
+			<name name="{=xEPTcjEQ}Barira"/>
+			<name name="{=eOjzsfUu}Bazzu"/>
+			<name name="{=OPcTpbeQ}Dhana"/>
+			<name name="{=CGgsvvgt}Dhayl"/>
+			<name name="{=xYSqTrQi}Durr"/>
+			<name name="{=ZEbuOsdt}Fathuna"/>
+			<name name="{=PLTduhdu}Fatyan"/>
+			<name name="{=wBzUZjmH}Galiba"/>
+			<name name="{=DUXbZKpl}Gamama"/>
+			<name name="{=NYblFJeJ}Ganiya"/>
+			<name name="{=PNCrMbfK}Gaya"/>
+			<name name="{=kgikrJCT}Halawa"/>
+			<name name="{=ZnuxaPmQ}Halhal"/>
+			<name name="{=gasebror}Halwa"/>
+			<name name="{=vMnmZOgK}Hamda"/>
+			<name name="{=ShtQRajT}Hamduna"/>
+			<name name="{=znwNKrVE}Hulla"/>
+			<name name="{=PaNjReDC}Human"/>
+			<name name="{=ttmowCPJ}Ihtizaz"/>
+			<name name="{=tibyFSes}Ishraq"/>
+			<name name="{=NxovUpuX}Itr"/>
+			<name name="{=xDZgvnlB}Jalida"/>
+			<name name="{=GJUNQPTX}Jariya"/>
+			<name name="{=QGPEmMeU}Jawhara"/>
+			<name name="{=gRTCNvZg}Jawla"/>
+			<name name="{=eQFjGjku}Jawra"/>
+			<name name="{=LiIWdkoH}Judur"/>
+			<name name="{=OdkBRpWY}Kanza"/>
+			<name name="{=aAyNlXWV}Kitman"/>
+			<name name="{=gaXLZsOg}Mahja"/>
+			<name name="{=fFivUmXh}Mahjuna"/>
+			<name name="{=QfVSsOOy}Mahua"/>
+			<name name="{=cpmDnQIw}Mireti"/>
+			<name name="{=cHFVHPwl}Mutayyam"/>
+			<name name="{=tQFOfxVb}Muzna"/>
+			<name name="{=jwXffksB}Narjis"/>
+			<name name="{=zpzBGVVR}Nuzha"/>
+			<name name="{=GzLypkcp}Qasmuna"/>
+			<name name="{=PuqqAGol}Raha"/>
+			<name name="{=LFMtwnJe}Rima"/>
+			<name name="{=VPMxKOYr}Rumayla"/>
+			<name name="{=gTYFusuE}Safya"/>
+			<name name="{=THDqgRRd}Salma"/>
+			<name name="{=rRucsVmc}Sama"/>
+			<name name="{=HPUYalAF}Satara"/>
+			<name name="{=qBkOhTQC}Subh"/>
+			<name name="{=erbKsgIQ}Sukayna"/>
+			<name name="{=whUAReXs}Umayna"/>
+			<name name="{=PjtkJdmE0}Umayma"/>
+			<name name="{=NWhbJLNl1}Wallada"/>
+			<name name="{=KIZlzxTb2}Yanduza"/>
+			<name name="{=CLOHntFP3}Zubiya"/>
+			<name name="{=dmxmNydr4}Zumurrud"/>
+			<name name="{=upzEAzRX}Hawwa"/>
+			<name name="{=jrBYWCob}Ghadir"/>
+			<name name="{=JfRyATSX}Bushra"/>
+			<name name="{=oURtuzmS}Banah"/>
+			<name name="{=qLnHeMoQ}Mariyah"/>
+			<name name="{=nvbtBXsw}Bilqis"/>
+			<name name="{=vEIIIkHt}Kasif"/>
+			<name name="{=bieWcsdS}Hullah"/>
+			<name name="{=igBFAOHD}Qaribah"/>
+			<name name="{=JbMZSKgC}Zulaikha"/>
+		</female_names>
+		<clan_names>
+			<name name="{=ESWccxOq}al-Abbas"/>
+			<name name="{=GZFEldPn}al-Ajal"/>
+			<name name="{=mvfJLssA}al-Āqib"/>
+			<name name="{=JWODBwHm}al-Layth"/>
+			<name name="{=dQbCLaRw}al-Mahdi"/>
+			<name name="{=JKVuYIUn}al-Mufaddal"/>
+			<name name="{=WiUlkjwf}al-Walid"/>
+			<name name="{=pIAnItmT}al-Yasa"/>
+			<name name="{=YJniWUrQ}al-Zanqi"/>
+			<name name="{=fPgxSopW}al-Najib"/>
+		</clan_names>
+		<cultural_feats>
+			<feat id="aserai_desert_speed"/>
+			<feat id="vlandian_renown_mercenary_income"/>
+			<feat id="aserai_increased_wages"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="425"/>
+			<icon id="426"/>
+			<icon id="427"/>
+			<icon id="446"/>
+			<icon id="116"/>
+			<icon id="117"/>
+			<icon id="118"/>
+			<icon id="132"/>
+			<icon id="138"/>
+			<icon id="139"/>
+			<icon id="307"/>
+			<icon id="331"/>
+			<icon id="407"/>
+			<icon id="408"/>
+			<icon id="409"/>
+			<icon id="410"/>
+			<icon id="439"/>
+			<icon id="440"/>
+			<icon id="441"/>
+			<icon id="442"/>
+			<icon id="443"/>
+			<icon id="444"/>
+			<icon id="445"/>
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_andalus_0"/>
+			<template name="NPCCharacter.spc_notable_andalus_0b"/>
+			<template name="NPCCharacter.spc_notable_andalus_1"/>
+			<template name="NPCCharacter.spc_notable_andalus_2"/>
+			<template name="NPCCharacter.spc_notable_andalus_2b"/>
+			<template name="NPCCharacter.spc_notable_andalus_3"/>
+			<template name="NPCCharacter.spc_notable_andalus_3b"/>
+			<template name="NPCCharacter.spc_notable_andalus_3c"/>
+			<template name="NPCCharacter.spc_notable_andalus_4"/>
+			<template name="NPCCharacter.spc_notable_andalus_5"/>
+			<template name="NPCCharacter.spc_notable_andalus_6"/>
+			<template name="NPCCharacter.spc_notable_andalus_7"/>
+			<template name="NPCCharacter.spc_notable_andalus_8"/>
+			<template name="NPCCharacter.spc_notable_andalus_9"/>
+			<template name="NPCCharacter.spc_notable_andalus_10"/>
+			<template name="NPCCharacter.spc_andalus_headman_1"/>
+			<template name="NPCCharacter.spc_andalus_headman_2"/>
+			<template name="NPCCharacter.spc_andalus_headman_3"/>
+		</notable_templates>
+		<lord_templates>
+			<template name="NPCCharacter.andalus_autogenerated_lord1"/>
+			<template name="NPCCharacter.andalus_autogenerated_lord2"/>
+			<template name="NPCCharacter.andalus_autogenerated_lord3"/>
+			<template name="NPCCharacter.andalus_autogenerated_lord4"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.andalus_autogenerated_lord1"/>
+			<template name="NPCCharacter.andalus_autogenerated_lord2"/>
+			<template name="NPCCharacter.andalus_autogenerated_lord3"/>
+			<template name="NPCCharacter.andalus_autogenerated_lord4"/>
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_andalus_one_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_andalus_one_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_andalus_one_participant_set_v3"/>
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_andalus_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_andalus_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_andalus_two_participant_set_v3"/>
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_andalus_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_andalus_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_andalus_four_participant_set_v3"/>
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+            <template name="NPCCharacter.merc_euro_spearman"/>
+            <template name="NPCCharacter.merc_euro_guisarmer"/>
+            <template name="NPCCharacter.merc_euro_horseman"/>
+            <template name="NPCCharacter.merc_euro_crossbowman"/>
+            <template name="NPCCharacter.merc_manhunter_root"/>
+			<template name="NPCCharacter.nubian_mercenary_spearman"/>
+			<template name="NPCCharacter.merc_turcopole_flanker"/>
+        </basic_mercenary_troops>
+	</Culture>
+</SPCultures>
