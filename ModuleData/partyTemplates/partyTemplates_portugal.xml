@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <!-- Villagers -->
+    <MBPartyTemplate id="villager_portuguese_template">
+        <stacks>
+            <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_portuguese"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Lords & Town Garrison -->
+    <MBPartyTemplate id="kingdom_hero_party_PORTUGAL_template">
+        <stacks>
+      <PartyTemplateStack min_value="6" max_value="13" troop="NPCCharacter.portugal_basic_root"/>       <!-- Portuguese Levied Peasant -->
+      <PartyTemplateStack min_value="6" max_value="12" troop="NPCCharacter.portugal_infantry_root0"/>   <!-- Portuguese Levy Spearman -->
+      <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.portugal_infantry_root00"/>   <!-- Portuguese Spearman -->
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.portugal_infantry_root000"/>  <!-- Portuguese Senior Spearman -->
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.portugal_infantry_root0000"/> <!-- Portuguese Sergeant Spearman -->
+      <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.portugal_infantry_root10"/> <!-- Portuguese Infantry -->
+      <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.portugal_infantry_root100"/> <!-- Portuguese Senior Infantry -->
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.portugal_infantry_root1000"/> <!-- Portuguese Heavy Infantry -->
+      <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.portugal_archer_root0"/>      <!-- Portuguese Crossbowman -->
+      <PartyTemplateStack min_value="2" max_value="5" troop="NPCCharacter.portugal_archer_root00"/>      <!-- Portuguese Senior Crossbowman -->
+      <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.portugal_archer_root000"/>     <!-- Portuguese Veteran Crossbowman -->
+      <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.portugal_elite_root"/>        <!-- Portuguese Horseman -->
+      <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.portugal_elite_root0"/>        <!-- Portuguese Squire -->
+      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.portugal_elite_root00"/>       <!-- Portuguese Lesser Knight -->
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.santiago_knight"/>           <!-- santiago knight -->
+        </stacks>
+    </MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_PORTUGAL_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.portugal_basic_root"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.portugal_infantry_root0"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.portugal_elite_root"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.portugal_elite_root0"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_PORTUGAL_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.portugal_basic_root"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.portugal_infantry_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.portugal_elite_root"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.portugal_elite_root0"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_PORTUGAL_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.portugal_basic_root"/>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.portugal_infantry_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.portugal_elite_root"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.portugal_elite_root0"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.portugal_elite_root00"/>
+		</stacks>
+	</MBPartyTemplate>
+
+    <!-- Caravans -->
+    <MBPartyTemplate id="caravan_template_portuguese">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_portuguese"/>
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_portuguese"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_portuguese"/>
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="elite_caravan_template_portuguese">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_portuguese"/>
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_portuguese"/>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_portuguese"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_portuguese"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Town Militia -->
+    <MBPartyTemplate id="militia_portuguese_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.portuguese_militia_spearman"/>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.portuguese_militia_archer"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Rebels -->
+    <MBPartyTemplate id="rebels_portuguese_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.portugal_basic_root"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Vassal Reward Troops-->
+    <MBPartyTemplate id="vassal_reward_troops_portuguese">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.portugal_elite_root00"/>
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.portugal_elite_root0"/>
+        </stacks>
+    </MBPartyTemplate>
+
+</partyTemplates>

@@ -361,6 +361,30 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--#endregion Fighter Template-->
+	<NPCCharacter id="civillian_template_gangster_tier1_germanic" name="{=!}civillian_template_gangster_tier1_germanic" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.germanic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_germanic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="civillian_template_gangster_tier1_germanic"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="civillian_template_gangster_tier2_germanic" name="{=!}civillian_template_gangster_tier2_germanic" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.germanic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_germanic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="civillian_template_gangster_tier2_germanic"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="civillian_template_gangster_tier3_germanic" name="{=!}civillian_template_gangster_tier3_germanic" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.germanic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_germanic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="civillian_template_gangster_tier3_germanic"/>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="germanic_troop_civilian_template_t1" name="{=!}germanic_troop_civilian_template_t1" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.germanic" is_template="true" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_germanic"/>

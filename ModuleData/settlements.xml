@@ -1064,7 +1064,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region Kingdom of Portugal : Portuguese culture-->
-  <Settlement id="town_oporto" name="{=town_oporto_name}Porto" owner="Faction.clan_england_1" posX="86.568" posY="862.655" culture="Culture.england" gate_posX="88.5212" gate_posY="864.1646" text="{=town_oporto_text}Porto text...">
+  <Settlement id="town_oporto" name="{=town_oporto_name}Porto" owner="Faction.clan_portugal_1" posX="86.568" posY="862.655" culture="Culture.portuguese" gate_posX="88.5212" gate_posY="864.1646" text="{=town_oporto_text}Porto text...">
     <Components>
       <Town id="town_comp_oporto" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_portuguese" wait_mesh="wait_portuguese_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -1100,7 +1100,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_oporto_braga" name="{=town_oporto_braga_name}Braga" posX="87.257" posY="871.528" culture="Culture.england" text="{=town_oporto_braga_text}Braga text...">
+  <Settlement id="town_oporto_braga" name="{=town_oporto_braga_name}Braga" posX="87.257" posY="871.528" culture="Culture.portuguese" text="{=town_oporto_braga_text}Braga text...">
     <Components>
       <Village id="town_comp_oporto_braga" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_oporto" background_crop_position="0.0" background_mesh="gui_bg_village_portuguese" wait_mesh="wait_portuguese_village" castle_background_mesh="gui_bg_castle_portuguese" />
     </Components>
@@ -1113,7 +1113,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_oporto_arouca" name="{=town_oporto_arouca_name}Arouca" posX="95.516" posY="848.466" culture="Culture.england" text="{=town_oporto_arouca_text}Arouca text...">
+  <Settlement id="town_oporto_arouca" name="{=town_oporto_arouca_name}Arouca" posX="95.516" posY="848.466" culture="Culture.portuguese" text="{=town_oporto_arouca_text}Arouca text...">
     <Components>
       <Village id="town_comp_oporto_arouca" village_type="VillageType.silver_mine" hearth="400" bound="Settlement.town_oporto" background_crop_position="0.0" background_mesh="gui_bg_village_portuguese" wait_mesh="wait_portuguese_village" castle_background_mesh="gui_bg_castle_portuguese" />
     </Components>
@@ -1126,7 +1126,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_coimbra" name="{=town_coimbra_name}Coimbra" owner="Faction.clan_england_1" posX="85.442" posY="840.116" culture="Culture.england" gate_posX="84.59465" gate_posY="843.0326" text="{=town_coimbra_text}Coimbra text...">
+  <Settlement id="town_coimbra" name="{=town_coimbra_name}Coimbra" owner="Faction.clan_portugal_1" posX="85.442" posY="840.116" culture="Culture.portuguese" gate_posX="84.59465" gate_posY="843.0326" text="{=town_coimbra_text}Coimbra text...">
     <Components>
       <Town id="town_comp_coimbra" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_portuguese" wait_mesh="wait_portuguese_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -1162,7 +1162,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_coimbra_aveiro" name="{=town_coimbra_aveiro_name}Aveiro" posX="82.222" posY="848.6" culture="Culture.england" text="{=town_coimbra_aveiro_text}Aveiro text...">
+  <Settlement id="town_coimbra_aveiro" name="{=town_coimbra_aveiro_name}Aveiro" posX="82.222" posY="848.6" culture="Culture.portuguese" text="{=town_coimbra_aveiro_text}Aveiro text...">
     <Components>
       <Village id="town_comp_coimbra_aveiro" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_coimbra" background_crop_position="0.0" background_mesh="gui_bg_village_portuguese" wait_mesh="wait_portuguese_village" castle_background_mesh="gui_bg_castle_portuguese" />
     </Components>
@@ -1175,7 +1175,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_coimbra_figueira" name="{=town_coimbra_figueira_name}Figueira" posX="76.321" posY="830.348" culture="Culture.england" text="{=town_coimbra_figueira_text}Figueira text...">
+  <Settlement id="town_coimbra_figueira" name="{=town_coimbra_figueira_name}Figueira" posX="76.321" posY="830.348" culture="Culture.portuguese" text="{=town_coimbra_figueira_text}Figueira text...">
     <Components>
       <Village id="town_comp_coimbra_figueira" village_type="VillageType.salt_mine" hearth="400" bound="Settlement.town_coimbra" background_crop_position="0.0" background_mesh="gui_bg_village_portuguese" wait_mesh="wait_portuguese_village" castle_background_mesh="gui_bg_castle_portuguese" />
     </Components>
@@ -1188,7 +1188,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_lisbon" name="{=town_lisbon_name}Lisbon" owner="Faction.clan_england_1" posX="69.528" posY="805.375" culture="Culture.england" gate_posX="69.85513" gate_posY="806.7128" text="{=town_coimbra_text}Coimbra text...">
+  <Settlement id="town_lisbon" name="{=town_lisbon_name}Lisbon" owner="Faction.clan_portugal_1" posX="69.528" posY="805.375" culture="Culture.portuguese" gate_posX="69.85513" gate_posY="806.7128" text="{=town_coimbra_text}Coimbra text...">
     <Components>
       <Town id="town_comp_lisbon" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_portuguese" wait_mesh="wait_portuguese_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -1224,7 +1224,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_lisbon_santarem" name="{=town_lisbon_santarem_name}Santarem" posX="76.533" posY="813.758" culture="Culture.england" text="{=town_lisbon_santarem_text}Santarem text...">
+  <Settlement id="town_lisbon_santarem" name="{=town_lisbon_santarem_name}Santarem" posX="76.533" posY="813.758" culture="Culture.portuguese" text="{=town_lisbon_santarem_text}Santarem text...">
     <Components>
       <Village id="town_comp_lisbon_santarem" village_type="VillageType.salt_mine" hearth="400" bound="Settlement.town_lisbon" background_crop_position="0.0" background_mesh="gui_bg_village_portuguese" wait_mesh="wait_portuguese_village" castle_background_mesh="gui_bg_castle_portuguese" />
     </Components>
@@ -1237,7 +1237,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_lisbon_setubal" name="{=town_lisbon_setubal_name}Setubal" posX="75.874" posY="800.116" culture="Culture.england" text="{=town_lisbon_setubal_text}Setubal text...">
+  <Settlement id="town_lisbon_setubal" name="{=town_lisbon_setubal_name}Setubal" posX="75.874" posY="800.116" culture="Culture.portuguese" text="{=town_lisbon_setubal_text}Setubal text...">
     <Components>
       <Village id="town_comp_lisbon_setubal" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_lisbon" background_crop_position="0.0" background_mesh="gui_bg_village_portuguese" wait_mesh="wait_portuguese_village" castle_background_mesh="gui_bg_castle_portuguese" />
     </Components>
@@ -1250,7 +1250,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_branco" name="{=castle_branco_name}Branco Castle" owner="Faction.clan_england_1" posX="90.11" posY="826.5" culture="Culture.england" gate_posX="89.6581" gate_posY="825.5156">
+  <Settlement id="castle_branco" name="{=castle_branco_name}Branco Castle" owner="Faction.clan_portugal_1" posX="90.11" posY="826.5" culture="Culture.portuguese" gate_posX="89.6581" gate_posY="825.5156">
     <Components>
       <Town id="castle_comp_branco" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_portuguese" wait_mesh="wait_portuguese_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -1275,7 +1275,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_branco_coria" name="{=castle_branco_coria_name}Coria" posX="102.417" posY="833.137" culture="Culture.england" text="{=castle_branco_coria_text}Coria text...">
+  <Settlement id="castle_branco_coria" name="{=castle_branco_coria_name}Coria" posX="102.417" posY="833.137" culture="Culture.portuguese" text="{=castle_branco_coria_text}Coria text...">
     <Components>
       <Village id="castle_comp_branco_coria" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.castle_branco" background_crop_position="0.0" background_mesh="gui_bg_village_portuguese" wait_mesh="wait_portuguese_village" castle_background_mesh="gui_bg_castle_portuguese" />
     </Components>
@@ -1288,7 +1288,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_beja" name="{=castle_beja_name}Beja Castle" owner="Faction.clan_england_1" posX="94.55" posY="791.491" culture="Culture.england" gate_posX="93.84385" gate_posY="789.0685">
+  <Settlement id="castle_beja" name="{=castle_beja_name}Beja Castle" owner="Faction.clan_portugal_1" posX="94.55" posY="791.491" culture="Culture.portuguese" gate_posX="93.84385" gate_posY="789.0685">
     <Components>
       <Town id="castle_comp_beja" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_portuguese" wait_mesh="wait_portuguese_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -1313,7 +1313,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_beja_lagos" name="{=castle_beja_lagos_name}Lagos" posX="88.696" posY="771.969" culture="Culture.england" text="{=castle_beja_lagos_text}Lagos text...">
+  <Settlement id="castle_beja_lagos" name="{=castle_beja_lagos_name}Lagos" posX="88.696" posY="771.969" culture="Culture.portuguese" text="{=castle_beja_lagos_text}Lagos text...">
     <Components>
       <Village id="castle_comp_beja_lagos" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_beja" background_crop_position="0.0" background_mesh="gui_bg_village_portuguese" wait_mesh="wait_portuguese_village" castle_background_mesh="gui_bg_castle_portuguese" />
     </Components>
@@ -1326,7 +1326,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_beja_evora" name="{=castle_beja_evora_name}Evora" posX="95.642" posY="804.148" culture="Culture.england" text="{=castle_beja_evora_text}Evora text...">
+  <Settlement id="castle_beja_evora" name="{=castle_beja_evora_name}Evora" posX="95.642" posY="804.148" culture="Culture.portuguese" text="{=castle_beja_evora_text}Evora text...">
     <Components>
       <Village id="castle_comp_beja_evora" village_type="VillageType.desert_horse_ranch" hearth="400" bound="Settlement.castle_beja" background_crop_position="0.0" background_mesh="gui_bg_village_portuguese" wait_mesh="wait_portuguese_village" castle_background_mesh="gui_bg_castle_portuguese" />
     </Components>
