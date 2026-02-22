@@ -1,0 +1,272 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<SPCultures>
+	<Culture id="halych"
+	         name="{=halychCulture}Galician-Volhynian"
+	         is_main_culture="true"
+	         color="0xff045cbc"
+	         color2="0xffebc913"
+	         elite_basic_troop="NPCCharacter.halych_elite_root"
+	         basic_troop="NPCCharacter.halych_basic_root"
+	         melee_militia_troop="NPCCharacter.halych_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.halych_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.halych_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.halych_militia_veteran_archer"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_halych_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_HALYCH_template"
+	         settlement_patrol_template_level_1="PartyTemplate.patrol_party_HALYCH_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_HALYCH_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_HALYCH_template_level_3"
+	         encounter_background_mesh="encounter_halych"
+	         faction_banner_key="11.146.143.1750.1750.764.764.0.0.0.503.141.143.0.0.764.764.0.0.0.426.128.128.32.46.714.579.0.0.60.506.128.128.10.13.713.582.0.0.60.140.131.146.566.564.762.757.0.0.0.505.146.146.205.347.925.692.0.1.180.207.131.146.212.218.887.598.0.1.167.505.146.146.263.256.955.454.0.1.180.309.131.131.93.86.905.760.0.1.326.309.131.131.110.101.919.729.0.1.324.309.131.131.110.101.927.692.0.1.331.506.128.128.16.22.594.594.0.0.-38.506.128.128.13.22.598.585.0.0.-31.506.128.128.17.11.604.574.0.0.-95.506.128.128.17.19.590.558.0.0.-43.506.128.128.17.19.588.561.0.0.-17.506.128.128.23.19.593.556.0.0.-28.506.128.128.23.19.609.530.0.0.-91.506.128.128.11.19.600.530.0.0.-91.506.128.128.11.19.598.531.0.0.-76.506.128.128.11.19.614.597.0.0.-3.506.128.128.21.19.619.590.0.0.-37.506.128.128.21.19.618.589.0.0.-37.506.128.128.12.21.616.592.0.0.-37.506.128.128.15.26.592.734.0.0.-15.506.128.128.15.26.591.734.0.0.-1.506.128.128.15.26.609.753.0.0.19.506.128.128.12.22.606.751.0.0.19.506.128.128.12.22.630.755.0.0.26.506.128.128.12.22.628.754.0.0.26.506.128.128.19.11.626.747.0.0.26.506.128.128.16.29.652.737.0.0.26.506.128.128.16.29.649.738.0.0.36.506.128.128.16.22.684.859.0.0.36.506.128.128.16.22.681.858.0.0.50.506.128.128.16.17.663.864.0.0.61.506.128.128.16.17.663.860.0.0.61.506.128.128.16.17.657.861.0.0.76.506.128.128.16.17.654.873.0.0.76.506.128.128.16.17.645.875.0.0.146.506.128.128.16.17.649.874.0.0.94.506.128.128.27.27.644.888.0.0.94.506.128.128.15.15.631.893.0.0.162.506.128.128.15.15.640.892.0.0.87.506.128.128.20.20.746.955.0.0.87.506.128.128.20.14.752.958.0.0.72.506.128.128.20.14.753.954.0.0.72.506.128.128.20.22.736.958.0.0.143.506.128.128.20.22.760.996.0.0.143.506.128.128.20.22.767.994.0.0.133.506.128.128.20.22.755.1005.0.0.154.506.128.128.20.22.738.990.0.0.125.506.128.128.20.22.751.984.0.0.115.506.128.128.20.22.742.970.0.0.115.506.128.128.20.22.750.971.0.0.94.506.128.128.20.22.750.968.0.0.94.506.128.128.20.22.734.977.0.0.123.506.128.128.13.14.621.591.0.0.135.506.128.128.13.14.615.598.0.0.179.211.131.131.163.109.870.795.0.0.20.503.146.146.92.74.861.801.0.0.2.506.146.146.77.130.832.743.0.0.191.427.131.131.177.51.915.681.0.0.78.427.131.131.74.60.909.597.0.0.158.503.146.146.44.62.909.612.0.0.2.427.146.146.99.106.912.587.0.0.168.427.131.131.94.84.881.805.0.0.62.506.146.146.77.130.866.744.0.0.191.424.131.131.71.35.901.780.0.0.15.506.146.146.77.130.896.702.0.0.167.506.131.131.91.111.908.726.0.0.167.309.131.131.95.87.913.711.0.0.-37.427.131.131.73.105.908.613.0.0.-197"
+	         militia_party_template="PartyTemplate.militia_halych_template"
+	         rebels_party_template="PartyTemplate.rebels_halych_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_halych"
+	         text="{=halych_text}Unused in the game."
+	         tournament_master="NPCCharacter.tournament_master_halych"
+	         villager="NPCCharacter.villager_halych"
+	         caravan_master="NPCCharacter.caravan_master_halych"
+	         caravan_guard="NPCCharacter.caravan_guard_halych"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_halych"
+	         prison_guard="NPCCharacter.prison_guard_halych"
+	         guard="NPCCharacter.guard_halych"
+	         blacksmith="NPCCharacter.blacksmith_halych"
+	         weaponsmith="NPCCharacter.weaponsmith_halych"
+	         townswoman="NPCCharacter.townswoman_halych"
+	         townswoman_infant="NPCCharacter.townswoman_infant_halych"
+	         townswoman_child="NPCCharacter.townswoman_child_halych"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_halych"
+	         townsman="NPCCharacter.townsman_halych"
+	         townsman_infant="NPCCharacter.townsman_infant_halych"
+	         townsman_child="NPCCharacter.townsman_child_halych"
+	         townsman_teenager="NPCCharacter.townsman_teenager_halych"
+	         village_woman="NPCCharacter.village_woman_halych"
+	         villager_male_child="NPCCharacter.villager_child_halych"
+	         villager_male_teenager="NPCCharacter.villager_teenager_halych"
+	         villager_female_child="NPCCharacter.village_woman_child_halych"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_halych"
+	         ransom_broker="NPCCharacter.ransom_broker_halych"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_halych"
+	         merchant_notary="NPCCharacter.merchant_notary_halych"
+	         artisan_notary="NPCCharacter.artisan_notary_halych"
+	         preacher_notary="NPCCharacter.preacher_notary_halych"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_halych"
+	         shop_worker="NPCCharacter.shop_worker_halych"
+	         tavernkeeper="NPCCharacter.tavernkeeper_halych"
+	         taverngamehost="NPCCharacter.taverngamehost_halych"
+	         musician="NPCCharacter.musician_halych"
+	         tavern_wench="NPCCharacter.tavern_wench_halych"
+	         armorer="NPCCharacter.armorer_halych"
+	         horseMerchant="NPCCharacter.horseMerchant_halych"
+	         barber="NPCCharacter.barber_halych"
+	         merchant="NPCCharacter.merchant_halych"
+	         beggar="NPCCharacter.beggar_halych"
+	         female_beggar="NPCCharacter.female_beggar_halych"
+	         female_dancer="NPCCharacter.female_dancer_halych"
+	         default_battle_equipment_roster="EquipmentRoster.halych_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.halych_civ_template_default"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+	         duel_preset_equipment_roster="EquipmentRoster.stu_duel_preset_template"
+	         marriage_bride_equipment_roster="EquipmentRoster.marriage_female_halych_cutscene_template"
+	         board_game_type="Konane"
+	         default_character_creation_body_property="BodyProperty.default_character_creation_body_property_empire"
+	         start_point_position_x="746"
+	         start_point_position_y="1130">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_halych"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_halych"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls/>
+		<vassal_reward_items>
+			<item id="Item.avalanche_2haxe"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.sturgia_sword_1_t2"/>
+			<item id="Item.sturgia_sword_2_t3"/>
+			<item id="Item.sturgia_sword_4_t4"/>
+			<item id="Item.sturgia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_lawspeakers"/>
+			<policy id="policy_precarial_land_tenure"/>
+		</default_policies>
+		<male_names>
+			<name name="{=ACDCA43D}Oleg"/>
+			<name name="{=F637C651}Ratimir"/>
+			<name name="{=0421B676}Velimir"/>
+			<name name="{=622C2410}Dawyd"/>
+			<name name="{=5FA63D63}Datsko"/>
+			<name name="{=C22FFD3E}Dmitri"/>
+			<name name="{=043C5954}Boryslav"/>
+			<name name="{=62398FCA}Jaromir"/>
+			<name name="{=76E21A7E}Radovan"/>
+			<name name="{=A8A00175}Stanislav"/>
+			<name name="{=7D17290E}Artem"/>
+			<name name="{=A94E16A1}Izyaslav"/>
+			<name name="{=1B5C5C10}Mal"/>
+			<name name="{=936BBBEE}Oleksandr"/>
+			<name name="{=16D40F45}Mal"/>
+			<name name="{=8A86CE76}Vlastimil"/>
+			<name name="{=05154A7E}Dobromir"/>
+			<name name="{=71D4E2AD}Mykhail"/>
+			<name name="{=3150208B}Fedir"/>
+			<name name="{=2E0FE86F}Jaroslav"/>
+			<name name="{=E8E8B874}Borys"/>
+			<name name="{=2C2500CF}Bohdan"/>
+			<name name="{=E44F74D1}Faddei"/>
+			<name name="{=AC50599A}Ivan"/>
+			<name name="{=E44BBCCC}Stepan"/>
+			<name name="{=AD9E53CA}Sviatoslav"/>
+			<name name="{=F0CB3CF1}Andriy"/>
+			<name name="{=A1026723}Alexander"/>
+			<name name="{=159AB705}Ivan"/>
+			<name name="{=D8BD737A}Volodimir"/>
+			<name name="{=2E0BF3C0}Vasylko"/>
+			<name name="{=D253341B}Roman"/>
+			<name name="{=24B1A739}Lev"/>
+			<name name="{=F115CDE8}Danylo"/>
+			<name name="{=F5935F3B}Mstislav"/>
+			<name name="{=2449A475}Svarn"/>
+			<name name="{=7CC8D271}Bryachislav"/>
+			<name name="{=6552F180}Voloda"/>
+		</male_names>
+		<female_names>
+			<name name="{=C23A87A0}Daryna"/>
+			<name name="{=D48B9A29}Anastasiya"/>
+			<name name="{=8DB2707B}Bohdana"/>
+			<name name="{=A32152B9}Alina"/>
+			<name name="{=5AA87454}Daniela"/>
+			<name name="{=33EA630F}Dobrodeia"/>
+			<name name="{=FD3ED2C5}Dobroniega"/>
+			<name name="{=6B65DA2E}Iadvykha"/>
+			<name name="{=8AEC4E4E}Olenica"/>
+			<name name="{=D75E96FB}Polahia"/>
+			<name name="{=70A6BFB5}Zofeia"/>
+			<name name="{=FF8E2E7A}Zvenislava"/>
+			<name name="{=BE14E6D9}Wyola"/>
+			<name name="{=36C610BF}Stetsia"/>
+			<name name="{=9E7254A0}Poloneia"/>
+			<name name="{=16F7E6D1}Tomyla"/>
+			<name name="{=57297A76}Olena"/>
+			<name name="{=6A915DC6}Kalyna"/>
+			<name name="{=97D538AB}Kateryna"/>
+			<name name="{=7C2ECD17}Inna"/>
+			<name name="{=E09C7EC9}Ivanna"/>
+			<name name="{=8DEB72DE}Anichka"/>
+			<name name="{=87EFD099}Aleksandra"/>
+			<name name="{=7ACD3794}Anna"/>
+			<name name="{=D0D9C2B7}Ionna"/>
+			<name name="{=5A352BD0}Daryna"/>
+			<name name="{=3C90C755}Dina"/>
+			<name name="{=F61D34DD}Olena"/>
+			<name name="{=0E09DA4B}Oksana"/>
+			<name name="{=447E9F09}Maria"/>
+			<name name="{=EA30E30E}Ljudmila"/>
+			<name name="{=11C4849E}Svitlana"/>
+			<name name="{=C464DF85}Zlata"/>
+			<name name="{=10E840CD}Zoriana"/>
+			<name name="{=5A232C8D}Leonida"/>
+			<name name="{=75056306}Yaroslava"/>
+			<name name="{=73AE7FF9}Tetiana"/>
+			<name name="{=A315D49F}Kalyna"/>
+		</female_names>
+		<clan_names>
+			<name name="{=Ostrozky}Ostrozky"/>
+			<name name="{=Czartoryski}Czartoryski"/>
+			<name name="{=Wisniowiecki}Wisniowiecki"/>
+			<name name="{=Sanguszko}Sanguszko"/>
+			<name name="{=Lubomirski}Lubomirski"/>
+			<name name="{=Zbaraski}Zbaraski"/>
+		</clan_names>
+		<cultural_feats>
+			<feat id="khuzait_decreased_town_tax"/>
+			<feat id="sturgian_decreased_army_influence_cost"/>
+			<feat id="battanian_forest_speed"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="112"/>
+			<icon id="113"/>
+			<icon id="114"/>
+			<icon id="115"/>
+			<icon id="116"/>
+			<icon id="117"/>
+			<icon id="118"/>
+			<icon id="132"/>
+			<icon id="138"/>
+			<icon id="139"/>
+			<icon id="307"/>
+			<icon id="331"/>
+			<icon id="407"/>
+			<icon id="408"/>
+			<icon id="409"/>
+			<icon id="410"/>
+			<icon id="439"/>
+			<icon id="440"/>
+			<icon id="441"/>
+			<icon id="442"/>
+			<icon id="443"/>
+			<icon id="444"/>
+			<icon id="445"/>
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_halych_0"/>
+			<template name="NPCCharacter.spc_notable_halych_0b"/>
+			<template name="NPCCharacter.spc_notable_halych_1"/>
+			<template name="NPCCharacter.spc_notable_halych_2"/>
+			<template name="NPCCharacter.spc_notable_halych_2b"/>
+			<template name="NPCCharacter.spc_notable_halych_3"/>
+			<template name="NPCCharacter.spc_notable_halych_3b"/>
+			<template name="NPCCharacter.spc_notable_halych_3c"/>
+			<template name="NPCCharacter.spc_notable_halych_4"/>
+			<template name="NPCCharacter.spc_notable_halych_5"/>
+			<template name="NPCCharacter.spc_notable_halych_6"/>
+			<template name="NPCCharacter.spc_notable_halych_7"/>
+			<template name="NPCCharacter.spc_notable_halych_8"/>
+			<template name="NPCCharacter.spc_notable_halych_9"/>
+			<template name="NPCCharacter.spc_notable_halych_10"/>
+			<template name="NPCCharacter.spc_halych_headman_1"/>
+			<template name="NPCCharacter.spc_halych_headman_2"/>
+			<template name="NPCCharacter.spc_halych_headman_3"/>
+		</notable_templates>
+		<lord_templates>
+			<template name="NPCCharacter.halych_autogenerated_lord1"/>
+			<template name="NPCCharacter.halych_autogenerated_lord2"/>
+			<template name="NPCCharacter.halych_autogenerated_lord3"/>
+			<template name="NPCCharacter.halych_autogenerated_lord4"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.halych_autogenerated_lord1"/>
+			<template name="NPCCharacter.halych_autogenerated_lord2"/>
+			<template name="NPCCharacter.halych_autogenerated_lord3"/>
+			<template name="NPCCharacter.halych_autogenerated_lord4"/>
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_halych_one_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_halych_one_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_halych_one_participant_set_v3"/>
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_halych_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_halych_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_halych_two_participant_set_v3"/>
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_halych_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_halych_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_halych_four_participant_set_v3"/>
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.varangian_guard1"/>
+			<template name="NPCCharacter.varangian_guard2"/>
+			<template name="NPCCharacter.merc_rus_spear1"/>
+			<template name="NPCCharacter.merc_rus_spear2"/>
+			<template name="NPCCharacter.merc_rus_spear3"/>
+			<template name="NPCCharacter.merc_alan_1"/>
+			<template name="NPCCharacter.merc_kipchak_root"/>
+			<template name="NPCCharacter.merc_euro_spearman"/>
+			<template name="NPCCharacter.merc_euro_horseman"/>
+		</basic_mercenary_troops>
+	</Culture>
+</SPCultures> 

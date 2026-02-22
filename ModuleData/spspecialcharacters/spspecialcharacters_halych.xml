@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!--  Wanderers -->
+	<NPCCharacter id="spc_wanderer_halych_0" name="{=yr5pa0hs}{FIRSTNAME} Rutenis" voice="softspoken" age="28" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.halych" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_0_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_halych"/>
+		</face>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_halych"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--braggart backstory - claims he found skolderbrotva too soft -->
+	<NPCCharacter id="spc_wanderer_halych_1" name="{=W7aa22Yl}{FIRSTNAME} Breakskull" voice="earnest" age="27" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_1_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_halych"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_halych"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--enterprising young would-be raider, wants to do his father proud -->
+	<NPCCharacter id="spc_wanderer_halych_2" name="{=aE8abvsQ}{FIRSTNAME} the Lucky" voice="earnest" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.halych" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_2_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_halych"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="HuscarlFightingSkills" value="3"/>
+			<Trait id="Commander" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_halych"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- vaegir guard veteran backstory - bitter about riots -->
+	<NPCCharacter id="spc_wanderer_halych_3" name="{=LmlL8fVu}{FIRSTNAME} Bloodaxe" voice="curt" age="35" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.halych" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_3_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_halych"/>
+		</face>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_halych"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--outlaw backstory,  easily angered  -->
+	<NPCCharacter id="spc_wanderer_halych_4" name="{=WU5GnkvR}{FIRSTNAME} the Fish" voice="softspoken" age="23" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.halych" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_4_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_halych"/>
+		</face>
+		<Traits>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_halych"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- coalbiter backstory -->
+	<NPCCharacter id="spc_wanderer_halych_5" name="{=NSaetzNJ}{FIRSTNAME} Coalbiter" voice="curt" age="30" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.halych" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_5_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_halych"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_halych"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--icebeard - mossbeard. Simple misanthrope, cheated in marriage by brother-in-law, went to woods -->
+	<NPCCharacter id="spc_wanderer_halych_6" name="{=zXjdb1zT}{FIRSTNAME} Frostbeard" voice="curt" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.halych" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_6_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_halych"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_halych"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- dispossessed because of birthmark -->
+	<NPCCharacter id="spc_wanderer_halych_7" name="{=QyQPJJ9B}{FIRSTNAME} the Accursed" voice="ironic" age="24" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.halych" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_7_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_halych"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_halych"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- shield maiden -->
+	<NPCCharacter id="spc_wanderer_halych_8" name="{=rtsnnL2J}{FIRSTNAME} the Shieldmaiden" voice="curt" age="29" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.halych" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_8_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_halych"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_halych"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--proud hireling who will do any task, values professionalism -->
+	<NPCCharacter id="spc_wanderer_halych_9" name="{=akALDUs0}{FIRSTNAME} Longknife" voice="ironic" age="26" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.halych" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_9_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_halych"/>
+		</face>
+		<Traits>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_halych"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Notables -->
+	<NPCCharacter id="spc_notable_halych_0" name="{=!}Cautious halych merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_notable_sturgia_0" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="spc_notable_halych_0"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_halych_0b" name="{=!}Caustic halych merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_notable_sturgia_0b" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Commander" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="spc_notable_halych_0b"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_halych_1" name="{=!}curt halych merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_notable_sturgia_1" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<!--<Hero id="spc_notable_halych_1" faction="Kingdom.sturgia" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<!-- Add skill groups -->
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="spc_notable_halych_1"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_halych_2" name="{=!}Adventurous halych merchant" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_notable_sturgia_2" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<!--<Hero id="spc_notable_halych_2" faction="Kingdom.sturgia" />-->
+		<skills/>
+		<Traits>
+			<!-- TEMPLATE INFO -->
+			<Trait id="RusHair" value="1"/>
+			<!-- Add skill groups -->
+			<!-- CHARACTER -->
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="spc_notable_halych_2"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_halych_2b" name="{=!}Honest halych merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_notable_sturgia_2b" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<!--<Hero id="spc_notable_halych_2b" faction="Kingdom.sturgia" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<!-- Add skill groups -->
+			<Trait id="Commander" value="3"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="spc_notable_halych_2b"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_halych_3b" name="{=!}Affable halych merchant" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_notable_sturgia_3b" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<!--<Hero id="spc_notable_halych_3b" faction="Kingdom.sturgia" />-->
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<!-- Add skill groups -->
+			<Trait id="Commander" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="spc_notable_halych_3b"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_halych_3" name="{=!}Honorable female halych merchant" voice="earnest" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_notable_sturgia_3" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_halych"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="spc_notable_halych_3"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_halych_3c" name="{=!}Devious female halych merchant" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_notable_sturgia_3c" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_halych"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<!-- Add skill groups -->
+			<Trait id="Commander" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="spc_notable_halych_3c"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_halych_4" name="{=!}halych seer" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_notable_sturgia_4" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="spc_notable_halych_4"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_halych_5" name="{=!}halych female mystic" voice="softspoken" is_template="true" default_group="Infantry" is_female="true" culture="Culture.halych" skill_template="SkillSet.spc_notable_sturgia_5" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_halych"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="spc_notable_halych_5"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_halych_6" name="{=!}halych gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_notable_sturgia_6" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.fighter_halych"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="spc_notable_halych_6"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_halych_7" name="{=!}halych female gang leader" voice="ironic" is_template="true" default_group="Infantry" is_female="true" culture="Culture.halych" skill_template="SkillSet.spc_notable_sturgia_7" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_halych"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="spc_notable_halych_7"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_halych_8" name="{=!}halych artisan" voice="curt" is_template="true" default_group="Infantry" culture="Culture.halych" skill_template="SkillSet.spc_notable_sturgia_8" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+			<EquipmentSet id="spc_notable_halych_8"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_halych_9" name="{=!}halych land captain gruff notable" voice="curt" is_template="true" default_group="Infantry" culture="Culture.halych" skill_template="SkillSet.spc_notable_sturgia_9" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<!--<Hero id="spc_notable_halych_9" faction="Kingdom.sturgia" />-->
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_halych_10" name="{=!}halych land captain helpful notable" voice="softspoken" is_template="true" default_group="Infantry" culture="Culture.halych" skill_template="SkillSet.spc_notable_sturgia_10" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<!--<Hero id="spc_notable_halych_10" faction="Kingdom.sturgia" />-->
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Headmen -->
+	<NPCCharacter id="spc_halych_headman_1" name="{=!}halych rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_sturgia_headman_1" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<!--<Hero id="spc_notable_halych_4" faction="Kingdom.sturgia" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_halych_headman_2" name="{=!}halych conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_sturgia_headman_2" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<!--<Hero id="spc_notable_halych_4" faction="Kingdom.sturgia" />-->
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_halych_headman_3" name="{=!}halych devious headman" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_sturgia_headman_3" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<!--<Hero id="spc_notable_halych_4" faction="Kingdom.sturgia" />-->
+		<skills/>
+		<Traits>
+			<Trait id="RusHair" value="1"/>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_halych"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_halych" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--Notable Templates -->
+	<NPCCharacter id="npc_wanderer_equipment_halych" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}wanderer_equipment" occupation="NotAssigned" culture="Culture.halych" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_halych"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_halych"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_artisan_equipment_halych" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}artisan_equipment" occupation="NotAssigned" culture="Culture.halych" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_artisan_equipment_halych"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_gang_leader_equipment_halych" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}gang_leader_equipment" occupation="NotAssigned" culture="Culture.halych" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_halych"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_gang_leader_equipment_halych"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_preacher_equipment_halych" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}preacher_equipment" occupation="NotAssigned" culture="Culture.halych" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_preacher_equipment_halych"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_merchant_equipment_halych" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}merchant_equipment" occupation="NotAssigned" culture="Culture.halych" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_halych"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_merchant_equipment_halych"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Auto generated lords for Rebellions & lords in your companions' clans -->
+	<NPCCharacter id="halych_autogenerated_lord1" name="{=reJpmqBO} YouAreNotMeantToSeeThis" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_halych"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="halych_lord_combat"/>
+			<EquipmentSet id="halych_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="halych_autogenerated_lord2" name="{=oJPkrJZe} YouAreNotMeantToSeeThis" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_halych"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="halych_lord_combat"/>
+			<EquipmentSet id="halych_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="halych_autogenerated_lord3" name="{=ZWJxepQv} YouAreNotMeantToSeeThis" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_halych"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="halych_lord_combat"/>
+			<EquipmentSet id="halych_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="halych_autogenerated_lord4" name="{=ddOTRNYD} YouAreNotMeantToSeeThis" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.halych" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_halych"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="halych_lord_combat"/>
+			<EquipmentSet id="halych_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

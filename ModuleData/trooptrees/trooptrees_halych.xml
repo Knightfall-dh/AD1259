@@ -1,0 +1,545 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+    <!-- #region Infantry -->
+    <NPCCharacter id="halych_basic_root" default_group="Infantry" level="6" name="{=halych_basic_root}Halychian Rab" occupation="Soldier"
+                  culture="Culture.halych" is_basic_troop="true">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="20"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="20"/>
+            <skill id="TwoHanded" value="10"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="5"/>
+            <skill id="Crossbow" value="5"/>
+            <skill id="Throwing" value="10"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_basic_root0"/>
+            <upgrade_target id="NPCCharacter.halych_basic_root1"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root_bat"/>
+            <EquipmentSet id="halych_basic_root_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_basic_root0" default_group="Infantry" level="11" name="{=halych_basic_root0}Halychian Krestian" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="40"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="20"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="15"/>
+            <skill id="Throwing" value="20"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_basic_root00"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root0_bat"/>
+            <EquipmentSet id="halych_basic_root0_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_basic_root00" default_group="Infantry" level="16" name="{=halych_basic_root00}Halychian Pikhotinec" occupation="Soldier" culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="10"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="70"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_basic_root000"/>
+            <upgrade_target id="NPCCharacter.halych_basic_root001"/>
+            <upgrade_target id="NPCCharacter.halych_basic_root002"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root00_bat"/>
+            <EquipmentSet id="halych_basic_root00_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="halych_basic_root000" default_group="Infantry" level="21" name="{=halych_basic_root000}Halychian Kopeyschik" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="45"/>
+            <skill id="Crossbow" value="45"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_basic_root0000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root000_bat"/>
+            <EquipmentSet id="halych_basic_root000_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_basic_root001" default_group="Infantry" level="21" name="{=halych_basic_root001}Halychian Mechnik" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="45"/>
+            <skill id="Crossbow" value="45"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_basic_root0010"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root001_bat"/>
+            <EquipmentSet id="halych_basic_root001_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_basic_root002" default_group="Infantry" level="21" name="{=halych_basic_root001}Halychian Siekirnik" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="45"/>
+            <skill id="Crossbow" value="45"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_basic_root0020"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root002_bat"/>
+            <EquipmentSet id="halych_basic_root002_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="halych_basic_root0000" default_group="Infantry" level="26" name="{=halych_basic_root0000}Halychian Bronirovanny Kopeyschik" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="140"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="180"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="180"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root0000_bat"/>
+            <EquipmentSet id="halych_basic_root0000_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_basic_root0010" default_group="Infantry" level="26" name="{=halych_basic_root0010}Halychian Bronirovanny Mechnik"
+                  occupation="Soldier" culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="200"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="180"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root0010_bat"/>
+            <EquipmentSet id="halych_basic_root0010_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_basic_root0020" default_group="Infantry" level="26" name="{=halych_basic_root0010}Halychian Bronirovanny Siekirnik"
+                  occupation="Soldier" culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="200"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="180"/>
+            <skill id="TwoHanded" value="0"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root0020_bat"/>
+            <EquipmentSet id="halych_basic_root0020_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- #region Archers -->
+    <!-- Bowmen -->
+    <NPCCharacter id="halych_basic_root1" default_group="Ranged" level="11" name="{=halych_basic_root1}Halychian Krepostnoj Luchnik" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="40"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="15"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="40"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="15"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_basic_root10"/>
+            <upgrade_target id="NPCCharacter.halych_basic_root11"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root1_bat"/>
+            <EquipmentSet id="halych_basic_root1_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_basic_root10" default_group="Ranged" level="16" name="{=halych_basic_root10}Halychian Luchnik" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="10"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="30"/>
+            <skill id="Bow" value="70"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="40"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_basic_root100"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root10_bat"/>
+            <EquipmentSet id="halych_basic_root10_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_basic_root100" default_group="Ranged" level="21" name="{=halych_basic_root100}Halychian Veteran Luchnik" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="60"/>
+            <skill id="Bow" value="100"/>
+            <skill id="Crossbow" value="45"/>
+            <skill id="Throwing" value="45"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_basic_root1000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root100_bat"/>
+            <EquipmentSet id="halych_basic_root100_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_basic_root1000" default_group="Ranged" level="26" name="{=halych_basic_root1000}Halychian Bronirovanny Luchnik" occupation="Soldier" culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="80"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="80"/>
+            <skill id="Bow" value="130"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root1000_bat"/>
+            <EquipmentSet id="halych_basic_root1000_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <!-- Crossbowmen -->
+    <NPCCharacter id="halych_basic_root11" default_group="Ranged" level="16" name="{=halych_basic_root11}Halychian Crossbowman" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="60"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="45"/>
+            <skill id="Polearm" value="45"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="100"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_basic_root110"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root11_bat"/>
+            <EquipmentSet id="halych_basic_root11_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_basic_root110" default_group="Ranged" level="21" name="{=halych_basic_root110}Halychian Veteran Crossbowman" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="80"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="80"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="130"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_basic_root1110"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root110_bat"/>
+            <EquipmentSet id="halych_basic_root110_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_basic_root1110" default_group="Ranged" level="26" name="{=halych_basic_root1110}Halychian Armored Crossbowman" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="80"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="80"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="130"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <Equipments>
+            <EquipmentSet id="halych_basic_root1110_bat"/>
+            <EquipmentSet id="halych_basic_root1110_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- #region Elite -->
+    <NPCCharacter id="halych_elite_root" default_group="Infantry" level="16" name="{=halych_elite_root}Halychian Syn Boyarski" occupation="Soldier"
+                  culture="Culture.halych" is_basic_troop="true">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="30"/>
+            <skill id="Riding" value="70"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="10"/>
+            <skill id="Crossbow" value="10"/>
+            <skill id="Throwing" value="10"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_elite_root0"/>
+            <upgrade_target id="NPCCharacter.halych_elite_root1"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_elite_root_bat"/>
+            <EquipmentSet id="halych_elite_root_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_elite_root0" default_group="Cavalry" level="21" name="{=halych_elite_root0}Halychian Vsadnik" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="90"/>
+            <skill id="Riding" value="100"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="110"/>
+            <skill id="Bow" value="45"/>
+            <skill id="Crossbow" value="45"/>
+            <skill id="Throwing" value="15"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_elite_root00"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_elite_root0_bat"/>
+            <EquipmentSet id="halych_elite_root0_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_elite_root00" default_group="Cavalry" level="26" name="{=halych_elite_root00}Halychian Sotiennij" occupation="Soldier" culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="80"/>
+            <skill id="Riding" value="130"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="160"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="50"/>
+            <skill id="Throwing" value="80"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_elite_root000"/>
+            <upgrade_target id="NPCCharacter.halych_elite_root001"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_elite_root00_bat"/>
+            <EquipmentSet id="halych_elite_root00_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_elite_root000" default_group="Cavalry" level="31" name="{=halych_elite_root000}Halychian Bogatyr" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="60"/>
+            <skill id="Riding" value="200"/>
+            <skill id="OneHanded" value="220"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="260"/>
+            <skill id="Bow" value="25"/>
+            <skill id="Crossbow" value="60"/>
+            <skill id="Throwing" value="30"/>
+        </skills>
+        <Equipments>
+            <EquipmentSet id="halych_elite_root000_bat"/>
+            <EquipmentSet id="halych_elite_root000_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_elite_root001" default_group="Cavalry" level="31" name="{=halych_elite_root001}Halychian Legkij Kinotnik" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="60"/>
+            <skill id="Riding" value="200"/>
+            <skill id="OneHanded" value="220"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="260"/>
+            <skill id="Bow" value="25"/>
+            <skill id="Crossbow" value="60"/>
+            <skill id="Throwing" value="30"/>
+        </skills>
+        <Equipments>
+            <EquipmentSet id="halych_elite_root000_bat"/>
+            <EquipmentSet id="halych_elite_root000_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="halych_elite_root1" default_group="HorseArcher" level="21" name="{=halych_elite_root1}Halychian Horse Archer" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="60"/>
+            <skill id="Riding" value="120"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="100"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="120"/>
+            <skill id="Crossbow" value="10"/>
+            <skill id="Throwing" value="10"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_elite_root10"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_elite_root1_bat"/>
+            <EquipmentSet id="halych_elite_root1_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_elite_root10" default_group="HorseArcher" level="26" name="{=halych_elite_root10}Halychian Mounted Vadász" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="80"/>
+            <skill id="Riding" value="150"/>
+            <skill id="OneHanded" value="110"/>
+            <skill id="TwoHanded" value="160"/>
+            <skill id="Polearm" value="150"/>
+            <skill id="Bow" value="150"/>
+            <skill id="Crossbow" value="15"/>
+            <skill id="Throwing" value="15"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.halych_elite_root100"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="halych_elite_root10_bat"/>
+            <EquipmentSet id="halych_elite_root10_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="halych_elite_root100" default_group="HorseArcher" level="31" name="{=halych_elite_root100}Halychian Mounted Vadász" occupation="Soldier"
+                  culture="Culture.halych">
+        <face>
+            <face_key_template value="BodyProperty.fighter_halych"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="180"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="160"/>
+            <skill id="Polearm" value="160"/>
+            <skill id="Bow" value="180"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <Equipments>
+            <EquipmentSet id="halych_elite_root100_bat"/>
+            <EquipmentSet id="halych_elite_root100_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+
+</NPCCharacters>
