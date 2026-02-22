@@ -1,0 +1,500 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- Principality of Tver -->
+	<NPCCharacter id="dead_lord_tver_1" name="{=lord_tver_1}Fedosia Igorevna" age="52" voice="softspoken" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000AC001170000E68844A7B5955A69256989B97A185847C36C937ABA3698C8C01977613097BD71A000000000000000000000000000000000000000061341003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_1a" name="{=lord_tver_2}Yaroslav III Yaroslavich" voice="softspoken" age="31" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_1b" name="{=lord_tver_3}Xenia of Tarusa" voice="softspoken" age="18" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.5" build="0.5" key="0000000000001001797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_1c" name="{=lord_tver_4}Andrey II Yaroslavich of Vladimir" voice="curt" age="20" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4375" build="0.5" key="0000000000000002797A2785686678B9A35E866295A0967774414A498C8336860097760309A7B7A500000000000000000000000000000000000000003D3C2002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_1d" name="{=lord_tver_5}Mikhail Yaroslavich of Tver" voice="softspoken" age="29" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4375" build="0.5" key="0000000000001005797A2785686678B9A35E866295A0967774414A498C8336860047760304A7B7A500000000000000000000000000000000000000003C942003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_1e" name="{=lord_tver_6}Anna of Kashin" voice="earnest" age="21" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.655" build="0.2938" key="000200000000000879B3595A684A88BBA35E866295A0967774414A498C8336860044A60304A7B7A500000000000000000000000000000000000000003C842002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="-2"/>
+			<Trait id="Authoritarian" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_1f" name="{=lord_tver_7}Dmitry of Tver" voice="softspoken" age="5" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4926" build="0.5826" key="000500000000100F79B3595A684A88BBA35E866295A0967774414A498C8336860089760308A7B7A500000000000000000000000000000000000000004B0C2003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="2"/>
+			<Trait id="Oligarchic" value="1"/>
+			<Trait id="Authoritarian" value="-2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_1g" name="{=lord_tver_8}Alexander of Tver" voice="curt" age="3" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.6273" build="0.5" key="00000C0B800020467CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A796030AA7497300000000000000000000000000000000000000003B647002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_1h" name="{=lord_tver_9}Konstantin of Tver" voice="curt" age="1" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.6273" build="0.5" key="00000C0D000030017CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A796030AA7497300000000000000000000000000000000000000003B644003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_2a" name="{=lord_tver_10}Vasily of Kashin" voice="earnest" age="40" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.5" build="0.5" key="00020C08C00030427C7664876753888A7577866254C69643C4B647398C95A0370077760307A7497300000000000000000000000000000000000000003AF47002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="-2"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_2b" name="{=lord_tver_11}Elena of Bryansk" voice="softspoken" age="37" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.5" build="0.5" key="00000C00000030027C7664876753888A7577866254C69643C4B647398C95A0370077760307A7497300000000000000000000000000000000000000003AF44003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="2"/>
+			<Trait id="Oligarchic" value="-2"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_2c" name="{=lord_tver_12}Mikhail Vasilyevich" voice="curt" age="19" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.6273" build="0.5" key="00000C04C00010437C926B628456A5677577866254C69643C4B647398C95A0370047960304A7497300000000000000000000000000000000000000003A847002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="-2"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_2d" name="{=lord_tver_13}Vasily Vasilyevich" voice="ironic" age="13" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.6273" build="0.5" key="00000C04C00010437C926B628456A5677577866254C69643C4B647398C95A0370047960304A7497300000000000000000000000000000000000000003A847002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="-2"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_2e" name="{=lord_tver_14}Anastasia of Galicia" voice="ironic" age="18" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.6273" build="0.5" key="00000C0D000030017CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A796030AA7497300000000000000000000000000000000000000003B644003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_2f" name="{=lord_tver_15}Sophia of Moscow" voice="softspoken" age="16" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.6273" build="0.5" key="00000C0D000030017CA76B498AF7A5AC7577866254C69643C4B647398C95A03700A796030AA7497300000000000000000000000000000000000000003B644003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="0"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="1"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_2g" name="{=lord_tver_16}Yevdokiya" voice="earnest" age="24" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.655" build="0.2938" key="000200000000000879B3595A684A88BBA35E866295A0967774414A498C8336860044A60304A7B7A500000000000000000000000000000000000000003C842002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="0"/>
+			<Trait id="Oligarchic" value="-2"/>
+			<Trait id="Authoritarian" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_2h" name="{=lord_tver_17}Yeremey of Dorogobuzh" voice="earnest" age="10" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.03" weight="0.5" build="0.5" key="00020C08C00030427C7664876753888A7577866254C69643C4B647398C95A0370077760307A7497300000000000000000000000000000000000000003AF47002"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="0"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="-2"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_tver_2i" name="{=lord_tver_18}Semyon of Dorogobuzh" voice="softspoken" age="8" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="22.18" weight="0.4375" build="0.5" key="0000000000001005797A2785686678B9A35E866295A0967774414A498C8336860047760304A7B7A500000000000000000000000000000000000000003C942003"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="sturgia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="rus_bat_template_medium"/>
+			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

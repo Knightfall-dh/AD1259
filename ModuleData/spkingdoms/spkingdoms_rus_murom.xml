@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<Kingdom id="murom"
+	         initial_home_settlement="Settlement.town_murom"
+	         owner="Hero.lord_murom_1a"
+	         banner_key="11.42.42.1750.1750.764.787.0.0.0.503.116.116.319.242.763.981.0.0.83.503.123.116.319.242.750.961.0.0.83.505.123.116.308.54.771.726.0.0.90.503.123.116.363.382.635.632.0.0.170.503.42.116.228.240.637.638.0.0.170.427.42.116.228.240.660.750.0.0.50.505.42.116.40.113.725.677.0.0.-174.503.116.116.163.163.636.643.0.0.45.503.123.116.163.163.627.631.0.0.45.503.123.116.363.382.898.602.0.0.170.505.42.116.40.135.819.656.0.0.-186.427.42.116.228.240.883.712.0.0.-51.503.42.116.228.240.904.598.0.0.170.503.116.116.164.164.908.604.0.0.45.503.123.116.164.164.897.592.0.0.45"
+	         primary_banner_color="0xff224277"
+	         secondary_banner_color="0xff000000"
+	         color="ff224277"
+	         color2="ffCEDAE7"
+	         culture="Culture.rus"
+	         settlement_banner_mesh="encounter_flag_a"
+	         flag_mesh="info_screen_flags_a"
+	         name="{=rus_kingdom_name}Principality of Murom-Pronsk"
+	         short_name="{=rus_kingdom_short_name}Principality of Murom-Pronsk"
+	         title="{=rus_kingdom_title}Principality of Murom-Pronsk"
+	         ruler_title="{=rus_ruler_title}Prince"
+	         text="{=rus_kingdom_text}Description.">
+		<relationships>
+        </relationships>
+		<policies>
+			<policy id="policy_hunting_rights"/>
+			<policy id="policy_royal_guard"/>
+			<policy id="policy_serfdom"/>
+			<policy id="policy_imperial_towns"/>
+		</policies>
+	</Kingdom>
+</Kingdoms>

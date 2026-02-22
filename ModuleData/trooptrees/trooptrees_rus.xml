@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+    <!-- #region Infantry -->
+    <NPCCharacter id="rus_basic_root" default_group="Infantry" level="6" name="{=rus_basic_root}Russkij Rab"
+                  occupation="Soldier" is_basic_troop="true" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="20"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="20"/>
+            <skill id="TwoHanded" value="20"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="5"/>
+            <skill id="Crossbow" value="5"/>
+            <skill id="Throwing" value="5"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_basic_root0"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_basic_root_bat"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_basic_root0" default_group="Infantry" level="11" name="{=rus_basic_root0}Russkij Krestian" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="40"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="15"/>
+            <skill id="Throwing" value="20"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_basic_root00"/>
+            <upgrade_target id="NPCCharacter.rus_basic_root01"/>
+            <upgrade_target id="NPCCharacter.rus_basic_root1"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_basic_root0_bat"/>
+            <EquipmentSet id="rus_basic_root0_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_basic_root00" default_group="Infantry" level="16" name="{=rus_basic_root00}Russkij Krepostnoj Kopeyschik" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="10"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="70"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_basic_root000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_basic_root00_bat"/>
+            <EquipmentSet id="rus_basic_root00_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_basic_root000" default_group="Infantry" level="21" name="{=rus_basic_root000}Russkij Kopeyschik" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="100"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="45"/>
+            <skill id="Crossbow" value="45"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_basic_root0000"/>
+        </upgrade_targets>
+       <Equipments>
+            <EquipmentSet id="rus_basic_root000_bat"/>
+            <EquipmentSet id="rus_basic_root000_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_basic_root0000" default_group="Infantry" level="26" name="{=rus_basic_root0000}Russkij Bronirovanny Kopeyschik" occupation="Soldier"
+                  culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="20"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="130"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="60"/>
+            <skill id="Crossbow" value="60"/>
+            <skill id="Throwing" value="80"/>
+        </skills>
+        <upgrade_targets>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_basic_root0000_bat"/>
+            <EquipmentSet id="rus_basic_root0000_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="rus_basic_root01" default_group="Infantry" level="16" name="{=rus_basic_root01}Russkij Krepost" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="10"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="70"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_basic_root010"/>
+            <upgrade_target id="NPCCharacter.rus_basic_root011"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_basic_root01_bat"/>
+            <EquipmentSet id="rus_basic_root01_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_basic_root010" default_group="Infantry" level="21" name="{=rus_basic_root010}Russkij Siekirnik" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="100"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="45"/>
+            <skill id="Crossbow" value="45"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_basic_root0100"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_basic_root010_bat"/>
+            <EquipmentSet id="rus_basic_root010_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_basic_root0100" default_group="Infantry" level="26" name="{=rus_basic_root0100}Russkij Bronirovanny Siekirnik" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="20"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="130"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="60"/>
+            <skill id="Crossbow" value="60"/>
+            <skill id="Throwing" value="80"/>
+        </skills>
+        <upgrade_targets>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_basic_root0100_bat"/>
+            <EquipmentSet id="rus_basic_root0100_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="rus_basic_root011" default_group="Infantry" level="21" name="{=rus_basic_root011}Russkij Mechnik" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="100"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="45"/>
+            <skill id="Crossbow" value="45"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_basic_root0110"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_basic_root011_bat"/>
+            <EquipmentSet id="rus_basic_root011_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_basic_root0110" default_group="Infantry" level="26" name="{=rus_basic_root0110}Russkij Bronirovanny Mechnik" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="20"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="130"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="60"/>
+            <skill id="Crossbow" value="60"/>
+            <skill id="Throwing" value="80"/>
+        </skills>
+        <upgrade_targets>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_basic_root0110_bat"/>
+            <EquipmentSet id="rus_basic_root0110_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- #region Archers -->
+    <NPCCharacter id="rus_basic_root1" default_group="Ranged" level="11" name="{=rus_basic_root1}Russkij Krepostnoj Luchnik" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="40"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="15"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="40"/>
+            <skill id="Crossbow" value="40"/>
+            <skill id="Throwing" value="40"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_basic_root10"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_basic_root1_bat"/>
+            <EquipmentSet id="rus_basic_root1_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_basic_root10" default_group="Ranged" level="16" name="{=rus_basic_root10}Russkij Luchnik" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="10"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="30"/>
+            <skill id="Bow" value="100"/>
+            <skill id="Crossbow" value="100"/>
+            <skill id="Throwing" value="100"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_basic_root100"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_basic_root10_bat"/>
+            <EquipmentSet id="rus_basic_root10_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_basic_root100" default_group="Ranged" level="21" name="{=rus_basic_root100}Russkij Veteran Luchnik" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="60"/>
+            <skill id="Bow" value="100"/>
+            <skill id="Crossbow" value="100"/>
+            <skill id="Throwing" value="100"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_basic_root1000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_basic_root100_bat"/>
+            <EquipmentSet id="rus_basic_root100_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_basic_root1000" default_group="Ranged" level="26" name="{=rus_basic_root1000}Russkij Bronirovanny Luchnik" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="20"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="80"/>
+            <skill id="Bow" value="160"/>
+            <skill id="Crossbow" value="160"/>
+            <skill id="Throwing" value="160"/>
+        </skills>
+        <upgrade_targets>
+
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_basic_root1000_bat"/>
+            <EquipmentSet id="rus_basic_root1000_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- #region Elite -->
+    <NPCCharacter id="rus_elite_root" default_group="Cavalry" level="11" name="{=rus_elite_root}Russkij Otrok"
+                  occupation="Soldier" culture="Culture.rus" is_basic_troop="true">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="40"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="15"/>
+            <skill id="Throwing" value="20"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_elite_root0"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_elite_root_bat"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_elite_root0" default_group="Cavalry" level="16" name="{=rus_elite_root0}Russkij Syn Boyarskij" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="10"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="70"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_elite_root00"/>
+            <upgrade_target id="NPCCharacter.rus_elite_root10"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_elite_root0_bat"/>
+            <EquipmentSet id="rus_elite_root0_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_elite_root00" default_group="Cavalry" level="21" name="{=rus_elite_root00}Russkij Vsadnik" upgrade_requires="ItemCategory.horse" occupation="Soldier"
+                  culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="40"/>
+            <skill id="Riding" value="110"/>
+            <skill id="OneHanded" value="110"/>
+            <skill id="TwoHanded" value="160"/>
+            <skill id="Polearm" value="150"/>
+            <skill id="Bow" value="40"/>
+            <skill id="Crossbow" value="15"/>
+            <skill id="Throwing" value="15"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_elite_root000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_elite_root00_bat"/>
+            <EquipmentSet id="rus_elite_root00_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_elite_root000" default_group="Cavalry" level="26" name="{=rus_elite_root000}Russkij Sotiennij" upgrade_requires="ItemCategory.war_horse"
+                  occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="80"/>
+            <skill id="Riding" value="130"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="160"/>
+            <skill id="Polearm" value="160"/>
+            <skill id="Bow" value="60"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_elite_root0000"/>
+            <upgrade_target id="NPCCharacter.rus_elite_root0001"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_elite_root000_bat"/>
+            <EquipmentSet id="rus_elite_root000_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_elite_root0000" default_group="Cavalry" level="31" name="{=rus_elite_root0000}Russkij Bogatyr" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="200"/>
+            <skill id="OneHanded" value="200"/>
+            <skill id="TwoHanded" value="260"/>
+            <skill id="Polearm" value="260"/>
+            <skill id="Bow" value="60"/>
+            <skill id="Crossbow" value="25"/>
+            <skill id="Throwing" value="45"/>
+        </skills>
+        <upgrade_targets>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_elite_root0000_bat"/>
+            <EquipmentSet id="rus_elite_root0000_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_elite_root0001" default_group="Cavalry" level="31" name="{=rus_elite_root0001}Russkij Drug" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="130"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="160"/>
+            <skill id="Polearm" value="160"/>
+            <skill id="Bow" value="60"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_elite_root0001_bat"/>
+            <EquipmentSet id="rus_elite_root0001_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+
+    <NPCCharacter id="rus_elite_root10" default_group="HorseArcher" level="16" name="{=rus_elite_root10}Russkij Legkij Konnyjluchnik" upgrade_requires="ItemCategory.horse"
+                  occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="60"/>
+            <skill id="Riding" value="120"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="100"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="120"/>
+            <skill id="Crossbow" value="10"/>
+            <skill id="Throwing" value="10"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_elite_root100"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_elite_root10_bat"/>
+            <EquipmentSet id="rus_elite_root10_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_elite_root100" default_group="HorseArcher" level="21" name="{=rus_elite_root100}Russkij Konnyjluchnik" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="80"/>
+            <skill id="Riding" value="150"/>
+            <skill id="OneHanded" value="110"/>
+            <skill id="TwoHanded" value="160"/>
+            <skill id="Polearm" value="150"/>
+            <skill id="Bow" value="150"/>
+            <skill id="Crossbow" value="15"/>
+            <skill id="Throwing" value="15"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.rus_elite_root1000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_elite_root100_bat"/>
+            <EquipmentSet id="rus_elite_root100_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="rus_elite_root1000" default_group="HorseArcher" level="26" name="{=rus_elite_root1000}Russkij Veteran Konnyjluchnik" occupation="Soldier" culture="Culture.rus">
+        <face>
+            <face_key_template value="BodyProperty.fighter_rus"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="180"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="160"/>
+            <skill id="Polearm" value="160"/>
+            <skill id="Bow" value="180"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="rus_elite_root1000_bat"/>
+            <EquipmentSet id="rus_elite_root1000_civ" civilian="true"/>
+        </Equipments>
+    </NPCCharacter>
+</NPCCharacters>

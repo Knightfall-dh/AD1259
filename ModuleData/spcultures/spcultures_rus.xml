@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SPCultures>
+	<Culture id="rus"
+	         name="{=rus}Kievan Rus"
+	         is_main_culture="true"
+	         color="0xff224277"
+	         color2="0xffCEDAE7"
+	         elite_basic_troop="NPCCharacter.rus_elite_root"
+	         basic_troop="NPCCharacter.rus_basic_root"
+	         melee_militia_troop="NPCCharacter.rus_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.rus_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.rus_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.rus_militia_veteran_archer"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_rus_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_RUS_template"
+	         settlement_patrol_template_level_1="PartyTemplate.patrol_party_RUS_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_RUS_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_RUS_template_level_3"
+	         encounter_background_mesh="encounter_rus"
+	         faction_banner_key="11.119.19.1836.1836.779.782.1.0.-30.505.144.116.302.281.764.740.0.0.-360.500.144.116.636.639.764.760.1.0.0.504.119.116.398.590.766.768.0.0.-180.444.144.116.155.144.766.918.0.0.-181.510.144.116.365.278.764.710.0.0.-270.510.144.116.206.278.764.617.0.0.-1.510.144.116.295.137.764.856.0.0.-1"
+	         militia_party_template="PartyTemplate.militia_rus_template"
+	         rebels_party_template="PartyTemplate.rebels_rus_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_rus"
+	         text="{=slavic_text}Unused in the game."
+	         tournament_master="NPCCharacter.tournament_master_rus"
+	         villager="NPCCharacter.villager_rus"
+	         caravan_master="NPCCharacter.caravan_master_rus"
+	         caravan_guard="NPCCharacter.caravan_guard_rus"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_rus"
+	         prison_guard="NPCCharacter.prison_guard_rus"
+	         guard="NPCCharacter.guard_rus"
+	         blacksmith="NPCCharacter.blacksmith_rus"
+	         weaponsmith="NPCCharacter.weaponsmith_rus"
+	         townswoman="NPCCharacter.townswoman_rus"
+	         townswoman_infant="NPCCharacter.townswoman_infant_rus"
+	         townswoman_child="NPCCharacter.townswoman_child_rus"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_rus"
+	         townsman="NPCCharacter.townsman_rus"
+	         townsman_infant="NPCCharacter.townsman_infant_rus"
+	         townsman_child="NPCCharacter.townsman_child_rus"
+	         townsman_teenager="NPCCharacter.townsman_teenager_rus"
+	         village_woman="NPCCharacter.village_woman_rus"
+	         villager_male_child="NPCCharacter.villager_child_rus"
+	         villager_male_teenager="NPCCharacter.villager_teenager_rus"
+	         villager_female_child="NPCCharacter.village_woman_child_rus"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_rus"
+	         ransom_broker="NPCCharacter.ransom_broker_rus"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_rus"
+	         merchant_notary="NPCCharacter.merchant_notary_rus"
+	         artisan_notary="NPCCharacter.artisan_notary_rus"
+	         preacher_notary="NPCCharacter.preacher_notary_rus"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_rus"
+	         shop_worker="NPCCharacter.shop_worker_rus"
+	         tavernkeeper="NPCCharacter.tavernkeeper_rus"
+	         taverngamehost="NPCCharacter.taverngamehost_rus"
+	         musician="NPCCharacter.musician_rus"
+	         tavern_wench="NPCCharacter.tavern_wench_rus"
+	         armorer="NPCCharacter.armorer_rus"
+	         horseMerchant="NPCCharacter.horseMerchant_rus"
+	         barber="NPCCharacter.barber_rus"
+	         merchant="NPCCharacter.merchant_rus"
+	         beggar="NPCCharacter.beggar_rus"
+	         female_beggar="NPCCharacter.female_beggar_rus"
+	         female_dancer="NPCCharacter.female_dancer_rus"
+	         default_battle_equipment_roster="EquipmentRoster.rus_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.rus_civ_template_default"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+	         duel_preset_equipment_roster="EquipmentRoster.stu_duel_preset_template"
+	         marriage_bride_equipment_roster="EquipmentRoster.marriage_female_rus_cutscene_template"
+	         board_game_type="Konane"
+	         default_character_creation_body_property="BodyProperty.default_character_creation_body_property_sturgia"
+	         start_point_position_x="840"
+	         start_point_position_y="1304">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_rus"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_rus"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<vassal_reward_items>
+			<item id="Item.avalanche_2haxe"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.sturgia_sword_1_t2"/>
+			<item id="Item.sturgia_sword_2_t3"/>
+			<item id="Item.sturgia_sword_4_t4"/>
+			<item id="Item.sturgia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_lawspeakers"/>
+			<policy id="policy_precarial_land_tenure"/>
+		</default_policies>
+		<male_names>
+			<name name="{=DB3D0DCF}Vladimir"/>
+			<name name="{=A766A261}Ivan"/>
+			<name name="{=826B6BF8}Aleksandr"/>
+			<name name="{=923B0EDF}Boris"/>
+			<name name="{=4C396ED9}Miroslav"/>
+			<name name="{=15CE6538}Radoslav"/>
+			<name name="{=43CD1B5E}Yaroslav"/>
+			<name name="{=0223B28F}Oleg"/>
+			<name name="{=5884EB42}Sviatoslav"/>
+			<name name="{=610FB160}Dmitri"/>
+			<name name="{=D5523D39}Jaromir"/>
+			<name name="{=7C29128F}Bogdan"/>
+			<name name="{=98B4F28B}Boleslav"/>
+			<name name="{=48B813E2}Stanislav"/>
+			<name name="{=F353055B}Radovan"/>
+			<name name="{=D927C27A}Ljudevit"/>
+			<name name="{=318F123E}Zlatan"/>
+			<name name="{=FEBD90D1}Lech"/>
+			<name name="{=892D2177}Zbigniew"/>
+			<name name="{=1B822307}Vladyslav"/>
+			<name name="{=0F4530EC}Jaroslav"/>
+			<name name="{=7D907479}Bojan"/>
+			<name name="{=E0B73E37}Rostislav"/>
+			<name name="{=18AEBC2F}Vaclav"/>
+			<name name="{=304CDDA7}Yaroslav"/>
+			<name name="{=5366B3F5}Bogdan"/>
+			<name name="{=25F09B1F}Kazimir"/>
+			<name name="{=0809246A}Mieszko"/>
+			<name name="{=9223AB22}Przemysław"/>
+			<name name="{=1A62DD1F}Svantevit"/>
+			<name name="{=645EB07E}Vlastimil"/>
+			<name name="{=C6A7795A}Zvonimir"/>
+			<name name="{=8A929AD4}Božidar"/>
+			<name name="{=677897F4}Velimir"/>
+			<name name="{=9FCAE144}Dragomir"/>
+			<name name="{=1636691E}Ratimir"/>
+			<name name="{=58429BEC}Bogomil"/>
+			<name name="{=9430B664}Dobromir"/>
+		</male_names>
+		<female_names>
+			<name name="{=A1B2C3D4}Akulina"/>
+			<name name="{=B2C3D4E5}Anna"/>
+			<name name="{=C3D4E5F6}Avdotya"/>
+			<name name="{=D4E5F6A7}Domna"/>
+			<name name="{=E5F6A7B8}Ekaterina"/>
+			<name name="{=F6A7B8C9}Elizaveta"/>
+			<name name="{=A7B8C9D0}Evdokia"/>
+			<name name="{=B8C9D0E1}Evfimiia"/>
+			<name name="{=C9D0E1F2}Evfrosiniia"/>
+			<name name="{=D0E1F2A3}Feodosia"/>
+			<name name="{=E1F2A3B4}Fekla"/>
+			<name name="{=F2A3B4C5}Fetiniia"/>
+			<name name="{=A3B4C5D6}Fevronia"/>
+			<name name="{=B4C5D6E7}Iulianiia"/>
+			<name name="{=C5D6E7F8}Irina"/>
+			<name name="{=D6E7F8A9}Kharitiniia"/>
+			<name name="{=E7F8A9B0}Kseniia"/>
+			<name name="{=F8A9B0C1}Marfa"/>
+			<name name="{=A9B0C1D2}Melaniia"/>
+			<name name="{=B0C1D2E3}Pelageia"/>
+			<name name="{=C1D2E3F4}Agrafena"/>
+			<name name="{=D2E3F4A5}Dominika"/>
+			<name name="{=E3F4A5B6}Matrona"/>
+			<name name="{=F4A5B6C7}Sofiia"/>
+			<name name="{=A5B6C7D8}Varvara"/>
+			<name name="{=B6C7D8E9}Gostiata"/>
+			<name name="{=C7D8E9F0}Nedel'ka"/>
+			<name name="{=D8E9F0A1}Nezhka"/>
+			<name name="{=ED82AE8D}Olga"/>
+			<name name="{=23A7B082}Svetlana"/>
+			<name name="{=5631A6F3}Anastasia"/>
+			<name name="{=4C4669FC}Yaroslava"/>
+			<name name="{=71268F42}Ludmila"/>
+			<name name="{=56ABE173}Vlasta"/>
+			<name name="{=387BE217}Milena"/>
+			<name name="{=560FB7F1}Roksana"/>
+			<name name="{=CB9DFEAB}Dragana"/>
+			<name name="{=B30DD3F5}Zora"/>
+			<name name="{=8E66048D}Zdenka"/>
+			<name name="{=5FB71049}Bozena"/>
+			<name name="{=CC4CF91A}Vera"/>
+			<name name="{=047EE0A9}Jadwiga"/>
+			<name name="{=A7C99A32}Agnieszka"/>
+			<name name="{=6D78EC8D}Bozica"/>
+			<name name="{=A22D8393}Radoslava"/>
+			<name name="{=5505E963}Miroslava"/>
+			<name name="{=667C8C6D}Dobromila"/>
+			<name name="{=C53F3120}Vasilisa"/>
+			<name name="{=F4037B0D}Zlata"/>
+			<name name="{=1064DF89}Mariana"/>
+			<name name="{=6A217B8C}Vesna"/>
+			<name name="{=3A8A78A0}Zuzana"/>
+			<name name="{=D009F4E6}Magdalena"/>
+			<name name="{=47FA576D}Branislava"/>
+			<name name="{=677AA683}Radmila"/>
+			<name name="{=6C8871D3}Nadezhda"/>
+			<name name="{=B2BC2FAC}Danica"/>
+			<name name="{=84912D33}Helena"/>
+			<name name="{=0301643B}Ivona"/>
+			<name name="{=88E94BDC}Ljubica"/>
+			<name name="{=769C13D3}Slavka"/>
+			<name name="{=0FD038D1}Viera"/>
+			<name name="{=FCC429D4}Rozalia"/>
+			<name name="{=2646316C}Stanislava"/>
+			<name name="{=99184349}Katarzyna"/>
+			<name name="{=633C13CF}Darina"/>
+		</female_names>
+		<clan_names>
+			<name name="{=3ADDCF09}Rurikovich"/>
+			<name name="{=E84875C7}Piast"/>
+			<name name="{=35C15555}Premyslid"/>
+			<name name="{=73BB146A}Dragojevic"/>
+			<name name="{=A635F9FE}Radziwill"/>
+			<name name="{=79804209}Kievan"/>
+			<name name="{=6E99A4FF}Gostomski"/>
+			<name name="{=2615E960}Jagiellon"/>
+			<name name="{=0BAED216}Vojnovic"/>
+			<name name="{=5DF45E13}Dovmontov"/>
+		</clan_names>
+		<cultural_feats>
+			<feat id="sturgian_decreased_army_influence_cost"/>
+			<feat id="vlandian_renown_mercenary_income"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="112"/>
+			<icon id="113"/>
+			<icon id="114"/>
+			<icon id="115"/>
+			<icon id="116"/>
+			<icon id="117"/>
+			<icon id="118"/>
+			<icon id="132"/>
+			<icon id="138"/>
+			<icon id="139"/>
+			<icon id="307"/>
+			<icon id="331"/>
+			<icon id="407"/>
+			<icon id="408"/>
+			<icon id="409"/>
+			<icon id="410"/>
+			<icon id="439"/>
+			<icon id="440"/>
+			<icon id="441"/>
+			<icon id="442"/>
+			<icon id="443"/>
+			<icon id="444"/>
+			<icon id="445"/>
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_rus_0"/>
+			<template name="NPCCharacter.spc_notable_rus_0b"/>
+			<template name="NPCCharacter.spc_notable_rus_1"/>
+			<template name="NPCCharacter.spc_notable_rus_2"/>
+			<template name="NPCCharacter.spc_notable_rus_2b"/>
+			<template name="NPCCharacter.spc_notable_rus_3"/>
+			<template name="NPCCharacter.spc_notable_rus_3b"/>
+			<template name="NPCCharacter.spc_notable_rus_3c"/>
+			<template name="NPCCharacter.spc_notable_rus_4"/>
+			<template name="NPCCharacter.spc_notable_rus_5"/>
+			<template name="NPCCharacter.spc_notable_rus_6"/>
+			<template name="NPCCharacter.spc_notable_rus_7"/>
+			<template name="NPCCharacter.spc_notable_rus_8"/>
+			<template name="NPCCharacter.spc_notable_rus_9"/>
+			<template name="NPCCharacter.spc_notable_rus_10"/>
+			<template name="NPCCharacter.spc_rus_headman_1"/>
+			<template name="NPCCharacter.spc_rus_headman_2"/>
+			<template name="NPCCharacter.spc_rus_headman_3"/>
+		</notable_templates>
+		<lord_templates>
+			<template name="NPCCharacter.rus_autogenerated_lord1"/>
+			<template name="NPCCharacter.rus_autogenerated_lord2"/>
+			<template name="NPCCharacter.rus_autogenerated_lord3"/>
+			<template name="NPCCharacter.rus_autogenerated_lord4"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.rus_autogenerated_lord1"/>
+			<template name="NPCCharacter.rus_autogenerated_lord2"/>
+			<template name="NPCCharacter.rus_autogenerated_lord3"/>
+			<template name="NPCCharacter.rus_autogenerated_lord4"/>
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_rus_one_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_rus_one_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_rus_one_participant_set_v3"/>
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_rus_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_rus_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_rus_two_participant_set_v3"/>
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_rus_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_rus_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_rus_four_participant_set_v3"/>
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+            <template name="NPCCharacter.merc_manhunter_root"/>
+            <template name="NPCCharacter.merc_alan_1"/>
+            <template name="NPCCharacter.merc_turcopole_recruit"/>
+            <template name="NPCCharacter.merc_rus_spear1"/>
+            <template name="NPCCharacter.merc_rus_spear2"/>
+            <template name="NPCCharacter.merc_rus_spear3"/>
+            <template name="NPCCharacter.varangian_guard1"/>
+            <template name="NPCCharacter.varangian_guard2"/>
+            <template name="NPCCharacter.varangian_guard3"/>
+            <template name="NPCCharacter.merc_kipchak_root"/>
+        </basic_mercenary_troops>
+	</Culture>
+</SPCultures> 
