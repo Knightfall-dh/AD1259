@@ -1399,4 +1399,29 @@
 			<EquipmentSet id="swe_lord_noncombat" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+
+    <!-- link to denmark clan 7-->
+    <NPCCharacter id="lord_sweden_10b" name="{=denmark_lady_11}Benedicta Sunesdotter Folkungaätten" age="39" voice="softspoken" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39.27" weight="0.7322" build="0.0587" key="0002A40AC0FC000E7B8A55CB66877CB58849836A74619A36B3966A89969548250181B813080C755700000000000000000000000000000000000000000B183080"/>
+			<hair_tags>
+				<hair_tag name="sturgia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="swe_lord_combat"/>
+			<EquipmentSet id="swe_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
 </NPCCharacters>

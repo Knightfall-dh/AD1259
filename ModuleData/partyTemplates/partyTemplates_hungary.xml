@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <!-- Villagers -->
+    <MBPartyTemplate id="villager_hungarian_template">
+        <stacks>
+            <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_hungarian"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Lords & Town Garrison -->
+    <MBPartyTemplate id="kingdom_hero_party_HUNGARIAN_template">
+        <stacks>
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.hungary_basic_root"/> <!-- Hungarian Levied Serf -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hungary_basic_root0"/> <!-- Hungarian Trained Serf -->
+            <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.hungary_basic_root00"/> <!-- Hungarian Footman -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hungary_basic_root000"/> <!-- Hungarian Spearman -->
+            <PartyTemplateStack min_value="6" max_value="10" troop="NPCCharacter.hungary_basic_root0000"/> <!-- Hungarian Veteran Spearman -->
+            <PartyTemplateStack min_value="3" max_value="8" troop="NPCCharacter.hungary_basic_root001"/> <!-- Hungarian Voulgier -->
+            <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.hungary_basic_root0001"/> <!-- Hungarian Veteran Voulgier -->
+            <PartyTemplateStack min_value="6" max_value="10" troop="NPCCharacter.hungary_basic_root002"/> <!-- Hungarian Light Spearman -->
+            <PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.hungary_basic_root0002"/> <!-- Hungarian Veteran Light Spearman -->
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.hungary_basic_root00002"/> <!-- Hungarian Veteran Light Spearman -->
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.hungary_basic_root1"/> <!-- Hungarian Recruit Archer -->
+            <PartyTemplateStack min_value="6" max_value="10" troop="NPCCharacter.hungary_basic_root10"/> <!-- Hungarian Trained Archer -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hungary_basic_root100"/> <!-- Hungarian Marksman -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hungary_basic_root1000"/> <!-- Hungarian Vadász -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hungary_basic_root11"/> <!-- Hungarian Crossbowman -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hungary_basic_root110"/> <!-- Hungarian Armored Crossbowman -->
+            <PartyTemplateStack min_value="6" max_value="10" troop="NPCCharacter.hungary_elite_root"/> <!-- Hungarian Noble Youth -->
+            <PartyTemplateStack min_value="5" max_value="8" troop="NPCCharacter.hungary_elite_root0"/> <!-- Hungarian Várjobbágy -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hungary_elite_root00"/> <!-- Hungarian Knight -->
+            <PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.hungary_elite_root000"/> <!-- Hungarian Lesser Baron -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.hungary_elite_root000"/> <!-- Hungarian Lesser Baron -->
+        </stacks>
+    </MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_HUNGARIAN_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.hungary_basic_root"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.hungary_basic_root0"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.hungary_elite_root"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.hungary_elite_root00"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_HUNGARIAN_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.hungary_basic_root"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.hungary_basic_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.hungary_elite_root"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.hungary_elite_root00"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_HUNGARIAN_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.hungary_basic_root"/>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.hungary_basic_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.hungary_elite_root"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.hungary_elite_root00"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.hungary_elite_root000"/>
+		</stacks>
+	</MBPartyTemplate>
+
+    <!-- Caravans -->
+    <MBPartyTemplate id="caravan_template_hungarian">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_hungarian"/>
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_hungarian"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_hungarian"/>
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="elite_caravan_template_hungarian">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_hungarian"/>
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_hungarian"/>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_hungarian"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_hungarian"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Town Militia -->
+    <MBPartyTemplate id="militia_hungarian_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.hungarian_militia_spearman"/>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.hungarian_militia_archer"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Rebels -->
+    <MBPartyTemplate id="rebels_hungarian_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.hungary_basic_root"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Vassal Reward Troops-->
+    <MBPartyTemplate id="vassal_reward_troops_hungarian">
+        <stacks>
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.hungary_elite_root00"/>
+            <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.hungary_elite_root000"/>
+        </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

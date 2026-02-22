@@ -1,0 +1,1565 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- Kingdom of Denmark -->
+	<!-- clan 1: Huset Estridsen -->
+	<NPCCharacter id="dead_lord_denmark_1" name="{=denmark_deadlord_1}Valdemar II 'The Victorious' of Denmark" age="89" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="90" weight="0.641" build="0.5845" key="0002B007970031C4E8A3E5B777C81AA903FE58B5657B73FF1ECD5C338CF5360C0A99A8AB09A68E670000000000000000000000000000000000000000532010C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_kingchristoffer_combat"/>
+			<EquipmentSet id="denmark_kingchristoffer_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_denmark_2" name="{=denmark_deadlady_1}Dagmar of Bohemia" age="73" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="72.64" weight="0.6841" build="0.7761" key="0002980AC01410058CC8C897C366AD27C5B988D9978898646889895227784523078CA8790869B88900000000000000000000000000000000000000003EF84080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_denmark_3" name="{=denmark_deadlord_2}Valdemar III 'den Unge' of Denmark" age="50" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="50.26" weight="0.267" build="0.2743" key="0005DC0AD70025C2973C86658525B9B8C979886CA89487B7C7F47B44A779389304744846076A797200000000000000000000000000000000000000004CF82140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_denmark_4" name="{=denmark_deadlady_2}Berengária of Portugal" age="61" voice="curt" is_hero="true" is_female="true" culture="Culture.portuguese" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="61.06" weight="0.6866" build="0.3203" key="0008A80C40443015A5AB4B564A884467A807AB8938C751EC6429E36A37BAB45B06C5A8670C88B4A70000000000000000000000000000000000000000559800C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_denmark_5" name="{=denmark_deadlord_3}Erik IV of Denmark" age="43" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.54" weight="0.649" build="0.3738" key="0005A80C57002603A5AB4B564A884467ACABAB8938C751EC7655CEC4319958460396A835097BC3DB00000000000000000000000000000000000000003F382140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_1" name="{=denmark_lady_1}Judith von Sachsen" age="36" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="36.37" weight="0.576" build="0.4554" key="00104800802C1002A19E86658D7B67765CA7D59D168D67A1A85989B1A556862902679824068A6A6D000000000000000000000000000000000000000016D000C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_1_1" name="{=denmark_lady_2}Sofie Eriksdatter of Denmark" age="18" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.8" weight="0.1166" build="0.3923" key="0005DC06C02C100F7BB6A8576B8687FA5848747BE57B83A8A85B26CAE832DD5201A628130AC888A90000000000000000000000000000000000000000654800C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_1_2" name="{=denmark_lady_3}Ingeborg Eriksdatter" age="15" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="16.43" weight="0.4834" build="0.3385" key="0002D00AC02C400A1A6874587898B88B584859BD5B7D85C57B37C6A2E832DD5201C578130C38CA850000000000000000000000000000000000000000238840C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_1_3" name="{=denmark_lady_4}Jutta Eriksdatter" age="13" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="13.03" weight="0.3928" build="0.7089" key="0005640D802C400A626874587898B88B74C8695756987A937B37C6A2575CB948007B68030738CA85000000000000000000000000000000000000000042E820C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_1_4" name="{=denmark_lady_5}Agnes Eriksdatter" age="10" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="10.58" weight="0.5895" build="0.9425" key="0002A802002C4015369BC382C7C47C77C7D57B7A925AA5368CA8863729A798B2018E98140879AA8600000000000000000000000000000000000000006F000000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_denmark_6" name="{=denmark_deadlord_4}Abel I of Denmark" age="41" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.16" weight="0.1772" build="0.4767" key="0005AC0E40441505AA9538DC9255C83354B9899B7C9CBA275C87BDAC8CC5B9D40377383507255576000000000000000000000000000000000000000048F89000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_2" name="{=denmark_lady_6}Mechthild von Holstein" age="39" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39.46" weight="0.5771" build="0.7072" key="00053C06C088400788647CA6C8856059598D3BDA64773BD4B33B9D7782C8CA5C030B98350037C874000000000000000000000000000000000000000056084080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_2_1" name="{=denmark_deadlord_5}Valdemar III Abelsøn" age="21" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.8" weight="0.4171" build="0.383" key="0005A80FD8701492B657968AB72D6CD79AD6975E557469A53777A518946952A40186681308ADA4660000000000000000000000000000000000000000410060C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_2_2" name="{=denmark_lord_1}Erik I Abelsøn, Duke of Schleswig" age="18" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="23.52" weight="0.4525" build="0.3679" key="0005C00FC014128997244313DCA25A7689A9B78B6C72D47A3777A518757C95880096780309ADA46600000000000000000000000000000000000000006D3030C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_2_2_1" name="{=denmark_lady_7}Margaret von Rügen" age="18" voice="softspoken" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.41" weight="0.5435" build="0.4348" key="0002840AC014000614C6387934B84624741D65697EB70A645B74BCA5B725554500B788030B78798100000000000000000000000000000000000000006D702000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_2_3" name="{=denmark_lord_2}Abel Abelsøn, Lord of Langeland" age="7" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.57" weight="0.3287" build="0.2299" key="00023804000030419774C7678B65D48B8879949688D5A9A65B74BCA5386992C4017358130778798100000000000000000000000000000000000000003CD820C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_3" name="{=denmark_lord_3}Christoffer I, King of Denmark" age="40" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="40.62" weight="0.2207" build="0.5308" key="0002B00980A03003E805765D8625642A03FE58B5657B73FFAC437F8D8CF5360C03A838350AA747790000000000000000000000000000000000000000254810C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_kingchristoffer_combat"/>
+			<EquipmentSet id="denmark_kingchristoffer_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_3_1" name="{=denmark_lady_8}Margrethe Sambiria, Queen consort of Denmark" age="29" voice="softspoken" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.4" weight="0.2315" build="0.58" key="000260014000100465C875D8C5B8A7577BA6A46386E8A7D5EB394A6865CA48B60129381302D8294A000000000000000000000000000000000000000010401080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_3_2" name="{=denmark_lord_4}Erik V Christoffersøn" age="10" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="10.88" weight="0.5694" build="0.3554" key="0002600980E40049A962D926EE3A27897BA67A96B768C452EB394A6865CA48B60195981309D8294A0000000000000000000000000000000000000000692830C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_3_3" name="{=denmark_lady_9}Matilda Christoffersdatter" age="9" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="9.5" weight="0.8394" build="0.6472" key="00024C04000030034EB7887AB776880952477658CEC89AC4A799428475BB6964017AD81307D5B7DA000000000000000000000000000000000000000050E82040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_3_4" name="{=denmark_lady_10}Margrethe Christoffersdatter" age="3" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="35.69" weight="0.4106" build="0.4265" key="0002BC0C40003001C9B7887AB7768809C68A766ABAA886C6A7994284D6C4A5880276682407D5B7DA00000000000000000000000000000000000000006AE84040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_7" name="{=denmark_lord_15}Peder Finsen" age="36" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="36.76" weight="0.7291" build="0.1197" key="0005B00414FC19056C687485934EDC52898C448A8678AB7887669B7B8C568BA90282B82408244A78000000000000000000000000000000000000000061184100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_8" name="{=denmark_lord_16}Styg Andersøn Hvide 'Marsk Stig'" age="29" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.57" weight="0.771" build="0.5469" key="0002C005401416D4487B9F7C527C854D39AB41A1B26374667798C4AC5A52983C01E8C8130E565896000000000000000000000000000000000000000051C07100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_1_8_1" name="{=denmark_lady_15}Ingeborg Pallesdatter Hvide" age="19" voice="earnest" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.03" weight="0.6611" build="0.5175" key="0002D00FC00040103E6B84A8B7574B6A9CA535A54591698476AA7585A87726970028A80302444D8A000000000000000000000000000000000000000028401080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 2: Huset Galen -->
+	<NPCCharacter id="dead_lord_denmark_7" name="{=dead_lord_denmark_7}Erland Galen" age="100" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="97.33" weight="0.7978" build="0.4261" key="0005AC061CB4328362D665A9B5D3A384A7DBD589BB8557777D196536A4C2B7440B66C8BB066968B6000000000000000000000000000000000000000028C890C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_denmark_8" name="{=dead_lord_denmark_8}Cecilie Herlufsdatter Galen" age="97" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="94.63" weight="0.5755" build="0.3234" key="0002B8040070300587226DC6378A996AD686E995BD6C5377744D85274B66A6740AC598AB0C889B88000000000000000000000000000000000000000055A01080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_2a" name="{=lord_denmark_2a}Johannes Erlandsen Galen" age="58" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="52.96" weight="0.5999" build="0.4113" key="0005BC0AC070015243D88394961B95A6B845B54686878876878B717A9BB97769047698460768B749000000000000000000000000000000000000000038E07140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="5"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_2b" name="{=lord_denmark_2b}Margrethe Erlandsdatter" age="60" voice="ironic" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="44.47" weight="0.8885" build="0.4237" key="0002B80F0070300F7698DCBA792636C796DAC98C89B4A9C667595726D48785B60356D8350577A6AB00000000000000000000000000000000000000001CA00000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_2c" name="{=lord_denmark_2c}Niels Erlandsen Galen" age="39" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="17.41" weight="0.7447" build="0.5826" key="0002AC0F1D7010139AA752A7829567AA5AAAA85D59A57858A18CB9D9474649840069B8030659EA75000000000000000000000000000000000000000032C83140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_2d" name="{=lord_denmark_2d}Anders Erlandsen Galen" age="39" voice="curt" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="26.34" weight="0.4929" build="0.5698" key="0005BC0C400010028669587A419E8BA67885B064A7363B87A18CB9D969D2648701C978130C59EA75000000000000000000000000000000000000000049A03000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_2e" name="{=lord_denmark_2e}Peder Erlandsen Galen" age="32" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="38.69" weight="0.3314" build="0.6751" key="0002BC09801436C4868446EBB771A584A765B064A7363B87A18CB9D946889A8B029A58250959EA7500000000000000000000000000000000000000004B203140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_2f" name="{=lord_denmark_2f}Erland Erlandsen, Archbishop of Lund" age="44" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="40.62" weight="0.4206" build="0.5859" key="0002C80D9A442541887384C8B286957799776B4343825D69CA51C852A66AC99803796835075AB4A300000000000000000000000000000000000000004AD81000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_2g" name="{=lord_denmark_2g}Jacob Erlandsen, Bishop of Roskilde" age="39" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.48" weight="0.3047" build="0.5301" key="0005EC0AC0B4004679973EA0ABD969357CE75953695BA995A18CB9D9694CB848007858030759EA75000000000000000000000000000000000000000048E03140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_2h" name="{=lord_denmark_2h}Inger Andersdrottin Holmstrup" age="39" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39.46" weight="0.8381" build="0.8388" key="0005B00D0014100D7CBCBB5CC6AD7953D73937A7A33679B468694395BD765A14036DD83506B89899000000000000000000000000000000000000000060D00040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_2i" name="{=lord_denmark_2i}Esbern Vagnsen Galen" age="67" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="67.69" weight="0.3314" build="0.6751" key="0002BC09801436C4868446EBB771A584A765B064A7363B87A18CB9D946889A8B029A58250959EA7500000000000000000000000000000000000000004B203140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_2j" name="{=lord_denmark_2j}Ingefred Nielsdatter" age="24" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="sCavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.48" weight="0.5922" build="0.3948" key="0002D00B80FC3001A89545B7C7676886D82E761BC495E88766B35A4875D85179007698030784395300000000000000000000000000000000000000005EF02080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_2k" name="{=lord_denmark_2k}Estrid Nielsdatter" age="35" voice="curt" default_group="Cavalry" is_female="true" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="16.2" weight="0.553" build="0.4725" key="0005D003400010885DAB768867583588D82E9749834C89C366B35A4875D851790137881403843953000000000000000000000000000000000000000028687140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_2l" name="{=lord_denmark_2l}Cecilie Johannesdatter Galen" age="2" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="2.46" weight="0.8381" build="0.8388" key="0005B00D0014100D7CBCBB5CC6AD7953D73937A7A33679B468694395BD765A14036DD83506B89899000000000000000000000000000000000000000060D00040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_2m" name="{=lord_denmark_2m}Cecilie Nielsdatter Galen" age="18" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.69" weight="0.3314" build="0.6751" key="0002BC09801436C4868446EBB771A584A765B064A7363B87A18CB9D946889A8B029A58250959EA7500000000000000000000000000000000000000004B203140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_2n" name="{=lord_denmark_2n}Jacob Nielsen Galen" age="1" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="1.41" weight="0.7447" build="0.5826" key="0002AC0F1D7010139AA752A7829567AA5AAAA85D59A57858A18CB9D9474649840069B8030659EA75000000000000000000000000000000000000000032C83140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_2o" name="{=lord_denmark_2o}Andreas Andreasen of Bornholm" age="2" voice="curt" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="2.34" weight="0.4929" build="0.5698" key="0005BC0C400010028669587A419E8BA67885B064A7363B87A18CB9D969D2648701C978130C59EA75000000000000000000000000000000000000000049A03000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 3: Huset Gyldenstierne -->
+	<NPCCharacter id="lord_denmark_3a" name="{=lord_denmark_3a}Erik Gyldenstierne" age="60" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="60.98" weight="0.5366" build="0.4496" key="0005CC0780A0235356656C847546665B427DECDA5678A269A995C96CBAB6766309D7889A0D1872A5000000000000000000000000000000000000000069B820C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_3b" name="{=lord_denmark_3b}Gertrud" age="59" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="59.12" weight="0.0739" build="0.2708" key="0002CC08C0A0071456916789C54648357BEDECDA5678A269B9795C6987778D6B05B418560B5B799400000000000000000000000000000000000000006B782000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="5"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_3c" name="{=lord_denmark_3c}Erik Eriksen" age="14" voice="softspoken" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="14.26" weight="0.6539" build="0.7245" key="0005AC08000030103B75598926743148977C7674CB58367687B3170B788DA767048BA8460836B8EE00000000000000000000000000000000000000004B084080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_3d" name="{=lord_denmark_3d}Niels I. Eriksen Gyldenstierne" age="1" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="1.8" weight="0.2954" build="0.4276" key="0005F00C512C2643785936478D728667EA65B27A73AAC1C6AA783649AB84B369019648130981D48A00000000000000000000000000000000000000002D308000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 4: Huset Kalf -->
+	<NPCCharacter id="lord_denmark_4a" name="{=lord_denmark_4a}Jens I. Kalf of Agtrupgård" age="49" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="49.49" weight="0.5703" build="0.8696" key="0005280800CC1714769A956975523C366A3998EC477C76495884456DB9975DEB048D984608765B46000000000000000000000000000000000000000063080000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_4b" name="{=lord_denmark_4b}Kannik Jens Kalf" age="18" voice="softspoken" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="40.32" weight="0.5889" build="0.652" key="00022C0800E42003A5E7B58AAB584CB74295884AE36837D7679C932B58B8574403BA98350B769875000000000000000000000000000000000000000029702000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_4c" name="{=lord_denmark_4c}Marsk Jens Kalf" age="25" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.41" weight="0.2696" build="0.1332" key="00053404000014C9B44539588788948D7388A7B788688979679C932B45553C9A0082480308769875000000000000000000000000000000000000000051109000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_4d" name="{=lord_denmark_4d}Petronelle Jensdatter Kalf" age="4" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.41" weight="0.2696" build="0.1332" key="00053404000014C9B44539588788948D7388A7B788688979679C932B45553C9A0082480308769875000000000000000000000000000000000000000051109000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 5: Huset Strange-Ulfeldt -->
+	<NPCCharacter id="lord_denmark_5a" name="{=lord_denmark_5a}Peder Strangesen Ulfeldt of Kalundborg" age="89" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="89.49" weight="0.5703" build="0.8696" key="0005280800CC1714769A956975523C366A3998EC477C76495884456DB9975DEB048D984608765B46000000000000000000000000000000000000000063080000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_5b" name="{=lord_denmark_5b}Ingeborg Esbernsdatter Hvide" age="68" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="68.03" weight="0.4964" build="0.0525" key="0005B006C0FC000D7AC579597693AC7C7A328828D8A57F6C66B35A48485B5574003178030384395300000000000000000000000000000000000000004A503080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_5c" name="{=lord_denmark_5c}Elisabeth Pedersdatter Ulfeldt" age="29" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.03" weight="0.4964" build="0.0525" key="0005B006C0FC000D7AC579597693AC7C7A328828D8A57F6C66B35A48485B5574003178030384395300000000000000000000000000000000000000004A503080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_striped_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 6: Huset Rani -->
+	<NPCCharacter id="lord_denmark_6a" name="{=lord_denmark_6a}Jon Ranesøn Rane" age="29" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.04" weight="0.5347" build="0.3356" key="0002DC06C02C02D28A676B9A974A8715116A8C6537588176B7548BA8C49AC32B01758813071AB17A000000000000000000000000000000000000000032F01000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_6b" name="{=lord_denmark_6b}Elisabeth Nielsdatter of Falster" age="29" voice="softspoken" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.43" weight="0.7486" build="0.4392" key="0002D40FC0FC000138CAB97876979A4685DCF99BB76A7D6A1DC88896A8944A5A01D7B8130D87286C000000000000000000000000000000000000000035A82000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_6c" name="{=lord_denmark_6c}Rane Jonsøn Rane" age="5" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="5.63" weight="0.0386" build="0.6595" key="0005D80340B4204539458875BC7963818984C566754954793379647517868B8D085A1882077C77B500000000000000000000000000000000000000003AB01080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_6d" name="{=lord_denmark_6d}Niels Jonsøn Rane" age="4" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="4.1" weight="0.1775" build="0.3688" key="0002C40AC000228CBBA1889C241D2ACC499668386ABCA6779A9874674A67B536009638030916A44800000000000000000000000000000000000000000D300100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_6e" name="{=lord_denmark_6e}Peder Jonsøn Rane" age="4" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="4.84" weight="0.4429" build="0.3318" key="0005AC0AC00036823878A7D57466B58796C7B48646DAD48E95942848793B835703A578350ABA836300000000000000000000000000000000000000003B488000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 7: Huset Skarsholm -->
+	<!-- Svantepolk Knutsson Viby and his father Knut Valdemarsson, whose mother was Helena Guttormsdotter (mistress of Valdemar II of Denmark, hence illegitimate line) (ref: https://en.wikipedia.org/wiki/Canute,_Duke_of_Estonia). -->
+	<NPCCharacter id="lord_denmark_7a" name="{=lord_denmark_7a}Knut 'Canute' Valdemarsson, Duke of Blekinge" age="54" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="54.96" weight="0.4342" build="0.5743" key="0002C00D00583585297532BCC448A6AC37B79B683847C3B4643867B1679DB97904B978460BD787A300000000000000000000000000000000000000006D603000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="5"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_7b" name="{=lord_denmark_7b}Svantepolk Knutsson Viby" age="34" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34.81" weight="0.4052" build="0.3096" key="0002C0098058178B297DD3A23155B78656769B683847C3B4643867B1797C47A901A568130AD787A300000000000000000000000000000000000000003B503000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- 3 of many children of Svantepolk Knutsson Viby -->
+	<NPCCharacter id="lord_denmark_7c" name="{=lord_denmark_7c}Ingeborg Svantepolksdatter" age="9" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="9.66" weight="0.4517" build="0.224" key="0005D00980001010344AC73749A676586AAAB6E8D568583986C17BA5448839890143781404AB667900000000000000000000000000000000000000005E8830C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_7d" name="{=lord_denmark_7d}Katarina Svantepolksdotter" age="3" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="3.66" weight="0.4517" build="0.224" key="0005D00980001010344AC73749A676586AAAB6E8D568583986C17BA5448839890143781404AB667900000000000000000000000000000000000000005E8830C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_7e" name="{=lord_denmark_7e}Knut Svantepolksøn" age="4" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="4.1" weight="0.2975" build="0.3377" key="0002BC080000119CCCBD6ADC4998A4879F6354B5A276591886C17BA58D968B840095480309AB6679000000000000000000000000000000000000000035309000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Sister of Svantepolk Knutsson Viby and her husband -->
+	<NPCCharacter id="lord_denmark_7f" name="{=lord_denmark_7f}Cecilie Knutsdotter Skarsholm" age="34" voice="softspoken" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34.27" weight="0.7322" build="0.0587" key="0002A40AC0FC000E7B8A55CB66877CB58849836A74619A36B3966A89969548250181B813080C755700000000000000000000000000000000000000000B183080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_denmark_7g" name="{=lord_denmark_7g}Riksråd Filip Knutsson" age="34" voice="softspoken" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.43" weight="0.7486" build="0.4392" key="0002D40FC0FC000138CAB97876979A4685DCF99BB76A7D6A1DC88896A8944A5A01D7B8130D87286C000000000000000000000000000000000000000035A82000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Brother of Svantepolk Knutsson Viby -->
+	<NPCCharacter id="lord_denmark_7h" name="{=lord_denmark_7h}Erik Knudsen til Skarsholm" age="24" voice="softspoken" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.43" weight="0.7486" build="0.4392" key="0002D40FC0FC000138CAB97876979A4685DCF99BB76A7D6A1DC88896A8944A5A01D7B8130D87286C000000000000000000000000000000000000000035A82000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

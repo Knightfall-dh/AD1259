@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<Kingdom id="aragon"
+	         initial_home_settlement="Settlement.town_barcelona"
+	         owner="Hero.lord_aragon_1_1"
+	         banner_key="29.7.14.3497.3497.684.682.0.0.0.505.14.14.0.0.740.700.1.0.0"
+	         primary_banner_color="0xff000000"
+	         secondary_banner_color="0xff000000"
+	         color="FFdea940"
+	         color2="FF8d2a1c"
+	         culture="Culture.aragonese"
+	         settlement_banner_mesh="encounter_flag_a"
+	         flag_mesh="info_screen_flags_a"
+	         name="{=aragonFactionName}Crown of Aragon"
+	         short_name="{=aragonFactionShortName}Crown of Aragon"
+	         title="{=aragonFactionTitle}Crown of Aragon"
+	         ruler_title="{=aragonFactionRulerTitle}King"
+	         text="{=aragonFactionText}The Kingdom of Aragon emerged in the 11th century when the Kingdom of Aragon and the County of Barcelona along with the County of Provence, Girona, Cerdanya, Osona and other territories merged by dynastic union upon the marriage of Petronilla of Aragon and Raymond Berenguer IV of Barcelona; their individual titles combined in the person of their son Alfonso II of Aragon, who ascended to the throne in 1162. Over the time, it expanded its territory through conquests and alliances, becoming one of the major powers in the Iberian Peninsula. ">
+		<relationships>
+            
+        </relationships>
+		<policies>
+			<policy id="policy_kings_mercenaries"/>
+			<policy id="policy_royal_privilege"/>
+			<policy id="policy_noble_retinues"/>
+			<policy id="policy_road_tolls"/>
+			<policy id="policy_serfdom"/>
+		</policies>
+	</Kingdom>
+</Kingdoms>

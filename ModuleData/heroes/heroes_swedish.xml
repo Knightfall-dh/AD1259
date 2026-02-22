@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Heroes>
 	<!-- clan 1: Bjälboätten -->
-	<Hero id="lord_swedish_1_1" father="Hero.lord_swedish_1_2" mother="Hero.lord_swedish_1_3" faction="Faction.clan_swedish_1"/>
+	<Hero id="lord_swedish_1_1" spouse="Hero.lord_denmark_1_1_1" father="Hero.lord_swedish_1_2" mother="Hero.lord_swedish_1_3" faction="Faction.clan_swedish_1"/>
 	<Hero id="lord_swedish_1_2" spouse="Hero.lord_swedish_1_3" faction="Faction.clan_swedish_1" text="{=LW92PgZz} "/>
 	<Hero id="lord_swedish_1_3" spouse="Hero.lord_swedish_1_2" faction="Faction.clan_swedish_1"/>
 	<Hero id="lord_swedish_1_2_1" father="Hero.lord_swedish_1_2" mother="Hero.lord_swedish_1_3" faction="Faction.clan_swedish_1"/>
@@ -63,4 +63,7 @@
 	<Hero id="lord_swedish_9_2" faction="Faction.clan_swedish_9"/>
 	<Hero id="lord_swedish_9_3" father="Hero.lord_swedish_9_1" faction="Faction.clan_swedish_9"/>
 	<Hero id="lord_swedish_9_4" father="Hero.lord_swedish_9_1" faction="Faction.clan_swedish_9"/>
+	
+	<!-- link to denmark clan 7-->
+    <Hero id="lord_sweden_10b" spouse="Hero.lord_denmark_7b" faction="Faction.clan_swedish_9"/>
 </Heroes>

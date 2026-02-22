@@ -1,0 +1,335 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<SPCultures>
+	<Culture id="poland"
+	         name="{=polishCulture}Polish"
+	         is_main_culture="true"
+	         color="0xff830000"
+	         color2="0xff830000"
+	         elite_basic_troop="NPCCharacter.poland_elite_root"
+	         basic_troop="NPCCharacter.poland_infantry_root"
+	         melee_militia_troop="NPCCharacter.poland_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.poland_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.poland_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.poland_militia_veteran_archer"
+	         can_have_settlement="true"
+	         militia_bonus="1"
+	         villager_party_template="PartyTemplate.villager_poland_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_POLAND_template"
+	         settlement_patrol_template_level_1="PartyTemplate.patrol_party_POLAND_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_POLAND_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_POLAND_template_level_3"
+	         encounter_background_mesh="encounter_poland"
+	         faction_banner_key="11.145.145.600.740.764.764.0.1.180.505.145.145.2054.2202.763.763.0.1.0.219.128.128.115.119.763.936.0.1.-181.506.128.128.119.145.763.839.0.1.0.506.128.128.131.57.763.906.0.1.0.506.128.128.119.145.763.863.0.1.0.506.128.128.93.105.724.881.0.0.338.506.145.145.119.119.718.853.0.0.347.506.128.128.93.105.801.881.0.1.21.506.145.145.119.119.807.853.0.1.12.427.84.144.66.55.652.873.0.0.166.503.145.145.55.67.663.897.0.0.263.427.84.144.61.66.680.877.0.0.205.503.145.145.55.67.699.867.0.0.263.427.84.144.67.52.662.881.0.0.195.510.84.144.55.67.679.852.0.0.230.427.84.144.66.55.874.873.0.1.193.503.145.145.55.67.862.888.0.1.96.427.84.144.61.66.846.877.0.1.154.505.145.145.61.82.802.807.0.0.0.505.145.145.61.82.724.807.0.0.0.503.145.145.55.67.827.867.0.1.96.427.84.144.67.52.864.881.0.1.164.510.84.144.55.67.846.852.0.1.129.506.128.128.63.67.713.810.0.1.141.506.128.128.63.67.813.810.0.0.218.505.128.128.37.67.797.791.0.0.218.505.128.128.37.67.729.791.0.1.141.522.128.128.-1.0.763.763.0.1.0.506.128.128.155.137.763.719.0.0.0.503.128.128.62.108.827.707.0.1.12.503.128.128.62.108.833.724.0.1.12.316.145.145.97.154.860.719.0.1.7.316.128.128.89.163.873.725.0.1.9.316.145.145.79.163.894.716.0.1.7.316.128.128.89.163.905.695.0.1.9.316.145.145.115.190.931.674.0.1.4.316.128.128.89.163.935.632.0.1.0.316.145.145.52.80.950.662.0.1.0.505.145.145.48.63.948.550.0.1.-2.503.145.145.52.69.955.626.0.1.-2.506.128.128.84.103.863.673.0.1.295.316.128.128.56.102.937.571.0.1.4.316.145.145.32.43.959.595.0.1.3.505.145.145.124.69.946.539.0.1.-2.505.145.145.52.46.958.566.0.1.10.503.128.128.62.108.697.725.0.0.347.503.145.145.62.108.679.724.0.0.347.316.35.128.58.144.669.711.0.0.353.316.128.128.89.163.652.730.0.0.351.316.145.145.72.167.633.720.0.0.352.316.128.116.89.163.622.696.0.0.350.316.145.145.110.184.597.671.0.0.355.316.128.128.89.163.591.637.0.0.359.316.145.145.52.78.579.651.0.0.0.505.145.145.52.69.577.550.0.0.1.505.145.145.52.69.565.610.0.0.1.506.128.128.84.103.662.673.0.0.64.316.128.128.56.102.588.571.0.0.355.316.145.145.32.43.575.594.0.0.356.505.145.145.131.110.578.539.0.0.1.505.145.145.52.46.567.564.0.0.350.427.128.128.310.146.763.641.0.0.0.427.128.128.317.76.763.633.0.0.0.427.128.128.319.146.763.654.0.0.0.503.128.128.83.72.624.579.0.0.-27.506.128.128.108.58.774.635.0.0.-83.506.128.128.101.76.764.626.0.1.0.506.128.128.101.59.740.623.0.1.353.503.145.145.60.81.720.607.0.1.353.506.84.128.91.73.736.544.1.0.52.506.145.145.52.52.727.554.0.0.57.506.84.143.60.48.732.569.0.0.66.426.83.83.20.27.716.549.0.0.89.426.83.83.25.37.731.550.0.0.259.506.145.145.52.52.723.574.0.0.66.505.128.128.48.75.769.597.0.1.-8.503.145.145.60.81.812.594.0.0.7.505.128.128.48.62.763.594.0.1.0.503.128.128.47.47.620.605.0.0.0.503.128.128.47.47.906.605.0.1.0.506.128.128.57.127.763.893.0.1.0.503.128.128.35.33.791.564.0.1.-8.503.145.145.26.40.800.571.0.1.-12.503.145.145.38.69.800.541.0.1.37.506.128.128.60.66.766.540.0.0.66.427.121.144.24.37.742.559.0.1.46.426.128.128.46.64.758.570.0.0.181.503.128.128.46.37.775.552.0.0.181.503.128.128.83.72.901.579.0.1.27.503.23.23.28.31.764.540.0.1.-39.503.35.110.22.24.764.540.0.1.-39.503.128.128.38.13.766.535.0.1.-39.503.128.128.38.13.772.535.0.1.-39.503.116.116.12.14.761.540.0.1.-39.503.35.40.5.5.762.542.0.1.225.510.23.23.38.15.765.539.0.1.328.503.145.145.49.49.567.642.0.0.0.503.145.145.49.49.567.670.0.0.0.503.145.145.36.31.693.785.0.0.53.503.145.145.36.31.833.785.0.1.306.427.116.116.35.10.641.568.0.1.127.426.128.128.63.57.784.617.1.1.208.426.128.128.63.57.783.592.1.1.194.426.128.128.46.51.786.572.1.1.199.426.128.128.40.38.782.557.1.1.219.340.84.84.72.67.778.518.1.1.-27.426.116.116.12.46.801.673.1.1.25.426.116.116.12.33.721.672.1.0.-19.506.128.128.81.113.763.923.0.1.-181.503.144.128.36.36.763.847.0.1.90.426.116.116.9.49.922.658.0.0.10.426.116.116.9.49.601.644.0.1.-3.510.116.116.55.27.822.730.0.1.100.510.116.116.64.27.860.724.0.1.100.510.116.116.64.27.660.726.0.1.81.426.116.116.9.49.728.905.0.1.-63.426.116.116.9.49.795.903.0.0.62.506.128.128.42.87.740.926.1.1.-27.506.128.128.42.87.786.927.1.0.26.426.116.116.12.33.798.777.1.0.-140.426.116.116.12.43.756.945.1.0.0.426.116.116.8.24.776.549.1.0.216.426.128.128.82.112.700.943.0.1.-243.426.128.128.82.112.821.943.0.0.242.503.128.128.20.43.695.936.0.0.306.503.128.128.20.43.825.936.0.1.60.426.116.116.12.43.740.731.1.1.6.503.145.145.12.59.729.731.1.1.6.503.128.128.83.62.742.618.1.1.52.506.128.128.36.75.606.562.1.1.66.506.128.128.52.65.595.588.1.1.74.506.128.128.36.75.597.611.1.1.102.506.128.128.36.75.917.566.1.0.293.506.128.128.52.65.930.588.1.0.279.506.128.128.36.75.928.609.1.0.257.426.116.116.12.14.726.653.1.1.18.426.116.116.12.21.802.658.1.0.341.506.128.128.51.47.848.644.1.0.209.506.128.128.51.47.647.625.1.1.145.506.84.84.52.67.833.662.1.1.107.506.128.128.51.47.866.636.1.0.209.506.128.128.51.47.883.627.1.0.209.506.128.128.51.47.829.649.1.0.204.427.84.84.116.50.868.633.1.1.49.506.128.128.51.47.663.635.1.1.137.506.128.128.51.47.685.645.1.1.170.503.84.84.31.23.813.669.1.1.-77.506.128.127.113.21.829.654.1.1.198.506.128.127.79.12.885.583.1.0.82.426.116.116.12.42.879.578.0.0.352.427.84.84.116.56.662.641.1.0.323.503.84.84.31.23.707.669.1.0.76.506.128.140.97.21.698.655.1.0.169.506.128.127.79.12.636.582.1.1.277.506.128.128.51.36.703.648.1.1.170.503.128.128.38.25.936.627.0.1.46.503.128.128.38.25.592.626.0.0.313.426.116.116.9.19.696.829.0.0.56.426.116.116.9.19.830.829.0.0.125.426.116.116.14.12.686.874.0.0.125.426.116.116.14.12.660.892.0.0.125.426.116.116.14.12.638.886.0.0.75.426.116.116.14.12.628.867.0.0.75.426.116.116.14.12.839.877.0.1.234.426.116.116.14.12.865.895.0.1.234.426.116.116.14.12.887.889.0.1.284.426.116.116.14.12.897.870.0.1.284"
+	         militia_party_template="PartyTemplate.militia_poland_template"
+	         rebels_party_template="PartyTemplate.rebels_poland_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_poland"
+	         text="{=anglonormanCultureText}Unused in the game."
+	         tournament_master="NPCCharacter.tournament_master_poland"
+	         villager="NPCCharacter.villager_poland"
+	         caravan_master="NPCCharacter.caravan_master_poland"
+	         armed_trader="NPCCharacter.armed_trader_poland"
+	         caravan_guard="NPCCharacter.caravan_guard_poland"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_poland"
+	         prison_guard="NPCCharacter.prison_guard_poland"
+	         guard="NPCCharacter.guard_poland"
+	         blacksmith="NPCCharacter.blacksmith_poland"
+	         weaponsmith="NPCCharacter.weaponsmith_poland"
+	         townswoman="NPCCharacter.townswoman_poland"
+	         townswoman_infant="NPCCharacter.townswoman_infant_poland"
+	         townswoman_child="NPCCharacter.townswoman_child_poland"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_poland"
+	         townsman="NPCCharacter.townsman_poland"
+	         townsman_infant="NPCCharacter.townsman_infant_poland"
+	         townsman_child="NPCCharacter.townsman_child_poland"
+	         townsman_teenager="NPCCharacter.townsman_teenager_poland"
+	         village_woman="NPCCharacter.village_woman_poland"
+	         villager_male_child="NPCCharacter.villager_child_poland"
+	         villager_male_teenager="NPCCharacter.villager_teenager_poland"
+	         villager_female_child="NPCCharacter.village_woman_child_poland"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_poland"
+	         ransom_broker="NPCCharacter.ransom_broker_poland"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_poland"
+	         merchant_notary="NPCCharacter.merchant_notary_poland"
+	         artisan_notary="NPCCharacter.artisan_notary_poland"
+	         preacher_notary="NPCCharacter.preacher_notary_poland"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_poland"
+	         shop_worker="NPCCharacter.shop_worker_poland"
+	         tavernkeeper="NPCCharacter.tavernkeeper_poland"
+	         taverngamehost="NPCCharacter.taverngamehost_poland"
+	         musician="NPCCharacter.musician_poland"
+	         tavern_wench="NPCCharacter.tavern_wench_poland"
+	         armorer="NPCCharacter.armorer_poland"
+	         horseMerchant="NPCCharacter.horseMerchant_poland"
+	         barber="NPCCharacter.barber_poland"
+	         merchant="NPCCharacter.merchant_poland"
+	         beggar="NPCCharacter.beggar_poland"
+	         female_beggar="NPCCharacter.female_beggar_poland"
+	         female_dancer="NPCCharacter.female_dancer_poland"
+	         default_battle_equipment_roster="EquipmentRoster.poland_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.poland_civ_template_default"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+	         marriage_bride_equipment_roster="EquipmentRoster.marriage_female_poland_cutscene_template"
+	         duel_preset_equipment_roster="EquipmentRoster.vla_duel_preset_template"
+	         board_game_type="BaghChal"
+	         default_character_creation_body_property="BodyProperty.default_character_creation_body_property_vlandia"
+	         start_point_position_x="581"
+	         start_point_position_y="1156">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_poland"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_poland"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<vassal_reward_items>
+			<item id="Item.execution_axe"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.vlandia_sword_1_t2"/>
+			<item id="Item.sturgia_sword_1_t2"/>
+			<item id="Item.sturgia_sword_3_t3"/>
+			<item id="Item.vlandia_sword_4_t4"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_marshals"/>
+			<policy id="policy_feudal_inheritance"/>
+		</default_policies>
+		<male_names>
+			<name name="{=xHNwhhyr}Adulf"/>
+			<name name="{=cnsoYiqD}Arbort"/>
+			<name name="{=zSrghxpR}Archambalt"/>
+			<name name="{=OEBcQsjE}Arnko"/>
+			<name name="{=RefAclMi}Arnolf"/>
+			<name name="{=muVAfKEd}Artald"/>
+			<name name="{=bWrfHlxl}Balich"/>
+			<name name="{=QnMSzSld}Balwin"/>
+			<name name="{=vyzRIamN}Bartusz"/>
+			<name name="{=mMmFgEnE}Bartysz"/>
+			<name name="{=bjgOCrVL}Zbywoj"/>
+			<name name="{=yItqWPuJ}Będzieciech"/>
+			<name name="{=FNoJtVjl}Berlwin"/>
+			<name name="{=mQHyYnrw}Bernasz"/>
+			<name name="{=WfGpEqsV}Zbrosław"/>
+			<name name="{=wMVOspZr}Bezprzem"/>
+			<name name="{=DVTGUbFF}Biernardyn"/>
+			<name name="{=bHAlUmFL}Włodzimir"/>
+			<name name="{=nrxeMzeQ}Bosław"/>
+			<name name="{=LcrjEyxU}Bożebor"/>
+			<name name="{=XdupXCSS}Bronisąd"/>
+			<name name="{=WSgADesQ}Chocian"/>
+			<name name="{=jeFTPpze}Chociebąd"/>
+			<name name="{=zJwXbcNa}Chociebor"/>
+			<name name="{=MMRtijDf}Chwalibóg"/>
+			<name name="{=jXiFqCaE}Chwalibog"/>
+			<name name="{=SefJHrHb}Trojden"/>
+			<name name="{=NXgmXNzU}Cypryjan"/>
+			<name name="{=CtAvWUHK}Turold"/>
+			<name name="{=nTFOwBXI}Dobran"/>
+			<name name="{=xoaYBiXD}Dobroj"/>
+			<name name="{=wEYVUHJM}Drogoradz"/>
+			<name name="{=EFxOUzVA}Dulcyn"/>
+			<name name="{=YbdUxxfO}Walcerz"/>
+			<name name="{=TpFebrtH}Dypołt"/>
+			<name name="{=DZSGsChU}Wszebad"/>
+			<name name="{=RtbBuMON}Dziedrzych"/>
+			<name name="{=JarYzBnS}Dzierżykraj"/>
+			<name name="{=YDJnOQqp}Elpin"/>
+			<name name="{=GcazncEY}Fiebron"/>
+			<name name="{=xHGwugsl}Fiebrosław"/>
+			<name name="{=oRpsKSAw}Gaszko"/>
+			<name name="{=PhkkpXqg}Gierołt"/>
+			<name name="{=tgtriLFX}Ginter"/>
+			<name name="{=WUIvGNNV}Gizo"/>
+			<name name="{=yokebIKd}Gościmiar"/>
+			<name name="{=YOEVGsOf}Hekosz"/>
+			<name name="{=uQMTGWyP}Herbort"/>
+			<name name="{=zPMujZEJ}Hirzyk"/>
+			<name name="{=zooJxuGX}Hunold"/>
+			<name name="{=liwybGsZ}Imbrych"/>
+			<name name="{=nRNCNxsy}Irzyk"/>
+			<name name="{=dyScwEzC}Iwik"/>
+			<name name="{=uWXhxvJh}Jagel"/>
+			<name name="{=vXryQnWo}Jakert"/>
+			<name name="{=lLlvqAqq}Jakow"/>
+			<name name="{=PVRKJvlv}Jałbrzyk"/>
+			<name name="{=QOwtgwwA}Jokob"/>
+			<name name="{=AXbJvoLG}Jurand"/>
+			<name name="{=rPfvpSZL}Kaźmir"/>
+			<name name="{=hchAzJTW}Kazimirz"/>
+			<name name="{=YIYUThTP}Kaźmisz"/>
+			<name name="{=RLARIAAx}Krzesim"/>
+			<name name="{=DqQCcVlm}Krzeszel"/>
+			<name name="{=bdQHVoLp}Kupryjan"/>
+			<name name="{=GqqcqgZl}Marcisław"/>
+			<name name="{=PHjNZLGF}Marczurko"/>
+			<name name="{=oKeSRDGm}Margusz"/>
+			<name name="{=luaGBnfq}Markusław"/>
+			<name name="{=svTMezEg}Matys"/>
+			<name name="{=nQTItBEb}Niedźwiedź"/>
+			<name name="{=iduTFflR}Ninogniew"/>
+			<name name="{=ZYLUqYIq}Oldrzyk"/>
+			<name name="{=fYfdwWUb}Olwer"/>
+			<name name="{=WQlljmYs}Onold"/>
+			<name name="{=DUHdRagE}Oracy"/>
+			<name name="{=UjcHVtMQ}Pabian"/>
+			<name name="{=PzYyKZWV}Paszko"/>
+			<name name="{=tuXsIKTY}Pawlik"/>
+			<name name="{=yqeGEGvX}Pazt"/>
+			<name name="{=DMWtVJYk}Pieszko"/>
+			<name name="{=tYHdRrar}Piotrak"/>
+			<name name="{=KSzEsZCU}Piotyr"/>
+			<name name="{=kOSylUHQ}Piotrzej"/>
+			<name name="{=mSvsdsBA}Piotrasz"/>
+			<name name="{=AIXEGexj}Stasław"/>
+			<name name="{=dyOqfOrq}Sulej"/>
+			<name name="{=zUkruspR}Sulibrat"/>
+			<name name="{=LsKTxuTQ}Sulidziad"/>
+			<name name="{=zpXCNoxC}Sulist"/>
+			<name name="{=dctednTy}Sulistryj"/>
+			<name name="{=BMjDTNsc}Suliwuj"/>
+		</male_names>
+		<female_names>
+			<name name="{=mBrdGdBZ}Ambramka"/>
+			<name name="{=ibuBFsdO}Adwiga"/>
+			<name name="{=lqafoyFF}Andruta"/>
+			<name name="{=AoElvfMJ}Astreta"/>
+			<name name="{=LXQRqsOb}Bertrada"/>
+			<name name="{=FfoCfohL}Bertylda"/>
+			<name name="{=OlXYvsYq}Biechna"/>
+			<name name="{=DGvJQbvh}Bieniaszka"/>
+			<name name="{=QmKkFgUG}Bieńka"/>
+			<name name="{=MWekRGoZ}Biezdziadka"/>
+			<name name="{=ECgYTZev}Boguchna"/>
+			<name name="{=uCQuBOWi}Bogusza"/>
+			<name name="{=fbJespFu}Bolka"/>
+			<name name="{=aMnkqABx}Chryścijanica"/>
+			<name name="{=BdHKibzi}Ciecirada"/>
+			<name name="{=JFqCUzcx}Chweidzia"/>
+			<name name="{=kwWkQWTv}Czębira"/>
+			<name name="{=mZlFTIju}Dadzboga"/>
+			<name name="{=rYbLdbXl}Damroka"/>
+			<name name="{=UuTFSRHc}Dobala"/>
+			<name name="{=WiOxkSlr}Dobrocha"/>
+			<name name="{=XFsrnkRe}Dobroszka"/>
+			<name name="{=HpoWRkQP}Edwiga"/>
+			<name name="{=QwQqXpOb}Emnilda"/>
+			<name name="{=BIUCWDqS}Enfleda"/>
+			<name name="{=ltzMollT}Fenenna"/>
+			<name name="{=fESNOCcC}Felicyja"/>
+			<name name="{=fmduqAJF}Floryjana"/>
+			<name name="{=jzOglEvr}Gierusza"/>
+			<name name="{=XRjfORqd}Giertruda"/>
+			<name name="{=mNWOjiUK}Girtrud"/>
+			<name name="{=BmGQYNwH}Gryfina"/>
+			<name name="{=QRgZXnDs}Hedvigis"/>
+			<name name="{=pIndSVQl}Helzbieta"/>
+			<name name="{=tXhNsKMf}Helina"/>
+			<name name="{=WwReUhwq}Jagnieszka"/>
+			<name name="{=CbUxEoka}Janczysława"/>
+			<name name="{=cEdHLNNd}Jedwiga"/>
+			<name name="{=ECiNIpEb}Katerzyna"/>
+			<name name="{=UyNTMfoM}Krzystyjana"/>
+		</female_names>
+		<clan_names>
+			<name name="{=WWAxMZKm}Kowalski"/>
+			<name name="{=vTHOnpXe}Krawczyk"/>
+			<name name="{=yXvoeFoi}Kaczmarek"/>
+			<name name="{=nPUJPWbI}Cieślak"/>
+			<name name="{=HawMvEOI}Kołodziejski"/>
+			<name name="{=yaebWALr}Bednarz"/>
+			<name name="{=TlaFHHwe}Hodowca"/>
+			<name name="{=snELMWzI}Młynarz"/>
+			<name name="{=BsxLgvJQ}Kucharz"/>
+			<name name="{=jxwszOEw}Wojownik"/>
+			<name name="{=xHvMHHdZ}Kamieniarza"/>
+			<name name="{=lVLyYPYO}Szewc"/>
+			<name name="{=VyvRzPAH}Tkacz"/>
+			<name name="{=QLlWtvYZ}Winiarz"/>
+			<name name="{=KiYGAAiq}Płatnerz"/>
+		</clan_names>
+		<cultural_feats>
+			<feat id="battanian_forest_speed"/>
+			<feat id="khuzait_increased_animal_production"/>
+			<feat id="battanian_slower_construction"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="131"/>
+			<icon id="132"/>
+			<icon id="133"/>
+			<icon id="134"/>
+			<icon id="135"/>
+			<icon id="136"/>
+			<icon id="137"/>
+			<icon id="145"/>
+			<icon id="149"/>
+			<icon id="151"/>
+			<icon id="203"/>
+			<icon id="406"/>
+			<icon id="407"/>
+			<icon id="408"/>
+			<icon id="412"/>
+			<icon id="413"/>
+			<icon id="414"/>
+			<icon id="415"/>
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_poland_merchant_1"/>
+			<template name="NPCCharacter.spc_notable_poland_0b"/>
+			<template name="NPCCharacter.spc_notable_poland_0c"/>
+			<template name="NPCCharacter.spc_notable_poland_0d"/>
+			<template name="NPCCharacter.spc_notable_poland_0e"/>
+			<template name="NPCCharacter.spc_notable_poland_1"/>
+			<template name="NPCCharacter.spc_notable_poland_1b"/>
+			<template name="NPCCharacter.spc_notable_poland_2"/>
+			<template name="NPCCharacter.spc_notable_poland_3"/>
+			<template name="NPCCharacter.spc_notable_poland_4"/>
+			<template name="NPCCharacter.spc_notable_poland_5"/>
+			<template name="NPCCharacter.spc_poland_artisan_1"/>
+			<template name="NPCCharacter.spc_poland_artisan_2"/>
+			<template name="NPCCharacter.spc_poland_artisan_3"/>
+			<template name="NPCCharacter.spc_poland_rural_notable_1"/>
+			<template name="NPCCharacter.spc_poland_rural_notable_2"/>
+			<template name="NPCCharacter.spc_poland_headman_1"/>
+			<template name="NPCCharacter.spc_poland_headman_2"/>
+			<template name="NPCCharacter.spc_poland_headman_3"/>
+		</notable_templates>
+		<lord_templates>
+			<template name="NPCCharacter.poland_autogenerated_lord1"/>
+			<template name="NPCCharacter.poland_autogenerated_lord2"/>
+			<template name="NPCCharacter.poland_autogenerated_lord3"/>
+			<template name="NPCCharacter.poland_autogenerated_lord4"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.poland_autogenerated_lord1"/>
+			<template name="NPCCharacter.poland_autogenerated_lord2"/>
+			<template name="NPCCharacter.poland_autogenerated_lord3"/>
+			<template name="NPCCharacter.poland_autogenerated_lord4"/>
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+            <template name="NPCCharacter.tournament_template_poland_one_participant_set_v1"/>
+            <template name="NPCCharacter.tournament_template_poland_one_participant_set_v2"/>
+            <template name="NPCCharacter.tournament_template_poland_one_participant_set_v3"/>
+        </tournament_team_templates_one_participant>
+        <tournament_team_templates_two_participant>
+            <template name="NPCCharacter.tournament_template_poland_two_participant_set_v1"/>
+            <template name="NPCCharacter.tournament_template_poland_two_participant_set_v2"/>
+            <template name="NPCCharacter.tournament_template_poland_two_participant_set_v3"/>
+        </tournament_team_templates_two_participant>
+        <tournament_team_templates_four_participant>
+            <template name="NPCCharacter.tournament_template_poland_four_participant_set_v1"/>
+            <template name="NPCCharacter.tournament_template_poland_four_participant_set_v2"/>
+            <template name="NPCCharacter.tournament_template_poland_four_participant_set_v3"/>
+        </tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+            <template name="NPCCharacter.merc_euro_spearman"/>
+            <template name="NPCCharacter.merc_euro_guisarmer"/>
+            <template name="NPCCharacter.merc_euro_crossbowman"/>
+            <template name="NPCCharacter.merc_euro_horseman"/>
+            <template name="NPCCharacter.merc_scandinavian_spearman"/>
+            <template name="NPCCharacter.merc_scandinavian_axeman"/>
+            <template name="NPCCharacter.merc_manhunter_root"/>
+            <template name="NPCCharacter.varangian_guard1"/>
+            <template name="NPCCharacter.merc_rus_spear1"/>
+        </basic_mercenary_troops>
+	</Culture>
+</SPCultures> 

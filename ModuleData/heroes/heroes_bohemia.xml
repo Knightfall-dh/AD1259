@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- Kingdom of Bohemia -->
+	<!-- region clan_bohemia_1: Přemyslovci -->
+	<Hero id="dead_lord_bohemia_1" alive="false" spouse="Hero.dead_lord_bohemia_2" faction="Faction.clan_bohemia_1"/>
+	<Hero id="dead_lord_bohemia_2" alive="false" spouse="Hero.dead_lord_bohemia_1" father="Hero.dead_lord_hungary_0" mother="Hero.dead_lord_hungary_01" faction="Faction.clan_bohemia_1"/>
+	<Hero id="dead_lord_bohemia_3" alive="false" spouse="Hero.dead_lord_bohemia_4" father="Hero.dead_lord_bohemia_1" mother="Hero.dead_lord_bohemia_2" faction="Faction.clan_bohemia_1"/>
+	<Hero id="dead_lord_bohemia_4" alive="false" spouse="Hero.dead_lord_bohemia_3" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1_0_1" father="Hero.dead_lord_bohemia_3" mother="hero.dead_lord_bohemia_4" faction="Faction.clan_bohemia_1"/>
+	<Hero id="dead_lord_bohemia_5" alive="false" father="Hero.dead_lord_bohemia_3" mother="hero.dead_lord_bohemia_4" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1a" spouse="Hero.lord_hungary_1_1_2_5" father="Hero.dead_lord_bohemia_3" mother="hero.dead_lord_bohemia_4" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1b" father="Hero.lord_bohemia_1a" mother="Hero.lord_hungary_1_1_2_5" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1c" father="Hero.lord_bohemia_1a" mother="Hero.lord_hungary_1_1_2_5" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1d" father="Hero.lord_bohemia_1a" mother="Hero.lord_hungary_1_1_2_5" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1_2" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1_3" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1_3_1" father="Hero.lord_bohemia_1_3" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1_3_0" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1_4" spouse="Hero.lord_bohemia_1_4_1" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1_4_1" spouse="Hero.lord_bohemia_1_4" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1_4_2" spouse="Hero.lord_bohemia_1_4" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1_4_2_1" spouse="Hero.lord_bohemia_1_4" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1_5" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1_6" spouse="Hero.lord_bohemia_1_6_1" faction="Faction.clan_bohemia_1"/>
+	<Hero id="lord_bohemia_1_6_1" spouse="Hero.lord_bohemia_1_6" faction="Faction.clan_bohemia_1"/>
+	<!-- endregion -->
+	<!-- region clan_bohemia_2: Šternberkové -->
+	<Hero id="dead_lord_bohemia_6" alive="false" spouse="Hero.dead_lord_bohemia_10" faction="Faction.clan_bohemia_1"/>
+	<Hero id="dead_lord_bohemia_10" alive="false" spouse="Hero.dead_lord_bohemia_6" faction="Faction.clan_bohemia_1"/>
+	<Hero id="dead_lord_bohemia_7" alive="false" faction="Faction.clan_bohemia_2"/>
+
+	<Hero id="lord_bohemia_2a" father="Hero.dead_lord_bohemia_6" mother="Hero.dead_lord_bohemia_10" spouse="Hero.lord_bohemia_2b" faction="Faction.clan_bohemia_2"/>
+	<Hero id="lord_bohemia_2b" mother="Hero.dead_lord_bohemia_7" spouse="Hero.lord_bohemia_2a" faction="Faction.clan_bohemia_2"/>
+
+	<Hero id="lord_bohemia_2c" father="Hero.lord_bohemia_2a" mother="Hero.lord_bohemia_2b" spouse="Hero.lord_bohemia_2d" faction="Faction.clan_bohemia_2"/>
+	<Hero id="lord_bohemia_2d" spouse="Hero.lord_bohemia_2c" faction="Faction.clan_bohemia_2"/>
+	<Hero id="lord_bohemia_2e" father="Hero.lord_bohemia_2c" mother="Hero.lord_bohemia_2d" faction="Faction.clan_bohemia_2"/>
+
+	<Hero id="lord_bohemia_2f" father="Hero.lord_bohemia_2a" mother="Hero.lord_bohemia_2b" spouse="Hero.lord_bohemia_2g" faction="Faction.clan_bohemia_2"/>
+	<Hero id="lord_bohemia_2g" spouse="Hero.lord_bohemia_2f" faction="Faction.clan_bohemia_2"/>
+	<Hero id="lord_bohemia_2h" father="Hero.lord_bohemia_2f" mother="Hero.lord_bohemia_2g" faction="Faction.clan_bohemia_2"/>
+
+	<Hero id="lord_bohemia_2i" faction="Faction.clan_bohemia_2"/>
+	<Hero id="lord_bohemia_2j" faction="Faction.clan_bohemia_2"/>
+	<!-- endregion -->
+	<!-- region clan_bohemia_3: Pernštejnové -->
+	<Hero id="dead_lord_bohemia_8" alive="false" spouse="Hero.dead_lord_bohemia_9" faction="Faction.clan_bohemia_3"/>
+	<Hero id="dead_lord_bohemia_9" alive="false" spouse="Hero.dead_lord_bohemia_8" faction="Faction.clan_bohemia_3"/>
+	<Hero id="lord_bohemia_3a" father="Hero.dead_lord_bohemia_8" mother="Hero.dead_lord_bohemia_9" faction="Faction.clan_bohemia_3"/>
+	<Hero id="lord_bohemia_3b" father="Hero.dead_lord_bohemia_8" mother="Hero.dead_lord_bohemia_9" spouse="Hero.lord_bohemia_3c" faction="Faction.clan_bohemia_3"/>
+	<Hero id="lord_bohemia_3c" spouse="Hero.lord_bohemia_3b" faction="Faction.clan_bohemia_3"/>
+	<Hero id="lord_bohemia_3d" father="Hero.lord_bohemia_3b" mother="Hero.lord_bohemia_3c" faction="Faction.clan_bohemia_3"/>
+	<Hero id="lord_bohemia_3e" father="Hero.lord_bohemia_3b" mother="Hero.lord_bohemia_3c" faction="Faction.clan_bohemia_3"/>
+	<Hero id="lord_bohemia_3f" father="Hero.lord_bohemia_3b" mother="Hero.lord_bohemia_3c" faction="Faction.clan_bohemia_3"/>
+	<Hero id="lord_bohemia_3g" father="Hero.lord_bohemia_3b" mother="Hero.lord_bohemia_3c" faction="Faction.clan_bohemia_3"/>
+	<!-- endregion -->
+	<!-- region clan_bohemia_4 : Páni z Cimburka -->
+	<Hero id="dead_lord_bohemia_11" alive="false" spouse="Hero.dead_lord_bohemia_12" faction="Faction.clan_bohemia_4"/>
+	<Hero id="dead_lord_bohemia_12" alive="false" spouse="Hero.dead_lord_bohemia_11" faction="Faction.clan_bohemia_4"/>
+
+	<Hero id="lord_bohemia_4a" father="Hero.dead_lord_bohemia_11" mother="Hero.dead_lord_bohemia_11" spouse="Hero.lord_bohemia_4b" faction="Faction.clan_bohemia_4"/>
+	<Hero id="lord_bohemia_4b" spouse="Hero.lord_bohemia_4a" faction="Faction.clan_bohemia_4"/>
+	<Hero id="lord_bohemia_4c" father="Hero.lord_bohemia_4a" mother="Hero.lord_bohemia_4b" faction="Faction.clan_bohemia_4"/>
+
+	<Hero id="lord_bohemia_4e" father="Hero.dead_lord_bohemia_11" mother="Hero.dead_lord_bohemia_11" spouse="Hero.lord_bohemia_4f" faction="Faction.clan_bohemia_4"/>
+	<Hero id="lord_bohemia_4f" spouse="Hero.lord_bohemia_4e" faction="Faction.clan_bohemia_4"/>
+	<Hero id="lord_bohemia_4g" father="Hero.lord_bohemia_4e" mother="Hero.lord_bohemia_4f" faction="Faction.clan_bohemia_4"/>
+	<!-- endregion -->
+	<!-- region Pani z ruze -->
+	<!-- parents of clan 5-9 -->
+	<Hero id="dead_lord_bohemia_13" alive="false" spouse="Hero.dead_lord_bohemia_14" faction="Faction.clan_bohemia_5"/>
+	<Hero id="dead_lord_bohemia_14" alive="false" spouse="Hero.dead_lord_bohemia_13" faction="Faction.clan_bohemia_5"/>
+
+	<!-- clan_bohemia_5 : Páni z Krumlova -->
+	<Hero id="dead_lord_bohemia_15" alive="false" father="Hero.dead_lord_bohemia_13" mother="Hero.dead_lord_bohemia_14" spouse="Hero.dead_lord_bohemia_16" faction="Faction.clan_bohemia_5"/>
+	<Hero id="dead_lord_bohemia_16" alive="false" spouse="Hero.dead_lord_bohemia_15" faction="Faction.clan_bohemia_5"/>
+
+	<Hero id="dead_lord_bohemia_17" alive="false" father="Hero.dead_lord_bohemia_15" mother="Hero.dead_lord_bohemia_16" spouse="Hero.dead_lord_bohemia_18" faction="Faction.clan_bohemia_5"/>
+	<Hero id="dead_lord_bohemia_18" alive="false" spouse="Hero.dead_lord_bohemia_17" faction="Faction.clan_bohemia_5"/>
+
+	<Hero id="lord_bohemia_5a" father="Hero.dead_lord_bohemia_17" mother="Hero.dead_lord_bohemia_18" spouse="Hero.lord_bohemia_5b" faction="Faction.clan_bohemia_5"/>
+	<Hero id="lord_bohemia_5b" spouse="Hero.lord_bohemia_5a" faction="Faction.clan_bohemia_5"/>
+
+	<Hero id="lord_bohemia_5c" father="Hero.dead_lord_bohemia_17" mother="Hero.dead_lord_bohemia_18" spouse="Hero.lord_bohemia_5d" faction="Faction.clan_bohemia_5"/>
+	<Hero id="lord_bohemia_5d" spouse="Hero.lord_bohemia_5c" faction="Faction.clan_bohemia_5"/>
+
+	<!-- clan_bohemia_6 : Páni z Hradce -->
+	<Hero id="dead_lord_bohemia_19" alive="false" father="Hero.dead_lord_bohemia_13" mother="Hero.dead_lord_bohemia_14" spouse="Hero.dead_lord_bohemia_20" faction="Faction.clan_bohemia_6"/>
+	<Hero id="dead_lord_bohemia_20" alive="false" spouse="Hero.dead_lord_bohemia_19" faction="Faction.clan_bohemia_6"/>
+
+	<Hero id="lord_bohemia_6a" father="Hero.dead_lord_bohemia_19" mother="Hero.dead_lord_bohemia_20" spouse="Hero.lord_bohemia_6b" faction="Faction.clan_bohemia_6"/>
+	<Hero id="lord_bohemia_6b" spouse="Hero.lord_bohemia_6a" faction="Faction.clan_bohemia_6"/>
+
+	<Hero id="lord_bohemia_6c" father="Hero.dead_lord_bohemia_19" mother="Hero.dead_lord_bohemia_20" spouse="Hero.lord_bohemia_6d" faction="Faction.clan_bohemia_6"/>
+	<Hero id="lord_bohemia_6d" spouse="Hero.lord_bohemia_6c"  faction="Faction.clan_bohemia_6"/>
+	<Hero id="lord_bohemia_6e" father="Hero.lord_bohemia_6c" mother="Hero.lord_bohemia_6d" faction="Faction.clan_bohemia_6"/>
+	<Hero id="lord_bohemia_6g" father="Hero.lord_bohemia_6c" mother="Hero.lord_bohemia_6d" faction="Faction.clan_bohemia_6"/>
+
+	<Hero id="lord_bohemia_6h" father="Hero.dead_lord_bohemia_19" mother="Hero.dead_lord_bohemia_20" spouse="Hero.lord_bohemia_6i" faction="Faction.clan_bohemia_6"/>
+	<Hero id="lord_bohemia_6i" spouse="Hero.lord_bohemia_6h" faction="Faction.clan_bohemia_6"/>
+
+	<!-- clan_bohemia_7 : Páni z Rožmberka -->
+	<Hero id="dead_lord_bohemia_21" alive="false" father="Hero.dead_lord_bohemia_13" mother="Hero.dead_lord_bohemia_14" spouse="Hero.dead_lord_bohemia_22" faction="Faction.clan_bohemia_7"/>
+	<Hero id="dead_lord_bohemia_22" alive="false" spouse="Hero.dead_lord_bohemia_21" faction="Faction.clan_bohemia_7"/>
+
+	<Hero id="lord_bohemia_7a" father="Hero.dead_lord_bohemia_21" mother="Hero.dead_lord_bohemia_22" spouse="Hero.lord_bohemia_7b" faction="Faction.clan_bohemia_7"/>
+	<Hero id="lord_bohemia_7b" spouse="Hero.lord_bohemia_7a"  faction="Faction.clan_bohemia_7"/>
+
+	<Hero id="lord_bohemia_7c" father="Hero.dead_lord_bohemia_21" mother="Hero.dead_lord_bohemia_22" spouse="Hero.lord_bohemia_7d"  faction="Faction.clan_bohemia_7"/>
+	<Hero id="lord_bohemia_7d" spouse="Hero.lord_bohemia_7c"  faction="Faction.clan_bohemia_7"/>
+
+	<Hero id="lord_bohemia_7f" father="Hero.dead_lord_bohemia_21" mother="Hero.dead_lord_bohemia_22" spouse="Hero.lord_bohemia_7g" faction="Faction.clan_bohemia_7"/>
+	<Hero id="lord_bohemia_7g" spouse="Hero.lord_bohemia_7f" faction="Faction.clan_bohemia_7"/>
+	<Hero id="lord_bohemia_7h" father="Hero.lord_bohemia_7f" mother="Hero.lord_bohemia_7g" faction="Faction.clan_bohemia_7"/>
+
+	<!-- clan_bohemia_8 : Páni z Landštejna a Třeboně -->
+	<Hero id="dead_lord_bohemia_23" alive="false" father="Hero.dead_lord_bohemia_13" mother="Hero.dead_lord_bohemia_14" spouse="Hero.dead_lord_bohemia_24" faction="Faction.clan_bohemia_8"/>
+	<Hero id="dead_lord_bohemia_24" alive="false" spouse="Hero.dead_lord_bohemia_23" faction="Faction.clan_bohemia_8"/>
+
+	<Hero id="lord_bohemia_8a" father="Hero.dead_lord_bohemia_23" mother="Hero.dead_lord_bohemia_24" faction="Faction.clan_bohemia_8"/>
+	<Hero id="lord_bohemia_8b" father="Hero.dead_lord_bohemia_23" mother="Hero.dead_lord_bohemia_24" faction="Faction.clan_bohemia_8"/>
+	<Hero id="lord_bohemia_8g" father="Hero.dead_lord_bohemia_23" mother="Hero.dead_lord_bohemia_24" faction="Faction.clan_bohemia_8"/>
+
+	<!-- clan_bohemia_9 : Páni ze Sezema a Ústí -->
+	<Hero id="dead_lord_bohemia_25" alive="false" father="Hero.dead_lord_bohemia_13" mother="Hero.dead_lord_bohemia_14" spouse="Hero.dead_lord_bohemia_26" faction="Faction.clan_bohemia_9"/>
+	<Hero id="dead_lord_bohemia_26" alive="false" spouse="Hero.dead_lord_bohemia_25" faction="Faction.clan_bohemia_9"/>
+	<Hero id="lord_bohemia_9a" father="Hero.dead_lord_bohemia_25" mother="Hero.dead_lord_bohemia_26" faction="Faction.clan_bohemia_9"/>
+	<Hero id="lord_bohemia_9b" father="Hero.dead_lord_bohemia_25" mother="Hero.dead_lord_bohemia_26" faction="Faction.clan_bohemia_9"/>
+	<!-- endregion -->
+</Heroes>

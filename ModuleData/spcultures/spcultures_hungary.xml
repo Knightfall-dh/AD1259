@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SPCultures>
+	<Culture id="hungarian"
+	         name="{=hungarianCulture}Hungarian"
+	         is_main_culture="true"
+	         color="0xff3b6298"
+	         color2="0xfff3bb08"
+	         elite_basic_troop="NPCCharacter.hungary_elite_root"
+	         basic_troop="NPCCharacter.hungary_basic_root"
+	         melee_militia_troop="NPCCharacter.hungarian_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.hungarian_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.hungarian_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.hungarian_militia_veteran_archer"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_hungarian_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_HUNGARIAN_template"
+	         settlement_patrol_template_level_1="PartyTemplate.patrol_party_HUNGARIAN_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_HUNGARIAN_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_HUNGARIAN_template_level_3"
+	         encounter_background_mesh="encounter_hungarian"
+	         faction_banner_key="29.14.33.3142.1953.913.1103.1.0.0.505.14.116.1283.670.1315.475.0.0.0.505.14.116.930.738.367.1109.0.0.0.510.116.116.1800.18.764.764.0.0.90.510.116.116.1800.18.764.764.0.0.0.510.35.116.292.194.902.585.0.0.90.504.35.116.64.51.902.457.0.0.180.510.35.116.154.194.902.519.0.0.0.504.35.116.64.51.970.520.0.0.90.504.35.116.64.51.837.520.0.0.270.510.35.116.188.194.902.618.0.0.0.504.35.116.64.51.984.618.0.0.90.504.35.116.64.51.821.618.0.0.270.504.35.116.64.51.902.713.0.0.0.510.35.116.292.194.630.965.0.0.90.504.35.116.64.51.630.837.0.0.180.510.35.116.154.194.630.899.0.0.0.504.35.116.64.51.697.900.0.0.90.504.35.116.64.51.564.900.0.0.270.510.35.116.188.194.630.998.0.0.0.504.35.116.64.51.711.998.0.0.90.504.35.116.64.51.548.998.0.0.270.504.35.116.64.51.630.1093.0.0.0.503.2.116.100.130.630.1112.0.0.0.514.2.116.180.100.630.1130.0.0.0.505.14.116.180.48.630.1153.0.0.0.503.2.116.100.130.902.742.0.0.0.514.2.116.180.100.902.760.0.0.0.505.14.116.180.46.902.784.0.0.0"
+	         militia_party_template="PartyTemplate.militia_hungarian_template"
+	         rebels_party_template="PartyTemplate.rebels_hungarian_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_hungarian"
+	         text="{=hungarianCultureText}Unused in the game."
+	         tournament_master="NPCCharacter.tournament_master_hungarian"
+	         villager="NPCCharacter.villager_hungarian"
+	         caravan_master="NPCCharacter.caravan_master_hungarian"
+	         caravan_guard="NPCCharacter.caravan_guard_hungarian"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_hungarian"
+	         prison_guard="NPCCharacter.prison_guard_hungarian"
+	         guard="NPCCharacter.guard_hungarian"
+	         blacksmith="NPCCharacter.blacksmith_hungarian"
+	         weaponsmith="NPCCharacter.weaponsmith_hungarian"
+	         townswoman="NPCCharacter.townswoman_hungarian"
+	         townswoman_infant="NPCCharacter.townswoman_infant_hungarian"
+	         townswoman_child="NPCCharacter.townswoman_child_hungarian"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_hungarian"
+	         townsman="NPCCharacter.townsman_hungarian"
+	         townsman_infant="NPCCharacter.townsman_infant_hungarian"
+	         townsman_child="NPCCharacter.townsman_child_hungarian"
+	         townsman_teenager="NPCCharacter.townsman_teenager_hungarian"
+	         village_woman="NPCCharacter.village_woman_hungarian"
+	         villager_male_child="NPCCharacter.villager_child_hungarian"
+	         villager_male_teenager="NPCCharacter.villager_teenager_hungarian"
+	         villager_female_child="NPCCharacter.village_woman_child_hungarian"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_hungarian"
+	         ransom_broker="NPCCharacter.ransom_broker_hungarian"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_hungarian"
+	         merchant_notary="NPCCharacter.merchant_notary_hungarian"
+	         artisan_notary="NPCCharacter.artisan_notary_hungarian"
+	         preacher_notary="NPCCharacter.preacher_notary_hungarian"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_hungarian"
+	         shop_worker="NPCCharacter.shop_worker_hungarian"
+	         tavernkeeper="NPCCharacter.tavernkeeper_hungarian"
+	         taverngamehost="NPCCharacter.taverngamehost_hungarian"
+	         musician="NPCCharacter.musician_hungarian"
+	         tavern_wench="NPCCharacter.tavern_wench_hungarian"
+	         armorer="NPCCharacter.armorer_hungarian"
+	         horseMerchant="NPCCharacter.horseMerchant_hungarian"
+	         barber="NPCCharacter.barber_hungarian"
+	         merchant="NPCCharacter.merchant_hungarian"
+	         beggar="NPCCharacter.beggar_hungarian"
+	         female_beggar="NPCCharacter.female_beggar_hungarian"
+	         female_dancer="NPCCharacter.female_dancer_hungarian"
+	         default_battle_equipment_roster="EquipmentRoster.hungarian_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.hungarian_civ_template_default"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+	         duel_preset_equipment_roster="EquipmentRoster.vla_duel_preset_template"
+	         marriage_bride_equipment_roster="EquipmentRoster.marriage_female_hungarian_cutscene_template"
+	         board_game_type="BaghChal"
+	         default_character_creation_body_property="BodyProperty.default_character_creation_body_property_vlandia"
+	         start_point_position_x="585"
+	         start_point_position_y="1060">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_hungarian"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_hungarian"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls></available_ship_hulls>
+		<vassal_reward_items>
+			<item id="Item.vlandia_polearm_1_t5"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.khuzait_sword_1_t2"/>
+			<item id="Item.simple_sabre_sword_t2"/>
+			<item id="Item.AR_iltanlar_axe_t2"/>
+			<item id="Item.XIII_sword_4"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_feudal_inheritance"/>
+			<policy id="policy_bailiffs"/>
+		</default_policies>
+		<male_names>
+			<name name="{=QYqSGCZm}Abád"/>
+			<name name="{=IpdftUyk}Abod"/>
+			<name name="{=PJLUomqw}Abony"/>
+			<name name="{=qVmdOPEu}Abos"/>
+			<name name="{=aOphpiKk}Abosa"/>
+			<name name="{=QXrJBLVK}Agmánd"/>
+			<name name="{=TdzYvzig}Ajád"/>
+			<name name="{=sNtSurMl}Ajtony"/>
+			<name name="{=uypAkKXS}Ambos"/>
+			<name name="{=SxNkKQBS}Ambró"/>
+			<name name="{=cNVQZRPr}Andorjás"/>
+			<name name="{=KWDXkEqH}Apor"/>
+			<name name="{=PjxzZZXy}Árkos"/>
+			<name name="{=ZPivmbTu}Bács"/>
+			<name name="{=dWvqgoQr}Bácsa"/>
+			<name name="{=McEKiPPV}Bacsó"/>
+			<name name="{=hwvelqDm}Balár"/>
+			<name name="{=uhuttnAM}Balassa"/>
+			<name name="{=GfgJCGxx}Barót"/>
+			<name name="{=XygadlGS}Bartos"/>
+			<name name="{=uHMLmrYh}Bazsó"/>
+			<name name="{=SqRTsTKt}Benke"/>
+			<name name="{=qZYrDeZb}Benkő"/>
+			<name name="{=QddxcSYp}Bere"/>
+			<name name="{=OwuOOytW}Berény"/>
+			<name name="{=QWDIjrAX}Bodó"/>
+			<name name="{=ZnHbvEoJ}Bodor"/>
+			<name name="{=VtsmYzkC}Bojta"/>
+			<name name="{=KWPubLoE}Böngér"/>
+			<name name="{=pSxCucoY}Borbás"/>
+			<name name="{=bfmtefgH}Bottyán"/>
+			<name name="{=ICGDKROi}Cadarius"/>
+			<name name="{=NURMjCgG}Csák"/>
+			<name name="{=VQsXKkcS}Csana"/>
+			<name name="{=PeZWQJev}Csát"/>
+			<name name="{=EBEajNWD}Csatád"/>
+			<name name="{=SzzntJHg}Csató"/>
+			<name name="{=xheomBvR}Csege"/>
+			<name name="{=eZZuVTbE}Csegő"/>
+			<name name="{=HpUVnpdI}Cseke"/>
+			<name name="{=qSAOydWR}Csekő"/>
+			<name name="{=DNFYsMPz}Csepel"/>
+			<name name="{=GSfXjaWJ}Cserjén"/>
+			<name name="{=bSDCzuPi}Csobád"/>
+			<name name="{=FFLjQsHp}Csolt"/>
+			<name name="{=pbITDKdx}Csomor"/>
+			<name name="{=uQWdMlxs}Dakó"/>
+			<name name="{=ujVPemPv}Dános"/>
+			<name name="{=vCiGOZlP}Dejte"/>
+			<name name="{=vRlHQFQa}Demény"/>
+			<name name="{=iOWdSsYI}Dienes"/>
+			<name name="{=oTsJtliX}Dókus"/>
+			<name name="{=SsZOAQQF}Dömös"/>
+			<name name="{=wEhODmEc}Domos"/>
+			<name name="{=cSlmiAjC}Dózsa"/>
+			<name name="{=zSOlFrzu}Ellák"/>
+			<name name="{=DjSpXgsf}Ernák"/>
+			<name name="{=vrrvTArC}Ernye"/>
+			<name name="{=emLZyOXn}Erős"/>
+			<name name="{=EVhkAPpy}Etre"/>
+			<name name="{=EJAmAzjg}Fajsz"/>
+			<name name="{=ldhZaQmF}Folkus"/>
+			<name name="{=BvjPMTUB}Fóris"/>
+			<name name="{=rTgQKbvm}Gálos"/>
+			<name name="{=mwWALhRB}Gécsa"/>
+			<name name="{=gJqypuNr}Gejza"/>
+			<name name="{=IBHAymeI}Gellén Geréb"/>
+			<name name="{=nZIKLHRN}Gerő"/>
+			<name name="{=GksgaiAv}Girót"/>
+			<name name="{=fAWaBJqP}Gyécsa"/>
+			<name name="{=KxuaRdol}Gyenes"/>
+			<name name="{=cHbEibjh}Gyoma"/>
+			<name name="{=wlGddnwZ}Györe"/>
+			<name name="{=DzgLjZeq}Györke"/>
+			<name name="{=cvEpPhio}Harkány"/>
+			<name name="{=kHngMrJi}Horka"/>
+			<name name="{=vJZTLLVA}Ibrány"/>
+			<name name="{=qqcYWfeL}Ipoly"/>
+			<name name="{=VVoaCwmZ}Irnik"/>
+			<name name="{=IzigmACC}Jákó"/>
+			<name name="{=WKLgaxHv}Jakus"/>
+			<name name="{=pYPnfSXc}Janka"/>
+			<name name="{=KdhtgxpC}Járfás"/>
+			<name name="{=rNpKLETh}Jelek"/>
+			<name name="{=GBgjlrvm}Jutas"/>
+			<name name="{=CmayVcDq}Jutocsa"/>
+			<name name="{=BKsSSJth}Kaba"/>
+			<name name="{=zATOqpby}Kada"/>
+			<name name="{=zKzjIGSG}Kadicsa"/>
+			<name name="{=ETHvsVpc}Kadisa"/>
+			<name name="{=CFTWwjar}Kadocsa"/>
+			<name name="{=qskKgHGp}Kadosa"/>
+			<name name="{=KNmRBIJb}Kál"/>
+			<name name="{=XutaDjga}Kán"/>
+			<name name="{=IsvzKoci}Kaplon"/>
+			<name name="{=GdfdoAQV}Kaplony"/>
+			<name name="{=cqQnvVxA}Kapolcs"/>
+			<name name="{=TMUrewVs}Kara"/>
+			<name name="{=AirVJdBI}Karád"/>
+			<name name="{=xOkdQQeE}Kármán"/>
+			<name name="{=bNkqvprW}Karsa"/>
+			<name name="{=lNDJsGgL}Kartal"/>
+			<name name="{=UulCHFfB}Katapán"/>
+			<name name="{=mbSrgcvK}Kelemér"/>
+			<name name="{=xWwgYonK}Kelen"/>
+			<name name="{=uQszFMEs}Kemenes"/>
+			<name name="{=dPxLaKzL}Kenese"/>
+			<name name="{=KihChFch}Kenéz"/>
+			<name name="{=cbcUhGBs}Keresztély"/>
+			<name name="{=yGjfkBAU}Keresztes"/>
+			<name name="{=lKEiTVDB}Keszi"/>
+			<name name="{=nVHemehO}Kesző"/>
+			<name name="{=uyJLLGPU}Kilény"/>
+			<name name="{=YMpafJXp}Kolta"/>
+			<name name="{=pGocsJay}Kont"/>
+			<name name="{=DQAxqrUO}Kósa"/>
+			<name name="{=BhHYRaAj}Kötöny"/>
+			<name name="{=kappIEzC}Kund"/>
+			<name name="{=lDYbDSpi}Kurd"/>
+			<name name="{=ByFIXRuJ}Kurszán"/>
+			<name name="{=ciKKJKkC}Laborc"/>
+			<name name="{=TwqeYwZP}Ladomér"/>
+			<name name="{=OdbQZdan}Lándor"/>
+			<name name="{=GyOOewlf}Lázó"/>
+			<name name="{=QrxmKsIE}Levéd"/>
+			<name name="{=yrXwHHvX}Levedi"/>
+			<name name="{=ykHvKxMf}Megyer"/>
+			<name name="{=atGzJuNl}Merse"/>
+			<name name="{=tMyPeNdn}Nyék"/>
+			<name name="{=HYdYQatf}Oguz"/>
+			<name name="{=jbFOlYko}Oktár"/>
+			<name name="{=tklVhyJG}Oldamur"/>
+			<name name="{=jFuyOcdf}Ond"/>
+			<name name="{=HkJYIfVI}Örkény"/>
+			<name name="{=gCjonCXI}Örkönd"/>
+			<name name="{=rGcrtWcl}Oszlár"/>
+			<name name="{=pcKJwfFa}Ozor"/>
+			<name name="{=cbbMmIpE}Ozsvát"/>
+			<name name="{=chFURgaZ}Patony"/>
+			<name name="{=nKxMnVwp}Pázmán"/>
+			<name name="{=ZlizbeZB}Pelbárt"/>
+			<name name="{=xjHlHZWm}Pentele"/>
+			<name name="{=OmAixwQv}Pető"/>
+			<name name="{=ZvZvUWIq}Pétör"/>
+			<name name="{=kzCsJfIL}Petres"/>
+			<name name="{=RqiUocIF}Pongor"/>
+			<name name="{=hqtxBcvh}Pósa"/>
+			<name name="{=hHjlNBEA}Radvány"/>
+			<name name="{=TNGHNQZm}Ráfis"/>
+			<name name="{=ALiaqRal}Rápolt"/>
+			<name name="{=QbmTNZWy}Rátold"/>
+			<name name="{=okdAobpy}Rázsony"/>
+			<name name="{=zULDFptJ}Rézmán"/>
+			<name name="{=mgFfTaWs}Sebők"/>
+			<name name="{=EAEGKZDg}Semjén"/>
+			<name name="{=tXtraIoo}Solt"/>
+			<name name="{=IxEDdswy}Sükösd"/>
+			<name name="{=aNMzqXdz}Surány"/>
+			<name name="{=MXVFpzsf}Surd"/>
+			<name name="{=dlQiCseB}Szalárd"/>
+			<name name="{=atGzJuNl}Szatmár"/>
+			<name name="{=tMyPeNdn}zecső"/>
+			<name name="{=HYdYQatf}Szelemér"/>
+			<name name="{=jbFOlYko}Szeveréd"/>
+			<name name="{=tklVhyJG}Szilamér"/>
+			<name name="{=jFuyOcdf}Szólát"/>
+			<name name="{=HkJYIfVI}Szórád"/>
+			<name name="{=gCjonCXI}Szörénd"/>
+			<name name="{=rGcrtWcl}Szörény"/>
+			<name name="{=pcKJwfFa}Szovát"/>
+			<name name="{=cbbMmIpE}Taksony"/>
+			<name name="{=chFURgaZ}Talabér"/>
+			<name name="{=nKxMnVwp}Talabor"/>
+			<name name="{=ZlizbeZB}Táltos"/>
+			<name name="{=xjHlHZWm}Tarcsa"/>
+			<name name="{=OmAixwQv}Tarhos"/>
+			<name name="{=ZvZvUWIq}Tarján"/>
+			<name name="{=kzCsJfIL}Tárkány"/>
+			<name name="{=RqiUocIF}Tarsa"/>
+			<name name="{=hqtxBcvh}Tege"/>
+			<name name="{=hHjlNBEA}Tétény"/>
+			<name name="{=TNGHNQZm}Ulászló"/>
+			<name name="{=ALiaqRal}Üllő"/>
+			<name name="{=QbmTNZWy}Uzon"/>
+			<name name="{=okdAobpy}Vajk"/>
+			<name name="{=zULDFptJ}Vitályos"/>
+			<name name="{=mgFfTaWs}Zoárd"/>
+			<name name="{=EAEGKZDg}Zottmund"/>
+			<name name="{=tXtraIoo}Zsadány"/>
+			<name name="{=IxEDdswy}Zuárd"/>
+		</male_names>
+		<female_names>
+			<name name="{=TWzVEfYl}Adelhaid"/>
+			<name name="{=AmUFsmUl}Aglent"/>
+			<name name="{=uVbEJiwT}Cheperka"/>
+			<name name="{=ncKgFMSp}Csabánka"/>
+			<name name="{=zLDUVXtY}Csaga"/>
+			<name name="{=dGtpRWkt}Csepke"/>
+			<name name="{=pNixYviz}Emelev"/>
+			<name name="{=jMSibLok}Enet"/>
+			<name name="{=vputWxoS}Eneth"/>
+			<name name="{=aGCeUiuH}Eperjes"/>
+			<name name="{=fcNRmHsn}Fehér"/>
+			<name name="{=NthqdMwM}Fenenna"/>
+			<name name="{=dzIhhAPx}Firéne"/>
+			<name name="{=amyVPEni}Gyung"/>
+			<name name="{=yCVYnWEY}Ilega"/>
+			<name name="{=aBkNBzFY}Irisko"/>
+			<name name="{=oJqRtmZI}Jánka"/>
+			<name name="{=IvZpMkiD}Jóleán"/>
+			<name name="{=ApXHvoBt}Jolenth"/>
+			<name name="{=spEvTIpS}Józsa"/>
+			<name name="{=mVTWTeze}Kalára"/>
+			<name name="{=lNOHViOD}Mandula"/>
+			<name name="{=buVnelMv}Manga"/>
+			<name name="{=ulggzlnY}Mikolt"/>
+			<name name="{=tPbBwTeA}Mizla"/>
+			<name name="{=EwTMoJQA}Moxa"/>
+			<name name="{=FFQSDYKP}Nyest"/>
+			<name name="{=WOETzoYZ}Odola"/>
+			<name name="{=GudgzKAV}Pettronella"/>
+			<name name="{=LsOzlyYK}Pyrito"/>
+			<name name="{=DNDVFuVd}Pyrohta"/>
+			<name name="{=lAWdmZWh}Színes"/>
+			<name name="{=sldjetnC}Szinta"/>
+			<name name="{=zUFwSizC}Szironka"/>
+			<name name="{=wksnEKhg}Wyola"/>
+			<name name="{=NtnrXIhK}Zaleska"/>
+			<name name="{=wwumCZLy}Anasztázia"/>
+			<name name="{=hZdJBSwX}Anna"/>
+			<name name="{=ETdxoNvu}Adél"/>
+			<name name="{=ZbnOSYXA}Agáta"/>
+			<name name="{=DphHDKsl}Antónia"/>
+			<name name="{=XGaQATYW}Borbála"/>
+			<name name="{=zveGPPzu}Dorottya"/>
+			<name name="{=XoTGiXgI}Eufrozina"/>
+			<name name="{=pOJZLiIj}Éva"/>
+			<name name="{=QBMiwEox}Heléna"/>
+			<name name="{=IlIHAoXh}Elena"/>
+			<name name="{=EQRkQxgV}Ilona"/>
+			<name name="{=PQrCGARh}Judit"/>
+			<name name="{=VHiOZsib}Júlia"/>
+			<name name="{=VYlQxiyD}Katalin"/>
+			<name name="{=ctMcKnNI}Kató"/>
+			<name name="{=amBlXsPf}Klára"/>
+			<name name="{=ygIPBsmA}Margaréta"/>
+			<name name="{=IaKDYszF}Márta"/>
+			<name name="{=yJJqYRTh}Priszcilla"/>
+			<name name="{=YvTcVriZ}Piroska"/>
+			<name name="{=POKICbXX}Petrónia"/>
+			<name name="{=qOuhIEII}Zsófia"/>
+			<name name="{=dAJWZQxb}Terézia"/>
+			<name name="{=YygafngV}Zsuzsanna"/>
+		</female_names>
+		<clan_names>
+			<name name="{=cZSAoysa}de Jazow"/>
+			<name name="{=cZSAoysa}de Puthnok"/>
+			<name name="{=cZSAoysa}de Ruzka"/>
+			<name name="{=cZSAoysa}de Sebes"/>
+			<name name="{=cZSAoysa}de Siroka"/>
+			<name name="{=cZSAoysa}Csirke"/>
+			<name name="{=cZSAoysa}Fogas"/>
+			<name name="{=cZSAoysa}Gombos"/>
+			<name name="{=cZSAoysa}Kakas"/>
+			<name name="{=cZSAoysa}Orosz"/>
+			<name name="{=cZSAoysa}Orros"/>
+			<name name="{=cZSAoysa}Porkoláb"/>
+			<name name="{=cZSAoysa}Székely"/>
+			<name name="{=cZSAoysa}Tompa"/>
+			<name name="{=cZSAoysa}Zsoldos"/>
+		</clan_names>
+		<cultural_feats>
+			<feat id="empire_decreased_garrison_wage"/>
+			<feat id="aserai_cheaper_caravans"/>
+			<feat id="battanian_slower_construction"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="112"/>
+			<icon id="113"/>
+			<icon id="114"/>
+			<icon id="115"/>
+			<icon id="116"/>
+			<icon id="117"/>
+			<icon id="118"/>
+			<icon id="132"/>
+			<icon id="138"/>
+			<icon id="139"/>
+			<icon id="307"/>
+			<icon id="331"/>
+			<icon id="407"/>
+			<icon id="408"/>
+			<icon id="409"/>
+			<icon id="410"/>
+			<icon id="439"/>
+			<icon id="440"/>
+			<icon id="441"/>
+			<icon id="442"/>
+			<icon id="443"/>
+			<icon id="444"/>
+			<icon id="445"/>
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_hungarian_0"/>
+			<template name="NPCCharacter.spc_notable_hungarian_0b"/>
+			<template name="NPCCharacter.spc_notable_hungarian_1"/>
+			<template name="NPCCharacter.spc_notable_hungarian_2"/>
+			<template name="NPCCharacter.spc_notable_hungarian_2b"/>
+			<template name="NPCCharacter.spc_notable_hungarian_3"/>
+			<template name="NPCCharacter.spc_notable_hungarian_3b"/>
+			<template name="NPCCharacter.spc_notable_hungarian_3c"/>
+			<template name="NPCCharacter.spc_notable_hungarian_4"/>
+			<template name="NPCCharacter.spc_notable_hungarian_5"/>
+			<template name="NPCCharacter.spc_notable_hungarian_6"/>
+			<template name="NPCCharacter.spc_notable_hungarian_7"/>
+			<template name="NPCCharacter.spc_notable_hungarian_8"/>
+			<template name="NPCCharacter.spc_notable_hungarian_9"/>
+			<template name="NPCCharacter.spc_notable_hungarian_10"/>
+			<template name="NPCCharacter.spc_hungarian_headman_1"/>
+			<template name="NPCCharacter.spc_hungarian_headman_2"/>
+			<template name="NPCCharacter.spc_hungarian_headman_3"/>
+		</notable_templates>
+		<lord_templates>
+			<template name="NPCCharacter.hungarian_autogenerated_lord1"/>
+			<template name="NPCCharacter.hungarian_autogenerated_lord2"/>
+			<template name="NPCCharacter.hungarian_autogenerated_lord3"/>
+			<template name="NPCCharacter.hungarian_autogenerated_lord4"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.hungarian_autogenerated_lord1"/>
+			<template name="NPCCharacter.hungarian_autogenerated_lord2"/>
+			<template name="NPCCharacter.hungarian_autogenerated_lord3"/>
+			<template name="NPCCharacter.hungarian_autogenerated_lord4"/>
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_hungarian_one_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_hungarian_one_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_hungarian_one_participant_set_v3"/>
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_hungarian_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_hungarian_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_hungarian_two_participant_set_v3"/>
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_hungarian_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_hungarian_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_hungarian_four_participant_set_v3"/>
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+            <template name="NPCCharacter.merc_balkan_archer1"/>
+            <template name="NPCCharacter.merc_balkan_axe1"/>
+            <template name="NPCCharacter.merc_balkan_spear1"/>
+            <template name="NPCCharacter.merc_manhunter_root"/>
+            <template name="NPCCharacter.merc_euro_spearman"/>
+            <template name="NPCCharacter.merc_euro_guisarmer"/>
+            <template name="NPCCharacter.merc_euro_crossbowman"/>
+            <template name="NPCCharacter.merc_euro_horseman"/>
+            <template name="NPCCharacter.merc_alan_1"/>
+            <template name="NPCCharacter.merc_alan_2"/>
+        </basic_mercenary_troops>
+	</Culture>
+</SPCultures>

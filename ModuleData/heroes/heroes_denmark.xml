@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- Kingdom of Denmark -->
+	<!-- clan 1: Huset Estridsen -->
+	<Hero id="dead_lord_denmark_1" alive="false" spouse="Hero.dead_lord_denmark_4" faction="Faction.clan_denmark_1"/>
+	<Hero id="dead_lord_denmark_2" alive="false" spouse="Hero.dead_lord_denmark_1" faction="Faction.clan_denmark_1"/>
+	<Hero id="dead_lord_denmark_3" alive="false" father="Hero.dead_lord_denmark_1" mother="Hero.dead_lord_denmark_2" faction="Faction.clan_denmark_1"/>
+	<Hero id="dead_lord_denmark_4" alive="false" spouse="Hero.dead_lord_denmark_1" faction="Faction.clan_denmark_1"/>
+	<Hero id="dead_lord_denmark_5" alive="false" spouse="Hero.lord_denmark_1_1" father="Hero.dead_lord_denmark_1" mother="Hero.dead_lord_denmark_4" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_1" spouse="Hero.dead_lord_denmark_5" faction="Faction.clan_denmark_1"/>
+	
+	<!-- link to swedish king-->
+	<Hero id="lord_denmark_1_1_1" spouse="Hero.lord_swedish_1_1" father="Hero.dead_lord_denmark_5" mother="Hero.lord_denmark_1_1" faction="Faction.clan_denmark_1"/>
+	
+	<Hero id="lord_denmark_1_1_2" father="Hero.dead_lord_denmark_5" mother="Hero.lord_denmark_1_1" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_1_3" father="Hero.dead_lord_denmark_5" mother="Hero.lord_denmark_1_1" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_1_4" father="Hero.dead_lord_denmark_5" mother="Hero.lord_denmark_1_1" faction="Faction.clan_denmark_1"/>
+	<Hero id="dead_lord_denmark_6" alive="false" spouse="Hero.lord_denmark_1_2" father="Hero.dead_lord_denmark_1" mother="Hero.dead_lord_denmark_4" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_2" spouse="Hero.dead_lord_denmark_6" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_2_1" father="Hero.dead_lord_denmark_6" mother="Hero.lord_denmark_1_2" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_2_2" spouse="Hero.lord_denmark_1_2_2_1" father="Hero.dead_lord_denmark_6" mother="Hero.lord_denmark_1_2" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_2_2_1" spouse="Hero.lord_denmark_1_2_2" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_2_3" father="Hero.dead_lord_denmark_6" mother="Hero.lord_denmark_1_2" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_3" spouse="Hero.lord_denmark_1_3_1" father="Hero.dead_lord_denmark_1" mother="Hero.dead_lord_denmark_4" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_3_1" spouse="Hero.lord_denmark_1_3" father="Hero.lord_poland_4_2" mother="Hero.lord_poland_4_2_1" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_3_2" father="Hero.lord_denmark_1_3" mother="Hero.lord_denmark_1_3_1" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_3_3" father="Hero.lord_denmark_1_3" mother="Hero.lord_denmark_1_3_1" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_3_4" father="Hero.lord_denmark_1_3" mother="Hero.lord_denmark_1_3_1" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_7" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_8" spouse="Hero.lord_denmark_1_8_1" faction="Faction.clan_denmark_1"/>
+	<Hero id="lord_denmark_1_8_1" spouse="Hero.lord_denmark_1_8" faction="Faction.clan_denmark_1"/>
+
+	<!-- clan 2: Huset Galen -->
+	<Hero id="dead_lord_denmark_7" alive="false" spouse="Hero.dead_lord_denmark_8" faction="Faction.clan_denmark_2"/>
+	<Hero id="dead_lord_denmark_8" alive="false" spouse="Hero.dead_lord_denmark_7" faction="Faction.clan_denmark_2"/>
+	<Hero id="lord_denmark_2a" spouse="Hero.lord_denmark_2h" father="Hero.dead_lord_denmark_7" mother="Hero.dead_lord_denmark_8" faction="Faction.clan_denmark_2"/>
+	<Hero id="lord_denmark_2b" spouse="Hero.lord_denmark_2i" father="Hero.dead_lord_denmark_7" mother="Hero.dead_lord_denmark_8" faction="Faction.clan_denmark_2"/>
+	<Hero id="lord_denmark_2c" spouse="Hero.lord_denmark_5c" father="Hero.dead_lord_denmark_7" mother="Hero.dead_lord_denmark_8" faction="Faction.clan_denmark_2"/>
+	<Hero id="lord_denmark_2d" spouse="Hero.lord_denmark_2j" father="Hero.dead_lord_denmark_7" mother="Hero.dead_lord_denmark_8" faction="Faction.clan_denmark_2"/>
+	<Hero id="lord_denmark_2e" spouse="Hero.lord_denmark_2k" father="Hero.dead_lord_denmark_7" mother="Hero.dead_lord_denmark_8" faction="Faction.clan_denmark_2"/>
+	<Hero id="lord_denmark_2f" father="Hero.dead_lord_denmark_7" mother="Hero.dead_lord_denmark_8" faction="Faction.clan_denmark_2"/>
+	<Hero id="lord_denmark_2g" father="Hero.dead_lord_denmark_7" mother="Hero.dead_lord_denmark_8" faction="Faction.clan_denmark_2"/>
+
+	<Hero id="lord_denmark_2h" spouse="Hero.lord_denmark_2a" faction="Faction.clan_denmark_2"/>
+	<Hero id="lord_denmark_2i" spouse="Hero.lord_denmark_2b" faction="Faction.clan_denmark_2"/>
+	<Hero id="lord_denmark_2j" spouse="Hero.lord_denmark_2d" faction="Faction.clan_denmark_2"/>
+	<Hero id="lord_denmark_2k" spouse="Hero.lord_denmark_2e" faction="Faction.clan_denmark_2"/>
+
+	<Hero id="lord_denmark_2l" father="Hero.lord_denmark_2a" mother="Hero.lord_denmark_2h" faction="Faction.clan_denmark_2"/>
+	<Hero id="lord_denmark_2m" father="Hero.lord_denmark_2c" mother="Hero.lord_denmark_5c" spouse="Hero.lord_denmark_4a" faction="Faction.clan_denmark_2"/>
+	<Hero id="lord_denmark_2n" father="Hero.lord_denmark_2c" mother="Hero.lord_denmark_5c" faction="Faction.clan_denmark_2"/>
+	<Hero id="lord_denmark_2o" father="Hero.lord_denmark_2d" mother="Hero.lord_denmark_2j" faction="Faction.clan_denmark_2"/>
+
+	<!-- clan 3: Huset Gyldenstierne -->
+	<Hero id="lord_denmark_3a" spouse="Hero.lord_denmark_3b" faction="Faction.clan_denmark_3"/>
+	<Hero id="lord_denmark_3b" spouse="Hero.lord_denmark_3a" faction="Faction.clan_denmark_3"/>
+	<Hero id="lord_denmark_3c" father="Hero.lord_denmark_3a" mother="Hero.lord_denmark_3b" faction="Faction.clan_denmark_3"/>
+	<Hero id="lord_denmark_3d" father="Hero.lord_denmark_3a" mother="Hero.lord_denmark_3b" faction="Faction.clan_denmark_3"/>
+
+	<!-- clan 4: Huset Kalf -->
+	<Hero id="lord_denmark_4a" spouse="Hero.lord_denmark_2m" faction="Faction.clan_denmark_4"/>
+	<Hero id="lord_denmark_4b" father="Hero.lord_denmark_4a" mother="Hero.lord_denmark_2m" faction="Faction.clan_denmark_4"/>
+	<Hero id="lord_denmark_4c" father="Hero.lord_denmark_4a" mother="Hero.lord_denmark_2m" faction="Faction.clan_denmark_4"/>
+	<Hero id="lord_denmark_4d" father="Hero.lord_denmark_4a" mother="Hero.lord_denmark_2m" faction="Faction.clan_denmark_4"/>
+
+	<!-- clan 5: Huset Strange-Ulfeldt -->
+	<Hero id="lord_denmark_5a" alive="false" spouse="Hero.lord_denmark_5b" faction="Faction.clan_denmark_5"/>
+	<Hero id="lord_denmark_5b" spouse="Hero.lord_denmark_5a" faction="Faction.clan_denmark_5"/>
+	<Hero id="lord_denmark_5c" father="Hero.lord_denmark_5a" mother="Hero.lord_denmark_5b" spouse="Hero.lord_denmark_2c" faction="Faction.clan_denmark_5"/>
+
+	<!-- clan 6: Huset Rani -->
+	<Hero id="lord_denmark_6a" spouse="Hero.lord_denmark_6b" faction="Faction.clan_denmark_6"/>
+	<Hero id="lord_denmark_6b" spouse="Hero.lord_denmark_6a" faction="Faction.clan_denmark_6"/>
+	<Hero id="lord_denmark_6c" father="Hero.lord_denmark_6a" mother="Hero.lord_denmark_6b" faction="Faction.clan_denmark_6"/>
+	<Hero id="lord_denmark_6d" father="Hero.lord_denmark_6a" mother="Hero.lord_denmark_6b" faction="Faction.clan_denmark_6"/>
+	<Hero id="lord_denmark_6e" father="Hero.lord_denmark_6a" mother="Hero.lord_denmark_6b" faction="Faction.clan_denmark_6"/>
+
+	<!-- clan 7: Huset Skarsholm -->
+	<!-- Svantepolk Knutsson Viby and his father Knut Valdemarsson, whose mother was Helena Guttormsdotter (mistress of Valdemar II of Denmark, hence illegitimate line). -->
+	<Hero id="lord_denmark_7a" spouse="Hero.lord_poland_8x" faction="Faction.clan_denmark_7"/>
+	
+	<!-- link to sweden clan 9-->
+	<Hero id="lord_denmark_7b" father="Hero.lord_denmark_7a" mother="Hero.lord_poland_8x" spouse="Hero.lord_sweden_10b" faction="Faction.clan_denmark_7"/>
+	
+	
+	<!-- 3 of many children of Svantepolk Knutsson Viby -->
+	<Hero id="lord_denmark_7c" father="Hero.lord_denmark_7b" mother="Hero.lord_sweden_10b" faction="Faction.clan_denmark_7"/>
+	<Hero id="lord_denmark_7d" father="Hero.lord_denmark_7b" mother="Hero.lord_sweden_10b" faction="Faction.clan_denmark_7"/>
+	<Hero id="lord_denmark_7e" father="Hero.lord_denmark_7b" mother="Hero.lord_sweden_10b" faction="Faction.clan_denmark_7"/>
+	<!-- Sister of Svantepolk Knutsson Viby and her husband -->
+	<Hero id="lord_denmark_7f" father="Hero.lord_denmark_7a" mother="Hero.lord_poland_8x" spouse="Hero.lord_denmark_7g" faction="Faction.clan_denmark_7"/>
+	<Hero id="lord_denmark_7g" spouse="Hero.lord_denmark_7f" faction="Faction.clan_denmark_7"/>
+	<!-- Brother of Svantepolk Knutsson Viby -->
+	<Hero id="lord_denmark_7h" father="Hero.lord_denmark_7a" mother="Hero.lord_poland_8x" faction="Faction.clan_denmark_7"/>
+</Heroes>
