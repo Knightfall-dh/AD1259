@@ -295,7 +295,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region Crown of Castille : Castilian culture-->
-  <Settlement id="castle_gomara" name="{=castle_gomara_name}Gomara Castle" owner="Faction.clan_england_1" posX="194.991" posY="882.365" culture="Culture.england" gate_posX="195.9845" gate_posY="883.3239">
+  <Settlement id="castle_gomara" name="{=castle_gomara_name}Gomara Castle" owner="Faction.clan_castile_1" posX="194.991" posY="882.365" culture="Culture.castile" gate_posX="195.9845" gate_posY="883.3239">
     <Components>
       <Town id="castle_comp_gomara" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_town_castile" wait_mesh="wait_castile_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -320,7 +320,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_gomara_soria" name="{=castle_gomara_soria_name}Soria" posX="175.041" posY="887.937" culture="Culture.england" text="{=castle_gomara_soria_text}Soria text...">
+  <Settlement id="castle_gomara_soria" name="{=castle_gomara_soria_name}Soria" posX="175.041" posY="887.937" culture="Culture.castile" text="{=castle_gomara_soria_text}Soria text...">
     <Components>
       <Village id="castle_comp_gomara_soria" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_gomara" background_crop_position="0.0" background_mesh="gui_bg_village_castile" wait_mesh="wait_castile_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>
@@ -333,7 +333,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_toledo" name="{=town_toledo_name}Toledo" owner="Faction.clan_england_1" posX="166.172" posY="842.874" culture="Culture.england" gate_posX="167.9468" gate_posY="845.0722" text="{=town_toledo_text}Toledo text...">
+  <Settlement id="town_toledo" name="{=town_toledo_name}Toledo" owner="Faction.clan_castile_1" posX="166.172" posY="842.874" culture="Culture.castile" gate_posX="167.9468" gate_posY="845.0722" text="{=town_toledo_text}Toledo text...">
     <Components>
       <Town id="town_comp_toledo" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_castile" wait_mesh="wait_castile_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -369,7 +369,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_toledo_torrijos" name="{=town_toledo_torrijos_name}Torrijos" posX="156.341" posY="844.382" culture="Culture.england" text="{=town_toledo_torrijos_text}Torrijos text...">
+  <Settlement id="town_toledo_torrijos" name="{=town_toledo_torrijos_name}Torrijos" posX="156.341" posY="844.382" culture="Culture.castile" text="{=town_toledo_torrijos_text}Torrijos text...">
     <Components>
       <Village id="town_comp_toledo_torrijos" village_type="VillageType.vineyard" hearth="400" bound="Settlement.town_toledo" background_crop_position="0.0" background_mesh="gui_bg_village_castile" wait_mesh="wait_castile_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>
@@ -382,7 +382,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_toledo_talavera" name="{=town_toledo_talavera_name}Talavera" posX="137.357" posY="837.765" culture="Culture.england" text="{=town_toledo_talavera_text}Talavera text...">
+  <Settlement id="town_toledo_talavera" name="{=town_toledo_talavera_name}Talavera" posX="137.357" posY="837.765" culture="Culture.castile" text="{=town_toledo_talavera_text}Talavera text...">
     <Components>
       <Village id="town_comp_toledo_talavera" village_type="VillageType.silver_mine" hearth="400" bound="Settlement.town_toledo" background_crop_position="0.0" background_mesh="gui_bg_village_castile" wait_mesh="wait_castile_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>
@@ -395,7 +395,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_niebla" name="{=castle_niebla_name}Niebla Castle" owner="Faction.clan_england_1" posX="126.643" posY="781.042" culture="Culture.england" gate_posX="125.5159" gate_posY="781.832">
+  <Settlement id="castle_niebla" name="{=castle_niebla_name}Niebla Castle" owner="Faction.clan_castile_1" posX="126.643" posY="781.042" culture="Culture.castile" gate_posX="125.5159" gate_posY="781.832">
     <Components>
       <Town id="castle_comp_niebla" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_castile" wait_mesh="wait_castile_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -420,7 +420,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_niebla_huelva" name="{=castle_niebla_huelva_name}Huelva" posX="123.168" posY="774.799" culture="Culture.england" text="{=castle_niebla_huelva_text}Huelva text...">
+  <Settlement id="castle_niebla_huelva" name="{=castle_niebla_huelva_name}Huelva" posX="123.168" posY="774.799" culture="Culture.castile" text="{=castle_niebla_huelva_text}Huelva text...">
     <Components>
       <Village id="castle_comp_niebla_huelva" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_niebla" background_crop_position="0.0" background_mesh="gui_bg_castile_castile" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>
@@ -433,7 +433,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_niebla_zafra" name="{=castle_niebla_zafra_name}Zafra" posX="130.709" posY="796.715" culture="Culture.england" text="{=castle_niebla_zafra_text}Zafra text...">
+  <Settlement id="castle_niebla_zafra" name="{=castle_niebla_zafra_name}Zafra" posX="130.709" posY="796.715" culture="Culture.castile" text="{=castle_niebla_zafra_text}Zafra text...">
     <Components>
       <Village id="castle_comp_niebla_zafra" village_type="VillageType.desert_horse_ranch" hearth="400" bound="Settlement.castle_niebla" background_crop_position="0.0" background_mesh="gui_bg_village_castile" wait_mesh="wait_castile_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>
@@ -446,7 +446,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_tiedra" name="{=castle_tiedra_name}Tiedra Castle" owner="Faction.clan_england_1" posX="132.471" posY="860.937" culture="Culture.england" gate_posX="133.1967" gate_posY="861.2522">
+  <Settlement id="castle_tiedra" name="{=castle_tiedra_name}Tiedra Castle" owner="Faction.clan_castile_1" posX="132.471" posY="860.937" culture="Culture.castile" gate_posX="133.1967" gate_posY="861.2522">
     <Components>
       <Town id="castle_comp_tiedra" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_castile" wait_mesh="wait_castile_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -471,7 +471,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tiedra_salamanca" name="{=castle_tiedra_salamanca_name}Salamanca" posX="114.757" posY="850.765" culture="Culture.england" text="{=castle_tiedra_salamanca_text}Salamanca text...">
+  <Settlement id="castle_tiedra_salamanca" name="{=castle_tiedra_salamanca_name}Salamanca" posX="114.757" posY="850.765" culture="Culture.castile" text="{=castle_tiedra_salamanca_text}Salamanca text...">
     <Components>
       <Village id="castle_comp_tiedra_salamanca" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.castle_tiedra" background_crop_position="0.0" background_mesh="gui_bg_village_castile" wait_mesh="wait_castile_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>
@@ -484,7 +484,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_tiedra_valladolid" name="{=castle_tiedra_valladolid_name}Valladolid" posX="146.58" posY="864.922" culture="Culture.england" text="{=castle_tiedra_valladolid_text}Valladolid text...">
+  <Settlement id="castle_tiedra_valladolid" name="{=castle_tiedra_valladolid_name}Valladolid" posX="146.58" posY="864.922" culture="Culture.castile" text="{=castle_tiedra_valladolid_text}Valladolid text...">
     <Components>
       <Village id="castle_comp_tiedra_valladolid" village_type="VillageType.silver_mine" hearth="400" bound="Settlement.castle_tiedra" background_crop_position="0.0" background_mesh="gui_bg_village_castile" wait_mesh="wait_castile_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>
@@ -497,7 +497,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_leon" name="{=town_leon_name}Leon" owner="Faction.clan_england_1" posX="131.981" posY="888.663" culture="Culture.england" gate_posX="132.8411" gate_posY="885.2026" text="{=town_leon_text}Leon text...">
+  <Settlement id="town_leon" name="{=town_leon_name}Leon" owner="Faction.clan_castile_1" posX="131.981" posY="888.663" culture="Culture.castile" gate_posX="132.8411" gate_posY="885.2026" text="{=town_leon_text}Leon text...">
     <Components>
       <Town id="town_comp_leon" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_castile" wait_mesh="wait_castile_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -533,7 +533,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_leon_sahagun" name="{=town_leon_sahagun_name}Sahagun" posX="147.297" posY="884.789" culture="Culture.england" text="{=town_leon_sahagun_text}Sahagun text...">
+  <Settlement id="town_leon_sahagun" name="{=town_leon_sahagun_name}Sahagun" posX="147.297" posY="884.789" culture="Culture.castile" text="{=town_leon_sahagun_text}Sahagun text...">
     <Components>
       <Village id="town_comp_leon_sahagun" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_leon" background_crop_position="0.0" background_mesh="gui_bg_village_castile" wait_mesh="wait_castile_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>
@@ -546,7 +546,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_leon_astorga" name="{=town_leon_astorga_name}Astorga" posX="123.291" posY="885.102" culture="Culture.england" text="{=town_leon_astorga_text}Astorga text...">
+  <Settlement id="town_leon_astorga" name="{=town_leon_astorga_name}Astorga" posX="123.291" posY="885.102" culture="Culture.castile" text="{=town_leon_astorga_text}Astorga text...">
     <Components>
       <Village id="town_comp_leon_astorga" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.town_leon" background_crop_position="0.0" background_mesh="gui_bg_village_castile" wait_mesh="wait_castile_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>
@@ -559,7 +559,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_leon_burgos" name="{=town_leon_burgos_name}Burgos" posX="162.83" posY="894.027" culture="Culture.england" text="{=town_leon_burgos_text}Burgos text...">
+  <Settlement id="town_leon_burgos" name="{=town_leon_burgos_name}Burgos" posX="162.83" posY="894.027" culture="Culture.castile" text="{=town_leon_burgos_text}Burgos text...">
     <Components>
       <Village id="town_comp_leon_burgos" village_type="VillageType.cattle_farm" hearth="400" bound="Settlement.town_leon" background_crop_position="0.0" background_mesh="gui_bg_village_castile" wait_mesh="wait_castile_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>
@@ -572,7 +572,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_santiago" name="{=town_santiago_name}Santiago" owner="Faction.clan_england_1" posX="86.198" posY="889.494" culture="Culture.england" gate_posX="84.88834" gate_posY="886.7542" text="{=town_santiago_text}Santiago text...">
+  <Settlement id="town_santiago" name="{=town_santiago_name}Santiago" owner="Faction.clan_castile_1" posX="86.198" posY="889.494" culture="Culture.castile" gate_posX="84.88834" gate_posY="886.7542" text="{=town_santiago_text}Santiago text...">
     <Components>
       <Town id="town_comp_santiago" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_castile" wait_mesh="wait_castile_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -608,7 +608,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_santiago_lugo" name="{=town_santiago_lugo_name}Lugo" posX="96.38" posY="898.011" culture="Culture.england" text="{=town_santiago_lugo_text}Lugo text...">
+  <Settlement id="town_santiago_lugo" name="{=town_santiago_lugo_name}Lugo" posX="96.38" posY="898.011" culture="Culture.castile" text="{=town_santiago_lugo_text}Lugo text...">
     <Components>
       <Village id="town_comp_santiago_lugo" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.town_santiago" background_crop_position="0.0" background_mesh="gui_bg_village_castile" wait_mesh="wait_castile_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>
@@ -621,7 +621,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_santiago_crunia" name="{=town_santiago_crunia_name}Crunia" posX="69.463" posY="897.086" culture="Culture.england" text="{=town_santiago_crunia_text}Crunia text...">
+  <Settlement id="town_santiago_crunia" name="{=town_santiago_crunia_name}Crunia" posX="69.463" posY="897.086" culture="Culture.castile" text="{=town_santiago_crunia_text}Crunia text...">
     <Components>
       <Village id="town_comp_santiago_crunia" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_santiago" background_crop_position="0.0" background_mesh="gui_bg_village_castile" wait_mesh="wait_castile_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>
@@ -634,7 +634,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_madrid" name="{=castle_madrid_name}Alameda Castle" owner="Faction.clan_england_1" posX="174.612" posY="855.112" culture="Culture.england" gate_posX="176.2248" gate_posY="853.1946">
+  <Settlement id="castle_madrid" name="{=castle_madrid_name}Alameda Castle" owner="Faction.clan_castile_1" posX="174.612" posY="855.112" culture="Culture.castile" gate_posX="176.2248" gate_posY="853.1946">
     <Components>
       <Town id="castle_comp_madrid" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_castile" wait_mesh="wait_castile_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -659,7 +659,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_madrid_alcala" name="{=castle_madrid_alcala_name}Alcala" posX="185.948" posY="857.332" culture="Culture.england" text="{=castle_madrid_alcala_text}Alcala text...">
+  <Settlement id="castle_madrid_alcala" name="{=castle_madrid_alcala_name}Alcala" posX="185.948" posY="857.332" culture="Culture.castile" text="{=castle_madrid_alcala_text}Alcala text...">
     <Components>
       <Village id="castle_comp_madrid_alcala" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.castle_madrid" background_crop_position="0.0" background_mesh="gui_bg_village_castile" wait_mesh="wait_castile_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>
@@ -672,7 +672,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_badajoz" name="{=town_badajoz_name}Badajoz" owner="Faction.clan_england_1" posX="119.873" posY="807.063" culture="Culture.england" gate_posX="121.0936" gate_posY="806.0392" text="{=town_badajoz_text}Badajoz text...">
+  <Settlement id="town_badajoz" name="{=town_badajoz_name}Badajoz" owner="Faction.clan_castile_1" posX="119.873" posY="807.063" culture="Culture.castile" gate_posX="121.0936" gate_posY="806.0392" text="{=town_badajoz_text}Badajoz text...">
     <Components>
       <Town id="town_comp_badajoz" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_castile" wait_mesh="wait_castile_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -708,7 +708,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_badajoz_pedroche" name="{=town_badajoz_pedroche_name}Pedroche" posX="157.016" posY="808.411" culture="Culture.england" text="{=town_badajoz_pedroche_text}Pedroche text...">
+  <Settlement id="town_badajoz_pedroche" name="{=town_badajoz_pedroche_name}Pedroche" posX="157.016" posY="808.411" culture="Culture.castile" text="{=town_badajoz_pedroche_text}Pedroche text...">
     <Components>
       <Village id="town_comp_badajoz_pedroche" village_type="VillageType.salt_mine" hearth="400" bound="Settlement.town_badajoz" background_crop_position="0.0" background_mesh="gui_bg_village_castile" wait_mesh="wait_castile_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>
@@ -721,7 +721,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_badajoz_merida" name="{=town_badajoz_merida_name}Merida" posX="136.51" posY="815.561" culture="Culture.england" text="{=town_badajoz_merida_text}Merida text...">
+  <Settlement id="town_badajoz_merida" name="{=town_badajoz_merida_name}Merida" posX="136.51" posY="815.561" culture="Culture.castile" text="{=town_badajoz_merida_text}Merida text...">
     <Components>
       <Village id="town_comp_badajoz_merida" village_type="VillageType.swine_farm" hearth="400" bound="Settlement.town_badajoz" background_crop_position="0.0" background_mesh="gui_bg_village_castile" wait_mesh="wait_castile_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>
@@ -734,7 +734,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_badajoz_caceres" name="{=town_badajoz_caceres_name}Caceres" posX="124.895" posY="824.565" culture="Culture.england" text="{=town_badajoz_caceres_text}Caceres text...">
+  <Settlement id="town_badajoz_caceres" name="{=town_badajoz_caceres_name}Caceres" posX="124.895" posY="824.565" culture="Culture.castile" text="{=town_badajoz_caceres_text}Caceres text...">
     <Components>
       <Village id="town_comp_badajoz_caceres" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_badajoz" background_crop_position="0.0" background_mesh="gui_bg_village_castile" wait_mesh="wait_castile_village" castle_background_mesh="gui_bg_castle_castile" />
     </Components>

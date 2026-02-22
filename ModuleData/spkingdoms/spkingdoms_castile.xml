@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+    <Kingdom id="castile"
+	         initial_home_settlement="Settlement.town_toledo"
+             owner="Hero.lord_castile_1"
+             banner_key="3.35.83.1750.1750.764.762.0.0.0.505.40.142.35.44.3128.1756.0.0.0.505.119.142.35.44.619.675.0.0.0.325.144.142.274.274.619.631.0.0.0.505.119.142.87.32.703.521.0.0.0.505.119.142.87.32.538.521.0.0.0.505.119.142.87.32.619.549.0.0.0.328.144.142.151.151.619.554.0.0.0.328.144.142.151.151.537.526.0.0.0.328.144.142.151.151.702.526.0.0.0.505.119.142.35.44.907.1055.0.0.0.325.144.142.274.274.907.1011.0.0.0.505.119.142.87.32.991.901.0.0.0.505.119.142.87.32.826.901.0.0.0.505.119.142.87.32.907.929.0.0.0.328.144.142.151.151.907.934.0.0.0.328.144.142.151.151.825.906.0.0.0.328.144.142.151.151.990.906.0.0.0.140.65.65.315.315.925.593.0.0.0.140.65.65.315.315.630.956.0.0.0"
+             primary_banner_color="0xff000000"
+             secondary_banner_color="0xff000000"
+             color="FFdb0a13"
+             color2="FFffffff"
+             culture="Culture.castile"
+             settlement_banner_mesh="encounter_flag_a"
+             flag_mesh="info_screen_flags_a"
+             name="{=castileFactionName}Crown of Castile"
+             short_name="{=castileFactionShortName}Crown of Castile"
+             title="{=castileFactionTitle}Crown of Castile"
+             ruler_title="{=castileFactionRulerTitle}King"
+             text="{=castileFactionText}According to the chronicles of Alfonso of Asturias, the first reference to the name 'Castile' can be found in a document written during AD 800. Its name comes from the host of castles constructed in the region. It began in the 9th century as the County of Castile, an eastern frontier lordship of the Kingdom of León. During the 10th century, its counts increased their autonomy, but it was not until 1065 that it was separated from León and became a kingdom in its own right. Between 1072 and 1157, it was again united with León, and after 1230, this union became permanent into what is now known as the Crown of Castile. Throughout this period, the Castilian kings made extensive conquests in southern Iberia at the expense of the Islamic principalities.">
+        <relationships>
+            <relationship kingdom="Kingdom.navarre" value="-25" isAtWar="true"/>
+            <relationship kingdom="Kingdom.aragon" value="1" isAtWar="true"/>
+        </relationships>
+        <policies>
+            <policy id="policy_road_tolls"/>
+            <policy id="policy_bailiffs"/>
+            <policy id="policy_noble_retinues"/>
+            <policy id="policy_imperial_towns"/>
+        </policies>
+    </Kingdom>
+</Kingdoms>
