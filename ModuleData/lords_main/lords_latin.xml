@@ -1,0 +1,1051 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- clan 1 -->
+	<NPCCharacter id="dead_lord_latin_1" name="{=latin_deadlord_1}Pierre II de Courtenay" age="87" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="87.3" weight="0.9892" build="0.4028" key="00025403542C2683172D9A536B655A4B75C3A2C2498B696B75BA295A778C298C09A6F09A0AB9856A000000000000000000000000000000000000000033483042"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_latin_2" name="{=latin_deadlord2}Yolanda of Flanders" age="84" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_tactician_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="84.6" weight="0.1796" build="0.6549" key="0002AC0C40B410157379289B4CCE9646C277A86866C8836297787B8965259C4609CA309A0CD6829900000000000000000000000000000000000000002D980040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_1_1" name="{=latin_lord_1}Baudouin II de Courtenay, Latin Emperor of Constantinople" voice="ironic" age="42" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.48" weight="0.4915" build="0.4049" key="0002440814003905D78E8BC15896A9C6D5B6B9643827BA89B7762867A6A8C9950396703509C3A6C900000000000000000000000000000000000000002F306080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_1_1_1" name="{=latin_lady_1}Marie de Brienne, Latin Empress consort" age="35" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="35.6" weight="0.2367" build="0.6971" key="0002000140A000048E5386C95155522B6A98695559F6AC8AE8662B5539B33A8602AA40240AA56B73000000000000000000000000000000000000000063603080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_1_1_2" name="{=latin_lord_2}Philip I de Courtenay" voice="curt" age="18" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="26.34" weight="0.267" build="0.2423" key="00020006C000200D8ED6898885254A598688695559F6AC8AC26C62925A41154C01944013098A65CB000000000000000000000000000000000000000043386040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Honor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_latin_3" name="{=latin_deadlord3}Yolanda de Courtenay" age="59" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_cavalry_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="59.52" weight="0.2725" build="0.4413" key="0002EC0D95B4200665AB96EACB3323AD778B6C753AB3887C37B4CA87EA5AEADB054740570486BC75000000000000000000000000000000000000000076781000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_latin_4" name="{=latin_deadlord4}Marie de Courtenay" age="55" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_politician_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="55.66" weight="0.6388" build="0.0553" key="000AE00995B4400C3587AD76CA66555638ADDC686D7777C8E87B2C6597B5D67A0581A057087A9B4E00000000000000000000000000000000000000003F001080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_latin_5" name="{=latin_deadlord_5}Jean I de Brienne" age="89" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="89.25" weight="0.4416" build="0.0177" key="000534000000384578A96ABAD2BC463A7855A57D84948D9B75855B6888796A950A9070AA0918B369000000000000000000000000000000000000000051306040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_latin_6" name="{=latin_deadlord6}Berengaria of León" age="55" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_tactician_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="56.43" weight="0.5388" build="0.7058" key="000DA00D00FC100F642D7567A8A6CAA76A8A5898E88D89A56A57779619457745058B805708855878000000000000000000000000000000000000000035000080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_1_2" name="{=latin_lord_3}Baudouin de Hainaut" voice="earnest" age="39" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39.46" weight="0.2153" build="0.6545" key="0002DC0980A00814BE9FE973A9A88579853DC469C75768B4EA1AB3AA54CF39B6035A303505CC84F6000000000000000000000000000000000000000042A83080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_1_3" name="{=latin_lord_18}Villain I d'Aulnay, Marshal of Constantinople" voice="earnest" age="46" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="47.56" weight="0.3225" build="0.2731" key="0005C40C40CC0744834368BA99655A866AA277757A963426B622CFDD7934566304B450460B82682E00000000000000000000000000000000000000002D680140"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 2 -->
+	<NPCCharacter id="dead_lord_latin_7" name="{=latin_deadlord_7}Geoffroi I de Villehardouin" age="90" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="90.48" weight="0.586" build="0.4235" key="0002E80F0014024544A25CB89BABDBCCCB7D968494D9329E1874EB5BA5AB61B60A8690AB084933E9000000000000000000000000000000000000000035009080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_latin_8" name="{=latin_deadlord8}Élisabeth de Chappes" age="79" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_quartermaster_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="78.5" weight="0.3031" build="0.7678" key="0002CC04C088200E892CB267388C83A4828688C487A681C2B52736685386D54E087C508907794686000000000000000000000000000000000000000042F02040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_latin_9" name="{=latin_deadlord9}Alix de Villehardouin" age="68" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_tactician_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="69.14" weight="0.4757" build="0.5656" key="00059408C088000A24CB5938B7393B4E677DC868981A89D3828D4BD39A6567A807987078099ED312000000000000000000000000000000000000000079300000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_latin_10" name="{=latin_deadlord_10}Hugues de Bruyéres" age="69" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="69.08" weight="0.8528" build="0.145" key="0005D80FC07006C388C9B6DE9A9A68D4D86A66CAA475786A3855D4885893DB480782D07808DE8BE9000000000000000000000000000000000000000041008080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_2_0_1" name="{=latin_lady_2}Agnés de Bruyéres" age="49" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="49.53" weight="0.4542" build="0.547" key="0002DC0D808810035869785AA9F7C7879962E62459BC297896B6346B679D989C04B870460B657766000000000000000000000000000000000000000057603080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_2_0_2" name="{=latin_lord_4}Geoffroi de Bruyéres, Lord of Karytaina" voice="softspoken" age="36" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="36.76" weight="0.7371" build="0.276" key="0002E40E4EE4324BAA6223EDE4D0BE0A99E6AB5A7A7887838766752599C2B7990294B024099899D8000000000000000000000000000000000000000063289080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_2_0_2_1" name="{=latin_lady_3}Isabella de la Roche, Lady of Karytaina" age="32" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="33" weight="0.5287" build="0.7805" key="0002280AC0A01007A746A599778B4B7783A2BB674961783D5A8A6469B693C5A9027C802407869681000000000000000000000000000000000000000036E81080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_latin_11" name="{=latin_deadlord_11}Geoffroi II de Villehardouin" age="64" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="64.15" weight="0.7423" build="0.2793" key="0000280ACE000854A73921A9E454149383A2BB674961783D678877DBB693C5A906E4B0680E76B448000000000000000000000000000000000000000015C89100"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_latin_12" name="{=latin_deadlord12}Agnés de Courtenay" age="57" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_quartermaster_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="57.21" weight="0.4658" build="0.6496" key="0002DC0D80004007D3A49A8F775449742C8BC5B794829A444F857895B74677FC053A705703885BA9000000000000000000000000000000000000000046602000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_2_1" name="{=latin_lord_5}Guillaume II de Villehardouin, Prince of Achaea" voice="ironic" age="48" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="47.61" weight="0.5728" build="0.2641" key="0008D80FCE00374E6BD998C947A73A712C8B8AA58D6B779AB367C9A4B74677FC0494904609755842000000000000000000000000000000000000000025206080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_2_1_1" name="{=latin_lady_4}Agnés Komneni Doúkaina" age="35" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="36.65" weight="0.0824" build="0.536" key="000DDC0F00A00005A485ACAA64AB46A67A94469D7B9B66481A683B289A8591710268102406884C9A000000000000000000000000000000000000000044C04080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 3 -->
+	<NPCCharacter id="dead_lord_latin_13" name="{=latin_deadlord_13}Othon I de la Roche" age="89" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="89.04" weight="0.5976" build="0.4696" key="0005B00D80B4328347F44BAF457748FF7D98A5955564AB9438431D6C58DFFFE20A6790AA06647A67000000000000000000000000000000000000000022D09140"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_latin_14" name="{=latin_deadlord14}Isabelle de Ray" age="69" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_knight_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="69.17" weight="0.3942" build="0.5045" key="0005EC0C40003001675B95A78249EE25D976E6A677B68255BA47E44B8186BC8A0718607801A6CC5A0000000000000000000000000000000000000000401840C0"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_3_1" name="{=latin_lord_6}Guy I de la Roche, Lord of Athena" voice="earnest" age="54" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="55.28" weight="0.4079" build="0.3691" key="0002A40B800012143E4AAC6A8E57856526D5BAA6ABA8D4966956A37668C87496058660560876B97300000000000000000000000000000000000000004F107140"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_3_1_1" name="{=latin_lord_7}Jean I de la Roche" voice="ironic" age="33" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="33.67" weight="0.3009" build="0.412" key="0002D40AD488318C3E95913AD95A53E48DB9BAA6ABA8D4966956A3767BBA5756029650240976B973000000000000000000000000000000000000000067307140"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="9"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_3_1_1_1" name="{=latin_lady_5}Isabelle de Rougement" age="32" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="32.58" weight="0.6449" build="0.6703" key="0005540280B41003E8926C5A97778A574DCCC589679B5797779EA6336648574A029AA02409976687000000000000000000000000000000000000000041384000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_3_1_1_2" name="{=latin_lady_6}Merille de la Roche" age="3" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="3.64" weight="0.5524" build="0.9138" key="0005180800B44015C116DBA966A65853A1897678967566AA779EA6338949825A009E800309976687000000000000000000000000000000000000000043182000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_3_2" name="{=latin_lord_8}Guillaume I de la Roche" voice="earnest" age="31" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="31.36" weight="0.2906" build="0.482" key="0002E0099400008956FA78463A647349586488A7EA849956875AC5977A49D3440197401409BE8725000000000000000000000000000000000000000049203080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_3_2_1" name="{=latin_lady_7}Eléni Komneni Doúkaina" age="18" voice="Curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.24" weight="0.8448" build="0.329" key="000DB80980A01015861705C6588789246A4874759D8376B678971AA958429AA40765D072065A8DC100000000000000000000000000000000000000003AC01040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 4 -->
+	<NPCCharacter id="dead_lord_latin_15" name="{=latin_deadlord_15}Marco I Sanudo of Naxos" age="106" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="106.2" weight="0.6795" build="0.2791" key="000AC80F00CC324223336927756A3879979B497569CA5148939A36853986DC920C74A0CC07A3E4E700000000000000000000000000000000000000004AF08040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_latin_16" name="{=latin_deadlord16}Laskaraina of Sanudo" age="99" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_quartermaster_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="99.26" weight="0.2766" build="0.0967" key="0005D80D0088000259389EAA8777AAE9668A78B6548867A65329D7536ACAA49A0B1140BC018A6577000000000000000000000000000000000000000034284000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_4_1" name="{=latin_lord_9}Angelo I Sanudo, Duke of Naxos" voice="ironic" age="64" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="64.54" weight="0.4923" build="0.3133" key="000AD80C4000090659355A862686B699C97878B6548867A674CA2A76AC9767760685706808839BBE000000000000000000000000000000000000000023188080"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_4_1_1" name="{=latin_lady_8}Marguerite de Sainte-Ménéhould" age="60" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="60.68" weight="0.0013" build="0.4464" key="0008640D9444100A834A9C95A78767A6B8B9BDD5445178444D868C7475D77B990657006705369AA7000000000000000000000000000000000000000046A030C0"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_4_1_2" name="{=latin_lord_10}Marino I Sanudo, Lord of Paros and Antiparos" voice="ironic" age="40" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="31.78" weight="0.7248" build="0.3147" key="000A640D800001086966A6BAB78548963C5A7153DA4EAE1977B69AB7724D33380295B02409D524CE000000000000000000000000000000000000000047301000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Valor" value="2"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_4_1_2_1" name="{=latin_lady_8}Porzia da Verona" age="39" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39.46" weight="0.1834" build="0.7899" key="0002140200A00005585A1A78249A48B95599C475C85D885565965749225876AA036C303506834D57000000000000000000000000000000000000000020C83000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_4_1_3" name="{=latin_lord_11}Marco II Sanudo" voice="curt" age="37" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="37.92" weight="0.3036" build="0.3686" key="000A9C0B800003838866A725DC889CA93C5A3AA40C56AA9B77B69AB7724D33380266502406D524CE000000000000000000000000000000000000000022D07000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_4_1_3_1" name="{=latin_lady_9}Claricia Sanudo" age="36" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="36.37" weight="0.3396" build="0.563" key="0008E80AC000100A8832BA6994782EC855D73AA40C56AA9BA4D9C9586458386B028850240837273600000000000000000000000000000000000000003D183040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_4_1_3_2" name="{=latin_lord_12}William Sanudo" voice="earnest" age="17" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.8" weight="0.2059" build="0.3627" key="0005940AC00000027C54836B3B56B7C3788437777857C631A4D9C958593B645C0185301308372736000000000000000000000000000000000000000019106000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_4_1_3_3" name="{=latin_lord_13}Marco Sanudo" voice="earnest" age="15" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.1" weight="0.1836" build="0.3133" key="0005940C400030417C6E83C64C95C238544837777857C6316848884770B9227600853003087B9C74000000000000000000000000000000000000000073186000"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="4"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_4_1_4" name="{=latin_lady_10}Maria Sanudo" age="36" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="35.53" weight="0.5023" build="0.7157" key="0005680C4000301536995B65D56BA5B77B9D8C68499A66516848884749382596027B8024077B9C7400000000000000000000000000000000000000003CF81040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lion_combat"/>
+			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_4_1_4_1" name="{=latin_lord_14}Paolo Navigajoso of Lemnos" voice="ironic" age="40" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="40.62" weight="0.3774" build="0.1713" key="0008EC0F000030528927BCC77888968D28869CE9AE4E7430AA77759A789BB87A03936035091A672700000000000000000000000000000000000000004D385040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_4_2" name="{=latin_lord_15}Megas Doux Leonardo Navigajoso, Lord of Lemnos" voice="curt" age="58" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="55.47" weight="0.723" build="0.2418" key="0002DC0F000025C447B9696886B249736875528D452C967CAA77759A9B77A6D30584B057081A6727000000000000000000000000000000000000000009106040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_4_2_1" name="{=latin_lord_16}Filippo Navigajoso of Lemnos" voice="earnest" age="38" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="37.53" weight="0.5882" build="0.4291" key="0008DC0E4000380D88273569276599651887B7A843AACE07AA77759A8877ABA502369024031A6727000000000000000000000000000000000000000054582040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_latin_4_2_2" name="{=latin_lord_17}Nicolao Navigajoso of Lemnos" voice="ironic" age="35" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="37.53" weight="0.5882" build="0.4291" key="0008DC0F000039498867893688C8BA37675DB7A843AACE07AA77759A499A85FB02369024031A6727000000000000000000000000000000000000000054582040"/>
+			<hair_tags>
+				<hair_tag name="empire"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="empire"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="latin_lord_combat"/>
+			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

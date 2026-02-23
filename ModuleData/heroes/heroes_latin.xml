@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- clan 1 -->
+	<Hero id="dead_lord_latin_1" spouse="Hero.dead_lord_latin_2" alive="false" faction="Faction.clan_latinempire_1"/>
+	<Hero id="dead_lord_latin_2" spouse="Hero.dead_lord_latin_1" alive="false" faction="Faction.clan_latinempire_1"/>
+	<Hero id="lord_latin_1_1" father="Hero.dead_lord_latin_1" mother="Hero.dead_lord_latin_2" spouse="Hero.lord_latin_1_1_1" faction="Faction.clan_latinempire_1"/>
+	<Hero id="lord_latin_1_1_1" father="Hero.dead_lord_latin_5" mother="Hero.dead_lord_latin_6" spouse="Hero.lord_latin_1_1" faction="Faction.clan_latinempire_1"/>
+	<Hero id="lord_latin_1_1_2" father="Hero.lord_latin_1_1" mother="Hero.lord_latin_1_1_1" faction="Faction.clan_latinempire_1"/>
+	<Hero id="dead_lord_latin_3" alive="false" father="Hero.dead_lord_latin_1" mother="Hero.dead_lord_latin_2" spouse="Hero.dead_lord_hungary_1" faction="Faction.clan_latinempire_1"/>
+	<Hero id="dead_lord_latin_4" alive="false" father="Hero.dead_lord_latin_1" mother="Hero.dead_lord_latin_2" faction="Faction.clan_latinempire_1"/>
+	<Hero id="dead_lord_latin_5" alive="false" spouse="Hero.dead_lord_latin_6" faction="Faction.clan_latinempire_1"/>
+	<Hero id="dead_lord_latin_6" alive="false" spouse="Hero.dead_lord_latin_5" faction="Faction.clan_latinempire_1"/>
+	<Hero id="lord_latin_1_2" faction="Faction.clan_latinempire_1"/>
+	<Hero id="lord_latin_1_3" faction="Faction.clan_latinempire_1"/>
+	<!-- clan 2 -->
+	<Hero id="dead_lord_latin_7" alive="false" spouse="Hero.dead_lord_latin_8" faction="Faction.clan_latinempire_2"/>
+	<Hero id="dead_lord_latin_8" alive="false" spouse="Hero.dead_lord_latin_7" faction="Faction.clan_latinempire_2"/>
+	<Hero id="dead_lord_latin_9" alive="false" spouse="Hero.dead_lord_latin_10" father="Hero.dead_lord_latin_7" mother="Hero.dead_lord_latin_8" faction="Faction.clan_latinempire_2"/>
+	<Hero id="dead_lord_latin_10" alive="false" spouse="Hero.dead_lord_latin_9" faction="Faction.clan_latinempire_2"/>
+	<Hero id="lord_latin_2_0_1" spouse="Hero.lord_latin_3_1" father="Hero.dead_lord_latin_10" mother="Hero.dead_lord_latin_9" faction="Faction.clan_latinempire_3"/>
+	<Hero id="lord_latin_2_0_2" spouse="Hero.lord_latin_2_0_2_1" father="Hero.dead_lord_latin_10" mother="Hero.dead_lord_latin_9" faction="Faction.clan_latinempire_2"/>
+	<Hero id="lord_latin_2_0_2_1" spouse="Hero.lord_latin_2_0_2" father="Hero.lord_latin_3_1" mother="Hero.lord_latin_2_0_1" faction="Faction.clan_latinempire_2"/>
+	<Hero id="dead_lord_latin_11" alive="false" spouse="Hero.dead_lord_latin_12" father="Hero.dead_lord_latin_7" mother="Hero.dead_lord_latin_8" faction="Faction.clan_latinempire_2"/>
+	<Hero id="dead_lord_latin_12" alive="false" spouse="Hero.dead_lord_latin_11" father="Hero.dead_lord_latin_1" mother="Hero.dead_lord_latin_2" faction="Faction.clan_latinempire_2"/>
+	<Hero id="lord_latin_2_1" spouse="Hero.lord_latin_2_1_1" father="Hero.dead_lord_latin_7" mother="Hero.dead_lord_latin_8" faction="Faction.clan_latinempire_2"/>
+	<Hero id="lord_latin_2_1_1" spouse="Hero.lord_latin_2_1" faction="Faction.clan_latinempire_2"/>
+	<!-- clan 3 -->
+	<Hero id="dead_lord_latin_13" alive="false" spouse="Hero.dead_lord_latin_14" faction="Faction.clan_latinempire_3"/>
+	<Hero id="dead_lord_latin_14" alive="false" spouse="Hero.dead_lord_latin_13" faction="Faction.clan_latinempire_3"/>
+	<Hero id="lord_latin_3_1" spouse="Hero.lord_latin_2_0_1" father="Hero.dead_lord_latin_13" mother="Hero.dead_lord_latin_14" faction="Faction.clan_latinempire_3"/>
+	<Hero id="lord_latin_3_1_1" spouse="Hero.lord_latin_3_1_1_1" father="Hero.lord_latin_3_1" mother="Hero.lord_latin_2_0_1" faction="Faction.clan_latinempire_3"/>
+	<Hero id="lord_latin_3_1_1_1" spouse="Hero.lord_latin_3_1_1" faction="Faction.clan_latinempire_3"/>
+	<Hero id="lord_latin_3_1_1_2" father="Hero.lord_latin_3_1_1" mother="Hero.lord_latin_3_1_1_1" faction="Faction.clan_latinempire_3"/>
+	<Hero id="lord_latin_3_2" spouse="Hero.lord_latin_3_2_1" father="Hero.lord_latin_3_1" mother="Hero.lord_latin_2_0_1" faction="Faction.clan_latinempire_3"/>
+	<Hero id="lord_latin_3_2_1" spouse="Hero.lord_latin_3_2" faction="Faction.clan_latinempire_3"/>
+	<!-- clan 4 -->
+	<Hero id="dead_lord_latin_15" alive="false" spouse="Hero.dead_lord_latin_16" faction="Faction.clan_latinempire_4"/>
+	<Hero id="dead_lord_latin_16" alive="false" spouse="Hero.dead_lord_latin_15" faction="Faction.clan_latinempire_4"/>
+	<Hero id="lord_latin_4_1" spouse="Hero.lord_latin_4_1_1" father="Hero.dead_lord_latin_15" mother="Hero.dead_lord_latin_16" faction="Faction.clan_latinempire_4"/>
+	<Hero id="lord_latin_4_1_1" spouse="Hero.lord_latin_4_1" faction="Faction.clan_latinempire_4"/>
+	<Hero id="lord_latin_4_1_2" spouse="Hero.lord_latin_4_1_2_1" father="Hero.lord_latin_4_1" mother="Hero.lord_latin_4_1_1" faction="Faction.clan_latinempire_4"/>
+	<Hero id="lord_latin_4_1_2_1" spouse="Hero.lord_latin_4_1_2" faction="Faction.clan_latinempire_4"/>
+	<Hero id="lord_latin_4_1_3" spouse="Hero.lord_latin_4_1_3_1" father="Hero.lord_latin_4_1" mother="Hero.lord_latin_4_1_1" faction="Faction.clan_latinempire_4"/>
+	<Hero id="lord_latin_4_1_3_1" spouse="Hero.lord_latin_4_1_3" faction="Faction.clan_latinempire_4"/>
+	<Hero id="lord_latin_4_1_3_2" father="Hero.lord_latin_4_1_3" mother="Hero.lord_latin_4_1_3_1" faction="Faction.clan_latinempire_4"/>
+	<Hero id="lord_latin_4_1_3_3" father="Hero.lord_latin_4_1_3" mother="Hero.lord_latin_4_1_3_1" faction="Faction.clan_latinempire_4"/>
+	<Hero id="lord_latin_4_1_4" spouse="Hero.lord_latin_4_1_4_1" father="Hero.lord_latin_4_1" mother="Hero.lord_latin_4_1_1" faction="Faction.clan_latinempire_4"/>
+	<Hero id="lord_latin_4_1_4_1" spouse="Hero.lord_latin_4_1_4" father="Hero.lord_latin_4_2" faction="Faction.clan_latinempire_4"/>
+	<Hero id="lord_latin_4_2" faction="Faction.clan_latinempire_4"/>
+	<Hero id="lord_latin_4_2_1" father="Hero.lord_latin_4_2" faction="Faction.clan_latinempire_4"/>
+	<Hero id="lord_latin_4_2_2" father="Hero.lord_latin_4_2" faction="Faction.clan_latinempire_4"/>
+</Heroes>
