@@ -19496,7 +19496,7 @@
   </Settlement>
   <!--endregion -->
   <!-- region Greek Principalities : Greek culture-->
-  <Settlement id="castle_athens" name="{=castle_athens_name}Athens Castle" owner="Faction.clan_england_1" posX="736.155" posY="878.323" culture="Culture.england" gate_posX="738.3989" gate_posY="876.5797">
+  <Settlement id="castle_athens" name="{=castle_athens_name}Athens Castle" owner="Faction.clan_nicaea_1" posX="736.155" posY="878.323" culture="Culture.greek" gate_posX="738.3989" gate_posY="876.5797">
     <Components>
       <Town id="castle_comp_athens" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_greek" wait_mesh="wait_greek_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -19521,7 +19521,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_athens_calchis" name="{=castle_athens_calchis_name}Calchis" posX="732.403" posY="890.321" culture="Culture.england" text="{=castle_athens_calchis_text}Calchis text...">
+  <Settlement id="castle_athens_calchis" name="{=castle_athens_calchis_name}Calchis" posX="732.403" posY="890.321" culture="Culture.greek" text="{=castle_athens_calchis_text}Calchis text...">
     <Components>
       <Village id="castle_comp_athens_calchis" village_type="VillageType.salt_mine" hearth="400" bound="Settlement.castle_athens" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19534,7 +19534,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_corinth" name="{=town_corinth_name}Corinth" owner="Faction.clan_england_1" posX="715.022" posY="867.399" culture="Culture.england" gate_posX="717.4191" gate_posY="870.8487" text="{=town_corinth_text}Corinth text...">
+  <Settlement id="town_corinth" name="{=town_corinth_name}Corinth" owner="Faction.clan_nicaea_1" posX="715.022" posY="867.399" culture="Culture.greek" gate_posX="717.4191" gate_posY="870.8487" text="{=town_corinth_text}Corinth text...">
     <Components>
       <Town id="town_comp_corinth" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_greek" wait_mesh="wait_greek_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -19570,7 +19570,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_corinth_aigion" name="{=town_corinth_aigion_name}Aigion" posX="705.109" posY="875.877" culture="Culture.england" text="{=town_corinth_aigion_text}Aigion text...">
+  <Settlement id="town_corinth_aigion" name="{=town_corinth_aigion_name}Aigion" posX="705.109" posY="875.877" culture="Culture.greek" text="{=town_corinth_aigion_text}Aigion text...">
     <Components>
       <Village id="town_comp_corinth_aigion" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_corinth" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19583,7 +19583,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_corinth_megara" name="{=town_corinth_megara_name}Megara" posX="728.17" posY="876.14" culture="Culture.england" text="{=town_corinth_megara_text}Megara text...">
+  <Settlement id="town_corinth_megara" name="{=town_corinth_megara_name}Megara" posX="728.17" posY="876.14" culture="Culture.greek" text="{=town_corinth_megara_text}Megara text...">
     <Components>
       <Village id="town_comp_corinth_megara" village_type="VillageType.swine_farm" hearth="400" bound="Settlement.town_corinth" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19596,7 +19596,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_corinth_elis" name="{=town_corinth_elis_name}Elis" posX="693.322" posY="871.33" culture="Culture.england" text="{=town_corinth_elis_text}Elis text...">
+  <Settlement id="town_corinth_elis" name="{=town_corinth_elis_name}Elis" posX="693.322" posY="871.33" culture="Culture.greek" text="{=town_corinth_elis_text}Elis text...">
     <Components>
       <Village id="town_comp_corinth_elis" village_type="VillageType.clay_mine" hearth="400" bound="Settlement.town_corinth" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19609,7 +19609,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_nafpaktos" name="{=town_nafpaktos_name}Nafpaktos" owner="Faction.clan_england_1" posX="693.578" posY="881.547" culture="Culture.england" gate_posX="690.7689" gate_posY="880.8441" text="{=town_nafpaktos_text}Nafpaktos text...">
+  <Settlement id="town_nafpaktos" name="{=town_nafpaktos_name}Nafpaktos" owner="Faction.clan_nicaea_1" posX="693.578" posY="881.547" culture="Culture.greek" gate_posX="690.7689" gate_posY="880.8441" text="{=town_nafpaktos_text}Nafpaktos text...">
     <Components>
       <Town id="town_comp_nafpaktos" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_greek" wait_mesh="wait_greek_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -19645,7 +19645,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_nafpaktos_sami" name="{=town_nafpaktos_sami_name}Sami" posX="673.839" posY="872.396" culture="Culture.england" text="{=town_nafpaktos_sami_text}Sami text...">
+  <Settlement id="town_nafpaktos_sami" name="{=town_nafpaktos_sami_name}Sami" posX="673.839" posY="872.396" culture="Culture.greek" text="{=town_nafpaktos_sami_text}Sami text...">
     <Components>
       <Village id="town_comp_nafpaktos_sami" village_type="VillageType.salt_mine" hearth="400" bound="Settlement.town_nafpaktos" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19658,7 +19658,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_nafpaktos_nikopolis" name="{=town_nafpaktos_nikopolis_name}Nikopolis" posX="674.214" posY="893.182" culture="Culture.england" text="{=town_nafpaktos_nikopolis_text}Nikopolis text...">
+  <Settlement id="town_nafpaktos_nikopolis" name="{=town_nafpaktos_nikopolis_name}Nikopolis" posX="674.214" posY="893.182" culture="Culture.greek" text="{=town_nafpaktos_nikopolis_text}Nikopolis text...">
     <Components>
       <Village id="town_comp_nafpaktos_nikopolis" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_nafpaktos" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19671,7 +19671,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kyparissia" name="{=castle_kyparissia_name}Kyparissia Castle" owner="Faction.clan_england_1" posX="701.863" posY="853.221" culture="Culture.england" gate_posX="700.539" gate_posY="850.7068">
+  <Settlement id="castle_kyparissia" name="{=castle_kyparissia_name}Kyparissia Castle" owner="Faction.clan_nicaea_1" posX="701.863" posY="853.221" culture="Culture.greek" gate_posX="700.539" gate_posY="850.7068">
     <Components>
       <Town id="castle_comp_kyparissia" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_greek" wait_mesh="wait_greek_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -19696,7 +19696,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_kyparissia_sparta" name="{=castle_kyparissia_sparta_name}Sparta" posX="712.806" posY="853.497" culture="Culture.england" text="{=castle_kyparissia_sparta_text}Sparta text...">
+  <Settlement id="castle_kyparissia_sparta" name="{=castle_kyparissia_sparta_name}Sparta" posX="712.806" posY="853.497" culture="Culture.greek" text="{=castle_kyparissia_sparta_text}Sparta text...">
     <Components>
       <Village id="castle_comp_kyparissia_sparta" village_type="VillageType.olive_trees" hearth="400" bound="Settlement.castle_kyparissia" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19709,7 +19709,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kyparissia_megalopolis" name="{=castle_kyparissia_megalopolis_name}Megalopolis" posX="707.701" posY="857.972" culture="Culture.england" text="{=castle_kyparissia_megalopolis_text}Megalopolis text...">
+  <Settlement id="castle_kyparissia_megalopolis" name="{=castle_kyparissia_megalopolis_name}Megalopolis" posX="707.701" posY="857.972" culture="Culture.greek" text="{=castle_kyparissia_megalopolis_text}Megalopolis text...">
     <Components>
       <Village id="castle_comp_kyparissia_megalopolis" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.castle_kyparissia" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19722,7 +19722,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_larissa" name="{=castle_larissa_name}Larissa Castle" owner="Faction.clan_england_1" posX="705.651" posY="907.988" culture="Culture.england" gate_posX="708.2698" gate_posY="906.8854">
+  <Settlement id="castle_larissa" name="{=castle_larissa_name}Larissa Castle" owner="Faction.clan_nicaea_1" posX="705.651" posY="907.988" culture="Culture.greek" gate_posX="708.2698" gate_posY="906.8854">
     <Components>
       <Town id="castle_comp_larissa" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_greek" wait_mesh="wait_greek_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -19747,7 +19747,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_larissa_demetrias" name="{=castle_larissa_demetrias_name}Demetrias" posX="713.926" posY="903.168" culture="Culture.england" text="{=castle_larissa_demetrias_text}Demetrias text...">
+  <Settlement id="castle_larissa_demetrias" name="{=castle_larissa_demetrias_name}Demetrias" posX="713.926" posY="903.168" culture="Culture.greek" text="{=castle_larissa_demetrias_text}Demetrias text...">
     <Components>
       <Village id="castle_comp_larissa_demetrias" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.castle_larissa" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19760,7 +19760,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ioannina" name="{=castle_ioannina_name}Ioannina Castle" owner="Faction.clan_england_1" posX="671.248" posY="908.144" culture="Culture.england" gate_posX="667.9803" gate_posY="908.7798">
+  <Settlement id="castle_ioannina" name="{=castle_ioannina_name}Ioannina Castle" owner="Faction.clan_nicaea_1" posX="671.248" posY="908.144" culture="Culture.greek" gate_posX="667.9803" gate_posY="908.7798">
     <Components>
       <Town id="castle_comp_ioannina" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_greek" wait_mesh="wait_greek_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -19785,7 +19785,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_ioannina_grevena" name="{=castle_ioannina_grevena_name}Grevena" posX="682.727" posY="916.958" culture="Culture.england" text="{=castle_ioannina_grevena_text}Grevena text...">
+  <Settlement id="castle_ioannina_grevena" name="{=castle_ioannina_grevena_name}Grevena" posX="682.727" posY="916.958" culture="Culture.greek" text="{=castle_ioannina_grevena_text}Grevena text...">
     <Components>
       <Village id="castle_comp_ioannina_grevena" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.castle_ioannina" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19800,7 +19800,7 @@
   </Settlement>
   <!-- endregion -->
   <!-- region Empire of Nicaea : Greek culture-->
-  <Settlement id="town_dyrrhacium" name="{=town_dyrrhacium_name}Dyrrhacium" owner="Faction.clan_england_1" posX="645.083" posY="937.66" culture="Culture.england" gate_posX="646.6112" gate_posY="935.7918" text="{=town_dyrrhacium_text}Dyrrhacium text...">
+  <Settlement id="town_dyrrhacium" name="{=town_dyrrhacium_name}Dyrrhacium" owner="Faction.clan_nicaea_1" posX="645.083" posY="937.66" culture="Culture.greek" gate_posX="646.6112" gate_posY="935.7918" text="{=town_dyrrhacium_text}Dyrrhacium text...">
     <Components>
       <Town id="town_comp_dyrrhacium" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_greek" wait_mesh="wait_greek_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -19836,7 +19836,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_dyrrhacium_vlore" name="{=town_dyrrhacium_vlore_name}Vlore" posX="644.346" posY="923.887" culture="Culture.england" text="{=town_dyrrhacium_vlore_text}Vlore text...">
+  <Settlement id="town_dyrrhacium_vlore" name="{=town_dyrrhacium_vlore_name}Vlore" posX="644.346" posY="923.887" culture="Culture.greek" text="{=town_dyrrhacium_vlore_text}Vlore text...">
     <Components>
       <Village id="town_comp_dyrrhacium_vlore" village_type="VillageType.salt_mine" hearth="400" bound="Settlement.town_dyrrhacium" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19849,7 +19849,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_dyrrhacium_ochrid" name="{=town_dyrrhacium_ochrid_name}Ochrid" posX="670.84" posY="932.019" culture="Culture.england" text="{=town_dyrrhacium_ochrid_text}Ochrid text...">
+  <Settlement id="town_dyrrhacium_ochrid" name="{=town_dyrrhacium_ochrid_name}Ochrid" posX="670.84" posY="932.019" culture="Culture.greek" text="{=town_dyrrhacium_ochrid_text}Ochrid text...">
     <Components>
       <Village id="town_comp_dyrrhacium_ochrid" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_dyrrhacium" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19862,7 +19862,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_dyrrhacium_orikos" name="{=town_dyrrhacium_orikos_name}Orikos" posX="646.083" posY="914.904" culture="Culture.england" text="{=town_dyrrhacium_orikos_text}Orikos text...">
+  <Settlement id="town_dyrrhacium_orikos" name="{=town_dyrrhacium_orikos_name}Orikos" posX="646.083" posY="914.904" culture="Culture.greek" text="{=town_dyrrhacium_orikos_text}Orikos text...">
     <Components>
       <Village id="town_comp_dyrrhacium_orikos" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_dyrrhacium" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19875,7 +19875,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_dyrrhacium_korfu" name="{=town_dyrrhacium_korfu_name}Korfu" posX="655.555" posY="900.031" culture="Culture.england" text="{=town_dyrrhacium_korfu_text}Korfu text...">
+  <Settlement id="town_dyrrhacium_korfu" name="{=town_dyrrhacium_korfu_name}Korfu" posX="655.555" posY="900.031" culture="Culture.greek" text="{=town_dyrrhacium_korfu_text}Korfu text...">
     <Components>
       <Village id="town_comp_dyrrhacium_korfu" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_dyrrhacium" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19888,7 +19888,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_nicaea" name="{=town_nicaea_name}Nicaea" owner="Faction.clan_england_1" posX="853.626" posY="943.398" culture="Culture.england" gate_posX="856.7924" gate_posY="942.5198" text="{=town_nicaea_text}Nicaea text...">
+  <Settlement id="town_nicaea" name="{=town_nicaea_name}Nicaea" owner="Faction.clan_nicaea_1" posX="853.626" posY="943.398" culture="Culture.greek" gate_posX="856.7924" gate_posY="942.5198" text="{=town_nicaea_text}Nicaea text...">
     <Components>
       <Town id="town_comp_nicaea" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_greek" wait_mesh="wait_greek_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -19924,7 +19924,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_nicaea_nicomedia" name="{=town_nicaea_nicomedia_name}Nicomedia" posX="852.322" posY="953.759" culture="Culture.england" text="{=town_nicaea_nicomedia_text}Nicomedia text...">
+  <Settlement id="town_nicaea_nicomedia" name="{=town_nicaea_nicomedia_name}Nicomedia" posX="852.322" posY="953.759" culture="Culture.greek" text="{=town_nicaea_nicomedia_text}Nicomedia text...">
     <Components>
       <Village id="town_comp_nicaea_nicomedia" village_type="VillageType.olive_trees" hearth="400" bound="Settlement.town_nicaea" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19937,7 +19937,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_nicaea_heracleia" name="{=town_nicaea_heracleia_name}Heracleia" posX="881.269" posY="964.727" culture="Culture.england" text="{=town_nicaea_heracleia_text}Heracleia text...">
+  <Settlement id="town_nicaea_heracleia" name="{=town_nicaea_heracleia_name}Heracleia" posX="881.269" posY="964.727" culture="Culture.greek" text="{=town_nicaea_heracleia_text}Heracleia text...">
     <Components>
       <Village id="town_comp_nicaea_heracleia" village_type="VillageType.swine_farm" hearth="400" bound="Settlement.town_nicaea" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19950,7 +19950,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_nicaea_cotyaeum" name="{=town_nicaea_cotyaeum_name}Cotyaeum" posX="854.277" posY="921.989" culture="Culture.england" text="{=town_nicaea_cotyaeum_text}Cotyaeum text...">
+  <Settlement id="town_nicaea_cotyaeum" name="{=town_nicaea_cotyaeum_name}Cotyaeum" posX="854.277" posY="921.989" culture="Culture.greek" text="{=town_nicaea_cotyaeum_text}Cotyaeum text...">
     <Components>
       <Village id="town_comp_nicaea_cotyaeum" village_type="VillageType.silver_mine" hearth="400" bound="Settlement.town_nicaea" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -19963,7 +19963,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_atikhisar" name="{=castle_atikhisar_name}Atikhisar Castle" owner="Faction.clan_england_1" posX="793.463" posY="927.371" culture="Culture.england" gate_posX="796.2706" gate_posY="926.3053">
+  <Settlement id="castle_atikhisar" name="{=castle_atikhisar_name}Atikhisar Castle" owner="Faction.clan_nicaea_1" posX="793.463" posY="927.371" culture="Culture.greek" gate_posX="796.2706" gate_posY="926.3053">
     <Components>
       <Town id="castle_comp_atikhisar" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_greek" wait_mesh="wait_greek_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -19988,7 +19988,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_atikhisar_adramyttium" name="{=castle_atikhisar_adramyttium_name}Adramyttium" posX="798.564" posY="916.759" culture="Culture.england" text="{=castle_atikhisar_adramyttium_text}Adramyttium text...">
+  <Settlement id="castle_atikhisar_adramyttium" name="{=castle_atikhisar_adramyttium_name}Adramyttium" posX="798.564" posY="916.759" culture="Culture.greek" text="{=castle_atikhisar_adramyttium_text}Adramyttium text...">
     <Components>
       <Village id="castle_comp_atikhisar_adramyttium" village_type="VillageType.desert_horse_ranch" hearth="400" bound="Settlement.castle_atikhisar" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -20001,7 +20001,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_atikhisar_kyzikos" name="{=castle_atikhisar_kyzikos_name}Kyzikos" posX="811.333" posY="934.916" culture="Culture.england" text="{=castle_atikhisar_kyzikos_text}Kyzikos text...">
+  <Settlement id="castle_atikhisar_kyzikos" name="{=castle_atikhisar_kyzikos_name}Kyzikos" posX="811.333" posY="934.916" culture="Culture.greek" text="{=castle_atikhisar_kyzikos_text}Kyzikos text...">
     <Components>
       <Village id="castle_comp_atikhisar_kyzikos" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.castle_atikhisar" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -20014,7 +20014,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_smyrna" name="{=town_smyrna_name}Smyrna" owner="Faction.clan_england_1" posX="806.25" posY="896.281" culture="Culture.england" gate_posX="807.8615" gate_posY="898.6443" text="{=town_smyrna_text}Smyrna text...">
+  <Settlement id="town_smyrna" name="{=town_smyrna_name}Smyrna" owner="Faction.clan_nicaea_1" posX="806.25" posY="896.281" culture="Culture.greek" gate_posX="807.8615" gate_posY="898.6443" text="{=town_smyrna_text}Smyrna text...">
     <Components>
       <Town id="town_comp_smyrna" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_greek" wait_mesh="wait_greek_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -20050,7 +20050,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_smyrna_ayasalouk" name="{=town_smyrna_ayasalouk_name}Ayasalouk" posX="813.094" posY="884.138" culture="Culture.england" text="{=town_smyrna_ayasalouk_text}Ayasalouk text...">
+  <Settlement id="town_smyrna_ayasalouk" name="{=town_smyrna_ayasalouk_name}Ayasalouk" posX="813.094" posY="884.138" culture="Culture.greek" text="{=town_smyrna_ayasalouk_text}Ayasalouk text...">
     <Components>
       <Village id="town_comp_smyrna_ayasalouk" village_type="VillageType.flax_plant" hearth="400" bound="Settlement.town_smyrna" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -20063,7 +20063,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_smyrna_sardis" name="{=town_smyrna_sardis_name}Sardis" posX="824.102" posY="901.472" culture="Culture.england" text="{=town_smyrna_sardis_text}Sardis text...">
+  <Settlement id="town_smyrna_sardis" name="{=town_smyrna_sardis_name}Sardis" posX="824.102" posY="901.472" culture="Culture.greek" text="{=town_smyrna_sardis_text}Sardis text...">
     <Components>
       <Village id="town_comp_smyrna_sardis" village_type="VillageType.olive_trees" hearth="400" bound="Settlement.town_smyrna" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>
@@ -20076,7 +20076,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_smyrna_laodicea" name="{=town_smyrna_laodicea_name}Laodicea" posX="847.682" posY="887.726" culture="Culture.england" text="{=town_smyrna_laodicea_text}Laodicea text...">
+  <Settlement id="town_smyrna_laodicea" name="{=town_smyrna_laodicea_name}Laodicea" posX="847.682" posY="887.726" culture="Culture.greek" text="{=town_smyrna_laodicea_text}Laodicea text...">
     <Components>
       <Village id="town_comp_smyrna_laodicea" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_smyrna" background_crop_position="0.0" background_mesh="gui_bg_village_greek" wait_mesh="wait_greek_village" castle_background_mesh="gui_bg_castle_greek" />
     </Components>

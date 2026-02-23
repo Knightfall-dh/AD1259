@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <!-- Villagers -->
+    <MBPartyTemplate id="villager_greek_template">
+        <stacks>
+            <PartyTemplateStack min_value="16" max_value="35" troop="NPCCharacter.villager_greek"/>
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.greek_basic_root0"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Lords & Town Garrison -->
+    <MBPartyTemplate id="kingdom_hero_party_GREEK_template">
+        <stacks>
+            <PartyTemplateStack min_value="15" max_value="20" troop="NPCCharacter.greek_basic_root"/>   <!-- Greek Levied Citizen -->
+            <PartyTemplateStack min_value="10" max_value="16" troop="NPCCharacter.greek_basic_root0"/>  <!-- Greek Foot Soldier -->
+            <PartyTemplateStack min_value="5" max_value="12" troop="NPCCharacter.greek_basic_root00"/>  <!-- Greek Apelatai -->
+            <PartyTemplateStack min_value="4" max_value="12" troop="NPCCharacter.greek_basic_root000"/> <!-- Greek Veteran Apelatai -->
+            <PartyTemplateStack min_value="2" max_value="8" troop="NPCCharacter.greek_basic_root0000"/> <!-- Greek Elite Apelatai -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.greek_basic_root01"/>   <!-- Greek Skoutatoi -->
+            <PartyTemplateStack min_value="1" max_value="6" troop="NPCCharacter.greek_basic_root010"/>  <!-- Greek Veteran Skoutatoi -->
+            <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.greek_basic_root011"/>  <!-- Greek Varrangoi -->
+            <PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.greek_basic_root02"/>  <!-- Greek Menaulatoi -->
+            <PartyTemplateStack min_value="5" max_value="8" troop="NPCCharacter.greek_basic_root020"/>  <!-- Greek Armored Menaulatoi -->
+            <PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.greek_basic_root1"/>   <!-- Greek Novice Archer -->
+            <PartyTemplateStack min_value="5" max_value="8" troop="NPCCharacter.greek_basic_root10"/>   <!-- Greek Trained Archer -->
+            <PartyTemplateStack min_value="2" max_value="5" troop="NPCCharacter.greek_basic_root100"/>  <!-- Greek Veteran Archer -->
+            <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.greek_basic_root1000"/> <!-- Greek Toxotae -->
+            <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.greek_basic_root1001"/> <!-- Greek Mourtatoi -->
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.greek_basic_root11"/>   <!-- Greek Novice Gasmouloi -->
+            <PartyTemplateStack min_value="0" max_value="4" troop="NPCCharacter.greek_basic_root110"/>  <!-- Greek Gasmouloi -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.greek_basic_root1100"/> <!-- Greek Armored Gasmouloi -->
+            <PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.greek_basic_root11"/>   <!-- Greek Novice Akritoi -->
+            <PartyTemplateStack min_value="2" max_value="5" troop="NPCCharacter.greek_basic_root110"/>  <!-- Greek Akritoi -->
+            <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.greek_basic_root1100"/> <!-- Greek Armored Akritoi -->
+            <PartyTemplateStack min_value="2" max_value="10" troop="NPCCharacter.greek_elite_root"/>    <!-- Greek Stratiotoi -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.greek_elite_root0"/>   <!-- Greek Mounted Archer -->
+            <PartyTemplateStack min_value="1" max_value="6" troop="NPCCharacter.greek_elite_root00"/>   <!-- Greek Veteran Mounted Archer -->
+            <PartyTemplateStack min_value="1" max_value="6" troop="NPCCharacter.greek_elite_root000"/>  <!-- Greek Armored Mounted Archer -->
+            <PartyTemplateStack min_value="0" max_value="8" troop="NPCCharacter.greek_elite_root2"/>    <!-- Greek Ippoakritoi -->
+            <PartyTemplateStack min_value="4" max_value="15" troop="NPCCharacter.greek_elite_root1"/>   <!-- Greek Archontopoulai -->
+            <PartyTemplateStack min_value="4" max_value="12" troop="NPCCharacter.greek_elite_root10"/>  <!-- Greek Pronoiars -->
+            <PartyTemplateStack min_value="4" max_value="10" troop="NPCCharacter.greek_elite_root100"/> <!-- Greek Kataphraktoi -->
+            <PartyTemplateStack min_value="2" max_value="10" troop="NPCCharacter.greek_elite_root101"/> <!-- Greek Koursor -->
+            <PartyTemplateStack min_value="0" max_value="10" troop="NPCCharacter.greek_elite_root102"/> <!-- Greek Latinikon -->
+            <PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.varangian_guard1"/>
+            <PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.varangian_guard2"/>
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.varangian_guard3"/>
+            <PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.merc_alan_1"/>
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.merc_alan_2"/>
+            <PartyTemplateStack min_value="1" max_value="6" troop="NPCCharacter.merc_alan_3"/>
+        </stacks>
+    </MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_GREEK_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.greek_basic_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.greek_basic_root10"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.greek_basic_root00"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.greek_elite_root0"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_GREEK_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.greek_basic_root0"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.greek_basic_root10"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.greek_basic_root00"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.greek_elite_root0"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_GREEK_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.greek_basic_root0"/>
+			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.greek_basic_root10"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.greek_basic_root00"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.greek_elite_root0"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.greek_elite_root00"/>
+		</stacks>
+	</MBPartyTemplate>
+
+    <!-- Caravans -->
+    <MBPartyTemplate id="caravan_template_greek">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_greek"/>
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_greek"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_greek"/>
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="elite_caravan_template_greek">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_greek"/>
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_greek"/>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_greek"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_greek"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Town Militia -->
+    <MBPartyTemplate id="militia_greek_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.greek_militia_spearman"/>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.greek_militia_archer"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Rebels -->
+    <MBPartyTemplate id="rebels_greek_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.greek_basic_root"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Vassal Reward Troops-->
+    <MBPartyTemplate id="vassal_reward_troops_greek">
+        <stacks>
+            <PartyTemplateStack min_value="6" max_value="12" troop="NPCCharacter.greek_elite_root100"/>
+            <PartyTemplateStack min_value="2" max_value="8" troop="NPCCharacter.greek_elite_root101"/>
+            <PartyTemplateStack min_value="1" max_value="6" troop="NPCCharacter.greek_elite_root102"/>
+            <PartyTemplateStack min_value="0" max_value="6" troop="NPCCharacter.greek_elite_root000"/>
+        </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

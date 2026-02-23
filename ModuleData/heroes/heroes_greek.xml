@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- Roman Empire of Nicaea -->
+	<!-- clan_nicaea_1: House of Palaiológos -->
+	<Hero id="dead_lord_nicaea_1" alive="false" spouse="Hero.dead_lord_nicaea_2" faction="Faction.clan_nicaea_1"/>
+	<Hero id="dead_lord_nicaea_2" alive="false" spouse="Hero.dead_lord_nicaea_1" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_0_1" spouse="Hero.lord_nicaea_3_1" father="Hero.dead_lord_nicaea_1" mother="Hero.dead_lord_nicaea_2" faction="Faction.clan_nicaea_3"/>
+	<Hero id="lord_nicaea_1_0_2" spouse="Hero.dead_lord_nicaea_3" father="Hero.dead_lord_nicaea_1" mother="Hero.dead_lord_nicaea_2" faction="Faction.clan_nicaea_1"/>
+	<Hero id="dead_lord_nicaea_3" alive="false" spouse="Hero.lord_nicaea_1_0_2" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_0_2_1" spouse="Hero.lord_nicaea_4_1" father="Hero.dead_lord_nicaea_3" mother="Hero.lord_nicaea_1_0_2" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_0_2_2" father="Hero.dead_lord_nicaea_3" mother="Hero.lord_nicaea_1_0_2" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_0_2_3" father="Hero.dead_lord_nicaea_3" mother="Hero.lord_nicaea_1_0_2" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_0_2_4" father="Hero.dead_lord_nicaea_3" mother="Hero.lord_nicaea_1_0_2" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_1" spouse="Hero.lord_nicaea_6c" father="Hero.dead_lord_nicaea_1" mother="Hero.dead_lord_nicaea_2" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_1_2" father="Hero.lord_nicaea_1_1" mother="Hero.lord_nicaea_6c" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_1_3" father="Hero.lord_nicaea_1_1" mother="Hero.lord_nicaea_6c" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_2" father="Hero.dead_lord_nicaea_1" mother="Hero.dead_lord_nicaea_2" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_3" spouse="Hero.lord_nicaea_1_3_1" father="Hero.dead_lord_nicaea_1" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_3_1" spouse="Hero.lord_nicaea_1_3" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_3_2" father="Hero.lord_nicaea_1_3" mother="Hero.lord_nicaea_1_3_1" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_3_3" father="Hero.lord_nicaea_1_3" mother="Hero.lord_nicaea_1_3_1" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_4" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_4_1" spouse="Hero.lord_nicaea_1_4_2" father="Hero.lord_nicaea_1_4" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_4_2" spouse="Hero.lord_nicaea_1_4_1" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_5" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_6" faction="Faction.clan_nicaea_1"/>
+	<Hero id="lord_nicaea_1_7" faction="Faction.clan_nicaea_1"/>
+
+	<!-- clan_nicaea_2: House of Láskaris -->
+	<Hero id="dead_lord_nicaea_4" alive="false" spouse="Hero.dead_lord_nicaea_5" faction="Faction.clan_nicaea_2"/>
+	<Hero id="dead_lord_nicaea_5" alive="false" spouse="Hero.dead_lord_nicaea_4" faction="Faction.clan_nicaea_2"/>
+	<Hero id="dead_lord_nicaea_6" spouse="Hero.lord_nicaea_2_1" alive="false" father="Hero.dead_lord_nicaea_4" mother="Hero.dead_lord_nicaea_5" faction="Faction.clan_nicaea_2"/>
+	<Hero id="lord_nicaea_2_1" spouse="Hero.dead_lord_nicaea_6" faction="Faction.clan_nicaea_2"/>
+	<Hero id="lord_nicaea_2_1_1" father="Hero.dead_lord_nicaea_6" mother="Hero.lord_nicaea_2_1" faction="Faction.clan_nicaea_2"/>
+	<Hero id="lord_nicaea_2_1_2" father="Hero.dead_lord_nicaea_6" mother="Hero.lord_nicaea_2_1" faction="Faction.clan_nicaea_2"/>
+	<Hero id="lord_nicaea_2_2" faction="Faction.clan_nicaea_2"/>
+	<Hero id="lord_nicaea_2_3" faction="Faction.clan_nicaea_2"/>
+	<Hero id="lord_nicaea_2_4" faction="Faction.clan_nicaea_2"/>
+
+	<!-- clan_nicaea_3: House of Tarchaneiótis -->
+	<Hero id="dead_lord_nicaea_7" alive="false" faction="Faction.clan_nicaea_3"/>
+	<Hero id="lord_nicaea_3_1" spouse="Hero.lord_nicaea_1_0_1" father="Hero.dead_lord_nicaea_7" faction="Faction.clan_nicaea_3"/>
+	<Hero id="lord_nicaea_3_1_1" spouse="Hero.lord_nicaea_3_1_1_1" mother="Hero.lord_nicaea_1_0_1" father="Hero.lord_nicaea_3_1" faction="Faction.clan_nicaea_3"/>
+	<Hero id="lord_nicaea_3_1_1_1" spouse="Hero.lord_nicaea_3_1_1" faction="Faction.clan_nicaea_3"/>
+	<Hero id="lord_nicaea_3_1_2" spouse="Hero.lord_nicaea_3_1_2_1" mother="Hero.lord_nicaea_1_0_1" father="Hero.lord_nicaea_3_1" faction="Faction.clan_nicaea_3"/>
+	<Hero id="lord_nicaea_3_1_2_1" spouse="Hero.lord_nicaea_3_1_2" faction="Faction.clan_nicaea_3"/>
+	<Hero id="lord_nicaea_3_1_2_2" father="Hero.lord_nicaea_3_1_2" mother="Hero.lord_nicaea_3_1_2_1" faction="Faction.clan_nicaea_3"/>
+	<Hero id="lord_nicaea_3_1_3" spouse="Hero.lord_nicaea_3_1_3_1" mother="Hero.lord_nicaea_1_0_1" father="Hero.lord_nicaea_3_1" faction="Faction.clan_nicaea_3"/>
+	<Hero id="lord_nicaea_3_1_3_1" spouse="Hero.lord_nicaea_3_1_3" faction="Faction.clan_nicaea_3"/>
+	<Hero id="lord_nicaea_3_1_3_2" father="Hero.lord_nicaea_3_1_3" mother="Hero.lord_nicaea_3_1_3_1" faction="Faction.clan_nicaea_3"/>
+	<Hero id="lord_nicaea_3_1_4" spouse="Hero.lord_nicaea_3_1_4_1" mother="Hero.lord_nicaea_1_0_1" father="Hero.lord_nicaea_3_1" faction="Faction.clan_nicaea_3"/>
+	<Hero id="lord_nicaea_3_1_4_1" spouse="Hero.lord_nicaea_3_1_4" faction="Faction.clan_nicaea_3"/>
+
+	<!-- clan_nicaea_4: House of Raoúl -->
+	<Hero id="dead_lord_nicaea_8" spouse="Hero.dead_lord_nicaea_9" alive="false" faction="Faction.clan_nicaea_4"/>
+	<Hero id="dead_lord_nicaea_9" spouse="Hero.dead_lord_nicaea_8" alive="false" faction="Faction.clan_nicaea_4"/>
+	<Hero id="lord_nicaea_4_1" spouse="Hero.lord_nicaea_1_0_2_1" father="Hero.dead_lord_nicaea_8" mother="Hero.dead_lord_nicaea_9" faction="Faction.clan_nicaea_4"/>
+	<Hero id="lord_nicaea_4_1_1" mother="Hero.lord_nicaea_1_0_2_1" father="Hero.lord_nicaea_4_1" faction="Faction.clan_nicaea_4"/>
+	<Hero id="lord_nicaea_4_2" spouse="Hero.lord_nicaea_4_2_1" father="Hero.dead_lord_nicaea_8" mother="Hero.dead_lord_nicaea_9" faction="Faction.clan_nicaea_4"/>
+	<Hero id="lord_nicaea_4_2_1" spouse="Hero.lord_nicaea_4_2" faction="Faction.clan_nicaea_4"/>
+	<Hero id="lord_nicaea_4_2_2" father="Hero.lord_nicaea_4_2" mother="Hero.lord_nicaea_4_2_1" faction="Faction.clan_nicaea_4"/>
+	<Hero id="lord_nicaea_4_3" spouse="Hero.lord_nicaea_4_3_1" father="Hero.dead_lord_nicaea_8" mother="Hero.dead_lord_nicaea_9" faction="Faction.clan_nicaea_4"/>
+	<Hero id="lord_nicaea_4_3_1" spouse="Hero.lord_nicaea_4_3" faction="Faction.clan_nicaea_4"/>
+
+	<!-- clan_nicaea_5: House of Bryennios -->
+	<Hero id="lord_nicaea_5a" faction="Faction.clan_nicaea_5"/>
+	<Hero id="lord_nicaea_5b" spouse="Hero.lord_nicaea_5c" faction="Faction.clan_nicaea_5"/>
+	<Hero id="lord_nicaea_5c" spouse="Hero.lord_nicaea_5b" faction="Faction.clan_nicaea_5"/>
+	<Hero id="lord_nicaea_5d" faction="Faction.clan_nicaea_5"/>
+
+	<!-- clan_nicaea_6: House of Batatzes -->
+	<Hero id="lord_nicaea_6a" spouse="Hero.lord_nicaea_6b" faction="Faction.clan_nicaea_6"/>
+	<Hero id="lord_nicaea_6b" spouse="Hero.lord_nicaea_6a" faction="Faction.clan_nicaea_6"/>
+	<Hero id="lord_nicaea_6c" father="Hero.lord_nicaea_6a" mother="Hero.lord_nicaea_6b" spouse="Hero.lord_nicaea_1_1" faction="Faction.clan_nicaea_6"/>
+	<Hero id="lord_nicaea_6d" father="Hero.lord_nicaea_6a" mother="Hero.lord_nicaea_6b" spouse="Hero.lord_nicaea_6e" faction="Faction.clan_nicaea_6"/>
+	<Hero id="lord_nicaea_6e" spouse="Hero.lord_nicaea_6d" faction="Faction.clan_nicaea_6"/>
+	<Hero id="lord_nicaea_6f" father="Hero.lord_nicaea_6e" mother="Hero.lord_nicaea_6d" faction="Faction.clan_nicaea_6"/>
+
+	<!-- clan_nicaea_7: House of Kantakouzenos -->
+	<Hero id="lord_nicaea_7a" faction="Faction.clan_nicaea_7"/>
+	<Hero id="lord_nicaea_7b" spouse="Hero.lord_nicaea_7c" faction="Faction.clan_nicaea_7"/>
+	<Hero id="lord_nicaea_7c" spouse="Hero.lord_nicaea_7b" faction="Faction.clan_nicaea_7"/>
+	<Hero id="dead_lord_nicaea_7d" alive="false" spouse="Hero.lord_nicaea_7e" faction="Faction.clan_nicaea_7"/>
+	<Hero id="lord_nicaea_7e" spouse="Hero.dead_lord_nicaea_7d" faction="Faction.clan_nicaea_7"/>
+	<Hero id="lord_nicaea_7f" father="Hero.dead_lord_nicaea_7d" mother="Hero.lord_nicaea_7e" faction="Faction.clan_nicaea_7"/>
+	<Hero id="lord_nicaea_7g" father="Hero.dead_lord_nicaea_7d" mother="Hero.lord_nicaea_7e" faction="Faction.clan_nicaea_7"/>
+</Heroes>
