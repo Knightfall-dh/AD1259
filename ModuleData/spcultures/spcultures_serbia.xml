@@ -1,0 +1,252 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<SPCultures>
+	<Culture id="serbia"
+	         name="{=serbiaCulture}Serbian"
+	         is_main_culture="true"
+	         color="0xffF8C201"
+	         color2="0xffDA241C"
+	         elite_basic_troop="NPCCharacter.serbia_elite_root"
+	         basic_troop="NPCCharacter.serbia_basic_root"
+	         melee_militia_troop="NPCCharacter.serbia_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.serbia_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.serbia_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.serbia_militia_veteran_archer"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_serbia_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_SERBIA_template"
+	         settlement_patrol_template_level_1="PartyTemplate.patrol_party_SERBIA_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_SERBIA_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_SERBIA_template_level_3"
+	         encounter_background_mesh="encounter_serbia"
+	         faction_banner_key="11.145.40.2000.2000.764.764.0.0.0.100.128.116.584.717.766.753.0.0.0"
+	         militia_party_template="PartyTemplate.militia_serbia_template"
+	         rebels_party_template="PartyTemplate.rebels_serbia_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_serbia"
+	         text="{=serbia_text}Unused in the game."
+	         tournament_master="NPCCharacter.tournament_master_serbia"
+	         villager="NPCCharacter.villager_serbia"
+	         caravan_master="NPCCharacter.caravan_master_serbia"
+	         caravan_guard="NPCCharacter.caravan_guard_serbia"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_serbia"
+	         prison_guard="NPCCharacter.prison_guard_serbia"
+	         guard="NPCCharacter.guard_serbia"
+	         blacksmith="NPCCharacter.blacksmith_serbia"
+	         weaponsmith="NPCCharacter.weaponsmith_serbia"
+	         townswoman="NPCCharacter.townswoman_serbia"
+	         townswoman_infant="NPCCharacter.townswoman_infant_serbia"
+	         townswoman_child="NPCCharacter.townswoman_child_serbia"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_serbia"
+	         townsman="NPCCharacter.townsman_serbia"
+	         townsman_infant="NPCCharacter.townsman_infant_serbia"
+	         townsman_child="NPCCharacter.townsman_child_serbia"
+	         townsman_teenager="NPCCharacter.townsman_teenager_serbia"
+	         village_woman="NPCCharacter.village_woman_serbia"
+	         villager_male_child="NPCCharacter.villager_child_serbia"
+	         villager_male_teenager="NPCCharacter.villager_teenager_serbia"
+	         villager_female_child="NPCCharacter.village_woman_child_serbia"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_serbia"
+	         ransom_broker="NPCCharacter.ransom_broker_serbia"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_serbia"
+	         merchant_notary="NPCCharacter.merchant_notary_serbia"
+	         artisan_notary="NPCCharacter.artisan_notary_serbia"
+	         preacher_notary="NPCCharacter.preacher_notary_serbia"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_serbia"
+	         shop_worker="NPCCharacter.shop_worker_serbia"
+	         tavernkeeper="NPCCharacter.tavernkeeper_serbia"
+	         taverngamehost="NPCCharacter.taverngamehost_serbia"
+	         musician="NPCCharacter.musician_serbia"
+	         tavern_wench="NPCCharacter.tavern_wench_serbia"
+	         armorer="NPCCharacter.armorer_serbia"
+	         horseMerchant="NPCCharacter.horseMerchant_serbia"
+	         barber="NPCCharacter.barber_serbia"
+	         merchant="NPCCharacter.merchant_serbia"
+	         beggar="NPCCharacter.beggar_serbia"
+	         female_beggar="NPCCharacter.female_beggar_serbia"
+	         female_dancer="NPCCharacter.female_dancer_serbia"
+	         default_battle_equipment_roster="EquipmentRoster.serbia_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.serbia_civ_template_default"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+	         duel_preset_equipment_roster="EquipmentRoster.emp_duel_preset_template"
+	         marriage_bride_equipment_roster="EquipmentRoster.marriage_female_serbia_cutscene_template"
+	         board_game_type="Konane"
+	         default_character_creation_body_property="BodyProperty.default_character_creation_body_property_empire"
+	         start_point_position_x="666"
+	         start_point_position_y="1000">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_serbia"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_serbia"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls/>
+		<vassal_reward_items>
+			<item id="Item.avalanche_2haxe"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.sturgia_sword_1_t2"/>
+			<item id="Item.sturgia_sword_2_t3"/>
+			<item id="Item.sturgia_sword_4_t4"/>
+			<item id="Item.sturgia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_hunting_rights"/>
+			<policy id="policy_serfdom"/>
+			<policy id="policy_grazing_rights"/>
+		</default_policies>
+		<male_names>
+			<name name="{=A1}Vukan"/>
+			<name name="{=A2}Stefan"/>
+			<name name="{=A3}Radoslav"/>
+			<name name="{=A4}Uroš"/>
+			<name name="{=A5}Vladislav"/>
+			<name name="{=A6}Dragoslav"/>
+			<name name="{=A7}Predislav"/>
+			<name name="{=A8}Stracimir"/>
+			<name name="{=A9}Momčilo"/>
+			<name name="{=A10}Lazar"/>
+			<name name="{=A11}Dobroslav"/>
+			<name name="{=A12}Gradislav"/>
+			<name name="{=A13}Miloš"/>
+			<name name="{=A14}Radivoj"/>
+			<name name="{=A15}Bratislav"/>
+			<name name="{=A16}Stanisav"/>
+			<name name="{=A17}Tvrdislav"/>
+			<name name="{=A18}Dmitar"/>
+			<name name="{=A19}Nenad"/>
+			<name name="{=A20}Dragutin"/>
+			<name name="{=A21}Bogdan"/>
+			<name name="{=A22}Petar"/>
+			<name name="{=A23}Nikola"/>
+			<name name="{=A24}Andrija"/>
+			<name name="{=A25}Grgur"/>
+			<name name="{=A26}Vojislav"/>
+			<name name="{=A27}Milovan"/>
+			<name name="{=A28}Desimir"/>
+			<name name="{=A29}Milutin"/>
+			<name name="{=A30}Branislav"/>
+		</male_names>
+		<female_names>
+			<name name="{=B1}Jelena"/>
+			<name name="{=B2}Ana"/>
+			<name name="{=B3}Milica"/>
+			<name name="{=B4}Teodora"/>
+			<name name="{=B5}Dragana"/>
+			<name name="{=B6}Stana"/>
+			<name name="{=B7}Radoslava"/>
+			<name name="{=B8}Marija"/>
+			<name name="{=B9}Vidosava"/>
+			<name name="{=B10}Desislava"/>
+			<name name="{=B11}Smiljana"/>
+			<name name="{=B12}Bogdana"/>
+			<name name="{=B13}Nevena"/>
+			<name name="{=B14}Pribislava"/>
+			<name name="{=B15}Radmila"/>
+			<name name="{=B16}Magdalena"/>
+			<name name="{=B17}Kosara"/>
+			<name name="{=B18}Gordana"/>
+			<name name="{=B19}Zorica"/>
+			<name name="{=B20}Neda"/>
+		</female_names>
+		<clan_names>
+			<name name="{=Radojević}Radojević"/>
+			<name name="{=Rastomirić}Rastomirić"/>
+			<name name="{=Stepković}Stepković"/>
+			<name name="{=Adamović}Adamović"/>
+			<name name="{=Mrđić}Mrdić"/>
+			<name name="{=Zlošević}Zlošević"/>
+			<name name="{=C9}Crnojević"/>
+			<name name="{=C6}Jakšić"/>
+			<name name="{=C7}Kosača"/>
+			<name name="{=C3}Vojinović"/>
+			<name name="{=C4}Balšić"/>
+			<name name="{=C2}Mrnjavčević"/>
+		</clan_names>
+		<cultural_feats>
+			<feat id="sturgian_increased_grain_production"/>
+			<feat id="sturgian_decreased_army_influence_cost"/>
+			<feat id="vlandian_villages_production_bonus"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="112"/>
+			<icon id="113"/>
+			<icon id="114"/>
+			<icon id="115"/>
+			<icon id="116"/>
+			<icon id="117"/>
+			<icon id="118"/>
+			<icon id="132"/>
+			<icon id="138"/>
+			<icon id="139"/>
+			<icon id="307"/>
+			<icon id="331"/>
+			<icon id="407"/>
+			<icon id="408"/>
+			<icon id="409"/>
+			<icon id="410"/>
+			<icon id="439"/>
+			<icon id="440"/>
+			<icon id="441"/>
+			<icon id="442"/>
+			<icon id="443"/>
+			<icon id="444"/>
+			<icon id="445"/>
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_serbia_0"/>
+			<template name="NPCCharacter.spc_notable_serbia_0b"/>
+			<template name="NPCCharacter.spc_notable_serbia_1"/>
+			<template name="NPCCharacter.spc_notable_serbia_2"/>
+			<template name="NPCCharacter.spc_notable_serbia_2b"/>
+			<template name="NPCCharacter.spc_notable_serbia_3"/>
+			<template name="NPCCharacter.spc_notable_serbia_3b"/>
+			<template name="NPCCharacter.spc_notable_serbia_3c"/>
+			<template name="NPCCharacter.spc_notable_serbia_4"/>
+			<template name="NPCCharacter.spc_notable_serbia_5"/>
+			<template name="NPCCharacter.spc_notable_serbia_6"/>
+			<template name="NPCCharacter.spc_notable_serbia_7"/>
+			<template name="NPCCharacter.spc_notable_serbia_8"/>
+			<template name="NPCCharacter.spc_notable_serbia_9"/>
+			<template name="NPCCharacter.spc_notable_serbia_10"/>
+			<template name="NPCCharacter.spc_serbia_headman_1"/>
+			<template name="NPCCharacter.spc_serbia_headman_2"/>
+			<template name="NPCCharacter.spc_serbia_headman_3"/>
+		</notable_templates>
+		<lord_templates>
+			<template name="NPCCharacter.serbia_autogenerated_lord1"/>
+			<template name="NPCCharacter.serbia_autogenerated_lord2"/>
+			<template name="NPCCharacter.serbia_autogenerated_lord3"/>
+			<template name="NPCCharacter.serbia_autogenerated_lord4"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.serbia_autogenerated_lord1"/>
+			<template name="NPCCharacter.serbia_autogenerated_lord2"/>
+			<template name="NPCCharacter.serbia_autogenerated_lord3"/>
+			<template name="NPCCharacter.serbia_autogenerated_lord4"/>
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_serbia_one_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_serbia_one_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_serbia_one_participant_set_v3"/>
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_serbia_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_serbia_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_serbia_two_participant_set_v3"/>
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_serbia_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_serbia_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_serbia_four_participant_set_v3"/>
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.merc_balkan_spear1"/>
+			<template name="NPCCharacter.merc_balkan_axe1"/>
+			<template name="NPCCharacter.merc_balkan_archer1"/>
+			<template name="NPCCharacter.merc_euro_spearman"/>
+			<template name="NPCCharacter.merc_euro_guisarmer"/>
+			<template name="NPCCharacter.merc_euro_crossbowman"/>
+			<template name="NPCCharacter.merc_euro_horseman"/>
+			<template name="NPCCharacter.merc_manhunter_root"/>
+		</basic_mercenary_troops>
+	</Culture>
+</SPCultures> 

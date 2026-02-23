@@ -11578,7 +11578,7 @@
   </Settlement>
   <!--endregion -->
   <!--region Kingdom of Serbia : Serbian culture -->
-  <Settlement id="town_belgrade" name="{=town_belgrade_name}Beograd" owner="Faction.clan_england_1" posX="656.822" posY="1013.252" culture="Culture.england" gate_posX="658.697" gate_posY="1010.168" text="{=town_belgrade_text}Belgrade text...">
+  <Settlement id="town_belgrade" name="{=town_belgrade_name}Beograd" owner="Faction.clan_serbia_1" posX="656.822" posY="1013.252" culture="Culture.serbia" gate_posX="658.697" gate_posY="1010.168" text="{=town_belgrade_text}Belgrade text...">
     <Components>
       <Town id="town_comp_belgrade" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_serbia" wait_mesh="wait_serbia_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -11614,7 +11614,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_belgrade_pozarevac" name="{=town_belgrade_pozarevac_name}Pozarevac" posX="677.59" posY="1011.387" culture="Culture.england" text="{=town_belgrade_pozarevac_text}Pozarevac text...">
+  <Settlement id="town_belgrade_pozarevac" name="{=town_belgrade_pozarevac_name}Pozarevac" posX="677.59" posY="1011.387" culture="Culture.serbia" text="{=town_belgrade_pozarevac_text}Pozarevac text...">
     <Components>
       <Village id="town_comp_belgrade_pozarevac" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_belgrade" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
     </Components>
@@ -11627,7 +11627,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_belgrade_valjevo" name="{=town_belgrade_valjevo_name}Valjevo" posX="646.699" posY="1003.558" culture="Culture.england" text="{=town_belgrade_valjevo_text}Valjevo text...">
+  <Settlement id="town_belgrade_valjevo" name="{=town_belgrade_valjevo_name}Valjevo" posX="646.699" posY="1003.558" culture="Culture.serbia" text="{=town_belgrade_valjevo_text}Valjevo text...">
     <Components>
       <Village id="town_comp_belgrade_valjevo" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.town_belgrade" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
     </Components>
@@ -11640,7 +11640,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_belgrade_sirmium" name="{=town_belgrade_sirmium_name}Sirmium" posX="646.258" posY="1018.925" culture="Culture.england" text="{=town_belgrade_sirmium_text}Sirmium text...">
+  <Settlement id="town_belgrade_sirmium" name="{=town_belgrade_sirmium_name}Sirmium" posX="646.258" posY="1018.925" culture="Culture.serbia" text="{=town_belgrade_sirmium_text}Sirmium text...">
     <Components>
       <Village id="town_comp_belgrade_sirmium" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_belgrade" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
     </Components>
@@ -11653,7 +11653,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_nis" name="{=castle_nis_name}Nis Castle" owner="Faction.clan_england_1" posX="697.369" posY="987.459" culture="Culture.england" gate_posX="697.9227" gate_posY="985.9252">
+  <Settlement id="castle_nis" name="{=castle_nis_name}Nis Castle" owner="Faction.clan_serbia_1" posX="697.369" posY="987.459" culture="Culture.serbia" gate_posX="697.9227" gate_posY="985.9252">
     <Components>
       <Town id="castle_comp_nis" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_serbia" wait_mesh="wait_serbia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -11678,7 +11678,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_nis_ratiaria" name="{=castle_nis_ratiaria_name}Ratiaria" posX="708.035" posY="1001.513" culture="Culture.england" text="{=castle_nis_ratiaria_text}Ratiaria text...">
+  <Settlement id="castle_nis_ratiaria" name="{=castle_nis_ratiaria_name}Ratiaria" posX="708.035" posY="1001.513" culture="Culture.serbia" text="{=castle_nis_ratiaria_text}Ratiaria text...">
     <Components>
       <Village id="castle_comp_nis_ratiaria" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_nis" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
     </Components>
@@ -11691,7 +11691,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_nis_belebousda" name="{=castle_nis_belebousda_name}Belebousda" posX="710.011" posY="965.433" culture="Culture.england" text="{=castle_nis_belebousda_text}Belebousda text...">
+  <Settlement id="castle_nis_belebousda" name="{=castle_nis_belebousda_name}Belebousda" posX="710.011" posY="965.433" culture="Culture.serbia" text="{=castle_nis_belebousda_text}Belebousda text...">
     <Components>
       <Village id="castle_comp_nis_belebousda" village_type="VillageType.silver_mine" hearth="400" bound="Settlement.castle_nis" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
     </Components>
@@ -11704,7 +11704,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ras" name="{=castle_ras_name}Ras Castle" owner="Faction.clan_england_1" posX="662.668" posY="978.41" culture="Culture.england" gate_posX="662.2112" gate_posY="978.7232">
+  <Settlement id="castle_ras" name="{=castle_ras_name}Ras Castle" owner="Faction.clan_serbia_1" posX="662.668" posY="978.41" culture="Culture.serbia" gate_posX="662.2112" gate_posY="978.7232">
     <Components>
       <Town id="castle_comp_ras" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_serbia" wait_mesh="wait_serbia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -11729,7 +11729,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_ras_sjenica" name="{=castle_ras_sjenica_name}Sjenica" posX="650.593" posY="982.265" culture="Culture.england" text="{=castle_ras_sjenica_text}Sjenica text...">
+  <Settlement id="castle_ras_sjenica" name="{=castle_ras_sjenica_name}Sjenica" posX="650.593" posY="982.265" culture="Culture.serbia" text="{=castle_ras_sjenica_text}Sjenica text...">
     <Components>
       <Village id="castle_comp_ras_sjenica" village_type="VillageType.europe_horse_ranch" hearth="400" bound="Settlement.castle_ras" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
     </Components>
@@ -11742,7 +11742,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ras_pristina" name="{=castle_ras_pristina_name}Pristina" posX="669.762" posY="967.853" culture="Culture.england" text="{=castle_ras_pristina_text}Pristina text...">
+  <Settlement id="castle_ras_pristina" name="{=castle_ras_pristina_name}Pristina" posX="669.762" posY="967.853" culture="Culture.serbia" text="{=castle_ras_pristina_text}Pristina text...">
     <Components>
       <Village id="castle_comp_ras_pristina" village_type="VillageType.vineyard" hearth="400" bound="Settlement.castle_ras" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
     </Components>
@@ -11755,7 +11755,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_shkoder" name="{=castle_shkoder_name}Rozafa Castle" owner="Faction.clan_england_1" posX="649.138" posY="947.942" culture="Culture.england" gate_posX="648.5444" gate_posY="949.8573">
+  <Settlement id="castle_shkoder" name="{=castle_shkoder_name}Rozafa Castle" owner="Faction.clan_serbia_1" posX="649.138" posY="947.942" culture="Culture.serbia" gate_posX="648.5444" gate_posY="949.8573">
     <Components>
       <Town id="castle_comp_shkoder" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_serbia" wait_mesh="wait_serbia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -11780,7 +11780,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="town_dyrrhacium_tirana" name="{=town_dyrrhacium_tirana_name}Tirana" posX="650.459" posY="934.403" culture="Culture.england" text="{=ctown_dyrrhacium_tirana_text}Tirana text...">
+  <Settlement id="town_dyrrhacium_tirana" name="{=town_dyrrhacium_tirana_name}Tirana" posX="650.459" posY="934.403" culture="Culture.serbia" text="{=ctown_dyrrhacium_tirana_text}Tirana text...">
     <Components>
       <Village id="town_comp_dyrrhacium_tirana" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.castle_shkoder" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
     </Components>
@@ -11793,7 +11793,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_shkoder_budva" name="{=castle_shkoder_budva_name}Budva" posX="641.25" posY="950.934" culture="Culture.england" text="{=castle_shkoder_budva_text}Budva text...">
+  <Settlement id="castle_shkoder_budva" name="{=castle_shkoder_budva_name}Budva" posX="641.25" posY="950.934" culture="Culture.serbia" text="{=castle_shkoder_budva_text}Budva text...">
     <Components>
       <Village id="castle_comp_shkoder_budva" village_type="VillageType.fisherman" hearth="500" bound="Settlement.castle_shkoder" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
     </Components>
@@ -11806,7 +11806,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kotor" name="{=castle_Kotor_name}Kotor Castle" owner="Faction.clan_england_1" posX="634.773" posY="952.781" culture="Culture.england" gate_posX="636.5667" gate_posY="953.7112">
+  <Settlement id="castle_kotor" name="{=castle_Kotor_name}Kotor Castle" owner="Faction.clan_serbia_1" posX="634.773" posY="952.781" culture="Culture.serbia" gate_posX="636.5667" gate_posY="953.7112">
     <Components>
       <Town id="castle_comp_Kotor" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_serbia" wait_mesh="wait_serbia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -11831,7 +11831,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_kotor_rhizon" name="{=castle_kotor_rhizon_name}Rhizon" posX="636.256" posY="961.879" culture="Culture.england" text="{=castle_kotor_rhizon_name_text}Rhizon text...">
+  <Settlement id="castle_kotor_rhizon" name="{=castle_kotor_rhizon_name}Rhizon" posX="636.256" posY="961.879" culture="Culture.serbia" text="{=castle_kotor_rhizon_name_text}Rhizon text...">
     <Components>
       <Village id="castle_comp_kotor_rhizon" village_type="VillageType.olive_trees" hearth="400" bound="Settlement.castle_kotor" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
     </Components>
@@ -11844,7 +11844,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kotor_niksic" name="{=castle_kotor_niksic_name}Niksic" posX="647.45" posY="967.697" culture="Culture.england" text="{=castle_kotor_niksic_text}Niksic text...">
+  <Settlement id="castle_kotor_niksic" name="{=castle_kotor_niksic_name}Niksic" posX="647.45" posY="967.697" culture="Culture.serbia" text="{=castle_kotor_niksic_text}Niksic text...">
     <Components>
       <Village id="castle_comp_kotor_niksic" village_type="VillageType.wheat_farm" hearth="500" bound="Settlement.castle_kotor" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
     </Components>
@@ -11857,7 +11857,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ram" name="{=castle_ram_name}Ram Castle" owner="Faction.clan_england_1" posX="699.035" posY="1015.361" culture="Culture.england" gate_posX="698.6048" gate_posY="1014.697">
+  <Settlement id="castle_ram" name="{=castle_ram_name}Ram Castle" owner="Faction.clan_serbia_1" posX="699.035" posY="1015.361" culture="Culture.serbia" gate_posX="698.6048" gate_posY="1014.697">
     <Components>
       <Town id="castle_comp_ram" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_serbia" wait_mesh="wait_serbia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -11882,7 +11882,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_ram_jagodina" name="{=castle_ram_jagodina_name}Jagodina" posX="688.397" posY="994.993" culture="Culture.england" text="{=castle_ram_jagodina_text}Jagodina text...">
+  <Settlement id="castle_ram_jagodina" name="{=castle_ram_jagodina_name}Jagodina" posX="688.397" posY="994.993" culture="Culture.serbia" text="{=castle_ram_jagodina_text}Jagodina text...">
     <Components>
       <Village id="castle_comp_ram_jagodina" village_type="VillageType.cattle_farm" hearth="300" bound="Settlement.castle_ram" background_crop_position="0.0" background_mesh="gui_bg_village_serbia" wait_mesh="wait_serbia_village" castle_background_mesh="gui_bg_castle_serbia" />
     </Components>
@@ -14511,7 +14511,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region Teutonic order -->
-  <Settlement id="town_elbag" name="{=town_elbag_name}Elbing" owner="Faction.clan_england_1" posX="621.651" posY="1217.199" culture="Culture.england" gate_posX="622.9721" gate_posY="1217.061" text="{=town_szczecin_text}Truso text...">
+  <Settlement id="town_elbag" name="{=town_elbag_name}Elbing" owner="Faction.clan_teutonic_1" posX="621.651" posY="1217.199" culture="Culture.teutonic" gate_posX="622.9721" gate_posY="1217.061" text="{=town_szczecin_text}Truso text...">
     <Components>
       <Town id="town_comp_elbag" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_teutonic" wait_mesh="wait_teutonic_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -14547,7 +14547,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_elbag_susse" name="{=town_elbag_susse_name}Susse" posX="623.071" posY="1207.32" culture="Culture.england" text="{=town_elbag_susse_text}Susse text...">
+  <Settlement id="town_elbag_susse" name="{=town_elbag_susse_name}Susse" posX="623.071" posY="1207.32" culture="Culture.teutonic" text="{=town_elbag_susse_text}Susse text...">
     <Components>
       <Village id="town_comp_elbag_susse" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_elbag" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -14560,7 +14560,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_elbag_brus" name="{=town_elbag_brus_name}Brus" posX="639.153" posY="1222.905" culture="Culture.england" text="{=town_elbag_brus_text}Brus text...">
+  <Settlement id="town_elbag_brus" name="{=town_elbag_brus_name}Brus" posX="639.153" posY="1222.905" culture="Culture.teutonic" text="{=town_elbag_brus_text}Brus text...">
     <Components>
       <Village id="town_comp_elbag_brus" village_type="VillageType.cattle_farm" hearth="400" bound="Settlement.town_elbag" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -14573,7 +14573,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_twangste" name="{=town_twangste_name}Königsberg" owner="Faction.clan_england_1" posX="645.602" posY="1237.01" culture="Culture.england" gate_posX="647.2842" gate_posY="1236.116" text="{=town_szczecin_text}Twangste text...">
+  <Settlement id="town_twangste" name="{=town_twangste_name}Königsberg" owner="Faction.clan_teutonic_1" posX="645.602" posY="1237.01" culture="Culture.teutonic" gate_posX="647.2842" gate_posY="1236.116" text="{=town_szczecin_text}Twangste text...">
     <Components>
       <Town id="town_comp_twangste" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_teutonic" wait_mesh="wait_teutonic_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -14609,7 +14609,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_twangste_labiala" name="{=town_twangste_labiala_name}Labiawa" posX="656.371" posY="1243.116" culture="Culture.england" text="{=town_twangste_labiala_text}Labiawa text...">
+  <Settlement id="town_twangste_labiala" name="{=town_twangste_labiala_name}Labiawa" posX="656.371" posY="1243.116" culture="Culture.teutonic" text="{=town_twangste_labiala_text}Labiawa text...">
     <Components>
       <Village id="town_comp_twangste_labiala" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_twangste" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -14622,7 +14622,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_twangste_tummonis" name="{=town_twangste_tummonis_name}Tummonis" posX="653.569" posY="1223.967" culture="Culture.england" text="{=town_twangste_tummonis_text}Tummonis text...">
+  <Settlement id="town_twangste_tummonis" name="{=town_twangste_tummonis_name}Tummonis" posX="653.569" posY="1223.967" culture="Culture.teutonic" text="{=town_twangste_tummonis_text}Tummonis text...">
     <Components>
       <Village id="town_comp_twangste_tummonis" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.town_twangste" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -14635,7 +14635,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_chelmno" name="{=castle_chelmno_name}Kulm Castle" owner="Faction.clan_england_1" posX="618.196" posY="1202.025" culture="Culture.england" gate_posX="619.1398" gate_posY="1201.383">
+  <Settlement id="castle_chelmno" name="{=castle_chelmno_name}Kulm Castle" owner="Faction.clan_teutonic_1" posX="618.196" posY="1202.025" culture="Culture.teutonic" gate_posX="619.1398" gate_posY="1201.383">
     <Components>
       <Town id="castle_comp_chelmno" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_teutonic" wait_mesh="wait_teutonic_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -14660,7 +14660,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_chelmno_torun" name="{=castle_chelmno_torun_name}Torun" posX="621.092" posY="1194.026" culture="Culture.england" text="{=castle_chelmno_torun_text}Torun text...">
+  <Settlement id="castle_chelmno_torun" name="{=castle_chelmno_torun_name}Torun" posX="621.092" posY="1194.026" culture="Culture.teutonic" text="{=castle_chelmno_torun_text}Torun text...">
     <Components>
       <Village id="castle_comp_chelmno_torun" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.castle_chelmno" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -14673,7 +14673,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_rezel" name="{=castle_rezel_name}Resel Castle" owner="Faction.clan_england_1" posX="674.18" posY="1210.923" culture="Culture.england" gate_posX="675.4526" gate_posY="1212.164">
+  <Settlement id="castle_rezel" name="{=castle_rezel_name}Resel Castle" owner="Faction.clan_teutonic_1" posX="674.18" posY="1210.923" culture="Culture.teutonic" gate_posX="675.4526" gate_posY="1212.164">
     <Components>
       <Town id="castle_comp_rezel" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_teutonic" wait_mesh="wait_teutonic_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -14698,7 +14698,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_rezel_girdawe" name="{=castle_rezel_girdawe_name}Girdawe" posX="674.028" posY="1226.136" culture="Culture.england" text="{=castle_rezel_girdawe_text}Girdawe text...">
+  <Settlement id="castle_rezel_girdawe" name="{=castle_rezel_girdawe_name}Girdawe" posX="674.028" posY="1226.136" culture="Culture.teutonic" text="{=castle_rezel_girdawe_text}Girdawe text...">
     <Components>
       <Village id="castle_comp_rezel_girdawe" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.castle_rezel" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -14711,7 +14711,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ragaine" name="{=castle_ragaine_name}Ragaine Castle" owner="Faction.clan_england_1" posX="679.041" posY="1243.607" culture="Culture.england" gate_posX="677.851" gate_posY="1242.794">
+  <Settlement id="castle_ragaine" name="{=castle_ragaine_name}Ragaine Castle" owner="Faction.clan_teutonic_1" posX="679.041" posY="1243.607" culture="Culture.teutonic" gate_posX="677.851" gate_posY="1242.794">
     <Components>
       <Town id="castle_comp_ragaine" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_teutonic" wait_mesh="wait_teutonic_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -14736,7 +14736,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_ragaine_lazdynai" name="{=castle_ragaine_lazdynai_name}Lasdehnen" posX="687.903" posY="1242.941" culture="Culture.england" text="{=castle_ragaine_lazdynai_text}Lasdehnen text...">
+  <Settlement id="castle_ragaine_lazdynai" name="{=castle_ragaine_lazdynai_name}Lasdehnen" posX="687.903" posY="1242.941" culture="Culture.teutonic" text="{=castle_ragaine_lazdynai_text}Lasdehnen text...">
     <Components>
       <Village id="castle_comp_ragaine_lazdynai" village_type="VillageType.sturgian_horse_ranch" hearth="400" bound="Settlement.castle_ragaine" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -14749,7 +14749,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_riga" name="{=town_riga_name}Riga" owner="Faction.clan_england_1" posX="721.433" posY="1298.03" culture="Culture.england" gate_posX="722.5812" gate_posY="1298.996" text="{=town_riga_text}Riga text...">
+  <Settlement id="town_riga" name="{=town_riga_name}Riga" owner="Faction.clan_teutonic_1" posX="721.433" posY="1298.03" culture="Culture.teutonic" gate_posX="722.5812" gate_posY="1298.996" text="{=town_riga_text}Riga text...">
     <Components>
       <Town id="town_comp_riga" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_teutonic" wait_mesh="wait_teutonic_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -14785,7 +14785,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_riga_limbazi" name="{=town_riga_limbazi_name}Limbazi" posX="730.981" posY="1316.295" culture="Culture.england" text="{=town_riga_limbazi_text}Limbazi text...">
+  <Settlement id="town_riga_limbazi" name="{=town_riga_limbazi_name}Limbazi" posX="730.981" posY="1316.295" culture="Culture.teutonic" text="{=town_riga_limbazi_text}Limbazi text...">
     <Components>
       <Village id="town_comp_riga_limbazi" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.town_riga" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -14798,7 +14798,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_riga_lielvarde" name="{=town_riga_lielvarde_name}Lielvarde" posX="731.624" posY="1295.807" culture="Culture.england" text="{=town_riga_lielvarde_text}Lielvarde text...">
+  <Settlement id="town_riga_lielvarde" name="{=town_riga_lielvarde_name}Lielvarde" posX="731.624" posY="1295.807" culture="Culture.teutonic" text="{=town_riga_lielvarde_text}Lielvarde text...">
     <Components>
       <Village id="town_comp_riga_lielvarde" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.town_riga" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -14811,7 +14811,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_ventspils" name="{=town_ventspils_name}Ventspils" owner="Faction.clan_england_1" posX="667.609" posY="1298.594" culture="Culture.england" gate_posX="668.802" gate_posY="1297.684" text="{=town_ventspils_text}Ventspils text...">
+  <Settlement id="town_ventspils" name="{=town_ventspils_name}Ventspils" owner="Faction.clan_teutonic_1" posX="667.609" posY="1298.594" culture="Culture.teutonic" gate_posX="668.802" gate_posY="1297.684" text="{=town_ventspils_text}Ventspils text...">
     <Components>
       <Town id="town_comp_ventspils" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_teutonic" wait_mesh="wait_teutonic_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -14847,7 +14847,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_ventspils_talsi" name="{=town_ventspils_talsi_name}Talsi" posX="683.655" posY="1296.731" culture="Culture.england" text="{=town_ventspils_talsi_text}Talsi text...">
+  <Settlement id="town_ventspils_talsi" name="{=town_ventspils_talsi_name}Talsi" posX="683.655" posY="1296.731" culture="Culture.teutonic" text="{=town_ventspils_talsi_text}Talsi text...">
     <Components>
       <Village id="town_comp_ventspils_talsi" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.town_ventspils" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -14860,7 +14860,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_ventspils_kuldiga" name="{=town_ventspils_kuldiga_name}Kuldiga" posX="673.681" posY="1285.926" culture="Culture.england" text="{=town_ventspils_kuldiga_text}Kuldiga text...">
+  <Settlement id="town_ventspils_kuldiga" name="{=town_ventspils_kuldiga_name}Kuldiga" posX="673.681" posY="1285.926" culture="Culture.teutonic" text="{=town_ventspils_kuldiga_text}Kuldiga text...">
     <Components>
       <Village id="town_comp_ventspils_kuldiga" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_ventspils" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -14873,7 +14873,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kaarma" name="{=castle_kaarma_name}Kaarma Castle" owner="Faction.clan_england_1" posX="680.894" posY="1323.152" culture="Culture.england" gate_posX="679.4759" gate_posY="1322.568">
+  <Settlement id="castle_kaarma" name="{=castle_kaarma_name}Kaarma Castle" owner="Faction.clan_teutonic_1" posX="680.894" posY="1323.152" culture="Culture.teutonic" gate_posX="679.4759" gate_posY="1322.568">
     <Components>
       <Town id="castle_comp_kaarma" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_teutonic" wait_mesh="wait_teutonic_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -14898,7 +14898,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_kaarma_kaina" name="{=castle_kaarma_kaina_name}Kaina" posX="688.82" posY="1336.693" culture="Culture.england" text="{=castle_kaarma_kaina_text}Kaina text...">
+  <Settlement id="castle_kaarma_kaina" name="{=castle_kaarma_kaina_name}Kaina" posX="688.82" posY="1336.693" culture="Culture.teutonic" text="{=castle_kaarma_kaina_text}Kaina text...">
     <Components>
       <Village id="castle_comp_kaarma_kaina" village_type="VillageType.trapper" hearth="400" bound="Settlement.castle_kaarma" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -14911,7 +14911,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_varbola" name="{=castle_varbola_name}Varbola Castle" owner="Faction.clan_england_1" posX="726.708" posY="1333.991" culture="Culture.england" gate_posX="727.9359" gate_posY="1332.629">
+  <Settlement id="castle_varbola" name="{=castle_varbola_name}Varbola Castle" owner="Faction.clan_teutonic_1" posX="726.708" posY="1333.991" culture="Culture.teutonic" gate_posX="727.9359" gate_posY="1332.629">
     <Components>
       <Town id="castle_comp_varbola" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_teutonic" wait_mesh="wait_teutonic_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -14936,7 +14936,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_varbola_virtsu" name="{=castle_varbola_virtsu_name}Virtsu" posX="704.202" posY="1331.108" culture="Culture.england" text="{=castle_varbola_virtsu_text}Virtsu text...">
+  <Settlement id="castle_varbola_virtsu" name="{=castle_varbola_virtsu_name}Virtsu" posX="704.202" posY="1331.108" culture="Culture.teutonic" text="{=castle_varbola_virtsu_text}Virtsu text...">
     <Components>
       <Village id="castle_comp_varbola_virtsu" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_varbola" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -14949,7 +14949,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_iru" name="{=town_iru_name}Iru" owner="Faction.clan_england_1" posX="730.16" posY="1352.781" culture="Culture.england" gate_posX="730.04" gate_posY="1350.748" text="{=town_plock_text}Plock text...">
+  <Settlement id="town_iru" name="{=town_iru_name}Iru" owner="Faction.clan_teutonic_1" posX="730.16" posY="1352.781" culture="Culture.teutonic" gate_posX="730.04" gate_posY="1350.748" text="{=town_plock_text}Plock text...">
     <Components>
       <Town id="town_comp_iru" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_teutonic" wait_mesh="wait_teutonic_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -14985,7 +14985,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_iru_haapsalu" name="{=town_iru_haapsalu_name}Haapsalu" posX="702.066" posY="1336.531" culture="Culture.england" text="{=town_iru_haapsalu_text}Haapsalu text...">
+  <Settlement id="town_iru_haapsalu" name="{=town_iru_haapsalu_name}Haapsalu" posX="702.066" posY="1336.531" culture="Culture.teutonic" text="{=town_iru_haapsalu_text}Haapsalu text...">
     <Components>
       <Village id="town_comp_iru_haapsalu" village_type="VillageType.salt_mine" hearth="400" bound="Settlement.town_iru" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -14998,7 +14998,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_iru_paide" name="{=town_iru_paide_name}Paide" posX="750.368" posY="1343.677" culture="Culture.england" text="{=town_iru_paide_text}Paide text...">
+  <Settlement id="town_iru_paide" name="{=town_iru_paide_name}Paide" posX="750.368" posY="1343.677" culture="Culture.teutonic" text="{=town_iru_paide_text}Paide text...">
     <Components>
       <Village id="town_comp_iru_paide" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_iru" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -15011,7 +15011,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_rakvere" name="{=castle_rakvere_name}Rakvere Castle" owner="Faction.clan_england_1" posX="756.122" posY="1351.968" culture="Culture.england" gate_posX="756.1722" gate_posY="1350.564">
+  <Settlement id="castle_rakvere" name="{=castle_rakvere_name}Rakvere Castle" owner="Faction.clan_teutonic_1" posX="756.122" posY="1351.968" culture="Culture.teutonic" gate_posX="756.1722" gate_posY="1350.564">
     <Components>
       <Town id="castle_comp_rakvere" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_teutonic" wait_mesh="wait_teutonic_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -15036,7 +15036,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_rakvere_kukruse" name="{=castle_rakvere_kukruse_name}Kukruse" posX="771.194" posY="1356.966" culture="Culture.england" text="{=castle_rakvere_kukruse_text}Kukruse text...">
+  <Settlement id="castle_rakvere_kukruse" name="{=castle_rakvere_kukruse_name}Kukruse" posX="771.194" posY="1356.966" culture="Culture.teutonic" text="{=castle_rakvere_kukruse_text}Kukruse text...">
     <Components>
       <Village id="castle_comp_rakvere_kukruse" village_type="VillageType.flax_plant" hearth="400" bound="Settlement.castle_rakvere" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -15049,7 +15049,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_tartu" name="{=castle_tartu_name}Tartu Castle" owner="Faction.clan_england_1" posX="759.138" posY="1331.759" culture="Culture.england" gate_posX="758.3165" gate_posY="1330.781">
+  <Settlement id="castle_tartu" name="{=castle_tartu_name}Tartu Castle" owner="Faction.clan_teutonic_1" posX="759.138" posY="1331.759" culture="Culture.teutonic" gate_posX="758.3165" gate_posY="1330.781">
     <Components>
       <Town id="castle_comp_tartu" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_teutonic" wait_mesh="wait_teutonic_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -15074,7 +15074,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tartu_viljandi" name="{=castle_tartu_viljandi_name}Viljandi" posX="743.653" posY="1326.962" culture="Culture.england" text="{=castle_tartu_viljandi_text}Viljandi text...">
+  <Settlement id="castle_tartu_viljandi" name="{=castle_tartu_viljandi_name}Viljandi" posX="743.653" posY="1326.962" culture="Culture.teutonic" text="{=castle_tartu_viljandi_text}Viljandi text...">
     <Components>
       <Village id="castle_comp_tartu_viljandi" village_type="VillageType.sturgian_horse_ranch" hearth="400" bound="Settlement.castle_tartu" background_crop_position="0.0" background_mesh="gui_bg_village_teutonic" wait_mesh="wait_teutonic_village" castle_background_mesh="gui_bg_castle_teutonic" />
     </Components>
@@ -20091,7 +20091,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region Kingdom of Georgia : Georgian culture-->
-  <Settlement id="town_yerevan" name="{=town_yerevan_name}Yerevan" owner="Faction.clan_england_1" posX="1157.014" posY="973.723" culture="Culture.england" gate_posX="1154.969" gate_posY="975.4951" text="{=town_yerevan_text}Yerevan text...">
+  <Settlement id="town_yerevan" name="{=town_yerevan_name}Yerevan" owner="Faction.clan_georgia_1" posX="1157.014" posY="973.723" culture="Culture.georgia" gate_posX="1154.969" gate_posY="975.4951" text="{=town_yerevan_text}Yerevan text...">
     <Components>
       <Town id="town_comp_yerevan" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_georgia" wait_mesh="wait_georgia_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -20127,7 +20127,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_yerevan_zarehaven" name="{=town_yerevan_zarehaven_name}Zarehaven" posX="1124.111" posY="964.084" culture="Culture.england" text="{=town_yerevan_zarehaven_text}Zarehaven text...">
+  <Settlement id="town_yerevan_zarehaven" name="{=town_yerevan_zarehaven_name}Zarehaven" posX="1124.111" posY="964.084" culture="Culture.georgia" text="{=town_yerevan_zarehaven_text}Zarehaven text...">
     <Components>
       <Village id="town_comp_yerevan_zarehaven" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.town_yerevan" background_crop_position="0.0" background_mesh="gui_bg_village_georgia" wait_mesh="wait_georgia_village" castle_background_mesh="gui_bg_castle_georgia" />
     </Components>
@@ -20140,7 +20140,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_yerevan_ahtarak" name="{=town_yerevan_ahtarak_name}Ahtarak" posX="1145.849" posY="974.561" culture="Culture.england" text="{=town_yerevan_ahtarak_text}Ahtarak text...">
+  <Settlement id="town_yerevan_ahtarak" name="{=town_yerevan_ahtarak_name}Ahtarak" posX="1145.849" posY="974.561" culture="Culture.georgia" text="{=town_yerevan_ahtarak_text}Ahtarak text...">
     <Components>
       <Village id="town_comp_yerevan_ahtarak" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.town_yerevan" background_crop_position="0.0" background_mesh="gui_bg_village_georgia" wait_mesh="wait_georgia_village" castle_background_mesh="gui_bg_castle_georgia" />
     </Components>
@@ -20153,7 +20153,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_yerevan_nakhchivan" name="{=town_yerevan_nakhchivan_name}Nakhchivan" posX="1175.356" posY="959.194" culture="Culture.england" text="{=town_yerevan_nakhchivan_text}Nakhchivan text...">
+  <Settlement id="town_yerevan_nakhchivan" name="{=town_yerevan_nakhchivan_name}Nakhchivan" posX="1175.356" posY="959.194" culture="Culture.georgia" text="{=town_yerevan_nakhchivan_text}Nakhchivan text...">
     <Components>
       <Village id="town_comp_yerevan_nakhchivan" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_yerevan" background_crop_position="0.0" background_mesh="gui_bg_village_georgia" wait_mesh="wait_georgia_village" castle_background_mesh="gui_bg_castle_georgia" />
     </Components>
@@ -20166,7 +20166,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_baghaberd" name="{=castle_baghaberd_name}Baghaberd Castle" owner="Faction.clan_england_1" posX="1196.021" posY="967.627" culture="Culture.england" gate_posX="1197.273" gate_posY="966.514">
+  <Settlement id="castle_baghaberd" name="{=castle_baghaberd_name}Baghaberd Castle" owner="Faction.clan_georgia_1" posX="1196.021" posY="967.627" culture="Culture.georgia" gate_posX="1197.273" gate_posY="966.514">
     <Components>
       <Town id="castle_comp_baghaberd" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_georgia" wait_mesh="wait_georgia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -20191,7 +20191,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_baghaberd_ganja" name="{=castle_baghaberd_ganja_name}Ganja" posX="1199.708" posY="985.891" culture="Culture.england" text="{=castle_baghaberd_ganja_text}Ganja text...">
+  <Settlement id="castle_baghaberd_ganja" name="{=castle_baghaberd_ganja_name}Ganja" posX="1199.708" posY="985.891" culture="Culture.georgia" text="{=castle_baghaberd_ganja_text}Ganja text...">
     <Components>
       <Village id="castle_comp_baghaberd_ganja" village_type="VillageType.desert_horse_ranch" hearth="400" bound="Settlement.castle_baghaberd" background_crop_position="0.0" background_mesh="gui_bg_village_georgia" wait_mesh="wait_georgia_village" castle_background_mesh="gui_bg_castle_georgia" />
     </Components>
@@ -20204,7 +20204,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_kutaisi" name="{=town_kutaisi_name}Kutaisi" owner="Faction.clan_england_1" posX="1107.417" posY="1019.192" culture="Culture.england" gate_posX="1110.467" gate_posY="1019.362" text="{=town_kutaisi_text}Kutaisi text...">
+  <Settlement id="town_kutaisi" name="{=town_kutaisi_name}Kutaisi" owner="Faction.clan_georgia_1" posX="1107.417" posY="1019.192" culture="Culture.georgia" gate_posX="1110.467" gate_posY="1019.362" text="{=town_kutaisi_text}Kutaisi text...">
     <Components>
       <Town id="town_comp_kutaisi" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_georgia" wait_mesh="wait_georgia_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -20240,7 +20240,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_kutaisi_poti" name="{=town_kutaisi_poti_name}Poti" posX="1091.367" posY="1015.452" culture="Culture.england" text="{=town_kutaisi_poti_text}Poti text...">
+  <Settlement id="town_kutaisi_poti" name="{=town_kutaisi_poti_name}Poti" posX="1091.367" posY="1015.452" culture="Culture.georgia" text="{=town_kutaisi_poti_text}Poti text...">
     <Components>
       <Village id="town_comp_kutaisi_poti" village_type="VillageType.silk_plant" hearth="400" bound="Settlement.town_kutaisi" background_crop_position="0.0" background_mesh="gui_bg_village_georgia" wait_mesh="wait_georgia_village" castle_background_mesh="gui_bg_castle_georgia" />
     </Components>
@@ -20253,7 +20253,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_kutaisi_sarapanis" name="{=town_kutaisi_sarapanis_name}Sarapanis" posX="1118.677" posY="1015.885" culture="Culture.england" text="{=town_kutaisi_sarapanis_text}Sarapanis text...">
+  <Settlement id="town_kutaisi_sarapanis" name="{=town_kutaisi_sarapanis_name}Sarapanis" posX="1118.677" posY="1015.885" culture="Culture.georgia" text="{=town_kutaisi_sarapanis_text}Sarapanis text...">
     <Components>
       <Village id="town_comp_kutaisi_sarapanis" village_type="VillageType.salt_mine" hearth="400" bound="Settlement.town_kutaisi" background_crop_position="0.0" background_mesh="gui_bg_village_georgia" wait_mesh="wait_georgia_village" castle_background_mesh="gui_bg_castle_georgia" />
     </Components>
@@ -20266,7 +20266,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_kutaisi_artanuji" name="{=town_kutaisi_artanuji_name}Artanuji" posX="1099.832" posY="990.726" culture="Culture.england" text="{=town_kutaisi_artanuji_text}Artanuji text...">
+  <Settlement id="town_kutaisi_artanuji" name="{=town_kutaisi_artanuji_name}Artanuji" posX="1099.832" posY="990.726" culture="Culture.georgia" text="{=town_kutaisi_artanuji_text}Artanuji text...">
     <Components>
       <Village id="town_comp_kutaisi_artanuji" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.town_kutaisi" background_crop_position="0.0" background_mesh="gui_bg_village_georgia" wait_mesh="wait_georgia_village" castle_background_mesh="gui_bg_castle_georgia" />
     </Components>
@@ -20279,7 +20279,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_kutaisi_bathus" name="{=town_kutaisi_bathus_name}Bathus" posX="1081.257" posY="996.991" culture="Culture.england" text="{=town_kutaisi_bathus_text}Bathus text...">
+  <Settlement id="town_kutaisi_bathus" name="{=town_kutaisi_bathus_name}Bathus" posX="1081.257" posY="996.991" culture="Culture.georgia" text="{=town_kutaisi_bathus_text}Bathus text...">
     <Components>
       <Village id="town_comp_kutaisi_bathus" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_kutaisi" background_crop_position="0.0" background_mesh="gui_bg_village_georgia" wait_mesh="wait_georgia_village" castle_background_mesh="gui_bg_castle_georgia" />
     </Components>
@@ -20292,7 +20292,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tbilisi" name="{=town_tbilisi_name}Tbilisi" owner="Faction.clan_england_1" posX="1155.528" posY="1008.848" culture="Culture.england" gate_posX="1153.038" gate_posY="1010.539" text="{=town_tbilisi_text}Tbilisi text...">
+  <Settlement id="town_tbilisi" name="{=town_tbilisi_name}Tbilisi" owner="Faction.clan_georgia_1" posX="1155.528" posY="1008.848" culture="Culture.georgia" gate_posX="1153.038" gate_posY="1010.539" text="{=town_tbilisi_text}Tbilisi text...">
     <Components>
       <Town id="town_comp_tbilisi" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_georgia" wait_mesh="wait_georgia_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -20328,7 +20328,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tbilisi_telavi" name="{=town_tbilisi_telavi_name}Telavi" posX="1167.159" posY="1013.761" culture="Culture.england" text="{=town_tbilisi_telavi_text}Telavi text...">
+  <Settlement id="town_tbilisi_telavi" name="{=town_tbilisi_telavi_name}Telavi" posX="1167.159" posY="1013.761" culture="Culture.georgia" text="{=town_tbilisi_telavi_text}Telavi text...">
     <Components>
       <Village id="town_comp_tbilisi_telavi" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_tbilisi" background_crop_position="0.0" background_mesh="gui_bg_village_georgia" wait_mesh="wait_georgia_village" castle_background_mesh="gui_bg_castle_georgia" />
     </Components>
@@ -20341,7 +20341,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tbilisi_dmanisi" name="{=town_tbilisi_dmanisi_name}Dmanisi" posX="1141.651" posY="998.152" culture="Culture.england" text="{=town_tbilisi_dmanisi_text}Dmanisi text...">
+  <Settlement id="town_tbilisi_dmanisi" name="{=town_tbilisi_dmanisi_name}Dmanisi" posX="1141.651" posY="998.152" culture="Culture.georgia" text="{=town_tbilisi_dmanisi_text}Dmanisi text...">
     <Components>
       <Village id="town_comp_tbilisi_dmanisi" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.town_tbilisi" background_crop_position="0.0" background_mesh="gui_bg_village_georgia" wait_mesh="wait_georgia_village" castle_background_mesh="gui_bg_castle_georgia" />
     </Components>
@@ -20354,7 +20354,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tbilisi_gangara" name="{=town_tbilisi_gangara_name}Gangara" posX="1185.687" posY="990.865" culture="Culture.england" text="{=town_tbilisi_gangara_text}Gangara text...">
+  <Settlement id="town_tbilisi_gangara" name="{=town_tbilisi_gangara_name}Gangara" posX="1185.687" posY="990.865" culture="Culture.georgia" text="{=town_tbilisi_gangara_text}Gangara text...">
     <Components>
       <Village id="town_comp_tbilisi_gangara" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_tbilisi" background_crop_position="0.0" background_mesh="gui_bg_village_georgia" wait_mesh="wait_georgia_village" castle_background_mesh="gui_bg_castle_georgia" />
     </Components>
@@ -20367,7 +20367,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kurnoyat" name="{=castle_kurnoyat_name}Kurnoyat Castle" owner="Faction.clan_england_1" posX="1148.321" posY="1037.7" culture="Culture.england" gate_posX="1146.344" gate_posY="1038.331">
+  <Settlement id="castle_kurnoyat" name="{=castle_kurnoyat_name}Kurnoyat Castle" owner="Faction.clan_georgia_1" posX="1148.321" posY="1037.7" culture="Culture.georgia" gate_posX="1146.344" gate_posY="1038.331">
     <Components>
       <Town id="castle_comp_kurnoyat" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_georgia" wait_mesh="wait_georgia_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -20392,7 +20392,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_kurnoyat_khobani" name="{=castle_kurnoyat_khobani_name}Khobani" posX="1155.848" posY="1047.897" culture="Culture.england" text="{=castle_kurnoyat_khobani_text}Khobani text...">
+  <Settlement id="castle_kurnoyat_khobani" name="{=castle_kurnoyat_khobani_name}Khobani" posX="1155.848" posY="1047.897" culture="Culture.georgia" text="{=castle_kurnoyat_khobani_text}Khobani text...">
     <Components>
       <Village id="castle_comp_kurnoyat_khobani" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.castle_kurnoyat" background_crop_position="0.0" background_mesh="gui_bg_village_georgia" wait_mesh="wait_georgia_village" castle_background_mesh="gui_bg_castle_georgia" />
     </Components>
