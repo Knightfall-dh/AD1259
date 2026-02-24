@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+    <!-- Villagers -->
+    <MBPartyTemplate id="villager_norwegian_template">
+        <stacks>
+            <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_norwegian"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Lords & Town Garrison -->
+    <MBPartyTemplate id="kingdom_hero_party_NORWEGIAN_template">
+        <stacks>
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.norway_basic_root"/> <!-- Norwegian Raised Levy -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.norway_basic_root0"/> <!-- Norwegian Drilled Spearman -->
+            <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.norway_basic_root00"/> <!-- Norwegian Hirdman -->
+            <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.norway_basic_root000"/> <!-- Norwegian Senior Hirdman -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.norway_basic_root0000"/> <!-- Norwegian Hird Veteran -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.norway_basic_root01"/> <!-- Norwegian Axe Hirdman -->
+            <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.norway_basic_root010"/> <!-- Norwegian Hirdman Axe-bearer -->
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.norway_basic_root1"/> <!-- Norwegian Drilled Huntsman -->
+            <PartyTemplateStack min_value="6" max_value="10" troop="NPCCharacter.norway_basic_root10"/> <!-- Norwegian Bowman -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.norway_basic_root100"/> <!-- Norwegian Veteran Bowman -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.norway_basic_root11"/> <!-- Norwegian Crossbowman -->
+            <PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.norway_basic_root110"/> <!-- Norwegian Veteran Crossbowman -->
+            <PartyTemplateStack min_value="8" max_value="16" troop="NPCCharacter.norway_elite_root"/> <!-- Norwegian Young Noble -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.norway_elite_root0"/> <!-- Norwegian Svein -->
+            <PartyTemplateStack min_value="5" max_value="8" troop="NPCCharacter.norway_elite_root00"/> <!-- Norwegian Man-at-arms -->
+            <PartyTemplateStack min_value="2" max_value="10" troop="NPCCharacter.norway_elite_root000"/> <!-- Norwegian Knight -->
+            <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.norway_elite_root1"/> <!-- Norwegian Housecarl -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.norway_elite_root10"/> <!-- Norwegian Senior Housecarl -->
+        </stacks>
+    </MBPartyTemplate>
+	
+	<MBPartyTemplate id="patrol_party_NORWEGIAN_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.norway_basic_root"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.norway_basic_root0"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.norway_elite_root"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.norway_elite_root00"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_NORWEGIAN_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.norway_basic_root"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.norway_basic_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.norway_elite_root"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.norway_elite_root00"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_NORWEGIAN_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.norway_basic_root"/>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.norway_basic_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.norway_elite_root"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.norway_elite_root00"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.norway_elite_root000"/>
+		</stacks>
+	</MBPartyTemplate>
+
+    <!-- Caravans -->
+    <MBPartyTemplate id="caravan_template_norwegian">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_norwegian"/>
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_norwegian"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_norwegian"/>
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="elite_caravan_template_norwegian">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_norwegian"/>
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_norwegian"/>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_norwegian"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_norwegian"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Town Militia -->
+    <MBPartyTemplate id="militia_norwegian_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.norwegian_militia_spearman"/>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.norwegian_militia_archer"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Rebels -->
+    <MBPartyTemplate id="rebels_norwegian_template">
+        <stacks>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.norway_basic_root"/>
+        </stacks>
+    </MBPartyTemplate>
+
+    <!-- Vassal Reward Troops-->
+    <MBPartyTemplate id="vassal_reward_troops_norwegian">
+        <stacks>
+            <PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.norway_elite_root000"/>
+            <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.norway_elite_root1"/>
+            <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.norway_elite_root10"/>
+        </stacks>
+    </MBPartyTemplate>
+</partyTemplates>

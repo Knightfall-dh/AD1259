@@ -1,0 +1,1323 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- Kingdom of Norway -->
+	<!-- clan 1: Sverreættar -->
+	<NPCCharacter id="dead_lord_norway_1" name="{=norway_deadlord1}Hákon III Sverrisson" age="76" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="76.5" weight="1" build="0.3287" key="0005A80AD18839C8BA7A8BCB65478A964969887A76DA5A7B043587498C6A57AC0895F08909D7D955000000000000000000000000000000000000000055387100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="8"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_kinghakon_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_norway_1_1" name="{=norway_deadlord2}Inga Óláfrsdóttir of Varteig" age="74" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_matriarch_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="74.95" weight="0.3299" build="0.3141" key="0005600551880006A895786A3D623C66789596A887352A185735E563C48748740885508908A871D4000000000000000000000000000000000000000061101080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_1_1" name="{=norway_lord1}Hákon IV Hákonarson, King of Norway" age="55" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="55.22" weight="0.1424" build="0.4059" key="000D180000881400BA938694DB7A6167A39668A3D98A488C3878968D7C9CEBA405A620560AAB46AA00000000000000000000000000000000000000004F403080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_kinghakon_combat"/>
+			<EquipmentSet id="norwegian_kinghakon_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_1_1_1" name="{=norway_lady1}Margrét Skúladóttir, Queen consort of Norway" age="51" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="51.52" weight="0.6534" build="0.8213" key="0002700A40CC300E5B9485A87BB2888893665C4A458A5659AA977799D6889376044CA046049689A30000000000000000000000000000000000000000387820C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_queenmargret_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_1_1_2" name="{=norway_deadlord3}Óláfr Hákonarson" age="3" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="3" weight="0.66" build="0.2772" key="0000180000881400BA938694DB7A6167A39668A3D98A488C3878968D7C9CEBA400CA400006AB46AA000000000000000000000000000000000000000049983080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_sverre_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_1_1_3" name="{=norway_deadlord4}Hákon Hákonarson the Young" age="27" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="27.73" weight="0.0291" build="0.6731" key="000274014088048A4975AA5664675A99848976AA737A176C67449991AAAC5A1701AA00130A7ACD6900000000000000000000000000000000000000004D6070C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_sverre_combat"/>
+			<EquipmentSet id="norwegian_jkingmagnus_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_1_1_4" name="{=norway_lord2}Magnús Hákonarson, Junior King of Norway" age="21" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="21.71" weight="0.0139" build="0.3596" key="0002400140881010670ACC1C887476A64AC4CB895B8CD57A57DB77DCA77B38A9009500030988B49800000000000000000000000000000000000000003B383000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_jkingmagnus_combat"/>
+			<EquipmentSet id="norwegian_jkingmagnus_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_1_2" name="{=norway_lord3}Knútr Jarl Hákonarson" age="51" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="51.38" weight="0.3596" build="0.3468" key="0002000540CC308E74AA9AAA494808C29846847386B9D5B85A8846A43DABA3930485504608567524000000000000000000000000000000000000000054F84000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_sverre_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_1_3" name="{=norway_lord4}Hugrleikr 'Hestakorn'" age="44" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="44.6" weight="0.6274" build="0.2424" key="0000AC00804430CB2967BEC93DD19D3753929AA4476A63A18D7A979D892438990394903509BA83D600000000000000000000000000000000000000004D387080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_sverre_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_1_3_1" name="{=norway_lord5}Auðunn Hugleiksson" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.33" weight="0.2454" build="0.2577" key="00007806C044044A2C6746549765348AC57C7E5295A6B62229D3A9553459B78A00A440020ACC38B1000000000000000000000000000000000000000005507000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_sverre_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 2: Haukdaelirsaettar -->
+	<NPCCharacter id="dead_lord_norway_7a" name="{=norway_lord6}Þorvaldur Gissurarson, Prestur" age="96" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="96.23" weight="0.4887" build="0.3733" key="0000AC098070338597553A85DCB6228878D7A37B9BE6A7BB6824C67A3B878787048670460847A24E000000000000000000000000000000000000000041189080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_norway_7b" name="{=norway_lady2}Þóra 'Yngri' Guðmundsdóttir" age="84" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="84.46" weight="0.1501" build="0.7596" key="0002B40140B430153AA597D584593B629A2C668A58778BA7A9835AAD5599A797046B2046062756BD000000000000000000000000000000000000000020B840C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_2a" name="{=norway_lord6}Gissur Jarl Thorvaldsson, Jarl of Iceland" age="51" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="51.23" weight="0.4887" build="0.3733" key="0000AC098070338597553A85DCB6228878D7A37B9BE6A7BB6824C67A3B878787048670460847A24E000000000000000000000000000000000000000041189080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_2b" name="{=norway_lady2}Ingibjörg Snorradottir" age="59" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="48.46" weight="0.1501" build="0.7596" key="0002B40140B430153AA597D584593B629A2C668A58778BA7A9835AAD5599A797046B2046062756BD000000000000000000000000000000000000000020B840C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_2c" name="{=norway_lady3}Halldóra Þorvaldsdóttir" age="59" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="27.5" weight="0.6945" build="0.29" key="0005680340703010D9C69226A9CCACE65AC9845B59A7456914A5494C3C6DBCD60164A01306B31763000000000000000000000000000000000000000012C00000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_2d" name="{=norway_lord7}Ketill Þorláksson" age="59" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="59.13" weight="0.3061" build="0.5139" key="0005080540703452B5C7686657ADC5A3B67E78D677675A757295E98749C83B510288502408C4EB2A000000000000000000000000000000000000000063005080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_2e" name="{=norway_lord7}Kolfinna Þorvaldsdóttir" age="41" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="41.13" weight="0.3061" build="0.5139" key="0005080540703452B5C7686657ADC5A3B67E78D677675A757295E98749C83B510288502408C4EB2A000000000000000000000000000000000000000063005080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_2f" name="{=norway_lord7}Thora Gissuradottir" age="14" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="41.13" weight="0.3061" build="0.5139" key="0005080540703452B5C7686657ADC5A3B67E78D677675A757295E98749C83B510288502408C4EB2A000000000000000000000000000000000000000063005080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_2g" name="{=norway_lord7}Ketilbjörn Gissurason" age="24" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="41.13" weight="0.3061" build="0.5139" key="0005080540703452B5C7686657ADC5A3B67E78D677675A757295E98749C83B510288502408C4EB2A000000000000000000000000000000000000000063005080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_2h" name="{=norway_lord8}Isleifur Gizurrson" age="28" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="28.27" weight="0.7555" build="0.2715" key="00002806C070248C879685859E86B717AAA98B62BA58974D7958448EBA7B68A701C4B0130C8275A9000000000000000000000000000000000000000041A08100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_2i" name="{=norway_lord9}Hallur Gizurrson" age="21" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="21.33" weight="0.2454" build="0.5417" key="000224098070034A94895A3973CB3A66DCC7BA6165BC556A218B895677C8CC970088400208B9DC8200000000000000000000000000000000000000003D088000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 3: Tanberg -->
+	<NPCCharacter id="dead_lord_norway_2" name="{=norway_deadlord5}Alfr Elringrsson of Tanberg" age="69" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="68.75" weight="0.6827" build="0.6577" key="000258060044198DA75665759A7889466781B9A6B98C7812D596948C9A7B6B9907BAA0780B6CA93600000000000000000000000000000000000000000F787000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="Politician" value="9"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_norway_2_1" name="{=norway_deadlord6}Ingeborg Baardsdatter of Rein" age="65" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="65.31" weight="0.4302" build="0.3217" key="00058001402C200297857AD5A3B7E7D5699679463494A888655AC7899BC5BCA40635606803786C8C0000000000000000000000000000000000000000326000C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_3a" name="{=norway_lord10}Erling Alvsson of Tanberg" age="29" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.04" weight="0.159" build="0.5237" key="0005100C404416D2B72B6A78775995836A9B79BA8B2E9559774C98D8D682989801C820130CB7669A000000000000000000000000000000000000000057885100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_3b" name="{=norway_lady4}Kristin Filipssdóttir" age="28" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="28.27" weight="0.5199" build="0.8903" key="00004C0280FC200688BB683978645277B42566BC2AB5D5E37446A29937A7471501BD80130BAC99B400000000000000000000000000000000000000005B681080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_3c" name="{=norway_lady5}Ingebjørg Erlingsdatter" age="9" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="9.48" weight="0.3075" build="0.7272" key="0005CC06C05800067B48A9745A98B34C476E598883B926C7776739682866AD8E008B50030834968A00000000000000000000000000000000000000002D082040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_3d" name="{=norway_lord11}Alv Elringrsson" age="14" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="7.29" weight="0.3775" build="0.2301" key="000530014044101B9AB568A472696385C73976C99774A8CDF8626896AB17B5B602736024077C8C7300000000000000000000000000000000000000001EF88140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 4: Suarheimrsaettar -->
+	<NPCCharacter id="lord_norway_4_1" name="{=norway_lord12}Ívarr Óláfrsson of Skedjuhof" age="55" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="55.28" weight="0.6592" build="0.4634" key="0002E406C08803C99CCC233874E88766587687C9B19B78474D587ACCA56A331805C7A0560C366BA6000000000000000000000000000000000000000029907040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_4_1_1" name="{=norway_lady6}Ragnild Gudrun Alvsdatter" age="39" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39.07" weight="0.2666" build="0.4442" key="00022C0080143005812D5C458287D8C6345C527763A4934785A967749CC8372403C740350C843474000000000000000000000000000000000000000051902000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_4_1_2" name="{=norway_lord13}Sigurd Hestbø Ivarsson" age="24" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.03" weight="0.2776" build="0.4193" key="0002C005408823C8A6A96566E3799C77867B92881888E597C6AB28724C4D485900D640030D6BCA4A000000000000000000000000000000000000000031B00040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_4_1_2_1" name="{=norway_lady7}Ragnveig Þórirsdóttir Tinghatt" age="18" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.87" weight="0.0602" build="0.7322" key="00024C0800003003B6B6D838B69459CCCA8B86A9883769D95BB73BBA889D8C67009B10030968575A0000000000000000000000000000000000000000653000C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_4_1_3" name="{=norway_lord14}Eirik Ivarsson" age="14" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="14.38" weight="0.2052" build="0.2449" key="0000600E408815C64135687B457C497666754E98654B69A4B1C275A5C874BCA80B9430B20A7B528B000000000000000000000000000000000000000049207140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_4_1_4" name="{=norway_lord15z}Jon Raud Ivarsson" age="11" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="11.38" weight="0.2052" build="0.2449" key="0000600E408815C64135687B457C497666754E98654B69A4B1C275A5C874BCA80B9430B20A7B528B000000000000000000000000000000000000000049207140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 5: Smorsaettar -->
+	<NPCCharacter id="lord_norway_5_1" name="{=norway_lord15}Ragnvald Jonsson Smør" age="45" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="45.86" weight="0.748" build="0.2594" key="000204028014294995558A763A1396A638D26938B9D4668668AC7AC5981B674403A4B0350A34C7E200000000000000000000000000000000000000004B383080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_5_1_1" name="{=norway_lord16}Hallkjell Ragnvaldsson Smør" age="25" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.57" weight="0.2423" build="0.4213" key="0002440340141705A7736D955948655B8689BB344A2C341628798968668A7D9C0186401308AB4632000000000000000000000000000000000000000025105080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_5_1_2" name="{=norway_lord17}Jon Ragnvaldsson Smør" age="19" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.41" weight="0.2022" build="0.2731" key="000510054014268A87797992A885F799A4928B69A92B4A85556554247864B7ED00743003077B2A92000000000000000000000000000000000000000048E89100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_5_1_4" name="{=norway_lord18}Áslakr Ragnvaldsson Smør" age="8" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.03" weight="0.1497" build="0.2299" key="000028014014110987B544DDB213A8429B8C2638DE4354D8B52BB14C9C65B6C900932003096B759A000000000000000000000000000000000000000049283140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_5_1_3" name="{=norway_lady8}Cecilia Ragnvaldsdatter Smør" age="15" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="21.71" weight="0.5206" build="0.525" key="0002B8040000400C862C6B489996574B8488A5784996E99128845757A496293500A880030A0B4779000000000000000000000000000000000000000063483080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_lion_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 6: Galtrættar -->
+	<NPCCharacter id="dead_lord_norway_3" name="{=norway_deadlord7}Jon Gautsson of Ornes" age="119" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="119.32" weight="0.4491" build="0.0293" key="0005AC02005834802C58B7389C85D81BA8A78399B29588545BACAD67BC9DBEA80EB070EE0B598997000000000000000000000000000000000000000013703140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_norway_4" name="{=norway_lady10}Jord Arnbjørnsdotter Ambe" age="134" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="66.46" weight="0.4365" build="0.5435" key="0002100340A0000B5C9386655A963A66AC76AA76B43639A54C4D8764B5B6714406987068093A962D000000000000000000000000000000000000000015280080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Jon Gautsson and Jord Arnbjornsdotter Ambe had 6 sons but by 1259 only Gaute was alive -->
+	<NPCCharacter id="lord_norway_6_1a" name="{=norway_lord19}Gaute Jonsson Mel" age="69" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="69.17" weight="0.2866" build="0.0555" key="0005100F00580A44476348D5357639575C9A77C433D344BA569735B3B9B1299407D140780DD5267A000000000000000000000000000000000000000043B02000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_6_1b" name="{=norway_lady10}Inga Vikingsdóttir" age="67" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="66.46" weight="0.4365" build="0.5435" key="0002100340A0000B5C9386655A963A66AC76AA76B43639A54C4D8764B5B6714406987068093A962D000000000000000000000000000000000000000015280080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_norway_5" name="{=norway_deadlord8}Arnbjorn Jonsson" age="79" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="69.36" weight="0.4449" build="0.1034" key="0002540000A02A4E7596393933898CC9C97FA7B888369C6578391875C3D7477507B270780BB6C56600000000000000000000000000000000000000004B7050C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_norway_6" name="{=norway_deadlord9}Ingeborg Sirene Torsteinsdatter Ænes" age="89" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="81.63" weight="0.5123" build="0.8463" key="0002180D00CC40068E4A473D363B8C8652B8E3486A8B8B71E5778397B769754B095D809A0576B895000000000000000000000000000000000000000046980080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_norway_7" name="{=norway_lady12}Gudrid Arnbjørnsdatter" age="59" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="59.52" weight="0.6323" build="0.5247" key="00020006000040059475A51423B943D76DA7855B777735B4C869B88AAA11DA6405589057055488BD00000000000000000000000000000000000000004C980000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_norway_8" name="{=norway_lord22}Torstein på Heimnes" age="69" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="5.48" weight="0.4375" build="0.1986" key="00021C054058084E987D886C9861556687686DB6749790ACCE4299B46177C68C00A370030A15C8C500000000000000000000000000000000000000006F6040C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_6_2a" name="{=norway_lord20}Arnbjørn Torsteinson Heimnes" age="34" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39.33" weight="0.2207" build="0.4242" key="0008000800583741D845391C88C282CC38979742B884A88A7B88A7C77998B7B4038630350868789300000000000000000000000000000000000000002D084100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_6_2b" name="{=norway_lady13}Fru Heimnes" age="28" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="32.72" weight="0.3043" build="0.2576" key="0000580080CC100B745389CB7869B257C5684D6859649D2549D9738C462A675A02945024096765B200000000000000000000000000000000000000006F303000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_6_3_a" name="{=norway_lord26}Gunnar Arnbjørnsson Bolt" age="29" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.43" weight="0.4962" build="0.681" key="0008300400A014DB999A7C4A7981C7BB97684258C7BBB7996B467837926ABD3501AA70130A774B8D00000000000000000000000000000000000000002D5080C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_6_3_b" name="{=norway_lady15}Gyda Guttormsdatter Haavarstad" age="27" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="27.11" weight="0.5324" build="0.5157" key="00026004150040033E4D912797A855E52C8E6A84BB9599959C69A954CA359964014880130497563D00000000000000000000000000000000000000005C902080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_6_3_c" name="{=norway_lord28}Jon Gunnarrson Bolt" age="1" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="3.43" weight="0.4508" build="0.3424" key="0000540340A0319353EA74BB4679274BDA16555A3C3821969CB46877D67987860185701308263676000000000000000000000000000000000000000060F82040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_6_3_d" name="{=norway_lord27}Tjostolf Gunnarrson Bolt" age="4" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.norwegian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="4.48" weight="0.3748" build="0.48" key="0002600000A03940849B758CD64869C6647631875EBB545E6797A3558385217A00976003091CA6DA000000000000000000000000000000000000000053200100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_norway_6_3_e" name="{=norway_lady16}Gunnhild Gunnarsdatter" age="14" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.norwegian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="11.34" weight="0.3826" build="0.4773" key="0002440FC0A01015A77A74A48D83A67E9A688489246DA3C58E9A94CD7B65C5840127601302B6339B000000000000000000000000000000000000000044303000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="norwegian_lord_combat"/>
+			<EquipmentSet id="norwegian_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
