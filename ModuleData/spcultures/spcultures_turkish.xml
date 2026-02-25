@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SPCultures>
+	<Culture id="turkish"
+	         name="{=mamlukCulture}Turkic"
+	         is_main_culture="true"
+	         color="0xffba943c"
+	         color2="0xff0b0d0f"
+	         elite_basic_troop="NPCCharacter.turkish_elite_root"
+	         basic_troop="NPCCharacter.turkish_basic_root"
+	         melee_militia_troop="NPCCharacter.turkish_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.turkish_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.turkish_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.turkish_militia_veteran_archer"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_turkish_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_TURKISH_template"
+	         settlement_patrol_template_level_1="PartyTemplate.patrol_party_TURKISH_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_TURKISH_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_TURKISH_template_level_3"
+	         militia_party_template="PartyTemplate.militia_turkish_template"
+	         rebels_party_template="PartyTemplate.rebels_turkish_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_turkish"
+	         prosperity_bonus="1"
+	         encounter_background_mesh="encounter_turkish"
+	         faction_banner_key="11.15.15.1750.1750.892.1037.1.0.0.503.116.30.17.17.3902.2043.0.1.0.505.39.30.1750.1750.764.764.0.1.0.104.116.116.666.666.764.764.0.0.0.316.116.30.302.302.763.777.1.0.0.316.40.30.203.203.763.780.0.0.0.140.83.30.138.138.763.791.0.0.0.340.121.30.30.33.770.724.0.0.-9.505.116.30.169.20.763.699.0.0.0.503.121.30.17.17.689.693.0.0.0.503.121.30.17.17.720.693.0.0.0.503.121.30.17.17.778.693.0.0.0.503.121.30.17.17.806.693.0.0.0.503.121.30.17.17.838.693.0.0.0.503.121.30.17.17.750.693.0.0.0.503.121.30.17.17.763.888.0.0.0.503.121.30.17.17.792.877.0.0.0.503.121.30.17.17.818.860.0.0.0.503.121.30.17.17.835.833.0.0.0.503.121.30.17.17.840.798.0.0.0.503.121.30.17.17.840.759.0.0.0.503.121.30.17.17.840.723.0.0.0.503.121.30.17.17.735.877.0.1.0.503.121.30.17.17.709.860.0.1.0.503.121.30.17.17.692.833.0.1.0.503.121.30.17.17.687.798.0.1.0.503.121.30.17.17.687.759.0.1.0.503.121.30.17.17.687.723.0.1.0"
+	         text="{=turkishCultureText}Unused in the game."
+	         tournament_master="NPCCharacter.tournament_master_turkish"
+	         villager="NPCCharacter.villager_turkish"
+	         caravan_master="NPCCharacter.caravan_master_turkish"
+	         caravan_guard="NPCCharacter.caravan_guard_turkish"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_turkish"
+	         prison_guard="NPCCharacter.prison_guard_turkish"
+	         guard="NPCCharacter.guard_turkish"
+	         blacksmith="NPCCharacter.blacksmith_turkish"
+	         weaponsmith="NPCCharacter.weaponsmith_turkish"
+	         townswoman="NPCCharacter.townswoman_turkish"
+	         townswoman_infant="NPCCharacter.townswoman_infant_turkish"
+	         townswoman_child="NPCCharacter.townswoman_child_turkish"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_turkish"
+	         townsman="NPCCharacter.townsman_turkish"
+	         townsman_infant="NPCCharacter.townsman_infant_turkish"
+	         townsman_child="NPCCharacter.townsman_child_turkish"
+	         village_woman="NPCCharacter.village_woman_turkish"
+	         villager_male_child="NPCCharacter.villager_child_turkish"
+	         villager_male_teenager="NPCCharacter.villager_teenager_turkish"
+	         villager_female_child="NPCCharacter.village_woman_child_turkish"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_turkish"
+	         townsman_teenager="NPCCharacter.townsman_teenager_turkish"
+	         ransom_broker="NPCCharacter.ransom_broker_turkish"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_turkish"
+	         merchant_notary="NPCCharacter.merchant_notary_turkish"
+	         artisan_notary="NPCCharacter.artisan_notary_turkish"
+	         preacher_notary="NPCCharacter.preacher_notary_turkish"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_turkish"
+	         shop_worker="NPCCharacter.shop_worker_turkish"
+	         tavernkeeper="NPCCharacter.tavernkeeper_turkish"
+	         taverngamehost="NPCCharacter.taverngamehost_turkish"
+	         musician="NPCCharacter.musician_turkish"
+	         tavern_wench="NPCCharacter.tavern_wench_turkish"
+	         armorer="NPCCharacter.armorer_turkish"
+	         horseMerchant="NPCCharacter.horseMerchant_turkish"
+	         barber="NPCCharacter.barber_turkish"
+	         merchant="NPCCharacter.merchant_turkish"
+	         beggar="NPCCharacter.beggar_turkish"
+	         female_beggar="NPCCharacter.female_beggar_turkish"
+	         female_dancer="NPCCharacter.female_dancer_turkish"
+	         default_battle_equipment_roster="EquipmentRoster.turkish_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.turkish_civ_template_default"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+	         duel_preset_equipment_roster="EquipmentRoster.ase_duel_preset_template"
+	         marriage_bride_equipment_roster="EquipmentRoster.marriage_female_turkish_cutscene_template"
+	         board_game_type="Seega"
+	         default_character_creation_body_property="BodyProperty.default_character_creation_body_property_aserai"
+	         start_point_position_x="899"
+	         start_point_position_y="725">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_turkish"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_turkish"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls/>
+		<vassal_reward_items>
+			<item id="Item.aserai_noble_sword_4_t5"/>
+			<item id="Item.AR_khuzait_lord_helmet_d"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.southern_small_axe_t2"/>
+			<item id="Item.aserai_sword_1_t2"/>
+			<item id="Item.aserai_sword_4_t4"/>
+			<item id="Item.aserai_sword_3_t3"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_royal_guard"/>
+			<policy id="policy_feudal_inheritance"/>
+		</default_policies>
+		<male_names>
+			<name name="{=JcbZqRvv}Ataman"/>
+			<name name="{=mxcSHQrJ}Bengü"/>
+			<name name="{=dVNerSxF}Kürşat"/>
+			<name name="{=xfnViuJj}Qutluğ"/>
+			<name name="{=KBYrJSgG}Runtiya"/>
+			<name name="{=ngOWQUON}Ülgen"/>
+			<name name="{=KGJiwyAx}Yafis"/>
+			<name name="{=unHYAVGq}Izz ad-Din"/>
+			<name name="{=qKiodgMd}Sayf"/>
+			<name name="{=PaYoYwad}Nur"/>
+			<name name="{=GZsMAmaI}Ali"/>
+			<name name="{=MStLkdeG}Rukn"/>
+			<name name="{=cFjXBlhQ}Nasir"/>
+			<name name="{=bwjKtOyZ}Badr"/>
+			<name name="{=sAuVJVvF}Izz"/>
+			<name name="{=uTIYtLkq}Rukn ad-Din"/>
+			<name name="{=kmbMExNj}Nasir ad-Din"/>
+			<name name="{=QudTJVwL}Badr ad-Din"/>
+			<name name="{=ggMQhWht}Salah"/>
+			<name name="{=srubHqhZ}Zayn"/>
+			<name name="{=xAOmKEPn}Husam"/>
+			<name name="{=PVbxkDQo}Ala'a"/>
+			<name name="{=tuiUbFbT}Shihab"/>
+			<name name="{=qpoHXsoH}Imad"/>
+			<name name="{=QxfNcnWl}Al-Musta'in"/>
+			<name name="{=QlXfunwr}Billah"/>
+			<name name="{=ahtOYdmn}Fakhr"/>
+			<name name="{=CmayHhBK}Jamal"/>
+			<name name="{=XOgaxxew}Shaykh"/>
+			<name name="{=tpstDmTM}Inal"/>
+			<name name="{=EymGYfDD}Barquq"/>
+			<name name="{=IJfXTzHE}Jaqmaq"/>
+			<name name="{=ESzJDGWx}Barsbay"/>
+			<name name="{=qTpDoZMi}Qa'itbay"/>
+			<name name="{=wzVtzBqX}Yashbak"/>
+			<name name="{=coJihWxo}Muhammad"/>
+			<name name="{=sPxpSfid}Sa'id"/>
+			<name name="{=lcfGETBi}Timurbugha"/>
+			<name name="{=hoguvAuo}Qansuh"/>
+			<name name="{=BbTYtgRr}Tumanbay"/>
+			<name name="{=ZVucLAPj}Al-Mansur"/>
+			<name name="{=wxTlXwVq}as-Salih"/>
+			<name name="{=xUCjuOzy}Aybak"/>
+			<name name="{=JlLOVEfq}Azzaddin"/>
+			<name name="{=WdukBPEg}Naseer"/>
+			<name name="{=KTTrxGSX}Ahmad"/>
+			<name name="{=dMVKZQvg}Saif"/>
+			<name name="{=xsEAReCe}Zein"/>
+			<name name="{=IHDUdDFS}Salah"/>
+			<name name="{=AajPIzCu}Ala"/>
+			<name name="{=tIwUJJWy}Sulayman"/>
+			<name name="{=WWryqVZd}Suleyman"/>
+			<name name="{=SfJvefsx}Omar"/>
+			<name name="{=RjAyexxk}Pasha"/>
+			<name name="{=mVnvGhrs}Dawud"/>
+			<name name="{=akfSjPsS}Said"/>
+			<name name="{=wALlxddg}Aghizluu"/>
+			<name name="{=wALlxddg}Alaabughaa"/>
+			<name name="{=wALlxddg}Altamur"/>
+			<name name="{=wALlxddg}Alt'ibars"/>
+			<name name="{=wALlxddg}Alt'unbughaa"/>
+			<name name="{=wALlxddg}Anuuk"/>
+			<name name="{=wALlxddg}Aqbughaa"/>
+			<name name="{=wALlxddg}Aqtamur"/>
+			<name name="{=wALlxddg}Aqt'uaq"/>
+			<name name="{=wALlxddg}Aquush"/>
+			<name name="{=wALlxddg}Arikmaas"/>
+			<name name="{=wALlxddg}Ariqt.aay"/>
+			<name name="{=wALlxddg}Asanbaay"/>
+			<name name="{=wALlxddg}Asanbughaa"/>
+			<name name="{=wALlxddg}Asandamur"/>
+			<name name="{=wALlxddg}Aydughdii"/>
+			<name name="{=wALlxddg}Aydughmish"/>
+			<name name="{=wALlxddg}Aydakiin"/>
+			<name name="{=wALlxddg}Aydamur"/>
+			<name name="{=wALlxddg}Aytmish"/>
+			<name name="{=wALlxddg}Baktamur"/>
+			<name name="{=wALlxddg}Balabaan"/>
+			<name name="{=wALlxddg}Baltaa"/>
+			<name name="{=wALlxddg}Barsbughaa"/>
+			<name name="{=wALlxddg}Baybujaa"/>
+			<name name="{=wALlxddg}Baydamur"/>
+			<name name="{=wALlxddg}Biiliik"/>
+			<name name="{=wALlxddg}Duqmaaq"/>
+			<name name="{=wALlxddg}Ishiqtamur"/>
+			<name name="{=wALlxddg}Iyaas"/>
+			<name name="{=wALlxddg}Iyaaz"/>
+			<name name="{=wALlxddg}Jaqmaq"/>
+			<name name="{=wALlxddg}Jaavlii"/>
+			<name name="{=wALlxddg}Julbaan"/>
+			<name name="{=wALlxddg}Jumaq"/>
+			<name name="{=wALlxddg}Juubaan"/>
+			<name name="{=wALlxddg}Kaykaldii"/>
+			<name name="{=wALlxddg}Kaytamur"/>
+			<name name="{=wALlxddg}Kubak"/>
+			<name name="{=wALlxddg}Kujuk"/>
+			<name name="{=wALlxddg}Kurjii"/>
+			<name name="{=wALlxddg}Kuujabaa"/>
+			<name name="{=wALlxddg}Kuujarii"/>
+			<name name="{=wALlxddg}Khushkaldii"/>
+			<name name="{=wALlxddg}Makuurish"/>
+			<name name="{=wALlxddg}Mankuutamur"/>
+			<name name="{=wALlxddg}Mintaash"/>
+			<name name="{=wALlxddg}Qaraa Arslaan"/>
+			<name name="{=wALlxddg}Qaraabughaa"/>
+			<name name="{=wALlxddg}Qaraabulaat"/>
+			<name name="{=wALlxddg}Qaraakuz"/>
+			<name name="{=wALlxddg}Qaraalaajiin"/>
+			<name name="{=wALlxddg}Qaraaqaash"/>
+			<name name="{=wALlxddg}Qaraaqujaa"/>
+			<name name="{=wALlxddg}Qaraasunqur"/>
+			<name name="{=wALlxddg}Qarat.aay"/>
+			<name name="{=wALlxddg}Qarsaq"/>
+			<name name="{=wALlxddg}Qaanim"/>
+			<name name="{=wALlxddg}Qaantamur"/>
+			<name name="{=wALlxddg}Qaashiq"/>
+			<name name="{=wALlxddg}Qaaymaaz"/>
+			<name name="{=wALlxddg}Qaazaan"/>
+			<name name="{=wALlxddg}Qijmaas"/>
+			<name name="{=wALlxddg}Qilij"/>
+			<name name="{=wALlxddg}Qirmish"/>
+			<name name="{=wALlxddg}Qujaq"/>
+			<name name="{=wALlxddg}Qujaajaq"/>
+			<name name="{=wALlxddg}Qulanjiq"/>
+			<name name="{=wALlxddg}Qulaq Siiz"/>
+			<name name="{=wALlxddg}Qurqmaas"/>
+			<name name="{=wALlxddg}Qutluqtamur"/>
+			<name name="{=wALlxddg}Qutluubughaa"/>
+			<name name="{=wALlxddg}Qutuubak"/>
+			<name name="{=wALlxddg}Saksan"/>
+			<name name="{=wALlxddg}Sanjar"/>
+			<name name="{=wALlxddg}Sarghitmish"/>
+			<name name="{=wALlxddg}Savinjbughaa"/>
+			<name name="{=wALlxddg}Sunkuu"/>
+			<name name="{=wALlxddg}Sandal"/>
+			<name name="{=wALlxddg}Saqalsiz"/>
+			<name name="{=wALlxddg}Satilmish"/>
+			<name name="{=wALlxddg}Suusuun"/>
+			<name name="{=wALlxddg}Tamur"/>
+			<name name="{=wALlxddg}Tamurbughaa"/>
+			<name name="{=wALlxddg}Tankizbughaa"/>
+			<name name="{=wALlxddg}Tumaantamur"/>
+			<name name="{=wALlxddg}Tashbughaa"/>
+			<name name="{=wALlxddg}Tashtamur"/>
+			<name name="{=wALlxddg}Taybars"/>
+			<name name="{=wALlxddg}Taybughaa"/>
+			<name name="{=wALlxddg}Taanyariq"/>
+			<name name="{=wALlxddg}Tughjii"/>
+			<name name="{=wALlxddg}Tuqtamur"/>
+			<name name="{=wALlxddg}Tuqtamish"/>
+			<name name="{=wALlxddg}Tuughaan"/>
+			<name name="{=wALlxddg}Tuuluutamur"/>
+			<name name="{=wALlxddg}Uqt'aay"/>
+			<name name="{=wALlxddg}Urunbughaa"/>
+			<name name="{=wALlxddg}Uzbak"/>
+			<name name="{=wALlxddg}Uzdamur"/>
+			<name name="{=wALlxddg}Yaghmuur"/>
+			<name name="{=wALlxddg}Yakhshii Baay"/>
+			<name name="{=wALlxddg}Yakrak"/>
+			<name name="{=wALlxddg}Yaaruuq"/>
+		</male_names>
+		<female_names>
+			<name name="{=mAfgiOwc}Narjis"/>
+			<name name="{=TVlqWsNA}Shajar"/>
+			<name name="{=dRpOeJJo}Hajir"/>
+			<name name="{=OaFrKCSg}Bab"/>
+			<name name="{=guritEyH}Qurrat"/>
+			<name name="{=oPmvtXqu}Ardu"/>
+			<name name="{=BNiyDqBc}Alara"/>
+			<name name="{=boBoCzFL}Arazbija"/>
+			<name name="{=rcyyNXpn}Asu"/>
+			<name name="{=BNKkjTVz}Bengü"/>
+			<name name="{=kHNgCHst}Fulin"/>
+			<name name="{=wqliaRzf}Musina"/>
+			<name name="{=jasbsMtP}Qutluğ"/>
+			<name name="{=FUjcNQhB}Yuri"/>
+			<name name="{=LMnpwpvO}Yula"/>
+			<name name="{=qUNZgLCn}Asena"/>
+			<name name="{=vPyyzqqT}Günana"/>
+			<name name="{=kNviRQqj}Baysiwar"/>
+			<name name="{=VFoRmTrj}Fatima"/>
+			<name name="{=fkBQfWlP}Aslbay"/>
+			<name name="{=SiQCKTEt}Misirbay"/>
+			<name name="{=IbtEvkul}Gevhermelik"/>
+			<name name="{=GXeyMcVk}Gülşirin"/>
+			<name name="{=IYPlJQYc}Ayşe"/>
+			<name name="{=fndBeGDa}Zaynab"/>
+			<name name="{=NBuUcSdO}Shukurbay"/>
+			<name name="{=NtCCiuch}Surbay"/>
+			<name name="{=PGbSfhTA}Badriya"/>
+			<name name="{=EVUjIttr}Zahra"/>
+			<name name="{=wXNFyfAH}Nafisa"/>
+			<name name="{=JefoKxzR}Jansuwar"/>
+			<name name="{=vpEGKCht}Mughal"/>
+			<name name="{=OytHoKwI}Shahzada"/>
+			<name name="{=UifvRobt}Jolban"/>
+			<name name="{=FtKBWNun}Khadija"/>
+			<name name="{=aGtbbIQr}Jolban"/>
+			<name name="{=hoPwHnTK}Malikbay"/>
+			<name name="{=mLtstewN}Thuraiya"/>
+			<name name="{=LrYsxmCX}Aflaha"/>
+			<name name="{=vMkoTwPy}Zalama"/>
+			<name name="{=tIhZYtmc}Shakra"/>
+			<name name="{=iTYiLWVa}Asiya"/>
+			<name name="{=EaECayMN}Satita"/>
+			<name name="{=PfOGvCVB}Shirin"/>
+			<name name="{=gPSpMSqm}Qunnuq"/>
+			<name name="{=UJLYFhyN}Qutlubay"/>
+			<name name="{=pWCIzQDu}Sa'adat"/>
+			<name name="{=uKrHkKiQ}Khadija"/>
+			<name name="{=UOFOZADD}Qutub"/>
+			<name name="{=KkhTSjGq}Shah"/>
+			<name name="{=PtKyiqSg}Turkan"/>
+			<name name="{=uKuwXbqJ}Malikah"/>
+			<name name="{=aPeFakmx}Raziya"/>
+		</female_names>
+		<clan_names>
+			<name name="{=coxebHst}Kayumars"/>
+			<name name="{=jfbEDtaV}Qaiqabad"/>
+			<name name="{=HDzpaKYS}Faraj"/>
+			<name name="{=SSpbkkDK}Barquq"/>
+			<name name="{=UKvhuHhc}Tatar"/>
+			<name name="{=YOBziFRj}Uthman"/>
+		</clan_names>
+		<cultural_feats>
+			<feat id="aserai_desert_speed"/>
+			<feat id="khuzait_cheaper_recruits_mounted"/>
+			<feat id="empire_slower_hearth_production"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="110"/>
+			<icon id="155"/>
+			<icon id="156"/>
+			<icon id="200"/>
+			<icon id="201"/>
+			<icon id="204"/>
+			<icon id="212"/>
+			<icon id="218"/>
+			<icon id="219"/>
+			<icon id="220"/>
+			<icon id="221"/>
+			<icon id="222"/>
+			<icon id="223"/>
+			<icon id="321"/>
+			<icon id="400"/>
+			<icon id="401"/>
+			<icon id="403"/>
+			<icon id="404"/>
+			<icon id="405"/>
+			<icon id="425"/>
+			<icon id="426"/>
+			<icon id="427"/>
+			<icon id="428"/>
+			<icon id="430"/>
+			<icon id="309"/>
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_turkish_0"/>
+			<template name="NPCCharacter.spc_notable_turkish_0b"/>
+			<template name="NPCCharacter.spc_notable_turkish_1"/>
+			<template name="NPCCharacter.spc_notable_turkish_1b"/>
+			<template name="NPCCharacter.spc_notable_turkish_2"/>
+			<template name="NPCCharacter.spc_notable_turkish_2b"/>
+			<template name="NPCCharacter.spc_notable_turkish_3"/>
+			<template name="NPCCharacter.spc_notable_turkish_3b"/>
+			<template name="NPCCharacter.spc_notable_turkish_4"/>
+			<template name="NPCCharacter.spc_notable_turkish_5"/>
+			<template name="NPCCharacter.spc_notable_turkish_6"/>
+			<template name="NPCCharacter.spc_notable_turkish_7"/>
+			<template name="NPCCharacter.spc_notable_turkish_8"/>
+			<template name="NPCCharacter.spc_notable_turkish_9"/>
+			<template name="NPCCharacter.spc_notable_turkish_10"/>
+			<template name="NPCCharacter.spc_notable_turkish_11"/>
+			<template name="NPCCharacter.spc_notable_turkish_12"/>
+			<template name="NPCCharacter.spc_turkish_headman_1"/>
+			<template name="NPCCharacter.spc_turkish_headman_2"/>
+			<template name="NPCCharacter.spc_turkish_headman_3"/>
+		</notable_templates>
+		<lord_templates>
+			<template name="NPCCharacter.turkish_autogenerated_lord1"/>
+			<template name="NPCCharacter.turkish_autogenerated_lord2"/>
+			<template name="NPCCharacter.turkish_autogenerated_lord3"/>
+			<template name="NPCCharacter.turkish_autogenerated_lord4"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.turkish_autogenerated_lord1"/>
+			<template name="NPCCharacter.turkish_autogenerated_lord2"/>
+			<template name="NPCCharacter.turkish_autogenerated_lord3"/>
+			<template name="NPCCharacter.turkish_autogenerated_lord4"/>
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_turkish_one_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_turkish_one_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_turkish_one_participant_set_v3"/>
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_turkish_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_turkish_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_turkish_two_participant_set_v3"/>
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_turkish_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_turkish_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_turkish_four_participant_set_v3"/>
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.merc_kipchak_root"/>
+			<template name="NPCCharacter.merc_kipchak_root1"/>
+		</basic_mercenary_troops>
+	</Culture>
+</SPCultures>

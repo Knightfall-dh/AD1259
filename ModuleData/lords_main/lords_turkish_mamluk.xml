@@ -1,0 +1,1424 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- Mamluk Sultanate -->
+	<!-- Saif ad-Din Qutuz, Mamluk Sultan of Egypt -->
+	<NPCCharacter id="lord_mamluk_1_1" name="{=mamluk_lord_1}Saif ad-Din Qutuz, Mamluk Sultan of Egypt" age="38" voice="curt" culture="Culture.turkish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="38.3" weight="0.1699" build="0.3565" key="0010E40F17FC0248F84A66859B26AD783ADC675DE57B2B04C879CA2341FB3BDF029536240994C599000000000000000000000000000000000000000075349040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_sultan_combat"/>
+			<EquipmentSet id="mamluk_sultan_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Melike al-Durr Khond -->
+	<NPCCharacter id="lord_mamluk_1_1_1" name="{=mamluk_lady_1}Melike al-Durr Khond" age="34" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34.44" weight="0.6596" build="0.5022" key="0010740D804400022528B788677A3866A995A64F89EF3A4625588C717813383A0258A6240575556500000000000000000000000000000000000000004AB41080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Nasir ad-Din Muhammad ibn Qutuz -->
+	<NPCCharacter id="lord_mamluk_1_1_2" name="{=mamluk_lord_2}Emir Nasir ad-Din Muhammad ibn Qutuz" age="18" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.24" weight="0.1312" build="0.304" key="0010600F17FC1014524F7C7B78136B765F24B7AA72D3785631CA85A9CE68C67F0785267207C6A7C6000000000000000000000000000000000000000074FC9080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Behiye ad-Din ibn Qutuz -->
+	<NPCCharacter id="lord_mamluk_1_1_3" name="{=mamluk_lady_2}Behiye ad-Din ibn Qutuz" age="18" voice="earnest" culture="Culture.turkish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.03" weight="0.8881" build="0.5561" key="0013800D80FC000583ADAA16629BB49A9661630F09EF5C5BD3B656C838DE74CF0088D603084336D50000000000000000000000000000000000000000151440C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir As-Salih ad-Din ibn Qutuz -->
+	<NPCCharacter id="lord_mamluk_1_1_4" name="{=mamluk_lord_3}Emir As-Salih ad-Din ibn Qutuz" age="17" voice="curt" culture="Culture.turkish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="17.8" weight="0.0756" build="0.162" key="001E940FD7FC188C89D699BB4D8B56984B8F578DF7CCACC94A74B665AAABD84A018216130826C4C700000000000000000000000000000000000000006D141100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Ala ad-Din Manqatuy -->
+	<NPCCharacter id="lord_mamluk_1_2" name="{=mamluk_lord_4}Emir Ala ad-Din Manqatuy" age="41" voice="curt" culture="Culture.turkish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="41.77" weight="0.4645" build="0.4574" key="0015A80F17FC379BEAA687784698B5877847875C8E5CB8D766858B757A66C8670397763509669879000000000000000000000000000000000000000041348000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Bayud -->
+	<NPCCharacter id="lord_mamluk_1_2_1" name="{=mamluk_lady_3}Bayud" age="27" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="27.88" weight="0.1841" build="0.2519" key="001B600F0000300183476769A4EAC968D56DCC99B4BE49DCD79995A6E75475690194361309B753B7000000000000000000000000000000000000000041244080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Anuk ad-Din ibn Manqatuy -->
+	<NPCCharacter id="lord_mamluk_1_2_2" name="{=mamluk_lord_5}Emir Anuk ad-Din ibn Manqatuy" age="21" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="21.71" weight="0.3472" build="0.1003" key="00109C0F17001152C7CD576CC6965B4767A3BD36AB9BA5556C8C13535FF65B4F008256030846D655000000000000000000000000000000000000000015141040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Fatima -->
+	<NPCCharacter id="lord_mamluk_1_2_2_1" name="{=mamluk_lady_4}Fatima" age="18" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.66" weight="0.6408" build="0.6339" key="0013A00FD0FC1008EAA37255976468A6BAA2A5699E7F88366B67676C888A7889017AA6130799785C000000000000000000000000000000000000000054FC3000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ghaziya ad-Din ibn Manqatuy -->
+	<NPCCharacter id="lord_mamluk_1_2_3" name="{=mamluk_lady_5}Ghaziya ad-Din ibn Manqatuy" age="19" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.97" weight="0.6549" build="0.5984" key="0029880E54A0200EA935A78561467A572AC7B9189789A51B955E788A69552A580169A6130676317D000000000000000000000000000000000000000028BC20C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Jalal ad-Din Qaymaqar -->
+	<NPCCharacter id="lord_mamluk_6_1" name="{=mamluk_lord_6}Emir Jalal ad-Din Qaymaqar" age="40" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="40.23" weight="0.3341" build="0.6053" key="0010B00F00B4068E98C78BC68BD655774A98679AC9AA882F8D67985BA94D289D03C956350C8931B5000000000000000000000000000000000000000055943140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Jalal ad-Din Qaymaqar -->
+	<NPCCharacter id="lord_mamluk_6_1_1" name="{=mamluk_lord_7}Emir Bengü ad-Din ibn Qaymaqar" age="20" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.93" weight="0.0988" build="0.2485" key="0018C80FC0B42104C0AB6A7476453B855069889988746A1F8259634B815174BF04B416460B555B8500000000000000000000000000000000000000004F6C3000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="8"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Alara ad-Din ibn Qaymaqar -->
+	<NPCCharacter id="lord_mamluk_6_1_2" name="{=mamluk_lady_6}Alara ad-Din ibn Qaymaqar" age="19" voice="earnest" culture="Culture.turkish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.34" weight="0.4775" build="0.1941" key="0010D40FC044400727A7887BE7E473562351DD992AAC776B6A864F79876CE57801737613077552A6000000000000000000000000000000000000000028F42080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="3"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Hafza ad-Din ibn Qaymaqar -->
+	<NPCCharacter id="lord_mamluk_6_1_3" name="{=mamluk_lady_7}Hafza ad-Din ibn Qaymaqar" age="18" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.64" weight="0.611" build="0.4785" key="0013C80C4044000F6856A577481353A697D62855D8E98164E76C95CBB987A7A400A796030A9756CA00000000000000000000000000000000000000001D4C00C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Vice-Sultan Al-Malik Rukn al-Din Baybars -->
+	<NPCCharacter id="lord_mamluk_2_1" name="{=mamluk_lord_8}Vice-Sultan Al-Malik Rukn al-Din Baybars" age="36" voice="curt" culture="Culture.turkish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="36.76" weight="0.1343" build="0.3256" key="00150C0F16001701EA99C79542867D5B06E78A7BD1DEAB3E3774A635AC79E11A02B526240B6484CD00000000000000000000000000000000000000001D6C3100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_vicesultan_combat"/>
+			<EquipmentSet id="mamluk_vicesultan_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Iltutmish Khatun -->
+	<NPCCharacter id="lord_mamluk_2_1_1" name="{=mamluk_lady_8}Iltutmish Khatun" age="35" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="35.6" weight="0.6541" build="0.7415" key="0013AC0F00001006569999AB89679958B973AC87B7BD7D94BA3A9B44A898589A02ABA6240A6B693C000000000000000000000000000000000000000013440080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Al-Said al-Din Barakah ibn Baybars -->
+	<NPCCharacter id="lord_mamluk_2_1_2" name="{=mamluk_lord_9}Emir Al-Said al-Din Barakah ibn Baybars" age="18" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.25" weight="0.3162" build="0.2921" key="000D9C0F00001703C59B375A287C379738D3799AC928574ED4876B848E9775D900945603091B8E6800000000000000000000000000000000000000002D248140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Badr al-Din Solamish ibn Baybars -->
+	<NPCCharacter id="lord_mamluk_2_1_3" name="{=mamluk_lord_10}Emir Badr al-Din Solamish ibn Baybars" age="16" voice="earnest" culture="Culture.turkish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="16.76" weight="0" build="0.412" key="0010400F0000288E365BC767B677B67906E7E8497A9E74856D747877AC79E11A02B606240BDAD5A700000000000000000000000000000000000000001D643100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir al-Mansur Qalawun -->
+	<NPCCharacter id="lord_mamluk_2_2" name="{=mamluk_lord_11}Emir al-Mansur Qalawun" age="37" voice="earnest" culture="Culture.turkish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="37.14" weight="0.1404" build="0.7701" key="001EDC0FC0000512C69899CE847842F56C82E93DB5FDFDC972677CD8A5A6154E02BC26240B5BBA99000000000000000000000000000000000000000047743140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Fatima Khatun -->
+	<NPCCharacter id="lord_mamluk_2_2_1" name="{=mamluk_lady_9}Fatima Khatun" age="40" voice="curt" culture="Culture.turkish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="40.95" weight="0.462" build="0.6441" key="0029580F00002014879BA9558708A53B0DE287A68938777677857B7C8B669E7B036A763506C9BAB600000000000000000000000000000000000000002CBC1080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- As-Salih Ali ibn Qalawun -->
+	<NPCCharacter id="lord_mamluk_2_2_2" name="{=mamluk_lord_12}Emir As-Salih Ali ibn Qalawun" age="20" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.41" weight="0.6989" build="0.1003" key="0015E00F0000075A464486135535AA7955951B2E9DBC68687A8BE5793ED8889B0082A603084137540000000000000000000000000000000000000000350C5080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Al-Ashraf ad-Din Khalil ibn Qalawun -->
+	<NPCCharacter id="lord_mamluk_2_2_3" name="{=mamluk_lord_13}Emir Al-Ashraf ad-Din Khalil ibn Qalawun" age="19" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.41" weight="0.6989" build="0.1003" key="0015D80FC00011489167C5588327532242F0785B59ED606831CA54752DB660770082A6030888357D0000000000000000000000000000000000000000350C70C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="8"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Qutqutiya ibn Qalawun -->
+	<NPCCharacter id="lord_mamluk_2_2_4" name="{=mamluk_lady_10}Emira Qutqutiya ibn Qalawun" age="18" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="26.73" weight="0.1219" build="0.1343" key="00159C0F00004010B6C59844BE7638996D72E6278CCB564EA499699D4EFC6B6D018226130835DB4700000000000000000000000000000000000000002F1410C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Al-Mansur II Mohammed, Emir of Hama -->
+	<NPCCharacter id="lord_mamluk_3_1" name="{=mamluk_lord_14}Al-Mansur II Mohammed, Emir of Hama" age="45" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="45.63" weight="0.6032" build="0.5247" key="0029240F000008C456D57785444885896D77478F689B6C8969A8577C1579082803A896350AF5678A00000000000000000000000000000000000000002F4C9040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Gülfem -->
+	<NPCCharacter id="lord_mamluk_3_1_1" name="{=mamluk_lady_11}Gülfem" age="42" voice="curt" culture="Culture.turkish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="42.84" weight="0.6169" build="0.4756" key="0020D40F11FC1004AEB5241D1786CFE5D446A55B4A7C5E8AB62D44AC889786DA03A796350A2841C000000000000000000000000000000000000000004D5C4000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Al-Muzaffar III Mahmud -->
+	<NPCCharacter id="lord_mamluk_3_1_2" name="{=mamluk_lord_15}Emir Al-Muzaffar III Mahmud" age="27" voice="earnest" culture="Culture.turkish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="27.68" weight="0.479" build="0.2665" key="001BB80F0000355284536A948A785A2AA39AD96E97BE4998EAD678752A87D26A018476130848E23A000000000000000000000000000000000000000055045140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Devlet -->
+	<NPCCharacter id="lord_mamluk_3_1_2_1" name="{=mamluk_lady_12}Devlet" age="24" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.8" weight="0.5371" build="0.4145" key="002ED80F0044300C6833678762595568E893645A2A8642BB365999579B5994A90176861307B5AC4900000000000000000000000000000000000000004CEC1000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Al-Ashraf Musa, Emir of Homs -->
+	<NPCCharacter id="lord_mamluk_3_2" name="{=mamluk_lord_16}Al-Ashraf Musa, Emir of Homs" age="54" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="54.5" weight="0.6497" build="0.0756" key="0029480F1C143A18E53A19BCB7B7C7248867BA47568DB6DF23DBF637255CC79B0581A65608D9135300000000000000000000000000000000000000002F141080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Gülbahar -->
+	<NPCCharacter id="lord_mamluk_3_2_1" name="{=mamluk_lady_13}Gülbahar" age="50" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="50.26" weight="0.2878" build="0.2977" key="0026EC0FC00020035C57C2C83B37A43479537547B841C928C48B624B38036A69046446460647C476000000000000000000000000000000000000000040D40040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Uraza -->
+	<NPCCharacter id="lord_mamluk_3_2_2" name="{=mamluk_lady_14}Uraza" age="30" voice="earnest" culture="Culture.turkish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.97" weight="0.531" build="0.7476" key="0020E00F000020012DA96A46839197FE9297D79BC7AEB2A9A54BAC94577843B7019B861409AA3B8900000000000000000000000000000000000000002F3C1080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Qutlug -->
+	<NPCCharacter id="lord_mamluk_3_2_3" name="{=mamluk_lady_15}Qutlug" age="29" voice="curt" culture="Culture.turkish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.43" weight="0.4677" build="0.876" key="002BEC0F0000000BD423444DC562EBED64667175884A5DCD75B74B318ACCB85801AD76130AA57D8A000000000000000000000000000000000000000035642040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Al-Adil Kitbugha -->
+	<NPCCharacter id="lord_mamluk_4_1" name="{=mamluk_lord_17}Emir Al-Adil Kitbugha" age="38" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="38.23" weight="0.4398" build="0.5462" key="0013480F1D140882A77688779B18967E3A63397BF8CEAB0BA7B177D79CB9F6AE02A876240AA9878900000000000000000000000000000000000000002D4C3140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Tulubiyya bin Bakr an-Faris -->
+	<NPCCharacter id="lord_mamluk_4_1_1" name="{=mamluk_lady_16}Tulubiyya bin Bakr an-Faris" age="39" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39.07" weight="0.4995" build="0.4483" key="0015C00F0000400C9A536725B7B9D4C68DA7BA3E19CC83882667591A4C78EA770397763509386B390000000000000000000000000000000000000000391C3080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Alam al-Malik bin Kitbugha -->
+	<NPCCharacter id="lord_mamluk_4_1_2" name="{=mamluk_lord_18}Emir Alam al-Malik bin Kitbugha" age="20" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.4" weight="0.3343" build="0.0431" key="0010D00F0EB43500BAB7FDE7333212D6BCB22DFDF7CEB4479B8BDCA5CACA9DBC00915603098E3B520000000000000000000000000000000000000000253C8080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Kadem bin Kitbugha -->
+	<NPCCharacter id="lord_mamluk_4_1_3" name="{=mamluk_lady_17}Kadem bin Kitbugha" age="20" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20.4" weight="0.3343" build="0.0431" key="0013E00F000040058944A88AD958A9D96577881B518812697724BDA84B2EA59C00915603098B98B50000000000000000000000000000000000000000253C10C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Al-Nasir ad-Din bin Kitbugha -->
+	<NPCCharacter id="lord_mamluk_4_1_4" name="{=mamluk_lord_19}Emir Al-Nasir ad-Din bin Kitbugha" age="18" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.01" weight="0.1559" build="0.2114" key="000DD80F00141743D9863877D8E9BDA2B6F1A793A83B62AF3949C6486A2F897E00A326030A8AA57800000000000000000000000000000000000000006B5C4000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Sayf ad-Din Balban -->
+	<NPCCharacter id="lord_mamluk_4_2" name="{=mamluk_lord_20}Emir Sayf ad-Din Balban" age="31" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="31.74" weight="0.2163" build="0.5329" key="0018180F00141553D64298797558B5D72398877DA5DE462969B873C8AE8B4D7B02B836240BC5453300000000000000000000000000000000000000002F6C7100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ardukin -->
+	<NPCCharacter id="lord_mamluk_4_2_1" name="{=mamluk_lady_18}Ardukin" age="28" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="28.66" weight="0.0976" build="0.2821" key="0023D80FD088000C68EF86962B182DA7B2F1B7621714C7DEBCCBB6CC8887AABB01C416130CAAAD76000000000000000000000000000000000000000059942080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Izz ad-Din ibn Balban -->
+	<NPCCharacter id="lord_mamluk_4_2_2" name="{=mamluk_lord_21}Emir Izz ad-Din ibn Balban" age="31" voice="curt" culture="Culture.turkish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="31.36" weight="0.3285" build="0.5736" key="001E9C0F00003844D1833AB4A32727382A683F5851DDCED8B92732813D58B76D016956140694976300000000000000000000000000000000000000004ADC2100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Faris ad-Din Balban -->
+	<NPCCharacter id="lord_mamluk_4_2_3" name="{=mamluk_lord_22}Emir Faris ad-Din Balban" age="31" voice="curt" culture="Culture.turkish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="31.36" weight="0.2207" build="0.2269" key="0013880F00CC084D87EEEBC5B455A8DBBE7B934BEBF73897ABCC3D32221D53C2019336140955754A0000000000000000000000000000000000000000252C7040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="9"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Sanjar ad-Din Balban -->
+	<NPCCharacter id="lord_mamluk_4_3" name="{=mamluk_lord_23}Emir Sanjar ad-Din Balban" age="33" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="33.74" weight="0.2855" build="0.2114" key="0013A80F00141308687881E99D9621797A39593C84CFB86739C8AA45A68AB4B402B346240BD7212300000000000000000000000000000000000000003B7C0140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Nefise -->
+	<NPCCharacter id="lord_mamluk_4_3_1" name="{=mamluk_lady_19}Nefise" age="29" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.43" weight="0.7953" build="0.7655" key="0015C00F00E43004E8738AC64553F6825BB95B25F46D7B1EC15457ECA358D8AB015BC6130552D4A3000000000000000000000000000000000000000038B44080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Sunqur al-Ashqar -->
+	<NPCCharacter id="lord_mamluk_5_1" name="{=mamluk_lord_24}Emir Sunqur al-Ashqar" age="40" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="40.23" weight="0.1594" build="0.4651" key="0023CC0F00B4290D9B66DA4849455D5389307AFFE7EE7562D37A65D3DBD1745E0377263507AAF51200000000000000000000000000000000000000005AF40080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ittifaq -->
+	<NPCCharacter id="lord_mamluk_5_1_1" name="{=mamluk_lady_20}Ittifaq" age="39" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39.84" weight="0.8978" build="0.6534" key="0013E00F10001001CAD9E7C079C126D4555638AD96CFC0D4C552A4C54BA753A4038AD6350842468900000000000000000000000000000000000000004D1440C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Ismail al-Mansur ibn al-Ashqar -->
+	<NPCCharacter id="lord_mamluk_5_1_2" name="{=mamluk_lord_25}Emir Ismail al-Mansur ibn al-Ashqar" age="21" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.96" weight="0.8503" build="0.1676" key="0020980F1CFC185378BDBC71A852452E62D367EFE65D6DA8A73347C96CCC76AA0173D6130788968F000000000000000000000000000000000000000022FC5000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Yaghmuur ibn al-Ashqar -->
+	<NPCCharacter id="lord_mamluk_5_1_3" name="{=mamluk_lord_26}Emir Yaghmuur ibn al-Ashqar" age="18" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.71" weight="0.088" build="0.1435" key="0010D00F00443791A1BC7BA5263A8A7C216788EEF5CC667A91D3869955D87A4C00921603098937430000000000000000000000000000000000000000312C8100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Canhabibe ibn al-Ashqar -->
+	<NPCCharacter id="lord_mamluk_5_1_4" name="{=mamluk_lady_21}Canhabibe ibn al-Ashqar" age="18" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.71" weight="0.5377" build="0.2768" key="0013C00F00CC10077DEB35B8F583E11E4D33172E79E6A629D966AB86FBBE37FE00648603069AA994000000000000000000000000000000000000000012CC10C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Emir Al-Muzaffar al-Ashqar -->
+	<NPCCharacter id="lord_mamluk_5_2" name="{=mamluk_lord_27}Emir Al-Muzaffar al-Ashqar" age="35" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="35.21" weight="0.8181" build="0.4021" key="0018300F00701586474762A18107111BCEE21123EEEEB22FEEDE9EAD2FE8EEB40266C62406873CB3000000000000000000000000000000000000000056D41100"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Sul -->
+	<NPCCharacter id="lord_mamluk_5_2_1" name="{=mamluk_lady_22}Sul" age="32" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="32.51" weight="0.3772" build="0.208" key="0018F40B805800064837C979BB5B58773332EEC4CDEDBCB9E7E2C2529EEE383302A366240A53CDFB00000000000000000000000000000000000000003D5C0000"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Dilber ibn al-Ashqar -->
+	<NPCCharacter id="lord_mamluk_5_2_2" name="{=mamluk_lady_23}Dilber ibn al-Ashqar" age="16" voice="softspoken" culture="Culture.turkish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="16.63" weight="0.3514" build="0.7314" key="0020E00F15143015E3B1CF25734A793BD32A8D7E4ED8B1FB7384AF1E8B1EDD33007B56030716FEBD000000000000000000000000000000000000000038F420C0"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ibrahim al-Ashqar -->
+	<NPCCharacter id="lord_mamluk_5_2_3" name="{=mamluk_lord_28}Ibrahim al-Ashqar" age="12" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="12.33" weight="0.458" build="0.1569" key="00138C0F001438426745A43A353455E841866A71E9FE7986098A642729B6376C00B276020B6A468B000000000000000000000000000000000000000015742140"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mamluk_lord_combat"/>
+			<EquipmentSet id="mamluk_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Kaykhusraw II ibn Kayqubād of Rûm -->
+	<NPCCharacter id="dead_lord_ilkhanate_4" name="{=ilkhanate_deadlord_4}Kaykhusraw II ibn Kayqubād of Rûm" age="76" voice="ironic" culture="Culture.turkish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="76.48" weight="0.162" build="0.2855" key="000D340F1D440483898B2A526DD3D1C3B39EB3A16837D6966899369BB81557A9089420890996584A000000000000000000000000000000000000000033286040"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="ilkhanate_lord_seljuk_combat"/>
+			<EquipmentSet id="ilkhanate_seljuk_sultan_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
