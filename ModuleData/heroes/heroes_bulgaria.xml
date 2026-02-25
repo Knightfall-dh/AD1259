@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- clan_bulgaria_1: Asen -->
+	<Hero id="lord_bulgaria_1a" spouse="Hero.lord_bulgaria_1b" faction="Faction.clan_bulgaria_1" text="{=bulgariaKingdescription}Constantine Tikh came from a noble family with links to the old Bulgarian and Serbian royalty."/>
+	<Hero id="lord_bulgaria_1b" spouse="Hero.lord_bulgaria_1a" faction="Faction.clan_bulgaria_1"/>
+	<Hero id="lord_bulgaria_1c" father="Hero.lord_bulgaria_1a" mother="Hero.lord_bulgaria_1b" faction="Faction.clan_bulgaria_1"/>
+
+	<Hero id="lord_bulgaria_1d" spouse="Hero.lord_bulgaria_1e" faction="Faction.clan_bulgaria_1"/>
+	<Hero id="lord_bulgaria_1e" spouse="Hero.lord_bulgaria_1d" faction="Faction.clan_bulgaria_1"/>
+	<Hero id="lord_bulgaria_1f" father="Hero.lord_bulgaria_1d" mother="Hero.lord_bulgaria_1e" spouse="Hero.lord_bulgaria_1h" faction="Faction.clan_bulgaria_1"/>
+	<Hero id="lord_bulgaria_1g" spouse="Hero.lord_bulgaria_2f" faction="Faction.clan_bulgaria_1"/>
+	<Hero id="lord_bulgaria_1h" spouse="Hero.lord_bulgaria_1f" faction="Faction.clan_bulgaria_1"/>
+
+	<!-- clan_bulgaria_2: Terter -->
+	<Hero id="lord_bulgaria_2a" spouse="Hero.lord_bulgaria_2b" faction="Faction.clan_bulgaria_2"/>
+	<Hero id="lord_bulgaria_2b" spouse="Hero.lord_bulgaria_2a" faction="Faction.clan_bulgaria_2"/>
+	<Hero id="lord_bulgaria_2c" father="Hero.lord_bulgaria_2a" mother="Hero.lord_bulgaria_2b" faction="Faction.clan_bulgaria_2"/>
+	<Hero id="lord_bulgaria_2d" father="Hero.lord_bulgaria_2a" mother="Hero.lord_bulgaria_2b" faction="Faction.clan_bulgaria_2"/>
+	<Hero id="lord_bulgaria_2e" father="Hero.lord_bulgaria_2a" mother="Hero.lord_bulgaria_2b" faction="Faction.clan_bulgaria_2"/>
+	<Hero id="lord_bulgaria_2f" spouse="Hero.lord_bulgaria_1g" faction="Faction.clan_bulgaria_2"/>
+
+	<!-- clan_bulgaria_3: Vlachs -->
+	<Hero id="lord_bulgaria_3a" spouse="Hero.lord_bulgaria_3b" faction="Faction.clan_bulgaria_3"/>
+	<Hero id="lord_bulgaria_3b" spouse="Hero.lord_bulgaria_3a" faction="Faction.clan_bulgaria_3"/>
+	<Hero id="lord_bulgaria_3c" faction="Faction.clan_bulgaria_3"/>
+	<Hero id="lord_bulgaria_3d" faction="Faction.clan_bulgaria_3"/>
+	<Hero id="lord_bulgaria_3e" spouse="Hero.lord_bulgaria_3f" faction="Faction.clan_bulgaria_3"/>
+	<Hero id="lord_bulgaria_3f" spouse="Hero.lord_bulgaria_3e" faction="Faction.clan_bulgaria_3"/>
+	<Hero id="lord_bulgaria_3g" spouse="Hero.lord_bulgaria_3h" faction="Faction.clan_bulgaria_3"/>
+	<Hero id="lord_bulgaria_3h" spouse="Hero.lord_bulgaria_3g" faction="Faction.clan_bulgaria_3"/>
+
+</Heroes>
