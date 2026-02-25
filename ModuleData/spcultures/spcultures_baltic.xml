@@ -1,0 +1,269 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<SPCultures>
+	<Culture id="baltic"
+	         name="{=balticCulture}Baltic"
+	         is_main_culture="true"
+	         color="0xff830808"
+	         color2="0xffdfdedc"
+	         elite_basic_troop="NPCCharacter.baltic_elite_root0"
+	         basic_troop="NPCCharacter.baltic_infantry_root"
+	         melee_militia_troop="NPCCharacter.baltic_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.baltic_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.baltic_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.baltic_militia_veteran_archer"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_baltic_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_BALTIC_template"
+	         settlement_patrol_template_level_1="PartyTemplate.patrol_party_BALTIC_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_BALTIC_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_BALTIC_template_level_3"
+	         encounter_background_mesh="encounter_baltic"
+	         faction_banner_key="11.142.40.1439.1242.749.789.0.0.0.510.142.142.0.0.764.764.0.1.90.510.127.127.520.500.1033.844.0.1.90.510.127.127.520.500.495.843.0.1.90.510.127.127.689.520.764.1094.0.1.0.510.127.127.290.500.894.1000.0.1.90.510.127.127.290.500.633.1000.0.1.90.510.127.127.375.500.764.876.0.1.0.510.127.127.320.500.764.754.0.1.90"
+	         militia_party_template="PartyTemplate.militia_baltic_template"
+	         rebels_party_template="PartyTemplate.rebels_baltic_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_baltic"
+	         text="{=baltic_text}Unused in the game."
+	         tournament_master="NPCCharacter.tournament_master_baltic"
+	         villager="NPCCharacter.villager_baltic"
+	         caravan_master="NPCCharacter.caravan_master_baltic"
+	         caravan_guard="NPCCharacter.caravan_guard_baltic"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_baltic"
+	         prison_guard="NPCCharacter.prison_guard_baltic"
+	         guard="NPCCharacter.guard_baltic"
+	         blacksmith="NPCCharacter.blacksmith_baltic"
+	         weaponsmith="NPCCharacter.weaponsmith_baltic"
+	         townswoman="NPCCharacter.townswoman_baltic"
+	         townswoman_infant="NPCCharacter.townswoman_infant_baltic"
+	         townswoman_child="NPCCharacter.townswoman_child_baltic"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_baltic"
+	         townsman="NPCCharacter.townsman_baltic"
+	         townsman_infant="NPCCharacter.townsman_infant_baltic"
+	         townsman_child="NPCCharacter.townsman_child_baltic"
+	         townsman_teenager="NPCCharacter.townsman_teenager_baltic"
+	         village_woman="NPCCharacter.village_woman_baltic"
+	         villager_male_child="NPCCharacter.villager_child_baltic"
+	         villager_male_teenager="NPCCharacter.villager_teenager_baltic"
+	         villager_female_child="NPCCharacter.village_woman_child_baltic"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_baltic"
+	         ransom_broker="NPCCharacter.ransom_broker_baltic"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_baltic"
+	         merchant_notary="NPCCharacter.merchant_notary_baltic"
+	         artisan_notary="NPCCharacter.artisan_notary_baltic"
+	         preacher_notary="NPCCharacter.preacher_notary_baltic"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_baltic"
+	         shop_worker="NPCCharacter.shop_worker_baltic"
+	         tavernkeeper="NPCCharacter.tavernkeeper_baltic"
+	         taverngamehost="NPCCharacter.taverngamehost_baltic"
+	         musician="NPCCharacter.musician_baltic"
+	         tavern_wench="NPCCharacter.tavern_wench_baltic"
+	         armorer="NPCCharacter.armorer_baltic"
+	         horseMerchant="NPCCharacter.horseMerchant_baltic"
+	         barber="NPCCharacter.barber_baltic"
+	         merchant="NPCCharacter.merchant_baltic"
+	         beggar="NPCCharacter.beggar_baltic"
+	         female_beggar="NPCCharacter.female_beggar_baltic"
+	         female_dancer="NPCCharacter.female_dancer_baltic"
+	         default_battle_equipment_roster="EquipmentRoster.baltic_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.baltic_civ_template_default"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+	         duel_preset_equipment_roster="EquipmentRoster.stu_duel_preset_template"
+	         marriage_bride_equipment_roster="EquipmentRoster.marriage_female_baltic_cutscene_template"
+	         board_game_type="Konane"
+	         default_character_creation_body_property="BodyProperty.default_character_creation_body_property_sturgia"
+	         start_point_position_x="692"
+	         start_point_position_y="1265">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_baltic"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_baltic"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls/>
+		<vassal_reward_items>
+			<item id="Item.avalanche_2haxe"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.sturgia_sword_1_t2"/>
+			<item id="Item.sturgia_sword_2_t3"/>
+			<item id="Item.sturgia_sword_4_t4"/>
+			<item id="Item.sturgia_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_lawspeakers"/>
+			<policy id="policy_precarial_land_tenure"/>
+		</default_policies>
+		<male_names>
+			<name name="{=ACDCA43D}Adomas"/>
+			<name name="{=F637C651}Algirdas"/>
+			<name name="{=0421B676}Vykintas"/>
+			<name name="{=622C2410}Biruténas"/>
+			<name name="{=5FA63D63}Dainius"/>
+			<name name="{=C22FFD3E}Daumantas"/>
+			<name name="{=043C5954}Gediminas"/>
+			<name name="{=62398FCA}Irmantas"/>
+			<name name="{=76E21A7E}Jurgis"/>
+			<name name="{=A8A00175}Kestutis"/>
+			<name name="{=7D17290E}Leonas"/>
+			<name name="{=A94E16A1}Lukiškis"/>
+			<name name="{=1B5C5C10}Mindaugas"/>
+			<name name="{=936BBBEE}Noreikas"/>
+			<name name="{=8A86CE76}Povilas"/>
+			<name name="{=16D40F45}Romaldas"/>
+			<name name="{=05154A7E}Rimantas"/>
+			<name name="{=71D4E2AD}Saulius"/>
+			<name name="{=3150208B}Skirmantas"/>
+			<name name="{=2E0FE86F}Stanislovas"/>
+			<name name="{=E8E8B874}Tautvilas"/>
+			<name name="{=2C2500CF}Tumas"/>
+			<name name="{=E44F74D1}Ugnius"/>
+			<name name="{=AC50599A}Valdimantas"/>
+			<name name="{=E44BBCCC}Vaidotas"/>
+			<name name="{=AD9E53CA}Vidmantas"/>
+			<name name="{=F0CB3CF1}Zigmantas"/>
+			<name name="{=A1026723}Žydrūnas"/>
+			<name name="{=159AB705}Algimantas"/>
+			<name name="{=D8BD737A}Birutis"/>
+			<name name="{=2E0BF3C0}Kazimieras"/>
+			<name name="{=D253341B}Skirgaila"/>
+			<name name="{=24B1A739}Mykolas"/>
+			<name name="{=F115CDE8}Kajetonas"/>
+			<name name="{=F5935F3B}Vytautas"/>
+			<name name="{=2449A475}Gedgaudas"/>
+			<name name="{=7CC8D271}Korybutas"/>
+			<name name="{=6552F180}Laurynas"/>
+		</male_names>
+		<female_names>
+			<name name="{=C23A87A0}Aldona"/>
+			<name name="{=D48B9A29}Aldute"/>
+			<name name="{=8DB2707B}Aldvila"/>
+			<name name="{=A32152B9}Biruté"/>
+			<name name="{=5AA87454}Daina"/>
+			<name name="{=33EA630F}Dovilé"/>
+			<name name="{=FD3ED2C5}Gené"/>
+			<name name="{=6B65DA2E}Giedra"/>
+			<name name="{=8AEC4E4E}Igné"/>
+			<name name="{=D75E96FB}Jadvyga"/>
+			<name name="{=70A6BFB5}Janina"/>
+			<name name="{=FF8E2E7A}Jokubé"/>
+			<name name="{=BE14E6D9}Juraté"/>
+			<name name="{=36C610BF}Kamile"/>
+			<name name="{=9E7254A0}Kotryna"/>
+			<name name="{=16F7E6D1}Laima"/>
+			<name name="{=57297A76}Liucija"/>
+			<name name="{=6A915DC6}Manté"/>
+			<name name="{=97D538AB}Marijona"/>
+			<name name="{=7C2ECD17}Milda"/>
+			<name name="{=E09C7EC9}Morta"/>
+			<name name="{=8DEB72DE}Ona"/>
+			<name name="{=87EFD099}Rasa"/>
+			<name name="{=7ACD3794}Rūpinta"/>
+			<name name="{=D0D9C2B7}Sigita"/>
+			<name name="{=5A352BD0}Sofija"/>
+			<name name="{=3C90C755}Stanislava"/>
+			<name name="{=F61D34DD}Teklé"/>
+			<name name="{=0E09DA4B}Uršulé"/>
+			<name name="{=447E9F09}Vanda"/>
+			<name name="{=EA30E30E}Vilija"/>
+			<name name="{=11C4849E}Zita"/>
+			<name name="{=C464DF85}Zofija"/>
+			<name name="{=10E840CD}Žygimanta"/>
+			<name name="{=5A232C8D}Živilé"/>
+			<name name="{=75056306}Žygimanté"/>
+			<name name="{=73AE7FF9}Krivé"/>
+			<name name="{=A315D49F}Ieva"/>
+		</female_names>
+		<clan_names>
+			<name name="{=Gediminids}Gediminids"/>
+			<name name="{=Jagiellons}Jagiellons"/>
+			<name name="{=Gasztold}Gasztold"/>
+			<name name="{=Trubecki}Trubecki"/>
+			<name name="{=Kestutis}Kestutis"/>
+		</clan_names>
+		<cultural_feats>
+			<feat id="khuzait_decreased_town_tax"/>
+			<feat id="sturgian_decreased_army_influence_cost"/>
+			<feat id="battanian_forest_speed"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="112"/>
+			<icon id="113"/>
+			<icon id="114"/>
+			<icon id="115"/>
+			<icon id="116"/>
+			<icon id="117"/>
+			<icon id="118"/>
+			<icon id="132"/>
+			<icon id="138"/>
+			<icon id="139"/>
+			<icon id="307"/>
+			<icon id="331"/>
+			<icon id="407"/>
+			<icon id="408"/>
+			<icon id="409"/>
+			<icon id="410"/>
+			<icon id="439"/>
+			<icon id="440"/>
+			<icon id="441"/>
+			<icon id="442"/>
+			<icon id="443"/>
+			<icon id="444"/>
+			<icon id="445"/>
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_baltic_0"/>
+			<template name="NPCCharacter.spc_notable_baltic_0b"/>
+			<template name="NPCCharacter.spc_notable_baltic_1"/>
+			<template name="NPCCharacter.spc_notable_baltic_2"/>
+			<template name="NPCCharacter.spc_notable_baltic_2b"/>
+			<template name="NPCCharacter.spc_notable_baltic_3"/>
+			<template name="NPCCharacter.spc_notable_baltic_3b"/>
+			<template name="NPCCharacter.spc_notable_baltic_3c"/>
+			<template name="NPCCharacter.spc_notable_baltic_4"/>
+			<template name="NPCCharacter.spc_notable_baltic_5"/>
+			<template name="NPCCharacter.spc_notable_baltic_6"/>
+			<template name="NPCCharacter.spc_notable_baltic_7"/>
+			<template name="NPCCharacter.spc_notable_baltic_8"/>
+			<template name="NPCCharacter.spc_notable_baltic_9"/>
+			<template name="NPCCharacter.spc_notable_baltic_10"/>
+			<template name="NPCCharacter.spc_baltic_headman_1"/>
+			<template name="NPCCharacter.spc_baltic_headman_2"/>
+			<template name="NPCCharacter.spc_baltic_headman_3"/>
+		</notable_templates>
+		<lord_templates>
+			<template name="NPCCharacter.baltic_autogenerated_lord1"/>
+			<template name="NPCCharacter.baltic_autogenerated_lord2"/>
+			<template name="NPCCharacter.baltic_autogenerated_lord3"/>
+			<template name="NPCCharacter.baltic_autogenerated_lord4"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.baltic_autogenerated_lord1"/>
+			<template name="NPCCharacter.baltic_autogenerated_lord2"/>
+			<template name="NPCCharacter.baltic_autogenerated_lord3"/>
+			<template name="NPCCharacter.baltic_autogenerated_lord4"/>
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_baltic_one_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_baltic_one_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_baltic_one_participant_set_v3"/>
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_baltic_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_baltic_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_baltic_two_participant_set_v3"/>
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_baltic_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_baltic_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_baltic_four_participant_set_v3"/>
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+            <template name="NPCCharacter.merc_euro_crossbowman"/>
+            <template name="NPCCharacter.merc_manhunter_root"/>
+            <template name="NPCCharacter.merc_balkan_archer1"/>
+            <template name="NPCCharacter.merc_balkan_axe1"/>
+            <template name="NPCCharacter.merc_balkan_spear1"/>
+            <template name="NPCCharacter.merc_alan_1"/>
+            <template name="NPCCharacter.merc_alan_2"/>
+        </basic_mercenary_troops>
+	</Culture>
+</SPCultures> 
