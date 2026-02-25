@@ -1,0 +1,1421 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- Crusader States -->
+	<!-- clan 1: House of Ibelin -->
+	<NPCCharacter id="dead_lord_crusaderstates_1" name="{=crusader_deadlord1}Jean II d'Ibelin" age="48" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="48.46" weight="0.2948" build="0.0602" key="0008900D800010026A88776593C3A6441FE01B9A4A7CCB3947EF3A7396F1690901B140140B0FC865000000000000000000000000000000000000000001788140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_jean2dibelin_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_1_2" name="{=crusader_lord1}Balian IV d'Ibelin, Lord of Arsuf" age="21" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="21.2" weight="0" build="0" key="0008B00D80002002894A875769A56AD31FE0A46427485BD8B5B9567A96F1690900A000020A47EB5C000000000000000000000000000000000000000001409040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="4"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="9"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_baliandibelin_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_1_1_1" name="{=crusader_lady1}Alice de Cayphas" age="44" voice="ironic" is_female="true" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="44.47" weight="0.3608" build="0.3272" key="001BB40E4014200A37676B3C76967B97596256577BD6854C96878757AA607BC703A556350A4DA597000000000000000000000000000000000000000041540080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_baliandibelin_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_1_3" name="{=crusader_lord2}Jean II d'Ibelin, Lord of Beirut" age="29" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.81" weight="0.1193" build="0.4944" key="0013380F0044280BD85A9C96AB487D7CA5685448A9696A656A597C893875975A0197601309686788000000000000000000000000000000000000000061304080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_jean2dibelin_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_1_3_1" name="{=crusader_lady2}Alix de la Roche, Lady of Beirut" age="27" voice="earnest" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="27.76" weight="0.2707" build="0.5455" key="000884034000200BBC4896CA5A74B7AC7877648558781AA7D82A7643A48AD38501684013067763C80000000000000FFE00000000000000000000000026B84080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_lord_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_1_4" name="{=crusader_lord3}Baudouin d'Ibelin, Seneschal of Cyprus" age="46" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="46.4" weight="0.7789" build="0.1739" key="0010A40B800017D499A32497992B6954686A5824385978D5996778175846C75904D3CB450D6A68A900000000000000000000000000000000000000004DA83100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_baudouindibelin_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_1_4_1" name="{=crusader_lady3}Alix de Bessan" age="49" voice="softspoken" is_hero="true" default_group="Cavalry" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="49.72" weight="0.627" build="0.7657" key="001040040000100F8585AA8AAB958B74353D26725D4917C7AD4B979C598855D7045B9046059871340000000000000FFE00000000000000000000000070A04000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_lord_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_1_5" name="{=crusader_lord4}Guillaume de Botroun, Constable of the Kingdom of Jerusalem" age="30" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="30.2" weight="0.1054" build="0.3027" key="001390081A58201289C6796938B3C8B47C5792B748D5B56C7725AA88792778670165801406A198BE000000000000000000000000000000000000000022D01040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_lord_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_1_6" name="{=crusader_lord9}Geoffroy de Sergines, Marshal, Seneschal and Bailiff of Jerusalem" age="54" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="54.41" weight="0.1775" build="0.196" key="000DE40C400017CDA9BAA4C7A385B5B7648D5DA246C922C3D43BA7578389883405933B5609968CB40000000000000000000000000000000000000000352870C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_geoffroysergines_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 2: House of Lusignan-Jerusalem -->
+	<NPCCharacter id="lord_crusaderstates_2_1" name="{=crusader_lord7}Hugues III de Lusignan, Regent of the Kingdom of Cyprus" age="24" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.03" weight="0.6127" build="0.3164" key="00087804000013CECA3A3849719B540874974C763B9965C82772CC919C8BD58500659503069C623700001105000030A30000001F00000000000000001CC80140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Oligarchic" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_hugues3lusignan_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_2_1_1" age="18" name="{=crusader_lady5}Isabella d'Ibelin" voice="ironic" is_female="true" is_hero="true" default_group="Cavalry" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.63" weight="0.4015" build="0.3272" key="000A600D807030039773987867AA72A9B1B79363097A5A73699A8D74A44B486808756982089CC969000000000000000000000000000000000000000018F80040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_baliandibelin_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_crusaderstates_2" name="{=crusader_deadlord2}Henri I 'The Fat' de Lusignan, King of Cyprus" age="42" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.63" weight="0.4015" build="0.3272" key="000A600D807030039773987867AA72A9B1B79363097A5A73699A8D74A44B486808756982089CC969000000000000000000000000000000000000000018F80040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="9"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_bohemondpoitiers_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_2_2_1" name="{=crusader_lady6}Plaisance de Poitiers, Queen regent of Cyprus" age="24" voice="softspoken" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="24.8" weight="0.2394" build="0.3899" key="00081C0B80B430057BD9689749B67EAD9B7B63BC45AC87B273A78455398A685C01364713037775BB0000000000000FFE00000000000000000000000040684000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="4"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_hugues3lusignan_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_2_2_2" name="{=crusader_lord8}Hugues II de Lusignan, King of Cyprus" age="12" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="12.45" weight="0.4118" build="0.3236" key="0015A00800FC000F6778479C3564A683157B4D7A0688989B5C6BBA5AC939827706456D61055A967B00000000000000000000000000000000000000001A802040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_hugues2lusignan_combat"/>
+			<EquipmentSet id="crusader_hugues2lusignan_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_2z" age="34" name="{=crusader_lady5}Marie I Lusignan, Countess of Eu" voice="ironic" is_female="true" is_hero="true" default_group="Cavalry" culture="Culture.crusader" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.63" weight="0.4015" build="0.3272" key="000A600D807030039773987867AA72A9B1B79363097A5A73699A8D74A44B486808756982089CC969000000000000000000000000000000000000000018F80040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 3: House of Poitiers-Antioch -->
+	<NPCCharacter id="lord_crusaderstates_3_1" name="{=crusader_lord5}Bohémond VI de Poitiers, Count of Tripoli and Prince of Antioch" age="22" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.74" weight="0.2546" build="0.2949" key="000078078000108D67B89ADA89A3948478787667529C374A6556BC786726B58600A446030AB7659600000000000000000000000000000000000000001B481100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="10"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_bohemondpoitiers_combat"/>
+			<EquipmentSet id="crusader_bohemondpoitiers_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_3_1_1" name="{=crusader_lady4}Sibylla of Armenia, Countess of Tripoli and Princess of Antioch" voice="softspoken" age="19" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.4" weight="0.5328" build="0.9703" key="0020E40F0000100277B68BA7989B96469B8B667874E8C974C7C8C6424766797A0A6F80A2085779D70000000000000FFE00000000000000000000000068C03040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_bohemondpoitiers_combat"/>
+			<EquipmentSet id="crusader_sybillaprincess_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_3_2" name="{=crusader_lord6}Henri de Poitiers" age="61" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="61.06" weight="0.5309" build="0.0725" key="000D54028000010979748565DA3644B8BCBBA399487A499886AA57C493B3BC8A06718067073A961C000000000000000000000000000000000000000020F850C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_lord_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_3_3" name="{=crusader_lord10}Simon Mancel, Constable of Antioch" age="39" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="39.18" weight="0.2454" build="0.3194" key="000A3C000000030196C968BC58965C883A89979575CC36C7A627AAA88B7894C603D54B350D535879000000000000000000000000000000000000000039B800C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_simonmancel_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_3_4" name="{=crusader_lord11}Julien de Grenier, Count of Sidon" age="29" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.81" weight="0.2204" build="0.3723" key="0005540F000016817269844544B98B88A8D85287494A4A249CA89565CA858A7801763B130753A795000000000000000000000000000000000000000022F83080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_juliengrenier_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_3_4_1" age="25" name="{=crusader_lady7}Euphemia of Armenia, Countess of Sidon" voice="softspoken" is_female="true" is_hero="true" default_group="Cavalry" culture="Culture.crusader" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="25.57" weight="0.69" build="0.1211" key="00088806C07030079357C92B293396679B80CA595579B2A958494134719E777B0182A913088C3433000000000000000000000000000000000000000047083040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_juliengrenier_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_3_4_2" name="{=crusader_lord12}Balian II de Grenier" age="7" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="7.09" weight="0.1466" build="0.2083" key="00003005400032CF1B98C685AB76B789787C8F9B66AC477AF76567248A43253E03832635089D34A70000000000000000000000000000000000000000250C6140"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_juliengrenier_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_3_4_3" name="{=crusader_lord13}Jean de Grenier" age="6" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="6.71" weight="0.3686" build="0.6817" key="00055006C000248867B87779E6A67B988985BD3778477A7793BDB948453C67B40B5A6BBB057A574A00000000000000000000000000000000000000005AB02000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_juliengrenier_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 4: House of Embriaco -->
+	<NPCCharacter id="lord_crusaderstates_4_1" name="{=crusader_lord14}Enrico I Embriaco, Lord of Gibelet" age="45" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="44.47" weight="0.0941" build="0.6558" key="0013280E4000271C67086575596ABC792CA9EECD65A185B66F86982786B4684B03AA1B350A7675A300000000000000000000000000000000000000003D400100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_enricoembriaco_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_4_1_1" name="{=crusader_lady8}Isabelle d'Ibelin" age="29" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="29.87" weight="0.4341" build="0.4246" key="00085C05400030059BB748AA4984C848A925636AE637736728867D8778B9C46501D676130D36259200000000000000000000000000000000000000006BBC3000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_baliandibelin_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_4_1_2" name="{=crusader_lord15}Guido II Embriaco of Gibelet" age="6" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="6.97" weight="0.3287" build="0.3925" key="0018F002800039467968C85A18C7278B518D24998C6597941B4B7757C775C97703865635088574B800000000000000000000000000000000000000001D0C70C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_enricoembriaco_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_4_2" name="{=crusader_lady9}Pavia Embriaco of Gibelet" age="54" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="54.12" weight="0.5811" build="0.1068" key="0010300AC000100AA9B286D8C45B3659695A2926983A8287345EFA6B4AC289A60542965604A7779A0000000000000000000000000000000000000000189410C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_enricoembriaco_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_4_2_1" name="{=crusader_lord17}Werner 'l'Aleman' von Egisheim" age="52" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="52.94" weight="0.4267" build="0.0724" key="0008C40FC00036003C2BF89EC71BD18373779CDA853A6B7DFCE4C1D38CC3BCC303B166350B23DDE9000000000000000000000000000000000000000063743000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_jeanlaleman_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_4_2_2" name="{=crusader_lord18}Jean l'Aleman, Lord of Caesarea" age="34" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34.44" weight="0.5536" build="0.0927" key="0008C80C4000334D29B6A28716CC1C666A86247AA556796285DC14D87719B58802A186240ABD517B0000000000000000000000000000000000000000255C2100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_jeanlaleman_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_4_2_2_1" name="{=crusader_lady10}Marguerite de Brisebarre, Lady of Caesarea" age="34" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34.44" weight="0.9436" build="0.356" key="0008C80E4000300159CD48A177444A4E76793877AA8969877AAA866689E7899E0275E62407987C88000000000000000000000000000000000000000058E41040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_jeanlaleman_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_4_2_2_2" name="{=crusader_lord19}Hugues l'Aleman of Caesarea" age="18" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.63" weight="0.2469" build="0.1949" key="0008B402000006D376C138735661867A7C854DCC47BD78499C51792BA85559590883468208787AA60000000000000000000000000000000000000000430C9000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_jeanlaleman_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_4_2_2_3" name="{=crusader_lord20}Nicolas l'Aleman of Caesarea" age="17" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="17.85" weight="0.2469" build="0.1949" key="000830028000000E926664339C74648D857387775C9BB86AD7E58879544779C50683466207DAAB8A0000000000000000000000000000000000000000430C9080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_jeanlaleman_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_4_2_2_4" name="{=crusader_lord21}Thomas l'Aleman of Caesarea" age="16" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="16.7" weight="0.2469" build="0.1949" key="0002A80C40002009AABB598B978899D8B643067B7A9C96A877B86A3DD266877B028346220567C7F60000000000000000000000000000000000000000430C3040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="4"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_jeanlaleman_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 5: House of Montfort-Toron -->
+	<NPCCharacter id="lord_crusaderstates_5_1" name="{=crusader_lord22}Philippe de Montfort-Toron, Lord of Tyre" age="55" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="55.6" weight="0.1968" build="0.49" key="0005580D800006143CA564173C451657539A8B7822945DEB5B761CA794C2D15705773657079A2862000000000000000000000000000000000000000008E41040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_montforttoron_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_5_1_1" name="{=crusader_lady11}Marie d'Antioche, Lady of Tyre" age="44" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="44.09" weight="0.74" build="0.2605" key="0005B80A400020055B7838687B7AB54B5AAAA85B495473817BB885AB656666680324B6350257443B00000000000000000000000000000000000000002C4C0040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_jeanlaleman_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_5_1_2" name="{=crusader_lord23}Jean I de Montfort-Toron, Lord of Toron" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.11" weight="0.1991" build="0.3754" key="00000C03400016449986B3D659B778267954236769B863D88579988BA95825B801963613098F3B4A00000000000000000000000000000000000000004B2C5000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_montforttoron_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_5_1_3" name="{=crusader_lady12}Philippa de Montfort-Toron" age="18" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.2" weight="0.2793" build="0.2485" key="0005040E40000001CA67B7B38986BA5298848C868D9682A66A1687729CB899120184461408B8668800000000000000000000000000000000000000003EFC0040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_montforttoron_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_5_1_4" name="{=crusader_lord24}Onfroi de Montfort-Toron" age="17" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="17.25" weight="0.2855" build="0.1867" key="0005C4098000100C78A767585898A75898384B47E399C747374B69589CC7AB5A0093460309795ECC0000000000000000000000000000000000000000493C5080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_montforttoron_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_5_2" name="{=crusader_lord25}Philippe II de Montfort-Toron" age="34" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="34.06" weight="0.2083" build="0.6469" key="0005D80E4000175B74268765B3CDDA2938A892D68EB778A7841E4665C7B9AAAC028A36240899CB6A0000000000000000000000000000000000000000570C60C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_montforttoron_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_5_2_1" name="{=crusader_lady13}Jeanne de Lévis-Mirepoix" age="31" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="31.74" weight="0.1534" build="0.1438" key="00055C08C000100C76943B9A658AD688AA46D857967BB7ADB984BA5697876D8A02A226240A6898A8000000000000000000000000000000000000000067443080"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_montforttoron_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_5_2_2" name="{=crusader_lord26}Jean II de Montfort-Toron" age="15" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="15.66" weight="0.3164" build="0.3171" key="0008C408000031C3E46A386969655C756E57533689651757C59798ADCB8AAC81018556130884BE4800000000000000000000000000000000000000006B1C1100"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_montforttoron_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_5_2_3" name="{=crusader_lady14}Jeanne de Montfort-Toron" age="9" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="9.58" weight="0.2193" build="0.2166" key="000A240B8000018E63A5985BA8758AE7A24A88B445D997356B6884A579A398A401D336140DC89A54000000000000000000000000000000000000000015B41000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_montforttoron_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 6: House of Grenier -->
+	<NPCCharacter id="lord_crusaderstates_6a" name="{=crusader_lord26}Julian Grenier" age="41" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="55.6" weight="0.1968" build="0.49" key="0005580D800006143CA564173C451657539A8B7822945DEB5B761CA794C2D15705773657079A2862000000000000000000000000000000000000000008E41040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_lord_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_6b" name="{=crusader_lord27}Euphémie d'Arménie" age="38" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="44.09" weight="0.74" build="0.2605" key="0005B80A400020055B7838687B7AB54B5AAAA85B495473817BB885AB656666680324B6350257443B00000000000000000000000000000000000000002C4C0040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_lord_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_6c" name="{=crusader_lord28}Marguerite Grenier" age="11" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="9.58" weight="0.2193" build="0.2166" key="000A240B8000018E63A5985BA8758AE7A24A88B445D997356B6884A579A398A401D336140DC89A54000000000000000000000000000000000000000015B41000"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_lord_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_6d" name="{=crusader_lord29}Jean Grenier" age="9" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="6.97" weight="0.3287" build="0.3925" key="0018F002800039467968C85A18C7278B518D24998C6597941B4B7757C775C97703865635088574B800000000000000000000000000000000000000001D0C70C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_lord_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_6e" name="{=crusader_lord30}John II Aleman, Lord of Caesarea" age="34" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="55.6" weight="0.1968" build="0.49" key="0005580D800006143CA564173C451657539A8B7822945DEB5B761CA794C2D15705773657079A2862000000000000000000000000000000000000000008E41040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_lord_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_6f" name="{=crusader_lord31}Margaret, Lady of Caesarea" age="37" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="44.09" weight="0.74" build="0.2605" key="0005B80A400020055B7838687B7AB54B5AAAA85B495473817BB885AB656666680324B6350257443B00000000000000000000000000000000000000002C4C0040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_lord_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_6g" name="{=crusader_lord32}Hugh Aleman" age="9" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="6.97" weight="0.3287" build="0.3925" key="0018F002800039467968C85A18C7278B518D24998C6597941B4B7757C775C97703865635088574B800000000000000000000000000000000000000001D0C70C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_lord_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_6h" name="{=crusader_lord33}Nicholas Aleman" age="6" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="6.97" weight="0.3287" build="0.3925" key="0018F002800039467968C85A18C7278B518D24998C6597941B4B7757C775C97703865635088574B800000000000000000000000000000000000000001D0C70C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_lord_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_6i" name="{=crusader_lord34}Thomas Aleman" age="3" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="6.97" weight="0.3287" build="0.3925" key="0018F002800039467968C85A18C7278B518D24998C6597941B4B7757C775C97703865635088574B800000000000000000000000000000000000000001D0C70C0"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+        </Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_lord_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan 7: House of Brienne d'Acre -->
+	<NPCCharacter id="lord_crusaderstates_7a" name="{=lord_crusaderstates_7a}Alfonso of Brienne" age="39" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.63" weight="0.4015" build="0.3272" key="000A600D807030039773987867AA72A9B1B79363097A5A73699A8D74A44B486808756982089CC969000000000000000000000000000000000000000018F80040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="9"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_7b" name="{=lord_crusaderstates_7b}John I of Brienne, Count of Eu" age="18" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="55.6" weight="0.1968" build="0.49" key="0005580D800006143CA564173C451657539A8B7822945DEB5B761CA794C2D15705773657079A2862000000000000000000000000000000000000000008E41040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_lord_combat"/>
+			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_7c" name="{=lord_crusaderstates_7c}Blanche, Abbess of Maubuisson" age="16" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="44.09" weight="0.74" build="0.2605" key="0005B80A400020055B7838687B7AB54B5AAAA85B495473817BB885AB656666680324B6350257443B00000000000000000000000000000000000000002C4C0040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_lord_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_7d" name="{=lord_crusaderstates_7d}John, Count of Brienne" age="24" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.63" weight="0.4015" build="0.3272" key="000A600D807030039773987867AA72A9B1B79363097A5A73699A8D74A44B486808756982089CC969000000000000000000000000000000000000000018F80040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="vlandia"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Commander" value="9"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="fra_lord_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_crusaderstates_7e" name="{=lord_crusaderstates_7e}Marie Enghien, Lady of Thieusies" age="20" voice="curt" is_female="true" is_hero="true" default_group="Cavalry" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="18.63" weight="0.4015" build="0.3272" key="000A600D807030039773987867AA72A9B1B79363097A5A73699A8D74A44B486808756982089CC969000000000000000000000000000000000000000018F80040"/>
+			<hair_tags>
+				<hair_tag name="vlandia"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="crusader_baliandibelin_combat"/>
+			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

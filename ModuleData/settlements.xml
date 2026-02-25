@@ -16168,7 +16168,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region Kingdom of Jerusalem : Crusader culture-->
-  <Settlement id="town_jerusalem" name="{=town_jerusalem_name}Jerusalem" owner="Faction.clan_england_1" posX="983.532" posY="765.07" culture="Culture.england" gate_posX="981.6652" gate_posY="765.3203" text="{=town_jerusalem_text}Jerusalem text...">
+  <Settlement id="town_jerusalem" name="{=town_jerusalem_name}Jerusalem" owner="Faction.cs_clan_crusaderstates_1" posX="983.532" posY="765.07" culture="Culture.crusader" gate_posX="981.6652" gate_posY="765.3203" text="{=town_jerusalem_text}Jerusalem text...">
     <Components>
       <Town id="town_comp_jerusalem" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_crusader" wait_mesh="wait_crusader_town" gate_rotation="0.208" prosperity="4000">
         <Buildings>
@@ -16204,7 +16204,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_jerusalem_ascalon" name="{=town_jerusalem_ascalon_name}Ascalon" posX="972.975" posY="755.55" culture="Culture.england" text="{=town_jerusalem_ascalon_text}Ascalon text...">
+  <Settlement id="town_jerusalem_ascalon" name="{=town_jerusalem_ascalon_name}Ascalon" posX="972.975" posY="755.55" culture="Culture.crusader" text="{=town_jerusalem_ascalon_text}Ascalon text...">
     <Components>
       <Village id="town_comp_jerusalem_ascalon" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_jerusalem" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16217,7 +16217,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_jerusalem_jaffa" name="{=town_jerusalem_jaffa_name}Jaffa" posX="979.348" posY="773.775" culture="Culture.england" text="{=town_jerusalem_jaffa_text}Jaffa text...">
+  <Settlement id="town_jerusalem_jaffa" name="{=town_jerusalem_jaffa_name}Jaffa" posX="979.348" posY="773.775" culture="Culture.crusader" text="{=town_jerusalem_jaffa_text}Jaffa text...">
     <Components>
       <Village id="town_comp_jerusalem_jaffa" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_jerusalem" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16230,7 +16230,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_jerusalem_birosaba" name="{=town_jerusalem_birosaba_name}Birosaba" posX="980.389" posY="750.776" culture="Culture.england" text="{=town_jerusalem_birosaba_text}Birosaba text...">
+  <Settlement id="town_jerusalem_birosaba" name="{=town_jerusalem_birosaba_name}Birosaba" posX="980.389" posY="750.776" culture="Culture.crusader" text="{=town_jerusalem_birosaba_text}Birosaba text...">
     <Components>
       <Village id="town_comp_jerusalem_birosaba" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.town_jerusalem" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16243,7 +16243,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_jerusalem_betlehem" name="{=town_jerusalem_betlehem_name}Betlehem" posX="983.083" posY="759.459" culture="Culture.england" text="{=town_jerusalem_betlehem_text}Betlehem text...">
+  <Settlement id="town_jerusalem_betlehem" name="{=town_jerusalem_betlehem_name}Betlehem" posX="983.083" posY="759.459" culture="Culture.crusader" text="{=town_jerusalem_betlehem_text}Betlehem text...">
     <Components>
       <Village id="town_comp_jerusalem_betlehem" village_type="VillageType.sheep_farm" hearth="600" bound="Settlement.town_jerusalem" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16256,7 +16256,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_caesarea" name="{=castle_caesarea_name}Caesarea Castle" owner="Faction.clan_england_1" posX="981.13" posY="787.701" culture="Culture.england" gate_posX="981.5638" gate_posY="787.3568">
+  <Settlement id="castle_caesarea" name="{=castle_caesarea_name}Caesarea Castle" owner="Faction.cs_clan_crusaderstates_1" posX="981.13" posY="787.701" culture="Culture.crusader" gate_posX="981.5638" gate_posY="787.3568">
     <Components>
       <Town id="castle_comp_caesarea" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_crusader" wait_mesh="wait_crusader_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -16281,7 +16281,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_caesarea_haifa" name="{=castle_caesarea_haifa_name}Haifa" posX="980.449" posY="791.698" culture="Culture.england" text="{=castle_caesarea_haifa_text}Haifa text...">
+  <Settlement id="castle_caesarea_haifa" name="{=castle_caesarea_haifa_name}Haifa" posX="980.449" posY="791.698" culture="Culture.crusader" text="{=castle_caesarea_haifa_text}Haifa text...">
     <Components>
       <Village id="castle_comp_caesarea_haifa" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_caesarea" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16294,7 +16294,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_arish" name="{=castle_arish_name}Arish Castle" owner="Faction.clan_england_1" posX="947.849" posY="745.366" culture="Culture.england" gate_posX="946.983" gate_posY="743.4134">
+  <Settlement id="castle_arish" name="{=castle_arish_name}Arish Castle" owner="Faction.cs_clan_crusaderstates_1" posX="947.849" posY="745.366" culture="Culture.crusader" gate_posX="946.983" gate_posY="743.4134">
     <Components>
       <Town id="castle_comp_arish" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_crusader" wait_mesh="wait_crusader_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -16319,7 +16319,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_arish_kolzum" name="{=castle_arish_kolzum_name}Kolzum" posX="940.795" posY="723.108" culture="Culture.england" text="{=castle_arish_kolzum_text}Kolzum text...">
+  <Settlement id="castle_arish_kolzum" name="{=castle_arish_kolzum_name}Kolzum" posX="940.795" posY="723.108" culture="Culture.crusader" text="{=castle_arish_kolzum_text}Kolzum text...">
     <Components>
       <Village id="castle_comp_arish_kolzum" village_type="VillageType.salt_mine" hearth="400" bound="Settlement.castle_arish" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16332,7 +16332,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kerak" name="{=castle_kerak_name}Kerak Castle" owner="Faction.clan_england_1" posX="1005.299" posY="742.897" culture="Culture.england" gate_posX="1006.081" gate_posY="742.7776">
+  <Settlement id="castle_kerak" name="{=castle_kerak_name}Kerak Castle" owner="Faction.cs_clan_crusaderstates_1" posX="1005.299" posY="742.897" culture="Culture.crusader" gate_posX="1006.081" gate_posY="742.7776">
     <Components>
       <Town id="castle_comp_kerak" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_crusader" wait_mesh="wait_crusader_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -16357,7 +16357,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_kerak_rabba" name="{=castle_kerak_rabba_name}Rabba" posX="1005.817" posY="749.004" culture="Culture.england" text="{=castle_kerak_rabba_text}Rabba text...">
+  <Settlement id="castle_kerak_rabba" name="{=castle_kerak_rabba_name}Rabba" posX="1005.817" posY="749.004" culture="Culture.crusader" text="{=castle_kerak_rabba_text}Rabba text...">
     <Components>
       <Village id="castle_comp_kerak_rabba" village_type="VillageType.swine_farm" hearth="400" bound="Settlement.castle_kerak" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16370,7 +16370,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_beaufort" name="{=castle_beaufort_name}Beaufort Castle" owner="Faction.clan_england_1" posX="995.77" posY="810.034" culture="Culture.england" gate_posX="995.6591" gate_posY="809.5724">
+  <Settlement id="castle_beaufort" name="{=castle_beaufort_name}Beaufort Castle" owner="Faction.cs_clan_crusaderstates_1" posX="995.77" posY="810.034" culture="Culture.crusader" gate_posX="995.6591" gate_posY="809.5724">
     <Components>
       <Town id="castle_comp_beaufort" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_crusader" wait_mesh="wait_crusader_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -16395,7 +16395,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_beaufort_safed" name="{=castle_beaufort_safed_name}Safed" posX="990.899" posY="807.634" culture="Culture.england" text="{=castle_beaufort_safed_text}Safed text...">
+  <Settlement id="castle_beaufort_safed" name="{=castle_beaufort_safed_name}Safed" posX="990.899" posY="807.634" culture="Culture.crusader" text="{=castle_beaufort_safed_text}Safed text...">
     <Components>
       <Village id="castle_comp_beaufort_safed" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.castle_beaufort" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16408,7 +16408,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_beaufort_sidon" name="{=castle_beaufort_sidon_name}Sidon" posX="988.45" posY="813.76" culture="Culture.england" text="{=castle_beaufort_sidon_text}Sidon text...">
+  <Settlement id="castle_beaufort_sidon" name="{=castle_beaufort_sidon_name}Sidon" posX="988.45" posY="813.76" culture="Culture.crusader" text="{=castle_beaufort_sidon_text}Sidon text...">
     <Components>
       <Village id="castle_comp_beaufort_sidon" village_type="VillageType.date_farm" hearth="400" bound="Settlement.castle_beaufort" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16421,7 +16421,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_darom" name="{=castle_beaufort_name}Darom Castle" owner="Faction.clan_england_1" posX="967.952" posY="750.915" culture="Culture.england" gate_posX="969.0128" gate_posY="750.2789">
+  <Settlement id="castle_darom" name="{=castle_beaufort_name}Darom Castle" owner="Faction.cs_clan_crusaderstates_1" posX="967.952" posY="750.915" culture="Culture.crusader" gate_posX="969.0128" gate_posY="750.2789">
     <Components>
       <Town id="castle_comp_darom" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_crusader" wait_mesh="wait_crusader_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -16446,7 +16446,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_darom_rafah" name="{=castle_darom_rafah_name}Rafah" posX="961.858" posY="748.02" culture="Culture.england" text="{=castle_darom_rafah_text}Rafah text...">
+  <Settlement id="castle_darom_rafah" name="{=castle_darom_rafah_name}Rafah" posX="961.858" posY="748.02" culture="Culture.crusader" text="{=castle_darom_rafah_text}Rafah text...">
     <Components>
       <Village id="castle_comp_darom_rafah" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_darom" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16459,7 +16459,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_acre" name="{=town_acre_name}Acre" owner="Faction.clan_england_1" posX="983.518" posY="797.213" culture="Culture.england" gate_posX="984.706" gate_posY="796.2511" text="{=town_acre_text}Acre text...">
+  <Settlement id="town_acre" name="{=town_acre_name}Acre" owner="Faction.cs_clan_crusaderstates_1" posX="983.518" posY="797.213" culture="Culture.crusader" gate_posX="984.706" gate_posY="796.2511" text="{=town_acre_text}Acre text...">
     <Components>
       <Town id="town_comp_acre" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_crusader" wait_mesh="wait_crusader_town" gate_rotation="0.208" prosperity="4500">
         <Buildings>
@@ -16495,7 +16495,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_acre_tiberias" name="{=town_acre_tiberias_name}Tiberias" posX="988.378" posY="793.604" culture="Culture.england" text="{=town_acre_tiberias_text}Tiberias text...">
+  <Settlement id="town_acre_tiberias" name="{=town_acre_tiberias_name}Tiberias" posX="988.378" posY="793.604" culture="Culture.crusader" text="{=town_acre_tiberias_text}Tiberias text...">
     <Components>
       <Village id="town_comp_acre_tiberias" village_type="VillageType.fisherman" hearth="600" bound="Settlement.town_acre" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16508,7 +16508,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_acre_nazareth" name="{=town_acre_nazareth_name}Nazareth" posX="986.036" posY="788.849" culture="Culture.england" text="{=town_acre_nazareth_text}Nazareth text...">
+  <Settlement id="town_acre_nazareth" name="{=town_acre_nazareth_name}Nazareth" posX="986.036" posY="788.849" culture="Culture.crusader" text="{=town_acre_nazareth_text}Nazareth text...">
     <Components>
       <Village id="town_comp_acre_nazareth" village_type="VillageType.silk_plant" hearth="600" bound="Settlement.town_acre" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16521,7 +16521,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_acre_tyre" name="{=town_acre_tyre_name}Tyre" posX="984.089" posY="803.639" culture="Culture.england" text="{=town_acre_tyre_text}Tyre text...">
+  <Settlement id="town_acre_tyre" name="{=town_acre_tyre_name}Tyre" posX="984.089" posY="803.639" culture="Culture.crusader" text="{=town_acre_tyre_text}Tyre text...">
     <Components>
       <Village id="town_comp_acre_tyre" village_type="VillageType.vlandian_horse_ranch" hearth="500" bound="Settlement.town_acre" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16534,7 +16534,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_calansue" name="{=castle_calansue_name}Calansue Castle" owner="Faction.clan_england_1" posX="980.847" posY="781.432" culture="Culture.england" gate_posX="981.8406" gate_posY="781.0623">
+  <Settlement id="castle_calansue" name="{=castle_calansue_name}Calansue Castle" owner="Faction.cs_clan_crusaderstates_1" posX="980.847" posY="781.432" culture="Culture.crusader" gate_posX="981.8406" gate_posY="781.0623">
     <Components>
       <Town id="castle_comp_calansue" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_crusader" wait_mesh="wait_crusader_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -16559,7 +16559,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_calansue_nablus" name="{=castle_calansue_nablus_name}Nablus" posX="987.796" posY="780.146" culture="Culture.england" text="{=castle_calansue_nablus_text}Nablus text...">
+  <Settlement id="castle_calansue_nablus" name="{=castle_calansue_nablus_name}Nablus" posX="987.796" posY="780.146" culture="Culture.crusader" text="{=castle_calansue_nablus_text}Nablus text...">
     <Components>
       <Village id="castle_comp_calansue_nablus" village_type="VillageType.wheat_farm" hearth="300" bound="Settlement.castle_calansue" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16572,7 +16572,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_tortosa" name="{=castle_tortosa_name}Tortosa Castle" owner="Faction.clan_england_1" posX="991.448" posY="843.537" culture="Culture.england" gate_posX="991.3755" gate_posY="843.068">
+  <Settlement id="castle_tortosa" name="{=castle_tortosa_name}Tortosa Castle" owner="Faction.cs_clan_crusaderstates_1" posX="991.448" posY="843.537" culture="Culture.crusader" gate_posX="991.3755" gate_posY="843.068">
     <Components>
       <Town id="castle_comp_tortosa" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_crusader" wait_mesh="wait_crusader_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -16597,7 +16597,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_tortosa_safita" name="{=castle_tortosa_safita_name}Safita" posX="995.616" posY="840.09" culture="Culture.england" text="{=castle_tortosa_safita_text}Safita text...">
+  <Settlement id="castle_tortosa_safita" name="{=castle_tortosa_safita_name}Safita" posX="995.616" posY="840.09" culture="Culture.crusader" text="{=castle_tortosa_safita_text}Safita text...">
     <Components>
       <Village id="castle_comp_tortosa_safita" village_type="VillageType.swine_farm" hearth="300" bound="Settlement.castle_tortosa" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16610,7 +16610,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_krakdeschevalier" name="{=castle_krakdeschevalier_name}Krak des Chevaliers" owner="Faction.clan_england_1" posX="1002.308" posY="837.695" culture="Culture.england" gate_posX="1002.869" gate_posY="837.4054">
+  <Settlement id="castle_krakdeschevalier" name="{=castle_krakdeschevalier_name}Krak des Chevaliers" owner="Faction.cs_clan_crusaderstates_1" posX="1002.308" posY="837.695" culture="Culture.crusader" gate_posX="1002.869" gate_posY="837.4054">
     <Components>
       <Town id="castle_comp_krakdeschevalier" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_crusader" wait_mesh="wait_crusader_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -16635,7 +16635,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_krakdeschevalier_hadida" name="{=castle_krakdeschevalier_hadida_name}Hadida" posX="1007.859" posY="833.263" culture="Culture.england" text="{=castle_krakdeschevalier_hadida_text}Hadida text...">
+  <Settlement id="castle_krakdeschevalier_hadida" name="{=castle_krakdeschevalier_hadida_name}Hadida" posX="1007.859" posY="833.263" culture="Culture.crusader" text="{=castle_krakdeschevalier_hadida_text}Hadida text...">
     <Components>
       <Village id="castle_comp_krakdeschevalier_hadida" village_type="VillageType.sheep_farm" hearth="600" bound="Settlement.castle_krakdeschevalier" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16650,7 +16650,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region County of Tripoli : Crusader culture -->
-  <Settlement id="town_tarabulus" name="{=town_tarabulus_name}Tripoli" owner="Faction.clan_england_1" posX="991.887" posY="826.093" culture="Culture.england" gate_posX="993.1348" gate_posY="826.3022" text="{=town_tarabulus_text}Tripoli text...">
+  <Settlement id="town_tarabulus" name="{=town_tarabulus_name}Tripoli" owner="Faction.cs_clan_crusaderstates_1" posX="991.887" posY="826.093" culture="Culture.crusader" gate_posX="993.1348" gate_posY="826.3022" text="{=town_tarabulus_text}Tripoli text...">
     <Components>
       <Town id="town_comp_tarabulus" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_crusader" wait_mesh="wait_crusader_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -16686,7 +16686,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tarabulus_gibelet" name="{=town_tarabulus_gibelet_name}Gibelet" posX="989.426" posY="823.678" culture="Culture.england" text="{=town_tarabulus_gibelet_text}Gibelet text...">
+  <Settlement id="town_tarabulus_gibelet" name="{=town_tarabulus_gibelet_name}Gibelet" posX="989.426" posY="823.678" culture="Culture.crusader" text="{=town_tarabulus_gibelet_text}Gibelet text...">
     <Components>
       <Village id="town_comp_tarabulus_gibelet" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_tarabulus" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16699,7 +16699,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tarabulus_beirut" name="{=town_tarabulus_beirut_name}Beirut" posX="988.661" posY="818.966" culture="Culture.england" text="{=town_tarabulus_beirut_text}Beirut text...">
+  <Settlement id="town_tarabulus_beirut" name="{=town_tarabulus_beirut_name}Beirut" posX="988.661" posY="818.966" culture="Culture.crusader" text="{=town_tarabulus_beirut_text}Beirut text...">
     <Components>
       <Village id="town_comp_tarabulus_beirut" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.town_tarabulus" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16712,7 +16712,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tarabulus_arqa" name="{=town_tarabulus_arqa_name}Arqa" posX="996.836" posY="828.406" culture="Culture.england" text="{=town_tarabulus_arqa_text}Arqa text...">
+  <Settlement id="town_tarabulus_arqa" name="{=town_tarabulus_arqa_name}Arqa" posX="996.836" posY="828.406" culture="Culture.crusader" text="{=town_tarabulus_arqa_text}Arqa text...">
     <Components>
       <Village id="town_comp_tarabulus_arqa" village_type="VillageType.vlandian_horse_ranch" hearth="400" bound="Settlement.town_tarabulus" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16727,7 +16727,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region Principality of Antioch -->
-  <Settlement id="town_antioch" name="{=town_antioch_name}Antioch" owner="Faction.clan_england_1" posX="1000.949" posY="865.021" culture="Culture.england" gate_posX="999.1779" gate_posY="861.8142" text="{=town_antioch_text}Antioch text...">
+  <Settlement id="town_antioch" name="{=town_antioch_name}Antioch" owner="Faction.cs_clan_crusaderstates_1" posX="1000.949" posY="865.021" culture="Culture.crusader" gate_posX="999.1779" gate_posY="861.8142" text="{=town_antioch_text}Antioch text...">
     <Components>
       <Town id="town_comp_antioch" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_crusader" wait_mesh="wait_crusader_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -16763,7 +16763,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_antioch_latakia" name="{=town_antioch_latakia_name}Latakia" posX="990.227" posY="855.004" culture="Culture.england" text="{=town_antioch_latakia_text}Latakia text...">
+  <Settlement id="town_antioch_latakia" name="{=town_antioch_latakia_name}Latakia" posX="990.227" posY="855.004" culture="Culture.crusader" text="{=town_antioch_latakia_text}Latakia text...">
     <Components>
       <Village id="town_comp_antioch_latakia" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_antioch" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16776,7 +16776,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_antioch_simeon" name="{=town_antioch_simeon_name}Saint Simeon" posX="991.186" posY="862.464" culture="Culture.england" text="{=town_antioch_simeon_text}Saint Simeon text...">
+  <Settlement id="town_antioch_simeon" name="{=town_antioch_simeon_name}Saint Simeon" posX="991.186" posY="862.464" culture="Culture.crusader" text="{=town_antioch_simeon_text}Saint Simeon text...">
     <Components>
       <Village id="town_comp_antioch_simeon" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_antioch" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16789,7 +16789,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_antioch_alexandretta" name="{=town_antioch_alexandretta_name}Alexandretta" posX="995.119" posY="876.44" culture="Culture.england" text="{=town_antioch_alexandretta_text}Alexandretta text...">
+  <Settlement id="town_antioch_alexandretta" name="{=town_antioch_alexandretta_name}Alexandretta" posX="995.119" posY="876.44" culture="Culture.crusader" text="{=town_antioch_alexandretta_text}Alexandretta text...">
     <Components>
       <Village id="town_comp_antioch_alexandretta" village_type="VillageType.date_farm" hearth="400" bound="Settlement.town_antioch" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16802,7 +16802,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_saladin" name="{=castle_saladin_name}Saladin Castle" owner="Faction.clan_england_1" posX="997.197" posY="856.668" culture="Culture.england" gate_posX="998.3303" gate_posY="856.1725">
+  <Settlement id="castle_saladin" name="{=castle_saladin_name}Saladin Castle" owner="Faction.cs_clan_crusaderstates_1" posX="997.197" posY="856.668" culture="Culture.crusader" gate_posX="998.3303" gate_posY="856.1725">
     <Components>
       <Town id="castle_comp_saladin" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_crusader" wait_mesh="wait_crusader_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -16827,7 +16827,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_saladin_apamea" name="{=castle_saladin_apamea_name}Apamea" posX="1004.173" posY="852.34" culture="Culture.england" text="{=castle_saladin_apamea_text}Apamea text...">
+  <Settlement id="castle_saladin_apamea" name="{=castle_saladin_apamea_name}Apamea" posX="1004.173" posY="852.34" culture="Culture.crusader" text="{=castle_saladin_apamea_text}Apamea text...">
     <Components>
       <Village id="castle_comp_saladin_apamea" village_type="VillageType.cattle_farm" hearth="400" bound="Settlement.castle_saladin" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16842,7 +16842,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region Kingdom of Cyprus : Crusader culture-->
-  <Settlement id="castle_larnaka" name="{=castle_larnaka_name}Larnaka Castle" owner="Faction.clan_england_1" posX="941.139" posY="833.144" culture="Culture.england" gate_posX="940.6697" gate_posY="835.8419">
+  <Settlement id="castle_larnaka" name="{=castle_larnaka_name}Larnaka Castle" owner="Faction.cs_clan_crusaderstates_1" posX="941.139" posY="833.144" culture="Culture.crusader" gate_posX="940.6697" gate_posY="835.8419">
     <Components>
       <Town id="castle_comp_larnaka" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_crusader" wait_mesh="wait_crusader_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -16867,7 +16867,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_larnaka_constantia" name="{=castle_larnaka_constantia_name}Famagusta" posX="946.459" posY="839.649" culture="Culture.england" text="{=castle_larnaka_constantia_text}Famagusta text...">
+  <Settlement id="castle_larnaka_constantia" name="{=castle_larnaka_constantia_name}Famagusta" posX="946.459" posY="839.649" culture="Culture.crusader" text="{=castle_larnaka_constantia_text}Famagusta text...">
     <Components>
       <Village id="castle_comp_larnaka_constantia" village_type="VillageType.trapper" hearth="400" bound="Settlement.castle_larnaka" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
@@ -16880,7 +16880,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_larnaka_nikosia" name="{=castle_larnaka_nikosia_name}Nikosia" posX="937.919" posY="838.748" culture="Culture.england" text="{=castle_larnaka_nikosia_text}Nikosia text...">
+  <Settlement id="castle_larnaka_nikosia" name="{=castle_larnaka_nikosia_name}Nikosia" posX="937.919" posY="838.748" culture="Culture.crusader" text="{=castle_larnaka_nikosia_text}Nikosia text...">
     <Components>
       <Village id="castle_comp_larnaka_nikosia" village_type="VillageType.olive_trees" hearth="400" bound="Settlement.castle_larnaka" background_crop_position="0.0" background_mesh="gui_bg_village_crusader" wait_mesh="wait_crusader_village" castle_background_mesh="gui_bg_castle_crusader" />
     </Components>
