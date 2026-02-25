@@ -4424,7 +4424,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region Welsh Principalities : Welsh culture-->
-  <Settlement id="town_pembrok" name="{=town_pembrok_name}Pembrok" owner="Faction.clan_england_1" posX="151.993" posY="1115.067" culture="Culture.england" gate_posX="152.1331" gate_posY="1115.55" text="{=town_pembrok_text}Pembrok text...">
+  <Settlement id="town_pembrok" name="{=town_pembrok_name}Pembrok" owner="Faction.clan_wales_1" posX="151.993" posY="1115.067" culture="Culture.wales" gate_posX="152.1331" gate_posY="1115.55" text="{=town_pembrok_text}Pembrok text...">
     <Components>
       <Town id="town_comp_pembrok" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_wales" wait_mesh="wait_wales_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -4460,7 +4460,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_pembrok_cardigan" name="{=town_pembrok_cardigan_name}Cardigan" posX="157.492" posY="1123.093" culture="Culture.england" text="{=town_pembrok_cardigan_text}Cardigan text...">
+  <Settlement id="town_pembrok_cardigan" name="{=town_pembrok_cardigan_name}Cardigan" posX="157.492" posY="1123.093" culture="Culture.wales" text="{=town_pembrok_cardigan_text}Cardigan text...">
     <Components>
       <Village id="town_comp_pembrok_cardigan" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_pembrok" background_crop_position="0.0" background_mesh="gui_bg_village_wales" wait_mesh="wait_wales_village" castle_background_mesh="gui_bg_castle_wales" />
     </Components>
@@ -4473,7 +4473,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_pembrok_caerfyrddin" name="{=town_pembrok_caerfyrddin_name}Caerfyrddin" posX="164.27" posY="1119.65" culture="Culture.england" text="{=town_pembrok_caerfyrddin_text}Caerfyrddin text...">
+  <Settlement id="town_pembrok_caerfyrddin" name="{=town_pembrok_caerfyrddin_name}Caerfyrddin" posX="164.27" posY="1119.65" culture="Culture.wales" text="{=town_pembrok_caerfyrddin_text}Caerfyrddin text...">
     <Components>
       <Village id="town_comp_pembrok_caerfyrddin" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_pembrok" background_crop_position="0.0" background_mesh="gui_bg_village_wales" wait_mesh="wait_wales_village" castle_background_mesh="gui_bg_castle_wales" />
     </Components>
@@ -4486,7 +4486,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_pembrok_aberystwyth" name="{=town_pembrok_aberystwyth_name}Aberystwyth" posX="171.461" posY="1135.094" culture="Culture.england" text="{=town_pembrok_aberystwyth_text}Aberystwyth text...">
+  <Settlement id="town_pembrok_aberystwyth" name="{=town_pembrok_aberystwyth_name}Aberystwyth" posX="171.461" posY="1135.094" culture="Culture.wales" text="{=town_pembrok_aberystwyth_text}Aberystwyth text...">
     <Components>
       <Village id="town_comp_pembrok_aberystwyth" village_type="VillageType.swine_farm" hearth="300" bound="Settlement.town_pembrok" background_crop_position="0.0" background_mesh="gui_bg_village_wales" wait_mesh="wait_wales_village" castle_background_mesh="gui_bg_castle_wales" />
     </Components>
@@ -4499,7 +4499,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_harlech" name="{=castle_harlech_name}Harlech Castle" owner="Faction.clan_england_1" posX="169.645" posY="1142.468" culture="Culture.england" gate_posX="170.1302" gate_posY="1141.843">
+  <Settlement id="castle_harlech" name="{=castle_harlech_name}Harlech Castle" owner="Faction.clan_wales_1" posX="169.645" posY="1142.468" culture="Culture.wales" gate_posX="170.1302" gate_posY="1141.843">
     <Components>
       <Town id="castle_comp_harlech" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_wales" wait_mesh="wait_wales_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -4524,7 +4524,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_harlech_aberffraw" name="{=castle_harlech_aberffraw_name}Aberffraw" posX="165.699" posY="1152.875" culture="Culture.england" text="{=castle_harlech_aberffraw_text}Aberffraw text...">
+  <Settlement id="castle_harlech_aberffraw" name="{=castle_harlech_aberffraw_name}Aberffraw" posX="165.699" posY="1152.875" culture="Culture.wales" text="{=castle_harlech_aberffraw_text}Aberffraw text...">
     <Components>
       <Village id="castle_comp_harlech_aberffraw" village_type="VillageType.fisherman" hearth="400" bound="Settlement.castle_harlech" background_crop_position="0.0" background_mesh="gui_bg_village_wales" wait_mesh="wait_wales_village" castle_background_mesh="gui_bg_castle_wales" />
     </Components>
@@ -4537,7 +4537,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_harlech_llanfyllin" name="{=castle_harlech_llanfyllin_name}Llanfyllin" posX="180.237" posY="1141.818" culture="Culture.england" text="{=castle_harlech_llanfyllin_text}Llanfyllin text...">
+  <Settlement id="castle_harlech_llanfyllin" name="{=castle_harlech_llanfyllin_name}Llanfyllin" posX="180.237" posY="1141.818" culture="Culture.wales" text="{=castle_harlech_llanfyllin_text}Llanfyllin text...">
     <Components>
       <Village id="castle_comp_harlech_llanfyllin" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.castle_harlech" background_crop_position="0.0" background_mesh="gui_bg_village_wales" wait_mesh="wait_wales_village" castle_background_mesh="gui_bg_castle_wales" />
     </Components>
@@ -4550,7 +4550,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_abertawe" name="{=castle_abertawe_name}Abertawe Castle" owner="Faction.clan_england_1" posX="171.583" posY="1115.79" culture="Culture.england" gate_posX="172.4198" gate_posY="1117.489">
+  <Settlement id="castle_abertawe" name="{=castle_abertawe_name}Abertawe Castle" owner="Faction.clan_wales_1" posX="171.583" posY="1115.79" culture="Culture.wales" gate_posX="172.4198" gate_posY="1117.489">
     <Components>
       <Town id="castle_comp_abertawe" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_wales" wait_mesh="wait_wales_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -4575,7 +4575,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_abertawe_coity" name="{=castle_abertawe_coity_name}Coity" posX="176.81" posY="1114.177" culture="Culture.england" text="{=castle_abertawe_coity_text}Coity text...">
+  <Settlement id="castle_abertawe_coity" name="{=castle_abertawe_coity_name}Coity" posX="176.81" posY="1114.177" culture="Culture.wales" text="{=castle_abertawe_coity_text}Coity text...">
     <Components>
       <Village id="castle_comp_abertawe_coity" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.castle_abertawe" background_crop_position="0.0" background_mesh="gui_bg_village_wales" wait_mesh="wait_wales_village" castle_background_mesh="gui_bg_castle_wales" />
     </Components>
@@ -4588,7 +4588,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_abertawe_llanfair" name="{=castle_abertawe_llanfair_name}Llanfair" posX="174.764" posY="1126.041" culture="Culture.england" text="{=castle_abertawe_llanfair_text}Llanfair-ym-Muallt text...">
+  <Settlement id="castle_abertawe_llanfair" name="{=castle_abertawe_llanfair_name}Llanfair" posX="174.764" posY="1126.041" culture="Culture.wales" text="{=castle_abertawe_llanfair_text}Llanfair-ym-Muallt text...">
     <Components>
       <Village id="castle_comp_abertawe_llanfair" village_type="VillageType.battanian_horse_ranch" hearth="300" bound="Settlement.castle_abertawe" background_crop_position="0.0" background_mesh="gui_bg_village_wales" wait_mesh="wait_wales_village" castle_background_mesh="gui_bg_castle_wales" />
     </Components>
@@ -4601,7 +4601,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_cardiff" name="{=castle_cardiff_name}Caerdydd Castle" owner="Faction.clan_england_1" posX="188.82" posY="1116.974" culture="Culture.england" gate_posX="189.0593" gate_posY="1117.728">
+  <Settlement id="castle_cardiff" name="{=castle_cardiff_name}Caerdydd Castle" owner="Faction.clan_wales_1" posX="188.82" posY="1116.974" culture="Culture.wales" gate_posX="189.0593" gate_posY="1117.728">
     <Components>
       <Town id="castle_comp_cardiff" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_wales" wait_mesh="wait_wales_town" gate_rotation="0.908" prosperity="600">
         <Buildings>
@@ -4626,7 +4626,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_cardiff_barry" name="{=castle_cardiff_barry_name}Barry" posX="181.991" posY="1112.556" culture="Culture.england" text="{=castle_cardiff_barry_text}Barry text...">
+  <Settlement id="castle_cardiff_barry" name="{=castle_cardiff_barry_name}Barry" posX="181.991" posY="1112.556" culture="Culture.wales" text="{=castle_cardiff_barry_text}Barry text...">
     <Components>
       <Village id="castle_comp_cardiff_barry" village_type="VillageType.salt_mine" hearth="500" bound="Settlement.castle_cardiff" background_crop_position="0.0" background_mesh="gui_bg_village_wales" wait_mesh="wait_wales_village" castle_background_mesh="gui_bg_castle_wales" />
     </Components>
@@ -4639,7 +4639,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_cardiff_chepstow" name="{=castle_cardiff_chepstow_name}Chepstow" posX="194.225" posY="1120.67" culture="Culture.england" text="{=castle_cardiff_chepstow_text}Chepstow text...">
+  <Settlement id="castle_cardiff_chepstow" name="{=castle_cardiff_chepstow_name}Chepstow" posX="194.225" posY="1120.67" culture="Culture.wales" text="{=castle_cardiff_chepstow_text}Chepstow text...">
     <Components>
       <Village id="castle_comp_cardiff_chepstow" village_type="VillageType.fisherman" hearth="500" bound="Settlement.castle_cardiff" background_crop_position="0.0" background_mesh="gui_bg_village_wales" wait_mesh="wait_wales_village" castle_background_mesh="gui_bg_castle_wales" />
     </Components>
@@ -4652,7 +4652,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_conwy" name="{=castle_conwy_name}Conwy Castle" owner="Faction.clan_england_1" posX="176.474" posY="1156.96" culture="Culture.england" gate_posX="176.6215" gate_posY="1156.344">
+  <Settlement id="castle_conwy" name="{=castle_conwy_name}Conwy Castle" owner="Faction.clan_wales_1" posX="176.474" posY="1156.96" culture="Culture.wales" gate_posX="176.6215" gate_posY="1156.344">
     <Components>
       <Town id="castle_comp_conwy" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_wales" wait_mesh="wait_wales_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -4677,7 +4677,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_conwy_denbigh" name="{=castle_conwy_denbigh_name}Denbigh" posX="185.65" posY="1155.92" culture="Culture.england" text="{=castle_conwy_denbigh_text}Denbigh text...">
+  <Settlement id="castle_conwy_denbigh" name="{=castle_conwy_denbigh_name}Denbigh" posX="185.65" posY="1155.92" culture="Culture.wales" text="{=castle_conwy_denbigh_text}Denbigh text...">
     <Components>
       <Village id="castle_comp_conwy_denbigh" village_type="VillageType.sheep_farm" hearth="500" bound="Settlement.castle_conwy" background_crop_position="0.0" background_mesh="gui_bg_village_wales" wait_mesh="wait_wales_village" castle_background_mesh="gui_bg_castle_wales" />
     </Components>

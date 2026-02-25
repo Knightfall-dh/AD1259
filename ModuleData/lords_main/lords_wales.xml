@@ -1,0 +1,839 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<!-- clan_wales_1: Aberffraw -->
+	<NPCCharacter id="dead_lord_wales_1a" name="{=dead_lord_wales_1a}Llywelyn ab Iorwerth" voice="curt" age="36" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="60.68" weight="0.2697" build="0.6373" key="000A800AC05813DB863C98875938AC554C88887877366446AD8595A83E93B93506DA46670D46678900000000000000000000000000000000000000002DAC1142"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_king_combat"/>
+			<EquipmentSet id="wales_king_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_wales_1b" name="{=dead_lord_wales_1b}Joan, Lady of Wales and Snowdon" voice="earnest" age="68" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="68.03" weight="0.7287" build="0.3652" key="000A500200E43002A8CB3B7DBA9B5B999CBAA88583A62747BA69D949489889720065B60306A797A6000000000000000000000000000000000000000060D41103"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="-2"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-2"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="-1"/>
+			<Trait id="Authoritarian" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_queen_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_wales_1c" name="{=dead_lord_wales_1c}Dafydd ap Llywelyn" voice="curt" age="47" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="47.5" weight="0.4375" build="0.5" key="0000000000001005797A2785686678B9A35E866295A0967774414A498C8336860047760304A7B7A500000000000000000000000000000000000000003C942003"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="0"/>
+			<Trait id="Egalitarian" value="-2"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Illegitimate son of Dafydd ap Llywelyn (dead_lord_wales_1c)-->
+	<NPCCharacter id="lord_wales_1z" name="{=lord_wales_1z}Dafydd ap Dafydd ap Llywelyn" voice="curt" age="14" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="14.5" weight="0.4375" build="0.5" key="0000000000001005797A2785686678B9A35E866295A0967774414A498C8336860047760304A7B7A500000000000000000000000000000000000000003C942003"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_1x" name="{=lord_wales_1x}Tegwared y Bais Wen" voice="ironic" age="40" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="52.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_1u" name="{=lord_wales_1u}Angharad ferch Llywelyn" voice="softspoken" age="55" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="55.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Gruffudd ap Llywelyn and Senana ferch Caradog had 4 sons and 2 daughters-->
+	<NPCCharacter id="dead_lord_wales_1a1" name="{=dead_lord_wales_1a1}Gruffudd ap Llywelyn" voice="curt" age="63" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="63.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_1a2" name="{=lord_wales_1a2}Senana ferch Caradog" voice="softspoken" age="61" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="61.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_1a" name="{=lord_wales_1a}Llywelyn II ap Gruffudd, the Last, Prince of Wales" voice="curt" age="36" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="36.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_king_combat"/>
+			<EquipmentSet id="wales_king_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_1b" name="{=lord_wales_1b}Owain Goch ap Gruffudd" voice="curt" age="27" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="27.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_1c" name="{=lord_wales_1c}Dafydd III ap Gruffudd" voice="curt" age="21" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="21.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_1d" name="{=lord_wales_1d}Rhodri ap Gruffudd" voice="curt" age="29" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="29.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_1e" name="{=lord_wales_1e}Gwladus ap Senana ferch Caradog" voice="softspoken" age="23" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="23.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_1f" name="{=lord_wales_1f}Margaret ap Senana ferch Caradog" voice="softspoken" age="33" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="33.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Wife of Llywelyn II ap Gruffudd, the Last-->
+	<NPCCharacter id="lord_wales_1g" name="{=lord_wales_1g}Eleanor de Montfort" voice="softspoken" age="20" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="20.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Wife of Dafydd III ap Gruffudd-->
+	<NPCCharacter id="lord_wales_1h" name="{=lord_wales_1h}Elizabeth Ferrers" voice="softspoken" age="18" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="18.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Wife of Rhodri ap Gruffudd and their kid-->
+	<NPCCharacter id="lord_wales_1i" name="{=lord_wales_1i}Beatrice de Malpas" voice="softspoken" age="21" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="21.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_1j" name="{=lord_wales_1j}Tomas ap Rhodri" voice="curt" age="3" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="3.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ally of Owain and Dafydd, same house Aberfraww/Gwynedd-->
+	<NPCCharacter id="lord_wales_1k" name="{=lord_wales_1k}Llywelyn ap Maredudd" voice="curt" age="38" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="38.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_1l" name="{=lord_wales_1l}Angharad ferch Llywelyn" voice="softspoken" age="36" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="36.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_1m" name="{=lord_wales_1m}Madog ap Llywelyn ap Maredudd" voice="curt" age="20" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="20.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Seneschal of Llywelyn II ap Gruffudd, the Last, Prince of Wales -->
+	<NPCCharacter id="lord_wales_1n" name="{=lord_wales_1n}Goronwy ab Ednyfed" voice="curt" age="49" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="49.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_1o" name="{=lord_wales_1o}Arianwen ferch Rhys" voice="earnest" age="36" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="36.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_1p" name="{=lord_wales_1p}Tudur Hen" voice="ironic" age="3" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="4.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits/>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clan_wales_2: Mathrafal of Powys Fadog-->
+	<NPCCharacter id="dead_lord_wales_2a" name="{=dead_lord_wales_2a}Madog ap Gruffydd Maelor" voice="curt" age="68" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="68.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_wales_2b" name="{=dead_lord_wales_2b}Esyllt" voice="earnest" age="60" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="36.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_2a" name="{=lord_wales_2a}Gruffydd II ap Madog, Lord of Dinas Bran" voice="curt" age="40" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="40.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_2b" name="{=lord_wales_2b}Madog Fychan" voice="ironic" age="40" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="40.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_2c" name="{=lord_wales_2c}Hywel" voice="softspoken" age="39" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="39" age="4.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_2d" name="{=lord_wales_2d}Angharad" voice="curt" age="36" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="36.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_wales_2e" name="{=lord_wales_2e}Emma de Audley of Stanley" voice="earnest" age="35" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" age="35.18" weight="0.5" build="0.5" key="000500000000100D797A4B84B33EB6BAA35E866295A0967774414A498C8336860077760307A7B7A500000000000000000000000000000000000000003CFC2002"/>
+			<hair_tags>
+				<hair_tag name="battania"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="2"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="-1"/>
+			<Trait id="Oligarchic" value="0"/>
+			<Trait id="Authoritarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

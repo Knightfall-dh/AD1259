@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- clan_wales_1: Aberffraw -->
+	<Hero id="dead_lord_wales_1a" spouse="Hero.dead_lord_wales_1b" faction="Faction.clan_wales_1"/>
+	<Hero id="dead_lord_wales_1b" spouse="Hero.dead_lord_wales_1a" faction="Faction.clan_wales_1"/>
+	<Hero id="dead_lord_wales_1c" father="Hero.dead_lord_wales_1a" mother="Hero.dead_lord_wales_1b" faction="Faction.clan_wales_1"/>
+	<!-- Illegitimate son of Dafydd ap Llywelyn (dead_lord_wales_1c)-->
+	<Hero id="lord_wales_1z" father="Hero.dead_lord_wales_1c" faction="Faction.clan_wales_1"/>
+
+	<Hero id="lord_wales_1x" father="Hero.dead_lord_wales_1a" mother="Hero.dead_lord_wales_1b" faction="Faction.clan_wales_1"/>
+	<Hero id="lord_wales_1u" father="Hero.dead_lord_wales_1a" mother="Hero.dead_lord_wales_1b" faction="Faction.clan_wales_1"/>
+
+	<!-- Gruffudd ap Llywelyn and Senana ferch Caradog had 4 sons and 2 daughters-->
+	<Hero id="dead_lord_wales_1a1" father="Hero.dead_lord_wales_1a" mother="Hero.dead_lord_wales_1b" spouse="Hero.lord_wales_1a2" faction="Faction.clan_wales_1"/>
+	<Hero id="lord_wales_1a2" spouse="Hero.dead_lord_wales_1a1" faction="Faction.clan_wales_1"/>
+
+	<Hero id="lord_wales_1a" father="Hero.dead_lord_wales_1a1" mother="Hero.lord_wales_1a2" spouse="Hero.lord_wales_1g" faction="Faction.clan_wales_1"/>
+	<Hero id="lord_wales_1b" father="Hero.dead_lord_wales_1a1" mother="Hero.lord_wales_1a2" faction="Faction.clan_wales_1"/>
+	<Hero id="lord_wales_1c" father="Hero.dead_lord_wales_1a1" mother="Hero.lord_wales_1a2" spouse="Hero.lord_wales_1h" faction="Faction.clan_wales_1"/>
+	<Hero id="lord_wales_1d" father="Hero.dead_lord_wales_1a1" mother="Hero.lord_wales_1a2" spouse="Hero.lord_wales_1i" faction="Faction.clan_wales_1"/>
+	<Hero id="lord_wales_1e" father="Hero.dead_lord_wales_1a1" mother="Hero.lord_wales_1a2" faction="Faction.clan_wales_1"/>
+	<Hero id="lord_wales_1f" father="Hero.dead_lord_wales_1a1" mother="Hero.lord_wales_1a2" faction="Faction.clan_wales_1"/>
+
+	<!-- Wife of Llywelyn II ap Gruffudd, the Last-->
+	<Hero id="lord_wales_1g" spouse="Hero.lord_wales_1a" faction="Faction.clan_wales_1"/>
+	<!-- Wife of Dafydd III ap Gruffudd-->
+	<Hero id="lord_wales_1h" spouse="Hero.lord_wales_1c" faction="Faction.clan_wales_1"/>
+	<!-- Wife of Rhodri ap Gruffudd and their kid-->
+	<Hero id="lord_wales_1i" spouse="Hero.lord_wales_1d" faction="Faction.clan_wales_1"/>
+	<Hero id="lord_wales_1j" father="Hero.lord_wales_1d" mother="Hero.lord_wales_1i" faction="Faction.clan_wales_1"/>
+
+	<!-- Ally of Owain and Dafydd, same house Aberfraww/Gwynedd-->
+	<Hero id="lord_wales_1k" spouse="Hero.lord_wales_1l" faction="Faction.clan_wales_1"/>
+	<Hero id="lord_wales_1l" spouse="Hero.lord_wales_1k" faction="Faction.clan_wales_1"/>
+	<Hero id="lord_wales_1m" father="Hero.lord_wales_1l" mother="Hero.lord_wales_1k" faction="Faction.clan_wales_1"/>
+
+	<!-- Ally of Owain and Dafydd, same house Aberfraww/Gwynedd-->
+	<Hero id="lord_wales_1n" spouse="Hero.lord_wales_1o" faction="Faction.clan_wales_1"/>
+	<Hero id="lord_wales_1o" spouse="Hero.lord_wales_1n" faction="Faction.clan_wales_1"/>
+	<Hero id="lord_wales_1p" father="Hero.lord_wales_1n" mother="Hero.lord_wales_1o" faction="Faction.clan_wales_1"/>
+
+	<!-- clan_wales_2: Mathrafal of Powys Fadog-->
+	<Hero id="dead_lord_wales_2a" spouse="Hero.dead_lord_wales_2b" faction="Faction.clan_wales_2"/>
+	<Hero id="dead_lord_wales_2b" spouse="Hero.dead_lord_wales_2a" faction="Faction.clan_wales_2"/>
+
+	<Hero id="lord_wales_2a" father="Hero.dead_lord_wales_2a" mother="Hero.dead_lord_wales_2b" spouse="Hero.lord_wales_2e" faction="Faction.clan_wales_1"/>
+	<Hero id="lord_wales_2b" father="Hero.dead_lord_wales_2a" mother="Hero.dead_lord_wales_2b" faction="Faction.clan_wales_1"/>
+	<Hero id="lord_wales_2c" father="Hero.dead_lord_wales_2a" mother="Hero.dead_lord_wales_2b" faction="Faction.clan_wales_1"/>
+	<Hero id="lord_wales_2d" father="Hero.dead_lord_wales_2a" mother="Hero.dead_lord_wales_2b" faction="Faction.clan_wales_1"/>
+
+	<Hero id="lord_wales_2e" spouse="Hero.lord_wales_2a" faction="Faction.clan_wales_1"/>
+
+</Heroes>
