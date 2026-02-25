@@ -17201,7 +17201,7 @@
   </Settlement>
   <!-- endregion -->
   <!--region Ilkhanate empire : Ilkhanid culture-->
-  <Settlement id="castle_talafar" name="{=castle_talafar_name}Talafar Castle" owner="Faction.clan_england_1" posX="1105.19" posY="882.417" culture="Culture.england" gate_posX="1104.945" gate_posY="880.7601">
+  <Settlement id="castle_talafar" name="{=castle_talafar_name}Talafar Castle" owner="Faction.clan_ilkhanate_2" posX="1105.19" posY="882.417" culture="Culture.ilkhanid" gate_posX="1104.945" gate_posY="880.7601">
     <Components>
       <Town id="castle_comp_talafar" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -17226,7 +17226,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_talafar_sinjar" name="{=castle_talafar_sinjar_name}Sinjar" posX="1090.429" posY="880.555" culture="Culture.england" text="{=castle_talafar_sinjar_text}Sinjar text...">
+  <Settlement id="castle_talafar_sinjar" name="{=castle_talafar_sinjar_name}Sinjar" posX="1090.429" posY="880.555" culture="Culture.ilkhanid" text="{=castle_talafar_sinjar_text}Sinjar text...">
     <Components>
       <Village id="castle_comp_talafar_sinjar" village_type="VillageType.desert_horse_ranch" hearth="400" bound="Settlement.castle_talafar" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17239,7 +17239,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_diyarbakir" name="{=town_diyarbakir_name}Diyarbakir" owner="Faction.clan_england_1" posX="1066.427" posY="917.469" culture="Culture.england" gate_posX="1063.433" gate_posY="918.0753" text="{=town_diyarbakir_text}Diyarbakir text...">
+  <Settlement id="town_diyarbakir" name="{=town_diyarbakir_name}Diyarbakir" owner="Faction.clan_ilkhanate_2" posX="1066.427" posY="917.469" culture="Culture.ilkhanid" gate_posX="1063.433" gate_posY="918.0753" text="{=town_diyarbakir_text}Diyarbakir text...">
     <Components>
       <Town id="town_comp_diyarbakir" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -17275,7 +17275,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_diyarbakir_chapaghjur" name="{=town_diyarbakir_chapaghjur_name}Chapaghjur" posX="1070.771" posY="933.85" culture="Culture.england" text="{=town_diyarbakir_chapaghjur_text}Chapaghjur text...">
+  <Settlement id="town_diyarbakir_chapaghjur" name="{=town_diyarbakir_chapaghjur_name}Chapaghjur" posX="1070.771" posY="933.85" culture="Culture.ilkhanid" text="{=town_diyarbakir_chapaghjur_text}Chapaghjur text...">
     <Components>
       <Village id="town_comp_diyarbakir_chapaghjur" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_diyarbakir" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17288,7 +17288,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_diyarbakir_siirt" name="{=town_diyarbakir_siirt_name}Siirt" posX="1085.618" posY="922.192" culture="Culture.england" text="{=town_diyarbakir_siirt_text}Siirt text...">
+  <Settlement id="town_diyarbakir_siirt" name="{=town_diyarbakir_siirt_name}Siirt" posX="1085.618" posY="922.192" culture="Culture.ilkhanid" text="{=town_diyarbakir_siirt_text}Siirt text...">
     <Components>
       <Village id="town_comp_diyarbakir_siirt" village_type="VillageType.flax_plant" hearth="400" bound="Settlement.town_diyarbakir" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17301,7 +17301,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_mosul" name="{=town_mosul_name}Mosul" owner="Faction.clan_england_1" posX="1128.836" posY="887.75" culture="Culture.england" gate_posX="1125.27" gate_posY="888.6334" text="{=town_mosul_text}Mosul text...">
+  <Settlement id="town_mosul" name="{=town_mosul_name}Mosul" owner="Faction.clan_ilkhanate_2" posX="1128.836" posY="887.75" culture="Culture.ilkhanid" gate_posX="1125.27" gate_posY="888.6334" text="{=town_mosul_text}Mosul text...">
     <Components>
       <Town id="town_comp_mosul" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -17337,7 +17337,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_mosul_duhok" name="{=town_mosul_duhok_name}Duhok" posX="1125.711" posY="904.471" culture="Culture.england" text="{=town_mosul_duhok_text}Duhok text...">
+  <Settlement id="town_mosul_duhok" name="{=town_mosul_duhok_name}Duhok" posX="1125.711" posY="904.471" culture="Culture.ilkhanid" text="{=town_mosul_duhok_text}Duhok text...">
     <Components>
       <Village id="town_comp_mosul_duhok" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_mosul" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17350,7 +17350,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_mosul_shekhan" name="{=town_mosul_shekhan_name}Shekhan" posX="1135.574" posY="901.871" culture="Culture.england" text="{=town_mosul_shekhan_text}Shekhan text...">
+  <Settlement id="town_mosul_shekhan" name="{=town_mosul_shekhan_name}Shekhan" posX="1135.574" posY="901.871" culture="Culture.ilkhanid" text="{=town_mosul_shekhan_text}Shekhan text...">
     <Components>
       <Village id="town_comp_mosul_shekhan" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.town_mosul" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17363,7 +17363,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_mosul_nineveh" name="{=town_mosul_nineveh_name}Nineveh" posX="1138.484" posY="888.946" culture="Culture.england" text="{=town_mosul_nineveh_text}Nineveh text...">
+  <Settlement id="town_mosul_nineveh" name="{=town_mosul_nineveh_name}Nineveh" posX="1138.484" posY="888.946" culture="Culture.ilkhanid" text="{=town_mosul_nineveh_text}Nineveh text...">
     <Components>
       <Village id="town_comp_mosul_nineveh" village_type="VillageType.desert_horse_ranch" hearth="400" bound="Settlement.town_mosul" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17376,7 +17376,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_erbil" name="{=castle_erbil_name}Erbil Castle" owner="Faction.clan_england_1" posX="1154.966" posY="888.059" culture="Culture.england" gate_posX="1153.786" gate_posY="886.3523">
+  <Settlement id="castle_erbil" name="{=castle_erbil_name}Erbil Castle" owner="Faction.clan_ilkhanate_2" posX="1154.966" posY="888.059" culture="Culture.ilkhanid" gate_posX="1153.786" gate_posY="886.3523">
     <Components>
       <Town id="castle_comp_erbil" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -17401,7 +17401,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_erbil_kirkuk" name="{=castle_erbil_kirkuk_name}Kirkuk" posX="1161.533" posY="871.67" culture="Culture.england" text="{=castle_erbil_kirkuk_text}Kirkuk text...">
+  <Settlement id="castle_erbil_kirkuk" name="{=castle_erbil_kirkuk_name}Kirkuk" posX="1161.533" posY="871.67" culture="Culture.ilkhanid" text="{=castle_erbil_kirkuk_text}Kirkuk text...">
     <Components>
       <Village id="castle_comp_erbil_kirkuk" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.castle_erbil" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17414,7 +17414,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_erbil_takrit" name="{=castle_erbil_takrit_name}Takrit" posX="1144.84" posY="856.862" culture="Culture.england" text="{=castle_erbil_takrit_text}Takrit text...">
+  <Settlement id="castle_erbil_takrit" name="{=castle_erbil_takrit_name}Takrit" posX="1144.84" posY="856.862" culture="Culture.ilkhanid" text="{=castle_erbil_takrit_text}Takrit text...">
     <Components>
       <Village id="castle_comp_erbil_takrit" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.castle_erbil" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17427,7 +17427,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_baghdad" name="{=town_baghdad_name}Baghdad" owner="Faction.clan_england_1" posX="1161.429" posY="826.531" culture="Culture.england" gate_posX="1160.565" gate_posY="824.4545" text="{=town_baghdad_text}Baghdad text...">
+  <Settlement id="town_baghdad" name="{=town_baghdad_name}Baghdad" owner="Faction.clan_ilkhanate_2" posX="1161.429" posY="826.531" culture="Culture.ilkhanid" gate_posX="1160.565" gate_posY="824.4545" text="{=town_baghdad_text}Baghdad text...">
     <Components>
       <Town id="town_comp_baghdad" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.208" prosperity="4000">
         <Buildings>
@@ -17463,7 +17463,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_baghdad_samarra" name="{=town_baghdad_samarra_name}Samarra" posX="1159.86" posY="838.703" culture="Culture.england" text="{=town_baghdad_samarra_text}Samarra text...">
+  <Settlement id="town_baghdad_samarra" name="{=town_baghdad_samarra_name}Samarra" posX="1159.86" posY="838.703" culture="Culture.ilkhanid" text="{=town_baghdad_samarra_text}Samarra text...">
     <Components>
       <Village id="town_comp_baghdad_samarra" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.town_baghdad" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17476,7 +17476,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_baghdad_haditha" name="{=town_baghdad_haditha_name}Haditha" posX="1119.262" posY="846.43" culture="Culture.england" text="{=town_baghdad_haditha_text}Haditha text...">
+  <Settlement id="town_baghdad_haditha" name="{=town_baghdad_haditha_name}Haditha" posX="1119.262" posY="846.43" culture="Culture.ilkhanid" text="{=town_baghdad_haditha_text}Haditha text...">
     <Components>
       <Village id="town_comp_baghdad_haditha" village_type="VillageType.silk_plant" hearth="400" bound="Settlement.town_baghdad" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17489,7 +17489,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_baghdad_anbar" name="{=town_baghdad_anbar_name}Anbar" posX="1154.437" posY="826.145" culture="Culture.england" text="{=town_baghdad_anbar_text}Anbar text...">
+  <Settlement id="town_baghdad_anbar" name="{=town_baghdad_anbar_name}Anbar" posX="1154.437" posY="826.145" culture="Culture.ilkhanid" text="{=town_baghdad_anbar_text}Anbar text...">
     <Components>
       <Village id="town_comp_baghdad_anbar" village_type="VillageType.flax_plant" hearth="400" bound="Settlement.town_baghdad" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17502,7 +17502,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_baghdad_khanaqin" name="{=town_baghdad_khanaqin_name}Khanaqin" posX="1178.826" posY="847.955" culture="Culture.england" text="{=town_baghdad_khanaqin_text}Khanaqin text...">
+  <Settlement id="town_baghdad_khanaqin" name="{=town_baghdad_khanaqin_name}Khanaqin" posX="1178.826" posY="847.955" culture="Culture.ilkhanid" text="{=town_baghdad_khanaqin_text}Khanaqin text...">
     <Components>
       <Village id="town_comp_baghdad_khanaqin" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_baghdad" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17515,7 +17515,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_baghdad_madharaya" name="{=town_baghdad_madharaya_name}Madharaya" posX="1196.949" posY="818.375" culture="Culture.england" text="{=town_baghdad_madharaya_text}Madharaya text...">
+  <Settlement id="town_baghdad_madharaya" name="{=town_baghdad_madharaya_name}Madharaya" posX="1196.949" posY="818.375" culture="Culture.ilkhanid" text="{=town_baghdad_madharaya_text}Madharaya text...">
     <Components>
       <Village id="town_comp_baghdad_madharaya" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_baghdad" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17528,7 +17528,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_kufa" name="{=town_kufa_name}Kufa" owner="Faction.clan_england_1" posX="1174.941" posY="788.26" culture="Culture.england" gate_posX="1175.492" gate_posY="785.3644" text="{=town_kufa_text}Kufa text...">
+  <Settlement id="town_kufa" name="{=town_kufa_name}Kufa" owner="Faction.clan_ilkhanate_2" posX="1174.941" posY="788.26" culture="Culture.ilkhanid" gate_posX="1175.492" gate_posY="785.3644" text="{=town_kufa_text}Kufa text...">
     <Components>
       <Town id="town_comp_kufa" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_castle_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -17564,7 +17564,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_kufa_jamiayn" name="{=town_kufa_jamiayn_name}Jamiayn" posX="1175.631" posY="808.726" culture="Culture.england" text="{=town_kufa_jamiayn_text}Jamiayn text...">
+  <Settlement id="town_kufa_jamiayn" name="{=town_kufa_jamiayn_name}Jamiayn" posX="1175.631" posY="808.726" culture="Culture.ilkhanid" text="{=town_kufa_jamiayn_text}Jamiayn text...">
     <Components>
       <Village id="town_comp_kufa_jamiayn" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.town_kufa" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17577,7 +17577,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_kufa_lagash" name="{=town_kufa_lagash_name}Lagash" posX="1214.54" posY="794.86" culture="Culture.england" text="{=town_kufa_lagash_text}Lagash text...">
+  <Settlement id="town_kufa_lagash" name="{=town_kufa_lagash_name}Lagash" posX="1214.54" posY="794.86" culture="Culture.ilkhanid" text="{=town_kufa_lagash_text}Lagash text...">
     <Components>
       <Village id="town_comp_kufa_lagash" village_type="VillageType.clay_mine" hearth="400" bound="Settlement.town_kufa" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17590,7 +17590,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_kufa_samawah" name="{=town_kufa_samawah_name}Samawah" posX="1202.547" posY="780.933" culture="Culture.england" text="{=town_kufa_samawah_text}Samawah text...">
+  <Settlement id="town_kufa_samawah" name="{=town_kufa_samawah_name}Samawah" posX="1202.547" posY="780.933" culture="Culture.ilkhanid" text="{=town_kufa_samawah_text}Samawah text...">
     <Components>
       <Village id="town_comp_kufa_samawah" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_kufa" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17603,7 +17603,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tabriz" name="{=town_tabriz_name}Tabriz" owner="Faction.clan_england_1" posX="1210.694" posY="921.909" culture="Culture.england" gate_posX="1212.286" gate_posY="918.2447" text="{=town_tabriz_text}Tabriz text...">
+  <Settlement id="town_tabriz" name="{=town_tabriz_name}Tabriz" owner="Faction.clan_ilkhanate_2" posX="1210.694" posY="921.909" culture="Culture.ilkhanid" gate_posX="1212.286" gate_posY="918.2447" text="{=town_tabriz_text}Tabriz text...">
     <Components>
       <Town id="town_comp_tabriz" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -17639,7 +17639,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tabriz_sheytanabad" name="{=town_tabriz_sheytanabad_name}Sheytanabad" posX="1185.439" posY="898.656" culture="Culture.england" text="{=town_tabriz_sheytanabad_text}Sheytanabad text...">
+  <Settlement id="town_tabriz_sheytanabad" name="{=town_tabriz_sheytanabad_name}Sheytanabad" posX="1185.439" posY="898.656" culture="Culture.ilkhanid" text="{=town_tabriz_sheytanabad_text}Sheytanabad text...">
     <Components>
       <Village id="town_comp_tabriz_sheytanabad" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_tabriz" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17652,7 +17652,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tabriz_maragheh" name="{=town_tabriz_maragheh_name}Maragheh" posX="1209.915" posY="901.646" culture="Culture.england" text="{=town_tabriz_maragheh_text}Maragheh text...">
+  <Settlement id="town_tabriz_maragheh" name="{=town_tabriz_maragheh_name}Maragheh" posX="1209.915" posY="901.646" culture="Culture.ilkhanid" text="{=town_tabriz_maragheh_text}Maragheh text...">
     <Components>
       <Village id="town_comp_tabriz_maragheh" village_type="VillageType.flax_plant" hearth="400" bound="Settlement.town_tabriz" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17665,7 +17665,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_tabriz_baneh" name="{=town_tabriz_baneh_name}Baneh" posX="1194.182" posY="879.498" culture="Culture.england" text="{=town_tabriz_baneh_text}Baneh text...">
+  <Settlement id="town_tabriz_baneh" name="{=town_tabriz_baneh_name}Baneh" posX="1194.182" posY="879.498" culture="Culture.ilkhanid" text="{=town_tabriz_baneh_text}Baneh text...">
     <Components>
       <Village id="town_comp_tabriz_baneh" village_type="VillageType.flax_plant" hearth="400" bound="Settlement.town_tabriz" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17678,7 +17678,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ardabil" name="{=castle_ardabil_name}Ardabil Castle" owner="Faction.clan_england_1" posX="1237.996" posY="933.432" culture="Culture.england" gate_posX="1239.359" gate_posY="931.868">
+  <Settlement id="castle_ardabil" name="{=castle_ardabil_name}Ardabil Castle" owner="Faction.clan_ilkhanate_2" posX="1237.996" posY="933.432" culture="Culture.ilkhanid" gate_posX="1239.359" gate_posY="931.868">
     <Components>
       <Town id="castle_comp_ardabil" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -17703,7 +17703,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_ardabil_rasht" name="{=castle_ardabil_rasht_name}Rasht" posX="1259.376" posY="925.525" culture="Culture.england" text="{=castle_ardabil_rasht_text}Rasht text...">
+  <Settlement id="castle_ardabil_rasht" name="{=castle_ardabil_rasht_name}Rasht" posX="1259.376" posY="925.525" culture="Culture.ilkhanid" text="{=castle_ardabil_rasht_text}Rasht text...">
     <Components>
       <Village id="castle_comp_ardabil_rasht" village_type="VillageType.lumberjack" hearth="400" bound="Settlement.castle_ardabil" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17716,7 +17716,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ardabil_hashtrud" name="{=castle_ardabil_hashtrud_name}Hashtrud" posX="1223.791" posY="910.287" culture="Culture.england" text="{=castle_ardabil_hashtrud_text}Hashtrud text...">
+  <Settlement id="castle_ardabil_hashtrud" name="{=castle_ardabil_hashtrud_name}Hashtrud" posX="1223.791" posY="910.287" culture="Culture.ilkhanid" text="{=castle_ardabil_hashtrud_text}Hashtrud text...">
     <Components>
       <Village id="castle_comp_ardabil_hashtrud" village_type="VillageType.desert_horse_ranch" hearth="400" bound="Settlement.castle_ardabil" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17729,7 +17729,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kermanshah" name="{=castle_kermanshah_name}Kermanshah Castle" owner="Faction.clan_england_1" posX="1215.75" posY="838.933" culture="Culture.england" gate_posX="1216.257" gate_posY="836.921">
+  <Settlement id="castle_kermanshah" name="{=castle_kermanshah_name}Kermanshah Castle" owner="Faction.clan_ilkhanate_2" posX="1215.75" posY="838.933" culture="Culture.ilkhanid" gate_posX="1216.257" gate_posY="836.921">
     <Components>
       <Town id="castle_comp_kermanshah" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -17754,7 +17754,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_kermanshah_sisar" name="{=castle_kermanshah_sisar_name}Sisar" posX="1206.808" posY="860.92" culture="Culture.england" text="{=castle_kermanshah_sisar_text}Sisar text...">
+  <Settlement id="castle_kermanshah_sisar" name="{=castle_kermanshah_sisar_name}Sisar" posX="1206.808" posY="860.92" culture="Culture.ilkhanid" text="{=castle_kermanshah_sisar_text}Sisar text...">
     <Components>
       <Village id="castle_comp_kermanshah_sisar" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.castle_kermanshah" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17767,7 +17767,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_hamedan" name="{=town_hamedan_name}Hamedan" owner="Faction.clan_england_1" posX="1240.997" posY="862.045" culture="Culture.england" gate_posX="1242.985" gate_posY="859.8669" text="{=town_hamedan_text}Hamedan text...">
+  <Settlement id="town_hamedan" name="{=town_hamedan_name}Hamedan" owner="Faction.clan_ilkhanate_2" posX="1240.997" posY="862.045" culture="Culture.ilkhanid" gate_posX="1242.985" gate_posY="859.8669" text="{=town_hamedan_text}Hamedan text...">
     <Components>
       <Town id="town_comp_hamedan" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -17803,7 +17803,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_hamedan_nahavand" name="{=town_hamedan_nahavand_name}Nahavand" posX="1239.521" posY="850.115" culture="Culture.england" text="{=town_hamedan_nahavand_text}Nahavand text...">
+  <Settlement id="town_hamedan_nahavand" name="{=town_hamedan_nahavand_name}Nahavand" posX="1239.521" posY="850.115" culture="Culture.ilkhanid" text="{=town_hamedan_nahavand_text}Nahavand text...">
     <Components>
       <Village id="town_comp_hamedan_nahavand" village_type="VillageType.desert_horse_ranch" hearth="400" bound="Settlement.town_hamedan" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17816,7 +17816,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_hamedan_zizar" name="{=town_hamedan_zizar_name}Zizar" posX="1234.012" posY="877.843" culture="Culture.england" text="{=town_hamedan_zizar_text}Zizar text...">
+  <Settlement id="town_hamedan_zizar" name="{=town_hamedan_zizar_name}Zizar" posX="1234.012" posY="877.843" culture="Culture.ilkhanid" text="{=town_hamedan_zizar_text}Zizar text...">
     <Components>
       <Village id="town_comp_hamedan_zizar" village_type="VillageType.silk_plant" hearth="400" bound="Settlement.town_hamedan" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17829,7 +17829,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_hamedan_baneh" name="{=town_hamedan_baneh_name}Bahar" posX="1214.554" posY="873.815" culture="Culture.england" text="{=town_hamedan_baneh_text}Bahar text...">
+  <Settlement id="town_hamedan_baneh" name="{=town_hamedan_baneh_name}Bahar" posX="1214.554" posY="873.815" culture="Culture.ilkhanid" text="{=town_hamedan_baneh_text}Bahar text...">
     <Components>
       <Village id="town_comp_hamedan_baneh" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.town_hamedan" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17842,7 +17842,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_erzincan" name="{=town_erzincan_name}Erzincan" owner="Faction.clan_england_1" posX="1038.104" posY="937.726" culture="Culture.england" gate_posX="1041.133" gate_posY="937.3294" text="{=town_erzincan_text}Erzincan text...">
+  <Settlement id="town_erzincan" name="{=town_erzincan_name}Erzincan" owner="Faction.clan_ilkhanate_2" posX="1038.104" posY="937.726" culture="Culture.ilkhanid" gate_posX="1041.133" gate_posY="937.3294" text="{=town_erzincan_text}Erzincan text...">
     <Components>
       <Town id="town_comp_erzincan" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -17878,7 +17878,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_erzincan_coloneia" name="{=town_erzincan_coloneia_name}Coloneia" posX="1036.741" posY="958.708" culture="Culture.england" text="{=town_erzincan_coloneia_text}Coloneia text...">
+  <Settlement id="town_erzincan_coloneia" name="{=town_erzincan_coloneia_name}Coloneia" posX="1036.741" posY="958.708" culture="Culture.ilkhanid" text="{=town_erzincan_coloneia_text}Coloneia text...">
     <Components>
       <Village id="town_comp_erzincan_coloneia" village_type="VillageType.iron_mine" hearth="400" bound="Settlement.town_erzincan" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17891,7 +17891,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_erzincan_samosata" name="{=town_erzincan_samosata_name}Samosata" posX="1033.343" posY="906.788" culture="Culture.england" text="{=town_erzincan_samosata_text}Samosata text...">
+  <Settlement id="town_erzincan_samosata" name="{=town_erzincan_samosata_name}Samosata" posX="1033.343" posY="906.788" culture="Culture.ilkhanid" text="{=town_erzincan_samosata_text}Samosata text...">
     <Components>
       <Village id="town_comp_erzincan_samosata" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_erzincan" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17904,7 +17904,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_erzurum" name="{=castle_erzurum_name}Erzurum Castle" owner="Faction.clan_england_1" posX="1080.761" posY="962.031" culture="Culture.england" gate_posX="1080.279" gate_posY="963.7737">
+  <Settlement id="castle_erzurum" name="{=castle_erzurum_name}Erzurum Castle" owner="Faction.clan_ilkhanate_2" posX="1080.761" posY="962.031" culture="Culture.ilkhanid" gate_posX="1080.279" gate_posY="963.7737">
     <Components>
       <Town id="castle_comp_erzurum" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -17929,7 +17929,7 @@
       <Location id="prison" scene_name="empire_dungeon_a" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_erzurum_sinora" name="{=castle_erzurum_sinora_name}Sinora" posX="1056.598" posY="965.944" culture="Culture.england" text="{=castle_erzurum_sinora_text}Sinora text...">
+  <Settlement id="castle_erzurum_sinora" name="{=castle_erzurum_sinora_name}Sinora" posX="1056.598" posY="965.944" culture="Culture.ilkhanid" text="{=castle_erzurum_sinora_text}Sinora text...">
     <Components>
       <Village id="castle_comp_erzurum_sinora" village_type="VillageType.sheep_farm" hearth="400" bound="Settlement.castle_erzurum" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17942,7 +17942,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_van" name="{=town_van_name}Van" owner="Faction.clan_england_1" posX="1131.724" posY="936.779" culture="Culture.england" gate_posX="1136.547" gate_posY="936.5946" text="{=town_van_text}Van text...">
+  <Settlement id="town_van" name="{=town_van_name}Van" owner="Faction.clan_ilkhanate_2" posX="1131.724" posY="936.779" culture="Culture.ilkhanid" gate_posX="1136.547" gate_posY="936.5946" text="{=town_van_text}Van text...">
     <Components>
       <Town id="town_comp_van" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -17978,7 +17978,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_van_berkri" name="{=town_van_berkri_name}Berkri" posX="1137.533" posY="948.791" culture="Culture.england" text="{=town_van_berkri_text}Berkri text...">
+  <Settlement id="town_van_berkri" name="{=town_van_berkri_name}Berkri" posX="1137.533" posY="948.791" culture="Culture.ilkhanid" text="{=town_van_berkri_text}Berkri text...">
     <Components>
       <Village id="town_comp_van_berkri" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_van" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -17991,7 +17991,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_van_ahlat" name="{=town_van_ahlat_name}Ahlat" posX="1109.039" posY="942.079" culture="Culture.england" text="{=town_van_ahlat_text}Ahlat text...">
+  <Settlement id="town_van_ahlat" name="{=town_van_ahlat_name}Ahlat" posX="1109.039" posY="942.079" culture="Culture.ilkhanid" text="{=town_van_ahlat_text}Ahlat text...">
     <Components>
       <Village id="town_comp_van_ahlat" village_type="VillageType.silk_plant" hearth="400" bound="Settlement.town_van" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -18004,7 +18004,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_qabala" name="{=town_qabala_name}Qabala" owner="Faction.clan_england_1" posX="1227.679" posY="993.76" culture="Culture.england" gate_posX="1227.923" gate_posY="990.8212" text="{=town_qabala_text}Qabala text...">
+  <Settlement id="town_qabala" name="{=town_qabala_name}Qabala" owner="Faction.clan_ilkhanate_2" posX="1227.679" posY="993.76" culture="Culture.ilkhanid" gate_posX="1227.923" gate_posY="990.8212" text="{=town_qabala_text}Qabala text...">
     <Components>
       <Town id="town_comp_qabala" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_ilkhanid" wait_mesh="wait_ilkhanid_town" gate_rotation="0.208" prosperity="2500">
         <Buildings>
@@ -18040,7 +18040,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_qabala_shamkori" name="{=town_qabala_shamkori_name}Shamkori" posX="1213.878" posY="985.125" culture="Culture.england" text="{=town_qabala_shamkori_text}Shamkori text...">
+  <Settlement id="town_qabala_shamkori" name="{=town_qabala_shamkori_name}Shamkori" posX="1213.878" posY="985.125" culture="Culture.ilkhanid" text="{=town_qabala_shamkori_text}Shamkori text...">
     <Components>
       <Village id="town_comp_qabala_shamkori" village_type="VillageType.silk_plant" hearth="400" bound="Settlement.town_qabala" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -18053,7 +18053,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_qabala_baku" name="{=town_qabala_baku_name}Baku" posX="1249.494" posY="993.358" culture="Culture.england" text="{=town_qabala_baku_text}Baku text...">
+  <Settlement id="town_qabala_baku" name="{=town_qabala_baku_name}Baku" posX="1249.494" posY="993.358" culture="Culture.ilkhanid" text="{=town_qabala_baku_text}Baku text...">
     <Components>
       <Village id="town_comp_qabala_baku" village_type="VillageType.fisherman" hearth="400" bound="Settlement.town_qabala" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>
@@ -18066,7 +18066,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_qabala_javad" name="{=town_qabala_javad_name}Javad" posX="1229.664" posY="968.024" culture="Culture.england" text="{=town_qabala_javad_text}Javad text...">
+  <Settlement id="town_qabala_javad" name="{=town_qabala_javad_name}Javad" posX="1229.664" posY="968.024" culture="Culture.ilkhanid" text="{=town_qabala_javad_text}Javad text...">
     <Components>
       <Village id="town_comp_qabala_javad" village_type="VillageType.wheat_farm" hearth="400" bound="Settlement.town_qabala" background_crop_position="0.0" background_mesh="gui_bg_village_ilkhanid" wait_mesh="wait_ilkhanid_village" castle_background_mesh="gui_bg_castle_ilkhanid" />
     </Components>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+	<Kingdom id="ilkhanate"
+	         initial_home_settlement="Settlement.town_baghdad"
+	         owner="Hero.lord_ilkhanate_1_1"
+	         banner_key="11.7.7.1800.1800.764.764.1.0.180.505.48.48.356.356.764.764.0.0.0"
+	         primary_banner_color="0xff000000"
+	         secondary_banner_color="0xff000000"
+	         color="FFdea940"
+	         color2="FFe44535"
+	         culture="Culture.ilkhanid"
+	         settlement_banner_mesh="encounter_flag_f"
+	         flag_mesh="info_screen_flags_b"
+	         name="{=ilkhanateFactionName}Ilkhanate"
+	         short_name="{=ilkhanateFactionShortName}Ilkhanate"
+	         title="{=ilkhanateFactionTitle}Hülegü Ulus"
+	         ruler_title="{=ilkhanateFactionRulerTitle}Ilkhan of Persia"
+	         text="{=ilkhanateFactionText} ">
+		<relationships>
+            
+        </relationships>
+		<policies>
+			<policy id="policy_grazing_rights"/>
+			<policy id="policy_crown_duty"/>
+			<policy id="policy_serfdom"/>
+			<policy id="policy_state_monopolies"/>
+			<policy id="policy_war_tax"/>
+		</policies>
+	</Kingdom>
+</Kingdoms>

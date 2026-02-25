@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SPCultures>
+	<Culture id="ilkhanid"
+	         name="{=ilkhanidCulture}Ilkhanid"
+	         is_main_culture="true"
+	         color="0xff3b6298"
+	         color2="0xfff3bb08"
+	         elite_basic_troop="NPCCharacter.ilkhanid_elite_root"
+	         basic_troop="NPCCharacter.ilkhanid_basic_root"
+	         melee_militia_troop="NPCCharacter.ilkhanid_militia_spearman"
+	         ranged_militia_troop="NPCCharacter.ilkhanid_militia_archer"
+	         melee_elite_militia_troop="NPCCharacter.ilkhanid_militia_veteran_spearman"
+	         ranged_elite_militia_troop="NPCCharacter.ilkhanid_militia_veteran_archer"
+	         can_have_settlement="true"
+	         villager_party_template="PartyTemplate.villager_ilkhanid_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_ILKHANID_template"
+	         settlement_patrol_template_level_1="PartyTemplate.patrol_party_ILKHANID_template_level_1"
+	         settlement_patrol_template_level_2="PartyTemplate.patrol_party_ILKHANID_template_level_2"
+	         settlement_patrol_template_level_3="PartyTemplate.patrol_party_ILKHANID_template_level_3"
+	         encounter_background_mesh="encounter_ilkhanid"
+	         faction_banner_key="11.7.7.1800.1800.764.764.1.0.180.505.48.48.356.356.764.764.0.0.0"
+	         militia_party_template="PartyTemplate.militia_ilkhanid_template"
+	         rebels_party_template="PartyTemplate.rebels_ilkhanid_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_ilkhanid"
+	         text="{=ilkhanidCultureText}Unused in the game."
+	         tournament_master="NPCCharacter.tournament_master_ilkhanid"
+	         villager="NPCCharacter.villager_ilkhanid"
+	         caravan_master="NPCCharacter.caravan_master_ilkhanid"
+	         caravan_guard="NPCCharacter.caravan_guard_ilkhanid"
+	         veteran_caravan_guard="NPCCharacter.veteran_caravan_guard_ilkhanid"
+	         prison_guard="NPCCharacter.prison_guard_ilkhanid"
+	         guard="NPCCharacter.guard_ilkhanid"
+	         blacksmith="NPCCharacter.blacksmith_ilkhanid"
+	         weaponsmith="NPCCharacter.weaponsmith_ilkhanid"
+	         townswoman="NPCCharacter.townswoman_ilkhanid"
+	         townswoman_infant="NPCCharacter.townswoman_infant_ilkhanid"
+	         townswoman_child="NPCCharacter.townswoman_child_ilkhanid"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_ilkhanid"
+	         townsman="NPCCharacter.townsman_ilkhanid"
+	         townsman_infant="NPCCharacter.townsman_infant_ilkhanid"
+	         townsman_child="NPCCharacter.townsman_child_ilkhanid"
+	         townsman_teenager="NPCCharacter.townsman_teenager_ilkhanid"
+	         village_woman="NPCCharacter.village_woman_ilkhanid"
+	         villager_male_child="NPCCharacter.villager_child_ilkhanid"
+	         villager_male_teenager="NPCCharacter.villager_teenager_ilkhanid"
+	         villager_female_child="NPCCharacter.village_woman_child_ilkhanid"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_ilkhanid"
+	         ransom_broker="NPCCharacter.ransom_broker_ilkhanid"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_ilkhanid"
+	         merchant_notary="NPCCharacter.merchant_notary_ilkhanid"
+	         artisan_notary="NPCCharacter.artisan_notary_ilkhanid"
+	         preacher_notary="NPCCharacter.preacher_notary_ilkhanid"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_ilkhanid"
+	         shop_worker="NPCCharacter.shop_worker_ilkhanid"
+	         tavernkeeper="NPCCharacter.tavernkeeper_ilkhanid"
+	         taverngamehost="NPCCharacter.taverngamehost_ilkhanid"
+	         musician="NPCCharacter.musician_ilkhanid"
+	         tavern_wench="NPCCharacter.tavern_wench_ilkhanid"
+	         armorer="NPCCharacter.armorer_ilkhanid"
+	         horseMerchant="NPCCharacter.horseMerchant_ilkhanid"
+	         barber="NPCCharacter.barber_ilkhanid"
+	         merchant="NPCCharacter.merchant_ilkhanid"
+	         beggar="NPCCharacter.beggar_ilkhanid"
+	         female_beggar="NPCCharacter.female_beggar_ilkhanid"
+	         female_dancer="NPCCharacter.female_dancer_ilkhanid"
+	         default_battle_equipment_roster="EquipmentRoster.ilkhanid_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.ilkhanid_civ_template_default"
+	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster"
+	         duel_preset_equipment_roster="EquipmentRoster.khu_duel_preset_template"
+	         marriage_bride_equipment_roster="EquipmentRoster.marriage_female_ilkhanid_cutscene_template"
+	         board_game_type="Puluc"
+	         default_character_creation_body_property="BodyProperty.default_character_creation_body_property_khuzait"
+	         start_point_position_x="1196"
+	         start_point_position_y="902">
+		<caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.caravan_template_ilkhanid"/>
+		</caravan_party_templates>
+		<elite_caravan_party_templates>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_ilkhanid"/>
+		</elite_caravan_party_templates>
+		<available_ship_hulls/>
+		<vassal_reward_items>
+			<item id="Item.steppe_war_bow"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.khuzait_sword_1_t2"/>
+			<item id="Item.khuzait_sword_2_t3"/>
+			<item id="Item.khuzait_sword_3_t3"/>
+			<item id="Item.khuzait_sword_4_t4"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_grazing_rights"/>
+			<policy id="policy_sacred_majesty"/>
+		</default_policies>
+		<male_names>
+			<name name="{=yEqRblFp}Achigh"/>
+			<name name="{=FCFqeGYe}Aguchu"/>
+			<name name="{=rgPDWpmh}Ajai"/>
+			<name name="{=wRdNOKdo}Ajinai"/>
+			<name name="{=rlaZKqCj}Akhutai"/>
+			<name name="{=npELREYG}Alagh"/>
+			<name name="{=nKFcVvxt}Alchi"/>
+			<name name="{=EAVbGDck}Alchidai"/>
+			<name name="{=txWRFxMe}Altan"/>
+			<name name="{=DUdrFBMR}Altun"/>
+			<name name="{=OWfMHqXi}Ambaghai"/>
+			<name name="{=nrgEqiuq}Arkhai"/>
+			<name name="{=TpKdiTtQ}Arslan"/>
+			<name name="{=FhdyhLjk}Arasen"/>
+			<name name="{=oHlPbosx}Asha"/>
+			<name name="{=bjiPcZiu}Badai"/>
+			<name name="{=BYogqxru}Bagaridai"/>
+			<name name="{=lRufmYJH}Bala"/>
+			<name name="{=jBhKlrge}Barghujin"/>
+			<name name="{=eWvigyAs}Bartan"/>
+			<name name="{=oyCVyqJD}Batachikhan"/>
+			<name name="{=XcvufsfU}Batu"/>
+			<name name="{=WMgHqeJd}Bedugun"/>
+			<name name="{=jJQNaAyO}Begter"/>
+			<name name="{=ZzqJVtaU}Belgutei"/>
+			<name name="{=EXKQbqUh}Belgunutei"/>
+			<name name="{=QqysbYXE}Bilge"/>
+			<name name="{=LhXyzqSs}Bogen"/>
+			<name name="{=WsbEUxkM}Bogorchu"/>
+			<name name="{=TkKFTKtz}Bolkhadar"/>
+			<name name="{=modrWytU}Borjigidai"/>
+			<name name="{=WTPBUBgH}Boroghul"/>
+			<name name="{=MoZRCfJo}Bughu"/>
+			<name name="{=nqZKyOmS}Bujeg"/>
+			<name name="{=CZdodJkD}Bulughan"/>
+			<name name="{=JvtCNwXg}Burkhan"/>
+			<name name="{=CvjptmfQ}Buyirugh"/>
+			<name name="{=ZgmPlkYm}Chaghagan"/>
+			<name name="{=ruGmdumw}Chagurkhai"/>
+			<name name="{=PMGfCleB}Chakh"/>
+			<name name="{=UYloOAbY}Chana"/>
+			<name name="{=vlKPJHMb}Charakha"/>
+			<name name="{=tdycuLVO}Chidukhul"/>
+			<name name="{=bgXdicpo}Chigu"/>
+			<name name="{=EIvvALwp}Chiledu"/>
+			<name name="{=eNsdiQXC}Chilger"/>
+			<name name="{=mPgeUXoX}Chimbai"/>
+			<name name="{=cYeCxqjK}Chingis"/>
+			<name name="{=GPSsJfwc}Chormakhan"/>
+			<name name="{=yirzQUYJ}Chulgetei"/>
+			<name name="{=dhpDlwbf}Dagun"/>
+			<name name="{=gPZpCQUR}Daidukul"/>
+			<name name="{=IZQDevpL}Daritai"/>
+			<name name="{=RvohhXAn}Dayir"/>
+			<name name="{=hZqxgGAp}Degei"/>
+			<name name="{=kyHhiSti}Dei"/>
+			<name name="{=oRbzbaGj}Dhunan"/>
+			<name name="{=knbPrNZv}Dobun"/>
+			<name name="{=xJWxYqug}Dodai"/>
+			<name name="{=wxCPaYLv}Dologadai"/>
+			<name name="{=qOlMbQjO}Dorbei"/>
+			<name name="{=hyXxwGHs}Duua"/>
+			<name name="{=fSWtbQrU}Eligedei"/>
+			<name name="{=NBEzFHsK}Erke"/>
+			<name name="{=NpUaNnQw}Geugi"/>
+			<name name="{=GTrkrQmj}Ghunan"/>
+			<name name="{=uMavGKvi}Guchu"/>
+			<name name="{=HhajEkHF}Gughlug"/>
+			<name name="{=qMfyrDTC}Guyug"/>
+			<name name="{=VOfMWVSm}Gurin"/>
+			<name name="{=DbrEYcJe}Guchugur"/>
+			<name name="{=OtpoRPnO}Guchulug"/>
+			<name name="{=PZaFBybj}Harghasun"/>
+			<name name="{=YsMOfHsM}Hobogetur"/>
+			<name name="{=yiQDeqOZ}Horkhudagh"/>
+			<name name="{=cfTQqWjO}Husun"/>
+			<name name="{=grgyZueC}Idughadai"/>
+			<name name="{=CcvPFmSt}Ile"/>
+			<name name="{=wWbxPouG}Illugei"/>
+			<name name="{=mIjIbjMY}Inalchi"/>
+			<name name="{=tOnSwLal}Inancha"/>
+			<name name="{=XOabuYoz}Iturgen"/>
+			<name name="{=oEiqdsAq}Jarchigudai"/>
+			<name name="{=JjLczTdY}Jajiradai"/>
+			<name name="{=JUgVpQKE}Jakha"/>
+			<name name="{=duUGwtXQ}Jamugha"/>
+			<name name="{=uGrnxghw}Jangg"/>
+			<name name="{=gQwBSAgR}Jebe"/>
+			<name name="{=FSlCnqkh}Jebke"/>
+			<name name="{=zqLnDUwt}Jeder"/>
+			<name name="{=LiQJSDSV}Jelme"/>
+			<name name="{=bXNrVroA}Jetei"/>
+			<name name="{=YoHVftVj}Jirghogadai"/>
+			<name name="{=LbuQVpwM}Jubkhan"/>
+			<name name="{=fVbtUuVc}Jungshoi"/>
+			<name name="{=hWlsNYNX}Jurchedei"/>
+			<name name="{=ivrzIQRC}Kete"/>
+			<name name="{=ANhLwaqA}Ketei"/>
+			<name name="{=ouZtjOdV}Khabichi"/>
+			<name name="{=vWkDmmLz}Khabu"/>
+			<name name="{=NVCqdxQC}Khachi"/>
+			<name name="{=dZbzAPLa}Khachigun"/>
+			<name name="{=AsIObMHQ}Khadaga"/>
+			<name name="{=mDruTVmM}Khadagh"/>
+			<name name="{=HrWvMdyN}Khagatai"/>
+			<name name="{=aKCMZfFZ}Khaguran"/>
+			<name name="{=GSIKswTT}Khadai"/>
+			<name name="{=jcSuHlWW}Khaidu"/>
+			<name name="{=fWxvebwp}Khaligudar"/>
+			<name name="{=fkaKGRFn}Khal"/>
+			<name name="{=BFtREYsD}Khalja"/>
+			<name name="{=KDYEbRBL}Khasar"/>
+			<name name="{=osJSCCtw}Khasi"/>
+			<name name="{=PZbJIGjJ}Khongkhai"/>
+			<name name="{=BkZeGBeh}Khorchi"/>
+			<name name="{=ouVOoMny}Khorghosun"/>
+			<name name="{=TcuGKAWB}Khoridai"/>
+			<name name="{=gGpaRaAX}Khorilartai"/>
+			<name name="{=qCpsssLh}Khori"/>
+			<name name="{=ctSDAvWW}Khubilai"/>
+			<name name="{=RNfdmCnB}Khudu"/>
+			<name name="{=KABrLXSM}Khudukha"/>
+			<name name="{=PZITNhsW}Khuril"/>
+			<name name="{=blsOiQuN}Khutula"/>
+			<name name="{=JqhKSpAD}Khuyildar"/>
+			<name name="{=wvPexBbQ}Kogsegu"/>
+			<name name="{=OgxgGaTy}Kokochu"/>
+			<name name="{=bOaOsQyC}Lablakha"/>
+			<name name="{=INNpxSbR}Maral"/>
+			<name name="{=AVlTUGym}Megetu"/>
+			<name name="{=lWHRDeAH}Megujin"/>
+			<name name="{=AsuITPhL}Menggei"/>
+			<name name="{=rzISdxwr}Mongke"/>
+			<name name="{=poscebEX}Morokha"/>
+			<name name="{=qRApcWUS}Muge"/>
+			<name name="{=qYiUYhLB}Mukhali"/>
+			<name name="{=hdUZHhAL}Mulkhalkhu"/>
+			<name name="{=uqsgtydp}Mungetu"/>
+			<name name="{=YVucmfrJ}Munggugur"/>
+			<name name="{=afYyABws}Mungke"/>
+			<name name="{=nYzrFbIr}Munglig"/>
+			<name name="{=jHvsDovB}Nakhu"/>
+			<name name="{=GLwBnjZU}Narin"/>
+			<name name="{=LOXdeKzw}Narin"/>
+			<name name="{=YAPkoedf}Nayaga"/>
+			<name name="{=ZNlkbWYP}Nekun"/>
+			<name name="{=oQoCZKrD}Nilkha"/>
+			<name name="{=gSewzcNs}Odchigin"/>
+			<name name="{=vpIaZuVw}Ogele"/>
+			<name name="{=yZByvQQp}Ogodei"/>
+			<name name="{=uRzfCvLp}Okhotur"/>
+			<name name="{=QakHlDXa}Okin"/>
+			<name name="{=TJQurFun}Olar"/>
+			<name name="{=ptXpiUYt}Oldaghar"/>
+			<name name="{=lcYCsbxH}Onggiran"/>
+			<name name="{=fqMdtIHD}Onggur"/>
+			<name name="{=TmduIgaY}Oronartai"/>
+			<name name="{=MQUbTpwa}Sacha"/>
+			<name name="{=frAOkerG}Sechequr"/>
+			<name name="{=fEvLVFvf}Senggum"/>
+			<name name="{=YVSlJxng}Shigi"/>
+			<name name="{=phhnHFQg}Shikigur"/>
+			<name name="{=KAsREerA}Shilugei"/>
+			<name name="{=WHxFTpel}Shingkhor"/>
+			<name name="{=JKWwGRHP}Shiraghul"/>
+			<name name="{=pmgdCzwT}Shirgugetu"/>
+			<name name="{=SNBDEnDx}Sorkhan"/>
+			<name name="{=KEDUGpcO}Sokhor"/>
+			<name name="{=ZuIvhsRz}Sorkhatu"/>
+			<name name="{=Krppdsit}Soyiketu"/>
+			<name name="{=zSZVsKFg}Subetei"/>
+			<name name="{=qQNyGolz}Sugegei"/>
+			<name name="{=KBvLkcvr}Sukegei"/>
+			<name name="{=OQRuHUOh}Suyiketu"/>
+			<name name="{=OkbWIIBW}Taghai"/>
+			<name name="{=XuAtydFU}Taichar"/>
+			<name name="{=BiCLqetO}Taisi"/>
+			<name name="{=KhxfQTNh}Tamachi"/>
+			<name name="{=bpTTckaa}Taichu"/>
+			<name name="{=QOTZOvzD}Tayang"/>
+			<name name="{=qFPXljRo}Targhutai"/>
+			<name name="{=OQZkdnvv}Teb"/>
+			<name name="{=rfwDtPuA}Kokochu"/>
+			<name name="{=ZLfLusNp}Telegetu"/>
+			<name name="{=GoPjNBkA}Temuge"/>
+			<name name="{=HUodMXqn}Temuge"/>
+			<name name="{=PcMmMIvk}Temujin"/>
+			<name name="{=fqHAhqJa}Temur"/>
+			<name name="{=udQsKaos}Tobsakha"/>
+			<name name="{=aNqMEuln}Tobukha"/>
+			<name name="{=TlsROLwi}Todoge"/>
+			<name name="{=OXNVJQvs}Todogen"/>
+			<name name="{=RxMCwiKT}Toghon"/>
+			<name name="{=PjyXmpVb}Toghoril"/>
+			<name name="{=bOmPjoUA}Toghtoga"/>
+			<name name="{=ddWITIEi}Tokhuchar"/>
+			<name name="{=lEAtVquG}Tolun"/>
+			<name name="{=EcbjBIzn}Tolui"/>
+			<name name="{=DxZbPpZk}Torbi"/>
+			<name name="{=GclGrFlw}Torolchi"/>
+			<name name="{=pKDNEnxr}Tuge"/>
+			<name name="{=SdSNmEqK}Tumbinai"/>
+			<name name="{=QPxGHmEZ}Tumen"/>
+			<name name="{=JPBihuEd}Tungge"/>
+			<name name="{=vXLdNcvo}Tunghhuidai"/>
+			<name name="{=dltndfpt}Tusakha"/>
+			<name name="{=bvbHKZsm}Tuyuideger"/>
+			<name name="{=wNxDLYnh}Udutai"/>
+			<name name="{=oWQpFuFE}Uighurtai"/>
+			<name name="{=eyUGgmsN}Ukhuna"/>
+			<name name="{=qjLxauOm}Usun"/>
+			<name name="{=qUnXDWwB}Yedi"/>
+			<name name="{=GyAtCRoy}Yegu"/>
+			<name name="{=gDJBOgPR}Yeke"/>
+			<name name="{=vhxWognF}Yesugei"/>
+			<name name="{=lelubXjn}Yesunge"/>
+			<name name="{=ugTbrmpn}Yesun"/>
+			<name name="{=hHYIdJoa}Yokhunan"/>
+			<name name="{=LPvOMbma}Yurukhan"/>
+		</male_names>
+		<female_names>
+			<name name="{=qTKXlVbn}Alan"/>
+			<name name="{=ZZUwgfwZ}Altani"/>
+			<name name="{=POlyMrEj}Alagh"/>
+			<name name="{=rYtFgRKx}Borte"/>
+			<name name="{=pPJmOECH}Botokhui"/>
+			<name name="{=zJbPrjFU}Chagur"/>
+			<name name="{=EjPWPmXh}Checheyigen"/>
+			<name name="{=AtBcUAOI}Chakh"/>
+			<name name="{=XtGDJYXa}Chotan"/>
+			<name name="{=swBNRFqO}Doregene"/>
+			<name name="{=LKFAlhNN}Ebegei"/>
+			<name name="{=avAVOZhk}Gurbesu"/>
+			<name name="{=wmUwybHN}Hogelun"/>
+			<name name="{=cMjnxyyW}Holuikhan"/>
+			<name name="{=rISDQSMG}Ibakha"/>
+			<name name="{=RiCTarqJ}Khadagan"/>
+			<name name="{=GuFFpxXm}Khojin"/>
+			<name name="{=IzAGPmXi}Khogaghchin"/>
+			<name name="{=ZEgSOWBE}Khorijin"/>
+			<name name="{=bWlSvEfN}Khulan"/>
+			<name name="{=rjZNghvT}Khugurchin"/>
+			<name name="{=iGdRdauu}Mongoljin"/>
+			<name name="{=GEuZvoJe}Nomolun"/>
+			<name name="{=QuwvbAiD}Orbei"/>
+			<name name="{=BMjCBEDm}Sorkhaghatani"/>
+			<name name="{=QPwczsIz}Sokhatai"/>
+			<name name="{=ZoYqnCKK}Temulun"/>
+			<name name="{=qfbKEagE}Yesugun"/>
+			<name name="{=eBlxDxQc}Yesui"/>
+			<name name="{=jfrdYxcr}Aigiarn"/>
+			<name name="{=HRTavaFg}Boraqchin"/>
+			<name name="{=FUUTkLze}Budashiri"/>
+			<name name="{=hYNBzCwf}Buluqhan"/>
+			<name name="{=peHhzRYh}Buqu"/>
+			<name name="{=CcYrWKqL}Chabi"/>
+			<name name="{=ayeJQYXv}Conchaka"/>
+			<name name="{=EpGgkdJs}Goland"/>
+			<name name="{=iFvSsHzN}Hoelun"/>
+			<name name="{=ocmLDzni}Ibaqa"/>
+			<name name="{=kRDcQwEm}Keremün"/>
+			<name name="{=DeywSDJp}Khutulun"/>
+			<name name="{=QGTvFPNO}Kökecü"/>
+			<name name="{=ocVrYZyo}Kücügür"/>
+			<name name="{=yrMVtivl}Möge"/>
+			<name name="{=FyJXFFhE}Orqina"/>
+			<name name="{=QUOFdBfA}Pusuwan"/>
+			<name name="{=ICTNSSIl}Qaliyun"/>
+			<name name="{=voRHenuH}Qutlugh"/>
+			<name name="{=clSvrUTV}Shirindari"/>
+			<name name="{=EGQiiTIp}Sochigel"/>
+			<name name="{=PWRrUYeM}Solangqa"/>
+			<name name="{=JlMpbjdM}Sorkhaqtani"/>
+			<name name="{=wRSzaNyU}Tabuyan"/>
+			<name name="{=HbZtuxOn}Taydula"/>
+			<name name="{=QJLzcMCj}Töregene"/>
+		</female_names>
+		<clan_names>
+			<name name="{=cZSAoysa}Khori Tümed"/>
+			<name name="{=cZSAoysb}Khorilar"/>
+			<name name="{=cZSAoysc}Dorben"/>
+			<name name="{=cZSAoysd}Uriankhat"/>
+			<name name="{=cZSAoyse}Belgunot"/>
+			<name name="{=cZSAoysf}Bugunot"/>
+			<name name="{=cZSAoysg}Khatagin"/>
+			<name name="{=cZSAoysh}Elijigin"/>
+			<name name="{=cZSAoysi}Salji'ut"/>
+			<name name="{=cZSAoysj}Oronar"/>
+			<name name="{=cZSAoysk}Khongkhotan"/>
+			<name name="{=cZSAoysl}Sunud"/>
+			<name name="{=cZSAoysm}Khabturkhas"/>
+			<name name="{=cZSAoysn}Gheniges"/>
+			<name name="{=cZSAoyso}Mangkhol"/>
+			<name name="{=cZSAoysp}Dungkhait"/>
+			<name name="{=cZSAoysq}Jirgin"/>
+			<name name="{=cZSAoysr}Ongchijid"/>
+			<name name="{=cZSAoyss}Ubchikh"/>
+			<name name="{=cZSAoyst}Airi'ut"/>
+			<name name="{=cZSAoysu}Khaad"/>
+			<name name="{=cZSAoysv}Yürki"/>
+			<name name="{=cZSAoysw}Uvas"/>
+			<name name="{=cZSAoysx}Juyin"/>
+			<name name="{=cZSAoysy}Tariat Tatar"/>
+			<name name="{=cZSAoysz}Alukhai Tatar"/>
+		</clan_names>
+		<cultural_feats>
+			<feat id="khuzait_cheaper_recruits_mounted"/>
+			<feat id="aserai_desert_speed"/>
+			<feat id="khuzait_decreased_town_tax"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="121"/>
+			<icon id="122"/>
+			<icon id="123"/>
+			<icon id="124"/>
+			<icon id="125"/>
+			<icon id="126"/>
+			<icon id="127"/>
+			<icon id="128"/>
+			<icon id="129"/>
+			<icon id="130"/>
+			<icon id="311"/>
+			<icon id="312"/>
+			<icon id="313"/>
+			<icon id="314"/>
+		</possible_clan_banner_icon_ids>
+		<notable_templates>
+			<template name="NPCCharacter.spc_notable_ilkhanid_0"/>
+			<template name="NPCCharacter.spc_notable_ilkhanid_0b"/>
+			<template name="NPCCharacter.spc_notable_ilkhanid_1"/>
+			<template name="NPCCharacter.spc_notable_ilkhanid_2"/>
+			<template name="NPCCharacter.spc_notable_ilkhanid_2b"/>
+			<template name="NPCCharacter.spc_notable_ilkhanid_3"/>
+			<template name="NPCCharacter.spc_notable_ilkhanid_3b"/>
+			<template name="NPCCharacter.spc_notable_ilkhanid_3c"/>
+			<template name="NPCCharacter.spc_notable_ilkhanid_4"/>
+			<template name="NPCCharacter.spc_notable_ilkhanid_5"/>
+			<template name="NPCCharacter.spc_notable_ilkhanid_6"/>
+			<template name="NPCCharacter.spc_notable_ilkhanid_7"/>
+			<template name="NPCCharacter.spc_notable_ilkhanid_8"/>
+			<template name="NPCCharacter.spc_notable_ilkhanid_9"/>
+			<template name="NPCCharacter.spc_notable_ilkhanid_10"/>
+			<template name="NPCCharacter.spc_ilkhanid_headman_1"/>
+			<template name="NPCCharacter.spc_ilkhanid_headman_2"/>
+			<template name="NPCCharacter.spc_ilkhanid_headman_3"/>
+		</notable_templates>
+		<lord_templates>
+			<template name="NPCCharacter.ilkhanid_autogenerated_lord1"/>
+			<template name="NPCCharacter.ilkhanid_autogenerated_lord2"/>
+			<template name="NPCCharacter.ilkhanid_autogenerated_lord3"/>
+			<template name="NPCCharacter.ilkhanid_autogenerated_lord4"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.ilkhanid_autogenerated_lord1"/>
+			<template name="NPCCharacter.ilkhanid_autogenerated_lord2"/>
+			<template name="NPCCharacter.ilkhanid_autogenerated_lord3"/>
+			<template name="NPCCharacter.ilkhanid_autogenerated_lord4"/>
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_ilkhanid_one_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_ilkhanid_one_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_ilkhanid_one_participant_set_v3"/>
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_ilkhanid_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_ilkhanid_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_ilkhanid_two_participant_set_v3"/>
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_ilkhanid_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_ilkhanid_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_ilkhanid_four_participant_set_v3"/>
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.merc_balkan_axe1"/>
+			<template name="NPCCharacter.merc_balkan_spear1"/>
+			<template name="NPCCharacter.merc_alan_1"/>
+			<template name="NPCCharacter.merc_alan_2"/>
+		</basic_mercenary_troops>
+	</Culture>
+</SPCultures>
