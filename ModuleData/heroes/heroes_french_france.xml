@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- Kingdom of France  -->
+	<!-- clan 1: Capétiens -->
+	<Hero id="dead_lord_france_extra_1" spouse="Hero.dead_lord_france_extra_2" alive="false" faction="Faction.clan_france_1"/>
+	<Hero id="dead_lord_france_extra_2" spouse="Hero.dead_lord_france_extra_1" alive="false" faction="Faction.clan_france_1"/>
+	<Hero id="lord_france_1_1" spouse="Hero.lord_france_1_2" father="Hero.dead_lord_france_extra_1" mother="Hero.dead_lord_france_extra_2" faction="Faction.clan_france_1" text="{=louisIXDescription}Louis was only twelve years of age when his father died and he was crowned king within the month at Reims Cathedral. His mother, Blanche, ruled France as regent during his minority, and then remained his valued adviser until her death. Today, he faces recurring conflicts with some of his realm's most powerful nobles, such as Hugh XII of Lusignan and Jean le Roux. During his reign, Louis IX has been reforming the French legal process, creating a royal justice system in which petitioners can appeal judgements directly to the king. His admirers regard him as the ideal Christian ruler. They say his skill as a knight and engaging manner with the public made him popular."/>
+	<Hero id="lord_france_1_2" spouse="Hero.lord_france_1_1" faction="Faction.clan_france_1"/>
+	<Hero id="lord_france_1_3" father="Hero.lord_france_1_1" mother="Hero.lord_france_1_2" faction="Faction.clan_france_1"/>
+	<Hero id="lord_france_1_4" father="Hero.lord_france_1_1" mother="Hero.lord_france_1_2" faction="Faction.clan_france_1"/>
+	<Hero id="lord_france_1_5" father="Hero.dead_lord_france_extra_1" mother="Hero.dead_lord_france_extra_2" faction="Faction.clan_france_1"/>
+	<Hero id="lord_france_1_6" father="Hero.lord_france_1_1" mother="Hero.lord_france_1_2" faction="Faction.clan_france_1"/>
+	<Hero id="lord_france_1_7" father="Hero.lord_france_1_1" mother="Hero.lord_france_1_2" faction="Faction.clan_france_1"/>
+	<Hero id="lord_france_1_8" father="Hero.lord_france_1_1" mother="Hero.lord_france_1_2" faction="Faction.clan_france_1"/>
+
+	<!-- clan 2: Maison de Foix -->
+	<Hero id="lord_france_2_1" spouse="Hero.lord_france_2_2" faction="Faction.clan_france_2"/>
+	<Hero id="lord_france_2_2" spouse="Hero.lord_france_2_1" faction="Faction.clan_france_2"/>
+	<Hero id="lord_france_2_3" father="Hero.lord_france_2_1" mother="Hero.lord_france_2_2" faction="Faction.clan_france_2"/>
+	<Hero id="lord_france_2_4" father="Hero.lord_france_2_1" mother="Hero.lord_france_2_2" faction="Faction.clan_france_2"/>
+	<Hero id="lord_france_2_5" father="Hero.lord_france_2_1" mother="Hero.lord_france_2_2" faction="Faction.clan_france_2"/>
+
+	<!-- clan 3: Maison de Clermont-Nesle -->
+	<Hero id="lord_france_3_1" spouse="Hero.lord_france_3_2" faction="Faction.clan_france_3"/>
+	<Hero id="lord_france_3_2" spouse="Hero.lord_france_3_1" faction="Faction.clan_france_3"/>
+	<Hero id="lord_france_3_3" father="Hero.lord_france_3_1" mother="Hero.lord_france_3_2" faction="Faction.clan_france_3"/>
+	<Hero id="lord_france_3_4" father="Hero.lord_france_3_1" mother="Hero.lord_france_3_2" faction="Faction.clan_france_3"/>
+	<Hero id="lord_france_3_5" father="Hero.lord_france_3_1" mother="Hero.lord_france_3_2" faction="Faction.clan_france_3"/>
+	<Hero id="lord_france_3_6" father="Hero.lord_france_3_1" mother="Hero.lord_france_3_2" faction="Faction.clan_france_3"/>
+
+	<!-- clan 4: Maison Capétienne d'Anjou -->
+	<Hero id="lord_france_4_1" spouse="Hero.lord_france_4_2" father="Hero.dead_lord_france_extra_1" mother="Hero.dead_lord_france_extra_2" faction="Faction.clan_france_4"/>
+	<Hero id="lord_france_4_2" spouse="Hero.lord_france_4_1" faction="Faction.clan_france_4"/>
+	<Hero id="lord_france_4_3" father="Hero.lord_france_4_1" mother="Hero.lord_france_4_2" faction="Faction.clan_france_4"/>
+	<Hero id="lord_france_4_4" father="Hero.lord_france_4_1" mother="Hero.lord_france_4_2" faction="Faction.clan_france_4"/>
+	<Hero id="lord_france_4_5" father="Hero.lord_france_4_1" mother="Hero.lord_france_4_2" faction="Faction.clan_france_4"/>
+	<Hero id="lord_france_4_6" father="Hero.lord_france_4_1" mother="Hero.lord_france_4_2" faction="Faction.clan_france_4"/>
+
+	<!-- clan 5: Maison Capétienne de Dreux -->
+	<Hero id="lord_france_5_1" spouse="Hero.lord_france_5_2" faction="Faction.clan_france_5"/>
+	<Hero id="lord_france_5_2" spouse="Hero.lord_france_5_1" faction="Faction.clan_france_5"/>
+	<Hero id="lord_france_5_3" father="Hero.lord_france_5_1" mother="Hero.lord_france_5_2" faction="Faction.clan_france_5"/>
+	
+	<!-- clan 6: Maison de Châtillon -->
+	<Hero id="lord_france_6_1" spouse="Hero.lord_france_6_2" faction="Faction.clan_france_6"/>
+	<Hero id="lord_france_6_2" spouse="Hero.lord_france_6_1" faction="Faction.clan_france_6"/>
+    <Hero id="lord_france_6_3" spouse="Hero.lord_france_6_4" faction="Faction.clan_france_6"/>
+	<Hero id="lord_france_6_4" spouse="Hero.lord_france_6_3" faction="Faction.clan_france_6"/>
+	
+	<!-- clan 7: Maison Capétienne de Bourgogne -->
+	<Hero id="lord_france_7_1" faction="Faction.clan_france_7"/>
+	<Hero id="lord_france_7_2" father="Hero.lord_france_7_1" faction="Faction.clan_france_7"/>
+	<Hero id="lord_france_7_3" father="Hero.lord_france_7_1" faction="Faction.clan_france_7"/>
+	<Hero id="lord_france_7_4" father="Hero.lord_france_7_1" faction="Faction.clan_france_7"/>
+
+	<!-- clan 8: Maison de Lusignan Maison de Évreux -->
+	<Hero id="lord_france_8_1" spouse="Hero.lord_france_8_2" faction="Faction.clan_france_8"/>
+	<Hero id="lord_france_8_2" spouse="Hero.lord_france_8_1" faction="Faction.clan_france_8"/>
+	<Hero id="lord_france_8_3" father="Hero.lord_france_8_1" mother="Hero.lord_france_8_2" faction="Faction.clan_france_8"/>
+	<Hero id="lord_france_8_4" father="Hero.lord_france_8_1" mother="Hero.lord_france_8_2" faction="Faction.clan_france_8"/>
+	<Hero id="lord_france_8_5" father="Hero.lord_france_8_1" mother="Hero.lord_france_8_2" faction="Faction.clan_france_8"/>
+	<Hero id="lord_france_8_6" faction="Faction.clan_france_8"/>
+	<Hero id="lord_france_8_7" faction="Faction.clan_france_8"/>
+
+	<!-- clan 9: Maison de Évreux -->
+	<Hero id="lord_france_9_1" spouse="Hero.lord_france_9_2" faction="Faction.clan_france_9"/>
+	<Hero id="lord_france_9_2" spouse="Hero.lord_france_9_1" faction="Faction.clan_france_9"/>
+	<Hero id="lord_france_9_3" faction="Faction.clan_france_9"/>
+
+	<!-- clan 10: Maison Capétienne d'Artois -->
+	<Hero id="lord_france_10_1" faction="Faction.clan_france_10"/>
+	<Hero id="lord_france_10_2" father="Hero.lord_france_10_1" faction="Faction.clan_france_10"/>
+	<Hero id="lord_france_10_3" father="Hero.lord_france_10_1" faction="Faction.clan_france_10"/>
+
+	<!-- clan 11: Maison de La Tour d'Auvergne -->
+	<Hero id="lord_france_11_1" faction="Faction.clan_france_11"/>
+	<Hero id="lord_france_11_2" faction="Faction.clan_france_11"/>
+	<Hero id="lord_france_11_3" father="Hero.lord_france_11_1" faction="Faction.clan_france_11"/>
+	<Hero id="lord_france_11_4" father="Hero.lord_france_11_1" faction="Faction.clan_france_11"/>
+
+	<!-- clan 12: Maison de Dampierre-Flanders -->
+	<Hero id="dead_lord_france_1" spouse="Hero.lord_france_12_0" alive="false" faction="Faction.clan_france_12"/>
+	<Hero id="dead_lord_france_2" father="Hero.dead_lord_france_1" mother="Hero.lord_france_12_0" alive="false" faction="Faction.clan_france_12"/>
+	<Hero id="lord_france_12_2_1" spouse="Hero.dead_lord_france_2" faction="Faction.clan_france_12"/>
+	<Hero id="lord_france_12_0" spouse="Hero.dead_lord_france_1" faction="Faction.clan_france_12"/>
+	<Hero id="lord_france_12_1" father="Hero.dead_lord_france_1" mother="Hero.lord_france_12_0" spouse="Hero.lord_france_12_1_1" faction="Faction.clan_france_12"/>
+	<Hero id="lord_france_12_1_1" spouse="Hero.lord_france_12_1" faction="Faction.clan_france_12"/>
+	<Hero id="lord_france_12_1_2" father="Hero.lord_france_12_1" mother="Hero.lord_france_12_1_1" faction="Faction.clan_france_12"/>
+	<Hero id="lord_france_12_1_3" father="Hero.lord_france_12_1" mother="Hero.lord_france_12_1_1" faction="Faction.clan_france_12"/>
+	<Hero id="lord_france_12_1_4" father="Hero.lord_france_12_1" mother="Hero.lord_france_12_1_1" faction="Faction.clan_france_12"/>
+	<Hero id="lord_france_12_1_5" father="Hero.lord_france_12_1" mother="Hero.lord_france_12_1_1" faction="Faction.clan_france_12"/>
+	<Hero id="lord_france_12_1_6" father="Hero.lord_france_12_1" mother="Hero.lord_france_12_1_1" faction="Faction.clan_france_12"/>
+	<Hero id="lord_france_12_1_7" father="Hero.lord_france_12_1" mother="Hero.lord_france_12_1_1" faction="Faction.clan_france_12"/>
+	<Hero id="lord_france_12_3" father="Hero.dead_lord_france_1" mother="Hero.lord_france_12_0" spouse="Hero.lord_france_12_3_1" faction="Faction.clan_france_12"/>
+	<Hero id="lord_france_12_3_1" spouse="Hero.lord_france_12_3" faction="Faction.clan_france_12"/>
+	<Hero id="lord_france_12_3_2" father="Hero.lord_france_12_3" mother="Hero.lord_france_12_3_1" faction="Faction.clan_france_12"/>
+</Heroes>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<partyTemplates>
+     <!-- Villagers -->
+	<MBPartyTemplate id="villager_gaelic_template">
+		<stacks>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_gaelic"/>
+		</stacks>
+	</MBPartyTemplate>
+	
+	 <!-- Lords & Town Garrison -->
+    <MBPartyTemplate id="kingdom_hero_party_GAELIC_template">
+        <stacks>
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.gaelic_basic_root"/> <!-- Gaelic Armed Peasant -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.gaelic_basic_root0"/> <!-- Kern Recruit -->
+            <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.gaelic_basic_root00"/> <!-- Kern Spearman -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.gaelic_basic_root000"/> <!-- Kern Veteran Spearman -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.gaelic_basic_root0000"/> <!-- Kern Serjeant -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.gaelic_basic_root0001"/> <!-- Kern Horse Boy -->
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.gaelic_basic_root1"/> <!-- Kern Recruit Archer -->
+            <PartyTemplateStack min_value="6" max_value="10" troop="NPCCharacter.gaelic_basic_root10"/> <!-- Kern Archer -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.gaelic_basic_root100"/> <!-- Kern Longbowman -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.gaelic_basic_root101"/> <!-- Kern Crossbowman -->
+            <PartyTemplateStack min_value="6" max_value="10" troop="NPCCharacter.gaelic_elite_root"/> <!-- Gaelic Scion -->
+            <PartyTemplateStack min_value="5" max_value="8" troop="NPCCharacter.gaelic_elite_root0"/> <!-- Gaelic Noble Cavalryman -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.gaelic_elite_root00"/> <!-- Gaelic Noble Clansman -->
+            <PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.gaelic_elite_root000"/> <!-- Gaelic Noble Chieftain -->
+            <PartyTemplateStack min_value="7" max_value="14" troop="NPCCharacter.gaelic_elite_root1"/> <!-- Gallóglach Recruit -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.gaelic_elite_root10"/> <!-- Gallóglach Footman -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.gaelic_elite_root100"/> <!-- Gallóglach Shieldbreaker -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.gaelic_elite_root101"/> <!-- Gallóglach Sword-bearer -->
+        </stacks>
+    </MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_GAELIC_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.gaelic_basic_root00"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.gaelic_basic_root000"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.gaelic_basic_root0000"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.gaelic_elite_root100"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_GAELIC_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.gaelic_basic_root00"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.gaelic_basic_root000"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.gaelic_basic_root0000"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.gaelic_elite_root100"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.gaelic_elite_root00"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_GAELIC_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.gaelic_basic_root00"/>
+			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.gaelic_basic_root000"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.gaelic_basic_root0000"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.gaelic_elite_root100"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.gaelic_elite_root00"/>
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate id="rebels_gaelic_template">
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.gaelic_basic_root"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="caravan_template_gaelic">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_gaelic"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_gaelic"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_gaelic"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="elite_caravan_template_gaelic">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_gaelic"/>
+			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_gaelic"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_gaelic"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_gaelic"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="militia_gaelic_template">
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.gaelic_militia_spearman"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.gaelic_militia_archer"/>
+		</stacks>
+	</MBPartyTemplate>
+	
+	
+	<MBPartyTemplate id="vassal_reward_troops_gaelic">
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.gaelic_elite_root100"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.gaelic_elite_root000"/>
+		</stacks>
+	</MBPartyTemplate>
+</partyTemplates>

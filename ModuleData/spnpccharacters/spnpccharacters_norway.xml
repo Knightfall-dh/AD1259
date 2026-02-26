@@ -187,7 +187,7 @@
 				<equipment slot="Body" id="Item.fine_town_tunic"/>
 				<equipment slot="Leg" id="Item.ladys_shoe"/>
 			</EquipmentRoster>
-			<EquipmentSet id="nor_bat_template_medium"/>
+			<EquipmentSet id="norwegian_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="townswoman_child_norwegian" name="{=femalechild}Child" age="6" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
@@ -203,7 +203,7 @@
 				<equipment slot="Body" id="Item.footmans_tunic"/>
 				<equipment slot="Leg" id="Item.ladys_shoe"/>
 			</EquipmentRoster>
-			<EquipmentSet id="nor_bat_template_medium"/>
+			<EquipmentSet id="norwegian_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="townswoman_teenager_norwegian" name="{=femaleteenager}Teenager" age="14" is_female="true" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
@@ -225,7 +225,7 @@
 				<equipment slot="Body" id="Item.vlandian_dress"/>
 				<equipment slot="Leg" id="Item.ladys_shoe"/>
 			</EquipmentRoster>
-			<EquipmentSet id="nor_bat_template_medium"/>
+			<EquipmentSet id="norwegian_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Ransom Broker -->
@@ -606,7 +606,7 @@
 				<equipment slot="Body" id="Item.fine_town_tunic"/>
 				<equipment slot="Leg" id="Item.ladys_shoe"/>
 			</EquipmentRoster>
-			<EquipmentSet id="nor_bat_template_medium"/>
+			<EquipmentSet id="norwegian_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="townsman_child_norwegian" name="{=malechild}Child" age="6" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
@@ -632,7 +632,7 @@
 				<equipment slot="Body" id="Item.bandit_leather_water_flask"/>
 				<equipment slot="Leg" id="Item.ladys_shoe"/>
 			</EquipmentRoster>
-			<EquipmentSet id="nor_bat_template_medium"/>
+			<EquipmentSet id="norwegian_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="townsman_teenager_norwegian" name="{=maleteenager}Teenager" age="14" is_female="false" default_group="Infantry" is_hero="false" occupation="Townsfolk" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
@@ -657,7 +657,7 @@
 				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 				<equipment slot="Leg" id="Item.fine_town_boots"/>
 			</EquipmentRoster>
-			<EquipmentSet id="nor_bat_template_medium"/>
+			<EquipmentSet id="norwegian_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
 	<!--  -->
@@ -936,7 +936,7 @@
 				<equipment slot="Body" id="Item.tundra_tunic"/>
 				<equipment slot="Leg" id="Item.ladys_shoe"/>
 			</EquipmentRoster>
-			<EquipmentSet id="nor_bat_template_medium"/>
+			<EquipmentSet id="norwegian_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="villager_child_norwegian" name="{=malechild}Child" age="6" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
@@ -956,7 +956,7 @@
 				<equipment slot="Body" id="Item.peasant_costume"/>
 				<equipment slot="Leg" id="Item.ladys_shoe"/>
 			</EquipmentRoster>
-			<EquipmentSet id="nor_bat_template_medium"/>
+			<EquipmentSet id="norwegian_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="villager_teenager_norwegian" name="{=maleteenager}Teenager" age="14" is_female="false" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
@@ -981,7 +981,7 @@
 				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 				<equipment slot="Leg" id="Item.fine_town_boots"/>
 			</EquipmentRoster>
-			<EquipmentSet id="nor_bat_template_medium"/>
+			<EquipmentSet id="norwegian_bat_template_medium"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="village_woman_infant_norwegian" name="{=femaleinfant}Infant" age="3" is_female="true" default_group="Infantry" is_hero="false" occupation="Villager" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
@@ -1521,6 +1521,400 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
+	<!-- #region Tournament templates -->
+	<NPCCharacter id="tournament_template_norwegian_one_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_norwegian_one_participant_set_v1" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_norwegian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_2_t4"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_norwegian_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_norwegian_one_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_norwegian_one_participant_set_v2" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_norwegian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_b3"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_norwegian_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_norwegian_one_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_norwegian_one_participant_set_v2" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_norwegian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_b3"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_norwegian_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_norwegian_two_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_norwegian_two_participant_set_v1" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_norwegian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.XIII_sword_7"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_norwegian_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_norwegian_two_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_norwegian_two_participant_set_v2" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_norwegian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_6"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_6"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_norwegian_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_norwegian_two_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_norwegian_two_participant_set_v3" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_norwegian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_6"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_14"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_norwegian_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_norwegian_four_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_norwegian_four_participant_set_v1" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_norwegian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.sturgia_2haxe_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_norwegian_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_norwegian_four_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_norwegian_four_participant_set_v2" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_norwegian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.sturgia_2haxe_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_norwegian_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_norwegian_four_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_norwegian_four_participant_set_v3" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_norwegian"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.sturgia_2haxe_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.sturgia_2haxe_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_norwegian_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endregion Tournament templates-->
+	<!-- region Sweden - Sturgia -->
+	<NPCCharacter id="gear_practice_dummy_norwegian" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.norwegian" name="{=!}Sweden Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.nordic_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.northern_tunic"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_norwegian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="weapon_practice_stage_1_norwegian" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.norwegian" name="{=!}Sweden Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_1_t2"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item2" id="Item.hunting_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_norwegian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="weapon_practice_stage_2_norwegian" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.norwegian" name="{=!}Sweden Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+				<equipment slot="Item2" id="Item.hunting_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+				<equipment slot="Item1" id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_norwegian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="weapon_practice_stage_3_norwegian" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.norwegian" name="{=!}Sweden Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item2" id="Item.hunting_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+				<equipment slot="Item1" id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_norwegian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- endregion -->
 	<!---old versions-->
 	<NPCCharacter id="player_char_creation_norwegian" name="{=!}with two-handed swords" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.norwegian" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>

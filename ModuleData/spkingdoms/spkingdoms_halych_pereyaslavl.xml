@@ -17,7 +17,8 @@
 	         ruler_title="{=pereyaslavlFactionRulerTitle}King"
 	         text="{=pereyaslavlFactionText} Description.">
 		<relationships>
-           
+            <relationship kingdom="Kingdom.galicia" value="-1" isAtWar="false"/>
+            <relationship kingdom="Kingdom.kiev" value="10" isAtWar="false"/>
         </relationships>
 		<policies>
 			<policy id="policy_debasement_of_the_currency"/>

@@ -6,7 +6,7 @@
         </xsl:copy>
     </xsl:template>
 
-   <xsl:template match="NPCCharacter[@id='main_hero']"/>
+   
 
     <!--Khuzait-->
     <xsl:template match="NPCCharacter[@id='dead_lord_6_1']"/>
@@ -81,7 +81,6 @@
     <xsl:template match="NPCCharacter[@id='lord_5_16_1']"/>
     <xsl:template match="NPCCharacter[@id='lord_5_17']"/>
     <xsl:template match="NPCCharacter[@id='lord_5_17_1']"/>
-    <xsl:template match="NPCCharacter[@id='lord_B8_l']"/>
     <xsl:template match="NPCCharacter[@id='lord_5_1_1']"/>
     <xsl:template match="NPCCharacter[@id='lord_5_3']"/>
     <xsl:template match="NPCCharacter[@id='lord_5_3_2']"/>
@@ -107,7 +106,8 @@
     <xsl:template match="NPCCharacter[@id='lord_5_21']"/>
     <xsl:template match="NPCCharacter[@id='lord_5_21_1']"/>
     <xsl:template match="NPCCharacter[@id='lord_5_21_2']"/>
-    <xsl:template match="NPCCharacter[@id='lord_B8_s']"/>
+    <xsl:template match="NPCCharacter[@id='lord_B8_l']"/>
+	<xsl:template match="NPCCharacter[@id='lord_B8_s']"/>
     <xsl:template match="NPCCharacter[@id='lord_B8_c']"/>
 
     <!--Vlandia-->

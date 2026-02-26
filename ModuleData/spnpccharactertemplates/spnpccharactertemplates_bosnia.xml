@@ -1,5 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
+	<!-- SandBox.GauntletUI.CharacterCreation, BodyGenerator -->
+	<NPCCharacter id="facgen_template_test_char_0" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.bosnia" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bosnia"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_1" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.bosnia" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bosnia"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_2" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.bosnia" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bosnia"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_3" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.bosnia" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bosnia"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_4" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.bosnia" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bosnia"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_5" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.bosnia" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bosnia"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_6" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.bosnia" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bosnia"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_7" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.bosnia" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bosnia"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_8" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.bosnia" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bosnia"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_9" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.bosnia" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bosnia"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<!--  -->
 	<NPCCharacter id="npc_wanderer_equipment_template_bosnia" default_group="Infantry" is_hero="false" level="16" name="{=!}wanderer_equipment" culture="Culture.bosnia" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
 		<face>
 			<face_key_template value="BodyProperty.villager_bosnia"/>
@@ -26,6 +128,39 @@
 	</NPCCharacter>
 	<!-- #endregion-->
 	<!--#region Townsfolk Template-->
+	<NPCCharacter id="guard" default_group="Infantry" formation_position_preference="Front" level="11" name="{=guardnoun}Guard" occupation="Townsfolk" culture="Culture.bosnia" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_bosnia"/>
+		</face>
+		<skills>
+			<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Throwing" value="50"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.tzkurion_axe_t3"/>
+				<equipment slot="Item1" id="Item.strapped_round_shield"/>
+				<equipment slot="Item2" id="Item.triangluar_spear_t3"/>
+				<equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_padded_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tzkurion_axe_t3"/>
+				<equipment slot="Item1" id="Item.strapped_round_shield"/>
+				<equipment slot="Item2" id="Item.triangluar_spear_t3"/>
+				<equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_padded_mitten"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="villager_bosnia" default_group="Infantry" level="1" name="{=bosniapeasantman}bosnian Peasant" occupation="Villager" culture="Culture.bosnia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_bosnia"/>
@@ -226,6 +361,30 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--#endregion Fighter Template-->
+	<NPCCharacter id="civillian_template_gangster_tier1_bosnia" name="{=!}civillian_template_gangster_tier1_bosnia" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.bosnia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_bosnia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="civillian_template_gangster_tier1_bosnia"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="civillian_template_gangster_tier2_bosnia" name="{=!}civillian_template_gangster_tier2_bosnia" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.bosnia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_bosnia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="civillian_template_gangster_tier2_bosnia"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="civillian_template_gangster_tier3_bosnia" name="{=!}civillian_template_gangster_tier3_bosnia" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.bosnia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_bosnia"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="civillian_template_gangster_tier3_bosnia"/>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="bosnia_troop_civilian_template_t1" name="{=!}bosnia_troop_civilian_template_t1" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.bosnia" is_template="true" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_bosnia"/>

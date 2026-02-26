@@ -8,7 +8,10 @@
 	<Hero id="dead_lord_denmark_4" alive="false" spouse="Hero.dead_lord_denmark_1" faction="Faction.clan_denmark_1"/>
 	<Hero id="dead_lord_denmark_5" alive="false" spouse="Hero.lord_denmark_1_1" father="Hero.dead_lord_denmark_1" mother="Hero.dead_lord_denmark_4" faction="Faction.clan_denmark_1"/>
 	<Hero id="lord_denmark_1_1" spouse="Hero.dead_lord_denmark_5" faction="Faction.clan_denmark_1"/>
-	<Hero id="lord_denmark_1_1_1" spouse="Hero.lord_2_7" father="Hero.dead_lord_denmark_5" mother="Hero.lord_denmark_1_1" faction="Faction.clan_denmark_1"/>
+	
+	<!-- link to swedish king-->
+	<Hero id="lord_denmark_1_1_1" spouse="Hero.lord_swedish_1_1" father="Hero.dead_lord_denmark_5" mother="Hero.lord_denmark_1_1" faction="Faction.clan_denmark_1"/>
+	
 	<Hero id="lord_denmark_1_1_2" father="Hero.dead_lord_denmark_5" mother="Hero.lord_denmark_1_1" faction="Faction.clan_denmark_1"/>
 	<Hero id="lord_denmark_1_1_3" father="Hero.dead_lord_denmark_5" mother="Hero.lord_denmark_1_1" faction="Faction.clan_denmark_1"/>
 	<Hero id="lord_denmark_1_1_4" father="Hero.dead_lord_denmark_5" mother="Hero.lord_denmark_1_1" faction="Faction.clan_denmark_1"/>
@@ -75,7 +78,11 @@
 	<!-- clan 7: Huset Skarsholm -->
 	<!-- Svantepolk Knutsson Viby and his father Knut Valdemarsson, whose mother was Helena Guttormsdotter (mistress of Valdemar II of Denmark, hence illegitimate line). -->
 	<Hero id="lord_denmark_7a" spouse="Hero.lord_poland_8x" faction="Faction.clan_denmark_7"/>
+	
+	<!-- link to sweden clan 9-->
 	<Hero id="lord_denmark_7b" father="Hero.lord_denmark_7a" mother="Hero.lord_poland_8x" spouse="Hero.lord_sweden_10b" faction="Faction.clan_denmark_7"/>
+	
+	
 	<!-- 3 of many children of Svantepolk Knutsson Viby -->
 	<Hero id="lord_denmark_7c" father="Hero.lord_denmark_7b" mother="Hero.lord_sweden_10b" faction="Faction.clan_denmark_7"/>
 	<Hero id="lord_denmark_7d" father="Hero.lord_denmark_7b" mother="Hero.lord_sweden_10b" faction="Faction.clan_denmark_7"/>

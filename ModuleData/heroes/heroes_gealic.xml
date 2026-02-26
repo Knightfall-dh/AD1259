@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- clan 1 -->
+	<Hero id="dead_lord_gaelic_1" alive="false" faction="Faction.clan_gaelic_1"/>
+	<Hero id="dead_lord_gaelic_2" spouse="Hero.dead_lord_gaelic_3" alive="false" faction="Faction.clan_gaelic_1"/>
+	<Hero id="dead_lord_gaelic_3" spouse="Hero.dead_lord_gaelic_2" alive="false" faction="Faction.clan_gaelic_1"/>
+	<Hero id="dead_lord_gaelic_4" father="Hero.dead_lord_gaelic_2" mother="Hero.dead_lord_gaelic_3" alive="false" faction="Faction.clan_gaelic_1"/>
+	<Hero id="lord_gaelic_1_1" spouse="Hero.lord_gaelic_1_2" father="Hero.dead_lord_gaelic_1" faction="Faction.clan_gaelic_1" text="{=8SiW73EF}text...."/>
+	<Hero id="lord_gaelic_1_2" spouse="Hero.lord_gaelic_1_1" faction="Faction.clan_gaelic_1"/>
+	<Hero id="lord_gaelic_1_3" father="Hero.lord_gaelic_1_1" faction="Faction.clan_gaelic_1"/>
+	<Hero id="lord_gaelic_1_4" father="Hero.dead_lord_gaelic_4" faction="Faction.clan_gaelic_1"/>
+	<Hero id="lord_gaelic_1_5" father="Hero.dead_lord_gaelic_4" faction="Faction.clan_gaelic_1"/>
+	<Hero id="lord_gaelic_1_6" father="Hero.lord_gaelic_1_5" faction="Faction.clan_gaelic_1"/>
+	<Hero id="lord_gaelic_1_7" father="Hero.dead_lord_gaelic_2" mother="Hero.dead_lord_gaelic_3" faction="Faction.clan_gaelic_1"/>
+	<Hero id="lord_gaelic_1_8" father="Hero.lord_gaelic_1_7" faction="Faction.clan_gaelic_1"/>
+	<Hero id="lord_gaelic_1_9" father="Hero.lord_gaelic_1_7" faction="Faction.clan_gaelic_1"/>
+	<!-- clan 2 -->
+	<Hero id="dead_lord_gaelic_6" spouse="Hero.dead_lord_gaelic_6" alive="false" faction="Faction.clan_gaelic_2"/>
+	<Hero id="dead_lord_gaelic_7" spouse="Hero.dead_lord_gaelic_7" alive="false" faction="Faction.clan_gaelic_2"/>
+	<Hero id="lord_gaelic_2_1" spouse="Hero.lord_gaelic_2_2" father="Hero.dead_lord_gaelic_6" mother="Hero.dead_lord_gaelic_7" faction="Faction.clan_gaelic_2" text="{=HjGYftkH}text......"/>
+	<Hero id="lord_gaelic_2_2" spouse="Hero.lord_gaelic_2_1" faction="Faction.clan_gaelic_2"/>
+	<Hero id="lord_gaelic_2_3" father="Hero.lord_gaelic_2_1" mother="Hero.lord_gaelic_2_2" faction="Faction.clan_gaelic_2"/>
+	<Hero id="lord_gaelic_2_4" father="Hero.lord_gaelic_2_3" faction="Faction.clan_gaelic_2"/>
+	<Hero id="lord_gaelic_2_5" spouse="Hero.lord_gaelic_2_6" faction="Faction.clan_gaelic_2"/>
+	<Hero id="lord_gaelic_2_6" spouse="Hero.lord_gaelic_2_5" faction="Faction.clan_gaelic_2"/>
+	<!-- clan 3 -->
+	<Hero id="dead_lord_gaelic_8" alive="false" faction="Faction.clan_gaelic_3"/>
+	<Hero id="lord_gaelic_3_1" spouse="Hero.lord_gaelic_3_2" father="Hero.dead_lord_gaelic_8" faction="Faction.clan_gaelic_3"/>
+	<Hero id="lord_gaelic_3_2" spouse="Hero.lord_gaelic_3_1" faction="Faction.clan_gaelic_3" />
+	<Hero id="lord_gaelic_3_3" father="Hero.lord_gaelic_3_1" mother="Hero.lord_gaelic_3_2" faction="Faction.clan_gaelic_3"/>
+	<Hero id="lord_gaelic_3_4" father="Hero.lord_gaelic_3_1" mother="Hero.lord_gaelic_3_2" faction="Faction.clan_gaelic_3"/>
+	<Hero id="lord_gaelic_3_5" father="Hero.lord_gaelic_3_1" mother="Hero.lord_gaelic_3_2" faction="Faction.clan_gaelic_3"/>
+	<Hero id="lord_gaelic_3_6" father="Hero.lord_gaelic_3_1" mother="Hero.lord_gaelic_3_2" faction="Faction.clan_gaelic_3"/>
+	<!-- clan 4 -->
+	<Hero id="lord_gaelic_4_1" spouse="Hero.lord_gaelic_4_2" faction="Faction.clan_gaelic_4"/>
+	<Hero id="lord_gaelic_4_2" spouse="Hero.lord_gaelic_4_1" faction="Faction.clan_gaelic_4"/>
+	<Hero id="lord_gaelic_4_3" faction="Faction.clan_gaelic_4"/>
+	<Hero id="lord_gaelic_4_4" faction="Faction.clan_gaelic_4"/>
+	<!-- clan 5 -->
+	<Hero id="lord_gaelic_5_1" spouse="Hero.lord_gaelic_5_2" faction="Faction.clan_gaelic_5"/>
+	<Hero id="lord_gaelic_5_2" spouse="Hero.lord_gaelic_5_1" faction="Faction.clan_gaelic_5"/>
+	<Hero id="lord_gaelic_5_3" father="Hero.lord_gaelic_5_1" mother="Hero.lord_gaelic_5_2" faction="Faction.clan_gaelic_5"/>
+	<Hero id="lord_gaelic_5_4" faction="Faction.clan_gaelic_5"/>
+	<!-- clan 6 -->
+	<Hero id="lord_gaelic_6_1" spouse="Hero.lord_gaelic_6_2" faction="Faction.clan_gaelic_6"/>
+	<Hero id="lord_gaelic_6_2" spouse="Hero.lord_gaelic_6_1" faction="Faction.clan_gaelic_6"/>
+	<Hero id="lord_gaelic_6_3" spouse="Hero.lord_gaelic_6_4" faction="Faction.clan_gaelic_6"/>
+	<Hero id="lord_gaelic_6_4" spouse="Hero.lord_gaelic_6_3" faction="Faction.clan_gaelic_6"/>
+	<Hero id="lord_gaelic_6_5" father="Hero.lord_gaelic_6_3" mother="Hero.lord_gaelic_6_4" faction="Faction.clan_gaelic_6"/>
+	<!-- clan 7 -->
+	<Hero id="lord_gaelic_7_1" faction="Faction.clan_gaelic_7"/>
+	<Hero id="lord_gaelic_7_2" father="Hero.lord_gaelic_7_1" faction="Faction.clan_gaelic_7"/>
+	<Hero id="lord_gaelic_7_3" father="Hero.lord_gaelic_7_1" faction="Faction.clan_gaelic_7"/>
+	<Hero id="lord_gaelic_7_4" father="Hero.lord_gaelic_7_1" faction="Faction.clan_gaelic_7"/>
+	<Hero id="lord_gaelic_7_5" father="Hero.lord_gaelic_7_1" spouse="Hero.lord_gaelic_7_6" faction="Faction.clan_gaelic_7"/>
+	<Hero id="lord_gaelic_7_6" spouse="Hero.lord_gaelic_7_5" faction="Faction.clan_gaelic_7"/>
+	<!-- clan 8 fen Caernacht -->
+	<Hero id="dead_lord_gaelic_5" alive="false" faction="Faction.clan_gaelic_8"/>
+	<Hero id="lord_gaelic_8_1" father="Hero.dead_lord_gaelic_5" faction="Faction.clan_gaelic_8"/>
+	<Hero id="lord_gaelic_8_2" father="Hero.dead_lord_gaelic_5" faction="Faction.clan_gaelic_8"/>
+	<Hero id="lord_gaelic_8_3" father="Hero.dead_lord_gaelic_5" faction="Faction.clan_gaelic_8"/>
+</Heroes>

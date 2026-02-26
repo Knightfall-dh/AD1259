@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+    <Kingdom id="gaelic"
+	         initial_home_settlement="Settlement.castle_kinbane"
+             owner="Hero.lord_gaelic_1_1"
+             banner_key="11.2.126.1450.1450.764.764.1.1.180.427.144.143.562.284.658.798.0.0.-64.427.2.143.562.284.723.834.0.0.-64.427.144.143.123.193.918.641.0.0.142.427.116.143.115.153.925.626.0.0.142.427.143.143.124.143.929.620.0.0.142.510.143.143.465.318.833.848.0.0.-123.427.144.143.370.178.709.622.0.0.1.427.144.116.370.178.702.608.0.0.-10.510.128.128.479.55.684.836.0.0.-68.510.128.128.432.55.712.830.0.0.-68.510.128.128.379.55.739.810.0.0.-68.510.128.128.316.55.768.793.0.0.-68.510.128.128.275.55.817.767.0.0.-68.510.128.128.249.55.830.738.0.0.-68.510.128.128.189.55.869.704.0.0.-68.510.128.128.268.55.788.767.0.0.-68.510.128.128.178.55.854.731.0.0.-68.510.128.128.129.55.884.675.0.0.-68.427.116.116.379.182.705.599.0.0.-7.427.143.116.376.182.705.592.0.0.-7.510.143.116.465.280.875.870.0.0.-116.427.2.143.159.178.949.600.0.0.144.510.116.116.527.325.843.865.0.0.-119.510.143.116.527.325.847.865.0.0.-119.512.144.143.290.90.563.617.0.0.-73.512.144.143.290.90.567.583.0.0.-73.512.2.143.290.90.595.509.0.0.-73.512.2.143.253.132.644.562.0.0.297.503.116.116.51.51.854.871.0.0.-119.503.143.116.41.41.854.871.0.0.-119.503.116.116.65.65.797.984.0.0.-119.503.143.116.52.52.797.984.0.0.-119.503.116.116.42.42.914.757.0.0.-119.503.143.116.33.33.914.757.0.0.-119.505.143.116.56.36.874.596.0.0.34.503.2.116.367.220.741.544.0.0.-7.503.2.116.367.220.761.525.0.0.-7.439.42.116.75.75.562.583.0.0.-8.439.42.116.75.75.555.632.0.0.-8.439.42.116.75.75.551.681.0.0.4.439.42.116.65.65.559.728.0.0.13.439.42.116.65.65.567.771.0.0.16.439.42.116.59.59.580.812.0.0.20.439.42.116.53.53.595.846.0.0.26.439.42.116.48.48.610.877.0.0.26.439.42.116.41.41.625.904.0.0.33.439.42.116.38.38.639.927.0.0.33.439.42.116.32.32.652.945.0.0.40.439.42.116.28.28.666.961.0.0.42.439.42.116.23.23.678.973.0.0.40.439.42.116.21.21.687.983.0.0.48.439.42.116.19.19.698.993.0.0.54"
+             primary_banner_color="0xff000000"
+             secondary_banner_color="0xff000000"
+             color="FFf5f5f5"
+             color2="FF8d2a1c"
+             culture="Culture.gaelic"
+             settlement_banner_mesh="encounter_flag_e"
+             flag_mesh="info_screen_flags_b"
+             name="{=irelandFactionName}Gaelic Kingdoms"
+             short_name="{=irelandFactionShortName}Gaelic Kingdoms"
+             title="{=irelandFactionTitle}Gaelic Kingdoms"
+             ruler_title="{=irelandFactionRulerTitle}High King"
+             text="{=irelandFactionText}After the Norman invasion twelfth-century, Ireland was made a lordship of the King of England. What eventually occurred in Ireland in the late 12th and early 13th century was a change from acquiring lordship over men to colonising land. The Cambro-Norman invasion resulted in the founding of walled borough towns, numerous castles and churches, the importing of tenants and the increase in agriculture and commerce; these were among the many permanent changes brought by the Norman invasion and occupation of Ireland.">
+        <relationships>
+
+        </relationships>
+        <policies>
+            <policy id="policy_war_tax"/>
+            <policy id="policy_precarial_land_tenure"/>
+            <policy id="policy_land_tax"/>
+            <policy id="policy_noble_retinues"/>
+        </policies>
+    </Kingdom>
+
+</Kingdoms>

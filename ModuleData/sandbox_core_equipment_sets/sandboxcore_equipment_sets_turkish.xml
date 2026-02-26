@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
-	
-	 <!--  -->
+	<!--  -->
 	<EquipmentRoster id="npc_wanderer_equipment_template_turkish_civilian">
 		<EquipmentSet civilian="true">
 			<Equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
@@ -1305,7 +1304,7 @@
 		</EquipmentSet>
 		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
 	</EquipmentRoster>
-    <EquipmentRoster id="turkish_noncom_template_stoic" culture="Culture.turkish">
+	<EquipmentRoster id="turkish_noncom_template_stoic" culture="Culture.turkish">
 		<EquipmentSet civilian="true">
 			<Equipment slot="Body" id="Item.aserai_female_civil_b"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
@@ -1573,9 +1572,17 @@
 			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	
 	<!-- CUTSCENE COSTUMES -->
 	<!--For Conspiracy costume offset colors should be Black/Dark -ALI -->
+	<EquipmentRoster id="conspirator_cutscene_template" culture="Culture.turkish">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.seax"/>
+			<Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
+			<Equipment slot="Head" id="Item.pilgrim_hood"/>
+			<Equipment slot="Leg" id="Item.belted_leather_boots"/>
+			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
+		</EquipmentSet>
+	</EquipmentRoster>
 	<EquipmentRoster id="marriage_female_turkish_cutscene_template" culture="Culture.turkish">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.fine_southern_dress"/>

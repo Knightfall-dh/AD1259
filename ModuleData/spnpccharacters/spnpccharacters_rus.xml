@@ -1791,6 +1791,400 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
+	<!-- #region Tournament templates -->
+	<NPCCharacter id="tournament_template_rus_one_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_rus_one_participant_set_v1" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_rus"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.battania_axe_2_t4"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_rus_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_rus_one_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_rus_one_participant_set_v2" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_rus"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_b3"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_rus_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_rus_one_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_rus_one_participant_set_v2" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_rus"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_b3"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_rus_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_rus_two_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_rus_two_participant_set_v1" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_rus"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.XIII_sword_7"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_rus_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_rus_two_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_rus_two_participant_set_v2" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_rus"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_6"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_6"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_rus_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_rus_two_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_rus_two_participant_set_v3" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_rus"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_6"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_14"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_rus_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_rus_four_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_rus_four_participant_set_v1" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_rus"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.sturgia_2haxe_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_rus_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_rus_four_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_rus_four_participant_set_v2" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_rus"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.sturgia_2haxe_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_rus_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_rus_four_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_rus_four_participant_set_v3" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_rus"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.sturgia_2haxe_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.sturgia_2haxe_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Horse" id="Item.sturgia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_rus_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endregion Tournament templates-->
+	<!-- region rus -->
+	<NPCCharacter id="gear_practice_dummy_rus" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.rus" name="{=!}Sturgia Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.tundra_tunic"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.nordic_tunic"/>
+				<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.northern_tunic"/>
+				<equipment slot="Leg" id="Item.mail_chausses"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_rus" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="weapon_practice_stage_1_rus" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.rus" name="{=!}Sturgia Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_1_t2"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item2" id="Item.hunting_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_2_t2"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_rus" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="weapon_practice_stage_2_rus" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.rus" name="{=!}Sturgia Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+				<equipment slot="Item2" id="Item.hunting_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+				<equipment slot="Item1" id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_rus" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="weapon_practice_stage_3_rus" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.rus" name="{=!}Sturgia Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item2" id="Item.hunting_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4"/>
+				<equipment slot="Item1" id="Item.highland_throwing_axe_1_t2"/>
+				<equipment slot="Item2" id="Item.highland_throwing_axe_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.bearded_axe_t3"/>
+				<equipment slot="Item1" id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.northern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_rus" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- endregion -->
 	<!---old versions-->
 	<NPCCharacter id="player_char_creation_rus" name="{=!}with two-handed swords" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>

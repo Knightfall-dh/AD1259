@@ -1,0 +1,1449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- clans 1 -->
+	<NPCCharacter id="dead_lord_mongolian_1" name="{=vl2tgsKa}Urkhun" age="71" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_archer_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="0012892fd13c100d375a76a3977095388783b3188494663232ab272797d235a700090ae47b7576b50000037f0000000f00000037049140010000000000001140" /-->
+			<BodyProperties version="4" weight="0.7" build="0.6" key="0011880FD13C100D375A76A3977895388783B3188494663232AB272797D235A700068AE6067576B50000037F0000000F00000037049140010000000000781141"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="9"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_1_1" name="{=Toj0vayQ}Batu Khan" age="38" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="38.02" weight="0.5" build="0.5" key="0015FC0D800020CA9E89B79835AE4966A4959AF6F9AF0C3DC8756149D64B84A80277762407B1E944000000000000000000000000000000000000000000F07080"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="gol_king_template_bat_m"/>
+			<EquipmentSet id="gol_king_template_civ_m" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_1_2" name="{=FLrdHzSf}Khadagan" age="39" voice="earnest" culture="Culture.mongolian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" is_hero="true" is_female="true" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0" build="0.4769" key="0005C00CC0FC100ACF976462A77185200E018468F0EF0103B6830C71720A23D40517065601101915000000000000000000000000000000000000000000240000"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="14"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_1_3" name="{=uducgNbf}Sartak" age="18" voice="earnest" default_group="HorseArcher" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_cavalry_skills_rookie" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.8289" build="0.9085" key="001C9808800036519270212A4BB7076824B8763BDAAF7B916A9A1B238431A313026EC024064567A500000000000000000000000000000000000000005AD84005"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_1_4" name="{=2RGc09o0}Hogelun" age="18" voice="softspoken" default_group="Cavalry" is_female="true" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_spy_master_skills" occupation="Lord">
+		<face>
+			<!--face_key value="001cc54fc03c1004e586a65ab6332a27a66555bcbecb2aa6b87bac8b8567a764000209a502628966000000000000000000000000000000000000000001f830c3" /-->
+			<BodyProperties version="4" key="001CC40FC03C1004E586A65AB6332A27A66555BCBECB2AA6B87BAC8B8567A764000639A302628966000000000000000000000000000000000000000000F030C2"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="mongolian_bat_template_lady"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_1_5" name="{=MbnZZE0G}Chagatai" age="19" voice="softspoken" is_female="true" culture="Culture.mongolian" skill_template="SkillSet.spc_matriarch_skills_rookie" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0011D40FC0CC300BF17616D8AD922604EE116506F7EF8110E0C91E3974071051000776030000120E0000000000000000000000000000000000000000340C2083"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="mongolian_bat_template_lady"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_1_6" name="{=AAqB4QxB}Abortu" age="18" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_cavalry_skills_rookie" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.8513" build="0.749" key="0011B80CC0002652917042372BB72A784427765EE8EF61166CAD772283331341068BD068084567D5000000000000000000000000000000000000000003084002"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="16"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clans 2 -->
+	<NPCCharacter id="dead_lord_mongolian_2" name="{=3AMc9o0o}Solun" age="61" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_shock_troop_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="0006a92e16bc15029267b45d98b68da6aa3a478ae653ce59797872993a33d5b4000663b4b4d674aa0000037f0000000f00000037049140010000000000007000" /-->
+			<BodyProperties version="4" key="0005A80E56BC15029267B45D98B68DA6AA3A478AE653CE59797872993A33D5B4000C63B80CD674AA0000037F0000000F00000037049140010000000001907000"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_2_1" name="{=pKf56MdS}Tudun" age="52" voice="ironic" culture="Culture.mongolian" skill_template="SkillSet.spc_knight_skills" default_group="Cavalry" is_hero="true" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9067" build="0.8765" key="001CA00B40002505A27021394CB83B284566793CD6CE760869ABA623872A251306BDE0670B5556350000000000000000000000000000000000000000256820C1"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_heavy"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_2_2" name="{=QJq4VAU7}Ulakci" voice="curt" age="50" is_female="true" culture="Culture.mongolian" skill_template="SkillSet.spc_mounted_archery_skills" occupation="Lord" default_group="HorseArcher" is_hero="true" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.054" build="0.4383" key="0011D40FDA002001E9761DA0AD922600CE626C60F0EF0710F7DA1E1A740E10510847168904634C0A000000000000000000000000000000000000000034944083"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="16"/>
+			<Trait id="Manager" value="14"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Egalitarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_2_3" name="{=mSV1FBu1}Munglig" age="22" voice="ironic" default_group="HorseArcher" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_mounted_archery_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.8457" build="0.7043" key="0016B00880002591A57052353CC733A81534763CD7EF7456798B483684294631076BD0780656661600000000000000000000000000000000000000004EC83044"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="14"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_2_4" name="{=EptYW9tj}Suyiketu" age="19" voice="curt" is_female="false" culture="Culture.mongolian" skill_template="SkillSet.spc_mounted_archery_skills" default_group="HorseArcher" is_hero="true" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19.76" weight="0.3713" build="0.7716" key="0005EC0FC0CC30438A89B6687332AA9A85958249F69F517AA9C588C98725AC8802EC60240E9AC7A5000000000000000000000000000000000000000047D81045"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_2_5" name="{=YUoydtNS}Dokez" age="22" voice="curt" default_group="HorseArcher" is_female="true" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_huntress_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="22.22" weight="0.3713" build="0.7716" key="0005EC0FC0CC30438A89B6687332AA9A85958249F69F517AA9C588C98725AC8802EC60240E9AC7A5000000000000000000000000000000000000000047D81045"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="14"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="14"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_nomad"/>
+			<EquipmentSet id="mongolian_civ_template_nomad" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clans 3 -->
+	<NPCCharacter id="dead_lord_mongolian_3" name="{=GRjLT63Z}Kuyug" age="71" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_mounted_archery_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="000c5e56407c100d445d46a9ba9361467c67a8684a494ab868898a7575d9673300011a39ea9b6a780000037f0000000f00000037049140010000000000003002" /-->
+			<BodyProperties version="4" key="000C5C06407C100D445D46A9BA9361467C67A8684A494AB868898A7575D9673300073A37079B6A780000037F0000000F00000037049140010000000000503003"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="dead_lord_mongolian_4" name="{=k3cm9EgA}Undul" age="51" voice="curt" default_group="Infantry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_dandy_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="00065d26407c300d44e41771225c99957c67a8684a494ab868898a7575d96733000aca34ea9b6a780000037f0000000f00000037049140010000000000003000" /-->
+			<BodyProperties version="4" key="00055C06407C300D44E41771225C99957C67A8684A494AB868898A7575D9673300076A39079B6A780000037F0000000F00000037049140010000000000503000"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_3_1" name="{=XjMsnpgS}Berke" age="42" voice="curt" default_group="HorseArcher" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_chatelaine_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.3531" build="0.4722" key="0015940B402C3754C39748898767B25A78E6B7968A3D58947935C86A959177790987509A0887B667000000000000000000000000000000000000000067183040"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_heavy"/>
+			<EquipmentSet id="mongolian_civ_template_heavy" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_3_2" name="{=9lFmNG5c}Mengu" age="19" voice="curt" default_group="HorseArcher" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_spy_master_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="19" weight="0" build="0" key="001B840F05CC30196D84551BE92816B5859C14AF57FEA7B497D9B597A2756C3C0C4005C208819A890000037F0000000F00000037049140010000000000788080"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_heavy"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_3_3" name="{=aSNUtnbH}Tokoqan" age="20" voice="curt" default_group="HorseArcher" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_huntress_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="20" weight="0.8812" build="0.7079" key="001BD80D93003048647023132CB71B380645780ED9CF69777A9D9525881A92240C6BD0C20945665700000000000000000000000000000000000000000AD030C2"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_heavy"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_3_4" name="{=m9ZgghCo}Holeun" age="23" voice="ironic" is_female="true" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_archer_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="23" weight="0" build="0" key="001B840F00CC300A6D84551BE92816B5859C14AF57FEA7B497D9B597A2756C3C0C4005C208819A890000037F0000000F00000037049140010000000000788080"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_nomad"/>
+			<EquipmentSet id="mongolian_civ_template_nomad" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_3_5" name="{=2OqAomZy}Guyug" age="38" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9087" build="0.8402" key="0013F40CC0001550857042184BB725983516771EC6CE3A17798D571388226925068DE067084577C700000000000000000000000000000000000000004F0040C1"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_heavy"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_3_6" name="{=3a8sskoz}Khorijin" age="37" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0016FC0E5000100158708BD6CDC852299D4AB89EB77F390E84269783AA69586C017776130756C3A900000000000000000000000000000000000000003EF43083"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_3_7" name="{=rBjsDVgz}al-Alta" age="18" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_politician_skills_rookie" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0016F80E5000200EB8708BD6CDC85229D3698B3ABDFE344CD22D3DD538898868017776130796723B00000000000000000000000000000000000000003EF41003"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clans 4 -->
+	<NPCCharacter id="lord_mongolian_4_1" name="{=cdmrCQfC}Hurunag" age="38" voice="curt" is_female="false" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_quartermaster_skills" default_group="Cavalry" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.805" build="0.6475" key="0016E00B400006D3507044293BC820482534773EE5DE57546D6B291183394315056AC05706556766000000000000000000000000000000000000000028C82104"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_4_2" name="{=bVAPtfVG}Khogaghchin" age="37" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_spy_master_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.805" build="0.6475" key="0016E00B400006D3507044293BC820482534773EE5DE57546D6B291183394315056AC05706556766000000000000000000000000000000000000000028C82104"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_4_3" name="{=hzUbrsG6}Temulun" age="18" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_archer_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0011D40FD4CC300BCF7616D8AD922604F4116550F7EF4310E0C91E1974071056016776130600120E000000000000000000000000000000000000000034C42083"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_4_4" name="{=EPVOYcgH}Chilagun" voice="curt" default_group="HorseArcher" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.195" build="0.2239" key="001ED40D80FC06C67988B899C63C8B19698954BC6B89698827479497A849D99900633603067B8965000000000000000000000000000000000000000070CC2103"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_4_5" name="{=p9nM7XwG}Bulughan" age="26" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!--face_key value="000c129e007c03cd7748da3b574b9988d86dbd6945b4b664644589c5283414bc0006b73aba7661cb0000037f0000000f00000037049140010000000000008003" /-->
+			<BodyProperties version="4" key="000C100E007C03CD7748DA3B57429988D86DBD6945B4B664644589C5283414BC000427330A7661CB0000037F0000000F00000037049140010000000000288002"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clans 5 -->
+	<NPCCharacter id="lord_mongolian_5_1" name="{=DVtqrS0T}Husun" age="36" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.8543" build="0.714" key="0015B8088000084AB37043164CC705582586776DF7CE17557B7B4A03851B7804026BD02406457607000000000000000000000000000000000000000050C84080"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_5_2" name="{=JZvihMbB}Chagur" age="34" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_dandy_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0016F80E4000200AB8B5A8AB37C5891C4BA88B3ABDFE344C5ADD18434234CBA6017776130746491E00000000000000000000000000000000000000003EF410C3"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_5_3" name="{=VGxQ98Tp}Kokachin" age="15" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_cavalry_skills_rookie" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0011D40FC0003001E9761DA0AD922600C2226C60F0EF0710F7DA1E1A740E10500167761306634C0A000000000000000000000000000000000000000034C44083"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<!-- TEENAGER -->
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_5_4" name="{=0YZQ8vr8}Badai" age="30" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.8419" build="0.8066" key="001C940AC00018CD647043256BB8222824887A4ED3EF7A517C8B7E1184213914047CD0460754671400000000000000000000000000000000000000004AE03041"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_heavy"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_5_5" name="{=cqu8MATS}Argbadh" age="20" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_politician_skills_rookie" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0011FC0FC0B4300AF97613A1E4410600CB306C0A60EF0500F3B81E14741610460167761306016000000000000000000000000000000000000000000034C42083"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_heavy"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clans 6 -->
+	<NPCCharacter id="lord_mongolian_6_1" name="{=JjGuU6Tt}Kadan" age="38" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_siege_engineering_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.9162" build="0.6798" key="001A980880000809737023143BB71B184445782FD9BF34777B8B47148025DA12038AE03508546644000000000000000000000000000000000000000035102005"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_6_2" name="{=JjK987wB}Borte" age="37" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_mounted_archery_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0016F80CD400100318B5A8AB37C5891C4BA88B3A22AF3A4C6388C1954234CBA601777613076B5C2300000000000000000000000000000000000000003EF41003"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="10"/>
+			<!-- Ilatar's wife. Keeps him in check -->
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_6_3" name="{=RoKwj5XN}Mandukhai" age="18" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_healer_scholar_skills_rookie" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0011DC0FD3FC300E488386A697AAB55B61978D49E9FE8438EC731556996786800137761303C76C170000000000000000000000000000000000000000426C4083"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_6_4" name="{=p7kYHNDJ}Chigu" age="30" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_mounted_archery_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.8474" build="0.8778" key="0017B00C000007488370531C3CC826884583782EFABE43717BBC7536892A5612037DD0350754675600000000000000000000000000000000000000004CE82001"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_6_5" name="{=GysebVMW}Holuikhan" age="22" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_courtier_skills_rookie" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.3" build="0.3" key="000BF80CD100300418762BAD894AB3A687C58B3A22AF3A4C5B2C769832963D44017776130799894800000000000000000000000000000000000000003EF41043"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- clans 7 -->
+	<NPCCharacter id="lord_mongolian_7_1" name="{=TAGefbaW}Megujin" age="41" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.802" build="0.6066" key="0012B80CC0003809737023195BB843782617793FD6DF2B416B7DA901812178230259C02405557705000000000000000000000000000000000000000078A83040"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="18"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_heavy"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_7_2" name="{=9iyfFTok}Orqina" age="40" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_chatelaine_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.3" build="0.4" key="000BF80CD100100318B664517CBB94C8D5398B3A22AF3A4C5B2C76989C692815017776130799894800000000000000000000000000000000000000003EF41043"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_heavy"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_7_3" name="{=2jTyvL4y}Chabi" age="20" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_chatelaine_skills_rookie" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4" build="0.4" key="0011C80E50E410026053AA569B16689986BA77528958D98CA8622BA78AC9695201577613052AB956000000000000000000000000000000000000000042B41084"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_7_4" name="{=IWI3T6zi}Toghoril" age="19" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_faris_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4676" build="0.4954" key="0011F00CC0B423940888751A1794B0496099B698B7A4AD33C63BA5535D78938903677635065B7912000000000000000000000000000000000000000000CC3042"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_heavy"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_7_5" name="{=gh_lord_5}Dayan" age="1" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_intriguer_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4676" build="0.4954" key="0011F00CC0B423940888751A1794B0496099B698B7A4AD33C63BA5535D78938903677635065B7912000000000000000000000000000000000000000000CC3042"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_heavy"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_7_6" name="{=gh_lord_6}Bolormea" age="18" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_chatelaine_skills_rookie" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000BC80FD1000010185895BAB8A7A974AA7C383AE2FF3A45868B383997479BD70177761307BB856400000000000000000000000000000000000000003EF410C3"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_lady"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_7_7" name="{=gh_lord_7}Battsetseg" age="2" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_faris_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000BC80FD1000010185895BAB8A7A974AA7C383AE2FF3A45868B383997479BD70177761307BB856400000000000000000000000000000000000000003EF410C3"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_lady"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Yanserit, Khuzait 8 -->
+	<NPCCharacter id="lord_mongolian_8_1" name="{=haAlaU7N}Kanujan" age="30" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_intriguer_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.8073" build="0.7638" key="001CB80B400028906370542B2CC8201805177A3EE5DE68166BBA982582121925046BC0460655761500000000000000000000000000000000000000005EC03042"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_8_2" name="{=KDznbXh9}Khutulun" age="28" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_intriguer_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000BC80FD1000010185895BAB8A7A974AA7C383AE2FF3A45868B383997479BD70177761307BB856400000000000000000000000000000000000000003EF410C3"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_lady"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_8_3" name="{=aVfnZMt6}Khorilartai" age="43" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7" build="0.7" key="0026F80E40002343B8708B896D682237D5D88B3D557E344C17243FB5B88988680077760307967D3B00000000000000000000000000000000000000003EF41002"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="14"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="4"/>
+			<!-- Earnest but ferocious -->
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_heavy"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_8_4" name="{=gh_lord_3}Jamtsyn" age="33" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.8073" build="0.7638" key="001CB80B400028906370542B2CC8201805177A3EE5DE68166BBA982582121925046BC0460655761500000000000000000000000000000000000000005EC03042"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_8_5" name="{=gh_lord_4}Chimeg" age="30" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000BC80FD1000010185895BAB8A7A974AA7C383AE2FF3A45868B383997479BD70177761307BB856400000000000000000000000000000000000000003EF410C3"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_lady"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Oburit -->
+	<NPCCharacter id="lord_mongolian_9_1" name="{=e0iDOkUq}Tolui" age="53" voice="softspoken" is_female="false" default_group="HorseArcher" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!-- placeholder face key -->
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000BF80CD100300418762BAD894AB3A687C58B3A22AF3A4C5B2C769832963D44017776130799894800000000000000000000000000000000000000003EF41043"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="8"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_9_2" name="{=I6pJg72E}Yesui" age="48" voice="earnest" is_female="true" default_group="HorseArcher" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!-- placeholder face key -->
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000C100E007C03CD7748DA3B57429988D86DBD6945B4B664644589C5283414BC000427330A7661CB0000037F0000000F00000037049140010000000000288002"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_9_3" name="{=bEKtDbS0}Bortu" age="24" voice="earnest" is_female="false" default_group="HorseArcher" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_mounted_archery_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!-- placeholder face key -->
+			<BodyProperties version="4" weight="0.3781" build="0.5478" key="000AB40CC0141840AD48BBECA574462983C78887724DBABB65D6686C8527AA8800D866030D8459A5000000000000000000000000000000000000000063AC10C6"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="khuzait"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="6"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_9_4" name="{=vDqbZTbb}Khulan" age="22" voice="ironic" is_female="true" default_group="HorseArcher" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!-- placeholder face key -->
+			<BodyProperties version="4" weight="0.142" build="0.5648" key="001EC00CC0FC100463B8C87941868498779B3336466B8678C67EEEDEC8AE75950088260308C7A5050000000000000000000000000000000000000000711C10C3"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="HorseArcherFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="14"/>
+			<!-- Can lead a caravan if necessary but better suited to administer -->
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_9_5" name="{=gh_lord_1}Delbee" age="20" voice="softspoken" is_female="true" default_group="HorseArcher" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!-- placeholder face key -->
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000C100E007C03CD7748DA3B57429988D86DBD6945B4B664644589C5283414BC000427330A7661CB0000037F0000000F00000037049140010000000000288002"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_mongolian_9_6" name="{=gh_lord_2}Batzorig" age="19" voice="curt" is_female="true" default_group="HorseArcher" is_hero="true" culture="Culture.mongolian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<!-- placeholder face key -->
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000C100E007C03CD7748DA3B57429988D86DBD6945B4B664644589C5283414BC000427330A7661CB0000037F0000000F00000037049140010000000000288002"/>
+			<hair_tags>
+				<hair_tag name="khuzait"/>
+			</hair_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mongolian_bat_template_medium"/>
+			<EquipmentSet id="mongolian_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

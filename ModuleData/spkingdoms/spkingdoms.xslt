@@ -8,7 +8,6 @@
 
     <xsl:template match="Kingdom[@id='khuzait']"/>
     <xsl:template match="Kingdom[@id='vlandia']"/>
-    
     <xsl:template match="Kingdom[@id='aserai']"/>
     <xsl:template match="Kingdom[@id='sturgia']"/>
     <xsl:template match="Kingdom[@id='battania']"/>

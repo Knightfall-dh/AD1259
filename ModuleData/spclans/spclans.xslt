@@ -89,7 +89,6 @@
 		<xsl:template match="Faction[@id='clan_empire_west_9']"/>
 		
 		<xsl:template match="Faction[@id='looters']"/>	
-		<!---->
 		<xsl:template match="Faction[@id='sea_raiders']"/>	
 		<xsl:template match="Faction[@id='mountain_bandits']"/>	
 		<xsl:template match="Faction[@id='forest_bandits']"/>	
@@ -98,10 +97,6 @@
 		
 		
 		<xsl:template match="Faction[@id='ghilman']"/>	
-		
-		<xsl:template match="Faction[@id='player_faction']"/>
-		
-		
 		<xsl:template match="Faction[@id='skolderbrotva']"/>	
 		<xsl:template match="Faction[@id='legion_of_the_betrayed']"/>	
 		<xsl:template match="Faction[@id='jawwal']"/>
@@ -115,6 +110,15 @@
 		<xsl:template match="Faction[@id='karakhuzaits']"/>
 		<xsl:template match="Faction[@id='forest_people']"/>
 		<xsl:template match="Faction[@id='eleftheroi']"/>
+		
+		<!-- Override only the player faction's home -->
+        <xsl:template match="Faction[@id='player_faction']">
+            <xsl:copy>
+               <xsl:apply-templates select="@*[name() != 'initial_home_settlement']"/>
+                   <xsl:attribute name="initial_home_settlement">Settlement.town_V6</xsl:attribute>
+              <xsl:apply-templates select="node()"/>
+           </xsl:copy>
+        </xsl:template>
 		
 		
 		

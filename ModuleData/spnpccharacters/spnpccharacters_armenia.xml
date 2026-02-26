@@ -1504,6 +1504,198 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
+	<!-- #region Tournament templates -->
+	<NPCCharacter id="tournament_template_armenia_one_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_armenia_one_participant_set_v1" culture="Culture.armenia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_armenia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+				<equipment slot="Item1" id="Item.western_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_armenia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_armenia_one_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_armenia_one_participant_set_v1" culture="Culture.armenia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_armenia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_3_t4"/>
+				<equipment slot="Item1" id="Item.western_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_armenia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_armenia_one_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_armenia_one_participant_set_v1" culture="Culture.armenia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_armenia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
+				<equipment slot="Item1" id="Item.western_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_armenia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_armenia_two_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_armenia_two_participant_set_v1" culture="Culture.armenia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_armenia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_42"/>
+				<equipment slot="Item1" id="Item.western_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_armenia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_armenia_two_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_armenia_two_participant_set_v2" culture="Culture.armenia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_armenia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_polearm_4"/>
+				<equipment slot="Item1" id="Item.XIII_sword_2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item1" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item2" id="Item.generic_javelin_1_t3"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_armenia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_armenia_two_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_armenia_two_participant_set_v3" culture="Culture.armenia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_armenia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.empire_mace_5_t5"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_armenia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_armenia_four_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_armenia_four_participant_set_v1" culture="Culture.armenia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_armenia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item1" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item2" id="Item.generic_javelin_1_t3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.empire_mace_5_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_armenia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_armenia_four_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_armenia_four_participant_set_v2" culture="Culture.armenia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_armenia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_kite_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_armenia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_armenia_four_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_armenia_four_participant_set_v3" culture="Culture.armenia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_armenia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item1" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item2" id="Item.generic_javelin_1_t3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.empire_mace_5_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Horse" id="Item.empire_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_armenia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endregion Tournament templates-->
 	<!-- Dummies -->
 	<NPCCharacter id="gear_practice_dummy_armenia" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.armenia" name="{=!}armenian Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>

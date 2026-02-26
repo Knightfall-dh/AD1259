@@ -1,0 +1,81 @@
+<partyTemplates>
+	<MBPartyTemplate id="villager_mongolian_template">
+		<stacks>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_mongolian"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_MONGOLIAN_template">
+        <stacks>
+            <PartyTemplateStack min_value="30" max_value="65" troop="NPCCharacter.mongol_basic_root"/> <!-- Steppe Tribesman -->
+            <PartyTemplateStack min_value="15" max_value="45" troop="NPCCharacter.mongol_basic_root0"/> <!-- Mongolian Rider -->
+            <PartyTemplateStack min_value="10" max_value="35" troop="NPCCharacter.mongol_basic_root00"/> <!-- Mongolian Light Archer -->
+            <PartyTemplateStack min_value="10" max_value="20" troop="NPCCharacter.mongol_basic_root000"/> <!-- Mongolian Light Raider -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.mongol_basic_root0000"/> <!-- Mongolian Horde Raider -->
+            <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.mongol_basic_root0001"/> <!-- Mongolian Medium Raider -->
+            <PartyTemplateStack min_value="10" max_value="30" troop="NPCCharacter.mongol_basic_root1"/> <!-- Mongolian Light Horseman -->
+            <PartyTemplateStack min_value="5" max_value="25" troop="NPCCharacter.mongol_basic_root10"/> <!-- Mongolian Light Lancer -->
+            <PartyTemplateStack min_value="5" max_value="15" troop="NPCCharacter.mongol_basic_root100"/> <!-- Mongolian Veteran Light Lancer -->
+            <PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.mongol_basic_root1000"/> <!-- Mongolian Heavy Lancer -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.mongol_basic_root001"/> <!-- Dismounted Mongolian Archer -->
+            <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.mongol_basic_root0010"/> <!-- Mongolian Armored Archer -->
+        </stacks>
+    </MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_MONGOLIAN_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.mongol_basic_root0"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.mongol_basic_root00"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.mongol_basic_root000"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.mongol_basic_root001"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_MONGOLIAN_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.mongol_basic_root0"/>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.mongol_basic_root00"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.mongol_basic_root000"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.mongol_basic_root001"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_MONGOLIAN_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.mongol_basic_root0"/>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.mongol_basic_root00"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.mongol_basic_root000"/>
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.mongol_basic_root001"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.mongol_basic_root0010"/>
+		</stacks>
+	</MBPartyTemplate>
+	
+	<MBPartyTemplate id="rebels_mongolian_template">
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.mongol_basic_root"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="caravan_template_mongolian">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_mongolian"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.caravan_guard_mongolian"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.veteran_caravan_guard_mongolian"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="elite_caravan_template_mongolian">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armed_trader_mongolian"/>
+			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.caravan_guard_mongolian"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.veteran_caravan_guard_mongolian"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_mongolian"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="militia_mongolian_template">
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.mongolian_militia_spearman"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.mongolian_militia_archer"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="vassal_reward_troops_mongolian">
+		<stacks>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.mongol_basic_root1000"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.mongol_basic_root100"/>
+		</stacks>
+	</MBPartyTemplate>
+</partyTemplates>

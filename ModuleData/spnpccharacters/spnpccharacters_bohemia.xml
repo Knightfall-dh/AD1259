@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-    <!-- Guards -->
+	<!-- Guards -->
 	<NPCCharacter id="prison_guard_bohemia" default_group="Infantry" level="21" culture="Culture.bohemia" occupation="PrisonGuard" name="{=XgjXfmM1}Prison Guard" skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.fighter_bohemia"/>
@@ -528,7 +528,7 @@
 			<EquipmentSet id="npc_wanderer_equipment_template_bohemia"/>
 		</Equipments>
 	</NPCCharacter>
-    <!-- Townsman -->
+	<!-- Townsman -->
 	<NPCCharacter id="townsman_bohemia" default_group="Infantry" name="{=muu5cofb}Townsman" occupation="Townsfolk" culture="Culture.bohemia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_bohemia"/>
@@ -1692,6 +1692,418 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
+	<!-- #region Tournament templates -->
+	<NPCCharacter id="tournament_template_bohemia_one_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_bohemia_one_participant_set_v1" culture="Culture.bohemia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bohemia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_bohemia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_bohemia_one_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_bohemia_one_participant_set_v2" culture="Culture.bohemia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bohemia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_b4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.sturgia_axe_4_t4"/>
+				<equipment slot="Item1" id="Item.western_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_b4"/>
+				<equipment slot="Item1" id="Item.western_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.light_mace_t3"/>
+				<equipment slot="Item1" id="Item.western_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_bohemia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_bohemia_one_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_bohemia_one_participant_set_v3" culture="Culture.bohemia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bohemia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Horse" id="Item.vlandia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_bohemia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_bohemia_two_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_bohemia_two_participant_set_v1" culture="Culture.bohemia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bohemia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_f"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.vlandia_2hsword_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_bohemia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_bohemia_two_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_bohemia_two_participant_set_v2" culture="Culture.bohemia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bohemia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_b2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_f"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.vlandia_2hsword_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_bohemia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_bohemia_two_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_bohemia_two_participant_set_v3" culture="Culture.bohemia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bohemia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.XIII_sword_26"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_bohemia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_bohemia_four_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_bohemia_four_participant_set_v1" culture="Culture.bohemia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bohemia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.billhook_polearm_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_f"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.vlandia_2hsword_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Horse" id="Item.vlandia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_bohemia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_bohemia_four_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_bohemia_four_participant_set_v2" culture="Culture.bohemia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bohemia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_f"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.vlandia_2hsword_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_f"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.vlandia_2hsword_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Horse" id="Item.vlandia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_bohemia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_bohemia_four_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_bohemia_four_participant_set_v3" culture="Culture.bohemia" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_bohemia"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_f"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.vlandia_2hsword_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.crossbow_f"/>
+				<equipment slot="Item1" id="Item.bolt_c"/>
+				<equipment slot="Item2" id="Item.vlandia_2hsword_2_t5"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Horse" id="Item.vlandia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.western_riders_kite_sparring_shield"/>
+				<equipment slot="Item3" id="Item.empire_mace_5_t5"/>
+				<equipment slot="Horse" id="Item.vlandia_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_bohemia_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endregion Tournament templates-->
+	<!-- #region arena practice -->
+	<NPCCharacter id="gear_practice_dummy_bohemia" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.bohemia" name="{=!}Bohemian Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.fine_town_tunic"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.footmans_tunic"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.hemp_tunic"/>
+				<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_bohemia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="weapon_practice_stage_1_bohemia" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.bohemia" name="{=!}Bohemian Weapon Dummy">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+				<equipment slot="Item2" id="Item.hunting_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Item2" id="Item.hunting_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+				<equipment slot="Item1" id="Item.western_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.western_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_bohemia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="weapon_practice_stage_2_bohemia" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.bohemia" name="{=!}Bohemian Weapon Dummy">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_3_t3"/>
+				<equipment slot="Item2" id="Item.hunting_bow"/>
+				<equipment slot="Item3" id="Item.tournament_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.light_mace_t3"/>
+				<equipment slot="Item2" id="Item.hunting_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.light_mace_t3"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.light_mace_t3"/>
+				<equipment slot="Item1" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.light_mace_t3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_3_t3"/>
+				<equipment slot="Item1" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.western_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_bohemia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="weapon_practice_stage_3_bohemia" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.bohemia" name="{=!}Bohemian Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_5_t4"/>
+				<equipment slot="Item2" id="Item.hunting_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_2_t4"/>
+				<equipment slot="Item2" id="Item.hunting_bow"/>
+				<equipment slot="Item3" id="Item.tournament_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_5_t4"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.western_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_2_t4"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_sword_5_t4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.empire_mace_2_t4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hooked_axe_t4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hooked_axe_t4"/>
+				<equipment slot="Item1" id="Item.western_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.hooked_axe_t4"/>
+				<equipment slot="Item1" id="Item.western_javelin_1_t2"/>
+				<equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_bohemia" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endegion arena practice -->
 	<!---old versions-->
 	<NPCCharacter id="player_char_creation_bohemia" name="{=!}with two-handed swords" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.bohemia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>

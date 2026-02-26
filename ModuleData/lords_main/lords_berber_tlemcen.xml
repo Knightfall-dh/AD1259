@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<NPCCharacters>
+	<NPCCharacter id="lord_zyani_1_1" name="{=zyani_lord_yaghmurasen}Yaghmurasen ibn Zyan" age="49" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="49" weight="0.312" build="0.5209" key="0029BC0D80000346C3726C9ABAA5813A45C869BD48142925E775D1578AB6867604885046089E8B63000000000000000000000000000000000000000031087080"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="8"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="8"/>
+			<Trait id="Valor" value="5"/>
+			<Trait id="Honest" value="1"/>
+			<Trait id="Calculating" value="7"/>
+			<Trait id="Generosity" value="7"/>
+			<Trait id="Egalitarian" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_zyani_1_2" name="{=zyani_lord_yahya}Yahya ibn Yaghmurasen" age="21" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="21" weight="0.4367" build="0.51" key="001ED80D80001385A9726C9A9569813A679EA7ED8B916597B8B3582C7775A86900887003088B9463000000000000000000000000000000000000000031084081"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="2"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="2"/>
+			<Trait id="Egalitarian" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="lord_zyani_1_3" name="{=zyani_lord_uthman}Abu Sa'id Uthman ibn Yaghmurasen" age="9" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" age="9" weight="0.4367" build="0.51" key="001ED80D80001385A9726C9A9569813A679EA7ED8B916597B8B3582C7775A86900887003088B9463000000000000000000000000000000000000000031084081"/>
+			<hair_tags>
+				<hair_tag name="aserai"/>
+			</hair_tags>
+			<beard_tags>
+				<beard_tag name="aserai"/>
+			</beard_tags>
+			<tattoo_tags>
+				<tattoo_tag name="Cleanface"/>
+			</tattoo_tags>
+		</face>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="1"/>
+			<Trait id="Commander" value="1"/>
+			<Trait id="Politician" value="0"/>
+			<Trait id="Manager" value="0"/>
+			<Trait id="Valor" value="0"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Egalitarian" value="0"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="mar_lord_combat"/>
+			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

@@ -17,7 +17,10 @@
 	         ruler_title="{=galiciaFactionRulerTitle}King"
 	         text="{=galiciaFactionText} Description">
 		<relationships>
-           
+            <relationship kingdom="Kingdom.poland" value="25" isAtWar="false"/>
+            <relationship kingdom="Kingdom.kiev" value="35" isAtWar="false"/>
+            <relationship kingdom="Kingdom.pereyaslavl" value="-1" isAtWar="false"/>
+            <relationship kingdom="Kingdom.turov" value="-10" isAtWar="false"/>
         </relationships>
 		<policies>
 			<policy id="policy_land_tax"/>

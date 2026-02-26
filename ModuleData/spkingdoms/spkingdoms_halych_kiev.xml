@@ -17,7 +17,8 @@
 	         ruler_title="{=kievFactionRulerTitle}King"
 	         text="{=kievFactionText} Description.">
 		<relationships>
-           
+            <relationship kingdom="Kingdom.galicia" value="35" isAtWar="false"/>
+            <relationship kingdom="Kingdom.pereyaslavl" value="10" isAtWar="false"/>
         </relationships>
 		<policies>
 			<policy id="policy_land_tax"/>

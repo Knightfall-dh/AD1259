@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Factions>
-<!-- AD1259 CUMANS -->
 <Faction id="cs_ghilman"
 	         initial_home_settlement="Settlement.town_alexandria"
 	         banner_key="11.116.128.2000.2000.764.764.1.0.180.402.128.116.117.133.864.834.0.0.-221.503.116.116.117.93.837.810.0.0.-221.335.128.116.372.321.853.566.0.0.-12.335.128.116.372.321.624.830.0.1.-266.459.128.116.84.162.789.836.0.0.-111.459.128.116.91.189.851.752.0.0.-337.503.116.116.68.40.866.788.0.0.-247.503.116.116.68.40.837.719.0.0.-247.503.116.116.64.40.761.824.0.0.-202.503.116.116.64.40.822.845.0.0.-202.448.128.116.163.68.842.635.0.1.-11.448.128.116.163.68.692.828.0.1.-267"
 	         color="FFD0884E"
 	         color2="FFD0884E"
 	         culture="Culture.darshi"
-	         default_party_template="PartyTemplate.kingdom_hero_party_mercenary_aserai_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_mercenary_ghilman_template"
 	         settlement_banner_mesh="encounter_flag_f"
 	         is_minor_faction="true"
 	         is_clan_type_mercenary="true"
@@ -228,7 +227,7 @@
 		</minor_faction_character_templates>
 	</Faction>
 	
-	<!-- Almogávares spawn in pyrenees -->
+	<!-- Almogávares spawn in pyrenees 
 	<Faction id="cs_almogavar"
 	         initial_home_settlement="Settlement.town_barcelona"
 	         banner_key="29.39.83.2445.2637.771.857.0.0.0.504.116.40.0.0.3797.1302.0.0.270"
@@ -250,6 +249,6 @@
 			<template id="NPCCharacter.spc_almogavar_leader_3"/>
 		</minor_faction_character_templates>
 	</Faction>
-	
+	-->
 
 </Factions>

@@ -5,26 +5,37 @@
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
-	<xsl:template match="Culture[@id='vlandia']"/>
-	<xsl:template match="Culture[@id='battania']"/>
-	<xsl:template match="Culture[@id='empire']"/>
-	<xsl:template match="Culture[@id='sturgia']"/>
-	<xsl:template match="Culture[@id='khuzait']"/>
-	<xsl:template match="Culture[@id='aserai']"/>
-	<xsl:template match="Culture[@id='nord']"/>
-	<xsl:template match="Culture[@id='vakken']"/>
-	<xsl:template match="Culture[@id='darshi']"/>
-	
+
+
 	<xsl:template match="Culture[@id='looters']"/>
-	
 	<xsl:template match="Culture[@id='sea_raiders']"/>
 	<xsl:template match="Culture[@id='mountain_bandits']"/>
 	<xsl:template match="Culture[@id='forest_bandits']"/>
 	<xsl:template match="Culture[@id='desert_bandits']"/>
 	<xsl:template match="Culture[@id='steppe_bandits']"/>
-	<xsl:template match="Culture[@id='neutral_culture']"/>
-	<!---->
 	
+	<xsl:template match="Culture[@id='khuzait']/@is_main_culture">
+            <xsl:attribute name="is_main_culture">false</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Culture[@id='aserai']/@is_main_culture">
+            <xsl:attribute name="is_main_culture">false</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Culture[@id='battania']/@is_main_culture">
+            <xsl:attribute name="is_main_culture">false</xsl:attribute>
+    </xsl:template>
     
+	<xsl:template match="Culture[@id='sturgia']/@is_main_culture">
+            <xsl:attribute name="is_main_culture">false</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Culture[@id='vlandia']/@is_main_culture">
+            <xsl:attribute name="is_main_culture">false</xsl:attribute>
+    </xsl:template>
+	
+	<xsl:template match="Culture[@id='empire']/@is_main_culture">
+            <xsl:attribute name="is_main_culture">false</xsl:attribute>
+    </xsl:template>
 
 </xsl:stylesheet>

@@ -1,5 +1,107 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
+	<!-- SandBox.GauntletUI.CharacterCreation, BodyGenerator -->
+	<NPCCharacter id="facgen_template_test_char_0" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.baltic" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_baltic"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_1" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.baltic" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_baltic"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_2" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.baltic" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_baltic"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_3" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.baltic" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_baltic"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_4" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.baltic" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_baltic"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_5" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.baltic" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_baltic"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_6" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.baltic" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_baltic"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_7" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.baltic" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_baltic"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_8" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.baltic" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_baltic"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="facgen_template_test_char_9" is_template="true" default_group="Infantry" formation_position_preference="Front" level="11" culture="Culture.baltic" occupation="Townsfolk" name="{=!}Serdar" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_baltic"/>
+		</face>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true"/>
+			<EquipmentRoster/>
+		</Equipments>
+	</NPCCharacter>
+	<!--  -->
 	<NPCCharacter id="npc_wanderer_equipment_template_baltic" default_group="Infantry" is_hero="false" level="16" name="{=!}wanderer_equipment" culture="Culture.baltic" skill_template="SkillSet.infantry_heavyinfantry_level16_template_skills" is_template="true">
 		<face>
 			<face_key_template value="BodyProperty.villager_baltic"/>
@@ -26,6 +128,41 @@
 	</NPCCharacter>
 	<!-- #endregion-->
 	<!--#region Townsfolk Template-->
+	<NPCCharacter id="guard" default_group="Infantry" formation_position_preference="Front" level="11" name="{=guardnoun}Guard" occupation="Townsfolk" culture="Culture.baltic" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_baltic"/>
+		</face>
+		<skills>
+			<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Throwing" value="50"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_noble_sword_3_t5"/>
+				<equipment slot="Item3" id="Item.wide_heater_shield"/>
+				<equipment slot="Head" id="Item.nasal_helmet_with_leather"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_c"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_noble_sword_3_t5"/>
+				<equipment slot="Item3" id="Item.wide_heater_shield"/>
+				<equipment slot="Head" id="Item.nasal_helmet_with_leather"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_c"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="villager_baltic" default_group="Infantry" level="1" name="{=balticpeasantman}Baltic Peasant" occupation="Villager" culture="Culture.baltic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_baltic"/>
@@ -218,7 +355,6 @@
 	<NPCCharacter id="fighter_baltic" default_group="Infantry" level="1" name="{=!}Baltic Fighter" occupation="Villager" culture="Culture.baltic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_baltic"/>
-			
 		</face>
 		<skills/>
 		<upgrade_targets/>
@@ -227,6 +363,30 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--#endregion Fighter Template-->
+	<NPCCharacter id="civillian_template_gangster_tier1_baltic" name="{=!}civillian_template_gangster_tier1_baltic" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.baltic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_baltic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="civillian_template_gangster_tier1_baltic"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="civillian_template_gangster_tier2_baltic" name="{=!}civillian_template_gangster_tier2_baltic" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.baltic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_baltic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="civillian_template_gangster_tier2_baltic"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="civillian_template_gangster_tier3_baltic" name="{=!}civillian_template_gangster_tier3_baltic" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.baltic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_baltic"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="civillian_template_gangster_tier3_baltic"/>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="baltic_troop_civilian_template_t1" name="{=!}baltic_troop_civilian_template_t1" age="48" voice="curt" default_group="infantry" is_hero="false" culture="Culture.baltic" is_template="true" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_baltic"/>

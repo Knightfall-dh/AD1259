@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- Guards -->
 	<NPCCharacter id="prison_guard_turkish" default_group="Infantry" level="21" culture="Culture.turkish" occupation="PrisonGuard" name="{=XgjXfmM1}Prison Guard" skill_template="SkillSet.infantry_heavyinfantry_level21_template_skills">
@@ -1574,6 +1574,415 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
+	<!-- #region Tournament templates -->
+	<NPCCharacter id="tournament_template_turkish_one_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_turkish_one_participant_set_v1" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_turkish"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
+				<equipment slot="Item2" id="Item.generic_javelin_1_t3"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_turkish_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_turkish_one_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_turkish_one_participant_set_v1" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_turkish"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
+				<equipment slot="Item2" id="Item.generic_javelin_1_t3"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_turkish_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_turkish_one_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_turkish_one_participant_set_v1" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_turkish"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
+				<equipment slot="Item2" id="Item.generic_javelin_1_t3"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_turkish_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_turkish_two_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_turkish_two_participant_set_v1" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_turkish"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item1" id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item2" id="Item.bound_desert_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_turkish_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_turkish_two_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_turkish_two_participant_set_v2" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_turkish"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.aserai_mace_4_t4"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_turkish_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_turkish_two_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_turkish_two_participant_set_v3" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_turkish"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item2" id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item3" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Horse" id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
+				<equipment slot="Item2" id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item3" id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Horse" id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_turkish_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_turkish_four_participant_set_v1" default_group="Infantry" level="6" name="{=!}tournament_template_turkish_four_participant_set_v1" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_empire"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item1" id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item2" id="Item.generic_javelin_1_t3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.aserai_mace_4_t4"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_turkish_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_turkish_four_participant_set_v2" default_group="Infantry" level="6" name="{=!}tournament_template_turkish_four_participant_set_v2" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_turkish"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
+				<equipment slot="Item2" id="Item.generic_javelin_1_t3"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item2" id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item3" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Horse" id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
+				<equipment slot="Item3" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Horse" id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_turkish_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="tournament_template_turkish_four_participant_set_v3" default_group="Infantry" level="6" name="{=!}tournament_template_turkish_four_participant_set_v3" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level6_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_turkish"/>
+		</face>
+		<skills/>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.training_bow"/>
+				<equipment slot="Item1" id="Item.bodkin_arrows_a"/>
+				<equipment slot="Item2" id="Item.aserai_mace_4_t4"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item1" id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item2" id="Item.generic_javelin_1_t3"/>
+				<equipment slot="Item3" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Horse" id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+				<equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
+				<equipment slot="Item3" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Horse" id="Item.aserai_horse_tournament"/>
+				<equipment slot="HorseHarness" id="Item.light_harness"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_turkish_civilian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endregion Tournament templates-->
+	<!-- #region arena practice -->
+	<NPCCharacter id="gear_practice_dummy_turkish" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.turkish" name="{=!}Berber Gear Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Head" id="Item.desert_cap"/>
+				<equipment slot="Body" id="Item.thick_sleeved_robe"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Body" id="Item.desert_robe"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.layered_robe"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
+				<equipment slot="Body" id="Item.long_desert_robe"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_turkish" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="weapon_practice_stage_1_turkish" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.turkish" name="{=!}Western Muslim Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+				<equipment slot="Item2" id="Item.desert_throwing_knife"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.desert_throwing_knife"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Item2" id="Item.steppe_war_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Item2" id="Item.steppe_war_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_1_t2"/>
+				<equipment slot="Item2" id="Item.steppe_war_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+				<equipment slot="Item1" id="Item.eastern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
+				<equipment slot="Item1" id="Item.eastern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_1_t2"/>
+				<equipment slot="Item1" id="Item.eastern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_turkish" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="weapon_practice_stage_2_turkish" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.turkish" name="{=!}Western Muslim Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+				<equipment slot="Item2" id="Item.desert_throwing_knife"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.desert_throwing_knife"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item2" id="Item.steppe_war_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_3_t3"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item2" id="Item.steppe_war_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_3_t3"/>
+				<equipment slot="Item2" id="Item.steppe_war_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Item1" id="Item.eastern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
+				<equipment slot="Item1" id="Item.eastern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_3_t3"/>
+				<equipment slot="Item1" id="Item.eastern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_turkish" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="weapon_practice_stage_3_turkish" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.turkish" name="{=!}Western Muslim Weapon Dummy" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.guard"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_5_t4"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+				<equipment slot="Item2" id="Item.desert_throwing_knife"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_5_t4"/>
+				<equipment slot="Item1" id="Item.bound_horsemans_kite_shield"/>
+				<equipment slot="Item2" id="Item.desert_throwing_knife"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_5_t4"/>
+				<equipment slot="Item2" id="Item.steppe_war_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_5_t4"/>
+				<equipment slot="Item2" id="Item.steppe_war_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item2" id="Item.steppe_war_bow"/>
+				<equipment slot="Item3" id="Item.default_arrows"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_5_t4"/>
+				<equipment slot="Item1" id="Item.eastern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+				<equipment slot="Item1" id="Item.eastern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_4_t4"/>
+				<equipment slot="Item1" id="Item.eastern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item1" id="Item.eastern_javelin_1_t2"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Item1" id="Item.desert_throwing_knife"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_wanderer_equipment_template_turkish" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- #endegion arena practice -->
 	<!---old versions-->
 	<NPCCharacter id="player_char_creation_turkish" name="{=!}with two-handed swords" default_group="Infantry" is_hero="false" occupation="Special" culture="Culture.turkish" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>

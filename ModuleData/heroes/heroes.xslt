@@ -6,7 +6,7 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="Hero[@id='main_hero']"/>
+  
     <!--Khuzait-->
     <xsl:template match="Hero[@id='dead_lord_6_1']"/>
 	<xsl:template match="Hero[@id='lord_6_1']"/>
@@ -226,6 +226,7 @@
     <xsl:template match="Hero[@id='lord_S9_u']"/>
 
     <!--Aserai-->
+	<xsl:template match="Hero[@id='dead_lord_3_1']"/>
 
     <xsl:template match="Hero[@id='lord_3_1']"/>
     <xsl:template match="Hero[@id='lord_3_2']"/>

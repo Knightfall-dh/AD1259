@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+	<!-- Golden Horde -->
+	<NPCCharacter id="mongol_basic_root" default_group="Cavalry" level="6" name="{=Steppe Tribesman}Steppe Tribesman" occupation="Soldier" culture="Culture.mongolian" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="20"/>
+			<skill id="Riding" value="60"/>
+			<skill id="OneHanded" value="20"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mongol_basic_root0"/>
+			<upgrade_target id="NPCCharacter.mongol_basic_root1"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="mongol_basic_root_bat"/>
+			<EquipmentSet id="mongol_basic_root_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mongol_basic_root0" default_group="HorseArcher" level="11" name="{=Mongolian Rider}Mongolian Rider" occupation="Soldier" culture="Culture.mongolian">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="80"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mongol_basic_root00"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="mongol_basic_root0_bat"/>
+			<EquipmentSet id="mongol_basic_root0_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mongol_basic_root1" default_group="HorseArcher" level="11" name="{=Mongolian Light Horseman}Mongolian Light Horseman" occupation="Soldier" culture="Culture.mongolian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="60"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="60"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mongol_basic_root10"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="mongol_basic_root1_bat"/>
+			<EquipmentSet id="mongol_basic_root1_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--elite root-->
+	<NPCCharacter id="mongol_basic_root10" default_group="Cavalry" level="16" name="{=Mongolian Light Lancer}Mongolian Light Lancer" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.mongolian" is_basic_troop="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="140"/>
+			<skill id="OneHanded" value="100"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="100"/>
+			<skill id="Bow" value="60"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mongol_basic_root100"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="mongol_basic_root10_bat"/>
+			<EquipmentSet id="mongol_basic_root10_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mongol_basic_root100" default_group="Cavalry" level="21" name="{=Mongolian Veteran Light Lancer}Mongolian Veteran Light Lancer" occupation="Soldier" culture="Culture.mongolian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="180"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="140"/>
+			<skill id="Bow" value="100"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mongol_basic_root1000"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="mongol_basic_root100_bat"/>
+			<EquipmentSet id="mongol_basic_root100_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mongol_basic_root1000" default_group="Cavalry" level="26" name="{=Mongolian Heavy Lancer}Mongolian Heavy Lancer" occupation="Soldier" culture="Culture.mongolian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="220"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="120"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="mongol_basic_root1000_bat"/>
+			<EquipmentSet id="mongol_basic_root1000_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mongol_basic_root00" default_group="HorseArcher" level="16" name="{=Mongolian Light Archer}Mongolian Light Archer" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.mongolian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="140"/>
+			<skill id="OneHanded" value="80"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mongol_basic_root000"/>
+			<upgrade_target id="NPCCharacter.mongol_basic_root001"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="mongol_basic_root00_bat"/>
+			<EquipmentSet id="mongol_basic_root00_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mongol_basic_root000" default_group="HorseArcher" level="21" name="{=Mongolian Light Raider}Mongolian Light Raider" occupation="Soldier" culture="Culture.mongolian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="180"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mongol_basic_root0000"/>
+			<upgrade_target id="NPCCharacter.mongol_basic_root0001"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="mongol_basic_root000_bat"/>
+			<EquipmentSet id="mongol_basic_root000_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mongol_basic_root001" default_group="Ranged" level="21" name="{=Dismounted Mongolian Archer}Dismounted Mongolian Archer" occupation="Soldier" culture="Culture.mongolian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="140"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="140"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.mongol_basic_root0010"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="mongol_basic_root001_bat"/>
+			<EquipmentSet id="mongol_basic_root001_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mongol_basic_root0010" default_group="Ranged" level="26" name="{=Mongolian Armored Archer}Mongolian Armored Archer" occupation="Soldier" culture="Culture.mongolian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="140"/>
+			<skill id="Riding" value="140"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="160"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="mongol_basic_root0010_bat"/>
+			<EquipmentSet id="mongol_basic_root0010_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mongol_basic_root0000" default_group="HorseArcher" level="26" name="{=Mongolian Horde Raider}Mongolian Horde Raider" occupation="Soldier" culture="Culture.mongolian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="230"/>
+			<skill id="OneHanded" value="140"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="230"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="mongol_basic_root0000_bat"/>
+			<EquipmentSet id="mongol_basic_root0000_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mongol_basic_root0001" default_group="HorseArcher" level="26" name="{=Mongolian Medium Raider}Mongolian Medium Raider" occupation="Soldier" culture="Culture.mongolian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="140"/>
+			<skill id="OneHanded" value="160"/>
+			<skill id="TwoHanded" value="0"/>
+			<skill id="Polearm" value="0"/>
+			<skill id="Bow" value="160"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="mongol_basic_root0001_bat"/>
+			<EquipmentSet id="mongol_basic_root0001_civ" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>

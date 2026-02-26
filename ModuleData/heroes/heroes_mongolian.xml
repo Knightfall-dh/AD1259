@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<!-- clans 1 -->
+	<Hero id="dead_lord_mongolian_1" alive="false" faction="Faction.clan_mongolian_1" text="{=L4b5EWdD}text..."/>
+	
+	<Hero id="lord_mongolian_1_1" spouse="Hero.lord_mongolian_1_2" faction="Faction.clan_mongolian_1" preferred_upgrade_formation="HorseArcher" text="{=CzM6y3MT}Batu Khan, the current khan of the Goldenhorde, looks upon Europe in its state of disarray and dreams of glory."/>
+	<Hero id="lord_mongolian_1_2" spouse="Hero.lord_mongolian_1_1" faction="Faction.clan_mongolian_1"/>
+	<Hero id="lord_mongolian_1_3" father="Hero.lord_mongolian_1_1" mother="Hero.lord_mongolian_1_2" faction="Faction.clan_mongolian_1"/>
+	<Hero id="lord_mongolian_1_4" father="Hero.lord_mongolian_1_1" mother="Hero.lord_mongolian_1_2" faction="Faction.clan_mongolian_1"/>
+	<Hero id="lord_mongolian_1_5" father="Hero.lord_mongolian_1_1" mother="Hero.lord_mongolian_1_2" faction="Faction.clan_mongolian_1"/>
+	<Hero id="lord_mongolian_1_6" father="Hero.lord_mongolian_1_1" faction="Faction.clan_mongolian_1"/>
+	<!-- clans 2 -->
+	<Hero id="dead_lord_mongolian_2" alive="false" faction="Faction.clan_mongolian_2" text="{=dfmSNTZk}text..."/>
+	
+	<Hero id="lord_mongolian_2_1" faction="Faction.clan_mongolian_2"/>
+	<Hero id="lord_mongolian_2_2" faction="Faction.clan_mongolian_2" text="{=ALtZaRzc}text..."/>
+	<Hero id="lord_mongolian_2_3" father="Hero.lord_mongolian_2_1" mother="Hero.lord_mongolian_2_2" faction="Faction.clan_mongolian_2"/>
+	<Hero id="lord_mongolian_2_4" father="Hero.lord_mongolian_2_1" mother="Hero.lord_mongolian_2_2" faction="Faction.clan_mongolian_2"/>
+	<Hero id="lord_mongolian_2_5" father="Hero.lord_mongolian_2_1" mother="Hero.lord_mongolian_2_2" faction="Faction.clan_mongolian_2"/>
+	<!-- clans 3 -->
+	<Hero id="dead_lord_mongolian_3" alive="false" faction="Faction.clan_mongolian_3" text="{=CCfjl9eU}text..."/>
+	<Hero id="dead_lord_mongolian_4" father="Hero.dead_lord_mongolian_3" alive="false" faction="Faction.clan_mongolian_3" text="{=f9Ha1S0s}text..."/>
+	
+	<Hero id="lord_mongolian_3_1" father="Hero.dead_lord_mongolian_3" faction="Faction.clan_mongolian_3"/>
+	<Hero id="lord_mongolian_3_2" father="Hero.lord_mongolian_3_1" faction="Faction.clan_mongolian_3"/>
+	<Hero id="lord_mongolian_3_3" father="Hero.lord_mongolian_3_1" faction="Faction.clan_mongolian_3"/>
+	<Hero id="lord_mongolian_3_4" father="Hero.lord_mongolian_3_1" faction="Faction.clan_mongolian_3"/>
+	<Hero id="lord_mongolian_3_5" spouse="Hero.lord_mongolian_3_6" father="Hero.dead_lord_mongolian_3" faction="Faction.clan_mongolian_3"/>
+	<Hero id="lord_mongolian_3_6" spouse="Hero.lord_mongolian_3_5" faction="Faction.clan_mongolian_3"/>
+	<Hero id="lord_mongolian_3_7" father="Hero.lord_mongolian_3_5" mother="Hero.lord_mongolian_3_6" faction="Faction.clan_mongolian_3"/>
+	<!-- clans 4 -->
+	<Hero id="lord_mongolian_4_1" spouse="Hero.lord_mongolian_4_2" faction="Faction.clan_mongolian_4"/>
+	<Hero id="lord_mongolian_4_2" spouse="Hero.lord_mongolian_4_1" faction="Faction.clan_mongolian_4"/>
+	<Hero id="lord_mongolian_4_3" father="Hero.lord_mongolian_4_1" mother="Hero.lord_mongolian_4_2" faction="Faction.clan_mongolian_4"/>
+	<Hero id="lord_mongolian_4_4" faction="Faction.clan_mongolian_4"/>
+	<Hero id="lord_mongolian_4_5" faction="Faction.clan_mongolian_4"/>
+	<!-- clans 5 -->
+	<Hero id="lord_mongolian_5_1" spouse="Hero.lord_mongolian_5_2" faction="Faction.clan_mongolian_5"/>
+	<Hero id="lord_mongolian_5_2" spouse="Hero.lord_mongolian_5_1" faction="Faction.clan_mongolian_5"/>
+	<Hero id="lord_mongolian_5_3" father="Hero.lord_mongolian_5_1" mother="Hero.lord_mongolian_5_2" faction="Faction.clan_mongolian_5"/>
+	<Hero id="lord_mongolian_5_4" spouse="Hero.lord_mongolian_5_5" faction="Faction.clan_mongolian_5"/>
+	<Hero id="lord_mongolian_5_5" spouse="Hero.lord_mongolian_5_4" faction="Faction.clan_mongolian_5"/>
+	<!-- clans 6 -->
+	<Hero id="lord_mongolian_6_1" spouse="Hero.lord_mongolian_6_2" faction="Faction.clan_mongolian_6"/>
+	<Hero id="lord_mongolian_6_2" spouse="Hero.lord_mongolian_6_1" faction="Faction.clan_mongolian_6"/>
+	<Hero id="lord_mongolian_6_3" father="Hero.lord_mongolian_6_1" mother="Hero.lord_mongolian_6_2" faction="Faction.clan_mongolian_6"/>
+	<Hero id="lord_mongolian_6_4" spouse="Hero.lord_mongolian_6_5" faction="Faction.clan_mongolian_6"/>
+	<Hero id="lord_mongolian_6_5" spouse="Hero.lord_mongolian_6_4" faction="Faction.clan_mongolian_6"/>
+	<!-- clans 7 -->
+	<Hero id="lord_mongolian_7_1" spouse="Hero.lord_mongolian_7_2" faction="Faction.clan_mongolian_7"/>
+	<Hero id="lord_mongolian_7_2" spouse="Hero.lord_mongolian_7_1" faction="Faction.clan_mongolian_7"/>
+	<Hero id="lord_mongolian_7_3" father="Hero.lord_mongolian_7_1" mother="Hero.lord_mongolian_7_2" spouse="Hero.lord_mongolian_7_6" faction="Faction.clan_mongolian_7"/>
+	<Hero id="lord_mongolian_7_4" father="Hero.lord_mongolian_7_1" mother="Hero.lord_mongolian_7_2" faction="Faction.clan_mongolian_7"/>
+	<Hero id="lord_mongolian_7_5" father="Hero.lord_mongolian_7_3" mother="Hero.lord_mongolian_7_6" faction="Faction.clan_mongolian_7"/>
+	<Hero id="lord_mongolian_7_6" spouse="Hero.lord_mongolian_7_3" faction="Faction.clan_mongolian_7"/>
+	<Hero id="lord_mongolian_7_7" father="Hero.lord_mongolian_7_3" mother="Hero.lord_mongolian_7_6" faction="Faction.clan_mongolian_7"/>
+	<!-- Yanserit, Khuzait 8 -->
+	<Hero id="lord_mongolian_8_1" spouse="Hero.lord_mongolian_8_2" faction="Faction.clan_mongolian_8"/>
+	<Hero id="lord_mongolian_8_2" spouse="Hero.lord_mongolian_8_1" faction="Faction.clan_mongolian_8"/>
+	<Hero id="lord_mongolian_8_3" faction="Faction.clan_mongolian_8"/>
+	<Hero id="lord_mongolian_8_4" spouse="Hero.lord_mongolian_8_5" faction="Faction.clan_mongolian_8"/>
+	<Hero id="lord_mongolian_8_5" spouse="Hero.lord_mongolian_8_4" faction="Faction.clan_mongolian_8"/>
+	<!-- Oburit -->
+	<Hero id="lord_mongolian_9_1" spouse="Hero.lord_mongolian_9_2" faction="Faction.clan_mongolian_9"/>
+	<Hero id="lord_mongolian_9_2" spouse="Hero.lord_mongolian_9_1" faction="Faction.clan_mongolian_9"/>
+	<Hero id="lord_mongolian_9_3" father="Hero.lord_mongolian_9_1" mother="Hero.lord_mongolian_9_2" spouse="Hero.lord_mongolian_9_5" faction="Faction.clan_mongolian_9"/>
+	<Hero id="lord_mongolian_9_4" father="Hero.lord_mongolian_9_1" mother="Hero.lord_mongolian_9_2" spouse="Hero.lord_mongolian_9_6" faction="Faction.clan_mongolian_9"/>
+	<Hero id="lord_mongolian_9_5" spouse="Hero.lord_mongolian_9_3" faction="Faction.clan_mongolian_9"/>
+	<Hero id="lord_mongolian_9_6" spouse="Hero.lord_mongolian_9_4" faction="Faction.clan_mongolian_9"/>
+</Heroes>

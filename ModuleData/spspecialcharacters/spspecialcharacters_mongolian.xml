@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!--WANDERERS OF KHUZAIT -->
+	<!--engineer, sent to learn trade -->
+	<NPCCharacter id="spc_wanderer_mongolian_0" name="{=sdzaip5J}{FIRSTNAME} the Knowing" voice="softspoken" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.mongolian" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_0_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<Traits>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- the hawk, curt voice. Rural clan nemesis. Easily insulted, killed a man's brother over a girl -->
+	<NPCCharacter id="spc_wanderer_mongolian_1" name="{=j2nVPqIX}{FIRSTNAME} the Hawk" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.mongolian" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_1_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- the fatherless, backed out of a family feud -->
+	<NPCCharacter id="spc_wanderer_mongolian_2" name="{=agS5lIg7}{FIRSTNAME} the Fatherless" voice="earnest" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.mongolian" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_2_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- ironeye, professional soldier. infantryman -->
+	<NPCCharacter id="spc_wanderer_mongolian_3" name="{=QWbgE4bw}{FIRSTNAME} Ironeye" voice="curt" age="32" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.mongolian" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_3_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--the proud, turned on protectors. lord as nemesis -->
+	<NPCCharacter id="spc_wanderer_mongolian_4" name="{=ykTARD4b}{FIRSTNAME} the Outcast" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.mongolian" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_4_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<Traits>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- 'the mad' soft voice, sinister? Pickpocket. Have gang leader as nemesis? -->
+	<NPCCharacter id="spc_wanderer_mongolian_5" name="{=q5QjQyde}{FIRSTNAME} the Mad" voice="softspoken" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.mongolian" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_5_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--the grey falcon, lone survivor of a hunted steppe clan -->
+	<NPCCharacter id="spc_wanderer_mongolian_6" name="{=seS9ZZUW}{FIRSTNAME} the Grey Falcon" voice="curt" age="20" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.mongolian" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_6_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--the she-wolf - taken by empire, slave in arena. CHANGED TO AT-START-->
+	<NPCCharacter id="spc_wanderer_mongolian_7" name="{=3wzexaA7}{FIRSTNAME} the She-Wolf" voice="curt" age="28" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.mongolian" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_7_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- lone daughter of mother -->
+	<NPCCharacter id="spc_wanderer_mongolian_8" name="{=OIXub6bS}{FIRSTNAME} the Alone" voice="curt" age="29" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.mongolian" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_8_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_mongolian"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- tomboy daughter of caravan guard -->
+	<NPCCharacter id="spc_wanderer_mongolian_9" name="{=KY2zbWkj}{FIRSTNAME} the Swift" voice="ironic" age="21" is_female="true" is_hero="false" default_group="Infantry" is_template="true" culture="Culture.mongolian" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_9_skills">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- former 'horsethief' -->
+	<NPCCharacter id="spc_wanderer_mongolian_10" name="{=CQOlMayc}{FIRSTNAME} the Ragged" voice="earnest" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.mongolian" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_10_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.mongolian_sword_4_t4"/>
+				<equipment slot="Head" id="Item.decorated_nomad_cap"/>
+				<equipment slot="Body" id="Item.ragged_robes"/>
+				<equipment slot="Leg" id="Item.ragged_boots"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="npc_companion_equipment_template_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- URBAN CHARACTERS OF KHUZAIT -->
+	<NPCCharacter id="spc_notable_mongolian_merchant_1" name="{=!}Cautious Khuzait merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_notable_khuzait_merchant_1" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_mongolian_0b" name="{=!}{FIRSTNAME} the Broker" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" occupation="Merchant" skill_template="SkillSet.spc_notable_khuzait_0b">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<Traits>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="spc_notable_mongolian_0b"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_mongolian_1" name="{=!}{FIRSTNAME} the Dyer" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_notable_khuzait_1" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="spc_notable_mongolian_1"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_mongolian_1b" name="{=!}{FIRSTNAME} the Horsetrader" is_template="true" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_notable_khuzait_1b" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="spc_notable_mongolian_1b"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_mongolian_1c" name="{=!}{FIRSTNAME} the Wineseller" is_template="true" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_notable_khuzait_1c" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="spc_notable_mongolian_1c"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_mongolian_2" name="{=!}{FIRSTNAME} the Freedwoman" is_template="true" voice="ironic" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_notable_khuzait_2" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="spc_notable_mongolian_2"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_mongolian_2b" name="{=!}{FIRSTNAME} the Silkseller" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_notable_khuzait_2b" occupation="Merchant">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="4"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="spc_notable_mongolian_2b"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_mongolian_3" name="{=!}Khuzait shaman" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_notable_khuzait_3" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="spc_notable_mongolian_3"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_notable_mongolian_4" name="{=!}Female preacher" voice="softspoken" is_template="true" default_group="Infantry" is_female="true" culture="Culture.mongolian" skill_template="SkillSet.spc_notable_khuzait_4" occupation="Preacher">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="spc_notable_mongolian_4"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- khuzait gang leaders - keep at least 3-4 for variety in persona-->
+	<NPCCharacter id="spc_mongolian_gangleader_1" name="{=!}Female gang leader" voice="curt" is_template="true" default_group="Infantry" is_female="true" culture="Culture.mongolian" skill_template="SkillSet.spc_khuzait_gangleader_1" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.townswoman_mongolian"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_mongolian_gangleader_2" name="{=!}Standard male gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_khuzait_gangleader_2" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_mongolian_gangleader_3" name="{=!}Standard male gang leader" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_khuzait_gangleader_3" occupation="GangLeader">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+			<EquipmentSet id="spc_mongolian_gangleader_3"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_mongolian_rural_notable_1" name="{=!}Khuzait craft rural notable" is_template="true" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_khuzait_rural_notable_1" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_mongolian_rural_notable_2" name="{=!}Khuzait proud rural notable" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_khuzait_rural_notable_2" occupation="RuralNotable">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_mongolian_artisan_1" name="{=!}khuzait rebellious artisan" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_khuzait_artisan_1" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="SteppeHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_mongolian_artisan_2" name="{=!}khuzait conservative artisan" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_khuzait_artisan_2" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="SteppeHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_mongolian_artisan_3" name="{=!}khuzait devious artisan" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_khuzait_artisan_3" occupation="Artisan">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="SteppeHair" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_mongolian_headman_1" name="{=!}khuzait rebellious headman" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_khuzait_headman_1" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="SteppeHair" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_mongolian_headman_2" name="{=!}khuzait conservative headman" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_khuzait_headman_2" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="SteppeHair" value="1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_mongolian_headman_3" name="{=!}khuzait devious headman" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_khuzait_headman_3" occupation="Headman">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="SteppeHair" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="npc_armed_wanderer_equipment_template_mongolian"/>
+			<EquipmentSet id="npc_wanderer_equipment_template_mongolian" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--Notable Templates -->
+	<NPCCharacter id="npc_poor_wanderer_mongolian" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}wanderer_equipment" occupation="NotAssigned" culture="Culture.mongolian" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_poor_wanderer_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_artisan_equipment_mongolian" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}artisan_equipment" occupation="NotAssigned" culture="Culture.mongolian" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_artisan_equipment_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_gang_leader_equipment_mongolian" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}gang_leader_equipment" occupation="NotAssigned" culture="Culture.mongolian" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_gang_leader_equipment_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_preacher_equipment_mongolian" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}preacher_equipment" occupation="NotAssigned" culture="Culture.mongolian" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_preacher_equipment_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="npc_merchant_equipment_mongolian" default_group="Infantry" is_template="true" is_hero="false" level="16" name="{=!}merchant_equipment" occupation="NotAssigned" culture="Culture.mongolian" skill_template="SkillSet.spc_caravan_leader_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_mongolian"/>
+		</face>
+		<Equipments>
+			<EquipmentSet id="npc_merchant_equipment_mongolian"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Auto generated lords for Rebellions & lords in your companions' clans -->
+	<NPCCharacter id="mongolian_autogenerated_lord1" name="{=reJpmqBO} YouAreNotMeantToSeeThis" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="horde_lord_lancer_combat"/>
+			<EquipmentSet id="horde_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mongolian_autogenerated_lord2" name="{=oJPkrJZe} YouAreNotMeantToSeeThis" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="KnightFightingSkills" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="horde_lord_lancer_combat"/>
+			<EquipmentSet id="horde_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mongolian_autogenerated_lord3" name="{=ZWJxepQv} YouAreNotMeantToSeeThis" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="HorseArcherFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="horde_lord_horsearcher_combat"/>
+			<EquipmentSet id="horde_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="mongolian_autogenerated_lord4" name="{=ddOTRNYD} YouAreNotMeantToSeeThis" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.mongolian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_mongolian"/>
+		</face>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="4"/>
+			<Trait id="HorseArcherFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="horde_lord_horsearcher_combat"/>
+			<EquipmentSet id="horde_lord_noncombat" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+</NPCCharacters>
