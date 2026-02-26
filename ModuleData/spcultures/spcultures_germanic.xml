@@ -90,9 +90,8 @@
             <item id="Item.empire_sword_6_t5"/>
         </banner_bearer_replacement_weapons>
         <default_policies>
-            <policy id="policy_imperial_towns"/>
-            <policy id="policy_noble_retinues"/>
-            <policy id="policy_citizenship"/>
+            <policy id="policy_senate"/>
+            <policy id="policy_lords_privy_council"/>
         </default_policies>
         <male_names>
             <name name="{=sLkQmpHl}Abbo"/>
@@ -407,8 +406,9 @@
             <name name="{=zvomlkeK}Adelmund"/>
         </clan_names>
         <cultural_feats>
-            <feat id="khuzait_cheaper_recruits_mounted"/>
-            <feat id="vlandian_increased_army_influence_cost"/>
+            <feat id="empire_decreased_garrison_wage"/>
+            <feat id="empire_army_influence"/>
+			<feat id="vlandian_villages_production_bonus"/>
         </cultural_feats>
         <possible_clan_banner_icon_ids>
             <icon id="100"/>

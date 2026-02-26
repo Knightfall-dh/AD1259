@@ -89,9 +89,8 @@
 			<item id="Item.sturgia_sword_5_t5"/>
 		</banner_bearer_replacement_weapons>
 		<default_policies>
-			<policy id="policy_royal_privilege"/>
+			<policy id="policy_feudal_inheritance"/>
 			<policy id="policy_sacred_majesty"/>
-			<policy id="policy_marshals"/>
 		</default_policies>
 		<male_names>
 			<name name="{=G1}Giorgi"/>
@@ -172,9 +171,9 @@
 			<name name="{=C12}Avalishvili"/>
 		</clan_names>
 		<cultural_feats>
+			<feat id="empire_army_influence"/>
 			<feat id="khuzait_cheaper_recruits_mounted"/>
-			<feat id="empire_slower_hearth_production"/>
-			<feat id="vlandian_renown_mercenary_income"/>
+			<feat id="aserai_cheaper_caravans"/>
 		</cultural_feats>
 		<possible_clan_banner_icon_ids>
 			<icon id="112"/>
