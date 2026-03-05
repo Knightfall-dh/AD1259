@@ -1,0 +1,2813 @@
+<?xml version="1.0"?>
+<scene name="arena_empire_alley" version="2">
+	<flora_bounding_rect min="167.841, 159.624" max="280.108, 342.241"/>
+	<levels>
+		<level name="base" mask="1"/>
+	</levels>
+	<environment_properties>
+		<property name="nav_mesh_auto_generated_" value="false"/>
+		<property name="physics_world_min" value="-1358.304, -1151.148"/>
+		<property name="physics_world_max_" value="500.000, 500.000"/>
+		<property name="north_angle" value="0.000"/>
+		<property name="is_indoors" value="false"/>
+		<property name="disable_flora_billboards" value="false"/>
+		<property name="ground_color" value="0.000, 0.000, 0.000"/>
+		<property name="prt_multiplier" value="1.000"/>
+		<property name="prt_point_light_multiplier" value="1.000"/>
+		<property name="fog_start_distance" value="50.000"/>
+		<property name="prt_color_contrast" value="1.000"/>
+		<property name="scene_scale_multiplier" value="1.000"/>
+		<property name="prt_intensity_contrast" value="1.000"/>
+		<property name="prt_fallback_probe_index" value="-1, -1, -1"/>
+		<property name="enforced_color_grade" value=""/>
+		<property name="gi_data_exists" value="false"/>
+		<atmosphere_properties>
+			<property name="atmosphere_name" value="scene_atmosphere"/>
+			<property name="wind" value="1.000, 0.000"/>
+			<property name="scene_fog_falloff_offset" value="0.000"/>
+		</atmosphere_properties>
+		<water_properties version="1">
+			<property name="water_level" value="-100.000"/>
+			<property name="water_strength" value="5.000"/>
+			<property name="water_wind_dependency" value="1.000"/>
+			<property name="water_material" value="water_default"/>
+			<property name="water_shallow_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_deep_color" value="1.000, 1.000, 1.000"/>
+			<property name="water_exists" value="false"/>
+			<property name="place_water_probe" value="true"/>
+		</water_properties>
+		<out_of_bounds_effects_properties>
+			<property name="vignette_color" value="0.000, 0.500, 1.000"/>
+			<property name="vignette_alpha" value="0.000"/>
+		</out_of_bounds_effects_properties>
+	</environment_properties>
+	<entities>
+		<game_entity prefab="empire_garden_sidewalk_b_corner1" season_mask="244">
+			<transform position="241.123, 252.493, 1.094" rotation_euler="0.000, 0.000, -0.068"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="empire_garden_sidewalk_b_corner1.lod2.1" material="multi_mat_snow" factor="4285493103"/>
+					<mesh name="empire_garden_sidewalk_b_corner1.1" material="multi_mat_snow" factor="4285164138"/>
+					<mesh name="empire_garden_sidewalk_b_corner1.lod4.1" material="multi_mat_snow" factor="4286545791"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="rock_004">
+			<transform position="221.577, 242.551, 0.951" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_b_corner1" season_mask="244">
+			<transform position="239.584, 252.073, 1.167" rotation_euler="0.000, 0.000, 1.491"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="empire_garden_sidewalk_b_corner1.lod2.1" material="multi_mat_snow" factor="4285493103"/>
+					<mesh name="empire_garden_sidewalk_b_corner1.1" material="multi_mat_snow" factor="4285164138"/>
+					<mesh name="empire_garden_sidewalk_b_corner1.lod4.1" material="multi_mat_snow" factor="4286545791"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="rock_005">
+			<transform position="220.814, 241.865, 0.911" rotation_euler="0.000, 0.000, -0.020"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_b_corner1" season_mask="244">
+			<transform position="241.494, 250.929, 1.054" rotation_euler="0.000, 0.000, -1.629"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="empire_garden_sidewalk_b_corner1.lod2.1" material="multi_mat_snow" factor="4285493103"/>
+					<mesh name="empire_garden_sidewalk_b_corner1.1" material="multi_mat_snow" factor="4285164138"/>
+					<mesh name="empire_garden_sidewalk_b_corner1.lod4.1" material="multi_mat_snow" factor="4286545791"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_b_corner1" season_mask="244">
+			<transform position="239.961, 250.471, 1.081" rotation_euler="0.000, 0.000, 3.034"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="empire_garden_sidewalk_b_corner1.lod2.1" material="multi_mat_snow" factor="4285493103"/>
+					<mesh name="empire_garden_sidewalk_b_corner1.1" material="multi_mat_snow" factor="4285164138"/>
+					<mesh name="empire_garden_sidewalk_b_corner1.lod4.1" material="multi_mat_snow" factor="4286545791"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning_lc">
+			<transform position="240.104, 213.067, -0.131" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="1">
+					<children>
+						<game_entity visible="false" _index_="0"/>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_house_a">
+			<transform position="206.722, 236.041, 0.000" rotation_euler="0.000, 0.000, 1.610"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="rock_006">
+			<transform position="233.391, 280.409, 2.940" rotation_euler="0.000, 0.000, -0.572"/>
+		</game_entity>
+		<game_entity prefab="rock_002">
+			<transform position="233.805, 280.108, 2.915" rotation_euler="0.000, 0.000, 1.168" scale="1.587, 1.587, 1.587"/>
+		</game_entity>
+		<game_entity prefab="rock_001">
+			<transform position="233.419, 280.116, 2.923" rotation_euler="0.000, 0.000, 0.191"/>
+		</game_entity>
+		<game_entity prefab="empire_house_b">
+			<transform position="205.350, 249.751, 1.572" rotation_euler="0.000, 0.000, -0.067"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_house_d">
+			<transform position="204.139, 268.434, 2.604" rotation_euler="0.000, 0.032, -1.650"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_village_house_a">
+			<transform position="208.765, 288.593, 3.370" rotation_euler="0.000, 0.000, 1.502"/>
+		</game_entity>
+		<game_entity prefab="empire_village_house_c">
+			<transform position="217.989, 310.447, 4.497" rotation_euler="0.000, 0.000, -0.188"/>
+		</game_entity>
+		<game_entity prefab="empire_village_house_a">
+			<transform position="244.981, 312.786, 4.085" rotation_euler="0.000, 0.000, 2.930"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="226.034, 269.084, 3.970" rotation_euler="0.000, 0.000, 3.068"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_06" season_mask="251">
+			<transform position="225.984, 269.271, 2.520" rotation_euler="-0.162, -1.953, -3.085"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="226.649, 228.583, 0.161" rotation_euler="-0.163, 0.000, -2.852"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="234.607, 296.280, 4.011" rotation_euler="0.127, 0.136, -1.056" scale="0.580, 0.580, 0.580"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_d">
+			<transform position="335.439, 260.822, 4.024" rotation_euler="0.000, 0.000, 1.570"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_d">
+			<transform position="142.237, 273.910, 8.613" rotation_euler="0.000, 0.000, 1.459"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_e">
+			<transform position="133.916, 195.409, 5.444" rotation_euler="0.000, 0.000, 2.195"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_c">
+			<transform position="327.146, 337.594, 6.728" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_c">
+			<transform position="229.459, 158.215, 0.000" rotation_euler="0.000, 0.000, -3.077"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_c">
+			<transform position="256.669, 350.597, 5.159" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="233.790, 296.156, 3.743" rotation_euler="-0.055, -0.021, -0.242" scale="0.580, 0.580, 0.580"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="234.763, 296.410, 4.004" rotation_euler="0.186, -0.009, -0.181" scale="0.580, 0.580, 0.580"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="207.249, 251.998, 9.901" rotation_euler="0.000, 0.000, 1.466"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="219.242, 213.948, 0.155" rotation_euler="-0.045, 0.000, -2.769" scale="0.686, 0.686, 0.686"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="234.219, 295.558, 3.820" rotation_euler="0.088, 0.000, -0.675"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="213.165, 291.465, 9.301" rotation_euler="0.000, 0.000, 1.466"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="234.754, 295.020, 3.734" rotation_euler="-0.103, 0.036, 2.621" scale="0.580, 0.580, 0.580"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_c_short1">
+			<transform position="230.535, 280.515, 3.002" rotation_euler="0.000, 0.000, -1.703"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="235.130, 295.544, 3.370" rotation_euler="-0.102, 0.000, 0.515"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="222.620, 217.117, 0.310" rotation_euler="0.000, 0.000, -1.010" scale="0.837, 0.837, 0.837"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_b_corner1" season_mask="251">
+			<transform position="241.123, 252.493, 1.094" rotation_euler="0.000, 0.000, -0.068"/>
+		</game_entity>
+		<game_entity name="envmap_probe" old_prefab_name="" mobility="1">
+			<visibility_masks>
+				<visibility_mask name="no_shadow" value="true"/>
+				<visibility_mask name="visible_only_when_editing" value="true"/>
+			</visibility_masks>
+			<transform position="20.000, 0.000, 5.000" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="ReflectionCapturer">
+					<variables>
+						<variable name="IsGlobal" value="true"/>
+						<variable name="IsParallaxCorrected" value="false"/>
+						<variable name="AmbientMultiplier" value="1.000"/>
+						<variable name="AttenuationCoef" value="20.000"/>
+						<variable name="BoxOffset" value="0.000, 0.000, 0.000, 0.000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="206.485, 251.650, 9.901" rotation_euler="0.000, 0.000, 1.466"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="212.318, 291.206, 9.302" rotation_euler="0.000, 0.000, 1.466"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="237.025, 295.099, 3.400" rotation_euler="-0.220, 0.000, -1.571" scale="0.898, 0.898, 0.898"/>
+		</game_entity>
+		<game_entity prefab="crate_b">
+			<transform position="228.679, 189.068, 6.611" rotation_euler="0.000, 0.000, 1.529"/>
+		</game_entity>
+		<game_entity prefab="foods_basket_apple">
+			<transform position="212.576, 188.582, 6.611" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="232.602, 297.595, 3.888" rotation_euler="0.036, -0.103, 0.376" scale="0.580, 0.580, 0.580"/>
+		</game_entity>
+		<game_entity prefab="weapon_rack_a">
+			<transform position="225.134, 187.549, 6.611" rotation_euler="0.000, 0.000, -0.065"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="233.777, 295.566, 3.934" rotation_euler="0.256, 0.000, -0.914"/>
+		</game_entity>
+		<game_entity prefab="vlandia_onehanded_sword_a">
+			<transform position="211.272, 188.317, 7.358" rotation_euler="-0.505, -3.141, 2.558"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_e">
+			<transform position="142.019, 302.574, 13.040" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_d">
+			<transform position="279.071, 344.654, 3.910" rotation_euler="0.000, 0.000, -0.495"/>
+		</game_entity>
+		<game_entity prefab="empire_house_c">
+			<transform position="235.235, 335.630, 5.565" rotation_euler="0.000, 0.000, -1.579"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_c">
+			<transform position="308.188, 191.636, 0.475" rotation_euler="0.000, 0.000, -0.344"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_c">
+			<transform position="161.203, 196.041, 6.024" rotation_euler="0.000, 0.000, 1.942"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="247.310, 198.832, 5.557" rotation_euler="0.000, 0.000, -1.726"/>
+		</game_entity>
+		<game_entity prefab="foods_orange">
+			<transform position="213.859, 188.303, 7.464" rotation_euler="-1.473, 3.141, 2.118"/>
+		</game_entity>
+		<game_entity prefab="apple">
+			<transform position="214.030, 188.435, 7.407" rotation_euler="0.000, 0.000, -1.045" scale="0.837, 0.837, 0.837"/>
+		</game_entity>
+		<game_entity prefab="kitchen_knife">
+			<transform position="213.299, 189.103, 7.405" rotation_euler="0.000, 0.000, 0.319"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_empire_a_pillow_b_unsittable">
+			<transform position="226.734, 190.643, 6.611" rotation_euler="0.000, 0.000, 0.095"/>
+		</game_entity>
+		<game_entity prefab="foods_orange">
+			<transform position="214.118, 188.209, 7.408" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="apple">
+			<transform position="214.137, 188.357, 7.407" rotation_euler="0.000, 0.000, 0.000" scale="0.837, 0.837, 0.837"/>
+		</game_entity>
+		<game_entity prefab="foods_apple_a">
+			<transform position="213.680, 188.455, 7.407" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_empire_a_pillow_c_unsittable">
+			<transform position="221.255, 191.534, 6.611" rotation_euler="0.000, 0.000, -0.047"/>
+		</game_entity>
+		<game_entity prefab="_barrier_08x04m">
+			<transform position="226.660, 192.120, 6.610" rotation_euler="0.000, 0.000, -0.059" scale="8.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="foods_orange">
+			<transform position="213.972, 188.187, 7.408" rotation_euler="0.000, 0.000, -1.567"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_04" season_mask="251">
+			<transform position="215.693, 227.042, -0.483" rotation_euler="-0.793, 0.208, 3.130"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="214.988, 220.496, 0.419" rotation_euler="-0.726, 0.000, 0.033"/>
+		</game_entity>
+		<game_entity prefab="kitchen_bowl_c">
+			<transform position="214.552, 188.175, 7.491" rotation_euler="0.000, 0.000, 0.184"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_c">
+			<transform position="92.610, 236.278, 10.705" rotation_euler="0.000, 0.000, -0.022"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_d">
+			<transform position="110.623, 196.449, 10.981" rotation_euler="0.000, 0.000, -1.747"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_c">
+			<transform position="154.287, 252.630, 2.273" rotation_euler="0.000, 0.000, 1.213"/>
+		</game_entity>
+		<game_entity prefab="kitchen_cutting_food_bread">
+			<transform position="213.437, 188.798, 7.464" rotation_euler="0.000, 0.000, 0.444"/>
+		</game_entity>
+		<game_entity prefab="lib_book_closed_a">
+			<transform position="227.871, 190.854, 7.648" rotation_euler="0.000, 0.000, -2.192" scale="0.756, 0.756, 0.756"/>
+		</game_entity>
+		<game_entity prefab="mead_cup_wooden_c">
+			<transform position="227.940, 191.151, 7.648" rotation_euler="0.000, 0.000, 1.017"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_empire_b_pillow_b_unsittable">
+			<transform position="214.286, 191.873, 6.611" rotation_euler="0.000, 0.000, -0.018"/>
+		</game_entity>
+		<game_entity prefab="bd_table_c">
+			<transform position="214.598, 188.482, 6.611" rotation_euler="0.000, 0.000, -0.069"/>
+		</game_entity>
+		<game_entity prefab="table_empire_d">
+			<transform position="228.083, 191.049, 6.611" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mead_cup_wooden_c">
+			<transform position="217.708, 191.854, 7.648" rotation_euler="0.000, 0.000, 1.017"/>
+		</game_entity>
+		<game_entity prefab="bd_wall_decoration_weapons_j">
+			<transform position="229.183, 189.464, 8.810" rotation_euler="0.000, 0.000, -1.639"/>
+		</game_entity>
+		<game_entity prefab="mead_cup_wooden_c">
+			<transform position="215.745, 188.956, 7.408" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_a">
+			<transform position="228.612, 187.876, 6.611" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_heap_a">
+			<transform position="226.584, 187.738, 6.611" rotation_euler="0.000, 0.000, -0.102"/>
+		</game_entity>
+		<game_entity prefab="bd_barrel_c">
+			<transform position="215.425, 188.533, 7.408" rotation_euler="0.000, 0.000, 3.111" scale="0.657, 0.657, 0.657"/>
+		</game_entity>
+		<game_entity prefab="kitchen_mug_c">
+			<transform position="214.577, 188.804, 7.407" rotation_euler="0.000, 0.000, 2.272"/>
+		</game_entity>
+		<game_entity prefab="mead_cup_wooden_c">
+			<transform position="213.076, 192.071, 7.648" rotation_euler="0.000, 0.000, 1.017"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="225.016, 231.872, 0.615" rotation_euler="0.009, -0.132, 1.629" scale="0.693, 0.693, 0.693"/>
+		</game_entity>
+		<game_entity prefab="mountain_border_c">
+			<transform position="105.071, 1490.527, 28.635" rotation_euler="0.000, 0.000, 1.283" scale="14.819, 14.819, 16.882"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_c"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_c">
+			<transform position="123.753, 217.834, 6.024" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="223.666, 216.645, 0.333" rotation_euler="0.000, 0.000, 0.932" scale="0.728, 0.728, 0.728"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="223.101, 231.465, 0.516" rotation_euler="-0.071, 0.000, 2.165"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_d">
+			<transform position="146.770, 152.933, 4.912" rotation_euler="0.000, 0.000, -2.280"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_d">
+			<transform position="335.066, 316.455, 5.848" rotation_euler="0.000, 0.000, -1.430"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="224.508, 231.073, 0.520" rotation_euler="0.000, 0.000, 1.519" scale="0.693, 0.693, 0.693"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="223.650, 217.263, 0.381" rotation_euler="-0.017, 0.000, 1.218" scale="0.493, 0.493, 0.493"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="213.222, 300.315, 10.189" rotation_euler="0.000, 0.000, 0.670"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_d">
+			<transform position="315.655, 277.633, 0.801" rotation_euler="0.000, 0.000, -1.528"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="253.146, 291.927, 11.417" rotation_euler="0.000, 0.000, -1.480"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_c">
+			<transform position="310.895, 302.959, 1.528" rotation_euler="0.000, 0.000, -1.588" scale="1.185, 1.185, 1.185"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="222.113, 215.725, 0.073" rotation_euler="-0.090, 0.000, 0.132" scale="0.837, 0.837, 0.837"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="246.258, 226.051, 6.047" rotation_euler="0.000, 0.000, -1.495"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="218.918, 208.911, 0.000" rotation_euler="0.000, 0.000, 0.214" scale="0.755, 0.755, 0.755"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="245.911, 227.132, 6.051" rotation_euler="0.000, 0.000, -1.497"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="223.720, 232.021, 0.565" rotation_euler="0.000, 0.000, -2.812"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_c_short1">
+			<transform position="230.665, 281.750, 3.070" rotation_euler="0.000, 0.000, -1.703"/>
+		</game_entity>
+		<game_entity prefab="empire_house_b">
+			<transform position="272.699, 320.319, 3.538" rotation_euler="0.000, 0.000, -2.105"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_house_d">
+			<transform position="284.262, 287.224, 1.794" rotation_euler="0.000, 0.000, 1.588"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="carpet_empire_d">
+			<transform position="220.288, 188.535, 6.621" rotation_euler="0.000, 0.000, -1.652"/>
+		</game_entity>
+		<game_entity prefab="crate_b_empty">
+			<transform position="216.448, 188.203, 6.611" rotation_euler="0.000, 0.000, -1.410" scale="0.717, 0.717, 0.717"/>
+		</game_entity>
+		<game_entity prefab="merchandise_cloth_a">
+			<transform position="214.146, 188.169, 6.611" rotation_euler="0.000, 0.000, 1.270"/>
+		</game_entity>
+		<game_entity prefab="merchandise_cloth_a">
+			<transform position="214.254, 188.513, 6.611" rotation_euler="0.000, 0.000, -1.943"/>
+			<components>
+				<meta_mesh_component>
+					<mesh name="merchandise_cloth_a.4" factor="4291640639"/>
+					<mesh name="merchandise_cloth_a.6" factor="4291640639"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity prefab="arena_audience_mid_point">
+			<transform position="230.157, 226.469, 0.351" rotation_euler="0.000, 0.000, 2.501"/>
+		</game_entity>
+		<game_entity prefab="arena_audience_mid_point">
+			<transform position="230.994, 258.202, 1.812" rotation_euler="0.000, 0.000, 2.501"/>
+		</game_entity>
+		<game_entity prefab="arena_audience_mid_point">
+			<transform position="230.758, 286.567, 3.716" rotation_euler="0.000, 0.000, 2.501"/>
+		</game_entity>
+		<game_entity name="arena_sound" old_prefab_name="arena_ambient_sound">
+			<tags>
+				<tag name="arena_sound"/>
+			</tags>
+			<transform position="230.782, 260.746, 5.287" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity name="arena_ambient_sound" old_prefab_name="arena_ambient_sound" mobility="1">
+			<tags>
+				<tag name="arena_sound"/>
+			</tags>
+			<transform position="225.953, 195.667, 5.059" rotation_euler="0.000, 0.000, 0.000"/>
+			<scripts>
+				<script name="path_converger">
+					<variables>
+						<variable name="Path Name" value="arena_sound_path"/>
+						<variable name="Rotate To Camera" value="false"/>
+						<variable name="Apply Scale" value="false"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="236.148, 268.794, 2.938" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="209.438, 230.608, 0.365" rotation_euler="0.000, 0.000, 1.533" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="244.335, 194.321, 0.318" rotation_euler="0.000, 0.000, -2.906" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="210.687, 195.352, 0.325" rotation_euler="0.000, 0.000, 2.992" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="226.474, 268.789, 2.938" rotation_euler="0.000, 0.000, 3.141"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="215.032, 303.477, 10.133" rotation_euler="0.000, 0.000, 0.850"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="213.477, 294.747, 9.304" rotation_euler="0.000, 0.000, 1.408"/>
+		</game_entity>
+		<game_entity prefab="empire_house_a">
+			<transform position="255.303, 296.529, 3.308" rotation_euler="0.000, 0.000, 1.570"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity name="ground_plane" old_prefab_name="">
+			<transform position="10.000, 10.000, 0.010" rotation_euler="0.000, 0.000, 0.000" scale="20.000, 20.000, 20.000"/>
+			<physics shape="bo_editor_plane"/>
+			<components>
+				<meta_mesh_component name="editor_plane_low"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="213.743, 304.039, 10.148" rotation_euler="0.000, 0.000, 0.670"/>
+		</game_entity>
+		<game_entity prefab="bd_tapestry_imperial_d">
+			<transform position="211.285, 189.700, 10.521" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="bd_tapestry_imperial_c">
+			<transform position="211.358, 191.136, 10.464" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="167.841, 159.624, 0.000" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="280.108, 162.491, 0.308" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="279.634, 335.935, 3.632" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="border_soft">
+			<transform position="190.627, 342.241, 6.451" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_d">
+			<transform position="257.573, 251.297, 1.087" rotation_euler="0.000, 0.000, -3.102"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="236.641, 268.431, 2.379" rotation_euler="0.000, 0.000, -3.062"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="210.032, 255.326, 1.804" rotation_euler="0.000, 0.000, 1.503" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_c">
+			<transform position="215.925, 227.774, -0.360" rotation_euler="0.000, 0.000, -2.187"/>
+		</game_entity>
+		<game_entity prefab="rock_006">
+			<transform position="220.749, 225.729, 0.270" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="213.419, 279.057, 3.607" rotation_euler="0.000, 0.000, 1.505" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="217.455, 211.596, 0.055" rotation_euler="0.000, 0.000, 2.486" scale="0.727, 0.727, 0.727"/>
+		</game_entity>
+		<game_entity prefab="empire_house_c">
+			<transform position="256.714, 267.768, 2.331" rotation_euler="0.000, 0.000, 0.016"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_house_a">
+			<transform position="183.589, 308.846, 4.513" rotation_euler="0.000, 0.000, -1.632"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="sp_player_near_arena_master">
+			<transform position="224.532, 189.845, 6.611" rotation_euler="0.000, 0.000, -0.467" scale="0.750, 0.750, 1.000"/>
+		</game_entity>
+		<game_entity prefab="mead_cup_wooden_c">
+			<transform position="214.732, 189.037, 7.407" rotation_euler="0.000, 0.000, 0.982"/>
+		</game_entity>
+		<game_entity prefab="sp_tournament_master">
+			<transform position="225.530, 191.526, 6.611" rotation_euler="0.000, 0.000, 2.570" scale="0.750, 0.750, 1.000"/>
+		</game_entity>
+		<game_entity prefab="_barrier_passage_center">
+			<transform position="220.101, 187.249, 6.566" rotation_euler="0.000, 0.000, 3.091" scale="4.000, 4.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="tournament_fight_set2">
+			<transform position="240.309, 256.547, 4.502" rotation_euler="0.000, 0.000, -1.587"/>
+			<children>
+				<game_entity _index_="0">
+					<transform position="27.100, 0.210, -4.307" rotation_euler="0.000, 0.000, 2.476"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<transform position="-40.833, 2.054, -0.859" rotation_euler="0.000, 0.000, -2.593"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<transform position="-21.822, -17.805, -1.465"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<transform position="53.393, -16.519, -4.498"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_house_c">
+			<transform position="183.966, 170.893, 0.000" rotation_euler="0.000, 0.000, -0.014"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity name="mead_cup_wooden_c" old_prefab_name="mead_cup_wooden_c">
+			<transform position="215.886, 188.902, 7.409" rotation_euler="0.000, 0.000, 1.883"/>
+			<components>
+				<meta_mesh_component name="mead_cup_wooden_c"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="empire_house_d">
+			<transform position="169.586, 237.783, 0.352" rotation_euler="0.000, 0.000, -1.582"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="253.490, 284.110, 12.022" rotation_euler="0.000, 0.000, -1.551"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_b_corner1" season_mask="251">
+			<transform position="239.961, 250.471, 1.081" rotation_euler="0.000, 0.000, 3.034"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_b_corner1" season_mask="251">
+			<transform position="241.494, 250.929, 1.054" rotation_euler="0.000, 0.000, -1.629"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="207.007, 250.529, 9.901" rotation_euler="0.000, 0.000, 1.466"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_b_corner1" season_mask="251">
+			<transform position="239.584, 252.073, 1.167" rotation_euler="0.000, 0.000, 1.491"/>
+		</game_entity>
+		<game_entity prefab="rock_005">
+			<transform position="228.439, 268.242, 2.425" rotation_euler="0.000, 0.000, -1.213"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="220.722, 212.349, 0.055" rotation_euler="-0.045, 0.000, 1.154" scale="0.686, 0.686, 0.686"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="253.918, 286.975, 12.022" rotation_euler="0.000, 0.000, -1.551"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="251.463, 282.435, 7.533" rotation_euler="0.000, 0.000, -1.551"/>
+		</game_entity>
+		<game_entity prefab="empire_keep_d">
+			<transform position="63.556, 406.794, 31.522" rotation_euler="0.000, 0.000, 0.170" scale="1.643, 1.643, 1.643"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="251.216, 283.036, 7.533" rotation_euler="0.000, 0.000, -1.551"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_c_short1">
+			<transform position="234.217, 279.993, 2.940" rotation_euler="0.000, 0.000, -1.703"/>
+		</game_entity>
+		<game_entity prefab="table_empire_c">
+			<transform position="212.842, 191.877, 6.611" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mead_cup_wooden_c">
+			<transform position="218.245, 191.927, 7.648" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="kitchen_plate_grape">
+			<transform position="228.219, 190.939, 7.648" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="torch_candle_a">
+			<transform position="228.193, 191.304, 7.648" rotation_euler="0.000, 0.000, 0.000" scale="0.914, 0.914, 0.914"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_empire_b_pillow_a_unsittable">
+			<transform position="216.290, 191.779, 6.611" rotation_euler="0.000, 0.000, -0.057"/>
+		</game_entity>
+		<game_entity prefab="kitchen_plate_c">
+			<transform position="228.180, 191.295, 7.648" rotation_euler="0.000, 0.000, -0.579" scale="0.317, 0.317, 0.317"/>
+		</game_entity>
+		<game_entity prefab="_barrier_08x04m">
+			<transform position="214.289, 192.818, 6.695" rotation_euler="0.000, 0.000, -0.059" scale="8.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="table_empire_d">
+			<transform position="217.984, 191.888, 6.611" rotation_euler="0.000, 0.000, 1.740"/>
+		</game_entity>
+		<game_entity prefab="adam_0">
+			<transform position="219.169, 190.013, 6.611" rotation_euler="0.000, 0.000, -3.100"/>
+		</game_entity>
+		<game_entity prefab="bd_chair_empire_a_unsittable">
+			<transform position="219.339, 191.593, 6.611" rotation_euler="0.000, 0.000, -0.215"/>
+		</game_entity>
+		<game_entity prefab="_barrier_08x04m">
+			<transform position="220.663, 192.445, 6.667" rotation_euler="0.000, 0.000, -0.059" scale="8.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="253.588, 287.565, 12.022" rotation_euler="0.000, 0.000, -1.551"/>
+		</game_entity>
+		<game_entity prefab="torch_wall_b">
+			<transform position="225.087, 304.647, 7.081" rotation_euler="0.000, 0.000, -0.076"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="251.259, 280.859, 7.533" rotation_euler="0.000, 0.000, -1.929"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="216.769, 307.430, 10.112" rotation_euler="0.000, 0.000, 0.430"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="212.947, 298.673, 10.209" rotation_euler="0.000, 0.000, 1.107"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="232.924, 268.777, 2.938" rotation_euler="0.000, 0.000, 3.141"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_b1">
+			<transform position="229.651, 268.798, 2.938" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="222.804, 302.150, 4.668" rotation_euler="0.000, 0.000, -1.719"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="209.106, 243.735, 1.049" rotation_euler="0.000, 0.000, 1.573" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="Camera_Instance">
+			<tags>
+				<tag name="camera_instance"/>
+			</tags>
+			<transform position="241.808, 197.159, 7.717" rotation_euler="1.344, 0.000, 0.416"/>
+			<scripts>
+				<script name="camera_instance">
+					<variables>
+						<variable name="FOV(Degrees)" value="65.000000"/>
+						<variable name="Width" value="960"/>
+						<variable name="Height" value="540"/>
+						<variable name="Downscale Width" value="256"/>
+						<variable name="Far" value="1000.000000"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning_lc">
+			<transform position="238.715, 237.559, 0.471" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="1">
+					<children>
+						<game_entity visible="false" _index_="0"/>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning_lc">
+			<transform position="233.503, 267.816, 2.375" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="1">
+					<children>
+						<game_entity visible="false" _index_="0"/>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_house_a">
+			<transform position="239.115, 190.956, 0.188" rotation_euler="0.000, 0.000, -3.017"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="222.810, 231.454, 0.510" rotation_euler="0.051, 0.000, -1.522" scale="1.165, 1.165, 1.165"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="231.071, 193.299, 0.226" rotation_euler="0.000, 0.000, 2.992" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="219.184, 229.703, 0.054" rotation_euler="-0.168, 0.000, 1.365"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="252.952, 284.027, 12.022" rotation_euler="0.000, 0.000, -1.551"/>
+		</game_entity>
+		<game_entity prefab="mountain_border_long_a">
+			<transform position="1211.908, -189.907, 15.059" rotation_euler="0.000, 0.000, -1.897" scale="14.351, 14.351, 16.349"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_long_a"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_c1">
+			<transform position="226.291, 268.786, 4.039" rotation_euler="0.000, 0.000, 0.000" scale="0.850, 0.850, 0.850"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="228.985, 306.484, 10.101" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="223.892, 230.666, 0.485" rotation_euler="0.000, 0.000, 0.009"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="214.063, 301.459, 10.174" rotation_euler="0.000, 0.000, 1.107"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="224.652, 225.083, 0.281" rotation_euler="0.000, 0.000, 2.921" scale="0.690, 0.690, 0.690"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="221.960, 220.095, 0.555" rotation_euler="0.119, 0.000, -2.387"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="213.799, 298.606, 10.208" rotation_euler="0.000, 0.000, 1.107"/>
+		</game_entity>
+		<game_entity name="empire_house_d" old_prefab_name="empire_house_d" occlusion_body_name="bo_occ_empire_house_d">
+			<transform position="218.889, 188.120, 0.000" rotation_euler="0.000, 0.000, 3.091"/>
+			<physics shape="bo_empire_house_d"/>
+			<components>
+				<meta_mesh_component name="empire_house_d"/>
+			</components>
+			<children>
+				<game_entity name="scene: empire_house_d_interior" old_prefab_name="scene: empire_house_d_interior">
+					<visibility_masks>
+						<visibility_mask name="visible_only_when_editing" value="true"/>
+					</visibility_masks>
+					<transform position="-1.021, 11.369, 0.000" rotation_euler="0.000, 0.000, -0.020"/>
+					<components>
+						<meta_mesh_component name="pandora"/>
+					</components>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="219.175, 230.971, 0.375" rotation_euler="0.000, 0.000, -1.898" scale="0.677, 0.677, 0.677"/>
+		</game_entity>
+		<game_entity prefab="empire_village_house_a">
+			<transform position="253.544, 230.888, 0.126" rotation_euler="0.000, 0.000, 1.540"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="217.222, 230.712, 0.112" rotation_euler="-0.169, 0.000, 1.923"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="234.404, 307.493, 4.671" rotation_euler="0.000, 0.000, -0.217" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="214.540, 296.631, 4.211" rotation_euler="0.000, 0.000, 1.505" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_e">
+			<transform position="206.908, 361.008, 15.732" rotation_euler="0.000, 0.000, -1.595"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="218.350, 210.208, 0.016" rotation_euler="0.000, 0.000, -1.684"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="251.304, 281.525, 7.533" rotation_euler="0.000, 0.000, -1.551"/>
+		</game_entity>
+		<game_entity prefab="tournament_practice_set">
+			<transform position="226.958, 252.136, 2.072" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="0">
+					<transform position="-15.628, -14.269, -1.397"/>
+				</game_entity>
+				<game_entity _index_="1">
+					<transform position="17.842, -20.908, -1.880" rotation_euler="0.000, 0.000, 1.468"/>
+				</game_entity>
+				<game_entity _index_="2">
+					<transform position="-16.217, -0.222, -0.390" rotation_euler="0.000, 0.000, -1.604"/>
+				</game_entity>
+				<game_entity _index_="3">
+					<transform position="-14.453, 16.286, 0.630"/>
+				</game_entity>
+				<game_entity _index_="4">
+					<transform position="-0.485, -55.722, -2.052" rotation_euler="0.000, 0.000, -0.173"/>
+					<components>
+						<meta_mesh_component>
+							<mesh name="arrow_new_icon" factor="4279566080"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity _index_="5">
+					<transform position="-0.268, -54.578, -2.059" rotation_euler="0.000, 0.000, -0.202"/>
+					<components>
+						<meta_mesh_component>
+							<mesh name="arrow_new_icon" factor="4279566080"/>
+						</meta_mesh_component>
+					</components>
+				</game_entity>
+				<game_entity _index_="6">
+					<transform position="-10.461, 34.036, 1.512" rotation_euler="0.000, 0.000, -1.733"/>
+				</game_entity>
+				<game_entity _index_="7">
+					<transform position="-13.663, 15.360, 0.698"/>
+				</game_entity>
+				<game_entity _index_="8">
+					<transform position="-14.423, -14.287, -1.386"/>
+				</game_entity>
+				<game_entity _index_="9">
+					<transform position="-15.068, -0.289, -0.450" rotation_euler="0.000, 0.000, -1.680"/>
+				</game_entity>
+				<game_entity _index_="10">
+					<transform position="16.086, 51.853, 1.824" rotation_euler="0.000, 0.000, 3.105"/>
+				</game_entity>
+				<game_entity _index_="11">
+					<transform position="16.776, -20.815, -1.918" rotation_euler="0.000, 0.000, 1.455"/>
+				</game_entity>
+				<game_entity _index_="12">
+					<transform position="19.089, -44.216, -2.125"/>
+				</game_entity>
+				<game_entity _index_="13">
+					<transform position="-11.665, 34.225, 1.476" rotation_euler="0.000, 0.000, -1.722"/>
+				</game_entity>
+				<game_entity _index_="14">
+					<transform position="20.219, -44.338, -2.107"/>
+				</game_entity>
+				<game_entity _index_="15">
+					<transform position="16.240, 53.053, 1.888" rotation_euler="0.000, 0.000, 2.973"/>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_village_house_c">
+			<transform position="256.299, 202.312, 0.000" rotation_euler="0.000, 0.000, 1.415"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="254.980, 284.253, 12.022" rotation_euler="0.000, 0.000, -1.551"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="220.220, 212.851, 0.132" rotation_euler="-0.045, 0.000, 2.502" scale="0.850, 0.850, 0.850"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="221.321, 307.482, 10.098" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="219.521, 307.328, 10.097" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="246.124, 305.134, 10.011" rotation_euler="0.000, 0.000, -0.580"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="217.363, 307.664, 10.092" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="230.220, 305.045, 10.101" rotation_euler="0.000, 0.000, 0.123"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="214.568, 302.075, 10.165" rotation_euler="0.000, 0.000, 1.107"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="222.557, 306.729, 10.101" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="219.502, 308.183, 10.092" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="223.185, 306.998, 10.101" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="empire_house_d">
+			<transform position="187.610, 365.296, 19.128" rotation_euler="0.000, 0.000, 1.791"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="218.572, 307.750, 10.093" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="228.032, 305.554, 10.101" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="214.850, 302.940, 10.155" rotation_euler="0.000, 0.000, 1.107"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="228.911, 305.355, 10.101" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="empire_house_b">
+			<transform position="185.268, 281.706, 3.245" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="sp_player">
+			<transform position="220.109, 188.605, 6.611" rotation_euler="0.000, 0.000, -0.498"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="220.554, 223.309, -0.210" rotation_euler="-1.062, 0.000, 1.466" scale="2.128, 0.532, 3.209"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="253.875, 285.435, 12.022" rotation_euler="0.000, 0.000, -1.551"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="223.149, 220.586, 0.508" rotation_euler="0.000, 0.000, 0.375"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="206.253, 249.845, 9.901" rotation_euler="0.000, 0.000, 1.466"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="223.121, 221.153, 0.697" rotation_euler="0.116, 0.000, 0.993" scale="0.589, 0.589, 0.589"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="219.359, 210.167, 0.027" rotation_euler="0.000, 0.000, -0.997"/>
+		</game_entity>
+		<game_entity prefab="fence_empire_b">
+			<transform position="223.187, 304.638, 4.668" rotation_euler="0.000, 0.000, 1.417"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="223.588, 219.656, 0.510" rotation_euler="0.000, 0.000, -1.199" scale="0.698, 0.698, 0.698"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="250.418, 290.816, 3.116" rotation_euler="0.000, 0.000, -1.413" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="207.352, 228.919, 6.019" rotation_euler="0.000, 0.000, 1.466"/>
+		</game_entity>
+		<game_entity prefab="empire_street_fountain_a">
+			<flags>
+				<flag name="not_affected_by_season" value="true"/>
+			</flags>
+			<transform position="231.433, 267.869, 2.405" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="220.413, 218.327, 0.237" rotation_euler="0.000, 0.000, -0.731" scale="0.589, 0.589, 0.589"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b2" season_mask="251">
+			<transform position="220.986, 242.510, 0.949" rotation_euler="0.000, 0.000, -2.580" scale="0.567, 0.567, 0.567"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b2" season_mask="251">
+			<transform position="221.382, 241.214, 0.883" rotation_euler="0.000, 0.000, -2.245" scale="0.567, 0.567, 0.567"/>
+		</game_entity>
+		<game_entity prefab="empire_house_c">
+			<transform position="175.029, 261.466, 1.550" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_b">
+			<transform position="137.723, 331.088, 24.876" rotation_euler="0.000, 0.000, 0.555" scale="1.342, 1.342, 1.342"/>
+		</game_entity>
+		<game_entity prefab="empire_tower_a">
+			<transform position="338.168, 71.320, 4.937" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="223.105, 303.859, 4.790" rotation_euler="0.000, 0.000, 1.432" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="247.554, 199.919, 5.541" rotation_euler="0.000, 0.000, -1.726"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="223.322, 221.706, 0.339" rotation_euler="0.000, 0.000, 2.688" scale="0.589, 0.589, 0.589"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_c1">
+			<transform position="230.920, 268.786, 4.039" rotation_euler="0.000, 0.000, 0.000" scale="0.850, 0.850, 0.850"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_b">
+			<transform position="159.750, 178.449, 0.000" rotation_euler="0.000, 0.000, -1.359"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="220.913, 302.086, 4.719" rotation_euler="0.000, 0.000, -0.085" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="206.707, 248.222, 9.901" rotation_euler="0.000, 0.000, 1.466"/>
+		</game_entity>
+		<game_entity prefab="empire_house_b">
+			<transform position="282.655, 259.736, 0.814" rotation_euler="0.000, 0.000, 0.000" scale="1.316, 1.316, 1.316"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="206.756, 247.399, 9.901" rotation_euler="0.000, 0.000, 1.466"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="206.926, 248.906, 9.901" rotation_euler="0.000, 0.000, 1.466"/>
+		</game_entity>
+		<game_entity prefab="empire_wall_tower_e_corner">
+			<transform position="197.127, 409.189, 21.939" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_c">
+			<transform position="125.506, 237.151, 6.280" rotation_euler="0.000, 0.000, -1.720"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_d">
+			<transform position="296.079, 169.145, 0.764" rotation_euler="0.000, 0.000, -0.440"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="208.350, 228.244, 5.632" rotation_euler="0.000, 0.000, 1.466"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="247.120, 197.930, 5.569" rotation_euler="0.000, 0.000, -1.726"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_e">
+			<transform position="336.849, 289.585, 7.065" rotation_euler="0.000, 0.000, -1.548"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="208.031, 229.853, 5.708" rotation_euler="0.000, 0.000, 1.466"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="227.365, 305.827, 10.101" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="empire_house_c">
+			<transform position="201.638, 202.040, 0.000" rotation_euler="0.000, 0.000, 1.592"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="205.532, 247.912, 9.901" rotation_euler="0.000, 0.000, 1.466"/>
+		</game_entity>
+		<game_entity prefab="empire_wall_tower_e_corner">
+			<transform position="322.290, 371.704, 15.663" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="222.340, 217.470, 0.294" rotation_euler="0.000, 0.000, 0.561" scale="0.664, 0.664, 0.664"/>
+		</game_entity>
+		<game_entity prefab="empire_house_d">
+			<transform position="207.820, 163.394, 0.000" rotation_euler="0.000, 0.000, 3.051"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_house_d">
+			<transform position="199.099, 221.634, 0.000" rotation_euler="0.000, 0.000, -3.055"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="ivy_european_01" season_mask="251">
+			<transform position="226.387, 269.089, 3.862" rotation_euler="0.047, -0.167, 0.040" scale="0.681, 0.681, 0.681"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="227.281, 269.083, 3.653" rotation_euler="0.003, -0.036, 3.048"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_01" season_mask="251">
+			<transform position="236.175, 268.495, 2.401" rotation_euler="0.034, 0.000, 0.026"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="235.531, 268.499, 2.831" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="237.195, 268.499, 2.793" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_c1">
+			<transform position="234.477, 294.376, 3.679" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_c1">
+			<transform position="236.241, 295.801, 3.722" rotation_euler="0.000, -0.074, 1.588"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_c1">
+			<transform position="234.458, 297.276, 3.857" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_c1">
+			<transform position="232.609, 295.821, 3.809" rotation_euler="-0.007, -0.048, 1.602"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="223.306, 227.867, 0.357" rotation_euler="0.000, 0.000, 0.417" scale="0.677, 0.677, 0.677"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_e">
+			<transform position="222.556, 387.752, 15.732" rotation_euler="0.000, 0.000, 3.038"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="224.929, 225.969, 0.356" rotation_euler="0.000, 0.000, -1.523" scale="0.677, 0.677, 0.677"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_e">
+			<transform position="195.427, 391.164, 20.549" rotation_euler="0.000, 0.000, 1.538"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="249.291, 258.450, 1.893" rotation_euler="0.000, 0.000, -1.531" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="250.145, 304.205, 3.959" rotation_euler="0.000, 0.000, -1.413" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="213.234, 292.733, 9.303" rotation_euler="0.000, 0.000, 1.466"/>
+		</game_entity>
+		<game_entity prefab="empire_wall_tower_c">
+			<transform position="823.104, 799.801, 176.659" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="250.611, 279.310, 2.829" rotation_euler="0.000, 0.000, -1.531" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_e">
+			<transform position="174.783, 337.744, 15.732" rotation_euler="0.000, 0.000, 0.682"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_d">
+			<transform position="158.249, 373.682, 29.623" rotation_euler="0.000, 0.000, -2.013"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="248.169, 220.062, 0.000" rotation_euler="0.000, 0.000, -1.539" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="213.179, 293.818, 9.303" rotation_euler="0.000, 0.000, 1.466"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="224.094, 306.446, 10.101" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="230.475, 305.870, 10.101" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="222.672, 223.991, 0.314" rotation_euler="0.000, 0.000, -2.427" scale="0.677, 0.677, 0.677"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_c1">
+			<transform position="233.577, 268.786, 4.039" rotation_euler="0.000, 0.000, 0.000" scale="0.850, 0.850, 0.850"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="222.346, 231.463, 0.626" rotation_euler="0.037, 0.000, -2.845"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_c1">
+			<transform position="236.379, 268.786, 4.039" rotation_euler="0.000, 0.000, 0.000" scale="0.850, 0.850, 0.850"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="214.795, 308.736, 10.108" rotation_euler="0.000, 0.000, 0.670"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="225.465, 306.948, 10.101" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="_barrier_04x04m">
+			<transform position="247.149, 240.662, 0.537" rotation_euler="0.000, 0.000, -1.802" scale="4.000, 1.000, 4.000"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="220.788, 227.686, 0.288" rotation_euler="0.000, 0.000, 0.999" scale="0.677, 0.677, 0.677"/>
+		</game_entity>
+		<game_entity prefab="empire_street_fountain_b">
+			<flags>
+				<flag name="not_affected_by_season" value="true"/>
+			</flags>
+			<transform position="231.431, 269.734, 2.547" rotation_euler="0.000, 0.000, -3.133"/>
+		</game_entity>
+		<game_entity prefab="terrain_green_rock_d">
+			<transform position="215.718, 222.990, 0.270" rotation_euler="0.000, 0.000, 0.391" scale="0.658, 0.658, 0.658"/>
+		</game_entity>
+		<game_entity name="mead_cup_wooden_c" old_prefab_name="mead_cup_wooden_c">
+			<transform position="215.407, 188.956, 7.409" rotation_euler="0.000, 0.000, 1.525"/>
+			<components>
+				<meta_mesh_component name="mead_cup_wooden_c"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="kitchen_chopping_board_b">
+			<transform position="213.457, 188.815, 7.406" rotation_euler="0.000, 0.000, 0.527" scale="0.815, 0.815, 0.815"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="214.785, 221.494, 1.320" rotation_euler="-1.356, 0.000, 0.033"/>
+		</game_entity>
+		<game_entity name="mead_cup_wooden_c" old_prefab_name="mead_cup_wooden_c">
+			<transform position="214.964, 188.995, 7.409" rotation_euler="0.000, 0.000, -0.085"/>
+			<components>
+				<meta_mesh_component name="mead_cup_wooden_c"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_c">
+			<transform position="131.174, 257.202, 9.107" rotation_euler="0.000, 0.000, 3.026"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="246.427, 228.231, 6.055" rotation_euler="0.000, 0.000, -1.726"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="247.661, 197.260, 5.566" rotation_euler="0.000, 0.000, -1.726"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_04" season_mask="251">
+			<transform position="235.917, 268.499, 2.846" rotation_euler="-0.031, 0.360, 0.000" scale="0.718, 0.718, 0.718"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="236.325, 268.499, 3.113" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="217.477, 210.713, 0.026" rotation_euler="0.000, 0.000, 1.455"/>
+		</game_entity>
+		<game_entity prefab="mountain_border_long_a">
+			<transform position="315.296, 1336.055, 15.059" rotation_euler="0.000, 0.000, -0.614" scale="14.351, 14.351, 16.349"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_long_a"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="248.068, 304.623, 10.009" rotation_euler="0.000, 0.000, -0.220"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="254.531, 285.903, 12.022" rotation_euler="0.000, 0.000, -1.551"/>
+		</game_entity>
+		<game_entity prefab="rock_004">
+			<transform position="220.375, 226.568, 0.270" rotation_euler="0.000, 0.000, 0.000" scale="1.263, 1.263, 1.263"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="225.287, 306.279, 10.101" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="torch_outdoors_a_burning_lc">
+			<transform position="210.339, 260.507, 2.481" rotation_euler="0.000, 0.000, 0.000"/>
+			<children>
+				<game_entity _index_="1">
+					<children>
+						<game_entity visible="false" _index_="0"/>
+					</children>
+				</game_entity>
+			</children>
+		</game_entity>
+		<game_entity prefab="rock_002">
+			<transform position="220.428, 226.083, 0.270" rotation_euler="0.000, 0.000, -0.575" scale="1.771, 1.771, 1.771"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="234.781, 293.332, 3.580" rotation_euler="-0.002, 0.000, -0.828" scale="0.505, 0.505, 0.505"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="235.529, 293.413, 3.606" rotation_euler="0.042, 0.000, 0.634" scale="0.505, 0.505, 0.505"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="235.043, 291.937, 3.542" rotation_euler="0.085, 0.000, -0.045" scale="0.426, 0.426, 0.426"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="230.990, 296.574, 3.693" rotation_euler="-0.121, 0.000, 0.987"/>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="240.575, 251.208, 1.179" rotation_euler="0.029, 0.000, -0.796" scale="0.682, 0.682, 0.682"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="222.441, 307.853, 10.098" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b2" season_mask="251">
+			<transform position="222.144, 241.940, 0.926" rotation_euler="0.000, 0.000, -2.245" scale="0.567, 0.567, 0.567"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_d">
+			<transform position="245.084, 106.733, 10.161" rotation_euler="0.000, 0.000, 0.093"/>
+		</game_entity>
+		<game_entity prefab="mushroom_a2" season_mask="251">
+			<transform position="221.654, 241.186, 0.887" rotation_euler="0.000, 0.000, -0.289"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_e">
+			<transform position="227.602, 120.934, 6.965" rotation_euler="0.000, 0.000, -3.119"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_d">
+			<transform position="230.462, 366.708, 14.878" rotation_euler="0.000, 0.000, -0.161"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="214.079, 299.801, 10.192" rotation_euler="0.000, 0.000, 1.107"/>
+		</game_entity>
+		<game_entity prefab="mountain_border_d">
+			<transform position="886.340, 920.500, -12.413" rotation_euler="0.000, 0.000, -2.571" scale="41.057, 41.057, 41.057"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_d"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="mountain_border_c">
+			<transform position="1469.966, -174.307, 96.905" rotation_euler="0.000, 0.000, 0.000" scale="14.819, 14.819, 16.882"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_c"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="torch_wall_a">
+			<transform position="245.561, 229.075, 1.898" rotation_euler="0.000, 0.000, -1.805"/>
+			<children>
+				<game_entity visible="false" _index_="0">
+					<transform rotation_euler="1.128, 0.497, 3.141"/>
+				</game_entity>
+				<game_entity visible="false" _index_="1"/>
+				<game_entity visible="false" _index_="2"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_garden_wall_c1">
+			<transform position="228.185, 268.786, 4.039" rotation_euler="0.000, 0.000, 0.000" scale="0.850, 0.850, 0.850"/>
+		</game_entity>
+		<game_entity prefab="mountain_border_long_a">
+			<transform position="1330.618, 552.771, 15.059" rotation_euler="0.000, 0.000, 0.661" scale="14.351, 14.351, 16.349"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_long_a"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="mountain_border_long_a">
+			<transform position="-457.858, 1319.091, 15.059" rotation_euler="0.000, 0.000, 0.208" scale="14.351, 14.351, 16.349"/>
+			<scripts>
+				<script name="mesh_seasonal_material">
+					<variables>
+						<variable name="SummerMaterial" value="mountain_border_mat_long_a"/>
+					</variables>
+				</script>
+			</scripts>
+		</game_entity>
+		<game_entity prefab="tree_root_a_beech_b">
+			<transform position="223.898, 223.117, 0.350" rotation_euler="0.000, 0.000, 2.336" scale="0.690, 0.690, 0.690"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_d">
+			<transform position="104.782, 296.496, 12.734" rotation_euler="0.000, 0.000, -1.531"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_c_short1">
+			<transform position="234.373, 281.231, 2.956" rotation_euler="0.000, 0.092, -1.703"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_c1">
+			<transform position="232.558, 282.019, 3.058" rotation_euler="0.000, 0.000, -0.132"/>
+		</game_entity>
+		<game_entity prefab="empire_garden_sidewalk_c1">
+			<transform position="232.303, 279.807, 2.953" rotation_euler="0.000, 0.010, -0.113"/>
+		</game_entity>
+		<game_entity prefab="adam_0">
+			<transform position="227.634, 230.498, 0.527" rotation_euler="0.000, 0.000, -3.100"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="246.429, 194.977, 5.591" rotation_euler="0.000, 0.000, -1.726"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="246.670, 196.925, 5.584" rotation_euler="0.000, 0.000, -1.726"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="246.686, 195.852, 5.587" rotation_euler="0.000, 0.000, -1.726"/>
+		</game_entity>
+		<game_entity prefab="empire_house_c">
+			<transform position="252.331, 162.901, 0.000" rotation_euler="0.000, 0.000, 1.748"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_house_a">
+			<transform position="287.861, 217.969, 0.000" rotation_euler="0.000, 0.000, 2.953" scale="1.256, 1.256, 1.256"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="empire_house_a">
+			<transform position="282.836, 234.339, 0.000" rotation_euler="0.000, 0.000, -1.591" scale="1.256, 1.256, 1.256"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="222.039, 220.176, 0.511" rotation_euler="0.068, 0.000, -1.795"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="222.864, 220.395, 0.635" rotation_euler="0.068, 0.000, 2.807"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="222.283, 219.604, 0.508" rotation_euler="0.068, 0.000, 0.351"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="240.594, 252.047, 1.135" rotation_euler="-0.087, 0.000, -2.874" scale="0.511, 0.511, 0.511"/>
+		</game_entity>
+		<game_entity prefab="empire_tower_a">
+			<transform position="339.135, 227.854, 6.357" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity name="mead_cup_wooden_c" old_prefab_name="mead_cup_wooden_c">
+			<transform position="215.618, 188.948, 7.409" rotation_euler="0.000, 0.000, 0.230"/>
+			<components>
+				<meta_mesh_component name="mead_cup_wooden_c"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="252.819, 285.273, 12.022" rotation_euler="0.000, 0.000, -1.551"/>
+		</game_entity>
+		<game_entity name="mead_cup_wooden_c" old_prefab_name="mead_cup_wooden_c">
+			<transform position="215.554, 189.033, 7.409" rotation_euler="0.000, 0.000, -0.085"/>
+			<components>
+				<meta_mesh_component name="mead_cup_wooden_c"/>
+			</components>
+		</game_entity>
+		<game_entity name="mead_cup_wooden_c" old_prefab_name="mead_cup_wooden_c">
+			<transform position="215.637, 188.932, 6.658" rotation_euler="1.453, -1.120, -2.985"/>
+			<components>
+				<meta_mesh_component name="mead_cup_wooden_c"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="253.013, 286.687, 12.022" rotation_euler="0.000, 0.000, -1.551"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="218.263, 211.540, 0.053" rotation_euler="0.000, 0.000, 2.385"/>
+		</game_entity>
+		<game_entity prefab="mushroom_a2" season_mask="251">
+			<transform position="220.623, 241.547, 0.893" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_d">
+			<transform position="253.410, 131.874, 10.319" rotation_euler="0.000, 0.000, -2.978"/>
+		</game_entity>
+		<game_entity prefab="torch_wall_a">
+			<transform position="216.987, 287.899, 5.259" rotation_euler="0.000, 0.000, 1.540"/>
+			<children>
+				<game_entity visible="false" _index_="0">
+					<transform rotation_euler="1.128, 1.382, 3.141"/>
+				</game_entity>
+				<game_entity visible="false" _index_="1"/>
+				<game_entity visible="false" _index_="2"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="253.419, 282.860, 12.022" rotation_euler="0.000, 0.000, -1.551"/>
+		</game_entity>
+		<game_entity prefab="adam_0">
+			<transform position="245.386, 230.832, 0.172" rotation_euler="0.000, 0.000, -2.399"/>
+		</game_entity>
+		<game_entity prefab="torch_wall_c">
+			<transform position="247.729, 294.756, 5.001" rotation_euler="0.000, 0.000, -1.645"/>
+			<children>
+				<game_entity visible="false" _index_="0"/>
+				<game_entity visible="false" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="torch_wall_a">
+			<transform position="245.336, 304.595, 6.025" rotation_euler="0.000, 0.000, -0.473"/>
+			<children>
+				<game_entity visible="false" _index_="0">
+					<transform rotation_euler="1.128, -1.213, 3.141"/>
+				</game_entity>
+				<game_entity visible="false" _index_="1"/>
+				<game_entity visible="false" _index_="2"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="231.088, 304.768, 10.101" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="224.506, 307.445, 10.101" rotation_euler="0.000, 0.000, -0.070"/>
+		</game_entity>
+		<game_entity prefab="empire_house_b">
+			<transform position="254.695, 285.238, 3.693" rotation_euler="0.000, 0.000, 0.023"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="254.256, 283.197, 12.022" rotation_euler="0.000, 0.000, -1.551"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_a">
+			<transform position="305.367, 356.357, 2.946" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_e">
+			<transform position="278.528, 145.937, 6.965" rotation_euler="0.000, 0.000, 0.617"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_e">
+			<transform position="318.517, 222.624, 0.416" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_d">
+			<transform position="315.596, 249.633, 0.382" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_d">
+			<transform position="153.482, 352.447, 25.056" rotation_euler="0.000, 0.000, 0.644"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_b">
+			<transform position="268.266, 368.300, 5.050" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_a">
+			<transform position="357.335, 305.377, 15.773" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_c">
+			<transform position="153.717, 219.179, 5.316" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_e">
+			<transform position="303.446, 328.846, 2.402" rotation_euler="0.000, 0.000, -0.870"/>
+		</game_entity>
+		<game_entity name="mead_cup_wooden_c" old_prefab_name="mead_cup_wooden_c">
+			<transform position="216.031, 188.958, 7.409" rotation_euler="0.000, 0.000, 0.000"/>
+			<components>
+				<meta_mesh_component name="mead_cup_wooden_c"/>
+			</components>
+		</game_entity>
+		<game_entity prefab="adam_0">
+			<transform position="226.520, 188.581, 6.611" rotation_euler="0.000, 0.000, -3.100"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b1" season_mask="251">
+			<transform position="221.827, 241.243, 0.893" rotation_euler="0.000, 0.000, -0.084"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="217.918, 221.713, 0.716" rotation_euler="-0.821, 0.186, 1.171" scale="0.835, 0.835, 0.835"/>
+		</game_entity>
+		<game_entity prefab="kitchen_bowl_c">
+			<transform position="214.560, 188.169, 7.572" rotation_euler="0.000, 0.000, -1.336"/>
+		</game_entity>
+		<game_entity prefab="kitchen_food_bread_a">
+			<transform position="213.425, 188.188, 7.512" rotation_euler="0.000, 0.000, -1.493"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="214.648, 220.495, 0.497" rotation_euler="-0.627, -0.095, 0.174"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="214.325, 225.241, 0.813" rotation_euler="-0.908, 0.137, -2.753"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_c">
+			<transform position="90.540, 260.182, 10.705" rotation_euler="0.000, 0.000, -0.169"/>
+		</game_entity>
+		<game_entity prefab="kitchen_bowl_c">
+			<transform position="214.564, 188.179, 7.408" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="kitchen_plate_grape">
+			<transform position="214.178, 188.912, 7.400" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="kitchen_food_bread_a">
+			<transform position="213.424, 188.232, 7.408" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="215.024, 221.017, 1.182" rotation_euler="-0.690, 1.402, 0.408" scale="0.660, 0.660, 0.660"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="215.547, 225.917, 0.304" rotation_euler="-0.468, -0.018, -3.069"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="218.128, 222.179, 0.688" rotation_euler="-0.653, 0.000, 0.867" scale="0.835, 0.835, 0.835"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_03" season_mask="251">
+			<transform position="215.185, 222.647, 1.396" rotation_euler="-1.534, -0.944, -0.944"/>
+		</game_entity>
+		<game_entity prefab="mushroom_tree_b" season_mask="251">
+			<transform position="217.183, 211.508, 0.298" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_01" season_mask="251">
+			<transform position="215.979, 225.498, 0.971" rotation_euler="-0.959, 0.000, -2.914" scale="0.610, 0.610, 0.610"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_c">
+			<transform position="109.884, 268.220, 10.705" rotation_euler="0.000, 0.000, 1.213"/>
+		</game_entity>
+		<game_entity prefab="kitchen_plate_a">
+			<transform position="214.036, 188.301, 7.408" rotation_euler="0.000, 0.000, 0.148"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="216.339, 225.731, 0.886" rotation_euler="-0.670, -0.627, 2.862" scale="0.835, 0.835, 0.835"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_c">
+			<transform position="105.702, 225.930, 10.705" rotation_euler="0.000, 0.000, -0.022"/>
+		</game_entity>
+		<game_entity prefab="empire_house_fake_c">
+			<transform position="106.993, 247.044, 10.705" rotation_euler="0.000, 0.000, -1.474"/>
+		</game_entity>
+		<game_entity prefab="ivy_european_02" season_mask="251">
+			<transform position="215.008, 221.311, 1.301" rotation_euler="-1.053, -1.704, 0.146" scale="0.660, 0.660, 0.660"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b2" season_mask="251">
+			<transform position="221.819, 242.577, 0.952" rotation_euler="0.000, 0.000, -0.680" scale="1.016, 1.016, 1.016"/>
+		</game_entity>
+		<game_entity prefab="tree_root_b_beech_b">
+			<transform position="223.490, 218.404, 0.258" rotation_euler="-0.064, 0.000, 0.352" scale="0.740, 0.740, 0.740"/>
+		</game_entity>
+		<game_entity prefab="mushroom_a2" season_mask="251">
+			<transform position="221.579, 242.801, 0.965" rotation_euler="0.000, 0.000, 2.399"/>
+		</game_entity>
+		<game_entity prefab="mushroom_a2" season_mask="251">
+			<transform position="222.149, 241.793, 0.920" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="mushroom_a3" season_mask="251">
+			<transform position="222.076, 242.245, 0.937" rotation_euler="0.000, 0.000, 2.611" scale="0.668, 0.668, 0.668"/>
+		</game_entity>
+		<game_entity prefab="mushroom_tree_c" season_mask="251">
+			<transform position="222.315, 220.300, 0.930" rotation_euler="0.000, 0.000, -1.786" scale="1.538, 1.538, 1.538"/>
+		</game_entity>
+		<game_entity prefab="mushroom_tree_c" season_mask="251">
+			<transform position="222.529, 220.593, 0.876" rotation_euler="0.000, 0.000, -0.579" scale="1.122, 1.122, 1.122"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b2" season_mask="251">
+			<transform position="222.062, 241.544, 0.909" rotation_euler="0.000, 0.000, 0.165"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="251.175, 260.622, 9.845" rotation_euler="0.000, 0.000, -1.750"/>
+		</game_entity>
+		<game_entity prefab="mushroom_tree_b" season_mask="251">
+			<transform position="223.523, 231.210, 0.509" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="252.087, 259.911, 10.076" rotation_euler="0.000, 0.000, -1.551"/>
+		</game_entity>
+		<game_entity prefab="mushroom_a2" season_mask="251">
+			<transform position="221.946, 242.315, 0.939" rotation_euler="0.000, 0.000, 1.229"/>
+		</game_entity>
+		<game_entity prefab="mushroom_a1" season_mask="251">
+			<transform position="220.608, 242.076, 0.924" rotation_euler="0.000, 0.000, -1.662"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b3" season_mask="251">
+			<transform position="221.268, 241.361, 0.887" rotation_euler="0.000, 0.000, -1.013" scale="0.778, 0.778, 0.778"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b3" season_mask="251">
+			<transform position="221.212, 242.672, 0.958" rotation_euler="0.000, 0.000, -1.703"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b2" season_mask="251">
+			<transform position="220.692, 242.321, 0.938" rotation_euler="0.000, 0.000, -0.680" scale="1.074, 1.074, 1.074"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b2" season_mask="251">
+			<transform position="220.670, 242.142, 0.927" rotation_euler="0.000, 0.000, -1.558" scale="0.567, 0.567, 0.567"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b1" season_mask="251">
+			<transform position="221.768, 242.681, 0.958" rotation_euler="0.000, 0.000, -1.099" scale="0.739, 0.739, 0.739"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b1" season_mask="251">
+			<transform position="221.884, 242.541, 0.951" rotation_euler="0.000, 0.000, 0.279" scale="0.739, 0.739, 0.739"/>
+		</game_entity>
+		<game_entity prefab="empire_house_b">
+			<transform position="184.236, 293.240, 3.958" rotation_euler="0.000, 0.000, 1.579"/>
+			<children>
+				<game_entity visible="true" _index_="0"/>
+				<game_entity visible="true" _index_="1"/>
+			</children>
+		</game_entity>
+		<game_entity prefab="mushroom_b2" season_mask="251">
+			<transform position="222.039, 241.930, 0.923" rotation_euler="0.000, 0.000, -0.680" scale="0.567, 0.567, 0.567"/>
+		</game_entity>
+		<game_entity prefab="mushroom_tree_b" season_mask="251">
+			<transform position="215.741, 220.974, 0.726" rotation_euler="-0.251, 0.014, -0.721"/>
+		</game_entity>
+		<game_entity prefab="crowd_man_a">
+			<transform position="251.555, 261.612, 9.951" rotation_euler="0.000, 0.000, -1.511"/>
+		</game_entity>
+		<game_entity prefab="lib_book_open_c">
+			<transform position="212.817, 191.776, 7.648" rotation_euler="0.000, 0.000, 1.501" scale="0.799, 0.799, 0.799"/>
+		</game_entity>
+		<game_entity prefab="foods_apple_a">
+			<transform position="217.856, 192.092, 7.648" rotation_euler="0.000, 0.000, 0.000"/>
+		</game_entity>
+		<game_entity prefab="mushroom_a1" season_mask="251">
+			<transform position="221.132, 241.367, 0.884" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="mushroom_tree_c" season_mask="251">
+			<transform position="222.951, 220.311, 0.944" rotation_euler="0.000, 0.000, -0.579"/>
+		</game_entity>
+		<game_entity prefab="mushroom_a2" season_mask="251">
+			<transform position="220.891, 242.520, 0.949" rotation_euler="0.000, 0.000, 0.236"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b2" season_mask="251">
+			<transform position="220.940, 241.488, 0.890" rotation_euler="0.000, 0.000, -2.822" scale="0.567, 0.567, 0.567"/>
+		</game_entity>
+		<game_entity prefab="mushroom_b2" season_mask="251">
+			<transform position="220.863, 241.523, 0.892" rotation_euler="0.000, 0.000, -0.680"/>
+		</game_entity>
+	</entities>
+	<terrain enabled="true" node_dimension_x="5" node_dimension_y="5" node_size="100.000" lod_multiplier="1.000" min_height="-100.000" max_height="500.000" vista_normalmap="" vista_diffuse_name="" vista_diffuse_blend_type="0" vista_diffuse_blend_amount="0.000" vista_layer_detail_distance="35.000" vista_albedo_multiplier="0.670" vista_detail_albedo_name="" vista_detail_normal_name="" vista_detail_tile="20.000" vista_tileset="" colormap_detail_level="0" ao_intensity="4.000">
+		<outer_mesh>
+			<variable name="outer_mesh_name" value=""/>
+			<variable name="diffuse1_texture_name" value=""/>
+			<variable name="diffuse2_texture_name" value=""/>
+			<variable name="diffuse3_texture_name" value=""/>
+			<variable name="areamap_texture_name" value=""/>
+			<variable name="splatmap_texture_name" value=""/>
+			<variable name="splatmap_normal_name" value=""/>
+			<variable name="horizon_mesh_diffuse_1_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_2_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_diffuse_3_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_tile_multiplier" value="1.000"/>
+			<variable name="horizon_mesh_areamap_power" value="1.000"/>
+			<variable name="horizon_mesh_height" value="1.000"/>
+		</outer_mesh>
+		<layers version="1">
+			<layer name="mud">
+				<summer is_enabled="true" name="mud" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="mud" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_path_d"/>
+						<texture type="areamap" name="ground_dirt_d"/>
+						<texture type="normalmap" name="ground_path_n"/>
+						<texture type="specularmap" name="ground_path_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="ground_path_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="mud" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="mud" is_flora_layer="false" is_mesh_blend_layer="false" bigdetailmap_mode="1" bigdetailmap_weight="0.200" bigdetailmap_scale_x="1.000" bigdetailmap_scale_y="1.000" bigdetailmap_bias_x="1.000" bigdetailmap_bias_y="1.000">
+					<textures>
+						<texture type="areamap" name="snow_a_footprint_d"/>
+					</textures>
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="mud" is_flora_layer="false" is_mesh_blend_layer="false" bigdetailmap_mode="1" bigdetailmap_weight="0.300" bigdetailmap_scale_x="1.000" bigdetailmap_scale_y="1.000" bigdetailmap_bias_x="1.000" bigdetailmap_bias_y="1.000">
+					<textures>
+						<texture type="areamap" name="mud_a_d"/>
+					</textures>
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="dirt">
+				<summer is_enabled="true" name="dirt" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.150" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="ground_earth_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="ground_earth_n"/>
+						<texture type="specularmap" name="ground_earth_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="ground_earth_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="dirt" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="dirt" is_flora_layer="false" is_mesh_blend_layer="false">
+					<textures>
+						<texture type="diffusemap" name="snow_a_d"/>
+						<texture type="normalmap" name="snow_a_n"/>
+						<texture type="specularmap" name="snow_a_s"/>
+						<texture type="displacementmap" name="snow_a_h"/>
+					</textures>
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="dirt" is_flora_layer="false" is_mesh_blend_layer="false" bigdetailmap_mode="1" bigdetailmap_weight="0.200" bigdetailmap_scale_x="1.000" bigdetailmap_scale_y="1.000" bigdetailmap_bias_x="1.000" bigdetailmap_bias_y="1.000">
+					<textures>
+						<texture type="areamap" name="mud_a_d"/>
+					</textures>
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="grass">
+				<summer is_enabled="true" name="grass" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="grass" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.200" ground_slope_scale="1.000" bigdetailmap_mode="1" bigdetailmap_weight="0.300" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="1.000" bigdetailmap_scale_y="1.000" bigdetailmap_bias_x="1.000" bigdetailmap_bias_y="1.000">
+					<textures>
+						<texture type="diffusemap" name="grass_a_d"/>
+						<texture type="areamap" name="ground_grass_b_d"/>
+						<texture type="normalmap" name="grass_a_n"/>
+						<texture type="specularmap" name="grass_a_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="grass_a_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="grass" is_flora_layer="false" is_mesh_blend_layer="false" bigdetailmap_weight="0.300" albedo_factor_color="0.875, 1.000, 0.851" albedo_factor_mode="2">
+					<textures>
+						<texture type="areamap" name="ground_drygrass_a_d"/>
+					</textures>
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="grass" is_flora_layer="false" is_mesh_blend_layer="false">
+					<textures>
+						<texture type="diffusemap" name="snow_b_d"/>
+						<texture type="normalmap" name="snow_b_n"/>
+						<texture type="specularmap" name="snow_a_s"/>
+						<texture type="displacementmap" name="snow_b_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="true"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="grass" is_flora_layer="false" is_mesh_blend_layer="false" bigdetailmap_weight="0.500" smooth_blend_amount="0.700">
+					<textures>
+						<texture type="areamap" name="ground_grass_c_d"/>
+					</textures>
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="road_a">
+				<summer is_enabled="true" name="road_a" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="stone" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.200" ground_slope_scale="1.000" bigdetailmap_mode="1" bigdetailmap_weight="-0.080" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="5.000" bigdetailmap_scale_y="5.000" bigdetailmap_bias_x="5.000" bigdetailmap_bias_y="5.000">
+					<textures>
+						<texture type="diffusemap" name="empire_road_floor_a_d"/>
+						<texture type="areamap" name="detail_texture_rock_b"/>
+						<texture type="normalmap" name="empire_road_floor_a_n"/>
+						<texture type="specularmap" name="empire_road_floor_a_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="empire_road_floor_a_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="road_a" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="road_a" is_flora_layer="false" is_mesh_blend_layer="false" bigdetailmap_weight="0.220" bigdetailmap_scale_x="0.500" bigdetailmap_scale_y="0.500" bigdetailmap_bias_x="0.500" bigdetailmap_bias_y="0.500">
+					<textures>
+						<texture type="areamap" name="snow_a_footprint_d"/>
+					</textures>
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="road_a" is_flora_layer="false" is_mesh_blend_layer="false">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="road_b">
+				<summer is_enabled="true" name="road_b" is_flora_layer="false" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="3.000, 3.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="mud" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.130" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="empire_road_floor_a_dirt1_d"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="empire_road_floor_a_dirt1_n"/>
+						<texture type="specularmap" name="empire_road_floor_a_dirt1_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="empire_road_floor_a_dirt1_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</summer>
+				<fall is_enabled="true" name="road_b" is_flora_layer="false" is_mesh_blend_layer="false" smooth_blend_amount="1.200">
+					<meshes/>
+				</fall>
+				<winter is_enabled="true" name="road_b" is_flora_layer="false" is_mesh_blend_layer="false">
+					<textures>
+						<texture type="diffusemap" name="snow_b_d"/>
+						<texture type="normalmap" name="snow_b_n"/>
+						<texture type="displacementmap" name="snow_b_h"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="true"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="true"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="road_b" is_flora_layer="false" is_mesh_blend_layer="false" smooth_blend_amount="0.900">
+					<meshes/>
+				</spring>
+			</layer>
+			<layer name="flora">
+				<summer is_enabled="true" name="flora" is_flora_layer="true" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="editor_grid_8"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="none"/>
+						<texture type="specularmap" name="editor_grid_8_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="none"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes>
+						<mesh name="flora_dry_plant__mix_big_volume" index="0" density="100.000" seed_index="0" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.150, 1.150, 1.150" albedo_multiplier="0.646, 0.805, 0.632" weight_offset="0.500"/>
+						<mesh name="flora_green__mix_big_leafs" index="1" density="80.000" seed_index="0" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="mushroom_mix_b" index="2" density="20.000" seed_index="0" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="mushroom_mix_a" index="3" density="20.000" seed_index="2" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</summer>
+				<fall is_enabled="true" name="flora" is_flora_layer="true" is_mesh_blend_layer="true">
+					<meshes>
+						<mesh name="flora_dry_plant__mix_big_volume" index="0" density="100.000" seed_index="0" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.150, 1.150, 1.150" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="flora_green__mix_big_leafs" index="1" density="80.000" seed_index="0" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="0.223, 0.184, 0.139" weight_offset="0.500"/>
+						<mesh name="mushroom_mix_b" index="2" density="20.000" seed_index="0" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="mushroom_mix_a" index="3" density="20.000" seed_index="2" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</fall>
+				<winter is_enabled="true" name="flora" is_flora_layer="true" is_mesh_blend_layer="false">
+					<meshes>
+						<mesh name="flora_snow__mix" index="0" density="80.000" seed_index="0" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</winter>
+				<spring is_enabled="true" name="flora" is_flora_layer="true" is_mesh_blend_layer="false">
+					<meshes>
+						<mesh name="flora_dry_plant__mix_big_volume" index="0" density="100.000" seed_index="0" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.150, 1.150, 1.150" albedo_multiplier="0.646, 0.805, 0.632" weight_offset="0.500"/>
+						<mesh name="flora_green__mix_big_leafs" index="1" density="80.000" seed_index="0" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="mushroom_mix_b" index="2" density="20.000" seed_index="0" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="mushroom_mix_a" index="3" density="20.000" seed_index="2" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</spring>
+			</layer>
+			<layer name="flowers">
+				<summer is_enabled="true" name="flowers" is_flora_layer="true" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="editor_grid_8"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="none"/>
+						<texture type="specularmap" name="editor_grid_8_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="none"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes>
+						<mesh name="papaver" index="0" density="500.000" seed_index="0" colony_radius="1.400" colony_threshold="0.000" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="free_valley_flower__mix" index="1" density="500.000" seed_index="1" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</summer>
+				<fall is_enabled="true" name="flowers" is_flora_layer="true" is_mesh_blend_layer="true">
+					<meshes>
+						<mesh name="flora_dry_plant_e" index="0" density="120.000" seed_index="0" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</fall>
+				<winter is_enabled="true" name="flowers" is_flora_layer="true" is_mesh_blend_layer="true">
+					<meshes>
+						<mesh name="flora_snow__mix" index="0" density="100.000" seed_index="0" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</winter>
+				<spring is_enabled="true" name="flowers" is_flora_layer="true" is_mesh_blend_layer="false">
+					<meshes>
+						<mesh name="papaver" index="0" density="500.000" seed_index="0" colony_radius="1.400" colony_threshold="0.000" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="free_valley_flower__mix" index="1" density="500.000" seed_index="1" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</spring>
+			</layer>
+			<layer name="mushrooms">
+				<summer is_enabled="true" name="mushrooms" is_flora_layer="true" is_mesh_blend_layer="false" pitch_roll_yaw="0.000, 0.000, 0.000" scale="5.000, 5.000" shear="0.000, 0.000" position_offset="0.000, 0.000" physics_material="soil" detail_level_adjustment="0" elevation_amount="0.000" parallax_amount="0.000" ground_slope_scale="1.000" bigdetailmap_mode="0" bigdetailmap_weight="0.000" albedo_factor_color="1.000, 1.000, 1.000" albedo_factor_mode="0" smooth_blend_amount="1.000" bigdetailmap_scale_x="0.080" bigdetailmap_scale_y="0.080" bigdetailmap_bias_x="0.080" bigdetailmap_bias_y="0.080">
+					<textures>
+						<texture type="diffusemap" name="editor_grid_8"/>
+						<texture type="areamap" name="none"/>
+						<texture type="normalmap" name="none"/>
+						<texture type="specularmap" name="editor_grid_8_s"/>
+						<texture type="splattingmap" name="none"/>
+						<texture type="displacementmap" name="none"/>
+					</textures>
+					<layer_flags>
+						<flag name="use_parallax" value="false"/>
+						<flag name="use_displacement_mapping" value="false"/>
+						<flag name="use_randomized_normalmap" value="false"/>
+						<flag name="use_transparency_of_diffuse_alpha" value="false"/>
+						<flag name="use_transparency_of_ground_slope" value="false"/>
+						<flag name="use_dxt5_normal" value="false"/>
+						<flag name="use_six_side_uv_mapping" value="false"/>
+					</layer_flags>
+					<meshes>
+						<mesh name="mushroom_mix_a" index="0" density="60.000" seed_index="0" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="mushroom_mix_b" index="1" density="60.000" seed_index="1" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</summer>
+				<fall is_enabled="true" name="mushrooms" is_flora_layer="true" is_mesh_blend_layer="false">
+					<meshes>
+						<mesh name="mushroom_mix_a" index="0" density="60.000" seed_index="0" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="mushroom_mix_b" index="1" density="60.000" seed_index="1" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</fall>
+				<winter is_enabled="true" name="mushrooms" is_flora_layer="true" is_mesh_blend_layer="true">
+					<meshes/>
+				</winter>
+				<spring is_enabled="true" name="mushrooms" is_flora_layer="true" is_mesh_blend_layer="true">
+					<meshes>
+						<mesh name="mushroom_mix_a" index="0" density="100.000" seed_index="0" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+						<mesh name="mushroom_mix_b" index="1" density="100.000" seed_index="1" colony_radius="0.000" colony_threshold="0.300" size_min="0.650, 0.650, 0.650" size_max="1.550, 1.550, 1.750" albedo_multiplier="1.000, 1.000, 1.000" weight_offset="0.500"/>
+					</meshes>
+				</spring>
+			</layer>
+		</layers>
+		<nodes>
+			<node idx="0" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="1" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.020" min_height="0.000" max_height="3.014">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="3" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.023" min_height="0.862" max_height="7.819">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="0" idy="4" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.034" min_height="3.127" max_height="8.006">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="1" occluders_enabled="true" layer_is_used_mask_summer="13" layer_is_used_mask_fall="13" layer_is_used_mask_winter="13" layer_is_used_mask_spring="13" layer_is_used_mask="true" height_complexity="0.000" min_height="0.000" max_height="0.000">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="2" occluders_enabled="true" layer_is_used_mask_summer="47" layer_is_used_mask_fall="47" layer_is_used_mask_winter="47" layer_is_used_mask_spring="47" layer_is_used_mask="true" height_complexity="0.017" min_height="0.000" max_height="4.448">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="3" occluders_enabled="true" layer_is_used_mask_summer="45" layer_is_used_mask_fall="45" layer_is_used_mask_winter="45" layer_is_used_mask_spring="45" layer_is_used_mask="true" height_complexity="0.017" min_height="3.014" max_height="7.267">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="1" idy="4" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.021" min_height="2.147" max_height="7.198">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.011" min_height="0.000" max_height="2.620">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="1" occluders_enabled="true" layer_is_used_mask_summer="191" layer_is_used_mask_fall="191" layer_is_used_mask_winter="191" layer_is_used_mask_spring="191" layer_is_used_mask="true" height_complexity="0.066" min_height="0.000" max_height="2.611">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="2" occluders_enabled="true" layer_is_used_mask_summer="255" layer_is_used_mask_fall="255" layer_is_used_mask_winter="255" layer_is_used_mask_spring="255" layer_is_used_mask="true" height_complexity="0.086" min_height="0.000" max_height="4.499">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="3" occluders_enabled="true" layer_is_used_mask_summer="191" layer_is_used_mask_fall="191" layer_is_used_mask_winter="191" layer_is_used_mask_spring="191" layer_is_used_mask="true" height_complexity="0.050" min_height="1.724" max_height="6.767">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="2" idy="4" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.013" min_height="2.729" max_height="6.413">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.064" min_height="0.614" max_height="9.668">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="1" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.027" min_height="0.155" max_height="9.185">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="2" occluders_enabled="true" layer_is_used_mask_summer="5" layer_is_used_mask_fall="5" layer_is_used_mask_winter="5" layer_is_used_mask_spring="5" layer_is_used_mask="true" height_complexity="0.025" min_height="0.030" max_height="5.437">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="3" occluders_enabled="true" layer_is_used_mask_summer="5" layer_is_used_mask_fall="5" layer_is_used_mask_winter="5" layer_is_used_mask_spring="5" layer_is_used_mask="true" height_complexity="0.021" min_height="1.409" max_height="3.992">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="3" idy="4" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.016" min_height="2.003" max_height="4.199">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="4" idy="0" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.062" min_height="5.415" max_height="11.669">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="4" idy="1" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.056" min_height="3.546" max_height="10.225">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="4" idy="2" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.025" min_height="2.458" max_height="6.217">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="4" idy="3" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.016" min_height="1.841" max_height="4.627">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+			<node idx="4" idy="4" occluders_enabled="true" layer_is_used_mask_summer="1" layer_is_used_mask_fall="1" layer_is_used_mask_winter="1" layer_is_used_mask_spring="1" layer_is_used_mask="true" height_complexity="0.022" min_height="2.247" max_height="4.710">
+				<texture_levels>
+					<variable name="heightmap_level" value="6"/>
+					<variable name="min_heightmap_level" value="2"/>
+					<variable name="normalmap_level" value="6"/>
+					<variable name="weightmap_levels">
+						<variable layer="0" value="6"/>
+						<variable layer="1" value="6"/>
+						<variable layer="2" value="6"/>
+						<variable layer="3" value="6"/>
+						<variable layer="4" value="6"/>
+						<variable layer="5" value="6"/>
+						<variable layer="6" value="6"/>
+						<variable layer="7" value="6"/>
+						<variable layer="8" value="0"/>
+						<variable layer="9" value="0"/>
+						<variable layer="10" value="0"/>
+						<variable layer="11" value="0"/>
+						<variable layer="12" value="0"/>
+						<variable layer="13" value="0"/>
+						<variable layer="14" value="0"/>
+						<variable layer="15" value="0"/>
+					</variable>
+				</texture_levels>
+			</node>
+		</nodes>
+	</terrain>
+	<editor_data editor_camera_position="227.910, 207.028, 6.960" editor_camera_elevation="0.951" editor_camera_bearing="21.142" editor_camera_forward="-0.080, -0.972, -0.222" author="FoozleMcDoozle" comment=""/>
+	<camera_data near_plane="0.100" far_plane="100000.000"/>
+	<Paths>
+		<path name="arena_sound_path" interpolation_type="linear" scene_upgrade_level_mask_="4294967295" season_mask_="255">
+			<flags/>
+			<points>
+				<point position="245.344, 196.861, 5.108" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="246.344, 196.861, 5.108"/>
+					<second_tangent position="244.344, 196.861, 5.108"/>
+				</point>
+				<point position="246.120, 202.167, 5.369" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="247.109, 202.023, 5.369"/>
+					<second_tangent position="245.131, 202.311, 5.369"/>
+				</point>
+				<point position="247.748, 215.171, 6.268" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="248.740, 215.047, 6.268"/>
+					<second_tangent position="246.756, 215.295, 6.268"/>
+				</point>
+				<point position="246.975, 228.207, 6.619" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="247.974, 228.266, 6.619"/>
+					<second_tangent position="245.976, 228.148, 6.619"/>
+				</point>
+				<point position="245.945, 248.012, 7.706" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="246.944, 248.064, 7.706"/>
+					<second_tangent position="244.946, 247.960, 7.706"/>
+				</point>
+				<point position="248.355, 268.841, 6.496" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="249.349, 268.726, 6.496"/>
+					<second_tangent position="247.361, 268.956, 6.496"/>
+				</point>
+				<point position="250.233, 282.325, 5.888" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="251.223, 282.187, 5.888"/>
+					<second_tangent position="249.243, 282.463, 5.888"/>
+				</point>
+				<point position="249.599, 293.391, 8.061" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="250.597, 293.448, 8.061"/>
+					<second_tangent position="248.601, 293.334, 8.061"/>
+				</point>
+				<point position="247.534, 305.463, 8.090" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="248.520, 305.631, 8.090"/>
+					<second_tangent position="246.548, 305.295, 8.090"/>
+				</point>
+				<point position="229.117, 303.981, 9.348" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="229.037, 304.977, 9.348"/>
+					<second_tangent position="229.197, 302.985, 9.348"/>
+				</point>
+				<point position="216.063, 301.709, 8.909" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="215.892, 302.694, 8.909"/>
+					<second_tangent position="216.234, 300.724, 8.909"/>
+				</point>
+				<point position="214.750, 290.556, 8.724" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="213.757, 290.673, 8.724"/>
+					<second_tangent position="215.743, 290.439, 8.724"/>
+				</point>
+				<point position="215.228, 269.241, 9.816" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="214.229, 269.218, 9.816"/>
+					<second_tangent position="216.227, 269.264, 9.816"/>
+				</point>
+				<point position="209.773, 249.394, 5.405" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="208.809, 249.659, 5.405"/>
+					<second_tangent position="210.737, 249.129, 5.405"/>
+				</point>
+				<point position="209.885, 231.556, 4.537" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="208.885, 231.550, 4.537"/>
+					<second_tangent position="210.885, 231.562, 4.537"/>
+				</point>
+				<point position="211.066, 213.518, 3.226" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="210.068, 213.452, 3.226"/>
+					<second_tangent position="212.064, 213.584, 3.226"/>
+				</point>
+				<point position="210.314, 199.932, 3.321" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="209.316, 199.987, 3.321"/>
+					<second_tangent position="211.312, 199.877, 3.321"/>
+				</point>
+				<point position="224.436, 195.898, 5.238" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="224.161, 194.937, 5.238"/>
+					<second_tangent position="224.711, 196.859, 5.238"/>
+				</point>
+				<point position="237.856, 193.852, 3.650" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="237.705, 192.863, 3.650"/>
+					<second_tangent position="238.007, 194.841, 3.650"/>
+				</point>
+				<point position="245.397, 197.219, 5.145" scale="1.000, 1.000, 1.000" color="1.000, 1.000, 1.000, 1.000" rotation="0.00000, 0.00000, 0.00000, 1.00000">
+					<first_tangent position="245.805, 196.306, 5.145"/>
+					<second_tangent position="244.989, 198.132, 5.145"/>
+				</point>
+			</points>
+		</path>
+	</Paths>
+</scene>
+
