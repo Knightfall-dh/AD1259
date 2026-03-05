@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Start Debugging [net472] (Steam/GOG/Epic)",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\AD1259.csproj",
+            "launchConfigurationId": "TargetFramework=net472;Bannerlord"
+        },
+        {
+            "name": "Attach to Bannerlord [net472] (Steam/GOG/Epic)",
+            "type": "clr",
+            "request": "attach",
+            "processName": "Bannerlord.exe",
+        },
+        {
+            "name": "Attach to BLSE Bannerlord [net472] (Steam/GOG/Epic)",
+            "type": "clr",
+            "request": "attach",
+            "processName": "Bannerlord.BLSE.Standalone.exe",
+        },
+    ]
+}
