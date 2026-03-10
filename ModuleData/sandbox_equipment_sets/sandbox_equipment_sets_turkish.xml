@@ -382,546 +382,611 @@
 		</EquipmentSet>
 		<Flags IsCivilianTemplate="true"/>
 	</EquipmentRoster>
-	<!-- MAMLUK CHARACTER CREATION -->
-	<EquipmentRoster id="brother_char_creation_turkish" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Item2" id="Item.studded_round_shield"/>
-			<Equipment slot="Item3" id="Item.battania_mace_2_t2"/>
-			<Equipment slot="Body" id="Item.aserai_civil_a"/>
-			<Equipment slot="Head" id="Item.desert_cap"/>
-			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Horse" id="Item.aserai_horse"/>
-			<Equipment slot="HorseHarness" id="Item.light_harness"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.battania_mace_2_t2"/>
-			<Equipment slot="Body" id="Item.aserai_civil_a"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
-			<Equipment slot="Head" id="Item.desert_cap"/>
-			<Equipment slot="Horse" id="Item.aserai_horse"/>
-			<Equipment slot="HorseHarness" id="Item.light_harness"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--Culture: turkish -->
-	<!--1.Kinsfolk-->
-	<EquipmentRoster id="mother_char_creation_retainer_turkish" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.desert_headdress"/>
-			<Equipment slot="Body" id="Item.aserai_female_civil_a"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="father_char_creation_retainer_turkish" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_robe_c_chain"/>
-			<Equipment slot="Leg" id="Item.fine_town_boots"/>
-			<Equipment slot="Head" id="Item.turban"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--2.Warrior-slave-->
-	<EquipmentRoster id="mother_char_creation_mercenary_turkish" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
-			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="father_char_creation_mercenary_turkish" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_e"/>
-			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
-			<Equipment slot="Head" id="Item.desert_mail_coif"/>
-			<Equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--3.Merchant-->
-	<EquipmentRoster id="mother_char_creation_physician_turkish" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.aserai_female_civil_hscarf_b"/>
-			<Equipment slot="Body" id="Item.aserai_female_civil_a"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="father_char_creation_physician_turkish" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.merchants_hat"/>
-			<Equipment slot="Body" id="Item.merchants_fur_coat"/>
-			<Equipment slot="Leg" id="Item.mail_chausses"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--4.Farmer-->
-	<EquipmentRoster id="mother_char_creation_farmer_turkish" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
-			<Equipment slot="Body" id="Item.aserai_female_civil_b"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="father_char_creation_farmer_turkish" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.headscarf_d"/>
-			<Equipment slot="Body" id="Item.aserai_civil_f"/>
-			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--5.Bedouin-->
-	<EquipmentRoster id="mother_char_creation_herder_turkish" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
-			<Equipment slot="Body" id="Item.fine_southern_dress"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="father_char_creation_herder_turkish" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
-			<Equipment slot="Body" id="Item.tassled_southern_robes"/>
-			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
-			<Equipment slot="Cape" id="Item.leopard_pelt"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--6.Thug-->
-	<EquipmentRoster id="mother_char_creation_artisan_turkish" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_female_civil_b"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="father_char_creation_artisan_turkish" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_a"/>
-			<Equipment slot="Leg" id="Item.fine_town_boots"/>
-			<Equipment slot="Head" id="Item.aserai_civil_f_cape"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--Culture:turkish -->
-	<!--Kinsfolk -->
-	<EquipmentRoster id="player_char_creation_childhood_age_turkish_retainer_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_d"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			<Equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_education_age_turkish_retainer_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_d"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			<Equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_childhood_age_turkish_retainer_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_d"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			<Equipment slot="Head" id="Item.desert_headdress"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_education_age_turkish_retainer_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_d"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			<Equipment slot="Head" id="Item.desert_headdress"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--Warrior-slave -->
-	<EquipmentRoster id="player_char_creation_childhood_age_turkish_mercenary_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.layered_robe"/>
-			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_education_age_turkish_mercenary_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.layered_robe"/>
-			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_childhood_age_turkish_mercenary_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.layered_robe"/>
-			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_education_age_turkish_mercenary_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.layered_robe"/>
-			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--Merchant -->
-	<EquipmentRoster id="player_char_creation_childhood_age_turkish_healer_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_b"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-			<Equipment slot="Head" id="Item.merchants_hat"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_education_age_turkish_healer_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_b"/>
-			<Equipment slot="Head" id="Item.merchants_hat"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_childhood_age_turkish_healer_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_b"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_education_age_turkish_healer_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_b"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--Farmer -->
-	<EquipmentRoster id="player_char_creation_childhood_age_turkish_farmer_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_e"/>
-			<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_education_age_turkish_farmer_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_e"/>
-			<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_childhood_age_turkish_farmer_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_female_civil_b"/>
-			<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_education_age_turkish_farmer_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_female_civil_b"/>
-			<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--Bedouin -->
-	<EquipmentRoster id="player_char_creation_childhood_age_turkish_herder_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_c"/>
-			<Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_education_age_turkish_herder_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_c"/>
-			<Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_childhood_age_turkish_herder_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_c"/>
-			<Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_education_age_turkish_herder_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.aserai_civil_c"/>
-			<Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
-			<Equipment slot="Leg" id="Item.southern_moccasins"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--Thug -->
-	<EquipmentRoster id="player_char_creation_childhood_age_turkish_artisan_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_education_age_turkish_artisan_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_childhood_age_turkish_artisan_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_education_age_turkish_artisan_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--STARTING EQUIPMENT SETS BEGIN (Only change the equipment sets, other fields except the id are ignored.-->
-	<!--Special Situations-->
-	<!--stood guard with the garrisons-->
-	<EquipmentRoster id="player_char_creation_turkish_guard_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Item1" id="Item.bound_adarga"/>
-			<Equipment slot="Item2" id="Item.hunting_bow"/>
-			<Equipment slot="Item3" id="Item.default_arrows"/>
-			<Equipment slot="Body" id="Item.aserai_civil_e"/>
-			<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Horse" id="Item.sumpter_horse"/>
-			<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Body" id="Item.aserai_civil_e"/>
-			<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--stood guard with the garrisons-->
-	<EquipmentRoster id="player_char_creation_turkish_guard_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Item1" id="Item.bound_adarga"/>
-			<Equipment slot="Item2" id="Item.hunting_bow"/>
-			<Equipment slot="Item3" id="Item.default_arrows"/>
-			<Equipment slot="Body" id="Item.aserai_civil_e"/>
-			<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Horse" id="Item.sumpter_horse"/>
-			<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Body" id="Item.aserai_female_civil_b"/>
-			<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--rode with the scouts-->
-	<EquipmentRoster id="player_char_creation_turkish_hunter_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Item2" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Item0" id="Item.hunting_bow"/>
-			<Equipment slot="Item1" id="Item.default_arrows"/>
-			<Equipment slot="Body" id="Item.aserai_civil_e"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
-			<Equipment slot="Horse" id="Item.sumpter_horse"/>
-			<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Body" id="Item.aserai_civil_e"/>
-			<Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--rode with the scouts-->
-	<EquipmentRoster id="player_char_creation_turkish_hunter_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Item2" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Item0" id="Item.hunting_bow"/>
-			<Equipment slot="Item1" id="Item.default_arrows"/>
-			<Equipment slot="Body" id="Item.aserai_civil_e"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
-			<Equipment slot="Horse" id="Item.sumpter_horse"/>
-			<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Body" id="Item.aserai_female_civil_b"/>
-			<Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--trained with the infantry-->
-	<EquipmentRoster id="player_char_creation_turkish_infantry_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
-			<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Body" id="Item.aserai_civil_a"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Head" id="Item.turban"/>
-			<Equipment slot="Horse" id="Item.sumpter_horse"/>
-			<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Body" id="Item.aserai_civil_a"/>
-			<Equipment slot="Head" id="Item.turban"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--trained with the infantry-->
-	<EquipmentRoster id="player_char_creation_turkish_infantry_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
-			<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Body" id="Item.aserai_civil_a"/>
-			<Equipment slot="Head" id="Item.turban"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Horse" id="Item.sumpter_horse"/>
-			<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Head" id="Item.turban"/>
-			<Equipment slot="Body" id="Item.aserai_female_civil_b"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--joined the skirmishers-->
-	<EquipmentRoster id="player_char_creation_turkish_skirmisher_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.aserai_mace_1_t2"/>
-			<Equipment slot="Item3" id="Item.western_javelin_1_t2"/>
-			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
-			<Equipment slot="Body" id="Item.aserai_civil_c"/>
-			<Equipment slot="Head" id="Item.desert_cap"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Horse" id="Item.sumpter_horse"/>
-			<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
-			<Equipment slot="Body" id="Item.aserai_civil_c"/>
-			<Equipment slot="Head" id="Item.desert_cap"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--joined the skirmishers-->
-	<EquipmentRoster id="player_char_creation_turkish_skirmisher_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.aserai_mace_1_t2"/>
-			<Equipment slot="Item3" id="Item.western_javelin_1_t2"/>
-			<Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
-			<Equipment slot="Head" id="Item.desert_cap"/>
-			<Equipment slot="Body" id="Item.aserai_civil_c"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Horse" id="Item.sumpter_horse"/>
-			<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
-			<Equipment slot="Head" id="Item.desert_cap"/>
-			<Equipment slot="Body" id="Item.aserai_female_civil_b"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--marched with the camp followers-->
-	<EquipmentRoster id="player_char_creation_turkish_bard_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
-			<Equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
-			<Equipment slot="Item3" id="Item.aserai_mace_1_t2"/>
-			<Equipment slot="Head" id="Item.woven_turban"/>
-			<Equipment slot="Body" id="Item.aserai_civil_f"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Horse" id="Item.sumpter_horse"/>
-			<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
-			<Equipment slot="Head" id="Item.woven_turban"/>
-			<Equipment slot="Body" id="Item.aserai_civil_f"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--marched with the camp followers-->
-	<EquipmentRoster id="player_char_creation_turkish_bard_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
-			<Equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
-			<Equipment slot="Item3" id="Item.aserai_mace_1_t2"/>
-			<Equipment slot="Head" id="Item.woven_turban"/>
-			<Equipment slot="Body" id="Item.aserai_civil_f"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Horse" id="Item.sumpter_horse"/>
-			<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
-			<Equipment slot="Head" id="Item.woven_turban"/>
-			<Equipment slot="Body" id="Item.aserai_female_civil_b"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--Ignore 6th Option-->
-	<EquipmentRoster id="player_char_creation_turkish_6_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Item2" id="Item.light_mace_t3"/>
-			<Equipment slot="Item3" id="Item.small_flat_heater_shield"/>
-			<Equipment slot="Head" id="Item.open_head_scarf"/>
-			<Equipment slot="Body" id="Item.long_padded_robe"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Horse" id="Item.sumpter_horse"/>
-			<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.desert_throwing_knife"/>
-			<Equipment slot="Head" id="Item.open_head_scarf"/>
-			<Equipment slot="Body" id="Item.long_padded_robe"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!--Ignore 6th Option-->
-	<EquipmentRoster id="player_char_creation_turkish_6_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Item2" id="Item.light_mace_t3"/>
-			<Equipment slot="Item3" id="Item.small_flat_heater_shield"/>
-			<Equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
-			<Equipment slot="Body" id="Item.long_padded_robe"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Horse" id="Item.sumpter_horse"/>
-			<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
-			<Equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
-			<Equipment slot="Body" id="Item.long_padded_robe"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<!-- Trained With Cavalry -->
-	<EquipmentRoster id="player_char_creation_turkish_mercenary_m" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.small_flat_heater_shield"/>
-			<Equipment slot="Item1" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
-			<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-			<Equipment slot="Body" id="Item.aserai_civil_a"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Horse" id="Item.sumpter_horse"/>
-			<Equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Body" id="Item.aserai_civil_a"/>
-			<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="player_char_creation_turkish_mercenary_f" culture="Culture.turkish">
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.small_flat_heater_shield"/>
-			<Equipment slot="Item1" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
-			<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-			<Equipment slot="Body" id="Item.aserai_civil_a"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-			<Equipment slot="Horse" id="Item.sumpter_horse"/>
-			<Equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
-		</EquipmentSet>
-		<EquipmentSet civilian="true">
-			<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-			<Equipment slot="Body" id="Item.aserai_female_civil_b"/>
-			<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
-			<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-    <!--CHARACTER CREATION SHOW ARMOR SET ENDS HERE-->
+	<!-- Culture.aserai -->
+	<!-- link to AD1259\CSharpSourceCode\AD1259\AD1259\CharacterCreationScreen\CustomCultureDefinitions.cs -->
+    <!-- Character Customization phase, Change Clothing button --> 
+    <EquipmentRoster id="player_char_creation_show_turkish" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.desert_robe_over_mail"/>
+            <Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.battania_mace_2_t2"/>
+            <Equipment slot="Body" id="Item.northern_leather_vest"/>
+            <Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+	<!-- Choose your family - initial parents equipment when nothing is selected yet --> 
+    <EquipmentRoster id="mother_char_creation_none_turkish" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.plain_dress"/>
+            <Equipment slot="Cape" id="Item.female_hood"/>
+            <Equipment slot="Leg" id="Item.leather_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_none_turkish" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.layered_robe"/>
+            <Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--1.Kinsfolk-->
+    <EquipmentRoster id="mother_char_creation_retainer_turkish" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.desert_headdress"/>
+            <Equipment slot="Body" id="Item.aserai_female_civil_a"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_retainer_turkish" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_robe_c_chain"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+            <Equipment slot="Head" id="Item.turban"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--2.Warrior-slave-->
+    <EquipmentRoster id="mother_char_creation_mercenary_turkish" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_villager_female_dress"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_mercenary_turkish" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_e"/>
+            <Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+            <Equipment slot="Head" id="Item.desert_mail_coif"/>
+            <Equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--3.Merchant-->
+    <EquipmentRoster id="mother_char_creation_physician_turkish" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.aserai_female_civil_hscarf_b"/>
+            <Equipment slot="Body" id="Item.aserai_female_civil_a"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_physician_turkish" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.merchants_hat"/>
+            <Equipment slot="Body" id="Item.merchants_fur_coat"/>
+            <Equipment slot="Leg" id="Item.mail_chausses"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--4.Farmer-->
+    <EquipmentRoster id="mother_char_creation_farmer_turkish" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+            <Equipment slot="Body" id="Item.aserai_female_civil_b"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_farmer_turkish" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.headscarf_d"/>
+            <Equipment slot="Body" id="Item.aserai_civil_f"/>
+            <Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--5.Bedouin-->
+    <EquipmentRoster id="mother_char_creation_herder_turkish" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+            <Equipment slot="Body" id="Item.fine_southern_dress"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_herder_turkish" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+            <Equipment slot="Body" id="Item.tassled_southern_robes"/>
+            <Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+            <Equipment slot="Cape" id="Item.leopard_pelt"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--6.Thug-->
+    <EquipmentRoster id="mother_char_creation_artisan_turkish" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_female_civil_b"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="father_char_creation_artisan_turkish" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_a"/>
+            <Equipment slot="Leg" id="Item.fine_town_boots"/>
+            <Equipment slot="Head" id="Item.aserai_civil_f_cape"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Kinsfolk -->
+    <EquipmentRoster id="player_char_creation_childhood_age_turkish_retainer_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_d"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_turkish_retainer_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_d"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Head" id="Item.desert_headdress"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Warrior-slave -->
+    <EquipmentRoster id="player_char_creation_childhood_age_turkish_mercenary_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.layered_robe"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_turkish_mercenary_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.layered_robe"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Merchant -->
+    <EquipmentRoster id="player_char_creation_childhood_age_turkish_healer_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Head" id="Item.merchants_hat"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_turkish_healer_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!-- Physician -->
+    <EquipmentRoster id="player_char_creation_childhood_age_turkish_physician_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Head" id="Item.merchants_hat"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_turkish_physician_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Farmer -->
+    <EquipmentRoster id="player_char_creation_childhood_age_turkish_farmer_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_e"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_turkish_farmer_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_female_civil_b"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Bedouin -->
+    <EquipmentRoster id="player_char_creation_childhood_age_turkish_herder_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_c"/>
+            <Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_turkish_herder_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_c"/>
+            <Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Thug -->
+    <EquipmentRoster id="player_char_creation_childhood_age_turkish_artisan_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_childhood_age_turkish_artisan_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Kinsfolk -->
+    <EquipmentRoster id="player_char_creation_education_age_turkish_retainer_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_d"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_turkish_retainer_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_d"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+            <Equipment slot="Head" id="Item.desert_headdress"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Warrior-slave -->
+    <EquipmentRoster id="player_char_creation_education_age_turkish_mercenary_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.layered_robe"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_turkish_mercenary_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.layered_robe"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Merchant -->
+    <EquipmentRoster id="player_char_creation_education_age_turkish_healer_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Head" id="Item.merchants_hat"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_turkish_healer_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!-- Physician -->
+    <EquipmentRoster id="player_char_creation_education_age_turkish_physician_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Head" id="Item.merchants_hat"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_turkish_physician_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_b"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Farmer -->
+    <EquipmentRoster id="player_char_creation_education_age_turkish_farmer_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_e"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_turkish_farmer_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_female_civil_b"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Bedouin -->
+    <EquipmentRoster id="player_char_creation_education_age_turkish_herder_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_c"/>
+            <Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_turkish_herder_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.aserai_civil_c"/>
+            <Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+            <Equipment slot="Leg" id="Item.southern_moccasins"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Thug -->
+    <EquipmentRoster id="player_char_creation_education_age_turkish_artisan_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_education_age_turkish_artisan_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Body" id="Item.torn_bandit_clothes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--trained with the cavalry=> Empire Khuzait Aserai Vlandia Only, Parents Are Retainers-->
+    <EquipmentRoster id="player_char_creation_turkish_mercenary_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.small_flat_heater_shield"/>
+            <Equipment slot="Item1" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+            <Equipment slot="Body" id="Item.aserai_civil_a"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Body" id="Item.aserai_civil_a"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_turkish_mercenary_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.small_flat_heater_shield"/>
+            <Equipment slot="Item1" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+            <Equipment slot="Body" id="Item.aserai_civil_a"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Body" id="Item.aserai_female_civil_b"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--stood guard with the garrisons-->
+    <EquipmentRoster id="player_char_creation_turkish_guard_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Item1" id="Item.bound_adarga"/>
+            <Equipment slot="Item2" id="Item.hunting_bow"/>
+            <Equipment slot="Item3" id="Item.default_arrows"/>
+            <Equipment slot="Body" id="Item.aserai_civil_e"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Body" id="Item.aserai_civil_e"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_turkish_guard_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Item1" id="Item.bound_adarga"/>
+            <Equipment slot="Item2" id="Item.hunting_bow"/>
+            <Equipment slot="Item3" id="Item.default_arrows"/>
+            <Equipment slot="Body" id="Item.aserai_civil_e"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Body" id="Item.aserai_female_civil_b"/>
+            <Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--rode with the scouts-->
+    <EquipmentRoster id="player_char_creation_turkish_hunter_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Item2" id="Item.hunting_bow"/>
+            <Equipment slot="Item3" id="Item.default_arrows"/>
+            <Equipment slot="Body" id="Item.aserai_civil_e"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Body" id="Item.aserai_civil_e"/>
+            <Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_turkish_hunter_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Item2" id="Item.hunting_bow"/>
+            <Equipment slot="Item3" id="Item.default_arrows"/>
+            <Equipment slot="Body" id="Item.aserai_civil_e"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Body" id="Item.aserai_female_civil_b"/>
+            <Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!-- joined a commander's staff -->
+    <EquipmentRoster id="player_char_creation_turkish_retainer_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.light_mace_t3"/>
+            <Equipment slot="Item1" id="Item.small_flat_heater_shield"/>
+            <Equipment slot="Head" id="Item.open_head_scarf"/>
+            <Equipment slot="Body" id="Item.long_padded_robe"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.desert_throwing_knife"/>
+            <Equipment slot="Head" id="Item.open_head_scarf"/>
+            <Equipment slot="Body" id="Item.long_padded_robe"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_turkish_retainer_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.light_mace_t3"/>
+            <Equipment slot="Item1" id="Item.small_flat_heater_shield"/>
+            <Equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+            <Equipment slot="Body" id="Item.long_padded_robe"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+            <Equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+            <Equipment slot="Body" id="Item.long_padded_robe"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--trained with the infantry-->
+    <EquipmentRoster id="player_char_creation_turkish_infantry_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
+            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Body" id="Item.aserai_civil_a"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Head" id="Item.turban"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Body" id="Item.aserai_civil_a"/>
+            <Equipment slot="Head" id="Item.turban"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_turkish_infantry_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
+            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Body" id="Item.aserai_civil_a"/>
+            <Equipment slot="Head" id="Item.turban"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+            <Equipment slot="Head" id="Item.turban"/>
+            <Equipment slot="Body" id="Item.aserai_female_civil_b"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--joined the skirmishers-->
+    <EquipmentRoster id="player_char_creation_turkish_skirmisher_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.aserai_mace_1_t2"/>
+            <Equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+            <Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+            <Equipment slot="Body" id="Item.aserai_civil_c"/>
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+            <Equipment slot="Body" id="Item.aserai_civil_c"/>
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_turkish_skirmisher_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.aserai_mace_1_t2"/>
+            <Equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+            <Equipment slot="Item2" id="Item.western_javelin_1_t2"/>
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Body" id="Item.aserai_civil_c"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+            <Equipment slot="Head" id="Item.desert_cap"/>
+            <Equipment slot="Body" id="Item.aserai_female_civil_b"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--marched with the camp followers-->
+    <EquipmentRoster id="player_char_creation_turkish_bard_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
+            <Equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+            <Equipment slot="Item3" id="Item.aserai_mace_1_t2"/>
+            <Equipment slot="Head" id="Item.woven_turban"/>
+            <Equipment slot="Body" id="Item.aserai_civil_f"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+            <Equipment slot="Head" id="Item.woven_turban"/>
+            <Equipment slot="Body" id="Item.aserai_civil_f"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_turkish_bard_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
+            <Equipment slot="Item2" id="Item.eastern_javelin_1_t2"/>
+            <Equipment slot="Item3" id="Item.aserai_mace_1_t2"/>
+            <Equipment slot="Head" id="Item.woven_turban"/>
+            <Equipment slot="Body" id="Item.aserai_civil_f"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+            <Equipment slot="Head" id="Item.woven_turban"/>
+            <Equipment slot="Body" id="Item.aserai_female_civil_b"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!--Ignore 6th Option-->
+    <EquipmentRoster id="player_char_creation_turkish_6_m" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item2" id="Item.light_mace_t3"/>
+            <Equipment slot="Item3" id="Item.small_flat_heater_shield"/>
+            <Equipment slot="Head" id="Item.open_head_scarf"/>
+            <Equipment slot="Body" id="Item.long_padded_robe"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.desert_throwing_knife"/>
+            <Equipment slot="Head" id="Item.open_head_scarf"/>
+            <Equipment slot="Body" id="Item.long_padded_robe"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="player_char_creation_turkish_6_f" culture="Culture.turkish">
+        <EquipmentSet>
+            <Equipment slot="Item2" id="Item.light_mace_t3"/>
+            <Equipment slot="Item3" id="Item.small_flat_heater_shield"/>
+            <Equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+            <Equipment slot="Body" id="Item.long_padded_robe"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+            <Equipment slot="Horse" id="Item.sumpter_horse"/>
+            <Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
+        </EquipmentSet>
+        <EquipmentSet civilian="true">
+            <Equipment slot="Item0" id="Item.aserai_sword_2_t2"/>
+            <Equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+            <Equipment slot="Body" id="Item.long_padded_robe"/>
+            <Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+        </EquipmentSet>
+    </EquipmentRoster>
 	<!--CHILD EQUIPMENT TEMPLATES-->
 	<!--Culture:aserai -->
 	<!--Townsman -->
