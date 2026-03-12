@@ -6,12 +6,12 @@ using TaleWorlds.CampaignSystem.CharacterCreationContent;
 
 namespace AD1259.Patches
 {
-	[HarmonyPatch(typeof(CharacterCreationCampaignBehavior), "YouthGuardHighRegisterOptionOnCondition")]
-	public class YouthGuardHighRegisterPatch
+	[HarmonyPatch(typeof(CharacterCreationCampaignBehavior), "YouthKernOptionOnCondition")]
+	public class YouthKernOptionOnConditionPatch
 	{
 		private static void Postfix(ref bool __result, CharacterCreationManager characterCreationManager)
 		{
-			bool flag = CustomCultureDefinitions.Ids.Contains(characterCreationManager.CharacterCreationContent.SelectedCulture.StringId);
+			bool flag = CustomCultureDefinitions.BattaniaCultureIds.Contains(characterCreationManager.CharacterCreationContent.SelectedCulture.StringId);
 			if (flag)
 			{
 				__result = true;

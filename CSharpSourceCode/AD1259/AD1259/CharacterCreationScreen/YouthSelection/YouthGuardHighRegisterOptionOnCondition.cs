@@ -6,12 +6,12 @@ using TaleWorlds.CampaignSystem.CharacterCreationContent;
 
 namespace AD1259.Patches
 {
-	[HarmonyPatch(typeof(CharacterCreationCampaignBehavior), "VlandiaFarmerNarrativeOptionOnCondition")]
-	public class VlandiaFarmerPatch
+	[HarmonyPatch(typeof(CharacterCreationCampaignBehavior), "YouthGuardHighRegisterOptionOnCondition")]
+	public class YouthGuardHighRegisterOptionOnConditionPatch
 	{
 		private static void Postfix(ref bool __result, CharacterCreationManager characterCreationManager)
 		{
-			bool flag = CustomCultureDefinitions.Ids.Contains(characterCreationManager.CharacterCreationContent.SelectedCulture.StringId);
+			bool flag = CustomCultureDefinitions.VlandiaCultureIds.Contains(characterCreationManager.CharacterCreationContent.SelectedCulture.StringId);
 			if (flag)
 			{
 				__result = true;

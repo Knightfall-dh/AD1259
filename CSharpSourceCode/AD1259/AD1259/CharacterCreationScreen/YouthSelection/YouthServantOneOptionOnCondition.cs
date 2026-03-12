@@ -6,12 +6,12 @@ using TaleWorlds.CampaignSystem.CharacterCreationContent;
 
 namespace AD1259.Patches
 {
-	[HarmonyPatch(typeof(CharacterCreationCampaignBehavior), "VlandiaBlacksmithNarrativeOptionOnCondition")]
-	public class VlandiaBlacksmithPatch
+	[HarmonyPatch(typeof(CharacterCreationCampaignBehavior), "YouthServantOneOptionOnCondition")]
+	public class YouthServantOneOptionOnConditionPatch
 	{
 		private static void Postfix(ref bool __result, CharacterCreationManager characterCreationManager)
 		{
-			bool flag = CustomCultureDefinitions.Ids.Contains(characterCreationManager.CharacterCreationContent.SelectedCulture.StringId);
+			bool flag = CustomCultureDefinitions.KhuzaitCultureIds.Contains(characterCreationManager.CharacterCreationContent.SelectedCulture.StringId);
 			if (flag)
 			{
 				__result = true;

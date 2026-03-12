@@ -6,12 +6,12 @@ using TaleWorlds.CampaignSystem.CharacterCreationContent;
 
 namespace AD1259.Patches
 {
-	[HarmonyPatch(typeof(CharacterCreationCampaignBehavior), "YouthInfantryOptionOnCondition")]
-	public class YouthInfantryPatch
+	[HarmonyPatch(typeof(CharacterCreationCampaignBehavior), "YouthStaffOneOptionOnCondition")]
+	public class YouthStaffOneOptionOnConditionPatch
 	{
 		private static void Postfix(ref bool __result, CharacterCreationManager characterCreationManager)
 		{
-			bool flag = CustomCultureDefinitions.Ids.Contains(characterCreationManager.CharacterCreationContent.SelectedCulture.StringId);
+			bool flag = CustomCultureDefinitions.EmpireCultureIds.Contains(characterCreationManager.CharacterCreationContent.SelectedCulture.StringId);
 			if (flag)
 			{
 				__result = true;

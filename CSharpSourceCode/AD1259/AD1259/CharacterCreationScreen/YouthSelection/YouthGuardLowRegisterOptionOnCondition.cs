@@ -6,12 +6,12 @@ using TaleWorlds.CampaignSystem.CharacterCreationContent;
 
 namespace AD1259.Patches
 {
-	[HarmonyPatch(typeof(CharacterCreationCampaignBehavior), "YouthCavalryOptionOnCondition")]
-	public class YouthCavalryPatch
+	[HarmonyPatch(typeof(CharacterCreationCampaignBehavior), "YouthGuardLowRegisterOptionOnCondition")]
+	public class YouthGuardLowRegisterOptionOnConditionPatch
 	{
 		private static void Postfix(ref bool __result, CharacterCreationManager characterCreationManager)
 		{
-			bool flag = CustomCultureDefinitions.Ids.Contains(characterCreationManager.CharacterCreationContent.SelectedCulture.StringId);
+			bool flag = CustomCultureDefinitions.SturgiaCultureIds.Contains(characterCreationManager.CharacterCreationContent.SelectedCulture.StringId);
 			if (flag)
 			{
 				__result = true;
