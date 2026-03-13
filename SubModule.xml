@@ -15,15 +15,30 @@
 	
     <SubModules>
 	
+	<!-- dll -->
       <SubModule>
         <Name value="AD1259" />
         <DLLName value="AD1259.dll" />
         <SubModuleClassType value="AD1259.SubModule" />
         <Tags />
       </SubModule>
+	  
+	  <SubModule>
+        <Name value="BannerColorPersistence"/>
+        <DLLName value="BannerColorPersistence.dll"/>
+        <SubModuleClassType value="BannerColorPersistence.PersistColorSubModule"/>
+        <Tags />
+      </SubModule>
+	  
+	  <SubModule>
+		 <Name value="PocColor"/>
+		 <DLLName value="PocColorMod.dll"/>
+		 <SubModuleClassType value="PocColor.PocColorMod"/>
+		<Tags />
+	  </SubModule>
         
 
-<!-- dll -->
+
 
     </SubModules>
 	
