@@ -2,9 +2,9 @@
 <NPCCharacters>
 	<!-- DO NOT USE SKILL TEMPLATES HERE-->
 	<!-- region GHILMANS -->
-	<NPCCharacter id="ghilman_tier_1" default_group="Cavalry" level="11" occupation="Soldier" is_basic_troop="true" culture="Culture.darshi" name="{=KnhpjA7Y}Ghilman Rider">
+	<NPCCharacter id="ghilman_tier_1" default_group="Cavalry" level="11" occupation="Soldier" is_basic_troop="true" culture="Culture.turkish" name="{=KnhpjA7Y}Ghilman Rider">
 		<face>
-			<face_key_template value="BodyProperty.fighter_aserai"/>
+			<face_key_template value="BodyProperty.fighter_turkish"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="20"/>
@@ -20,12 +20,12 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="ghilman_tier_1_bat"/>
-			<EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true"/>
+			<EquipmentSet id="ghilman_tier_1_civ" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="ghilman_tier_2" default_group="Cavalry" level="16" occupation="Soldier" culture="Culture.darshi" name="{=ghilmanUnit}Ghilman Outrider">
+	<NPCCharacter id="ghilman_tier_2" default_group="Cavalry" level="16" occupation="Soldier" culture="Culture.turkish" name="{=ghilmanUnit}Ghilman Outrider">
 		<face>
-			<face_key_template value="BodyProperty.fighter_aserai"/>
+			<face_key_template value="BodyProperty.fighter_turkish"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="70"/>
@@ -42,12 +42,12 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="ghilman_tier_2_bat"/>
-			<EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true"/>
+			<EquipmentSet id="ghilman_tier_2_civ" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="ghilman_tier_3" default_group="Cavalry" level="21" occupation="Soldier" culture="Culture.darshi" name="{=7EUhAv8b}Ghilman Cameleer" upgrade_requires="ItemCategory.war_horse">
+	<NPCCharacter id="ghilman_tier_3" default_group="Cavalry" level="21" occupation="Soldier" culture="Culture.turkish" name="{=7EUhAv8b}Ghilman Cameleer" upgrade_requires="ItemCategory.war_horse">
 		<face>
-			<face_key_template value="BodyProperty.fighter_aserai"/>
+			<face_key_template value="BodyProperty.fighter_turkish"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
@@ -62,13 +62,13 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="ghilman_tier_3_bat"/>
-			<EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true"/>
+			<EquipmentSet id="ghilman_tier_3_civ" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region CUMANS -->
 	<NPCCharacter id="cuman_rider" default_group="HorseArcher" level="16" name="{=Cuman Rider}Cuman Rider" occupation="Soldier" culture="Culture.cuman" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_khuzait"/>
+			<face_key_template value="BodyProperty.fighter_turkish"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
@@ -90,7 +90,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="cuman_lancer" default_group="Cavalry" level="21" name="{=Cuman Lancer}Cuman Lancer" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.cuman">
 		<face>
-			<face_key_template value="BodyProperty.fighter_khuzait"/>
+			<face_key_template value="BodyProperty.fighter_turkish"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
@@ -112,7 +112,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="cuman_bek" default_group="Cavalry" level="26" name="{=Cuman Bek}Cuman Bek" occupation="Soldier" culture="Culture.cuman" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_khuzait"/>
+			<face_key_template value="BodyProperty.fighter_turkish"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="120"/>
@@ -132,7 +132,7 @@
 	<!-- region GENOESE MERCENARIES -->
 	<NPCCharacter id="merc_genoese_cbow" default_group="Ranged" level="16" name="{=Genoese Crossbowman}Genoese Mercenary Crossbowman" occupation="Mercenary" culture="Culture.genoa" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
+			<face_key_template value="BodyProperty.fighter_italian"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="60"/>
@@ -154,7 +154,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="merc_genoese_cbow_veteran" default_group="Ranged" level="21" name="{=Genoese Veteran Crossbowman}Genoese Veteran Crossbowman" occupation="Mercenary" culture="Culture.genoa">
 		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
+			<face_key_template value="BodyProperty.fighter_italian"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
@@ -176,7 +176,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="merc_genoese_cbow_serjeant" default_group="Ranged" level="26" name="{=Genoese Sergeant Crossbowman}Genoese Serjeant Crossbowman" occupation="Mercenary" culture="Culture.genoa" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
+			<face_key_template value="BodyProperty.fighter_italian"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
@@ -196,7 +196,7 @@
 	<!-- region ORDER OF SANTIAGO -->
 	<NPCCharacter id="santiago_initiate" default_group="Cavalry" name="{=Initiate of Santiago}Order of Santiago Initiate" level="11" occupation="Soldier" culture="Culture.santiago" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
+			<face_key_template value="BodyProperty.fighter_italian"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="115"/>
@@ -218,7 +218,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="santiago_squire" default_group="Cavalry" level="16" name="{=Squire of Santiago}Order of Santiago Squire" occupation="Soldier" culture="Culture.santiago">
 		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
+			<face_key_template value="BodyProperty.fighter_italian"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="69"/>
@@ -240,7 +240,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="santiago_knight" default_group="Cavalry" level="21" name="{=Knight of Santiago}Order of Santiago Knight" occupation="Soldier" culture="Culture.santiago">
 		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
+			<face_key_template value="BodyProperty.fighter_italian"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="58"/>
@@ -262,7 +262,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="santiago_grandknight" default_group="Cavalry" level="26" name="{=Grand Knight of Santiago}Order of Santiago Grand Knight" occupation="Soldier" culture="Culture.santiago" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
+			<face_key_template value="BodyProperty.fighter_italian"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="46"/>
@@ -282,8 +282,7 @@
 	<!-- region TEMPLAR -->
 	<NPCCharacter id="templar_initiate" default_group="Infantry" name="{=templar Initiate}Templar Initiate" level="11" occupation="Soldier" culture="Culture.templar" is_basic_troop="true">
 		<face>
-			<BodyProperties version="4" age="24.29" weight="0.162" build="0.3657" key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
-			<BodyPropertiesMax version="4" age="39.62" weight="0.733" build="0.5651" key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105"/>
+			<face_key_template value="BodyProperty.fighter_crusader"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="92"/>
@@ -306,8 +305,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="templar_crossbowman" default_group="Ranged" name="{=templar Crossbowman}Templar Crossbowman" level="16" occupation="Soldier" culture="Culture.templar">
 		<face>
-			<BodyProperties version="4" age="24.29" weight="0.162" build="0.3657" key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
-			<BodyPropertiesMax version="4" age="39.62" weight="0.733" build="0.5651" key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105"/>
+			<face_key_template value="BodyProperty.fighter_crusader"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="92"/>
@@ -329,8 +327,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="templar_brother_knight" default_group="Cavalry" name="Templar Knight" level="26" occupation="Soldier" culture="Culture.templar">
 		<face>
-			<BodyProperties version="4" age="24.29" weight="0.162" build="0.3657" key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
-			<BodyPropertiesMax version="4" age="39.62" weight="0.733" build="0.5651" key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105"/>
+			<face_key_template value="BodyProperty.fighter_crusader"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="58"/>
@@ -352,8 +349,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="templar_brother_squire" default_group="Cavalry" name="Templar Squire" level="21" occupation="Soldier" culture="Culture.templar" is_basic_troop="true">
 		<face>
-			<BodyProperties version="4" age="24.29" weight="0.162" build="0.3657" key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
-			<BodyPropertiesMax version="4" age="39.62" weight="0.733" build="0.5651" key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105"/>
+			<face_key_template value="BodyProperty.fighter_crusader"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="69"/>
@@ -375,8 +371,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="templar_brother_sergeant" default_group="Infantry" name="Templar Sergeant" level="21" occupation="Soldier" culture="Culture.templar">
 		<face>
-			<BodyProperties version="4" age="24.29" weight="0.162" build="0.3657" key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
-			<BodyPropertiesMax version="4" age="39.62" weight="0.733" build="0.5651" key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105"/>
+			<face_key_template value="BodyProperty.fighter_crusader"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="12"/>
@@ -396,8 +391,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="templar_arbalester" default_group="Ranged" name="Templar Crossbow Sergeant" level="21" occupation="Soldier" culture="Culture.templar">
 		<face>
-			<BodyProperties version="4" age="24.29" weight="0.162" build="0.3657" key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
-			<BodyPropertiesMax version="4" age="39.62" weight="0.733" build="0.5651" key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105"/>
+			<face_key_template value="BodyProperty.fighter_crusader"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="92"/>
@@ -417,8 +411,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="templar_brother_at_arms" default_group="Infantry" name="Templar Brother-at-Arms" level="16" occupation="Soldier" culture="Culture.templar">
 		<face>
-			<BodyProperties version="4" age="24.29" weight="0.162" build="0.3657" key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
-			<BodyPropertiesMax version="4" age="39.62" weight="0.733" build="0.5651" key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105"/>
+			<face_key_template value="BodyProperty.fighter_crusader"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="46"/>
@@ -441,8 +434,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="templar_brother_knight_captain" default_group="Cavalry" name="Templar Grand Knight" level="31" occupation="Soldier" culture="Culture.templar">
 		<face>
-			<BodyProperties version="4" age="24.29" weight="0.162" build="0.3657" key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
-			<BodyPropertiesMax version="4" age="39.62" weight="0.733" build="0.5651" key="0013C80E40003406EF8FFFFFEEEEFEFDEFFE8EEFEEE6EEEDEDFFEEEE8EFEFFFE07BAB0780BEFEEEF000000000000000000000000000000000000000067789105"/>
+			<face_key_template value="BodyProperty.fighter_crusader"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="46"/>
@@ -463,7 +455,7 @@
 	<!-- region SAMI TRIBES -->
 	<NPCCharacter id="sami_tribesman" default_group="Infantry" level="11" name="{=Sámi Tribesman}Sámi Tribesman" occupation="Soldier" culture="Culture.sami" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_swedish"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
@@ -486,7 +478,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="sami_warrior" default_group="Infantry" level="16" name="{=Sámi Warrior}Sámi Warrior" occupation="Soldier" culture="Culture.sami">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_swedish"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
@@ -508,7 +500,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="sami_chieftain" default_group="Infantry" level="21" name="{=Sámi Chieftain}Sámi Chieftain" occupation="Soldier" culture="Culture.sami" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_swedish"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="130"/>
@@ -527,7 +519,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="sami_hunter" default_group="Ranged" level="16" name="{=Sámi Hunter}Sámi Hunter" occupation="Soldier" culture="Culture.sami">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_swedish"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
@@ -549,7 +541,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="sami_ranger" default_group="Ranged" level="21" name="{=Sámi Ranger}Sámi Ranger" occupation="Soldier" culture="Culture.sami">
 		<face>
-			<face_key_template value="BodyProperty.fighter_sturgia"/>
+			<face_key_template value="BodyProperty.fighter_swedish"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
@@ -569,7 +561,7 @@
 	<!-- region Order of Assassins / Nizari State Mercenaries  -->
 	<NPCCharacter id="nizari_fidayin" default_group="Infantry" level="11" name="{=Fidayin}Hashishin Fidayin" occupation="Soldier" culture="Culture.nizari" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_aserai"/>
+			<face_key_template value="BodyProperty.fighter_berber"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
@@ -591,7 +583,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="nizari_assassin" default_group="Infantry" level="16" name="{=Hashishin}Hashishin Jihadi" occupation="Soldier" culture="Culture.nizari">
 		<face>
-			<face_key_template value="BodyProperty.fighter_aserai"/>
+			<face_key_template value="BodyProperty.fighter_berber"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="140"/>
@@ -613,7 +605,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="nizari_mujahid" default_group="Infantry" level="21" name="{=Mujahid}Hashishin Mujahid" occupation="Soldier" culture="Culture.nizari" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_aserai"/>
+			<face_key_template value="BodyProperty.fighter_berber"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="180"/>
@@ -633,7 +625,7 @@
 	<!-- region ORDER OF SAINT LAZARUS -->
 	<NPCCharacter id="lazarus_initiate" default_group="Cavalry" name="{=Leper Brother}Order of Saint Lazarus Leper Brother" level="11" occupation="Soldier" culture="Culture.lazarus" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
+			<face_key_template value="BodyProperty.fighter_crusader"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="115"/>
@@ -655,7 +647,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="lazarus_squire" default_group="Cavalry" level="16" name="{=Squire of Lazarus}Order of Saint Lazarus Squire" occupation="Soldier" culture="Culture.lazarus">
 		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
+			<face_key_template value="BodyProperty.fighter_crusader"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="69"/>
@@ -677,7 +669,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="lazarus_knight" default_group="Cavalry" level="21" name="{=Knight of Lazarus}Order of Saint Lazarus Knight" occupation="Soldier" culture="Culture.lazarus">
 		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
+			<face_key_template value="BodyProperty.fighter_crusader"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="58"/>
@@ -699,7 +691,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="lazarus_grandknight" default_group="Cavalry" level="26" name="{=Grand Knight of Lazarus}Order of Saint Lazarus Grand Knight" occupation="Soldier" culture="Culture.lazarus" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
+			<face_key_template value="BodyProperty.fighter_crusader"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="46"/>
@@ -719,7 +711,7 @@
 	<!-- region CATHARS  -->
 	<NPCCharacter id="cathar_credente" default_group="Infantry" level="11" name="{=Credente}Cathari Credente" occupation="Soldier" culture="Culture.cathars" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
+			<face_key_template value="BodyProperty.fighter_french"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="80"/>
@@ -741,7 +733,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="cathar_prefectus" default_group="Infantry" level="16" name="{=Perfectus}Cathari Perfectus" occupation="Soldier" culture="Culture.cathars">
 		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
+			<face_key_template value="BodyProperty.fighter_french"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="100"/>
@@ -763,7 +755,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="cathar_knight" default_group="Cavalry" level="21" name="{=Albigensian Knight}Cathari Albigensian Knight" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.cathars">
 		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
+			<face_key_template value="BodyProperty.fighter_french"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="60"/>
@@ -785,7 +777,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="cathar_grail_protector" default_group="Cavalry" level="26" name="{=Protector of the Grail}Cathari Protector of the Grail" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.cathars" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
+			<face_key_template value="BodyProperty.fighter_french"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="50"/>
@@ -805,7 +797,7 @@
 	<!-- region KNIGHTS HOSPITALLER -->
 	<NPCCharacter id="hospitaller_initiate" default_group="Infantry" level="11" name="{=Hospitaller Initiate}Hospitaller Initiate" occupation="Soldier" culture="Culture.hospitaller" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
+			<face_key_template value="BodyProperty.fighter_england"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="92"/>
@@ -828,7 +820,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="hospitaller_brother_at_arms" default_group="Infantry" name="{=Brother-at-Arms}Hospitaller Brother-at-Arms" level="16" occupation="Soldier" culture="Culture.hospitaller">
 		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
+			<face_key_template value="BodyProperty.fighter_england"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="46"/>
@@ -851,7 +843,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="hospitaller_crossbowman" default_group="Ranged" name="{=Hospitaller Crossbowman}Hospitaller Crossbowman" level="16" occupation="Soldier" culture="Culture.hospitaller">
 		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
+			<face_key_template value="BodyProperty.fighter_england"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="92"/>
@@ -873,7 +865,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="hospitaller_arbalester" default_group="Ranged" name="{=Hospitaller Arbalester}Hospitaller Arbalester" level="21" occupation="Soldier" culture="Culture.hospitaller">
 		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
+			<face_key_template value="BodyProperty.fighter_england"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="92"/>
@@ -893,7 +885,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="hospitaller_brother_sergeant" default_group="Infantry" name="{=Brother-Sergeant}Hospitaller Serjeant" level="21" occupation="Soldier" culture="Culture.hospitaller">
 		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
+			<face_key_template value="BodyProperty.fighter_england"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="12"/>
@@ -913,7 +905,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="hospitaller_brother_squire" default_group="Cavalry" name="{=Brother-Squire}Hospitaller Squire" level="21" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.hospitaller">
 		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
+			<face_key_template value="BodyProperty.fighter_england"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="69"/>
@@ -935,7 +927,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="hospitaller_brother_knight" default_group="Cavalry" level="26" name="{=Brother-Knight}Hospitaller Knight" occupation="Soldier" culture="Culture.hospitaller">
 		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
+			<face_key_template value="BodyProperty.fighter_england"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="58"/>
@@ -957,7 +949,7 @@
 	</NPCCharacter>
 	<NPCCharacter id="hospitaller_brother_knight_captain" default_group="Cavalry" level="31" name="{=Brother-Knight-Captain}Hospitaller Grand Knight" occupation="Soldier" culture="Culture.hospitaller" is_basic_troop="true">
 		<face>
-			<face_key_template value="BodyProperty.fighter_vlandia"/>
+			<face_key_template value="BodyProperty.fighter_england"/>
 		</face>
 		<skills>
 			<skill id="Athletics" value="46"/>

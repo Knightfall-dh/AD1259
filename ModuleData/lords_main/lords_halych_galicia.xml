@@ -80,8 +80,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_heavy"/>
+			<EquipmentSet id="halych_civ_template_stoic" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_galicia_1b" name="{=galicia_lady_3}Predslava Rurikovna" age="42" voice="curt" is_female="true" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -103,8 +103,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
-			<EquipmentSet id="cas_noble_lady" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_lady"/>
+			<EquipmentSet id="halych_civ_template_lady_normal" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_galicia_1c" name="{=galicia_lady_4}Fedora Romanovna" age="18" voice="softspoken" is_female="true" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -131,8 +131,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_lady"/>
+			<EquipmentSet id="halych_civ_template_lady_normal" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_galicia_1d" name="{=galicia_lady_5}Olena Romanovna" age="16" voice="earnest" is_female="true" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -155,11 +155,11 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_lady"/>
+			<EquipmentSet id="halych_civ_template_lady_normal" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_galicia_1e" name="{=galicia_lord_3}Daniel Romanovich" age="20" voice="earnest" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+	<NPCCharacter id="lord_galicia_1e" name="{=galicia_lord_3}Danylo Romanovych" age="20" voice="earnest" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" weight="0.5" build="0.7" key="0000B002C000300DEB67D938447261A7658B5985A9A6594E143D5345AAE756A7000522540598D94800001105000030A30000001F000000000000000000787000"/>
 			<hair_tags>
@@ -183,11 +183,11 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_heavy"/>
+			<EquipmentSet id="halych_civ_template_northfrontier" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_galicia_1f" name="{=galicia_lord_4}Vasylko Romanovich" age="22" voice="ironic" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+	<NPCCharacter id="lord_galicia_1f" name="{=galicia_lord_4}Vasylko Romanovych" age="22" voice="ironic" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" weight="0.6154" build="0.6899" key="00057C04400020029673264B47856554EA72881968858A46D9A28774766555770374963507334537000000000000000000000000000000000000000020FC2003"/>
 			<hair_tags>
@@ -212,8 +212,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_heavy"/>
+			<EquipmentSet id="halych_civ_template_northfrontier" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 2: Olgovichi -->
@@ -242,11 +242,11 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_lord_striped_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_heavy"/>
+			<EquipmentSet id="halych_civ_template_northfrontier" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="dead_lord_galicia_2_2" name="{=galicia_lady_1b}Catherine of Chernigov" age="50" voice="softspoken" is_female="true" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+	<NPCCharacter id="dead_lord_galicia_2_2" name="{=galicia_lady_1b}Kateryna of Chernihiv" age="50" voice="softspoken" is_female="true" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" weight="0.5" build="0.5" key="0000AC001170000E68844A7B5955A69256989B97A185847C36C937ABA3698C8C01977613097BD71A000000000000000000000000000000000000000061341003"/>
 			<hair_tags>
@@ -263,8 +263,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_lady"/>
+			<EquipmentSet id="halych_civ_template_lady_normal" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_galicia_2_b" name="{=galicia_lord_1c}Yaroslav Osmomysl" age="56" voice="curt" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -292,11 +292,11 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_lord_striped_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_heavy"/>
+			<EquipmentSet id="halych_civ_template_northfrontier" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="dead_lord_galicia_2_2_b" name="{=galicia_lady_1c}Olga Yurievna" age="52" voice="softspoken" is_female="true" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+	<NPCCharacter id="dead_lord_galicia_2_2_b" name="{=galicia_lady_1c}Olha Yuriivna" age="52" voice="softspoken" is_female="true" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" weight="0.5" build="0.5" key="0000AC001170000E68844A7B5955A69256989B97A185847C36C937ABA3698C8C01977613097BD71A000000000000000000000000000000000000000061341003"/>
 			<hair_tags>
@@ -313,12 +313,12 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_lady"/>
+			<EquipmentSet id="halych_civ_template_lady_normal" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	
-	<NPCCharacter id="lord_galicia_2a" name="{=galicia_lord_5} Igor Svyatoslavich" age="51" voice="earnest" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+	<NPCCharacter id="lord_galicia_2a" name="{=galicia_lord_5}Ihor Svyatoslavych" age="51" voice="earnest" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" age="20" weight="0.5" build="0.5" key="0011700FC0FC030896938148227587B669B586898A943687321998859647875401F0065A0F9DB435000000000000000000000000000000000000000000B48042"/>
 			<hair_tags>
@@ -342,11 +342,11 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="cas_lord_castaneda_combat"/>
-			<EquipmentSet id="cas_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_heavy"/>
+			<EquipmentSet id="halych_civ_template_northfrontier" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_galicia_2b" name="{=galicia_lady_6} Euphrosyne Yaroslavna" age="46" voice="earnest" is_female="true" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+	<NPCCharacter id="lord_galicia_2b" name="{=galicia_lady_6}Euphrosynia Yaroslavna" age="46" voice="earnest" is_female="true" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" weight="0.5" build="0.5" key="0005F80A00000005A8979A79968B45886BC878557396513466647967965548A7000EB0070E889B670000000000000FFE00000000000000000000000001180000"/>
 			<hair_tags>
@@ -365,11 +365,11 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="cas_lord_castaneda_combat"/>
-			<EquipmentSet id="cas_noble_lady" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_lady"/>
+			<EquipmentSet id="halych_civ_template_lady_normal" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_galicia_2c" name="{=galicia_lord_6} Sviatoslav III Igorevich" age="24" voice="curt" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+	<NPCCharacter id="lord_galicia_2c" name="{=galicia_lord_6}Sviatoslav III Ihorevych" age="24" voice="curt" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" age="28.53" weight="0.1404" build="0.2392" key="0008F00551E410C07B896767A8973A8A7375B614385AB86974B1535B68595843027426240769356A00000000000000000000000000000000000000003CF430C0"/>
 			<hair_tags>
@@ -393,11 +393,11 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="cas_lord_castaneda_combat"/>
-			<EquipmentSet id="cas_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_heavy"/>
+			<EquipmentSet id="halych_civ_template_northfrontier" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_galicia_2d" name="{=galicia_lord_7} Roman II Igorevich" age="22" voice="earnest" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+	<NPCCharacter id="lord_galicia_2d" name="{=galicia_lord_7}Roman II Igorevych" age="22" voice="earnest" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" weight="0.5" build="0.5" key="0000AC001170000E68844A7B5955A69256989B97A185847C36C937ABA3698C8C01977613097BD71A000000000000000000000000000000000000000061341003"/>
 			<hair_tags>
@@ -417,11 +417,11 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="cas_lord_combat"/>
-			<EquipmentSet id="cas_noble_lady" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_heavy"/>
+			<EquipmentSet id="halych_civ_template_northfrontier" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_galicia_2e" name="{=galicia_lord_8} Oleg Igorevich" age="18" voice="ironic" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+	<NPCCharacter id="lord_galicia_2e" name="{=galicia_lord_8}Oleh Ihorevych" age="18" voice="ironic" is_female="false" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" weight="0.6" build="0.5" key="0016F00580FC334D7B57826CA4C27CA67949E6ACA88B3ACD7A45DA9768858686000329A20373767B00001105000030A30000001F000000000000000000A06000"/>
 			<hair_tags>
@@ -445,11 +445,11 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="cas_lord_castaneda_combat"/>
-			<EquipmentSet id="cas_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_heavy"/>
+			<EquipmentSet id="halych_civ_template_northfrontier" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="lord_galicia_2f" name="{=galicia_lady_7} Catherine Olgovich" age="16" voice="curt" is_female="true" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
+	<NPCCharacter id="lord_galicia_2f" name="{=galicia_lady_7}Kateryna Olgovych" age="16" voice="curt" is_female="true" is_hero="true" culture="Culture.halych" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" weight="0.5" build="0.5" key="000BCC0CC0004008776C57C967305779596A85AB79877778859898977677345B0000000507A9688700001105000030A30000001F000000000000000000000003"/>
 			<hair_tags>
@@ -470,8 +470,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="cas_lord_castaneda_combat"/>
-			<EquipmentSet id="cas_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="halych_bat_template_lady"/>
+			<EquipmentSet id="halych_civ_template_lady_normal" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

@@ -1,55 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SPCultures>
-	
-	<!---vanilla minor clan culture, rest is removed -->
-	<Culture id="darshi"
-	         name="{=IHhWB1aa}Darshi"
-	         is_main_culture="false"
-	         elite_basic_troop="NPCCharacter.ghilman_tier_3"
-	         basic_troop="NPCCharacter.ghilman_tier_1"
-	         can_have_settlement="true"
-	         villager_party_template="PartyTemplate.villager_aserai_template"
-	         encounter_background_mesh="encounter_aserai"
-	         militia_party_template="PartyTemplate.militia_aserai_template"
-	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
-	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
-	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
-		<caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.caravan_template_aserai"/>
-		</caravan_party_templates>
-		<elite_caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.elite_caravan_template_aserai"/>
-		</elite_caravan_party_templates>
-		<available_ship_hulls></available_ship_hulls>
-		<banner_bearer_replacement_weapons>
-			<item id="Item.aserai_sword_1_t2"/>
-			<item id="Item.aserai_sword_3_t3"/>
-			<item id="Item.aserai_sword_4_t4"/>
-			<item id="Item.aserai_sword_5_t4"/>
-		</banner_bearer_replacement_weapons>
-		<male_names>
-			<name name="{=JJtww9pt}Aryush"/>
-			<name name="{=Zm0Ee6sp}Azadun"/>
-			<name name="{=nisA6W98}Baheshtur"/>
-			<name name="{=pEvpjIa9}Bunduk"/>
-			<name name="{=Z261F0mj}Hamezan"/>
-			<name name="{=KmzQabkH}Hivan"/>
-			<name name="{=QR3aNalC}Imirza"/>
-			<name name="{=mDZqpa9Z}Sanjar"/>
-		</male_names>
-		<female_names>
-			<name name="{=lGRde77R}Anahita"/>
-			<name name="{=sa0YrXiv}Azareh"/>
-			<name name="{=epxmhQav}Daria"/>
-			<name name="{=zSL3MgNQ}Ilzar"/>
-			<name name="{=R7avnODK}Nasmeen"/>
-			<name name="{=ZPHdPglH}Raksana"/>
-			<name name="{=SHXt3kC5}Roshaneh"/>
-			<name name="{=wERVdmjj}Sulnaz"/>
-			<name name="{=Btb7NzFM}Shima"/>
-			<name name="{=GqEEIYay}Tilzad"/>
-		</female_names>
-	</Culture>
 	<!---custom minor clans -->
 	<Culture id="cuman"
 	         name="{=cumanCulture}Cuman"
@@ -58,16 +8,16 @@
 	         basic_troop="NPCCharacter.cuman_rider"
 	         can_have_settlement="false"
 	         villager_party_template="PartyTemplate.villager_khuzait_template"
-	         encounter_background_mesh="encounter_khuzait"
-	         militia_party_template="PartyTemplate.militia_khuzait_template"
-	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
-	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         encounter_background_mesh="encounter_turkish"
+	         militia_party_template="PartyTemplate.militia_turkish_template"
+	         default_battle_equipment_roster="EquipmentRoster.turkish_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.turkish_civ_template_default"
 	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
 		<caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.caravan_template_khuzait"/>
+			<caravan_party_template id="PartyTemplate.caravan_template_turkish"/>
 		</caravan_party_templates>
 		<elite_caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.elite_caravan_template_khuzait"/>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_turkish"/>
 		</elite_caravan_party_templates>
 		<available_ship_hulls></available_ship_hulls>
 		<banner_bearer_replacement_weapons>
@@ -155,17 +105,17 @@
 	         elite_basic_troop="NPCCharacter.merc_genoese_cbow"
 	         basic_troop="NPCCharacter.merc_genoese_cbow_serjeant"
 	         can_have_settlement="false"
-	         villager_party_template="PartyTemplate.villager_empire_template"
-	         encounter_background_mesh="encounter_empire"
-	         militia_party_template="PartyTemplate.militia_empire_template"
-	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
-	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         villager_party_template="PartyTemplate.villager_italian_template"
+	         encounter_background_mesh="encounter_italian"
+	         militia_party_template="PartyTemplate.militia_italian_template"
+	         default_battle_equipment_roster="EquipmentRoster.italian_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.italian_civ_template_default"
 	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
 		<caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.caravan_template_vlandia"/>
+			<caravan_party_template id="PartyTemplate.caravan_template_italian"/>
 		</caravan_party_templates>
 		<elite_caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.elite_caravan_template_vlandia"/>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_italian"/>
 		</elite_caravan_party_templates>
 		<available_ship_hulls></available_ship_hulls>
 		<banner_bearer_replacement_weapons>
@@ -534,17 +484,17 @@
 	         elite_basic_troop="NPCCharacter.santiago_grandknight"
 	         basic_troop="NPCCharacter.santiago_initiate"
 	         can_have_settlement="false"
-	         villager_party_template="PartyTemplate.villager_empire_template"
-	         encounter_background_mesh="encounter_empire"
-	         militia_party_template="PartyTemplate.militia_empire_template"
-	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
-	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         villager_party_template="PartyTemplate.villager_castile_template"
+	         encounter_background_mesh="encounter_castile"
+	         militia_party_template="PartyTemplate.militia_castile_template"
+	         default_battle_equipment_roster="EquipmentRoster.castile_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.castile_civ_template_default"
 	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
 		<caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.caravan_template_empire"/>
+			<caravan_party_template id="PartyTemplate.caravan_template_castile"/>
 		</caravan_party_templates>
 		<elite_caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.elite_caravan_template_empire"/>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_castile"/>
 		</elite_caravan_party_templates>
 		<available_ship_hulls></available_ship_hulls>
 		<banner_bearer_replacement_weapons>
@@ -769,17 +719,17 @@
 	         elite_basic_troop="NPCCharacter.templar_brother_squire"
 	         basic_troop="NPCCharacter.templar_initiate"
 	         can_have_settlement="true"
-	         villager_party_template="PartyTemplate.villager_empire_template"
-	         encounter_background_mesh="encounter_empire"
-	         militia_party_template="PartyTemplate.militia_empire_template"
-	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
-	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         villager_party_template="PartyTemplate.villager_crusader_template"
+	         encounter_background_mesh="encounter_crusader"
+	         militia_party_template="PartyTemplate.militia_crusader_template"
+	         default_battle_equipment_roster="EquipmentRoster.crusader_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.crusader_civ_template_default"
 	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
 		<caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.caravan_template_vlandia"/>
+			<caravan_party_template id="PartyTemplate.caravan_template_crusader"/>
 		</caravan_party_templates>
 		<elite_caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.elite_caravan_template_vlandia"/>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_crusader"/>
 		</elite_caravan_party_templates>
 		<available_ship_hulls></available_ship_hulls>
 		<banner_bearer_replacement_weapons>
@@ -916,17 +866,17 @@
 	         elite_basic_troop="NPCCharacter.sami_chieftain"
 	         basic_troop="NPCCharacter.sami_tribesman"
 	         can_have_settlement="true"
-	         villager_party_template="PartyTemplate.kingdom_hero_party_sami_template"
-	         encounter_background_mesh="encounter_sturgia"
-	         militia_party_template="PartyTemplate.militia_sturgia_template"
-	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
-	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         villager_party_template="PartyTemplate.villager_swedish_template"
+	         encounter_background_mesh="encounter_swedish"
+	         militia_party_template="PartyTemplate.militia_swedish_template"
+	         default_battle_equipment_roster="EquipmentRoster.swedish_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.swedish_civ_template_default"
 	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
 		<caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.caravan_template_sturgia"/>
+			<caravan_party_template id="PartyTemplate.caravan_template_swedish"/>
 		</caravan_party_templates>
 		<elite_caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.elite_caravan_template_sturgia"/>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_swedish"/>
 		</elite_caravan_party_templates>
 		<available_ship_hulls></available_ship_hulls>
 		<banner_bearer_replacement_weapons>
@@ -1069,16 +1019,16 @@
 	         basic_troop="NPCCharacter.nizari_fidayin"
 	         can_have_settlement="true"
 	         villager_party_template="PartyTemplate.villager_aserai_template"
-	         encounter_background_mesh="encounter_aserai"
-	         militia_party_template="PartyTemplate.militia_aserai_template"
-	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
-	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         encounter_background_mesh="encounter_berber"
+	         militia_party_template="PartyTemplate.militia_berber_template"
+	         default_battle_equipment_roster="EquipmentRoster.berber_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.berber_civ_template_default"
 	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
 		<caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.caravan_template_aserai"/>
+			<caravan_party_template id="PartyTemplate.caravan_template_berber"/>
 		</caravan_party_templates>
 		<elite_caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.elite_caravan_template_aserai"/>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_berber"/>
 		</elite_caravan_party_templates>
 		<available_ship_hulls></available_ship_hulls>
 		<banner_bearer_replacement_weapons>
@@ -1110,17 +1060,17 @@
 	         elite_basic_troop="NPCCharacter.lazarus_grandknight"
 	         basic_troop="NPCCharacter.lazarus_initiate"
 	         can_have_settlement="false"
-	         villager_party_template="PartyTemplate.villager_empire_template"
-	         encounter_background_mesh="encounter_empire"
-	         militia_party_template="PartyTemplate.militia_empire_template"
-	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
-	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         villager_party_template="PartyTemplate.villager_crusader_template"
+	         encounter_background_mesh="encounter_crusader"
+	         militia_party_template="PartyTemplate.militia_crusader_template"
+	         default_battle_equipment_roster="EquipmentRoster.crusader_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.crusader_civ_template_default"
 	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
 		<caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.caravan_template_vlandia"/>
+			<caravan_party_template id="PartyTemplate.caravan_template_crusader"/>
 		</caravan_party_templates>
 		<elite_caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.elite_caravan_template_vlandia"/>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_crusader"/>
 		</elite_caravan_party_templates>
 		<available_ship_hulls></available_ship_hulls>
 		<banner_bearer_replacement_weapons>
@@ -1150,16 +1100,16 @@
 	         basic_troop="NPCCharacter.cathar_credente"
 	         can_have_settlement="false"
 	         villager_party_template="PartyTemplate.villager_empire_template"
-	         encounter_background_mesh="encounter_empire"
-	         militia_party_template="PartyTemplate.militia_empire_template"
-	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
-	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         encounter_background_mesh="encounter_french"
+	         militia_party_template="PartyTemplate.militia_french_template"
+	         default_battle_equipment_roster="EquipmentRoster.french_bat_template_medium"
+	         default_civilian_equipment_roster="EquipmentRoster.french_civ_template_default"
 	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
 		<caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.caravan_template_vlandia"/>
+			<caravan_party_template id="PartyTemplate.caravan_template_french"/>
 		</caravan_party_templates>
 		<elite_caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.elite_caravan_template_vlandia"/>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_french"/>
 		</elite_caravan_party_templates>
 		<available_ship_hulls></available_ship_hulls>
 		<banner_bearer_replacement_weapons>
@@ -1189,16 +1139,16 @@
 	         basic_troop="NPCCharacter.hospitaller_initiate"
 	         can_have_settlement="false"
 	         villager_party_template="PartyTemplate.villager_empire_template"
-	         encounter_background_mesh="encounter_empire"
-	         militia_party_template="PartyTemplate.militia_empire_template"
-	         default_battle_equipment_roster="EquipmentRoster.default_battle_equipment_roster_neutral"
-	         default_civilian_equipment_roster="EquipmentRoster.default_civilian_equipment_roster_neutral"
+	         encounter_background_mesh="encounter_england"
+	         militia_party_template="PartyTemplate.militia_england_template"
+	         default_battle_equipment_roster="EquipmentRoster.england_bat_template_default"
+	         default_civilian_equipment_roster="EquipmentRoster.england_civ_template_default"
 	         default_stealth_equipment_roster="EquipmentRoster.default_stealth_equipment_roster">
 		<caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.caravan_template_vlandia"/>
+			<caravan_party_template id="PartyTemplate.caravan_template_england"/>
 		</caravan_party_templates>
 		<elite_caravan_party_templates>
-			<caravan_party_template id="PartyTemplate.elite_caravan_template_vlandia"/>
+			<caravan_party_template id="PartyTemplate.elite_caravan_template_england"/>
 		</elite_caravan_party_templates>
 		<available_ship_hulls></available_ship_hulls>
 		<banner_bearer_replacement_weapons>

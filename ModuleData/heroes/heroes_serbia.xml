@@ -6,7 +6,7 @@
     <Hero id="dead_lord_serbia_3" father="Hero.dead_lord_serbia_1" mother="Hero.dead_lord_serbia_2" spouse="Hero.dead_lord_serbia_4" alive="false" faction="Faction.clan_serbia_1"/>
     <Hero id="dead_lord_serbia_4" spouse="Hero.dead_lord_serbia_3" alive="false" faction="Faction.clan_serbia_1"/>
 
-	<Hero id="lord_serbia_1a" father="Hero.dead_lord_serbia_3" mother="Hero.dead_lord_serbia_4" spouse="Hero.lord_serbia_1b" faction="Faction.clan_serbia_1"/>
+	<Hero id="lord_serbia_1a" father="Hero.dead_lord_serbia_3" mother="Hero.dead_lord_serbia_4" spouse="Hero.lord_serbia_1b" faction="Faction.clan_serbia_1" text="{=KingofSerbiaDescription}Stefan Uroš I the Great — visionary 13th-century King of Serbia (1243–1276) who strengthened the realm through economic reforms, mining prosperity, and shrewd diplomacy, laying the essential foundations for the later Serbian medieval empire."/>
     <Hero id="lord_serbia_1b" spouse="Hero.lord_serbia_1a" faction="Faction.clan_serbia_1"/>
     <Hero id="lord_serbia_1c" father="Hero.lord_serbia_1a" mother="Hero.lord_serbia_1b" faction="Faction.clan_serbia_1"/>
     <Hero id="lord_serbia_1d" father="Hero.lord_serbia_1a" mother="Hero.lord_serbia_1b" faction="Faction.clan_serbia_1"/>
@@ -25,9 +25,9 @@
 
 	<Hero id="lord_serbia_1n" father="Hero.dead_lord_serbia_3" mother="Hero.dead_lord_serbia_4" spouse="Hero.lord_serbia_1o" faction="Faction.clan_serbia_1"/>
 	<Hero id="lord_serbia_1o" spouse="Hero.lord_serbia_1n" faction="Faction.clan_serbia_1"/>
-	<Hero id="lord_serbia_1p" father="Hero.lord_serbia_1n" mother="Hero.lord_serbia_1o" spouse="Hero.lord_serbia_1q" faction="Faction.clan_serbia_1"/>
-	<Hero id="lord_serbia_1q" spouse="Hero.lord_serbia_1p" faction="Faction.clan_serbia_1"/>
-	<Hero id="lord_serbia_1r" mother="Hero.lord_serbia_1p" father="Hero.lord_serbia_1q" faction="Faction.clan_serbia_1"/>
+	<Hero id="lord_serbia_1p" father="Hero.lord_serbia_1n" mother="Hero.lord_serbia_1o" faction="Faction.clan_serbia_1"/>
+	<Hero id="lord_serbia_1q" spouse="Hero.lord_serbia_1r" father="Hero.lord_serbia_1n" mother="Hero.lord_serbia_1o" faction="Faction.clan_serbia_1"/>
+	<Hero id="lord_serbia_1r" spouse="Hero.lord_serbia_1q" faction="Faction.clan_serbia_1"/>
 
 	<!-- clan_serbia_2: Dejanović -->
 	<Hero id="lord_serbia_2a" spouse="Hero.lord_serbia_2b" faction="Faction.clan_serbia_2"/>
