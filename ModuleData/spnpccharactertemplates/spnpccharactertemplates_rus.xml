@@ -414,6 +414,44 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--#endregion-->
+	<!-- NPC linked to coronation cut scene -->
+	<!-- C# patch path: AD1259\CSharpSourceCode\AD1259\AD1259\NativePatches\CoronationScenePatch.cs -->
+	<NPCCharacter id="cutscene_bodyguard_rus" default_group="Infantry" formation_position_preference="Front" level="11" name="{=Royal_Guard}Royal Guard" occupation="Townsfolk" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_rus"/>
+		</face>
+		<skills>
+			<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Throwing" value="50"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_noble_sword_3_t5"/>
+				<equipment slot="Item3" id="Item.wide_heater_shield"/>
+				<equipment slot="Head" id="Item.nasal_helmet_with_leather"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_c"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_spear_3_t4"/>
+				<equipment slot="Item1" id="Item.sturgia_noble_sword_3_t5"/>
+				<equipment slot="Item3" id="Item.wide_heater_shield"/>
+				<equipment slot="Head" id="Item.nasal_helmet_with_leather"/>
+				<equipment slot="Body" id="Item.AR_vlandia_armor_c"/>
+				<equipment slot="Gloves" id="Item.mail_mitten"/>
+				<equipment slot="Leg" id="Item.leather_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
 	<!-- #region Fighter Template -->
 	<NPCCharacter id="fighter_rus" default_group="Infantry" level="1" name="{=!}Rus Fighter" occupation="Villager" culture="Culture.rus" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
 		<face>

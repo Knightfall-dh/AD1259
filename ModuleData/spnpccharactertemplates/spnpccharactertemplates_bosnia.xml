@@ -349,6 +349,42 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--#endregion-->
+	<!-- NPC linked to coronation cut scene -->
+	<!-- C# patch path: AD1259\CSharpSourceCode\AD1259\AD1259\NativePatches\CoronationScenePatch.cs -->
+	<NPCCharacter id="cutscene_bodyguard_bosnia" default_group="Infantry" formation_position_preference="Front" level="11" name="{=Royal_Guard}Royal Guard" occupation="Townsfolk" culture="Culture.bosnia" skill_template="SkillSet.infantry_heavyinfantry_level11_template_skills">
+		<face>
+			<face_key_template value="BodyProperty.villager_bosnia"/>
+		</face>
+		<skills>
+			<!--<skill id="Athletics" value="50" /> #OLD_SKILL# -->
+			<skill id="OneHanded" value="50"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="50"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Bow" value="50"/>
+			<skill id="Throwing" value="50"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentRoster civilian="true">
+				<equipment slot="Item0" id="Item.tzkurion_axe_t3"/>
+				<equipment slot="Item1" id="Item.strapped_round_shield"/>
+				<equipment slot="Item2" id="Item.triangluar_spear_t3"/>
+				<equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_padded_mitten"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.tzkurion_axe_t3"/>
+				<equipment slot="Item1" id="Item.strapped_round_shield"/>
+				<equipment slot="Item2" id="Item.triangluar_spear_t3"/>
+				<equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+				<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<equipment slot="Gloves" id="Item.reinforced_padded_mitten"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	
 	<!-- #region Fighter Template -->
 	<NPCCharacter id="fighter_bosnia" default_group="Infantry" level="1" name="{=!}Vlandian Fighter" occupation="Villager" culture="Culture.bosnia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
 		<face>
