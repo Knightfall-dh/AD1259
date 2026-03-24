@@ -149,16 +149,17 @@
           </Children>
         </ListPanel>
 		
-		        <!-- 1. LORD NAME - FIXED ABOVE the dialogue & answer boxes -->
-				<!-- wide enough for even the longest titles -->
-        <Widget DoNotAcceptEvents="true" 
-                WidthSizePolicy="Fixed" 
-                SuggestedWidth="1050"          
-                HeightSizePolicy="CoverChildren" 
-                HorizontalAlignment="Center" 
-                VerticalAlignment="Bottom" 
-                MarginBottom="200"> 
-				<!-- ↑ increase this number = name moves HIGHER -->
+		      <!-- LORD NAME - DYNAMIC ABOVE the dialogue box (follows height) -->
+        <DimensionSyncWidget DoNotAcceptEvents="true" 
+                             WidthSizePolicy="Fixed" 
+                             SuggestedWidth="1100" 
+                             HeightSizePolicy="Fixed" 
+                             SuggestedHeight="90" 
+                             HorizontalAlignment="Center" 
+                             VerticalAlignment="Bottom" 
+                             WidgetToCopyHeightFrom="..\VerticalContainer\BottomPanelsContainer\DialogueContainer" 
+                             DimensionToSync="Vertical" 
+                             PaddingAmount="380">   <!-- ↑ Increase this = name moves HIGHER above the box -->
           <Children>
             <NavigationScopeTargeter ScopeID="SPConversationCharacterNameScope" ScopeParent="..\CharacterNameContainer" DoNotAutoGainNavigationOnInit="true" />
             <Widget Id="CharacterNameContainer" 
@@ -180,14 +181,11 @@
                               UpdateChildrenStates="true" 
                               IsEnabled="@IsCurrentCharacterValidInEncyclopedia">
                   <Children>
-				  <!-- limits max width so very long titles don't break layout -->
                     <TextWidget WidthSizePolicy="CoverChildren" 
                                 DoNotAcceptEvents="true" 
                                 HeightSizePolicy="Fixed" 
                                 SuggestedHeight="75" 
-								
-                                SuggestedWidth="1000"     
-								
+                                SuggestedWidth="1050" 
                                 Brush="Conversation.HeaderText" 
                                 Brush.TextHorizontalAlignment="Center" 
                                 Text="@CurrentCharacterNameLbl" 
@@ -200,9 +198,9 @@
               </Children>
             </Widget>
           </Children>
-        </Widget>
+        </DimensionSyncWidget>
 
-        <!-- 2. BIG SHIELD ONLY - stays fixed left of the dialogue box -->
+        <!-- BIG SHIELD - Fixed left side (unchanged, or adjust as needed) -->
         <DimensionSyncWidget DoNotAcceptEvents="true" 
                              WidthSizePolicy="Fixed" 
                              HeightSizePolicy="Fixed" 
@@ -214,15 +212,13 @@
                              DimensionToSync="Vertical" 
                              PaddingAmount="55">
           <Children>
-            <!-- LARGE DECORATIVE SHIELD -->
-			<!-- your previous left adjustment -->
             <Widget WidthSizePolicy="Fixed" 
                     HeightSizePolicy="Fixed" 
                     SuggestedWidth="195" 
                     SuggestedHeight="252" 
                     VerticalAlignment="Center" 
                     IsVisible="@IsBannerEnabled" 
-                    PositionXOffset="-55">   
+                    PositionXOffset="-55">
               <Children>
                 <Widget Id="ConversedBannerFrame" 
                         WidthSizePolicy="Fixed" 
@@ -254,105 +250,10 @@
             </Widget>
           </Children>
         </DimensionSyncWidget>
-
-        <!-- Speaker Info + LARGE SHIELD BANNER - FIXED POSITIONING 
-        <DimensionSyncWidget DoNotAcceptEvents="true" 
-                             WidthSizePolicy="Fixed" 
-                             HeightSizePolicy="Fixed" 
-                             SuggestedWidth="950" 
-                             VerticalAlignment="Bottom" 
-                             HorizontalAlignment="Left" 
-                             MarginLeft="95"
-                             WidgetToCopyHeightFrom="..\VerticalContainer\BottomPanelsContainer\DialogueContainer" 
-                             DimensionToSync="Vertical" 
-                             PaddingAmount="55">
-          <Children>
-            <ListPanel DoNotAcceptEvents="true" WidthSizePolicy="StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight">
-              <Children>
--->
-                <!-- LARGE DECORATIVE SHIELD 
-                <Widget WidthSizePolicy="Fixed" 
-                        HeightSizePolicy="Fixed" 
-                        SuggestedWidth="195" 
-                        SuggestedHeight="252" 
-                        VerticalAlignment="Center" 
-                        IsVisible="@IsBannerEnabled" 
-						PositionXOffset="-60"
-                        MarginRight="35">
-                  <Children>
-                    <Widget Id="ConversedBannerFrame" 
-                            WidthSizePolicy="Fixed" 
-                            HeightSizePolicy="Fixed" 
-                            SuggestedWidth="180" 
-                            SuggestedHeight="236" 
-                            HorizontalAlignment="Center" 
-                            PositionYOffset="8"
-                            Color="#000000FF" 
-                            Sprite="SPGeneral\MapOverlay\war_header_shield_left"/>
-                    <MaskedTextureWidget Id="ConversedHeroBanner"
-                                         DataSource="{ConversedHeroBanner}"
-                                         WidthSizePolicy="StretchToParent"
-                                         HeightSizePolicy="StretchToParent"
-                                         SuggestedWidth="186"
-                                         SuggestedHeight="240"
-                                         HorizontalAlignment="Center"
-                                         VerticalAlignment="Center"
-                                         PositionYOffset="6"
-                                         Brush="Shield"
-                                         Sprite="SPGeneral\MapOverlay\war_header_shield_left"
-                                         Brush.ValueFactor="-1"
-                                         AdditionalArgs="@AdditionalArgs"
-                                         ImageId="@Id"
-                                         TextureProviderName="@TextureProviderName"
-                                         ImageTypeCode="@ImageTypeCode"
-                                         OverlayTextureScale="0.38"/>
-                  </Children>
-                </Widget>
--->
-                <!-- Character Name 
-                <NavigationScopeTargeter ScopeID="SPConversationCharacterNameScope" ScopeParent="..\CharacterNameContainer" DoNotAutoGainNavigationOnInit="true" />
-                <Widget Id="CharacterNameContainer" 
-                        DoNotAcceptEvents="true" 
-                        WidthSizePolicy="StretchToParent" 
-                        HeightSizePolicy="CoverChildren" 
-                        VerticalAlignment="Center" 
-                        Sprite="name_shadow_9"
-						PositionYOffset="-85">
-                  <Children>
-                    <ButtonWidget Id="CharacterNameIdParent" 
-                                  DoNotPassEventsToChildren="true" 
-                                  WidthSizePolicy="CoverChildren" 
-                                  HeightSizePolicy="CoverChildren" 
-                                  Command.AlternateClick="ExecuteConversedHeroLink" 
-                                  Command.Click="ExecuteConversedHeroLink" 
-                                  Command.HoverBegin="ExecuteHeroTooltip" 
-                                  Command.HoverEnd="ExecuteCloseTooltip" 
-                                  UpdateChildrenStates="true" 
-                                  IsEnabled="@IsCurrentCharacterValidInEncyclopedia">
-                      <Children>
-                        <TextWidget WidthSizePolicy="CoverChildren" 
-                                    DoNotAcceptEvents="true" 
-                                    HeightSizePolicy="Fixed" 
-                                    SuggestedHeight="70" 
-                                    MarginLeft="25" 
-                                    MarginRight="10" 
-                                    Brush="Conversation.HeaderText" 
-                                    Brush.TextHorizontalAlignment="Left" 
-                                    Text="@CurrentCharacterNameLbl" 
-                                    HoveredCursorState="RightClickLink" 
-                                    ExtendCursorAreaTop="-20" 
-                                    ExtendCursorAreaBottom="-20" 
-                                    GamepadNavigationIndex="0"/>
-                      </Children>
-                    </ButtonWidget>
-                  </Children>
-                </Widget>
-
-              </Children>
-            </ListPanel>
-          </Children>
-        </DimensionSyncWidget>
--->
+		
+		
+		
+		
       </Children>
     </ConversationScreenButtonWidget>
   </Window>
