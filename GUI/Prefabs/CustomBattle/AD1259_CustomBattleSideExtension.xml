@@ -1,0 +1,81 @@
+<Prefab>
+  <PrefabExtension>
+    <!-- 1. Completely remove vanilla faction name and any old dropdowns/icons -->
+    <XPath>Widget[@Id="SidePanel"]/Children/RichTextWidget[@Text="@SelectedFactionName"]</XPath>
+    <Remove/>
+
+    <XPath>Widget[@Id="SidePanel"]/Children/ListPanel[contains(@MarginTop, '420') or contains(@MarginTop, '470')]</XPath>
+    <Remove/>
+
+    <!-- 2. PLAYER FACTION DROPDOWN -->
+	<!-- after the character tableau area -->
+    <XPath>Widget[@Id="SidePanel"]/Children/Widget[2]</XPath>   
+    <InsertAfter>
+      <Widget Id="AD1259_PlayerFactionArea"
+              WidthSizePolicy="StretchToParent"
+              HeightSizePolicy="CoverChildren"
+              HorizontalAlignment="Center"
+              MarginTop="410">
+
+        <Children>
+          <RichTextWidget WidthSizePolicy="CoverChildren"
+                          HeightSizePolicy="CoverChildren"
+                          HorizontalAlignment="Center"
+                          Brush="CustomBattle.Character.Title.Text"
+                          Text="Player Faction" />
+
+          <ListPanel HorizontalAlignment="Center" MarginTop="15" LayoutImp.LayoutMethod="HorizontalCentered">
+            <Children>
+              <TextWidget WidthSizePolicy="CoverChildren"
+                          HeightSizePolicy="CoverChildren"
+                          VerticalAlignment="Center"
+                          MarginRight="12"
+                          Brush="CustomBattle.Value.Text"
+                          Text="Choose faction:" />
+
+              <Standard.DropdownWithHorizontalControl 
+                          Parameter.SelectorDataSource="{PlayerFactionSelector}"
+                          SuggestedWidth="280"
+                          Brush="SPOptions.Dropdown.Center" />
+            </Children>
+          </ListPanel>
+        </Children>
+      </Widget>
+    </InsertAfter>
+
+    <!-- 3. ENEMY FACTION DROPDOWN -->
+    <XPath>Widget[@Id="AD1259_PlayerFactionArea"]</XPath>
+    <InsertAfter>
+      <Widget Id="AD1259_EnemyFactionArea"
+              WidthSizePolicy="StretchToParent"
+              HeightSizePolicy="CoverChildren"
+              HorizontalAlignment="Center"
+              MarginTop="90">
+
+        <Children>
+          <RichTextWidget WidthSizePolicy="CoverChildren"
+                          HeightSizePolicy="CoverChildren"
+                          HorizontalAlignment="Center"
+                          Brush="CustomBattle.Character.Title.Text"
+                          Text="Enemy Faction" />
+
+          <ListPanel HorizontalAlignment="Center" MarginTop="15" LayoutImp.LayoutMethod="HorizontalCentered">
+            <Children>
+              <TextWidget WidthSizePolicy="CoverChildren"
+                          HeightSizePolicy="CoverChildren"
+                          VerticalAlignment="Center"
+                          MarginRight="12"
+                          Brush="CustomBattle.Value.Text"
+                          Text="Choose faction:" />
+
+              <Standard.DropdownWithHorizontalControl 
+                          Parameter.SelectorDataSource="{EnemyFactionSelector}"
+                          SuggestedWidth="280"
+                          Brush="SPOptions.Dropdown.Center" />
+            </Children>
+          </ListPanel>
+        </Children>
+      </Widget>
+    </InsertAfter>
+  </PrefabExtension>
+</Prefab>
