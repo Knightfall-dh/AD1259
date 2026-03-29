@@ -1,35 +1,52 @@
-﻿using HarmonyLib;
-using TaleWorlds.DotNet;
+﻿using System;
+using HarmonyLib;
 using TaleWorlds.Engine;
-using TaleWorlds.Library;
 using TaleWorlds.MountAndBlade.View;
-
+using TaleWorlds.MountAndBlade.View.Screens;
 
 namespace AD1259.Patches
 {
-  internal class BannerTextureToMeshCrashPatch
-  {
-    [HarmonyPatch(typeof (AgentVisuals), "ApplyBannerTextureToMesh")]
-    private static bool Prefix(AgentVisuals __instance, Mesh armorMesh, Texture bannerTexture)
+    // Patch for MissionScreen
+    [HarmonyPatch(typeof(MissionScreen), "ApplyBannerTextureToMesh")]
+    public static class MissionScreen_ApplyBannerTexture_Debug
     {
-      bool flag;
-      if (armorMesh == null)
-      {
-        Debug.Print("ApplyBannerTextureToMesh: armorMesh is NULL", 0, (Debug.DebugColor) 12, 17592186044416UL);
-        flag = false;
-      }
-      else
-      {
-        string str = armorMesh.Name ?? "NULL";
-        if (armorMesh.GetMaterial() == null)
+        public static bool Prefix(Mesh armorMesh, Texture bannerTexture)
         {
-          Debug.Print("ApplyBannerTextureToMesh: GetMaterial() returned NULL  Mesh Name: " + str, 0, (Debug.DebugColor) 12, 17592186044416UL);
-          flag = false;
+            if (armorMesh == null)
+            {
+                return false;
+            }
+
+            Material baseMaterial = armorMesh.GetMaterial();
+
+            if (baseMaterial == null)
+            {
+                return false;
+            }
+
+            return true;
         }
-        else
-          flag = true;
-      }
-      return flag;
     }
-  }
+
+    // Patch for AgentVisuals
+    [HarmonyPatch(typeof(AgentVisuals), "ApplyBannerTextureToMesh")]
+    public static class AgentVisuals_ApplyBannerTexture_Debug
+    {
+        public static bool Prefix(AgentVisuals __instance, Mesh armorMesh, Texture bannerTexture)
+        {
+            if (armorMesh == null)
+            {
+                return false;
+            }
+
+            Material baseMaterial = armorMesh.GetMaterial();
+
+            if (baseMaterial == null)
+            {
+                return false;
+            }
+
+            return true;
+        }
+    }
 }
