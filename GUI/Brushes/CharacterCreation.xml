@@ -24,21 +24,20 @@
 
   <Brush Name="CharacterCreation.Culture.Button" TransitionDuration="0.22">
   <Layers>
-    <!-- Change to a light parchment / paper color with slight texture feel -->
-    <BrushLayer Name="Default" Sprite="rounded_canvas_9" Color="#F8EFD8FF" />   <!-- warm light paper -->
+    <BrushLayer Name="Default" Sprite="rounded_canvas_9" Color="#D9C9AFFF" />   <!-- darker warm parchment -->
   </Layers>
   <Styles>
     <Style Name="Default">
-      <BrushLayer Name="Default" AlphaFactor="0.95" />   <!-- almost fully opaque -->
+      <BrushLayer Name="Default" AlphaFactor="0.92" />
     </Style>
     <Style Name="Hovered">
-      <BrushLayer Name="Default" AlphaFactor="1.0" ColorFactor="1.08" />   <!-- slight brightening on hover -->
+      <BrushLayer Name="Default" AlphaFactor="1.0" ColorFactor="1.08" />   <!-- slight brighten on hover -->
     </Style>
     <Style Name="Pressed">
       <BrushLayer Name="Default" AlphaFactor="0.85" />
     </Style>
     <Style Name="Selected">
-      <BrushLayer Name="Default" AlphaFactor="1.0" ColorFactor="1.05" />
+      <BrushLayer Name="Default" AlphaFactor="1.0" ColorFactor="1.12" />   <!-- brighter when selected -->
     </Style>
   </Styles>
 </Brush>
@@ -121,19 +120,19 @@
     <BrushLayer Name="Default" Color="#FFFFFFFF" />
   </Layers>
   <Styles>
-    <Style Name="Default" FontColor="#3C2F2EFF" TextGlowColor="#00000044" TextAlphaFactor="1.0" TextGlowRadius="0.08" FontSize="28">
+    <Style Name="Default" FontColor="#3C2F2EFF" TextGlowColor="#1C140FFF" TextAlphaFactor="1.0" TextGlowRadius="0.08" FontSize="28">
       <BrushLayer Name="Default" FontColor="#3C2F2EFF" />
     </Style>
-    <Style Name="Hovered" FontColor="#5C3F2EFF" TextGlowColor="#00000066" TextAlphaFactor="1.0">
+    <Style Name="Hovered" FontColor="#5C3F2EFF" TextGlowColor="#2C1F12FF" TextAlphaFactor="1.0">
       <BrushLayer Name="Default" FontColor="#5C3F2EFF" />
     </Style>
-    <Style Name="Pressed" FontColor="#2C211FFF" TextGlowColor="#00000033">
+    <Style Name="Pressed" FontColor="#2C211FFF">
       <BrushLayer Name="Default" />
     </Style>
-    <Style Name="Selected" FontColor="#8B5A2EFF" TextGlowColor="#8B5A2E88" TextGlowRadius="0.12" FontSize="28">
+    <Style Name="Selected" FontColor="#8B5A2EFF" TextGlowColor="#8B5A2E99" TextGlowRadius="0.12" FontSize="28">
       <BrushLayer Name="Default" />
     </Style>
-    <Style Name="Disabled" FontColor="#3C2F2EFF" TextAlphaFactor="0.4">
+    <Style Name="Disabled" FontColor="#3C2F2EFF" TextAlphaFactor="0.45">
       <BrushLayer Name="Default" />
     </Style>
   </Styles>
