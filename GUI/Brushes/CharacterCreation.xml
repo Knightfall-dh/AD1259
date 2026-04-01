@@ -1,25 +1,16 @@
 <Brushes>
   <Brush Name="Stage.Text" FontColor="#FFFFFFFF">
-    <Animations>
-      <Animation Name="FontHoverAnimation" Duration="0.1">
-      </Animation>
-      <Animation Name="FontPressedAnimation" Duration="0.05">
-      </Animation>
-      <Animation Name="FontDefaultAnimation" Duration="0.1">
-      </Animation>
-    </Animations>
     <Layers>
       <BrushLayer Name="Default" Color="#FFFFFFFF" />
-      <BrushLayer Name="HoverLayer" Color="#FFFF00FF" />
     </Layers>
     <Styles>
-      <Style Name="Default" FontColor="#FFFFFFFF" TextGlowColor="#FFFFFF11" TextGlowRadius="0.1" AnimationToPlayOnBegin="FontDefaultAnimation" FontSize="36">
+      <Style Name="Default" FontColor="#FFFFFFFF" TextGlowColor="#FFFFFF11" TextGlowRadius="0.1" FontSize="36">
         <BrushLayer Name="Default" FontColor="#FFFFFFFF" />
       </Style>
-      <Style Name="Hovered" FontColor="#F3C697FF" TextGlowColor="#F3C69711" AnimationToPlayOnBegin="FontHoverAnimation">
-        <BrushLayer Name="HoverLayer" FontColor="#F3C697FF" />
+      <Style Name="Hovered" FontColor="#F3C697FF" TextGlowColor="#F3C69711">
+        <BrushLayer Name="Default" FontColor="#F3C697FF" />
       </Style>
-      <Style Name="Pressed" FontColor="#B57F5CFF" TextGlowColor="#B57F5C11" AnimationToPlayOnBegin="FontPressedAnimation">
+      <Style Name="Pressed" FontColor="#B57F5CFF" TextGlowColor="#B57F5C11">
         <BrushLayer Name="Default" />
       </Style>
       <Style Name="Disabled" TextGlowColor="#00000000" TextAlphaFactor="0.35">
@@ -31,25 +22,48 @@
     </Styles>
   </Brush>
 
-  <Brush Name="CharacterCreation.Culture.Banner.SoundBrush">
-    <Layers>
-      <BrushLayer Name="Default" />
-    </Layers>
-    <Styles>
-      <Style Name="Default">
-        <BrushLayer Name="Default" />
-      </Style>
-    </Styles>
-    <SoundProperties>
-      <StateSounds>
-      </StateSounds>
-      <EventSounds>
-        <EventSound EventName="Click" Audio="choice" />
-      </EventSounds>
-    </SoundProperties>
-  </Brush>
+  <Brush Name="CharacterCreation.Culture.Button" TransitionDuration="0.22">
+  <Layers>
+    <!-- Change to a light parchment / paper color with slight texture feel -->
+    <BrushLayer Name="Default" Sprite="rounded_canvas_9" Color="#F8EFD8FF" />   <!-- warm light paper -->
+  </Layers>
+  <Styles>
+    <Style Name="Default">
+      <BrushLayer Name="Default" AlphaFactor="0.95" />   <!-- almost fully opaque -->
+    </Style>
+    <Style Name="Hovered">
+      <BrushLayer Name="Default" AlphaFactor="1.0" ColorFactor="1.08" />   <!-- slight brightening on hover -->
+    </Style>
+    <Style Name="Pressed">
+      <BrushLayer Name="Default" AlphaFactor="0.85" />
+    </Style>
+    <Style Name="Selected">
+      <BrushLayer Name="Default" AlphaFactor="1.0" ColorFactor="1.05" />
+    </Style>
+  </Styles>
+</Brush>
 
-  <Brush Name="CharacterCreation.Culture.Banner" TransitionDuration="0.1" >
+  <Brush Name="CharacterCreation.Culture.Button.Frame">
+  <Layers>
+    <BrushLayer Name="Default" Sprite="rounded_frame_9" Color="#5C4635FF" />   <!-- dark ink brown -->
+  </Layers>
+  <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" AlphaFactor="0.7" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" AlphaFactor="0.9" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" AlphaFactor="0.6" />
+      </Style>
+      <Style Name="Selected">
+      <BrushLayer Name="Default" Color="#A67C52FF" AlphaFactor="1" />   <!-- warmer selected border -->
+    </Style>
+  </Styles>
+</Brush>
+
+  <Brush Name="CharacterCreation.Culture.Banner" TransitionDuration="0.22" >
     <Layers>
       <BrushLayer Name="Default" />
     </Layers>
@@ -66,9 +80,6 @@
       <Style Name="Selected">
         <BrushLayer Name="Default" AlphaFactor="1"  />
       </Style>
-      <Style Name="Disabled">
-        <BrushLayer Name="Default" AlphaFactor="0.5" SaturationFactor="-50" ValueFactor="-50" />
-      </Style>
     </Styles>
   </Brush>
 
@@ -84,26 +95,17 @@
   </Brush>
   
   <Brush Name="Generic.Button.Text" FontColor="#FFFFFFFF" Font="FiraSansExtraCondensed-Regular">
-    <Animations>
-      <Animation Name="FontHoverAnimation" Duration="0.1">
-      </Animation>
-      <Animation Name="FontPressedAnimation" Duration="0.05">
-      </Animation>
-      <Animation Name="FontDefaultAnimation" Duration="0.1">
-      </Animation>
-    </Animations>
     <Layers>
       <BrushLayer Name="Default" Color="#FFFFFFFF" />
-      <BrushLayer Name="HoverLayer" Color="#FFFF00FF" />
     </Layers>
     <Styles>
-      <Style Name="Default" FontColor="#FFFFFF00" TextGlowColor="#FFFFFF00" TextAlphaFactor="0.9" TextGlowRadius="0.05" AnimationToPlayOnBegin="FontDefaultAnimation" FontSize="32">
+      <Style Name="Default" FontColor="#FFFFFF00" TextGlowColor="#FFFFFF00" TextAlphaFactor="0.9" TextGlowRadius="0.05" FontSize="32">
         <BrushLayer Name="Default" FontColor="#FFFFFFFF" />
       </Style>
-      <Style Name="Hovered" FontColor="#F3C697FF" TextGlowColor="#F3C69700" TextBlur="0.1" AnimationToPlayOnBegin="FontHoverAnimation">
-        <BrushLayer Name="HoverLayer" FontColor="#F3C697FF" />
+      <Style Name="Hovered" FontColor="#F3C697FF" TextGlowColor="#F3C69700" TextBlur="0.1">
+        <BrushLayer Name="Default" FontColor="#F3C697FF" />
       </Style>
-      <Style Name="Pressed" FontColor="#B57F5CFF" TextGlowColor="#B57F5C00" TextBlur="0.1" AnimationToPlayOnBegin="FontPressedAnimation">
+      <Style Name="Pressed" FontColor="#B57F5CFF" TextGlowColor="#B57F5C00" TextBlur="0.1">
         <BrushLayer Name="Default" />
       </Style>
       <Style Name="Disabled" FontColor="#FFFFFFFF" TextGlowColor="#00000000" TextAlphaFactor="0.35">
@@ -115,36 +117,27 @@
     </Styles>
   </Brush>
   <Brush Name="Culture.Text">
-    <Animations>
-      <Animation Name="FontHoverAnimation" Duration="0.1">
-      </Animation>
-      <Animation Name="FontPressedAnimation" Duration="0.05">
-      </Animation>
-      <Animation Name="FontDefaultAnimation" Duration="0.1">
-      </Animation>
-    </Animations>
-    <Layers>
-      <BrushLayer Name="Default" Color="#FFFFFFFF" />
-      <BrushLayer Name="HoverLayer" Color="#FFFF00FF" />
-    </Layers>
-    <Styles>
-      <Style Name="Default" FontColor="#E0C293FF" TextGlowColor="#FFFFFF11" TextAlphaFactor="0.65" TextGlowRadius="0.1" FontSize="26" AnimationToPlayOnBegin="FontDefaultAnimation">
-        <BrushLayer Name="Default" FontColor="#FFFFFFFF" />
-      </Style>
-      <Style Name="Hovered" TextGlowColor="#F3C69711" TextAlphaFactor="0.85" AnimationToPlayOnBegin="FontHoverAnimation">
-        <BrushLayer Name="HoverLayer" FontColor="#F3C697FF" />
-      </Style>
-      <Style Name="Pressed" TextGlowColor="#B57F5C11" AnimationToPlayOnBegin="FontPressedAnimation">
-        <BrushLayer Name="Default" />
-      </Style>
-      <Style Name="Disabled" FontColor="#FFFFFFFF" TextGlowColor="#00000000" TextAlphaFactor="0.35">
-        <BrushLayer Name="Default" />
-      </Style>
-      <Style Name="Selected" FontColor="#FEBE5BFF" TextGlowColor="#AA8A6955" TextGlowRadius="0.01">
-        <BrushLayer Name="Default" />
-      </Style>
-    </Styles>
-  </Brush>
+  <Layers>
+    <BrushLayer Name="Default" Color="#FFFFFFFF" />
+  </Layers>
+  <Styles>
+    <Style Name="Default" FontColor="#3C2F2EFF" TextGlowColor="#00000044" TextAlphaFactor="1.0" TextGlowRadius="0.08" FontSize="28">
+      <BrushLayer Name="Default" FontColor="#3C2F2EFF" />
+    </Style>
+    <Style Name="Hovered" FontColor="#5C3F2EFF" TextGlowColor="#00000066" TextAlphaFactor="1.0">
+      <BrushLayer Name="Default" FontColor="#5C3F2EFF" />
+    </Style>
+    <Style Name="Pressed" FontColor="#2C211FFF" TextGlowColor="#00000033">
+      <BrushLayer Name="Default" />
+    </Style>
+    <Style Name="Selected" FontColor="#8B5A2EFF" TextGlowColor="#8B5A2E88" TextGlowRadius="0.12" FontSize="28">
+      <BrushLayer Name="Default" />
+    </Style>
+    <Style Name="Disabled" FontColor="#3C2F2EFF" TextAlphaFactor="0.4">
+      <BrushLayer Name="Default" />
+    </Style>
+  </Styles>
+</Brush>
   <Brush Name="Culture.Banner.Icon">
     <Layers>
       <BrushLayer Name="Default" Sprite="General\CharacterCreation\culture_flag_small" />
@@ -507,7 +500,7 @@
     <Layers>
       <BrushLayer Name="Default"  />
     </Layers>
-     <Styles>
+    <Styles>
       <Style Name="andalus">
         <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\andalus_3" />
       </Style>
@@ -614,7 +607,7 @@
     <Layers>
       <BrushLayer Name="Default"  />
     </Layers>
-     <Styles>
+    <Styles>
        <Style Name="andalus">
         <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\andalus_2" />
       </Style>
@@ -721,7 +714,7 @@
     <Layers>
       <BrushLayer Name="Default"  />
     </Layers>
-     <Styles>
+    <Styles>
      <Style Name="andalus">
         <BrushLayer Name="Default" Sprite="CharacterCreation\Culture\andalus_1" />
       </Style>
@@ -834,17 +827,13 @@
       </Style>
     </Styles>
     <Animations>
-      <Animation Name="GainedSkillAnimation" Duration="2.2" Loop="true">
+      <Animation Name="GainedSkillAnimation" Duration="1.1" Loop="true">
         <AnimationProperty PropertyName="AlphaFactor" LayerName="Active">
           <KeyFrame Time="0.0" Value="1.0" />
           <KeyFrame Time="0.4" Value="1.0" />
           <KeyFrame Time="0.6" Value="0" />
           <KeyFrame Time="0.9" Value="0" />
           <KeyFrame Time="1.1" Value="1.0" />
-          <KeyFrame Time="1.5" Value="1.0" />
-          <KeyFrame Time="1.7" Value="0" />
-          <KeyFrame Time="2" Value="0" />
-          <KeyFrame Time="2.2" Value="1.0" />
         </AnimationProperty>
       </Animation>
     </Animations>
