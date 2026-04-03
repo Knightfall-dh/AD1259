@@ -27,29 +27,41 @@
 		        Sprite="BlankWhiteSquare_9"
 		        Color="#000000FF">
 			<Children>
-				<!--<Widget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" PositionXOffset="-290" Sprite="InventoryBackground" />-->
-				<Standard.Background Parameter.SmokeColorFactor="2"
-				                     Parameter.ParticleOpacity="1.6"/>
+			
+			
+			
+				<!-- CUSTOM MANUSCRIPT BACKGROUND - placed first -->
+				<ImageWidget WidthSizePolicy="StretchToParent"
+				             HeightSizePolicy="StretchToParent"
+				             Sprite="General\CharacterCreation\charactercreation_manuscript_bg"
+				             Color="#EDE4D6FF"
+				             AlphaFactor="1.0"
+				             HorizontalAlignment="Center"
+				             VerticalAlignment="Center" />
+
+				<!-- Bottom gradient - lowered -->
 				<Widget WidthSizePolicy="StretchToParent"
 				        HeightSizePolicy="Fixed"
 				        SuggestedHeight="382"
 				        VerticalAlignment="Bottom"
-				        Sprite="General\CharacterCreation\character_creation_background_gradient"/>
-				<!--Gradient Layer-->
+				        Sprite="General\CharacterCreation\character_creation_background_gradient"
+				        AlphaFactor="0.45" />
+
+				<!-- Culture gradient - lowered -->
 				<CharacterCreationBackgroundGradientBrushWidget DataSource="{CurrentSelectedCulture}"
 				                                                WidthSizePolicy="StretchToParent"
 				                                                HeightSizePolicy="StretchToParent"
 				                                                Sprite="CharacterCreation\Culture\background_gradient"
-				                                                Brush.GlobalAlphaFactor="0.7"
-				                                                Brush.ColorFactor="1.8"
+				                                                Brush.GlobalAlphaFactor="0.25"
+				                                                Brush.ColorFactor="1.0"
 				                                                CurrentCultureId="@CultureID"/>
-				<!--Left Side-->
+				<!--Left Side (Big Parallax Banner + Text)-->
 				<Widget WidthSizePolicy="StretchToParent"
 				        HeightSizePolicy="StretchToParent"
 				        MarginRight="!RightPanel.Width"
 				        DoNotUseCustomScaleAndChildren="true">
 					<Children>
-						<!--Big Banner-->
+						<!--Big Banner (your 4 parallax layers)-->
 						<CharacterCreationCultureVisualBrushWidget DataSource="{CurrentSelectedCulture}"
 						                                           WidthSizePolicy="Fixed"
 						                                           HeightSizePolicy="Fixed"
@@ -109,6 +121,8 @@
 								                         HorizontalAlignment="Center"/>
 							</Children>
 						</CharacterCreationCultureVisualBrushWidget>
+
+						<!-- Selection text when nothing is chosen -->
 						<RichTextWidget WidthSizePolicy="CoverChildren"
 						                HeightSizePolicy="CoverChildren"
 						                HorizontalAlignment="Center"
@@ -116,6 +130,8 @@
 						                Brush="Stage.Title.Text"
 						                Text="@SelectionText"
 						                IsHidden="@AnyItemSelected"/>
+
+						<!-- Culture name + description -->
 						<ListPanel DataSource="{CurrentSelectedCulture}"
 						           WidthSizePolicy="StretchToParent"
 						           HeightSizePolicy="CoverChildren"
@@ -154,6 +170,8 @@
 						</ListPanel>
 					</Children>
 				</Widget>
+				
+				
 				<!-- Right Panel -->
 				<Widget Id="RightPanel"
 				        WidthSizePolicy="Fixed"
