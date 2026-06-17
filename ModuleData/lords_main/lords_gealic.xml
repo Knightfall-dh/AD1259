@@ -18,8 +18,8 @@
         </Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_lord_combat"/>
+			<EquipmentSet id="gaelic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_gaelic_2" name="{=ireland_deadlord_2}Cathal Ua Conchobhair of Connachta" age="109" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_phalanx_skills" occupation="Lord" face_mesh_cache="true">
@@ -39,8 +39,8 @@
         </Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_lord_combat"/>
+			<EquipmentSet id="gaelic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_gaelic_3" name="{=ireland_deadlord_3}Mór Ní Briain" age="97" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.gaelic" skill_template="SkillSet.spc_courtier_skills" occupation="Lord" face_mesh_cache="true">
@@ -58,7 +58,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_gaelic_4" name="{=ireland_deadlord_4}Aedh Ua Conchobhair of Connachta" age="79" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_swordsman_skills" occupation="Lord" face_mesh_cache="true">
@@ -78,8 +78,8 @@
         </Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_lord_combat"/>
+			<EquipmentSet id="gaelic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_1_1" name="{=ireland_lord_1}Brian Ua Néill, High-King of the Gael of Erin" age="39" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -107,7 +107,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_1_2" name="{=ireland_lady_1}Nuala Ní Conchobhair" age="52" voice="softspoken" is_hero="true" is_female="true" culture="Culture.gaelic" skill_template="SkillSet.spc_diplomat_skills_rookie" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -130,7 +130,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_1_3" name="{=ireland_lord_2}Domhnall Ua Néill, Prince of Tír Eoghain" age="12" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_healer_scholar_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -150,7 +150,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_bat_template_medium"/>
-			<EquipmentSet id="gaelic_civ_template_default" civilian="true"/>
+			<EquipmentSet id="gaelic_civ_template_default" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_1_4" name="{=ireland_lady_2}Una Ní Conchobhair" age="50" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.gaelic" skill_template="SkillSet.spc_courtier_skills" occupation="Lord" face_mesh_cache="true">
@@ -171,7 +171,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_1_5" name="{=ireland_lord_3}Ruaidrí Ua Conchobhair" age="44" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_phalanx_skills" occupation="Lord" face_mesh_cache="true">
@@ -198,7 +198,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_1_6" name="{=ireland_lord_4}Eógan Ua Conchobhair" age="20" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_swordsman_skills" occupation="Lord" face_mesh_cache="true">
@@ -222,7 +222,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_1_7" name="{=ireland_lord_5}Feidlim Ua Conchobhair, King of Connachta" age="59" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_fian_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -249,7 +249,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_1_8" name="{=ireland_lord_6}Aedh I Ua Conchobhair, King of Connachta" age="36" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_swordsman_skills" occupation="Lord" face_mesh_cache="true">
@@ -276,7 +276,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_1_9" name="{=ireland_lord_7}Aedh II Ua Conchobhair" age="32" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -300,7 +300,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 2 -->
@@ -322,7 +322,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_gaelic_7" name="{=ireland_deadlord_7}Sadhbh Ní Cinnéidigh" age="94" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.gaelic" skill_template="SkillSet.spc_physician_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -340,7 +340,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_2_1" name="{=ireland_lord_10}Conchobhair Ua Briain, King of Tuadhmhumhain" age="54" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -367,7 +367,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_2_2" name="{=ireland_lady_3}Mór Mac Con Mara" age="59" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.gaelic" skill_template="SkillSet.spc_diplomat_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -389,7 +389,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_2_3" name="{=ireland_lord_11}Briain Ua Briain, Prince of Tuadhmhumhain" age="34" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_swordsman_skills" occupation="Lord" face_mesh_cache="true">
@@ -416,7 +416,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_2_4" name="{=ireland_lady_4}Fionnuala Ní Briain" age="7" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.gaelic" skill_template="SkillSet.spc_healer_scholar_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -437,7 +437,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_2_5" name="{=ireland_lord_12}Tadg Ua Briain" age="25" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_phalanx_skills" occupation="Lord" face_mesh_cache="true">
@@ -464,7 +464,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_2_6" name="{=ireland_lady_5}Fionnuala Ní Cinnéidigh" age="22" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.gaelic" skill_template="SkillSet.spc_courtier_skills" occupation="Lord" face_mesh_cache="true">
@@ -488,7 +488,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 3 -->
@@ -507,7 +507,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_3_1" name="{=ireland_lord_13}Domhnall Ua Ruairc, King of Bréifne Ua Ruairc" age="44" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -534,7 +534,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_3_2" name="{=ireland_lady_6}Eisibél Ní Domaill" age="41" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.gaelic" skill_template="SkillSet.spc_healer_scholar_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -556,7 +556,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_3_3" name="{=ireland_lord_14}Lochlann Ua Ruairc, Prince of Bréifne Ua Ruairc" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_swordsman_skills" occupation="Lord" face_mesh_cache="true">
@@ -583,7 +583,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_3_4" name="{=ireland_lord_15}Aedh Ua Ruairc" age="16" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_fian_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -610,7 +610,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_3_5" name="{=ireland_lady_7}Aífe Ní Ruairc" age="14" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.gaelic" skill_template="SkillSet.spc_phalanx_skills" occupation="Lord" face_mesh_cache="true">
@@ -631,7 +631,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_3_6" name="{=ireland_lady_8}Mór Ní Ruairc" age="11" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.gaelic" skill_template="SkillSet.spc_healer_scholar_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -652,7 +652,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 4 -->
@@ -682,7 +682,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_4_2" name="{=3BSUgBh3}Gráinde Ó Flaithbheartaigh" age="22" voice="earnest" is_female="true" default_group="Ranged" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_fian_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -706,7 +706,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_4_3" name="{=gyqSk2Mp}Áedh Ó Flaithbheartaigh" age="24" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_swordsman_skills" occupation="Lord" face_mesh_cache="true">
@@ -736,7 +736,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_4_4" name="{=TbQ9w13e}Morogh Ó Flaithbheartaigh" age="33" voice="curt" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -764,7 +764,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 5 -->
@@ -796,7 +796,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_5_2" name="{=8LXDxyr2}Lasairfhíona Ó Con Ceanainn" age="35" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_courtier_skills" occupation="Lord" face_mesh_cache="true">
@@ -819,7 +819,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_5_3" name="{=sh1o5nEe}Niamh Ó Con Ceanainn" age="14" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_healer_scholar_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -839,7 +839,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_5_4" name="{=cdViCKs7}Aodh Ó Con Ceanainn" age="24" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_swordsman_skills" occupation="Lord" face_mesh_cache="true">
@@ -865,7 +865,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 6 -->
@@ -896,7 +896,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_6_2" name="{=oPN4vTKh}Raghnailt Mac Mathúna" age="22" voice="ironic" is_female="true" default_group="Ranged" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_healer_scholar_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -918,7 +918,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_6_3" name="{=4MwHbMFs}Maghnus Mac Mathúna" age="38" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_swordsman_skills" occupation="Lord" face_mesh_cache="true">
@@ -945,7 +945,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="gaelic_bat_template_medium"/>
-			<EquipmentSet id="gaelic_civ_template_default" civilian="true"/>
+			<EquipmentSet id="gaelic_civ_template_default" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_6_4" name="{=CS4unEGi}Dearbháil Mac Mathúna" age="38" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_diplomat_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -968,7 +968,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_6_5" name="{=eRhu9Lbf}Áine Mac Mathúna" age="18" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_healer_scholar_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -989,7 +989,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 7 -->
@@ -1018,7 +1018,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_7_2" name="{=JTSWHkvd}Éireann Ó Cellaigh" age="22" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_diplomat_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -1046,7 +1046,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_7_3" name="{=94xDbGvf}Tomás Ó Cellaigh" age="19" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_swordsman_skills" occupation="Lord" face_mesh_cache="true">
@@ -1075,7 +1075,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_7_4" name="{=CfuGI5RK}Órfhlaith Ó Cellaigh" age="14" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_healer_scholar_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -1095,7 +1095,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_7_5" name="{=Hf70w27i}Domnall Mór Ó Cellaigh" age="24" voice="earnest" default_group="Ranged" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_swordsman_skills" occupation="Lord" face_mesh_cache="true">
@@ -1124,7 +1124,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_7_6" name="{=A3LSuoBu}Gráinne Ó Cellaigh" is_female="true" age="22" voice="curt" default_group="Ranged" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_healer_scholar_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -1147,7 +1147,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_noble_lady" civilian="true"/>
+			<EquipmentSet id="gaelic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 8 -->
@@ -1166,7 +1166,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_8_1" name="{=ireland_lord_8}Finghin Mac Cárthaigh, King of Deasmhumhain" age="59" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1193,7 +1193,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_king_combat"/>
-			<EquipmentSet id="gaelic_king_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_8_2" name="{=ireland_lord_9}Domhnall II Mac Cárthaigh" age="19" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_swordsman_skills" occupation="Lord" face_mesh_cache="true">
@@ -1221,7 +1221,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="gaelic_lord_combat"/>
-			<EquipmentSet id="gaelic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="gaelic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_gaelic_8_3" name="{=ktPP2R1i}Dineen Mac Cárthaigh" age="38" is_female="false" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.gaelic" skill_template="SkillSet.spc_phalanx_skills" occupation="Lord" face_mesh_cache="true">
@@ -1248,7 +1248,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="gaelic_bat_template_medium"/>
-			<EquipmentSet id="gaelic_civ_template_default" civilian="true"/>
+			<EquipmentSet id="gaelic_civ_template_default" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

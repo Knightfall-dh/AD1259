@@ -26,8 +26,8 @@
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_king_combat"/>
+			<EquipmentSet id="bosnia_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_1b" name="{=lord_bosnia_1b}Elizabeth of Slavonia" voice="softspoken" age="40" is_female="true" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -53,7 +53,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_noble_lady" civilian="true"/>
+			<EquipmentSet id="bosnia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_1c" name="{=lord_bosnia_1c}Stephen I Kotromanić" voice="earnest" age="17" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -82,7 +82,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_1d" name="{=lord_bosnia_1d}Prijezda II" voice="curt" age="16" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -111,7 +111,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_1e" name="{=lord_bosnia_1e}Vuk Kontromanić" voice="ironic" age="14" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -140,7 +140,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_1f" name="{=lord_bosnia_1f}Vojislava" voice="softspoken" age="14" is_female="true" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -166,7 +166,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_noble_lady" civilian="true"/>
+			<EquipmentSet id="bosnia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan_bosnia_2: Šubić -->
@@ -196,7 +196,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_2b" name="{=lord_bosnia_1b}Jelena" voice="softspoken" age="46" is_female="true" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -222,7 +222,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_noble_lady" civilian="true"/>
+			<EquipmentSet id="bosnia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_2c" name="{=lord_bosnia_1a}Pavao I." voice="curt" age="27" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -251,7 +251,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_2d" name="{=lord_bosnia_1a}Juraj I., Count of Šibenik" voice="curt" age="25" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -280,7 +280,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_2e" name="{=lord_bosnia_1b}Stanislava" voice="softspoken" age="20" is_female="true" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -306,7 +306,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_noble_lady" civilian="true"/>
+			<EquipmentSet id="bosnia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_2f" name="{=lord_bosnia_1a}Jakov I. Šubić, Count of Bribir and Nin" voice="curt" age="40" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -335,7 +335,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_2g" name="{=lord_bosnia_1b}Dabiša" voice="softspoken" age="38" is_female="true" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -361,7 +361,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_noble_lady" civilian="true"/>
+			<EquipmentSet id="bosnia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_2h" name="{=lord_bosnia_1a}Budislav I. Ugrinić" voice="curt" age="21" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -390,7 +390,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_2i" name="{=lord_bosnia_1a}Radoslav, Count of Bribir" voice="curt" age="22" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -419,7 +419,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan_bosnia_3: Frankopan -->
@@ -449,7 +449,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_3b" name="{=lord_bosnia_3b}Kujava" voice="softspoken" age="51" is_female="true" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -475,7 +475,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_noble_lady" civilian="true"/>
+			<EquipmentSet id="bosnia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Jerindo had 4 sons, 2 died by 1260 -->
@@ -505,7 +505,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_bosnia_3a" name="{=dead_lord_bosnia_3a}Bertalan II." voice="ironic" age="40" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -534,7 +534,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- 2 sons of Bertalan II., each had 3 sons-->
@@ -564,7 +564,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_3e" name="{=lord_bosnia_3e}Didodraga" voice="earnest" age="20" is_female="true" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -590,7 +590,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_noble_lady" civilian="true"/>
+			<EquipmentSet id="bosnia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_3f" name="{=lord_bosnia_3f}Peter I." voice="ironic" age="4" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -610,7 +610,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_3g" name="{=lord_bosnia_3g}Schinella II." voice="softspoken" age="2" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -630,7 +630,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_3h" name="{=lord_bosnia_3h}Bertalan III." voice="curt" age="1" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -650,7 +650,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_3i" name="{=lord_bosnia_3i}Guido I." voice="curt" age="21" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -679,7 +679,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_3j" name="{=lord_bosnia_3j}Anna Dragota" voice="softspoken" age="20" is_female="true" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -705,7 +705,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_noble_lady" civilian="true"/>
+			<EquipmentSet id="bosnia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_3k" name="{=lord_bosnia_3k}Bertalan IV." voice="curt" age="2" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -725,7 +725,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_3l" name="{=lord_bosnia_3l}Guido II." voice="softspoken" age="4" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -745,7 +745,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_3m" name="{=lord_bosnia_3m}Frederick II, Count of Krk" voice="earnest" age="5" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -765,7 +765,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan_bosnia_4: Sanneck-Celje -->
@@ -795,7 +795,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_4a2" name="{=lord_bosnia_4a2}Leopold II. of Sanneck" voice="curt" age="39" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -824,7 +824,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_4b" name="{=lord_bosnia_4b}Sophie of Pfannberg-Peggau" voice="earnest" age="38" is_female="true" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -850,7 +850,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_noble_lady" civilian="true"/>
+			<EquipmentSet id="bosnia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_4c" name="{=lord_bosnia_4c}Ulrich of Sanneck" voice="ironic" age="20" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -879,7 +879,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_4d" name="{=lord_bosnia_4h}Catherine of Heunburg" voice="earnest" age="18" is_female="true" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -905,7 +905,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_noble_lady" civilian="true"/>
+			<EquipmentSet id="bosnia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_4e" name="{=lord_bosnia_4d}Gebhard III  of Sanneck" voice="ironic" age="20" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -934,7 +934,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_4f" name="{=lord_bosnia_4e}Liutpold III of Sanneck" voice="softspoken" age="19" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -963,7 +963,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_4g" name="{=lord_bosnia_4f}Conrad II of Sanneck" voice="curt" age="18" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -992,7 +992,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_4h" name="{=lord_bosnia_4g}Sophia" voice="softspoken" age="19" is_female="true" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -1018,7 +1018,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_noble_lady" civilian="true"/>
+			<EquipmentSet id="bosnia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_4i" name="{=lord_bosnia_4h}Gertrud" voice="softspoken" age="18" is_female="true" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -1044,7 +1044,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_noble_lady" civilian="true"/>
+			<EquipmentSet id="bosnia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan_bosnia_5: Babonići -->
@@ -1068,7 +1068,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="hung_lord_combat"/>
-			<EquipmentSet id="hung_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="hung_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_5b" name="{=lord_bosnia_5b}Ursina de Gorichia" voice="earnest" age="40" is_female="true" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -1094,7 +1094,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_noble_lady" civilian="true"/>
+			<EquipmentSet id="bosnia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_5c" name="{=lord_bosnia_5c}Babonja 'Babo' I Ursini Blagajski" voice="earnest" age="10" is_female="true" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -1120,7 +1120,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_noble_lady" civilian="true"/>
+			<EquipmentSet id="bosnia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_5d" name="{=lord_bosnia_5d}Stjepan II Blagaj de Wodicha" voice="ironic" age="16" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -1149,7 +1149,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_5e" name="{=lord_bosnia_5e}Matija" voice="ironic" age="18" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -1178,7 +1178,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_bosnia_5f" name="{=lord_bosnia_5f}Kristina" voice="ironic" age="12" is_female="false" is_hero="true" culture="Culture.bosnia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -1207,7 +1207,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="bosnia_lord_combat"/>
-			<EquipmentSet id="bosnia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="bosnia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

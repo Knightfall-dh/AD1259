@@ -85,7 +85,7 @@
 														                      VerticalAlignment="Top"
 														                      MarginLeft="20"
 														                      MarginRight="20"
-														                      StackLayout.LayoutMethod="VerticalBottomToTop">
+														                      StackLayout.LayoutMethod="VerticalTopToBottom">
 															<ItemTemplate>
 																<Widget WidthSizePolicy="StretchToParent"
 																        HeightSizePolicy="CoverChildren"
@@ -207,7 +207,7 @@
 				           Color="#000000AA"
 				           AlphaFactor="0.7"
 				           IsVisible="@IsProfileSelectionEnabled"
-				           LayoutImp.LayoutMethod="VerticalBottomToTop">
+				           LayoutImp.LayoutMethod="VerticalTopToBottom">
 					<Children>
 						<!--Profile Name-->
 						<TextWidget WidthSizePolicy="CoverChildren"

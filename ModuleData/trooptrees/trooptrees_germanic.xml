@@ -21,7 +21,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_archer_root_bat"/>
-            <EquipmentSet id="hre_archer_root_civ" civilian="true"/>
+            <EquipmentSet id="hre_archer_root_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_archer_root0" default_group="Ranged" name="{=German Lesser Bowman}German Lesser Archer" level="16" occupation="Soldier"
@@ -44,7 +44,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_archer_root0_bat"/>
-            <EquipmentSet id="hre_archer_root0_civ" civilian="true"/>
+            <EquipmentSet id="hre_archer_root0_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_archer_root00" default_group="Ranged" name="{=German Senior Archer}German Senior Archer" level="21" occupation="Soldier"
@@ -67,7 +67,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_archer_root00_bat"/>
-            <EquipmentSet id="hre_archer_root00_civ" civilian="true"/>
+            <EquipmentSet id="hre_archer_root00_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_archer_root000" default_group="Ranged" name="{=German Longbowman}German Longbowman" level="26" occupation="Soldier" culture="Culture.germanic">
@@ -87,7 +87,7 @@
         <upgrade_targets/>
         <Equipments>
             <EquipmentSet id="hre_archer_root000_bat"/>
-            <EquipmentSet id="hre_archer_root000_civ" civilian="true"/>
+            <EquipmentSet id="hre_archer_root000_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_archer_root1" default_group="Ranged" name="{=German Crossbowman}German Lesser Crossbowman" level="16" occupation="Soldier"
@@ -110,7 +110,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_archer_root1_bat"/>
-            <EquipmentSet id="hre_archer_root1_civ" civilian="true"/>
+            <EquipmentSet id="hre_archer_root1_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_archer_root10" default_group="Ranged" name="{=German Senior Crossbowman}German Crossbowman" level="21" occupation="Soldier"
@@ -133,7 +133,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_archer_root10_bat"/>
-            <EquipmentSet id="hre_archer_root10_civ" civilian="true"/>
+            <EquipmentSet id="hre_archer_root10_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_archer_root100" default_group="Ranged" name="{=German Veteran Crossbowman}German Veteran Crossbowman" level="26" occupation="Soldier"
@@ -156,7 +156,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_archer_root100_bat"/>
-            <EquipmentSet id="hre_archer_root100_civ" civilian="true"/>
+            <EquipmentSet id="hre_archer_root100_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_archer_root1000" default_group="Ranged" name="German Master Crossbowman" level="31" occupation="Soldier" culture="Culture.germanic">
@@ -176,7 +176,7 @@
         <upgrade_targets/>
         <Equipments>
             <EquipmentSet id="hre_archer_root1000_bat"/>
-            <EquipmentSet id="hre_archer_root1000_civ" civilian="true"/>
+            <EquipmentSet id="hre_archer_root1000_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
 
@@ -204,7 +204,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_infantry_root_bat"/>
-            <EquipmentSet id="hre_infantry_root_civ" civilian="true"/>
+            <EquipmentSet id="hre_infantry_root_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_infantry_root0" default_group="Infantry" name="{=German Levy Spearman}German Levy Spearman" level="11" occupation="Soldier"
@@ -227,7 +227,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_infantry_root0_bat"/>
-            <EquipmentSet id="hre_infantry_root0_civ" civilian="true"/>
+            <EquipmentSet id="hre_infantry_root0_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_infantry_root1" default_group="Infantry" name="{=German Levy Guisarmer}German Levy Guisarmer" level="11" occupation="Soldier"
@@ -250,7 +250,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_infantry_root1_bat"/>
-            <EquipmentSet id="hre_infantry_root1_civ" civilian="true"/>
+            <EquipmentSet id="hre_infantry_root1_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_infantry_root10" default_group="Infantry" name="{=German Senior Guisarmer}German Senior Guisarmer" level="16" occupation="Soldier"
@@ -273,7 +273,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_infantry_root10_bat"/>
-            <EquipmentSet id="hre_infantry_root10_civ" civilian="true"/>
+            <EquipmentSet id="hre_infantry_root10_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_infantry_root100" default_group="Infantry" name="{=German Serjeant Guisarmer}German Serjeant Guisarmer" level="21" occupation="Soldier"
@@ -294,7 +294,7 @@
         <upgrade_targets/>
         <Equipments>
             <EquipmentSet id="hre_infantry_root100_bat"/>
-            <EquipmentSet id="hre_infantry_root100_civ" civilian="true"/>
+            <EquipmentSet id="hre_infantry_root100_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_infantry_root00" default_group="Infantry" name="{=German Spearman}German Spearman" level="16" occupation="Soldier" culture="Culture.germanic">
@@ -316,7 +316,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_infantry_root00_bat"/>
-            <EquipmentSet id="hre_infantry_root00_civ" civilian="true"/>
+            <EquipmentSet id="hre_infantry_root00_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_infantry_root000" default_group="Infantry" name="{=German Senior Spearman}German Senior Spearman" level="21" occupation="Soldier"
@@ -339,7 +339,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_infantry_root000_bat"/>
-            <EquipmentSet id="hre_infantry_root000_civ" civilian="true"/>
+            <EquipmentSet id="hre_infantry_root000_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_infantry_root0000" default_group="Infantry" name="{=German Serjeant Spearman}German Serjeant Spearman" level="26" occupation="Soldier"
@@ -360,7 +360,7 @@
         <upgrade_targets/>
         <Equipments>
             <EquipmentSet id="hre_infantry_root0000_bat"/>
-            <EquipmentSet id="hre_infantry_root0000_civ" civilian="true"/>
+            <EquipmentSet id="hre_infantry_root0000_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_infantry_root2" default_group="Infantry" name="German Levy Infantry" level="11" occupation="Soldier" culture="Culture.germanic">
@@ -382,7 +382,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_infantry_root2_bat"/>
-            <EquipmentSet id="hre_infantry_root2_civ" civilian="true"/>
+            <EquipmentSet id="hre_infantry_root2_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_infantry_root20" default_group="Infantry" name="German Infantry" level="16" occupation="Soldier" culture="Culture.germanic">
@@ -404,7 +404,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_infantry_root20_bat"/>
-            <EquipmentSet id="hre_infantry_root20_civ" civilian="true"/>
+            <EquipmentSet id="hre_infantry_root20_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_infantry_root200" default_group="Infantry" name="German Senior Infantry" level="21" occupation="Soldier" culture="Culture.germanic">
@@ -426,7 +426,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_infantry_root200_bat"/>
-            <EquipmentSet id="hre_infantry_root200_civ" civilian="true"/>
+            <EquipmentSet id="hre_infantry_root200_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_infantry_root2000" default_group="Infantry" name="German Serjeant Infantry" level="26" occupation="Soldier" culture="Culture.germanic">
@@ -446,7 +446,7 @@
         <upgrade_targets/>
         <Equipments>
             <EquipmentSet id="hre_infantry_root2000_bat"/>
-            <EquipmentSet id="hre_infantry_root2000_civ" civilian="true"/>
+            <EquipmentSet id="hre_infantry_root2000_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
 
@@ -473,7 +473,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_elite_root_bat"/>
-            <EquipmentSet id="hre_elite_root_civ" civilian="true"/>
+            <EquipmentSet id="hre_elite_root_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_elite_root0" default_group="Cavalry" name="{=German Konstafler}German Konstafler" level="21" occupation="Soldier" culture="Culture.germanic">
@@ -495,7 +495,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_elite_root0_bat"/>
-            <EquipmentSet id="hre_elite_root0_civ" civilian="true"/>
+            <EquipmentSet id="hre_elite_root0_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_elite_root1" default_group="Cavalry" name="{=German Squire}German Squire" level="21" occupation="Soldier" culture="Culture.germanic">
@@ -517,7 +517,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_elite_root1_bat"/>
-            <EquipmentSet id="hre_elite_root1_civ" civilian="true"/>
+            <EquipmentSet id="hre_elite_root1_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_elite_root2" default_group="HorseArcher" name="German Mounted Crossbowman" level="21" occupation="Soldier" culture="Culture.germanic">
@@ -539,7 +539,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_elite_root2_bat"/>
-            <EquipmentSet id="hre_elite_root2_civ" civilian="true"/>
+            <EquipmentSet id="hre_elite_root2_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_elite_root20" default_group="HorseArcher" name="German Senior Mounted Crossbowman" level="26" occupation="Soldier" culture="Culture.germanic">
@@ -559,7 +559,7 @@
         <upgrade_targets/>
         <Equipments>
             <EquipmentSet id="hre_elite_root20_bat"/>
-            <EquipmentSet id="hre_elite_root20_civ" civilian="true"/>
+            <EquipmentSet id="hre_elite_root20_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_elite_root10" default_group="Cavalry" name="{=German Lesser Knight}German Lesser Knight" level="26" occupation="Soldier"
@@ -582,7 +582,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_elite_root10_bat"/>
-            <EquipmentSet id="hre_elite_root10_civ" civilian="true"/>
+            <EquipmentSet id="hre_elite_root10_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_elite_root00" default_group="Cavalry" name="{=German Lesser Dienstmann}German Lesser Dienstmann" level="26" occupation="Soldier"
@@ -605,7 +605,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="hre_elite_root00_bat"/>
-            <EquipmentSet id="hre_elite_root00_civ" civilian="true"/>
+            <EquipmentSet id="hre_elite_root00_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_elite_root000" default_group="Cavalry" name="{=German Ministeriales}German Ministeriales" level="31" occupation="Soldier"
@@ -626,7 +626,7 @@
         <upgrade_targets/>
         <Equipments>
             <EquipmentSet id="hre_elite_root000_bat"/>
-            <EquipmentSet id="hre_elite_root000_civ" civilian="true"/>
+            <EquipmentSet id="hre_elite_root000_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="hre_elite_root100" default_group="Cavalry" name="{=German Knight}German Knight" level="31" occupation="Soldier" culture="Culture.germanic">
@@ -646,7 +646,7 @@
         <upgrade_targets/>
         <Equipments>
             <EquipmentSet id="hre_elite_root100_bat"/>
-            <EquipmentSet id="hre_elite_root100_civ" civilian="true"/>
+            <EquipmentSet id="hre_elite_root100_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>

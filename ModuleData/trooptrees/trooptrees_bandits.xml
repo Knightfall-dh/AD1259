@@ -20,7 +20,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="looter_bat"/>
-			<EquipmentSet id="looter_civ" civilian="true"/>
+			<EquipmentSet id="looter_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="deserter" default_group="Cavalry" name="{=C8DE6L73}Deserter" level="6" occupation="Bandit" culture="Culture.looters">
@@ -41,7 +41,7 @@
 			
 		</upgrade_targets>
 		<Equipments>
-			<EquipmentSet id="deserter_civ" civilian="true"/>
+			<EquipmentSet id="deserter_civ" equipmentType="Civilian"/>
 			<EquipmentSet id="deserter_bat"/>
 		</Equipments>
 	</NPCCharacter>
@@ -64,7 +64,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="sea_raiders_bandit_bat"/>
-			<EquipmentSet id="sea_raiders_bandit_civ" civilian="true"/>
+			<EquipmentSet id="sea_raiders_bandit_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="sea_raiders_raider" default_group="Infantry" name="{=Pirate}Pirate" level="16" occupation="Bandit" culture="Culture.sea_raiders">
@@ -86,7 +86,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="sea_raiders_raider_bat"/>
-			<EquipmentSet id="sea_raiders_raider_civ" civilian="true"/>
+			<EquipmentSet id="sea_raiders_raider_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="sea_raiders_chief" default_group="Infantry" name="{=Pirate Chief}Pirate Chief" level="21" occupation="Bandit" culture="Culture.sea_raiders">
@@ -108,7 +108,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="sea_raiders_chief_bat"/>
-			<EquipmentSet id="sea_raiders_chief_civ" civilian="true"/>
+			<EquipmentSet id="sea_raiders_chief_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="mountain_bandits_bandit" default_group="Infantry" name="{=9laVlEH9}Hillman" level="11" occupation="Bandit" culture="Culture.mountain_bandits">
@@ -129,7 +129,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="mountain_bandits_bandit_bat"/>
-			<EquipmentSet id="mountain_bandits_bandit_civ" civilian="true"/>
+			<EquipmentSet id="mountain_bandits_bandit_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="mountain_bandits_raider" default_group="Infantry" name="{=ZKdiaaFo}Brigand" level="16" occupation="Bandit" culture="Culture.mountain_bandits">
@@ -150,7 +150,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="mountain_bandits_raider_bat"/>
-			<EquipmentSet id="mountain_bandits_raider_civ" civilian="true"/>
+			<EquipmentSet id="mountain_bandits_raider_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="mountain_bandits_chief" default_group="Cavalry" name="{=P6Md9DpR}Highwayman" level="21" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.mountain_bandits">
@@ -171,7 +171,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="mountain_bandits_chief_bat"/>
-			<EquipmentSet id="mountain_bandits_chief_civ" civilian="true"/>
+			<EquipmentSet id="mountain_bandits_chief_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="forest_bandits_bandit" default_group="Ranged" level="16" name="{=Forest_Bandit}Forest Bandit" occupation="Soldier" culture="Culture.forest_bandits">
@@ -193,7 +193,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="forest_bandits_bandit_bat"/>
-			<EquipmentSet id="forest_bandits_bandit_civ" civilian="true"/>
+			<EquipmentSet id="forest_bandits_bandit_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="forest_bandits_raider" default_group="Ranged" level="21" name="{=Forest_Bandit_raider}Forest Bandit Raider" occupation="Soldier" culture="Culture.forest_bandits">
@@ -216,7 +216,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="forest_bandits_raider_bat"/>
-			<EquipmentSet id="forest_bandits_raider_civ" civilian="true"/>
+			<EquipmentSet id="forest_bandits_raider_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="forest_bandits_chief" default_group="Ranged" level="26" name="{=Forest_Bandit_chief}Forest Bandit Chief" occupation="Bandit" culture="Culture.forest_bandits">
@@ -237,7 +237,7 @@
         </upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="forest_bandits_chief_bat"/>
-			<EquipmentSet id="forest_bandits_chief_civ" civilian="true"/>
+			<EquipmentSet id="forest_bandits_chief_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="desert_bandits_bandit" default_group="Infantry" name="{=uOAnHN47}Bedouin Rover" level="6" occupation="Bandit" culture="Culture.desert_bandits">
@@ -260,7 +260,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="desert_bandits_bandit_bat"/>
-			<EquipmentSet id="desert_bandits_bandit_civ" civilian="true"/>
+			<EquipmentSet id="desert_bandits_bandit_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="desert_bandits_raider" default_group="Cavalry" name="{=0qDNS83n}Nomad Bandit" level="11" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.desert_bandits">
@@ -282,7 +282,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="desert_bandits_raider_bat"/>
-			<EquipmentSet id="desert_bandits_raider_civ" civilian="true"/>
+			<EquipmentSet id="desert_bandits_raider_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="desert_bandits_chief" default_group="Cavalry" name="{=cdbSCr6G}Harami" upgrade_requires="ItemCategory.war_horse" level="16" occupation="Bandit" culture="Culture.desert_bandits">
@@ -302,7 +302,7 @@
         </upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="desert_bandits_chief_bat"/>
-			<EquipmentSet id="desert_bandits_chief_civ" civilian="true"/>
+			<EquipmentSet id="desert_bandits_chief_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="steppe_bandits_bandit" default_group="Cavalry" name="{=ZA4bgJ5V}Steppe Bandit" level="11" occupation="Bandit" culture="Culture.steppe_bandits">
@@ -324,7 +324,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="steppe_bandits_bandit_bat"/>
-			<EquipmentSet id="steppe_bandits_bandit_civ" civilian="true"/>
+			<EquipmentSet id="steppe_bandits_bandit_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="steppe_bandits_raider" default_group="HorseArcher" name="{=Awc23bFS}Marauder" level="16" occupation="Bandit" culture="Culture.steppe_bandits">
@@ -345,7 +345,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="steppe_bandits_raider_bat"/>
-			<EquipmentSet id="steppe_bandits_raider_civ" civilian="true"/>
+			<EquipmentSet id="steppe_bandits_raider_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="steppe_bandits_chief" default_group="HorseArcher" name="{=cbnvgVhH}Raider" upgrade_requires="ItemCategory.war_horse" level="21" occupation="Bandit" culture="Culture.steppe_bandits">
@@ -365,7 +365,7 @@
         </upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="steppe_bandits_chief_bat"/>
-			<EquipmentSet id="steppe_bandits_chief_civ" civilian="true"/>
+			<EquipmentSet id="steppe_bandits_chief_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region Boss characters -->
@@ -386,7 +386,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="sea_raiders_boss_bat"/>
-			<EquipmentSet id="sea_raiders_boss_civ" civilian="true"/>
+			<EquipmentSet id="sea_raiders_boss_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="mountain_bandits_boss" default_group="Infantry" name="{=ziOBJSzR}Mountain Bandit Boss" level="26" occupation="Bandit" culture="Culture.mountain_bandits">
@@ -406,7 +406,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="mountain_bandits_boss_bat"/>
-			<EquipmentSet id="mountain_bandits_boss_civ" civilian="true"/>
+			<EquipmentSet id="mountain_bandits_boss_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="forest_bandits_boss" default_group="Ranged" name="{=dc2qxanZ}Forest Bandit Boss" level="26" occupation="Bandit" culture="Culture.forest_bandits">
@@ -426,7 +426,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="forest_bandits_boss_bat"/>
-			<EquipmentSet id="forest_bandits_boss_civ" civilian="true"/>
+			<EquipmentSet id="forest_bandits_boss_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="desert_bandits_boss" default_group="Cavalry" name="{=Q2V4uQrr}Desert Bandit Boss" level="26" upgrade_requires="ItemCategory.war_horse" occupation="Bandit" culture="Culture.desert_bandits">
@@ -446,7 +446,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="desert_bandits_boss_bat"/>
-			<EquipmentSet id="desert_bandits_boss_civ" civilian="true"/>
+			<EquipmentSet id="desert_bandits_boss_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="steppe_bandits_boss" default_group="HorseArcher" name="{=Bg63YFnh}Steppe Bandit Boss" upgrade_requires="ItemCategory.war_horse" level="26" occupation="Bandit" culture="Culture.steppe_bandits">
@@ -466,7 +466,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="desert_bandits_boss_bat"/>
-			<EquipmentSet id="desert_bandits_boss_civ" civilian="true"/>
+			<EquipmentSet id="desert_bandits_boss_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region NPCSs for Caravan Ambush issue -->
@@ -486,7 +486,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="mounted_pillager_bat"/>
-			<EquipmentSet id="mounted_pillager_civ" civilian="true"/>
+			<EquipmentSet id="mounted_pillager_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="mounted_ransacker" default_group="Cavalry" level="16" name="{=J6Yksji5}Mounted Ransacker" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.looters" is_hidden_encyclopedia="true">
@@ -505,7 +505,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="mounted_ransacker_bat"/>
-			<EquipmentSet id="mounted_ransacker_civ" civilian="true"/>
+			<EquipmentSet id="mounted_ransacker_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region Castle Bandit Hideouts -->
@@ -528,7 +528,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="castle_bandits_bandit_bat"/>
-			<EquipmentSet id="castle_bandits_bandit_civ" civilian="true"/>
+			<EquipmentSet id="castle_bandits_bandit_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="castle_bandits_footman" default_group="Infantry" level="11" name="{=Robber Footman}Rogue Footman" occupation="Bandit" culture="Culture.castle_bandits">
@@ -550,7 +550,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="castle_bandits_footman_bat"/>
-			<EquipmentSet id="castle_bandits_footman_civ" civilian="true"/>
+			<EquipmentSet id="castle_bandits_footman_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="castle_bandits_raider" default_group="Cavalry" name="{=RogueSquire}Rogue Squire" level="16" occupation="Bandit" culture="Culture.castle_bandits">
@@ -572,7 +572,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="castle_bandits_raider_bat"/>
-			<EquipmentSet id="castle_bandits_raider_civ" civilian="true"/>
+			<EquipmentSet id="castle_bandits_raider_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="castle_bandits_chief" default_group="Cavalry" name="{=RogueKnight}Rogue Knight" level="21" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.castle_bandits">
@@ -591,7 +591,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="castle_bandits_chief_bat"/>
-			<EquipmentSet id="castle_bandits_chief_civ" civilian="true"/>
+			<EquipmentSet id="castle_bandits_chief_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="castle_bandits_boss" default_group="Infantry" name="{=RogueKnightsB}Rogue Knight Boss" level="26" occupation="Bandit" culture="Culture.castle_bandits">
@@ -611,7 +611,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="castle_bandits_boss_bat"/>
-			<EquipmentSet id="castle_bandits_boss_civ" civilian="true"/>
+			<EquipmentSet id="castle_bandits_boss_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region Barbary Pirates-->
@@ -633,7 +633,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="barbary_pirates_bandit_bat"/>
-			<EquipmentSet id="barbary_pirates_bandit_civ" civilian="true"/>
+			<EquipmentSet id="barbary_pirates_bandit_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="barbary_pirates_raider" default_group="Infantry" name="Barbary Pirate" level="16" occupation="Bandit" culture="Culture.barbary_pirates">
@@ -654,7 +654,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="barbary_pirates_raider_bat"/>
-			<EquipmentSet id="barbary_pirates_raider_civ" civilian="true"/>
+			<EquipmentSet id="barbary_pirates_raider_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="barbary_pirates_chief" default_group="Infantry" name="Barbary Ghazi" level="21" occupation="Bandit" culture="Culture.barbary_pirates">
@@ -674,7 +674,7 @@
         </upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="barbary_pirates_chief_bat"/>
-			<EquipmentSet id="barbary_pirates_chief_civ" civilian="true"/>
+			<EquipmentSet id="barbary_pirates_chief_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="barbary_pirates_boss" default_group="Infantry" name="Barbary Amir al-Bahr" level="26" occupation="Bandit" culture="Culture.barbary_pirates">
@@ -693,7 +693,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="barbary_pirates_boss_bat"/>
-			<EquipmentSet id="barbary_pirates_boss_civ" civilian="true"/>
+			<EquipmentSet id="barbary_pirates_boss_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

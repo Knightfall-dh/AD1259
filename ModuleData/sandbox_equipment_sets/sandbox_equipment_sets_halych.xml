@@ -202,12 +202,12 @@
 			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.fine_town_tunic"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 			<Equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+		
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_artisan_equipment_halych" culture="Culture.halych">
 		<EquipmentSet>
@@ -215,11 +215,11 @@
 			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.fine_town_tunic"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<Flags IsCivilianTemplate="true"/>
+		
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_gang_leader_equipment_halych" culture="Culture.halych">
 		<EquipmentSet>
@@ -227,11 +227,11 @@
 			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.fine_town_tunic"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<Flags IsCivilianTemplate="true"/>
+		
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_preacher_equipment_halych" culture="Culture.halych">
 		<EquipmentSet>
@@ -239,11 +239,11 @@
 			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.fine_town_tunic"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<Flags IsCivilianTemplate="true"/>
+		
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_merchant_equipment_halych" culture="Culture.halych">
 		<EquipmentSet>
@@ -251,11 +251,11 @@
 			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.fine_town_tunic"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<Flags IsCivilianTemplate="true"/>
+		
 	</EquipmentRoster>
 	<!-- Culture.sturgia -->
 	<!-- link to AD1259\CSharpSourceCode\AD1259\AD1259\CharacterCreationScreen\CustomCultureDefinitions.cs -->  
@@ -266,7 +266,7 @@
             <Equipment slot="Gloves" id="Item.highland_gloves"/>
             <Equipment slot="Leg" id="Item.leather_shoes"/>
         </EquipmentSet>
-        <EquipmentSet civilian="true">
+        <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.battania_mace_2_t2"/>
             <Equipment slot="Body" id="Item.northern_leather_vest"/>
             <Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
@@ -545,7 +545,7 @@
             <Equipment slot="Horse" id="Item.sumpter_horse"/>
             <Equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
         </EquipmentSet>
-        <EquipmentSet civilian="true">
+        <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
             <Equipment slot="Body" id="Item.northern_leather_vest"/>
             <Equipment slot="Cape" id="Item.scarf"/>
@@ -563,7 +563,7 @@
             <Equipment slot="Horse" id="Item.sumpter_horse"/>
             <Equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
         </EquipmentSet>
-        <EquipmentSet civilian="true">
+        <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
             <Equipment slot="Body" id="Item.northern_leather_vest"/>
             <Equipment slot="Cape" id="Item.female_scarf"/>
@@ -584,7 +584,7 @@
             <Equipment slot="Horse" id="Item.sumpter_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
         </EquipmentSet>
-        <EquipmentSet civilian="true">
+        <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
             <Equipment slot="Body" id="Item.northern_padded_gambeson"/>
             <Equipment slot="Head" id="Item.nordic_fur_cap"/>
@@ -605,7 +605,7 @@
             <Equipment slot="Horse" id="Item.sumpter_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
         </EquipmentSet>
-        <EquipmentSet civilian="true">
+        <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
             <Equipment slot="Body" id="Item.northern_padded_gambeson"/>
             <Equipment slot="Cape" id="Item.female_scarf"/>
@@ -625,7 +625,7 @@
             <Equipment slot="Horse" id="Item.sumpter_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
         </EquipmentSet>
-        <EquipmentSet civilian="true">
+        <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
             <Equipment slot="Body" id="Item.northern_leather_vest"/>
             <Equipment slot="Head" id="Item.nordic_fur_cap"/>
@@ -643,7 +643,7 @@
             <Equipment slot="Horse" id="Item.sumpter_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
         </EquipmentSet>
-        <EquipmentSet civilian="true">
+        <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
             <Equipment slot="Head" id="Item.nordic_fur_cap"/>
             <Equipment slot="Body" id="Item.northern_leather_vest"/>
@@ -661,7 +661,7 @@
             <Equipment slot="Horse" id="Item.sumpter_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
         </EquipmentSet>
-        <EquipmentSet civilian="true">
+        <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
             <Equipment slot="Body" id="Item.nordic_padded_cloth"/>
             <Equipment slot="Head" id="Item.northern_fur_cap"/>
@@ -678,7 +678,7 @@
             <Equipment slot="Horse" id="Item.sumpter_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
         </EquipmentSet>
-        <EquipmentSet civilian="true">
+        <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
             <Equipment slot="Head" id="Item.northern_fur_cap"/>
             <Equipment slot="Body" id="Item.nordic_padded_cloth"/>
@@ -697,7 +697,7 @@
             <Equipment slot="Horse" id="Item.sumpter_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
         </EquipmentSet>
-        <EquipmentSet civilian="true">
+        <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
             <Equipment slot="Body" id="Item.northern_tunic"/>
             <Equipment slot="Cape" id="Item.scarf"/>
@@ -715,7 +715,7 @@
             <Equipment slot="Cape" id="Item.female_scarf"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
         </EquipmentSet>
-        <EquipmentSet civilian="true">
+        <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
             <Equipment slot="Cape" id="Item.female_scarf"/>
             <Equipment slot="Body" id="Item.northern_tunic"/>
@@ -733,7 +733,7 @@
             <Equipment slot="Horse" id="Item.sumpter_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
         </EquipmentSet>
-        <EquipmentSet civilian="true">
+        <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
             <Equipment slot="Body" id="Item.heavy_nordic_coat"/>
             <Equipment slot="Head" id="Item.northern_fur_cap"/>
@@ -750,7 +750,7 @@
             <Equipment slot="Horse" id="Item.sumpter_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
         </EquipmentSet>
-        <EquipmentSet civilian="true">
+        <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
             <Equipment slot="Body" id="Item.heavy_nordic_coat"/>
             <Equipment slot="Head" id="Item.northern_fur_cap"/>
@@ -767,7 +767,7 @@
             <Equipment slot="Horse" id="Item.sumpter_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
         </EquipmentSet>
-        <EquipmentSet civilian="true">
+        <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
             <Equipment slot="Body" id="Item.northern_leather_vest"/>
             <Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
@@ -782,7 +782,7 @@
             <Equipment slot="Horse" id="Item.sumpter_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
         </EquipmentSet>
-        <EquipmentSet civilian="true">
+        <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
             <Equipment slot="Body" id="Item.northern_leather_vest"/>
             <Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
@@ -792,178 +792,178 @@
 	<!--Culture:halych -->
 	<!--Townsman -->
 	<EquipmentRoster id="child_template_halych_townsman_male" culture="Culture.halych">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.northern_leather_vest"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.tundra_tunic"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.leather_coat"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_template_halych_townsman_female" culture="Culture.halych">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.northern_leather_vest"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.tundra_tunic"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.leather_coat"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="teenager_template_halych_townsman_male" culture="Culture.halych">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.rough_fur_over_chain"/>
 			<Equipment slot="Leg" id="Item.rough_tied_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.northern_leather_vest"/>
 			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
 		</EquipmentSet>
-		<Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="teenager_template_halych_townsman_female" culture="Culture.halych">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.cut_dress_with_pouch"/>
 			<Equipment slot="Leg" id="Item.southern_moccasins"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_b"/>
 			<Equipment slot="Body" id="Item.laced_dress"/>
 			<Equipment slot="Leg" id="Item.southern_moccasins"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.laced_dress"/>
 			<Equipment slot="Leg" id="Item.southern_moccasins"/>
 		</EquipmentSet>
-		<Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<!--Villager -->
 	<EquipmentRoster id="child_template_halych_villager_male" culture="Culture.halych">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.tundra_tunic"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.roughcloth_shortcoat"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_template_halych_villager_female" culture="Culture.halych">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.tundra_tunic"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.roughcloth_shortcoat"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="teenager_template_halych_villager_male" culture="Culture.halych">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.northern_leather_vest"/>
 			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.rough_fur_over_chain"/>
 			<Equipment slot="Leg" id="Item.rough_tied_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 		</EquipmentSet>
-		<Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="teenager_template_halych_villager_female" culture="Culture.halych">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_b"/>
 			<Equipment slot="Body" id="Item.laced_dress"/>
 			<Equipment slot="Leg" id="Item.southern_moccasins"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Body" id="Item.cut_dress"/>
 			<Equipment slot="Leg" id="Item.southern_moccasins"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.plain_dress"/>
 			<Equipment slot="Leg" id="Item.southern_moccasins"/>
 		</EquipmentSet>
-		<Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="false" IsCivilianTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<!--Noble -->
 	<EquipmentRoster id="child_template_halych_noble_male" culture="Culture.halych">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.fine_town_tunic"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_template_halych_noble_female" culture="Culture.halych">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.empire_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.fine_town_tunic"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="teenager_template_halych_noble_male" culture="Culture.halych">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 			<Equipment slot="Leg" id="Item.leather_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.fine_town_tunic"/>
 			<Equipment slot="Leg" id="Item.leather_shoes"/>
 		</EquipmentSet>
-		<Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="teenager_template_halych_noble_female" culture="Culture.halych">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.empire_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.aserai_female_civil_a"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.head_scarf"/>
 			<Equipment slot="Body" id="Item.vlandian_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="true"/>
 	</EquipmentRoster>
 </EquipmentRosters>

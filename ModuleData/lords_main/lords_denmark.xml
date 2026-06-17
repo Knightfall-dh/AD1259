@@ -20,8 +20,8 @@
         </Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="denmark_kingchristoffer_combat"/>
-			<EquipmentSet id="denmark_kingchristoffer_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_combat"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_denmark_2" name="{=denmark_deadlady_1}Dagmar of Bohemia" age="73" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -40,7 +40,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_denmark_3" name="{=denmark_deadlord_2}Valdemar III 'den Unge' of Denmark" age="50" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -62,7 +62,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_denmark_4" name="{=denmark_deadlady_2}Berengária of Portugal" age="61" voice="curt" is_hero="true" is_female="true" culture="Culture.portuguese" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -85,7 +85,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_denmark_5" name="{=denmark_deadlord_3}Erik IV of Denmark" age="43" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -113,7 +113,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_1" name="{=denmark_lady_1}Judith von Sachsen" age="36" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -136,7 +136,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_1_1" name="{=denmark_lady_2}Sofie Eriksdatter of Denmark" age="18" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -159,7 +159,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_1_2" name="{=denmark_lady_3}Ingeborg Eriksdatter" age="15" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -182,7 +182,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_1_3" name="{=denmark_lady_4}Jutta Eriksdatter" age="13" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -201,7 +201,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_1_4" name="{=denmark_lady_5}Agnes Eriksdatter" age="10" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -220,7 +220,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_denmark_6" name="{=denmark_deadlord_4}Abel I of Denmark" age="41" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -248,7 +248,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_2" name="{=denmark_lady_6}Mechthild von Holstein" age="39" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -271,7 +271,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_2_1" name="{=denmark_deadlord_5}Valdemar III Abelsøn" age="21" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -293,7 +293,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_2_2" name="{=denmark_lord_1}Erik I Abelsøn, Duke of Schleswig" age="18" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -320,7 +320,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_2_2_1" name="{=denmark_lady_7}Margaret von Rügen" age="18" voice="softspoken" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -342,7 +342,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_2_3" name="{=denmark_lord_2}Abel Abelsøn, Lord of Langeland" age="7" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -364,7 +364,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_3" name="{=denmark_lord_3}Christoffer I, King of Denmark" age="40" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -392,7 +392,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_kingchristoffer_combat"/>
-			<EquipmentSet id="denmark_kingchristoffer_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_kingchristoffer_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_3_1" name="{=denmark_lady_8}Margrethe Sambiria, Queen consort of Denmark" age="29" voice="softspoken" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -415,7 +415,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_3_2" name="{=denmark_lord_4}Erik V Christoffersøn" age="10" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -437,7 +437,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_3_3" name="{=denmark_lady_9}Matilda Christoffersdatter" age="9" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -456,7 +456,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_3_4" name="{=denmark_lady_10}Margrethe Christoffersdatter" age="3" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -475,7 +475,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_7" name="{=denmark_lord_15}Peder Finsen" age="36" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -503,7 +503,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_8" name="{=denmark_lord_16}Styg Andersøn Hvide 'Marsk Stig'" age="29" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -532,7 +532,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_1_8_1" name="{=denmark_lady_15}Ingeborg Pallesdatter Hvide" age="19" voice="earnest" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -554,7 +554,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 2: Huset Galen -->
@@ -577,7 +577,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_denmark_8" name="{=dead_lord_denmark_8}Cecilie Herlufsdatter Galen" age="97" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -596,7 +596,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_2a" name="{=lord_denmark_2a}Johannes Erlandsen Galen" age="58" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -625,7 +625,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_2b" name="{=lord_denmark_2b}Margrethe Erlandsdatter" age="60" voice="ironic" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -648,7 +648,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_2c" name="{=lord_denmark_2c}Niels Erlandsen Galen" age="39" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -676,7 +676,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_2d" name="{=lord_denmark_2d}Anders Erlandsen Galen" age="39" voice="curt" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -698,7 +698,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_2e" name="{=lord_denmark_2e}Peder Erlandsen Galen" age="32" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -726,7 +726,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_2f" name="{=lord_denmark_2f}Erland Erlandsen, Archbishop of Lund" age="44" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -754,7 +754,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_2g" name="{=lord_denmark_2g}Jacob Erlandsen, Bishop of Roskilde" age="39" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -782,7 +782,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_2h" name="{=lord_denmark_2h}Inger Andersdrottin Holmstrup" age="39" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -804,7 +804,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_2i" name="{=lord_denmark_2i}Esbern Vagnsen Galen" age="67" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -832,7 +832,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_2j" name="{=lord_denmark_2j}Ingefred Nielsdatter" age="24" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="sCavalry" face_mesh_cache="true">
@@ -852,7 +852,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_2k" name="{=lord_denmark_2k}Estrid Nielsdatter" age="35" voice="curt" default_group="Cavalry" is_female="true" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -877,7 +877,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_2l" name="{=lord_denmark_2l}Cecilie Johannesdatter Galen" age="2" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -899,7 +899,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_2m" name="{=lord_denmark_2m}Cecilie Nielsdatter Galen" age="18" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -927,7 +927,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_2n" name="{=lord_denmark_2n}Jacob Nielsen Galen" age="1" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -955,7 +955,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_2o" name="{=lord_denmark_2o}Andreas Andreasen of Bornholm" age="2" voice="curt" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -977,7 +977,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 3: Huset Gyldenstierne -->
@@ -1000,7 +1000,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_3b" name="{=lord_denmark_3b}Gertrud" age="59" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1028,7 +1028,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_3c" name="{=lord_denmark_3c}Erik Eriksen" age="14" voice="softspoken" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -1053,7 +1053,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_3d" name="{=lord_denmark_3d}Niels I. Eriksen Gyldenstierne" age="1" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -1075,7 +1075,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 4: Huset Kalf -->
@@ -1104,7 +1104,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_4b" name="{=lord_denmark_4b}Kannik Jens Kalf" age="18" voice="softspoken" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -1127,7 +1127,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_4c" name="{=lord_denmark_4c}Marsk Jens Kalf" age="25" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -1155,7 +1155,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_4d" name="{=lord_denmark_4d}Petronelle Jensdatter Kalf" age="4" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1180,7 +1180,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 5: Huset Strange-Ulfeldt -->
@@ -1209,7 +1209,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_5b" name="{=lord_denmark_5b}Ingeborg Esbernsdatter Hvide" age="68" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -1230,7 +1230,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_5c" name="{=lord_denmark_5c}Elisabeth Pedersdatter Ulfeldt" age="29" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -1251,7 +1251,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_striped_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 6: Huset Rani -->
@@ -1281,7 +1281,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_6b" name="{=lord_denmark_6b}Elisabeth Nielsdatter of Falster" age="29" voice="softspoken" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -1304,7 +1304,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_6c" name="{=lord_denmark_6c}Rane Jonsøn Rane" age="5" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -1326,7 +1326,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_6d" name="{=lord_denmark_6d}Niels Jonsøn Rane" age="4" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -1348,7 +1348,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_6e" name="{=lord_denmark_6e}Peder Jonsøn Rane" age="4" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -1370,7 +1370,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 7: Huset Skarsholm -->
@@ -1400,7 +1400,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_7b" name="{=lord_denmark_7b}Svantepolk Knutsson Viby" age="34" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1428,7 +1428,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- 3 of many children of Svantepolk Knutsson Viby -->
@@ -1448,7 +1448,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_7d" name="{=lord_denmark_7d}Katarina Svantepolksdotter" age="3" voice="curt" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -1467,7 +1467,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_7e" name="{=lord_denmark_7e}Knut Svantepolksøn" age="4" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.danish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1489,7 +1489,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="denmark_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Sister of Svantepolk Knutsson Viby and her husband -->
@@ -1512,7 +1512,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_denmark_7g" name="{=lord_denmark_7g}Riksråd Filip Knutsson" age="34" voice="softspoken" is_hero="true" is_female="true" culture="Culture.danish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -1535,7 +1535,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Brother of Svantepolk Knutsson Viby -->
@@ -1559,7 +1559,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="denmark_lord_combat"/>
-			<EquipmentSet id="denmark_noble_lady" civilian="true"/>
+			<EquipmentSet id="denmark_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

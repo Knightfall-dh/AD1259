@@ -26,8 +26,8 @@
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="wales_king_combat"/>
-			<EquipmentSet id="wales_king_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_combat"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_wales_1b" name="{=dead_lord_wales_1b}Joan, Lady of Wales and Snowdon" voice="earnest" age="68" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -53,15 +53,18 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_queen_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="dead_lord_wales_1c" name="{=dead_lord_wales_1c}Dafydd ap Llywelyn" voice="curt" age="47" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="dead_lord_wales_1c" name="{=dead_lord_wales_1c}Dafydd ap Llywelyn" voice="curt" age="47" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="47.5" weight="0.4375" build="0.5" key="0000000000001005797A2785686678B9A35E866295A0967774414A498C8336860047760304A7B7A500000000000000000000000000000000000000003C942003"/>
 			<hair_tags>
 				<hair_tag name="battania"/>
 			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
 			<tattoo_tags>
 				<tattoo_tag name="Cleanface"/>
 			</tattoo_tags>
@@ -79,16 +82,19 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Illegitimate son of Dafydd ap Llywelyn (dead_lord_wales_1c)-->
-	<NPCCharacter id="lord_wales_1z" name="{=lord_wales_1z}Dafydd ap Dafydd ap Llywelyn" voice="curt" age="14" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="lord_wales_1z" name="{=lord_wales_1z}Dafydd ap Dafydd ap Llywelyn" voice="curt" age="14" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
 		<face>
 			<BodyProperties version="4" age="14.5" weight="0.4375" build="0.5" key="0000000000001005797A2785686678B9A35E866295A0967774414A498C8336860047760304A7B7A500000000000000000000000000000000000000003C942003"/>
 			<hair_tags>
 				<hair_tag name="battania"/>
 			</hair_tags>
+			<beard_tags>
+				<beard_tag name="battania"/>
+			</beard_tags>
 			<tattoo_tags>
 				<tattoo_tag name="Cleanface"/>
 			</tattoo_tags>
@@ -97,7 +103,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_1x" name="{=lord_wales_1x}Tegwared y Bais Wen" voice="ironic" age="40" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -126,7 +132,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_1u" name="{=lord_wales_1u}Angharad ferch Llywelyn" voice="softspoken" age="55" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -152,7 +158,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+			<EquipmentSet id="wales_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Gruffudd ap Llywelyn and Senana ferch Caradog had 4 sons and 2 daughters-->
@@ -182,7 +188,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_1a2" name="{=lord_wales_1a2}Senana ferch Caradog" voice="softspoken" age="61" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -208,7 +214,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+			<EquipmentSet id="wales_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_1a" name="{=lord_wales_1a}Llywelyn II ap Gruffudd, the Last, Prince of Wales" voice="curt" age="36" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -237,7 +243,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_king_combat"/>
-			<EquipmentSet id="wales_king_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_1b" name="{=lord_wales_1b}Owain Goch ap Gruffudd" voice="curt" age="27" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -266,7 +272,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_1c" name="{=lord_wales_1c}Dafydd III ap Gruffudd" voice="curt" age="21" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -295,7 +301,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_1d" name="{=lord_wales_1d}Rhodri ap Gruffudd" voice="curt" age="29" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -324,7 +330,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_1e" name="{=lord_wales_1e}Gwladus ap Senana ferch Caradog" voice="softspoken" age="23" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -350,7 +356,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+			<EquipmentSet id="wales_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_1f" name="{=lord_wales_1f}Margaret ap Senana ferch Caradog" voice="softspoken" age="33" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -376,7 +382,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+			<EquipmentSet id="wales_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Wife of Llywelyn II ap Gruffudd, the Last-->
@@ -403,7 +409,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+			<EquipmentSet id="wales_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Wife of Dafydd III ap Gruffudd-->
@@ -430,7 +436,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+			<EquipmentSet id="wales_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Wife of Rhodri ap Gruffudd and their kid-->
@@ -457,7 +463,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+			<EquipmentSet id="wales_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_1j" name="{=lord_wales_1j}Tomas ap Rhodri" voice="curt" age="3" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -477,7 +483,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Ally of Owain and Dafydd, same house Aberfraww/Gwynedd-->
@@ -507,7 +513,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_1l" name="{=lord_wales_1l}Angharad ferch Llywelyn" voice="softspoken" age="36" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -533,7 +539,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+			<EquipmentSet id="wales_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_1m" name="{=lord_wales_1m}Madog ap Llywelyn ap Maredudd" voice="curt" age="20" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -562,7 +568,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Seneschal of Llywelyn II ap Gruffudd, the Last, Prince of Wales -->
@@ -592,7 +598,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_1o" name="{=lord_wales_1o}Arianwen ferch Rhys" voice="earnest" age="36" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -618,7 +624,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+			<EquipmentSet id="wales_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_1p" name="{=lord_wales_1p}Tudur Hen" voice="ironic" age="3" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -638,7 +644,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan_wales_2: Mathrafal of Powys Fadog-->
@@ -668,7 +674,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_wales_2b" name="{=dead_lord_wales_2b}Esyllt" voice="earnest" age="60" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -694,7 +700,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+			<EquipmentSet id="wales_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_2a" name="{=lord_wales_2a}Gruffydd II ap Madog, Lord of Dinas Bran" voice="curt" age="40" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -723,7 +729,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_2b" name="{=lord_wales_2b}Madog Fychan" voice="ironic" age="40" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -752,7 +758,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_2c" name="{=lord_wales_2c}Hywel" voice="softspoken" age="39" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -778,7 +784,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+			<EquipmentSet id="wales_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_2d" name="{=lord_wales_2d}Angharad" voice="curt" age="36" is_female="false" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -807,7 +813,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="wales_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_wales_2e" name="{=lord_wales_2e}Emma de Audley of Stanley" voice="earnest" age="35" is_female="true" is_hero="true" culture="Culture.wales" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -833,7 +839,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="wales_lord_combat"/>
-			<EquipmentSet id="wales_noble_lady" civilian="true"/>
+			<EquipmentSet id="wales_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

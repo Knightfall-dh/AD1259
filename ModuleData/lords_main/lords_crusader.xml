@@ -22,7 +22,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_jean2dibelin_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_1_2" name="{=crusader_lord1}Balian IV d'Ibelin, Lord of Arsuf" age="21" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -51,7 +51,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_baliandibelin_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_baliandibelin_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_1_1_1" name="{=crusader_lady1}Alice de Cayphas" age="44" voice="ironic" is_female="true" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -75,7 +75,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_baliandibelin_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_1_3" name="{=crusader_lord2}Jean II d'Ibelin, Lord of Beirut" age="29" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -105,7 +105,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_jean2dibelin_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_1_3_1" name="{=crusader_lady2}Alix de la Roche, Lady of Beirut" age="27" voice="earnest" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -128,7 +128,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_lord_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_1_4" name="{=crusader_lord3}Baudouin d'Ibelin, Seneschal of Cyprus" age="46" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -156,7 +156,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_baudouindibelin_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_1_4_1" name="{=crusader_lady3}Alix de Bessan" age="49" voice="softspoken" is_hero="true" default_group="Cavalry" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -178,7 +178,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_lord_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_1_5" name="{=crusader_lord4}Guillaume de Botroun, Constable of the Kingdom of Jerusalem" age="30" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -208,7 +208,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_lord_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_1_6" name="{=crusader_lord9}Geoffroy de Sergines, Marshal, Seneschal and Bailiff of Jerusalem" age="54" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -236,7 +236,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_geoffroysergines_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 2: House of Lusignan-Jerusalem -->
@@ -266,7 +266,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_hugues3lusignan_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_2_1_1" age="18" name="{=crusader_lady5}Isabella d'Ibelin" voice="ironic" is_female="true" is_hero="true" default_group="Cavalry" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -289,7 +289,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_baliandibelin_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_crusaderstates_2" name="{=crusader_deadlord2}Henri I 'The Fat' de Lusignan, King of Cyprus" age="42" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -313,7 +313,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_bohemondpoitiers_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_2_2_1" name="{=crusader_lady6}Plaisance de Poitiers, Queen regent of Cyprus" age="24" voice="softspoken" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -336,7 +336,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_hugues3lusignan_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_2_2_2" name="{=crusader_lord8}Hugues II de Lusignan, King of Cyprus" age="12" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -359,7 +359,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_hugues2lusignan_combat"/>
-			<EquipmentSet id="crusader_hugues2lusignan_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_hugues2lusignan_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_2z" age="34" name="{=crusader_lady5}Marie I Lusignan, Countess of Eu" voice="ironic" is_female="true" is_hero="true" default_group="Cavalry" culture="Culture.crusader" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -382,7 +382,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 3: House of Poitiers-Antioch -->
@@ -413,7 +413,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_bohemondpoitiers_combat"/>
-			<EquipmentSet id="crusader_bohemondpoitiers_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_bohemondpoitiers_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_3_1_1" name="{=crusader_lady4}Sibylla of Armenia, Countess of Tripoli and Princess of Antioch" voice="softspoken" age="19" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -437,7 +437,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_bohemondpoitiers_combat"/>
-			<EquipmentSet id="crusader_sybillaprincess_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_sybillaprincess_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_3_2" name="{=crusader_lord6}Henri de Poitiers" age="61" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -468,7 +468,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_lord_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_3_3" name="{=crusader_lord10}Simon Mancel, Constable of Antioch" age="39" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -496,7 +496,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_simonmancel_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_3_4" name="{=crusader_lord11}Julien de Grenier, Count of Sidon" age="29" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -524,7 +524,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_juliengrenier_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_3_4_1" age="25" name="{=crusader_lady7}Euphemia of Armenia, Countess of Sidon" voice="softspoken" is_female="true" is_hero="true" default_group="Cavalry" culture="Culture.crusader" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -547,7 +547,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_juliengrenier_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_3_4_2" name="{=crusader_lord12}Balian II de Grenier" age="7" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -569,7 +569,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_juliengrenier_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_3_4_3" name="{=crusader_lord13}Jean de Grenier" age="6" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -591,7 +591,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_juliengrenier_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 4: House of Embriaco -->
@@ -620,7 +620,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_enricoembriaco_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_4_1_1" name="{=crusader_lady8}Isabelle d'Ibelin" age="29" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -643,7 +643,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_baliandibelin_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_4_1_2" name="{=crusader_lord15}Guido II Embriaco of Gibelet" age="6" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -665,7 +665,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_enricoembriaco_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_4_2" name="{=crusader_lady9}Pavia Embriaco of Gibelet" age="54" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -688,7 +688,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_enricoembriaco_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_4_2_1" name="{=crusader_lord17}Werner 'l'Aleman' von Egisheim" age="52" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -717,7 +717,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_jeanlaleman_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_4_2_2" name="{=crusader_lord18}Jean l'Aleman, Lord of Caesarea" age="34" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -745,7 +745,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_jeanlaleman_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_4_2_2_1" name="{=crusader_lady10}Marguerite de Brisebarre, Lady of Caesarea" age="34" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -767,7 +767,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_jeanlaleman_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_4_2_2_2" name="{=crusader_lord19}Hugues l'Aleman of Caesarea" age="18" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -796,7 +796,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_jeanlaleman_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_4_2_2_3" name="{=crusader_lord20}Nicolas l'Aleman of Caesarea" age="17" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -826,7 +826,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_jeanlaleman_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_4_2_2_4" name="{=crusader_lord21}Thomas l'Aleman of Caesarea" age="16" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -856,7 +856,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_jeanlaleman_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 5: House of Montfort-Toron -->
@@ -885,7 +885,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_montforttoron_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_5_1_1" name="{=crusader_lady11}Marie d'Antioche, Lady of Tyre" age="44" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -907,7 +907,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_jeanlaleman_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_5_1_2" name="{=crusader_lord23}Jean I de Montfort-Toron, Lord of Toron" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -935,7 +935,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_montforttoron_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_5_1_3" name="{=crusader_lady12}Philippa de Montfort-Toron" age="18" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -958,7 +958,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_montforttoron_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_5_1_4" name="{=crusader_lord24}Onfroi de Montfort-Toron" age="17" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -986,7 +986,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_montforttoron_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_5_2" name="{=crusader_lord25}Philippe II de Montfort-Toron" age="34" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -1014,7 +1014,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_montforttoron_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_5_2_1" name="{=crusader_lady13}Jeanne de Lévis-Mirepoix" age="31" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -1037,7 +1037,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_montforttoron_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_5_2_2" name="{=crusader_lord26}Jean II de Montfort-Toron" age="15" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -1066,7 +1066,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_montforttoron_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_5_2_3" name="{=crusader_lady14}Jeanne de Montfort-Toron" age="9" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1085,7 +1085,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_montforttoron_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 6: House of Grenier -->
@@ -1114,7 +1114,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_lord_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_6b" name="{=crusader_lord27}Euphémie d'Arménie" age="38" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1136,7 +1136,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_lord_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_6c" name="{=crusader_lord28}Marguerite Grenier" age="11" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1155,7 +1155,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_lord_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_6d" name="{=crusader_lord29}Jean Grenier" age="9" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1177,7 +1177,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_lord_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_6e" name="{=crusader_lord30}John II Aleman, Lord of Caesarea" age="34" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -1205,7 +1205,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_lord_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_6f" name="{=crusader_lord31}Margaret, Lady of Caesarea" age="37" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1227,7 +1227,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_lord_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_6g" name="{=crusader_lord32}Hugh Aleman" age="9" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -1249,7 +1249,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_lord_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_6h" name="{=crusader_lord33}Nicholas Aleman" age="6" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -1271,7 +1271,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_lord_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_6i" name="{=crusader_lord34}Thomas Aleman" age="3" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1293,7 +1293,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_lord_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 7: House of Brienne d'Acre -->
@@ -1318,7 +1318,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_7b" name="{=lord_crusaderstates_7b}John I of Brienne, Count of Eu" age="18" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1346,7 +1346,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_lord_combat"/>
-			<EquipmentSet id="crusader_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_7c" name="{=lord_crusaderstates_7c}Blanche, Abbess of Maubuisson" age="16" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.crusader" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -1368,7 +1368,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_lord_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_7d" name="{=lord_crusaderstates_7d}John, Count of Brienne" age="24" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.crusader" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -1392,7 +1392,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_crusaderstates_7e" name="{=lord_crusaderstates_7e}Marie Enghien, Lady of Thieusies" age="20" voice="curt" is_female="true" is_hero="true" default_group="Cavalry" culture="Culture.crusader" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -1415,7 +1415,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="crusader_baliandibelin_combat"/>
-			<EquipmentSet id="crusader_lady_noncombat" civilian="true"/>
+			<EquipmentSet id="crusader_lady_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

@@ -19,8 +19,8 @@
         </Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="murom_lord_combat"/>
+			<EquipmentSet id="murom_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_murom_2" name="{=murom_deadlord_2}Helena of Constantinople" age="64" voice="curt" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -38,8 +38,8 @@
         </Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="murom_lord_combat"/>
+			<EquipmentSet id="murom_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_murom_1a" name="{=lord_murom_1}Davyd Yurievich" voice="curt" age="51" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -67,8 +67,8 @@
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="murom_king_combat"/>
+			<EquipmentSet id="murom_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_murom_1b" name="{=lord_murom_2}Euphrosyne of Murom" voice="earnest" age="46" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -93,8 +93,8 @@
 			<Trait id="Authoritarian" value="-1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="murom_lord_combat"/>
+			<EquipmentSet id="murom_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_murom_1c" name="{=lord_murom_3}Svyatoslav Davydovich" voice="ironic" age="20" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -122,8 +122,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="murom_lord_combat"/>
+			<EquipmentSet id="murom_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_murom_1d" name="{=lord_murom_4}Yaropolk Yurievich" voice="softspoken" age="17" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -151,8 +151,8 @@
 			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="murom_lord_combat"/>
+			<EquipmentSet id="murom_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_murom_1e" name="{=lord_murom_5}Daryna" voice="softspoken" age="15" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -177,8 +177,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="murom_lord_combat"/>
+			<EquipmentSet id="murom_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_murom_2a" name="{=lord_murom_6}Yuri Davydovich" voice="earnest" age="18" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -206,8 +206,8 @@
 			<Trait id="Authoritarian" value="-2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="murom_lord_combat"/>
+			<EquipmentSet id="murom_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_murom_2b" name="{=lord_murom_7}Anya" voice="softspoken" age="18" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -232,8 +232,8 @@
 			<Trait id="Authoritarian" value="-2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="murom_lord_combat"/>
+			<EquipmentSet id="murom_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_murom_2c" name="{=lord_murom_8}Jaroslav Yurievich" voice="ironic" age="2" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -261,8 +261,8 @@
 			<Trait id="Authoritarian" value="-2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="murom_lord_combat"/>
+			<EquipmentSet id="murom_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_murom_2d" name="{=lord_murom_9}Marija" voice="earnest" age="1" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -287,8 +287,8 @@
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="murom_lord_combat"/>
+			<EquipmentSet id="murom_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_murom_3a" name="{=lord_murom_10}Evdokia Davydovna" voice="softspoken" age="24" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -313,8 +313,8 @@
 			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="murom_lord_combat"/>
+			<EquipmentSet id="murom_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_murom_3b" name="{=lord_murom_11}Sviatoslav Vsevolodovich" voice="curt" age="20" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -342,8 +342,8 @@
 			<Trait id="Authoritarian" value="-2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="murom_lord_combat"/>
+			<EquipmentSet id="murom_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_murom_3c" name="{=lord_murom_12}Dmitrij Sviatoslav Davidovich" voice="curt" age="6" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -371,8 +371,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="murom_lord_combat"/>
+			<EquipmentSet id="murom_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_murom_3d" name="{=lord_murom_13}Ivan Sviatoslav Davidovich" voice="earnest" age="5" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -400,8 +400,8 @@
 			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="murom_lord_combat"/>
+			<EquipmentSet id="murom_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_murom_3e" name="{=lord_murom_14}Yekaterina Davydovna" voice="softspoken" age="2" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -426,8 +426,8 @@
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="murom_lord_combat"/>
+			<EquipmentSet id="murom_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

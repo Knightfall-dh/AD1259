@@ -22,7 +22,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="latin_basic_root_bat"/>
-            <EquipmentSet id="latin_basic_root_civ" civilian="true"/>
+            <EquipmentSet id="latin_basic_root_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="latin_basic_root0" default_group="Infantry" level="11" name="{=Latin Footman}Latin Footman" occupation="Soldier" culture="Culture.latin">
@@ -44,7 +44,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="latin_basic_root0_bat"/>
-            <EquipmentSet id="latin_basic_root0_civ" civilian="true"/>
+            <EquipmentSet id="latin_basic_root0_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="latin_basic_root1" default_group="Ranged" level="11" name="{=Latin Crossbowman}Latin Crossbowman" occupation="Soldier" culture="Culture.latin">
@@ -66,7 +66,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="latin_basic_root1_bat"/>
-            <EquipmentSet id="latin_basic_root1_civ" civilian="true"/>
+            <EquipmentSet id="latin_basic_root1_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="latin_basic_root10" default_group="Ranged" level="16" name="{=Latin Veteran Crossbowman}Latin Veteran Crossbowman" occupation="Soldier"
@@ -86,7 +86,7 @@
         </skills>
         <Equipments>
             <EquipmentSet id="latin_basic_root10_bat"/>
-            <EquipmentSet id="latin_basic_root10_civ" civilian="true"/>
+            <EquipmentSet id="latin_basic_root10_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="latin_basic_root00" default_group="Infantry" level="16" name="{=Latin Light Infantryman}Latin Light Infantryman" occupation="Soldier"
@@ -109,7 +109,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="latin_basic_root00_bat"/>
-            <EquipmentSet id="latin_basic_root00_civ" civilian="true"/>
+            <EquipmentSet id="latin_basic_root00_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="latin_basic_root000" default_group="Infantry" level="21" name="{=Latin Veteran Light Infantryman}Latin Veteran Light Infantryman"
@@ -129,7 +129,7 @@
         </skills>
         <Equipments>
             <EquipmentSet id="latin_basic_root000_bat"/>
-            <EquipmentSet id="latin_basic_root000_civ" civilian="true"/>
+            <EquipmentSet id="latin_basic_root000_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
 
@@ -154,7 +154,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="latin_elite_root_bat"/>
-            <EquipmentSet id="latin_elite_root_civ" civilian="true"/>
+            <EquipmentSet id="latin_elite_root_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="latin_elite_root0" default_group="Cavalry" level="21" name="{=Latin Light Lancer}Latin Light Lancer" upgrade_requires="ItemCategory.war_horse"
@@ -174,7 +174,7 @@
         </skills>
         <Equipments>
             <EquipmentSet id="latin_elite_root0_bat"/>
-            <EquipmentSet id="latin_elite_root0_civ" civilian="true"/>
+            <EquipmentSet id="latin_elite_root0_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="latin_elite_root1" default_group="Cavalry" level="21" name="{=Latin Medium Horseman}Latin Medium Horseman" upgrade_requires="ItemCategory.war_horse"
@@ -194,7 +194,7 @@
         </skills>
         <Equipments>
             <EquipmentSet id="latin_elite_root1_bat"/>
-            <EquipmentSet id="latin_elite_root1_civ" civilian="true"/>
+            <EquipmentSet id="latin_elite_root1_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>

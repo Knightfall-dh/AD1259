@@ -18,8 +18,8 @@
         </Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="eng_lion_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_combat"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_1_1" name="{=scotland_lady_1}Marie de Coucy, Dowager queen of Scots" age="41" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -41,7 +41,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_1_1_1" name="{=scotland_lord_1}Jean II de Brienne" age="32" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -70,7 +70,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_jeanbrienne_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_1_2" name="{=scotland_lord_2}Alaxandair III mac Alaxandair, King of Scots" age="18" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -98,7 +98,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_kingalaxandair_combat"/>
-			<EquipmentSet id="scot_kingalaxandair_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_kingalaxandair_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_1_3" name="{=scotland_lord_3}Ailean Dorsair, Hostarius of Scotland" age="65" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -127,7 +127,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunkeld_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_1_3_1" name="{=scotland_lady_2}Marjorie of Scotland" age="46" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -149,7 +149,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunkeld_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_1_3_2" name="{=scotland_lord_4}Tomhas Dorsair" age="21" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -178,7 +178,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunkeld_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_1_3_3" name="{=scotland_lady_3}Anna Dorsair" age="20" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -200,7 +200,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunkeld_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_1_4" name="{=scotland_lord_5}Alaxandair Stiùbhart, High Steward of Scotland" age="45" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -229,7 +229,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunkeld_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_1_4_1" name="{=scotland_lady_4}Jean Stiùbhart" age="48" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -251,7 +251,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunkeld_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_1_4_2" name="{=scotland_lord_6}Seumas Stiùbhart" age="16" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -280,7 +280,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunkeld_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_1_4_3" name="{=scotland_lady_5}Ealasaid Stiùbhart" age="14" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -299,7 +299,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunkeld_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_1_4_4" name="{=scotland_lord_7}Eòin Stiùbhart" age="13" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -321,7 +321,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunkeld_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_1_4_5" name="{=scotland_lady_6}Hawise Stiùbhart" age="3" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -340,7 +340,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunkeld_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_scotland_2" name="{=scotland_deadlord_2}Uilliam Cuimean, 1st Lord of Badenoch" age="96" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -362,7 +362,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_scotland_8" name="{=scotland_deadlord_8}Sarah Fitzhugh" age="96" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.scottish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -381,7 +381,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_scotland_3" name="{=scotland_deadlord_3}Marjory Buchanach" age="75" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.scottish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -400,7 +400,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_scotland_4" name="{=scotland_deadlord_4}Ruiseart Cuimean" age="67" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -422,7 +422,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_1" name="{=scotland_lady_7}Eve Amabilia Galloway" age="44" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -444,7 +444,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_1_1" name="{=scotland_lord_8}Eòin Cuimean I, Lord of Badenoch" age="44" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -473,7 +473,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_1_1_1" name="{=scotland_lady_8}Eve Stewart, Lady of Badenoch" age="40" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -495,7 +495,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_1_1_2" name="{=scotland_lord_9}Eòin Cuimean II" age="17" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -524,7 +524,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_2" name="{=scotland_lord_10}Jardine Cuimean, Lord of Inverallochy" age="59" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -553,7 +553,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_2_1" name="{=scotland_lord_11}Filib Cuimean" age="34" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -582,7 +582,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_2_1_1" name="{=scotland_lady_9}Marjorie" age="29" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -604,7 +604,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_scotland_5" name="{=scotland_deadlord_5}Bhaltair Cuimean, 2nd Lord of Badenoch" age="69" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -626,7 +626,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_3" name="{=scotland_lady_10}Isabella of Menteith" age="39" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -648,7 +648,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_3_1" name="{=scotland_lady_11}Isobel Cuimean" age="20" is_female="true" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -670,7 +670,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_scotland_6" name="{=scotland_deadlord_6}Daibhidh Cuimean, 2nd Lord of Kilbride" age="49" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -692,7 +692,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_scotland_7" name="{=scotland_deadlord_7}Isobel de Valognes" age="44" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.scottish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -711,7 +711,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_4" name="{=scotland_lord_12}Uilliam Cuimean, Lord of Kilbride" age="22" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -740,7 +740,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_4_1" name="{=scotland_lady_12}Euphemia de Clavering, Lady of Kilbride" age="18" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -762,7 +762,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_5" name="{=scotland_lord_13}Alaxandair Cuimean I, Earl of Buchan" age="43" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -791,7 +791,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_5_1" name="{=scotland_lady_13}Elizabeth de Quincy, Countess of Buchan" age="39" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -813,7 +813,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_5_2" name="{=scotland_lord_14}Eòin Cuimean" age="17" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -842,7 +842,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_5_3" name="{=scotland_lady_14}Annora Cuimean" age="17" is_female="true" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -864,7 +864,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_5_4" name="{=scotland_lady_15}Ealasaid Cuimean" age="11" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -883,7 +883,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_5_5" name="{=scotland_lord_15}Alaxandair Cuimean VII" age="7" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -905,7 +905,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_5_6" name="{=scotland_lady_16}Eilidh Cuimean" age="5" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -924,7 +924,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_5_7" name="{=scotland_lady_17}Emma Cuimean" age="4" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -943,7 +943,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_2_5_8" name="{=scotland_lady_18}Brìghde Cuimean" age="3" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -962,7 +962,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_scotland_9" name="{=scotland_deadlord_9}Hervey de Cèith, 4th Marischal of Scotland" age="72" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -984,7 +984,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_3_1" name="{=scotland_lady_19}Maighread Dùghlas Cèith" age="74" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -1006,7 +1006,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_3_1_1" name="{=scotland_lord_16}Eòin de Cèith, Marischal of Scotland" age="47" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -1035,7 +1035,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunkeld_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_3_1_1_1" name="{=scotland_lady_20}Maighread Cuimean Cèith" age="41" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1057,7 +1057,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_3_1_1_2" name="{=scotland_lord_17}Raibeart de Cèith" age="15" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1086,7 +1086,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_3_1_1_3" name="{=scotland_lord_18}Uilliam de Cèith" age="14" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -1108,7 +1108,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_scotland_10" name="{=scotland_deadlord_10}Pàdraig II Dùn Bàrr, 6th Earl of Dunbar" age="74" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -1130,7 +1130,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunbarr_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_4_1" name="{=scotland_lady_21}Euphemia Brùs Dùn Bàrr, Dowager Countess of Dunbar" age="64" is_female="true" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -1152,7 +1152,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunbarr_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_4_1_1" name="{=scotland_lord_19}Pàdraig III Dùn Bàrr, Earl of Dunbar" age="46" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1181,7 +1181,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunbarr_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_4_1_1_1" name="{=scotland_lady_22}Cecilia de Clavering, Countess of Dunbar" age="37" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -1203,7 +1203,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunbarr_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_4_1_1_2" name="{=scotland_lord_20}Eòin Dùn Bàrr" age="19" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1232,7 +1232,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunbarr_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_4_1_1_3" name="{=scotland_lord_21}Alaxandair Dùn Bàrr" age="17" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1261,7 +1261,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunbarr_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_4_1_1_4" name="{=scotland_lord_22}Pàdraig IV Dùn Bàrr" age="17" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1290,7 +1290,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunbarr_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_4_1_1_5" name="{=scotland_lady_23}Cecily Dùn Bàrr" age="16" is_female="true" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -1312,7 +1312,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunbarr_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_4_1_2" name="{=scotland_lady_24}Úna Dùn Bàrr" age="40" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -1334,7 +1334,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_dunbarr_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_scotland_11" name="{=scotland_deadlord_11}Raibeart IV de Brùs, 4th Lord of Annandale" age="64" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -1356,7 +1356,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_scotland_12" name="{=scotland_deadlord_12}Isobel of Huntingdon" age="60" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.scottish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -1375,7 +1375,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_5_1" name="{=scotland_lord_23}Raibeart V de Brùs, Lord of Annandale" age="44" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -1403,7 +1403,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_5_1_1" name="{=scotland_lady_25}Isabella de Clare, Lady of Annandale" age="33" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -1425,7 +1425,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_5_1_2" name="{=scotland_lord_23}Raibeart VI de Brùs" age="16" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -1454,7 +1454,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_5_1_3" name="{=scotland_lady_26}Isobel de Brùs" age="14" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1473,7 +1473,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_5_1_4" name="{=scotland_lord_24}Uilliam de Brùs" age="11" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1499,7 +1499,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_5_1_5" name="{=scotland_lord_25}Eòin de Brùs" age="10" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -1521,7 +1521,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_5_1_6" name="{=scotland_lord_26}Ruiseart de Brùs" age="9" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -1543,7 +1543,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_5_2" name="{=scotland_lord_27}Bearnard I de Brùs, Lord of Connington and Exton" age="34" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -1572,7 +1572,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_5_2_1" name="{=scotland_lady_27}Alicia de Beauchamp, Lady of Connington and Exton" age="24" is_female="true" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -1594,7 +1594,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_noble_lady" civilian="true"/>
+			<EquipmentSet id="scot_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_5_2_2" name="{=scotland_lord_28}Bearnard II de Brùs" age="9" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -1616,7 +1616,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_scotland_5_2_3" name="{=scotland_lord_29}Eòin de Brùs of Connington" age="4" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.scottish" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -1638,7 +1638,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="scot_lord_combat"/>
-			<EquipmentSet id="scot_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="scot_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

@@ -1,88 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
 	<!--  -->
-	<EquipmentRoster id="npc_wanderer_equipment_template_swedish_civilian">
-		<EquipmentSet civilian="true">
+	<EquipmentRoster id="npc_wanderer_equipment_template_swedish_civilian" culture="Culture.swedish">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.northern_leather_vest"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<Flags IsCivilianTemplate="true" IsWandererEquipment="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_wanderer_equipment_template_swedish" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.northern_leather_vest"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.nordic_padded_cloth"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Body" id="Item.northern_tunic"/>
 			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.nordic_tunic"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Body" id="Item.northern_leather_vest"/>
 			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.northern_tunic"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
@@ -96,55 +95,54 @@
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_armed_wanderer_equipment_template_swedish" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.northern_leather_vest"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.nordic_padded_cloth"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Body" id="Item.northern_tunic"/>
 			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.nordic_tunic"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
@@ -152,26 +150,26 @@
 			<Equipment slot="Body" id="Item.northern_leather_vest"/>
 			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.northern_tunic"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
@@ -185,7 +183,6 @@
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_companion_equipment_template_swedish" culture="Culture.swedish">
 		<EquipmentSet>
@@ -253,74 +250,73 @@
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.northern_tunic"/>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.nordic_padded_cloth"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<!--  -->
 	<EquipmentRoster id="civillian_template_gangster_tier1_swedish" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_mace_1_t2"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 			<Equipment slot="Body" id="Item.baggy_trunks"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.bandit_fur_a"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.armwraps"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.pugio"/>
 			<Equipment slot="Body" id="Item.vlandia_bandit_b"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Gloves" id="Item.rough_tied_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.pugio"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
 			<Equipment slot="Body" id="Item.baggy_trunks"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
 			<Equipment slot="Body" id="Item.vlandia_bandit_b"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
 			<Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
 			<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
@@ -328,7 +324,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="civillian_template_gangster_tier2_swedish" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.battanian_savage_armor"/>
@@ -336,52 +332,52 @@
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.buckled_wildsman_armor"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.battanian_savage_armor"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.armwraps"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Gloves" id="Item.rough_tied_bracers"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.vlandia_bandit_a"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.vlandia_bandit_a"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.studded_fur_armor"/>
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.sleeveless_studded_fur_armor"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
@@ -389,59 +385,59 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="civillian_template_gangster_tier3_swedish" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Head" id="Item.laced_coif"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.armwraps"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.short_sword_t3"/>
 			<Equipment slot="Body" id="Item.highland_cloth"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Gloves" id="Item.rough_tied_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.narrow_sword_t3"/>
 			<Equipment slot="Body" id="Item.highland_cloth"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.narrow_sword_t3"/>
 			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.narrow_sword_t3"/>
 			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.short_sword_t3"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.short_sword_t3"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
@@ -450,59 +446,59 @@
 	</EquipmentRoster>
 	<!--  -->
 	<EquipmentRoster id="swedish_troop_civilian_template_t1" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Body" id="Item.northern_tunic"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Body" id="Item.northern_tunic"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.nordic_tunic"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="swedish_troop_civilian_template_t2" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Body" id="Item.nordic_padded_cloth"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.northern_leather_vest"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="swedish_troop_civilian_template_t3" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_2_t3"/>
 			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
 			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_2_t3"/>
 			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
 			<Equipment slot="Body" id="Item.northern_padded_cloth"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
 			<Equipment slot="Body" id="Item.stitched_leather_vest"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
@@ -584,7 +580,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="swedish_bat_template_lady" culture="Culture.swedish">
 		<EquipmentSet>
@@ -613,7 +609,7 @@
 			<Equipment slot="Horse" id="Item.t2_sturgia_horse"/>
 			<Equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsFemaleTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true" IsFemaleTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="swedish_bat_template_heavy" culture="Culture.swedish">
 		<EquipmentSet>
@@ -727,7 +723,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="swedish_bat_template_flamboyant" culture="Culture.swedish">
 		<EquipmentSet>
@@ -806,7 +802,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="swedish_bat_template_woodsman" culture="Culture.swedish">
 		<EquipmentSet>
@@ -885,10 +881,9 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.northern_ring_barding"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsWoodlandTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="swedish_civ_template_default" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
 			<Equipment slot="Body" id="Item.light_tunic"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
@@ -897,7 +892,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_3_t5"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Body" id="Item.decorated_short_tunic"/>
@@ -907,7 +902,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
 			<Equipment slot="Body" id="Item.decorated_short_tunic"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
@@ -916,7 +911,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_4_t5"/>
 			<Equipment slot="Body" id="Item.light_tunic"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
@@ -925,7 +920,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Body" id="Item.nordic_padded_cloth"/>
@@ -935,7 +930,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
 			<Equipment slot="Body" id="Item.sturgia_light_tunic"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
@@ -945,28 +940,27 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="swedish_civ_template_lady_normal" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.laced_dress"/>
 			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.laced_dress"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.northern_dress"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 		</EquipmentSet>
-		<Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true" IsMediumTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="swedish_civ_template_heavy" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_5_t4"/>
 			<Equipment slot="Body" id="Item.northern_tunic"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
@@ -975,10 +969,9 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" IsHeavyTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="swedish_civ_template_flamboyant" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_3_t5"/>
 			<Equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
@@ -987,7 +980,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Body" id="Item.fur_trimmed_short_tunic"/>
@@ -996,7 +989,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_4_t5"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Body" id="Item.fur_trimmed_tunic"/>
@@ -1006,7 +999,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
 			<Equipment slot="Body" id="Item.fur_trimmed_tunic"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
@@ -1015,7 +1008,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Body" id="Item.fur_trimmed_tunic"/>
@@ -1024,10 +1017,9 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<Flags IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="swedish_civ_template_woodsman" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_3_t5"/>
 			<Equipment slot="Head" id="Item.bearhead"/>
 			<Equipment slot="Body" id="Item.battania_civil_b"/>
@@ -1037,7 +1029,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
 			<Equipment slot="Body" id="Item.long_fur_coat"/>
 			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
@@ -1045,7 +1037,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_4_t5"/>
 			<Equipment slot="Body" id="Item.battania_civil_c"/>
 			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
@@ -1053,7 +1045,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
@@ -1063,7 +1055,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
 			<Equipment slot="Body" id="Item.long_fur_coat"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
@@ -1072,10 +1064,9 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<Flags IsCivilianTemplate="true" IsWoodlandTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="swedish_noncom_template_default" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
@@ -1084,14 +1075,14 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.northern_dress"/>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
@@ -1099,10 +1090,9 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="swedish_noncom_template_flamboyant" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Body" id="Item.northern_dress"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
@@ -1110,7 +1100,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Body" id="Item.northern_dress"/>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
@@ -1118,10 +1108,10 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsFemaleTemplate="true" IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="swedish_noncom_template_woods" culture="Culture.swedish">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
@@ -1129,7 +1119,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Body" id="Item.vlandian_woman_dress"/>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
@@ -1138,7 +1128,54 @@
 			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
 			<Equipment slot="HorseHarness" id="Item.light_harness"/>
 		</EquipmentSet>
-		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsFemaleTemplate="true" IsLordTemplate="true"/>
+	</EquipmentRoster>
+	<!-- 1.4 change -->
+	<EquipmentRoster id="swedish_king_template_bat_m" culture="Culture.swedish">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+			<Equipment slot="Item1" id="Item.aserai_noble_sword_1_t5"/>
+			<Equipment slot="Item2" id="Item.heavy_heater_shield"/>
+			<Equipment slot="Head" id="Item.xiii_king_greathelm_brass"/>
+			<Equipment slot="Body" id="Item.white_coat_over_mail"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_sweden"/>
+		</EquipmentSet>
+		<Flags IsKingdomRulerTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="swedish_king_template_bat_f" culture="Culture.swedish">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+			<Equipment slot="Item1" id="Item.aserai_noble_sword_1_t5"/>
+			<Equipment slot="Item2" id="Item.heavy_heater_shield"/>
+			<Equipment slot="Head" id="Item.xiii_king_greathelm_brass"/>
+			<Equipment slot="Body" id="Item.white_coat_over_mail"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
+			<Equipment slot="HorseHarness" id="Item.caparison_template_sweden"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsKingdomRulerTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="swedish_king_template_civ_m" culture="Culture.swedish">
+		<EquipmentSet equipmentType="Civilian">
+			<Equipment slot="Item0" id="Item.vlandia_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.vlandia_crown"/>
+			<Equipment slot="Body" id="Item.decorated_short_tunic"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+		</EquipmentSet>
+		<Flags IsKingdomRulerTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="swedish_king_template_civ_f" culture="Culture.swedish">
+		<EquipmentSet equipmentType="Civilian">
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+			<Equipment slot="Gloves" id="Item.highland_gloves"/>
+			<Equipment slot="Body" id="Item.khuzait_dress_b"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsKingdomRulerTemplate="true"/>
 	</EquipmentRoster>
 	<!--  -->
 	<EquipmentRoster id="mother_char_creation_none_swedish" culture="Culture.swedish">

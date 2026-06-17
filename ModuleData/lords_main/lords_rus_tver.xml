@@ -18,8 +18,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_1a" name="{=lord_tver_2}Yaroslav III Yaroslavich" voice="softspoken" age="31" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -47,8 +47,8 @@
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="tver_king_combat"/>
+			<EquipmentSet id="tver_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_1b" name="{=lord_tver_3}Xenia of Tarusa" voice="softspoken" age="18" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -73,8 +73,8 @@
 			<Trait id="Authoritarian" value="-1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_1c" name="{=lord_tver_4}Andrey II Yaroslavich of Vladimir" voice="curt" age="20" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -102,8 +102,8 @@
 			<Trait id="Authoritarian" value="-2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_1d" name="{=lord_tver_5}Mikhail Yaroslavich of Tver" voice="softspoken" age="29" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -131,8 +131,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_1e" name="{=lord_tver_6}Anna of Kashin" voice="earnest" age="21" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -157,8 +157,8 @@
 			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_1f" name="{=lord_tver_7}Dmitry of Tver" voice="softspoken" age="5" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -186,8 +186,8 @@
 			<Trait id="Authoritarian" value="-2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_1g" name="{=lord_tver_8}Alexander of Tver" voice="curt" age="3" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -215,8 +215,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_1h" name="{=lord_tver_9}Konstantin of Tver" voice="curt" age="1" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -244,8 +244,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_2a" name="{=lord_tver_10}Vasily of Kashin" voice="earnest" age="40" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -273,8 +273,8 @@
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_2b" name="{=lord_tver_11}Elena of Bryansk" voice="softspoken" age="37" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -299,8 +299,8 @@
 			<Trait id="Authoritarian" value="-1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_2c" name="{=lord_tver_12}Mikhail Vasilyevich" voice="curt" age="19" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -328,8 +328,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_2d" name="{=lord_tver_13}Vasily Vasilyevich" voice="ironic" age="13" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -357,8 +357,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_2e" name="{=lord_tver_14}Anastasia of Galicia" voice="ironic" age="18" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -383,8 +383,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_2f" name="{=lord_tver_15}Sophia of Moscow" voice="softspoken" age="16" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -409,8 +409,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_2g" name="{=lord_tver_16}Yevdokiya" voice="earnest" age="24" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -435,8 +435,8 @@
 			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_2h" name="{=lord_tver_17}Yeremey of Dorogobuzh" voice="earnest" age="10" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -464,8 +464,8 @@
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_tver_2i" name="{=lord_tver_18}Semyon of Dorogobuzh" voice="softspoken" age="8" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -493,8 +493,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="tver_lord_combat"/>
+			<EquipmentSet id="tver_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>
