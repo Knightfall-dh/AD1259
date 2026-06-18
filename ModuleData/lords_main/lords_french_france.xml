@@ -20,8 +20,8 @@
         </Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_kinglouis_combat"/>
-			<EquipmentSet id="fra_kinglouis_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_anjou_combat"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_france_extra_2" name="{=france_deadlord_extra_2}Blanca of Castile" age="71" voice="curt" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" is_hero="true" face_mesh_cache="true">
@@ -40,8 +40,8 @@
         </Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_kinglouis_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_lord_dreux_combat"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_1_1" name="{=france_lord_1}Louis IX, King of France" age="48" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -70,7 +70,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_kinglouis_combat"/>
-			<EquipmentSet id="fra_kinglouis_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_kinglouis_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_1_2" name="{=france_lady_1}Marguerite de Provence, Queen consort of France" age="47" voice="softspoken" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_politician_skills" is_hero="true" default_group="Cavalry" occupation="Lord" face_mesh_cache="true">
@@ -93,7 +93,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_1_3" name="{=france_lord_4}Jean Tristan de France" age="26" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -121,7 +121,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_1_4" name="{=france_lady_6}Isabelle de France, Princess of France" age="22" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_spy_master_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -145,7 +145,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_1_5" name="{=france_lord_8}Alphonse de Poitiers, Count of Poitiers" age="35" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -172,7 +172,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_1_6" name="{=france_lord_9}Louis de France" age="28" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -201,7 +201,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_1_7" name="{=france_lord_10}Pierre de France" age="18" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -229,7 +229,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_1_8" name="{=france_lord_11}Philippe de France, Count of Orléans" age="27" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -258,7 +258,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 2: Maison de Foix -->
@@ -287,7 +287,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_2_2" name="{=france_lady_3}Brunissende de Cardona" age="45" voice="earnest" is_hero="true" default_group="Cavalry" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -309,7 +309,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_2_3" name="{=france_lady_2}Sibylle de Foix" age="22" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -333,7 +333,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_2_4" name="{=france_lord_5}Roger-Bernard III" age="26" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -354,7 +354,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_2_5" name="{=france_lady_7}Esclarmonde de Foix" age="24" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -388,7 +388,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 3: Maison de Clermont-Nesle -->
@@ -417,7 +417,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_lion_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_3_2" name="{=france_lady_4}Marie de Chimay, Countess of Soissons and Lady of Chimay" age="44" voice="earnest" culture="Culture.french" is_female="true" skill_template="SkillSet.spc_spy_master_skills_rookie" is_hero="true" default_group="Cavalry" occupation="Lord" face_mesh_cache="true">
@@ -441,7 +441,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_3_3" name="{=france_lady_5}Eléonore de Nesle" age="22" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -465,7 +465,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_3_4" name="{=france_lord_6}Jean III de Nesle" age="23" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -493,7 +493,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_lion_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_3_5" name="{=france_lady_8}Isabelle de Nesle" age="24" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -520,7 +520,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_lion_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_3_6" name="{=france_lord_7}Raoul de Nesle, Lord of Coeuvres" age="19" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -551,7 +551,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_lion_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 4: Maison Capétienne d'Anjou -->
@@ -583,7 +583,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_anjou_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_4_2" name="{=france_lady_10}Béatrice de Provence" age="45" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -607,7 +607,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_4_3" name="{=france_lady_9}Blanche d'Anjou" age="18" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -636,7 +636,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_anjou_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_4_4" name="{=france_lord_13}Charles II d'Anjou" age="21" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -668,7 +668,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_anjou_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_4_5" name="{=france_lord_14}Philippe d'Anjou" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -697,7 +697,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_anjou_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_4_6" name="{=france_lady_11}Elisabeth d'Anjou" age="22" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -720,7 +720,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_anjou_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 5: Maison Capétienne de Dreux -->
@@ -751,7 +751,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_dreux_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_5_2" name="{=france_lady_20}Blanche of Navarre" age="33" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -773,7 +773,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_5_3" name="{=france_lord_21}Jean II de Bretagne" age="20" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -802,7 +802,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_dreux_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 6: Maison de Châtillon -->
@@ -833,7 +833,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_6_2" name="{=france_lady_13}Mathilde de Brabant" is_female="true" age="27" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -858,7 +858,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_6_3" name="{=france_lord_15}Jean I de Blois-Châtillon" age="33" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -887,7 +887,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_6_4" name="{=france_lady_12}Alix de Bretagne, Dame de Pontarcy" is_female="true" age="22" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -907,7 +907,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 7: Maison Capétienne de Bourgogne -->
@@ -937,7 +937,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_7_2" name="{=france_lady_14}Anne de Viennois" age="24" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -961,7 +961,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_7_3" name="{=france_lady_15}Catherine de Viennois" age="22" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -982,7 +982,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_7_4" name="{=france_lord_19}Jean I de Viennois" age="19" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1009,7 +1009,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 8: Maison de Lusignan -->
@@ -1039,7 +1039,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_lusignan_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_8_2" name="{=france_lady_16}Jeanne de Fougéres" age="45" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1060,7 +1060,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_8_3" name="{=france_lady_17}Yolande de Lusignan" age="22" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_spy_master_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -1082,7 +1082,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_8_4" name="{=france_lady_18}Jeanne de Lusignan" age="20" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -1104,7 +1104,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_8_5" name="{=france_lady_19}Marie de Lusignan" age="17" is_female="true" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -1123,7 +1123,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_8_6" name="{=france_lord_22}Guy de Lusignan" age="27" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1152,7 +1152,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_lusignan_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_8_7" name="{=france_lady_25}Alice de Lusignan" age="21" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1176,7 +1176,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 9: Maison de Évreux -->
@@ -1206,7 +1206,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_striped_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_9_2" name="{=france_lady_21}Isabeau de Roquefeuil" age="23" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1228,7 +1228,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_9_3" name="{=france_lord_24}Guibert de Rodez" age="47" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1256,7 +1256,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 10: Maison Capétienne d'Artois -->
@@ -1286,7 +1286,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_10_2" name="{=france_lady_22}Mahaut d'Artois" age="20" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_spy_master_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -1309,7 +1309,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_10_3" name="{=france_lady_23}Agnes d'Artois" age="18" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_spy_master_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -1335,7 +1335,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 11: Maison de La Tour d'Auvergne -->
@@ -1367,7 +1367,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_11_2" name="{=france_lord_27}Gauthier VI Berthout" age="46" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1396,7 +1396,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_11_3" name="{=france_lady_24}Mathilde d'Auvergne" age="22" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -1422,7 +1422,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_11_4" name="{=france_lord_28}Guillaume d'Auvergne" age="19" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1448,7 +1448,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 12: Maison de Dampierre-Flanders -->
@@ -1480,7 +1480,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_flanders_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_france_2" name="{=france_deadlord_2}Guillaume III de Dampierre, Count of Flanders and Lord of Dampierre" age="35" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1511,7 +1511,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_flanders_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_12_2_1" name="{=france_lady_27}Béatrice de Brabant" age="34" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_spy_master_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -1535,7 +1535,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_flanders_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_12_0" name="{=france_lady_28}Marguerite II de Flandre, Countess of Flanders and Hainaut" age="57" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -1559,7 +1559,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_flanders_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_12_1" name="{=france_lord_29}Gui de Dampierre, Count of Flanders" age="33" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1589,7 +1589,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_flanders_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_12_1_1" name="{=france_lady_29}Mahaut de Béthune, Countess consort of Flanders" age="29" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -1613,7 +1613,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_flanders_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_12_1_2" name="{=france_lady_30}Marie de Dampierre" age="11" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1636,7 +1636,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_flanders_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_12_1_3" name="{=france_lord_30}Robert III de Dampierre" age="10" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -1658,7 +1658,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_flanders_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_12_1_4" name="{=france_lord_31}Guillaume IV de Dampierre" age="9" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1680,7 +1680,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_flanders_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_12_1_5" name="{=france_lord_32}Jean II de Dampierre" age="9" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -1702,7 +1702,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_flanders_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_12_1_6" name="{=france_lady_31}Margaret de Dampierre" age="9" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -1720,7 +1720,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_flanders_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_12_1_7" name="{=france_lord_33}Baudouin de Dampierre" age="7" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1739,7 +1739,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_flanders_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_12_3" name="{=france_lord_34}Jean I de Dampierre, Lord of Dampierre" age="29" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1768,7 +1768,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_flanders_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_12_3_1" name="{=france_lady_32}Laure de Haute Lorraine" age="29" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1792,7 +1792,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_flanders_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_france_12_3_2" name="{=france_lord_35}Jean III de Dampierre" age="4" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1814,7 +1814,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_flanders_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

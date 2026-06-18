@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EquipmentRosters>
-	<EquipmentRoster id="npc_wanderer_equipment_template_gaelic_civilian">
-		<EquipmentSet civilian="true">
+	<EquipmentRoster id="npc_wanderer_equipment_template_gaelic_civilian" culture="Culture.gaelic">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.battania_civil_a"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<Flags IsCivilianTemplate="true" IsCombatantTemplate="true" IsWandererEquipment="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_wanderer_equipment_template_gaelic" culture="Culture.gaelic">
 		<EquipmentSet>
@@ -115,24 +114,23 @@
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.battania_civil_b"/>
 			<Equipment slot="Item0" id="Item.battania_sword_3_t3"/>
 			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<Flags IsCombatantTemplate="true" IsWandererEquipment="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_armed_wanderer_equipment_template_gaelic" culture="Culture.gaelic">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_mace_2_t2"/>
 			<Equipment slot="Body" id="Item.battania_civil_a"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.battania_civil_b"/>
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Head" id="Item.battania_civil_hood"/>
@@ -140,13 +138,13 @@
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.battania_civil_c"/>
 			<Equipment slot="Item0" id="Item.battania_sword_2_t3"/>
 			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
 			<Equipment slot="Leg" id="Item.battania_woodland_boots"/>
@@ -154,75 +152,75 @@
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Head" id="Item.battania_civil_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.battania_civil_a"/>
 			<Equipment slot="Cape" id="Item.battania_civil_cloak"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.battania_civil_b"/>
 			<Equipment slot="Item0" id="Item.battania_sword_3_t3"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.battania_civil_c"/>
 			<Equipment slot="Item0" id="Item.battania_sword_3_t3"/>
 			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_sword_3_t3"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
 			<Equipment slot="Leg" id="Item.battania_woodland_boots"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.woodland_axe_t3"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
 			<Equipment slot="Leg" id="Item.battania_woodland_boots"/>
 			<Equipment slot="Cape" id="Item.battania_cloak"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.woodland_axe_t3"/>
 			<Equipment slot="Body" id="Item.battania_civil_a"/>
 			<Equipment slot="Cape" id="Item.battania_cloak"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.battania_civil_b"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Cape" id="Item.battania_cloak"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.battania_civil_c"/>
 			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 			<Equipment slot="Item0" id="Item.woodland_axe_t3"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.woodland_axe_t3"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
 			<Equipment slot="Leg" id="Item.battania_woodland_boots"/>
 			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.woodland_axe_t3"/>
 			<Equipment slot="Body" id="Item.battania_civil_a"/>
 			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.battania_civil_b"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
@@ -236,7 +234,6 @@
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<Flags IsCombatantTemplate="true" IsWandererEquipment="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_companion_equipment_template_gaelic" culture="Culture.gaelic">
 		<EquipmentSet>
@@ -321,13 +318,13 @@
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
 			<Equipment slot="Body" id="Item.battania_civil_a"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
 			<Equipment slot="Leg" id="Item.battania_woodland_boots"/>
@@ -351,60 +348,59 @@
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<!--  -->
 	<EquipmentRoster id="civillian_template_gangster_tier1_gaelic" culture="Culture.gaelic">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_mace_1_t2"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 			<Equipment slot="Body" id="Item.baggy_trunks"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.bandit_fur_a"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.armwraps"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.pugio"/>
 			<Equipment slot="Body" id="Item.vlandia_bandit_b"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Gloves" id="Item.rough_tied_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.pugio"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
 			<Equipment slot="Body" id="Item.baggy_trunks"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
 			<Equipment slot="Body" id="Item.vlandia_bandit_b"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
 			<Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
 			<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
@@ -412,7 +408,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="civillian_template_gangster_tier2_gaelic" culture="Culture.gaelic">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.battanian_savage_armor"/>
@@ -420,52 +416,52 @@
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.buckled_wildsman_armor"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.battanian_savage_armor"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.armwraps"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Gloves" id="Item.rough_tied_bracers"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.vlandia_bandit_a"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.vlandia_bandit_a"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.studded_fur_armor"/>
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.sleeveless_studded_fur_armor"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
@@ -473,59 +469,59 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="civillian_template_gangster_tier3_gaelic" culture="Culture.gaelic">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Head" id="Item.laced_coif"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.armwraps"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.short_sword_t3"/>
 			<Equipment slot="Body" id="Item.highland_cloth"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Gloves" id="Item.rough_tied_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.narrow_sword_t3"/>
 			<Equipment slot="Body" id="Item.highland_cloth"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.narrow_sword_t3"/>
 			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.narrow_sword_t3"/>
 			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.short_sword_t3"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.short_sword_t3"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
@@ -534,19 +530,19 @@
 	</EquipmentRoster>
 	<!--  -->
 	<EquipmentRoster id="gaelic_troop_civilian_template_t1" culture="Culture.gaelic">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.battania_light_armor_b"/>
 			<Equipment slot="Gloves" id="Item.armwraps"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
 			<Equipment slot="Leg" id="Item.turndown_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_sword_1_t2"/>
 			<Equipment slot="Head" id="Item.wrapped_headcloth"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
@@ -555,21 +551,21 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="gaelic_troop_civilian_template_t2" culture="Culture.gaelic">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.burlap_waistcoat"/>
 			<Equipment slot="Gloves" id="Item.rough_tied_bracers"/>
 			<Equipment slot="Leg" id="Item.rough_tied_boots"/>
 			<Equipment slot="Cape" id="Item.green_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_sword_1_t2"/>
 			<Equipment slot="Head" id="Item.wrapped_headcloth"/>
 			<Equipment slot="Body" id="Item.studded_fur_armor"/>
 			<Equipment slot="Gloves" id="Item.roughtied_leather_bracers"/>
 			<Equipment slot="Leg" id="Item.turndown_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.burlap_waistcoat"/>
 			<Equipment slot="Gloves" id="Item.ragged_armwraps"/>
@@ -577,7 +573,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="gaelic_troop_civilian_template_t3" culture="Culture.gaelic">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_sword_2_t3"/>
 			<Equipment slot="Head" id="Item.thinhide_coif"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
@@ -585,14 +581,14 @@
 			<Equipment slot="Leg" id="Item.battania_woodland_boots"/>
 			<Equipment slot="Cape" id="Item.battania_cloak"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_sword_3_t3"/>
 			<Equipment slot="Head" id="Item.thinhide_coif"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
 			<Equipment slot="Gloves" id="Item.ragged_armwraps"/>
@@ -700,7 +696,7 @@
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Gloves" id="Item.battania_noble_bracers"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="gaelic_bat_template_heavy" culture="Culture.gaelic">
 		<EquipmentSet>
@@ -801,7 +797,7 @@
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Gloves" id="Item.battania_noble_bracers"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="gaelic_bat_template_flamboyant" culture="Culture.gaelic">
 		<EquipmentSet>
@@ -859,7 +855,7 @@
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Gloves" id="Item.battania_noble_bracers"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="gaelic_bat_template_wild" culture="Culture.gaelic">
 		<EquipmentSet>
@@ -960,7 +956,7 @@
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="gaelic_bat_template_lady" culture="Culture.gaelic">
 		<EquipmentSet>
@@ -978,160 +974,200 @@
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Gloves" id="Item.battania_noble_bracers"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsFemaleTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true" IsFemaleTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="gaelic_civ_template_default" culture="Culture.gaelic">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_axe_3_t5"/>
 			<Equipment slot="Body" id="Item.battania_civil_a"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Cape" id="Item.a_gaelic_cloak_a"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_noble_sword_1_t5"/>
 			<Equipment slot="Body" id="Item.battania_civil_c"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="gaelic_civ_template_flamboyant" culture="Culture.gaelic">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_noble_sword_3_t5"/>
 			<Equipment slot="Body" id="Item.battania_civil_c"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 			<Equipment slot="Cape" id="Item.a_gaelic_cloak_a"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_noble_sword_3_t5"/>
 			<Equipment slot="Body" id="Item.battania_civil_c"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Cape" id="Item.a_gaelic_cloak_a"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_noble_sword_3_t5"/>
 			<Equipment slot="Body" id="Item.battania_civil_c"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 			<Equipment slot="Cape" id="Item.a_gaelic_cloak_a"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_noble_sword_3_t5"/>
 			<Equipment slot="Body" id="Item.battania_civil_c"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 			<Equipment slot="Cape" id="Item.a_gaelic_cloak_a"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
 			<Equipment slot="Body" id="Item.battania_civil_c"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
 			<Equipment slot="Body" id="Item.battania_civil_c"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="gaelic_civ_template_heavy" culture="Culture.gaelic">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_noble_sword_3_t5"/>
 			<Equipment slot="Body" id="Item.battania_civil_a"/>
 			<Equipment slot="Gloves" id="Item.battania_noble_bracers"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_noble_sword_1_t5"/>
 			<Equipment slot="Body" id="Item.battania_civil_c"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Gloves" id="Item.battania_noble_bracers"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="gaelic_civ_template_wild" culture="Culture.gaelic">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_axe_3_t5"/>
 			<Equipment slot="Body" id="Item.battania_light_armor_e"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Cape" id="Item.bearskin"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_noble_sword_1_t5"/>
 			<Equipment slot="Body" id="Item.battania_light_armor_d"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_noble_sword_3_t5"/>
 			<Equipment slot="Body" id="Item.battania_civil_b"/>
 			<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Cape" id="Item.armored_bearskin"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" IsWoodlandTemplate="true" IsCivilianTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="gaelic_civ_template_lady_normal" culture="Culture.gaelic">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_noble_sword_2_t5"/>
 			<Equipment slot="Body" id="Item.battania_dress_a"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 			<Equipment slot="Cape" id="Item.battania_cloak"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.battania_noble_sword_3_t5"/>
 			<Equipment slot="Body" id="Item.battania_dress_a"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 			<Equipment slot="Cape" id="Item.battania_cloak"/>
 		</EquipmentSet>
-		<Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true" IsMediumTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="gaelic_noncom_template_default" culture="Culture.gaelic">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.battania_dress_a"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.battania_female_civil_b"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="gaelic_noncom_template_wild" culture="Culture.gaelic">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.battania_dress_a"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Cape" id="Item.wolf_shoulder"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.battania_female_civil_b"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Cape" id="Item.bearskin"/>
 		</EquipmentSet>
-		<Flags IsFemaleTemplate="true" IsNoncombatantTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true"/>
+		<Flags IsFemaleTemplate="true" IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="gaelic_noncom_template_flamboyant" culture="Culture.gaelic">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.battania_dress_a"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Cape" id="Item.wolf_shoulder"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.battania_female_civil_b"/>
 			<Equipment slot="Head" id="Item.bearhead"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Cape" id="Item.battania_civil_cape"/>
 		</EquipmentSet>
-		<Flags IsFemaleTemplate="true" IsNoncombatantTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true"/>
+		<Flags IsFemaleTemplate="true" IsLordTemplate="true"/>
+	</EquipmentRoster>
+	<!-- 1.4 change -->
+	<EquipmentRoster id="gaelic_king_template_bat_m" culture="Culture.gaelic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_40"/>
+			<Equipment slot="Item2" id="Item.battania_shield_targe_a"/>
+			<Equipment slot="Head" id="Item.empire_crown_v2"/>
+			<Equipment slot="Body" id="Item.ao_battanian_mail_shirt_with_kilt"/>
+			<Equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.bandit_saddle_highland"/>
+		</EquipmentSet>
+		<Flags IsKingdomRulerTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="gaelic_king_template_bat_f" culture="Culture.gaelic">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_40"/>
+			<Equipment slot="Item2" id="Item.battania_shield_targe_a"/>
+			<Equipment slot="Head" id="Item.empire_crown_v2"/>
+			<Equipment slot="Body" id="Item.ao_battanian_mail_shirt_with_kilt"/>
+			<Equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
+			<Equipment slot="Horse" id="Item.noble_horse_battania"/>
+			<Equipment slot="HorseHarness" id="Item.bandit_saddle_highland"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsKingdomRulerTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="gaelic_king_template_civ_m" culture="Culture.gaelic">
+		<EquipmentSet equipmentType="Civilian">
+			<Equipment slot="Item1" id="Item.XIII_sword_40"/>
+			<Equipment slot="Head" id="Item.empire_crown_v2"/>
+			<Equipment slot="Body" id="Item.battania_light_armor_b"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+		</EquipmentSet>
+		<Flags IsKingdomRulerTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="gaelic_king_template_civ_f" culture="Culture.gaelic">
+		<EquipmentSet equipmentType="Civilian">
+			<Equipment slot="Item1" id="Item.XIII_sword_40"/>
+			<Equipment slot="Body" id="Item.battania_dress_a"/>
+			<Equipment slot="Leg" id="Item.ao_leather_shoes"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsKingdomRulerTemplate="true"/>
 	</EquipmentRoster>
 	<!--  -->
 	<EquipmentRoster id="mother_char_creation_none_gaelic" culture="Culture.gaelic">

@@ -28,7 +28,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_king_combat"/>
-			<EquipmentSet id="venice_king_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_1_2" name="{=wbLqHvjE}}Alvica Zeno, Countess of Venice" age="52" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -49,8 +49,8 @@
 			<Trait id="Honor" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_striped_combat"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_1_3" name="{=AccBcEIt}Costanza Zeno" age="20" voice="earnest" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -71,8 +71,8 @@
 			<Trait id="Honor" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_striped_combat"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_1_4" name="{=rGuYLmez}Jacopo Zeno" age="28" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -101,7 +101,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_1_5" name="{=zFPc7VEO}Gubitosa Zeno" default_group="Cavalry" age="19" voice="earnest" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -123,7 +123,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_1_6" name="{=O75XlydW}Giovanna Zeno" default_group="Cavalry" age="50" voice="curt" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -151,7 +151,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_1_7" name="{=J0QdMsnX}Maria Zeno" default_group="Cavalry" age="32" voice="ironic" is_female="true" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -175,7 +175,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_1_8" name="{=W1uwgvAQ}Cristoforo Zeno" default_group="Cavalry" age="19" voice="curt" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -203,7 +203,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- venice 2 -->
@@ -234,8 +234,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="venice_king_combat"/>
-			<EquipmentSet id="venice_king_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_striped_combat"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_2_2" name="{=WrAMfIG1}Marchesina Tiepolo" age="53" voice="curt" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -258,8 +258,8 @@
 			<Trait id="Calculating" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_striped_combat"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_2_3" name="{=V1QLbhRl}Agalina Tiepolo" voice="softspoken" age="21" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -281,8 +281,8 @@
 			<Trait id="Mercy" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_striped_combat"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_2_4" name="{=LQYkBOsU}Giovanni Tiepolo" default_group="Cavalry" age="17" voice="softspoken" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -310,7 +310,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_2_5" name="{=VPH7syd9}Diletta Tiepolo" age="22" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -333,7 +333,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_2_6" name="{=O6NKphJk}Gravina Tiepolo" default_group="Cavalry" age="19" voice="softspoken" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -355,8 +355,8 @@
 			<Trait id="Honor" value="-1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_striped_combat"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_2_7" name="{=uTFjknE2}Marino Zorzi" age="23" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -384,7 +384,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_2_8" name="{=EdQ0Lp2a}Agnese Zorzi" default_group="Cavalry" age="18" voice="ironic" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -406,8 +406,8 @@
 			<Trait id="Honor" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_striped_combat"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_2_9" name="{=10urvYUQ}Marco Badoer" default_group="Cavalry" age="37" voice="softspoken" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -434,7 +434,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_2_10" name="{=JJcFwAUb}Marchesina Badoer" is_female="true" age="32" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -456,7 +456,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- venice 3 -->
@@ -485,7 +485,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_3_2" name="{=v6CSTkR4}Maria Ghisi" default_group="Cavalry" age="46" voice="curt" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -508,7 +508,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_3_3" name="{=Ybpa7Nbz}Isabetta Ghisi" age="22" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -529,7 +529,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_3_4" name="{=q186AQHt}Bartholomew Ghisi" age="19" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -557,7 +557,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_3_5" name="{=AdK4Ilzw}Vesna Ghisi" age="22" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -582,8 +582,8 @@
 			<Trait id="Generosity" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_striped_combat"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_3_6" name="{=Dsclf61p}Galvano Monegario" voice="curt" default_group="Cavalry" age="48" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -612,7 +612,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_3_7" name="{=kAbug2ja}Lizia Monegario" age="46" voice="curt" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -634,7 +634,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_3_8" name="{=DCAa3GOY}Godiva Monegario" default_group="Cavalry" age="21" voice="curt" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -655,7 +655,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_3_9" name="{=MrIvBcNH}Adela Monegario" default_group="Cavalry" age="20" voice="curt" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -676,7 +676,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- venice 4 -->
@@ -706,7 +706,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_4_2" name="{=6ZTCwKfD}Albertino Morosini" age="27" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -737,7 +737,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_4_3" name="{=bJBQVoe2}Caterina Morosini" default_group="Cavalry" age="24" voice="softspoken" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -757,8 +757,8 @@
 			<Trait id="Calculating" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_lord_combat"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_4_4" name="{=vlpRh9ZB}Maria Morosini" default_group="Cavalry" age="22" voice="curt" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -783,7 +783,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- venice 5 -->
@@ -812,8 +812,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="venice_king_combat"/>
-			<EquipmentSet id="venice_king_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_combat"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_5_2" name="{=Bo6IZGAN}Jacobina Contarini" age="25" voice="softspoken" is_female="true" is_hero="true" default_group="Cavalry" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -834,8 +834,8 @@
 			<Trait id="Mercy" value="-1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_striped_combat"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_5_3" name="{=y881d2ER}Giovanni Contarini" is_female="false" age="31" voice="curt" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -861,7 +861,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_5_4" name="{=YWJUZlzt}Marino Contarini" default_group="Cavalry" age="33" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -891,7 +891,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- venice 6 -->
@@ -922,7 +922,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_6_2" name="{=eTS0B8NB}Renier Cornaro" default_group="Cavalry" age="43" voice="ironic" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -953,7 +953,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_6_3" name="{=jqdpTXYV}Marietta Cornaro" default_group="Cavalry" age="41" voice="softspoken" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -974,8 +974,8 @@
 			<Trait id="Mercy" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_striped_combat"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_6_4" name="{=AEA6qavG}Andrea Cornaro" default_group="Cavalry" age="19" voice="softspoken" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -997,8 +997,8 @@
 			<Trait id="Generosity" value="-1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_striped_combat"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- venice 7 -->
@@ -1028,8 +1028,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="venice_king_combat"/>
-			<EquipmentSet id="venice_king_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_combat"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_7_2" name="{=cjuYkvlX}Caterina Dandolo" voice="earnest" is_female="true" age="34" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1051,8 +1051,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_striped_combat"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_7_3" name="{=rhSlO9g3}Francesco Dandolo" voice="softspoken" is_female="false" default_group="Cavalry" age="41" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -1081,7 +1081,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- venice 8 -->
@@ -1112,7 +1112,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_8_2" name="{=1yJZWqhG}Maria Giustiniani" age="38" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -1136,8 +1136,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_striped_combat"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_8_3" name="{=gSR6ObvN}Leonardo Giustiniani" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -1164,7 +1164,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_8_4" name="{=stjahQvD}Amina Giustiniani" age="16" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -1181,7 +1181,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_8_5" name="{=MADTaSFV}Enrico Polani" voice="curt" age="41" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -1210,7 +1210,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_8_6" name="{=2T4CbYRn}Irina Polani" is_female="true" voice="curt" age="37" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -1231,8 +1231,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_lord_combat"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- venice 9 -->
@@ -1260,8 +1260,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="venice_king_combat"/>
-			<EquipmentSet id="venice_king_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_combat"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_9_2" name="{=GJhRw7qb}Aesos Querini" age="24" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -1289,7 +1289,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="venice_lord_combat"/>
-			<EquipmentSet id="venice_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="venice_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_venice_9_3" name="{=lLNkm48w}Vamina Querini" age="22" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1311,8 +1311,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="venice_striped_combat"/>
+			<EquipmentSet id="venice_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

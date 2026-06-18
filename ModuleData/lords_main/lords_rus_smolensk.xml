@@ -21,8 +21,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_smolensk_2" name="{=lord_smolensk_2}Helena of Polowcen" age="50" voice="softspoken" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -42,8 +42,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_1a" name="{=lord_smolensk_3}Rostislav II Mstislavich" voice="curt" age="38" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -71,8 +71,8 @@
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="smolensk_king_combat"/>
+			<EquipmentSet id="smolensk_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_1b" name="{=lord_smolensk_4}Yulia" voice="ironic" age="29" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -97,8 +97,8 @@
 			<Trait id="Authoritarian" value="-1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_2a" name="{=lord_smolensk_5}Gleb I Rostislavich" voice="curt" age="47" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -126,8 +126,8 @@
 			<Trait id="Authoritarian" value="-2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_2b" name="{=lord_smolensk_6}Cvetoslava" voice="softspoken" age="39" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -152,8 +152,8 @@
 			<Trait id="Authoritarian" value="-1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_2c" name="{=lord_smolensk_7}Knyaz Sviatoslav Glebovich" voice="earnest" age="20" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -181,8 +181,8 @@
 			<Trait id="Authoritarian" value="-2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_2d" name="{=lord_smolensk_8}Knyaz Roman Glebovich" voice="earnest" age="18" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -210,8 +210,8 @@
 			<Trait id="Authoritarian" value="-2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_3a" name="{=lord_smolensk_9}Mikhail I Rostislavich" voice="softspoken" age="39" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -239,8 +239,8 @@
 			<Trait id="Authoritarian" value="-2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_3b" name="{=lord_smolensk_10}Daryna" voice="earnest" age="37" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -265,8 +265,8 @@
 			<Trait id="Authoritarian" value="-1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_3c" name="{=lord_smolensk_11}Knyaz Andrei Michailovich" voice="curt" age="39" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -294,8 +294,8 @@
 			<Trait id="Authoritarian" value="-2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_4a" name="{=lord_smolensk_12}Fedor Rostislavich the Black" voice="softspoken" age="24" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -323,8 +323,8 @@
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_4b" name="{=lord_smolensk_13}Anastasia Vasilevna" voice="earnest" age="20" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -349,8 +349,8 @@
 			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_4c" name="{=lord_smolensk_14}Anna Mengu-Timuraevna" voice="softspoken" age="18" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -375,8 +375,8 @@
 			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_4d" name="{=lord_smolensk_15}Knyaz Michail Fedorovich" voice="ironic" age="17" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -404,8 +404,8 @@
 			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_4e" name="{=lord_smolensk_16}Knyaz David Fedorovich" voice="softspoken" age="16" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -433,8 +433,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_4f" name="{=lord_smolensk_17}Konstantin Jaroslavskij Fedorovich" voice="ironic" age="14" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -462,8 +462,8 @@
 			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_5a" name="{=lord_smolensk_18}Konstantin Rostislavich" voice="curt" age="23" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -491,8 +491,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_smolensk_5b" name="{=lord_smolensk_19}Evdokia Aleksandrovna" voice="earnest" age="20" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -517,8 +517,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="smolensk_lord_combat"/>
+			<EquipmentSet id="smolensk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

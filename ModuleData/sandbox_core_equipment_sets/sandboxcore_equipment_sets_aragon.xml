@@ -12,20 +12,18 @@
 			<Equipment slot="Body" id="Item.mercenary_gambeson"/>
 			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.AR_skaen_a"/>
 			<Equipment slot="Body" id="Item.khuzait_civil_coat"/>
 			<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_wanderer_aragonese_0_equipment_template_civilian" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.AR_skaen_a"/>
 			<Equipment slot="Body" id="Item.khuzait_civil_coat"/>
 			<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<!-- merc -->
 	<EquipmentRoster id="npc_wanderer_aragonese_1_equipment_template" culture="Culture.aragonese">
@@ -37,22 +35,20 @@
 			<Equipment slot="Body" id="Item.buckled_wildsman_armor"/>
 			<Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.XIII_sword_1"/>
 			<Equipment slot="Head" id="Item.thinhide_coif"/>
 			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_wanderer_aragonese_1_equipment_template_civilian" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.XIII_sword_1"/>
 			<Equipment slot="Head" id="Item.thinhide_coif"/>
 			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<!-- Family lost military land grant, must work for merchants -->
 	<EquipmentRoster id="npc_wanderer_aragonese_2_equipment_template" culture="Culture.aragonese">
@@ -65,22 +61,20 @@
 			<Equipment slot="Body" id="Item.AR_sturgia_armor_b"/>
 			<Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
 			<Equipment slot="Head" id="Item.AR_empire_helmet_p"/>
 			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
 			<Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_wanderer_aragonese_2_equipment_template_civilian" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
 			<Equipment slot="Head" id="Item.AR_empire_helmet_p"/>
 			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
 			<Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<!--  Die-hard crown soldier -->
 	<EquipmentRoster id="npc_wanderer_aragonese_3_equipment_template" culture="Culture.aragonese">
@@ -93,24 +87,22 @@
 			<Equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
 			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.AR_seax_c"/>
 			<Equipment slot="Head" id="Item.imperial_leather_coif"/>
 			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
 			<Equipment slot="Body" id="Item.leather_coat_over_cloth"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_wanderer_aragonese_3_equipment_template_civilian" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.AR_seax_c"/>
 			<Equipment slot="Head" id="Item.imperial_leather_coif"/>
 			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
 			<Equipment slot="Body" id="Item.leather_coat_over_cloth"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<!-- Bandit who found bandits too sociopathic -->
 	<EquipmentRoster id="npc_wanderer_aragonese_4_equipment_template" culture="Culture.aragonese">
@@ -124,24 +116,22 @@
 			<Equipment slot="Body" id="Item.khuzait_civil_coat"/>
 			<Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.AR_seax_b"/>
 			<Equipment slot="Head" id="Item.thinhide_coif"/>
 			<Equipment slot="Cape" id="Item.hood"/>
 			<Equipment slot="Body" id="Item.khuzait_civil_coat"/>
 			<Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_wanderer_aragonese_4_equipment_template_civilian" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.AR_seax_b"/>
 			<Equipment slot="Head" id="Item.thinhide_coif"/>
 			<Equipment slot="Cape" id="Item.hood"/>
 			<Equipment slot="Body" id="Item.khuzait_civil_coat"/>
 			<Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<!-- the butcher, doesn't give much away about himself -->
 	<EquipmentRoster id="npc_wanderer_aragonese_5_equipment_template" culture="Culture.aragonese">
@@ -155,22 +145,20 @@
 			<Equipment slot="Body" id="Item.xiii_maa_hauberk01"/>
 			<Equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.AR_skaen_a"/>
 			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
 			<Equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_wanderer_aragonese_5_equipment_template_civilian" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.AR_skaen_a"/>
 			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
 			<Equipment slot="Body" id="Item.AR_vlandia_armor_g"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<!-- maquisard, ex-messianic rebel turned mafiosi -->
 	<EquipmentRoster id="npc_wanderer_aragonese_6_equipment_template" culture="Culture.aragonese">
@@ -184,24 +172,22 @@
 			<Equipment slot="Body" id="Item.ao_crude_mail_with_tunic"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_d"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2"/>
 			<Equipment slot="Head" id="Item.imperial_leather_coif"/>
 			<Equipment slot="Cape" id="Item.hood"/>
 			<Equipment slot="Body" id="Item.nordic_sloven"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_d"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_wanderer_aragonese_6_equipment_template_civilian" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.AR_darshi_axe_t2"/>
 			<Equipment slot="Head" id="Item.imperial_leather_coif"/>
 			<Equipment slot="Cape" id="Item.hood"/>
 			<Equipment slot="Body" id="Item.nordic_sloven"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_d"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<!-- posed as man to join army. needed the money -->
 	<EquipmentRoster id="npc_wanderer_aragonese_7_equipment_template" culture="Culture.aragonese">
@@ -214,20 +200,18 @@
 			<Equipment slot="Body" id="Item.padded_leather_overcoat"/>
 			<Equipment slot="Leg" id="Item.belted_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.seax"/>
 			<Equipment slot="Body" id="Item.battania_dress_c"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_wanderer_aragonese_7_equipment_template_civilian" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.seax"/>
 			<Equipment slot="Body" id="Item.battania_dress_c"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<!-- family was in sacked city, followed in wake of refugee columns.-->
 	<EquipmentRoster id="npc_wanderer_aragonese_8_equipment_template" culture="Culture.aragonese">
@@ -239,20 +223,18 @@
 			<Equipment slot="Body" id="Item.stitched_leather_vest"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.AR_pugio_a"/>
 			<Equipment slot="Body" id="Item.laced_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_wanderer_aragonese_8_equipment_template_civilian" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.AR_pugio_a"/>
 			<Equipment slot="Body" id="Item.laced_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<!--female outlaw. Was adopted by gang as a very young girl, used as killer -->
 	<EquipmentRoster id="npc_wanderer_aragonese_9_equipment_template" culture="Culture.aragonese">
@@ -264,24 +246,22 @@
 			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.AR_pugio_a"/>
 			<Equipment slot="Head" id="Item.thinhide_coif"/>
 			<Equipment slot="Cape" id="Item.AR_aserai_scarf_a"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_g"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_k"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_wanderer_aragonese_9_equipment_template_civilian" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.AR_pugio_a"/>
 			<Equipment slot="Head" id="Item.thinhide_coif"/>
 			<Equipment slot="Cape" id="Item.AR_aserai_scarf_a"/>
 			<Equipment slot="Body" id="Item.AR_battania_armor_g"/>
 			<Equipment slot="Leg" id="Item.TV_battania_boots_k"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<!-- surgeon - forced by intel to torture, guilt-racked -->
 	<EquipmentRoster id="npc_wanderer_aragonese_10_equipment_template" culture="Culture.aragonese">
@@ -293,22 +273,20 @@
 			<Equipment slot="Gloves" id="Item.mail_mitten"/>
 			<Equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.seax"/>
 			<Equipment slot="Head" id="Item.thinhide_coif"/>
 			<Equipment slot="Body" id="Item.monk_robe"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_wanderer_aragonese_10_equipment_template_civilian" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.seax"/>
 			<Equipment slot="Head" id="Item.thinhide_coif"/>
 			<Equipment slot="Body" id="Item.monk_robe"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<!--upper-class dispossessed, refused a bad marriage -->
 	<EquipmentRoster id="npc_wanderer_aragonese_11_equipment_template" culture="Culture.aragonese">
@@ -321,30 +299,27 @@
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.seax"/>
 			<Equipment slot="Body" id="Item.steppe_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_wanderer_aragonese_11_equipment_template_civilian" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.seax"/>
 			<Equipment slot="Body" id="Item.steppe_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<!--  -->
-	<EquipmentRoster id="npc_wanderer_equipment_template_aragonese_civilian">
-		<EquipmentSet civilian="true">
+	<EquipmentRoster id="npc_wanderer_equipment_template_aragonese_civilian" culture="Culture.aragonese">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.cloth_tunic"/>
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_wanderer_equipment_template_aragonese" culture="Culture.aragonese">
 		<EquipmentSet>
@@ -389,60 +364,59 @@
 			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.fine_town_tunic"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 			<Equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_armed_wanderer_equipment_template_aragonese" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
 			<Equipment slot="Body" id="Item.northern_leather_vest"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.nasal_helmet"/>
 			<Equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
 			<Equipment slot="Body" id="Item.nordic_padded_cloth"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Body" id="Item.northern_tunic"/>
 			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.nasal_helmet"/>
 			<Equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
 			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
 			<Equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.peasant_sickle_1_t1"/>
 			<Equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
 			<Equipment slot="Body" id="Item.nordic_tunic"/>
 			<Equipment slot="Head" id="Item.nasal_helmet"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
 			<Equipment slot="Head" id="Item.nasal_helmet"/>
 			<Equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
@@ -450,26 +424,26 @@
 			<Equipment slot="Body" id="Item.northern_leather_vest"/>
 			<Equipment slot="Leg" id="Item.wrapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Head" id="Item.nasal_helmet"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
 			<Equipment slot="Body" id="Item.northern_tunic"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
 			<Equipment slot="Head" id="Item.nasal_helmet"/>
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.northern_padded_gambeson"/>
 			<Equipment slot="Item0" id="Item.sturgia_sword_3_t3"/>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
@@ -483,7 +457,6 @@
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="npc_companion_equipment_template_aragonese" culture="Culture.aragonese">
 		<EquipmentSet>
@@ -551,74 +524,73 @@
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.northern_tunic"/>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.sturgia_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.nordic_padded_cloth"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
 		</EquipmentSet>
-		<Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<!--  -->
 	<EquipmentRoster id="civillian_template_gangster_tier1_aragonese" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_mace_1_t2"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 			<Equipment slot="Body" id="Item.baggy_trunks"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.bandit_fur_a"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.armwraps"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.pugio"/>
 			<Equipment slot="Body" id="Item.vlandia_bandit_b"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Gloves" id="Item.rough_tied_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.pugio"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
 			<Equipment slot="Body" id="Item.baggy_trunks"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
 			<Equipment slot="Body" id="Item.vlandia_bandit_b"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.simple_sabre_sword_t2"/>
 			<Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.peasant_pickaxe_1_t1"/>
 			<Equipment slot="Body" id="Item.torn_bandit_clothes"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
@@ -626,7 +598,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="civillian_template_gangster_tier2_aragonese" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.battanian_savage_armor"/>
@@ -634,52 +606,52 @@
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.buckled_wildsman_armor"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.battanian_savage_armor"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.armwraps"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Gloves" id="Item.rough_tied_bracers"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.vlandia_bandit_a"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.falchion_sword_t2"/>
 			<Equipment slot="Body" id="Item.vlandia_bandit_a"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.studded_fur_armor"/>
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.sleeveless_studded_fur_armor"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
@@ -687,59 +659,59 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="civillian_template_gangster_tier3_aragonese" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Head" id="Item.laced_coif"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
 			<Equipment slot="Leg" id="Item.highland_boots"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.battania_woodland_outfit"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
 			<Equipment slot="Gloves" id="Item.armwraps"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.short_sword_t3"/>
 			<Equipment slot="Body" id="Item.highland_cloth"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Gloves" id="Item.rough_tied_bracers"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.narrow_sword_t3"/>
 			<Equipment slot="Body" id="Item.highland_cloth"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.battania_fur_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.narrow_sword_t3"/>
 			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.narrow_sword_t3"/>
 			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.short_sword_t3"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Gloves" id="Item.leather_gloves"/>
 			<Equipment slot="Leg" id="Item.battania_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.short_sword_t3"/>
 			<Equipment slot="Body" id="Item.bandit_gambeson"/>
 			<Equipment slot="Head" id="Item.pilgrim_hood"/>
@@ -748,49 +720,49 @@
 	</EquipmentRoster>
 	<!--  -->
 	<EquipmentRoster id="aragonese_troop_civilian_template_t1" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
 			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.bandit_leather_water_flask"/>
 			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_troop_civilian_template_t2" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
 			<Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
 			<Equipment slot="Body" id="Item.footmans_tunic"/>
 			<Equipment slot="Leg" id="Item.leather_shoes"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
 			<Equipment slot="Body" id="Item.footmans_tunic"/>
 			<Equipment slot="Leg" id="Item.leather_shoes"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_troop_civilian_template_t3" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 			<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Head" id="Item.leather_cap"/>
 			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 			<Equipment slot="Gloves" id="Item.padded_mitten"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.empire_sword_2_t3"/>
 			<Equipment slot="Head" id="Item.leather_cap"/>
 			<Equipment slot="Body" id="Item.leather_tunic"/>
@@ -888,7 +860,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
 			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsMediumTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_bat_template_heavy" culture="Culture.aragonese">
 		<EquipmentSet>
@@ -979,7 +951,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
 			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsHeavyTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_bat_template_flamboyant" culture="Culture.aragonese">
 		<EquipmentSet>
@@ -1070,7 +1042,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
 			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_bat_template_stoic" culture="Culture.aragonese">
 		<EquipmentSet>
@@ -1161,7 +1133,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
 			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsStoicTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_bat_template_southfrontier" culture="Culture.aragonese">
 		<EquipmentSet>
@@ -1252,7 +1224,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
 			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_bat_template_northfrontier" culture="Culture.aragonese">
 		<EquipmentSet>
@@ -1343,7 +1315,7 @@
 			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
 			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsWoodlandTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_bat_template_lady" culture="Culture.aragonese">
 		<EquipmentSet>
@@ -1434,541 +1406,587 @@
 			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
 			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsFemaleTemplate="true"/>
+		<Flags IsLordTemplate="true" IsFemaleTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_civ_template_default" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.XIII_sword_41"/>
 			<Equipment slot="Body" id="Item.aserai_civil_b"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.empire_noble_sword_2_t5"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.TV_monk_robe_a"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
 			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
 			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.XIII_sword_41"/>
 			<Equipment slot="Body" id="Item.sturgia_light_tunic"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.empire_noble_sword_2_t5"/>
 			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
 			<Equipment slot="Body" id="Item.imperial_robes"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
 			<Equipment slot="Body" id="Item.decorated_short_tunic"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.XIII_sword_36"/>
 			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
 			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
 			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
 		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_civ_template_stoic" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.XIII_sword_41"/>
 			<Equipment slot="Body" id="Item.aserai_civil_b"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.empire_noble_sword_2_t5"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.TV_monk_robe_a"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
 			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
 			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.XIII_sword_41"/>
 			<Equipment slot="Body" id="Item.sturgia_light_tunic"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.empire_noble_sword_2_t5"/>
 			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
 			<Equipment slot="Body" id="Item.imperial_robes"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
 			<Equipment slot="Body" id="Item.decorated_short_tunic"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.XIII_sword_36"/>
 			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
 			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
 			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
 		</EquipmentSet>
-		<Flags IsCivilianTemplate="true" IsStoicTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_civ_template_flamboyant" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.XIII_sword_41"/>
 			<Equipment slot="Body" id="Item.aserai_civil_b"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.empire_noble_sword_2_t5"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.TV_monk_robe_a"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
 			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
 			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.XIII_sword_41"/>
 			<Equipment slot="Body" id="Item.sturgia_light_tunic"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.empire_noble_sword_2_t5"/>
 			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
 			<Equipment slot="Body" id="Item.imperial_robes"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
 			<Equipment slot="Body" id="Item.decorated_short_tunic"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.XIII_sword_36"/>
 			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
 			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
 			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
 		</EquipmentSet>
-		<Flags IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_civ_template_heavy" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.XIII_sword_41"/>
 			<Equipment slot="Body" id="Item.aserai_civil_b"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.empire_noble_sword_2_t5"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.TV_monk_robe_a"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
 			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
 			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.XIII_sword_41"/>
 			<Equipment slot="Body" id="Item.sturgia_light_tunic"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.empire_noble_sword_2_t5"/>
 			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
 			<Equipment slot="Body" id="Item.imperial_robes"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
 			<Equipment slot="Body" id="Item.decorated_short_tunic"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.XIII_sword_36"/>
 			<Equipment slot="Cape" id="Item.battania_scarf_a"/>
 			<Equipment slot="Body" id="Item.ao_battanian_cloth_tunic_with_kilt"/>
 			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
 		</EquipmentSet>
-		<Flags IsHeavyTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_civ_template_southfrontier" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.XIII_sword_41"/>
 			<Equipment slot="Body" id="Item.aserai_civil_b"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.empire_noble_sword_2_t5"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.TV_monk_robe_a"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
 			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
 			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.XIII_sword_41"/>
 			<Equipment slot="Body" id="Item.sturgia_light_tunic"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.empire_noble_sword_2_t5"/>
 			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
 			<Equipment slot="Body" id="Item.imperial_robes"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
 			<Equipment slot="Body" id="Item.decorated_short_tunic"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_civ_template_northfrontier" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.XIII_sword_41"/>
 			<Equipment slot="Body" id="Item.aserai_civil_b"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.empire_noble_sword_2_t5"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.TV_monk_robe_a"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
 			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
 			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.XIII_sword_41"/>
 			<Equipment slot="Body" id="Item.sturgia_light_tunic"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.empire_noble_sword_2_t5"/>
 			<Equipment slot="Head" id="Item.ao_gold_circlet_a"/>
 			<Equipment slot="Body" id="Item.imperial_robes"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 			<Equipment slot="Leg" id="Item.fine_town_boots"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
 			<Equipment slot="Body" id="Item.decorated_short_tunic"/>
 			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
 		</EquipmentSet>
-		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsCombatantTemplate="true"/>
+		<Flags IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_civ_template_lady_normal" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.fine_southern_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.steppe_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.tiara_x"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.vlandian_noble_woman_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.fine_southern_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.tiara_x"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.empire_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_noncom_template_default" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.fine_southern_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.steppe_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.tiara_x"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.vlandian_noble_woman_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.fine_southern_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.tiara_x"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.empire_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsNoncombatantTemplate="true" IsNobleTemplate="true"/>
+		<Flags IsFemaleTemplate="true" IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_noncom_template_flamboyant" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.fine_southern_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.steppe_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.tiara_x"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.vlandian_noble_woman_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.fine_southern_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.tiara_x"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.empire_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsFemaleTemplate="true" IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_noncom_template_stoic" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.fine_southern_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.steppe_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.tiara_x"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.vlandian_noble_woman_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.fine_southern_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.tiara_x"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.empire_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsStoicTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsFemaleTemplate="true" IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_noncom_template_southfrontier" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.fine_southern_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.steppe_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.tiara_x"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.vlandian_noble_woman_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.fine_southern_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.tiara_x"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.empire_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNomadTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsFemaleTemplate="true" IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster id="aragonese_noncom_template_northfrontier" culture="Culture.aragonese">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.fine_southern_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.steppe_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.tiara_x"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.vlandian_noble_woman_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.fine_southern_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Head" id="Item.tiara_x"/>
 			<Equipment slot="Body" id="Item.vlandian_corset_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Body" id="Item.empire_dress"/>
 			<Equipment slot="Leg" id="Item.ladys_shoe"/>
 		</EquipmentSet>
-		<Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsWoodlandTemplate="true" IsNoncombatantTemplate="true"/>
+		<Flags IsFemaleTemplate="true" IsLordTemplate="true"/>
+	</EquipmentRoster>
+	<!-- 1.4 change -->
+	<EquipmentRoster id="aragonese_king_template_bat_m" culture="Culture.aragonese">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_2haxe_2_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_41"/>
+			<Equipment slot="Item2" id="Item.heavy_heater_shield"/>
+			<Equipment slot="Head" id="Item.14th_noble_greathelmet1"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.mail_with_tabbard7"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<Flags IsKingdomRulerTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="aragonese_king_template_bat_f" culture="Culture.aragonese">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_2haxe_2_t5"/>
+			<Equipment slot="Item1" id="Item.XIII_sword_41"/>
+			<Equipment slot="Item2" id="Item.heavy_heater_shield"/>
+			<Equipment slot="Head" id="Item.14th_noble_greathelmet1"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.mail_with_tabbard7"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Horse" id="Item.noble_horse_imperial"/>
+			<Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsKingdomRulerTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="aragonese_king_template_civ_m" culture="Culture.aragonese">
+		<EquipmentSet equipmentType="Civilian">
+			<Equipment slot="Item1" id="Item.empire_noble_sword_2_t5"/>
+			<Equipment slot="Item3" id="Item.pugio"/>
+			<Equipment slot="Head" id="Item.ao_crown_a"/>
+			<Equipment slot="Cape" id="Item.steelcross1"/>
+			<Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_g"/>
+		</EquipmentSet>
+		<Flags IsKingdomRulerTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="aragonese_king_template_civ_f" culture="Culture.aragonese">
+		<EquipmentSet equipmentType="Civilian">
+			<Equipment slot="Head" id="Item.womens_headwrap_c"/>
+			<Equipment slot="Body" id="Item.fine_southern_dress"/>
+			<Equipment slot="Leg" id="Item.ladys_shoe"/>
+		</EquipmentSet>
+		<Flags IsFemaleTemplate="true" IsKingdomRulerTemplate="true"/>
 	</EquipmentRoster>
 	<!--  -->
 	<EquipmentRoster id="mother_char_creation_none_aragonese" culture="Culture.aragonese">

@@ -20,7 +20,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_latin_2" name="{=latin_deadlord2}Yolanda of Flanders" age="84" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_tactician_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
@@ -38,7 +38,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_1_1" name="{=latin_lord_1}Baudouin II de Courtenay, Latin Emperor of Constantinople" voice="ironic" age="42" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -64,8 +64,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_emperor_combat"/>
+			<EquipmentSet id="latin_emperor_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_1_1_1" name="{=latin_lady_1}Marie de Brienne, Latin Empress consort" age="35" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -87,7 +87,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_1_1_2" name="{=latin_lord_2}Philip I de Courtenay" voice="curt" age="18" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -114,7 +114,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_latin_3" name="{=latin_deadlord3}Yolanda de Courtenay" age="59" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_cavalry_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
@@ -132,7 +132,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_latin_4" name="{=latin_deadlord4}Marie de Courtenay" age="55" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_politician_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
@@ -150,7 +150,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_latin_5" name="{=latin_deadlord_5}Jean I de Brienne" age="89" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -172,7 +172,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_latin_6" name="{=latin_deadlord6}Berengaria of León" age="55" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_tactician_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
@@ -190,7 +190,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_1_2" name="{=latin_lord_3}Baudouin de Hainaut" voice="earnest" age="39" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -217,7 +217,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_1_3" name="{=latin_lord_18}Villain I d'Aulnay, Marshal of Constantinople" voice="earnest" age="46" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -246,7 +246,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 2 -->
@@ -269,7 +269,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_latin_8" name="{=latin_deadlord8}Élisabeth de Chappes" age="79" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_quartermaster_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
@@ -287,7 +287,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_latin_9" name="{=latin_deadlord9}Alix de Villehardouin" age="68" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_tactician_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
@@ -305,7 +305,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_latin_10" name="{=latin_deadlord_10}Hugues de Bruyéres" age="69" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -327,7 +327,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_2_0_1" name="{=latin_lady_2}Agnés de Bruyéres" age="49" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -349,7 +349,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_2_0_2" name="{=latin_lord_4}Geoffroi de Bruyéres, Lord of Karytaina" voice="softspoken" age="36" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -376,7 +376,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_2_0_2_1" name="{=latin_lady_3}Isabella de la Roche, Lady of Karytaina" age="32" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -398,7 +398,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_latin_11" name="{=latin_deadlord_11}Geoffroi II de Villehardouin" age="64" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -420,7 +420,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_latin_12" name="{=latin_deadlord12}Agnés de Courtenay" age="57" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_quartermaster_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
@@ -438,7 +438,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_2_1" name="{=latin_lord_5}Guillaume II de Villehardouin, Prince of Achaea" voice="ironic" age="48" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -465,7 +465,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_2_1_1" name="{=latin_lady_4}Agnés Komneni Doúkaina" age="35" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -486,7 +486,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 3 -->
@@ -509,7 +509,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_latin_14" name="{=latin_deadlord14}Isabelle de Ray" age="69" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_knight_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
@@ -527,7 +527,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_3_1" name="{=latin_lord_6}Guy I de la Roche, Lord of Athena" voice="earnest" age="54" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -554,7 +554,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_3_1_1" name="{=latin_lord_7}Jean I de la Roche" voice="ironic" age="33" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -581,7 +581,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_3_1_1_1" name="{=latin_lady_5}Isabelle de Rougement" age="32" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -603,7 +603,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_3_1_1_2" name="{=latin_lady_6}Merille de la Roche" age="3" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -621,7 +621,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_3_2" name="{=latin_lord_8}Guillaume I de la Roche" voice="earnest" age="31" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -649,7 +649,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_3_2_1" name="{=latin_lady_7}Eléni Komneni Doúkaina" age="18" voice="Curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -671,7 +671,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 4 -->
@@ -694,7 +694,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_latin_16" name="{=latin_deadlord16}Laskaraina of Sanudo" age="99" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_quartermaster_skills" is_female="true" occupation="Lord" face_mesh_cache="true">
@@ -712,7 +712,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_4_1" name="{=latin_lord_9}Angelo I Sanudo, Duke of Naxos" voice="ironic" age="64" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -739,7 +739,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_4_1_1" name="{=latin_lady_8}Marguerite de Sainte-Ménéhould" age="60" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -761,7 +761,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_4_1_2" name="{=latin_lord_10}Marino I Sanudo, Lord of Paros and Antiparos" voice="ironic" age="40" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -790,7 +790,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_4_1_2_1" name="{=latin_lady_8}Porzia da Verona" age="39" voice="curt" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -812,7 +812,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_4_1_3" name="{=latin_lord_11}Marco II Sanudo" voice="curt" age="37" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -839,7 +839,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_4_1_3_1" name="{=latin_lady_9}Claricia Sanudo" age="36" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -861,7 +861,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_4_1_3_2" name="{=latin_lord_12}William Sanudo" voice="earnest" age="17" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -888,7 +888,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_4_1_3_3" name="{=latin_lord_13}Marco Sanudo" voice="earnest" age="15" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -915,7 +915,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_4_1_4" name="{=latin_lady_10}Maria Sanudo" age="36" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.latin" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -937,7 +937,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lion_combat"/>
-			<EquipmentSet id="latin_noble_lady" civilian="true"/>
+			<EquipmentSet id="latin_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_4_1_4_1" name="{=latin_lord_14}Paolo Navigajoso of Lemnos" voice="ironic" age="40" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -964,7 +964,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_4_2" name="{=latin_lord_15}Megas Doux Leonardo Navigajoso, Lord of Lemnos" voice="curt" age="58" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -991,7 +991,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_4_2_1" name="{=latin_lord_16}Filippo Navigajoso of Lemnos" voice="earnest" age="38" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1018,7 +1018,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_latin_4_2_2" name="{=latin_lord_17}Nicolao Navigajoso of Lemnos" voice="ironic" age="35" default_group="Cavalry" is_hero="true" culture="Culture.latin" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -1045,7 +1045,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="latin_lord_combat"/>
-			<EquipmentSet id="latin_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="latin_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

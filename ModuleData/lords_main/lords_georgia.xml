@@ -23,8 +23,8 @@
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="georgia_king_combat"/>
-			<EquipmentSet id="georgia_queen_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_combat"/>
+			<EquipmentSet id="georgia_queen_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_georgia_1b" name="{=dead_lord_georgia_1b}David Soslan" voice="ironic" age="68" is_female="false" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -52,8 +52,8 @@
 			<Trait id="Authoritarian" value="-1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="georgia_king_combat"/>
-			<EquipmentSet id="georgia_king_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_combat"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_georgia_1c" name="{=dead_lord_georgia_1e}George IV" voice="curt" age="67" is_female="false" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -82,7 +82,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_georgia_1d" name="{=dead_lord_georgia_1f}Thekla of Velistsikhian" voice="softspoken" age="66" is_female="true" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -108,7 +108,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_1a" name="{=lord_georgia_1a}David VII" voice="curt" age="44" is_female="false" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -137,7 +137,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_king_combat"/>
-			<EquipmentSet id="georgia_king_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_1b" name="{=lord_georgia_1b}Gvantsa Kakhaberidze" voice="earnest" age="40" is_female="true" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -163,7 +163,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_queen_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_queen_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_1c" name="{=lord_georgia_1c}George" voice="ironic" age="9" is_female="false" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -183,7 +183,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_1d" name="{=lord_georgia_1d}Tamar" voice="earnest" age="8" is_female="true" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -200,7 +200,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_noble_lady" civilian="true"/>
+			<EquipmentSet id="georgia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_1e" name="{=lord_georgia_1e}Demetrius II." voice="curt" age="1" is_female="false" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -220,7 +220,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_georgia_1e" name="{=dead_lord_georgia_1e}Rusudan, Queen of Georgia" voice="softspoken" age="65" is_female="true" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -246,7 +246,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_king_combat"/>
-			<EquipmentSet id="georgia_queen_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_queen_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_georgia_1f" name="{=dead_lord_georgia_1f}Ghias ad-din" voice="curt" age="59" is_female="false" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -275,7 +275,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_1f" name="{=lord_georgia_1f}David VI" voice="curt" age="34" is_female="false" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -304,7 +304,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_1f2" name="{=lord_georgia_1g}Tamar Amanelisdze" voice="earnest" age="30" is_female="true" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -330,7 +330,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_queen_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_queen_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_1g" name="{=lord_georgia_1c}Vakhtang II." voice="curt" age="12" is_female="false" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -350,7 +350,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_1h" name="{=lord_georgia_1d}Constantine I. of Imereti" voice="ironic" age="10" is_female="false" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -370,7 +370,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_1i" name="{=lord_georgia_1e}Michael of Imereti" voice="curt" age="9" is_female="false" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -390,7 +390,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_1j" name="{=lord_georgia_1g}Tamar Gurju Khatun" voice="softspoken" age="39" is_female="true" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -416,7 +416,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_queen_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_queen_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan_georgia_2: Jaqeli  -->
@@ -446,7 +446,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_2b" name="{=lord_georgia_2b}Tsisana" voice="softspoken" age="64" is_female="true" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -472,7 +472,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_2c" name="{=lord_georgia_2c}Sargis I Jaqeli, Atabeg of Samtskhe" voice="curt" age="38" is_female="false" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -501,7 +501,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_2d" name="{=lord_georgia_2d}Sidonia" voice="earnest" age="39" is_female="true" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -527,7 +527,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_2e" name="{=lord_georgia_2e}Sargis II Jaqeli" voice="curt" age="24" is_female="false" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -556,7 +556,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_2f" name="{=lord_georgia_2f}Jiajak Jaqeli" voice="earnest" age="22" is_female="true" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -582,7 +582,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_noble_lady" civilian="true"/>
+			<EquipmentSet id="georgia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_2g" name="{=lord_georgia_2g}Natela Jaqeli" voice="softspoken" age="20" is_female="true" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -608,7 +608,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_noble_lady" civilian="true"/>
+			<EquipmentSet id="georgia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_georgia_2h" name="{=lord_georgia_2h}Ivane Papa Jaqeli" voice="curt" age="66" is_female="false" is_hero="true" culture="Culture.georgia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -637,7 +637,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="georgia_lord_combat"/>
-			<EquipmentSet id="georgia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="georgia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

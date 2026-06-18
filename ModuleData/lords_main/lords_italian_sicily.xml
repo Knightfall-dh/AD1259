@@ -26,7 +26,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_kingmanfred_combat"/>
-			<EquipmentSet id="sic_kingmanfred_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_kingmanfred_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_1_2" name="{=sicily_lord_6}Tommaso I di Saluzzo, Marquess of Saluzzo" age="37" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -53,7 +53,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_hohenstaufen_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_1_3" name="{=sicily_lord_7}Luigia di Ceva" age="37" is_female="true" voice="softspoken" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -74,7 +74,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_1_4" name="{=sicily_lord_8}Manfredo IV di Saluzzo" age="18" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -101,7 +101,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_hohenstaufen_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_1_5" name="{=sicily_lady_3}Alice di Saluzzo" is_female="true" age="18" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -123,7 +123,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_hohenstaufen_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_1_6" name="{=sicily_lady_4}Costanza di Sicilia, Princess of Sicily" age="10" voice="ironic" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -141,7 +141,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_hohenstaufen_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_1_7" name="{=sicily_lord_11}Riccardo Sanseverino di Lauro, Count of Caserta" default_group="Cavalry" age="45" voice="curt" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -169,7 +169,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_hohenstaufen_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_1_8" name="{=sicily_lady_7}Violante Sanseverino" age="38" is_female="true" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_politician_skills" default_group="Cavalry" occupation="Lord" face_mesh_cache="true">
@@ -191,7 +191,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_1_9" name="{=sicily_lady_8}Siffridina Sanseverino di Lauro" default_group="Cavalry" age="14" is_female="true" voice="softspoken" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -210,7 +210,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_1_10" name="{=sicily_lord_12}Corrado Sanseverino di Lauro" default_group="Cavalry" age="17" is_female="false" voice="softspoken" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -232,7 +232,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- sicily clan 2 -->
@@ -262,7 +262,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_2_2" name="{=sicily_lady_1}Margherita di Ocre" age="50" voice="softspoken" is_hero="true" default_group="Cavalry" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -284,7 +284,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_2_3" name="{=sicily_lord_3}Enrico di Lancia" age="18" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -312,7 +312,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_2_4" name="{=sicily_lord_9}Federico di Lancia" age="25" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -341,7 +341,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_2_5" name="{=sicily_lady_5}Beatrice di Lancia" age="17" voice="softspoken" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -362,7 +362,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_2_6" name="{=sicily_lord_16}Federico di Lancia, Count of Squillace" default_group="Cavalry" age="39" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -390,7 +390,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_2_7" name="{=sicily_lady_12}Gertrude di Lancia" default_group="Cavalry" is_female="true" age="31" voice="curt" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -410,7 +410,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_2_8" name="{=sicily_lady_13}Constanza di Lancia" default_group="Cavalry" is_female="true" age="9" voice="curt" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -428,7 +428,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_2_9" name="{=sicily_lord_17}Corrado di Lancia" default_group="Cavalry" age="11" voice="curt" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -450,7 +450,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- sicily clan 3 -->
@@ -478,7 +478,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_3_2" name="{=sicily_lady_2}Minora di Maletta" age="48" voice="curt" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -501,7 +501,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_3_3" name="{=sicily_lord_5}Guglielmo III di Maletta" age="19" voice="curt" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -527,7 +527,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_3_4" name="{=sicily_lord_10}Francesco di Maletta" age="23" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -555,7 +555,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_3_5" name="{=sicily_lady_6}Isabella di Maletta" age="20" voice="ironic" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -579,7 +579,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- sicily clan 4 -->
@@ -609,7 +609,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_4_2" name="{=sicily_lady_11}Margaret d'Aquino, Countess of Acerra" voice="curt" age="23" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -630,7 +630,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_4_3" name="{=sicily_lady_11}Giovanna d'Aquino" voice="softspoken" age="3" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -647,7 +647,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_4_4" name="{=sicily_lord_15}Cristoforo d'Aquino" voice="softspoken" age="3" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -668,7 +668,7 @@
     </Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_4_5" name="{=sicily_lord_13}Jacopo d'Aquino" default_group="Cavalry" age="51" voice="softspoken" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -695,7 +695,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_4_6" name="{=sicily_lady_9}Costanza di Maletta" is_female="true" age="37" default_group="Cavalry" voice="ironic" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -718,7 +718,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_4_7" name="{=sicily_lady_10}Gubitosa d'Aquino" is_female="true" default_group="Cavalry" age="17" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -737,7 +737,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_4_8" name="{=hre_lady_23}Margaretha von Zollern-Hohenberg" is_female="true" voice="softspoken" age="17" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -759,7 +759,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- sicily clan 5 -->
@@ -789,7 +789,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_diamond_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_5_2" name="{=sicily_lady_16}Giovanna Ruffo di Calabria" voice="curt" age="32" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -812,7 +812,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_diamond_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_5_3" name="{=sicily_lady_17}Claricia Ruffo di Calabria" voice="curt" age="12" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -829,7 +829,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="sic_diamond_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_5_4" name="{=sicily_lady_18}Jacopa Giovanna Ruffo di Calabria" voice="curt" age="9" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -846,7 +846,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_5_5" name="{=sicily_lord_25}Landolfo d'Aquino" voice="softspoken" age="30" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -874,7 +874,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_diamond_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_5_6" name="{=sicily_lady_23}Agnese d'Aquino" voice="curt" is_female="true" age="30" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -894,7 +894,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_diamond_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- sicily clan 6 -->
@@ -922,7 +922,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_6_2" name="{=sicily_lady_14}Amina di Sanseverino" voice="curt" age="26" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -944,7 +944,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_6_3" name="{=sicily_lord_21}Guido Guidi, Count of Modigliana" voice="curt" age="33" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -972,7 +972,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_6_4" name="{=sicily_lady_19}Adelasia di Panico" voice="curt" age="23" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -992,7 +992,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- sicily clan 7 -->
@@ -1021,7 +1021,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_7_2" name="{=sicily_lady_15}Aldegunda da Soresina" voice="softspoken" is_female="true" age="26" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -1041,7 +1041,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_7_3" name="{=sicily_lord_22}Goffredo I Grifeo, Barone di Partanna" voice="softspoken" age="33" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1069,7 +1069,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_7_4" name="{=sicily_lady_20}Antonia Ventimiglia" voice="earnest" is_female="true" age="28" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -1090,7 +1090,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_7_5" name="{=sicily_lady_21}Orlando Grifeo" voice="softspoken" is_female="false" age="7" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -1110,7 +1110,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- sicily clan 8 -->
@@ -1138,7 +1138,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_8_2" name="{=sicily_lady_22}Sancia di Santa Eugènia de Berga" is_female="true" voice="softspoken" age="31" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -1159,7 +1159,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_8_3" name="{=sicily_lord_24}Marchesa, VI viscontessa di Cabrera" is_female="false" voice="earnest" age="19" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -1186,7 +1186,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- sicily clan 9 -->
@@ -1214,7 +1214,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_9_2" name="{=sicily_lady_24}Margherita da Romano" age="46" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -1237,7 +1237,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_9_3" name="{=sicily_lord_27}Alberico III da Romano" age="26" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1265,7 +1265,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="sic_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_sicily_9_4" name="{=sicily_lady_25}Adelasia da Romano" age="24" is_female="true" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1289,7 +1289,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_striped_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

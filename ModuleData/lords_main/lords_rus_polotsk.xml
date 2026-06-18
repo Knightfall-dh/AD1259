@@ -19,8 +19,8 @@
         </Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_polotsk_2" name="{=dead_lord_polotsk_2}Yulia Davidovna Smolenskaja" age="75" voice="earnest" is_female="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" is_hero="true" face_mesh_cache="true">
@@ -38,8 +38,8 @@
         </Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_1a" name="{=lord_polotsk_1}Bryachislav Vasilkovich" voice="softspoken" age="48" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -67,8 +67,8 @@
 			<Trait id="Authoritarian" value="-2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="polotsk_king_combat"/>
+			<EquipmentSet id="polotsk_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_1b" name="{=lord_polotsk_2}Alexandra Bryachislavna" voice="softspoken" age="43" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -93,8 +93,8 @@
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_1c" name="{=lord_polotsk_3}Izyaslav Vasilkovich" voice="ironic" age="19" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -122,8 +122,8 @@
 			<Trait id="Authoritarian" value="-2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_1d" name="{=lord_polotsk_4}Vasilko Vasilkovich" voice="curt" age="15" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -151,8 +151,8 @@
 			<Trait id="Authoritarian" value="-2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_1e" name="{=lord_polotsk_5}Anastasia Bryachislavna" voice="softspoken" age="28" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -177,8 +177,8 @@
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_2a" name="{=lord_polotsk_6}Konstantin Bezrukiy" voice="curt" age="40" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -206,8 +206,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_2b" name="{=lord_polotsk_7}Evdokia Jaroslavna Nevska" voice="softspoken" age="37" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -232,8 +232,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_2c" name="{=lord_polotsk_8}Knyaz Mikhail Konstantinovich" voice="ironic" age="18" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -261,8 +261,8 @@
 			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_2d" name="{=lord_polotsk_9}Ifeoma" voice="earnest" age="18" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -287,8 +287,8 @@
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_2e" name="{=lord_polotsk_10}Knyaz Fedor Konstantinovich" voice="curt" age="19" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -316,8 +316,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_2f" name="{=lord_polotsk_11}Anna Vasilkovna" voice="softspoken" age="29" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -342,8 +342,8 @@
 			<Trait id="Authoritarian" value="-2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_3a" name="{=lord_polotsk_12}Knyaz Tovtivil Litovskij" voice="ironic" age="49" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -371,8 +371,8 @@
 			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_3b" name="{=lord_polotsk_13}Izyaslav Tovtivilskij" voice="softspoken" age="22" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -400,8 +400,8 @@
 			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_3c" name="{=lord_polotsk_14}Gerden Tovtivilskij" voice="ironic" age="20" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -429,8 +429,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_3d" name="{=lord_polotsk_15}Ivan Tovtivilskij" voice="curt" age="17" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -458,8 +458,8 @@
 			<Trait id="Authoritarian" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_3e" name="{=lord_polotsk_16}Daryna" voice="earnest" age="18" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -484,8 +484,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_4a" name="{=lord_polotsk_17}Ivan Vsevolodovich" voice="curt" age="34" is_female="false" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -513,8 +513,8 @@
 			<Trait id="Authoritarian" value="-1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_4b" name="{=lord_polotsk_18}Marina" voice="earnest" age="29" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -539,8 +539,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_polotsk_4c" name="{=lord_polotsk_19}Biruta Ivanovska" voice="softspoken" age="4" is_female="true" is_hero="true" culture="Culture.rus" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -565,8 +565,8 @@
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="rus_bat_template_medium"/>
-			<EquipmentSet id="rus_bat_template_woodsman" civilian="true"/>
+			<EquipmentSet id="polotsk_lord_combat"/>
+			<EquipmentSet id="polotsk_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

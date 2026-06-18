@@ -26,7 +26,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_striped_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_brittany_2" name="{=brittany_lord_2}Alix de Mauléon, Dame de Mauléon, de Talmont et de Benon" age="70" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -46,7 +46,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_1a" name="{=brittany_lord_1}Renaud Ier de Thouars" age="63" voice="ironic" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -77,8 +77,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="brittany_king_combat"/>
+			<EquipmentSet id="brittany_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_1b" name="{=brittany_lord_4}Aliénor de Soissons" age="40" voice="earnest" is_female="true" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -102,7 +102,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_1c" name="{=brittany_lord_5}Hugues de Thouars, Seigneur de Pouzauges et Tiffauges" age="39" voice="earnest" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -130,7 +130,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_1d" name="{=brittany_lord_2}Savary IV de Thouars" default_group="Cavalry" age="62" voice="curt" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -156,7 +156,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_1e" name="{=brittany_lord_6}Agnès de Pons" voice="softspoken" age="60" is_female="true" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -181,7 +181,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_1f" name="{=brittany_lord_7}Alix de Thouars, dame de Marcillac" age="40" voice="earnest" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -208,7 +208,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_1g" name="{=brittany_lord_3}Aimery IX de Thouars" age="34" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -239,7 +239,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_1h" name="{=brittany_lord_8}Marguerite de Lusignan" age="30" voice="curt" is_female="true" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -266,7 +266,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_1i" name="{=brittany_lord_9}Guy II de Thouars" age="13" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -287,7 +287,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 2:  Maison de Rohan -->
@@ -316,7 +316,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_2b" name="{=brittany_lord_11}Thomasse de La Roche-Bernard" age="34" voice="earnest" is_hero="true" default_group="Cavalry" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -338,7 +338,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_2c" name="{=brittany_lord_12}Eon de Rohan, Seigneur du Gué-de-l'Isle" age="20" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -367,7 +367,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_2d" name="{=brittany_lord_13}Olivier II de Rohan" age="2" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -396,7 +396,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_2e" name="{=brittany_lord_14}Jeanne de Rohan" age="18" voice="earnest" default_group="Cavalry" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -423,7 +423,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 3: Maison de Laval -->
@@ -451,7 +451,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_3b" name="{=brittany_lord_19}Philippa of Vitré" age="29" voice="softspoken" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -472,7 +472,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_3c" name="{=brittany_lord_20}Guy VIII de Laval" age="14" voice="ironic" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" default_group="Cavalry" occupation="Lord" face_mesh_cache="true">
@@ -499,7 +499,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_3d" name="{=brittany_lord_21}Isabelle de Beaumont-Gâtinais" age="19" voice="ironic" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -521,7 +521,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_3e" name="{=brittany_lord_22}Catherine de Laval" age="10" voice="softspoken" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -539,7 +539,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_3f" name="{=brittany_lord_23}Guyonne de Laval" age="9" voice="softspoken" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -560,7 +560,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 4: Maison de Rieux -->
@@ -588,7 +588,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_4b" name="{=brittany_lord_16}Isabeau de Clisson" age="24" voice="softspoken" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -609,7 +609,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_brittany_4c" name="{=brittany_lord_17}Jean II de Rieux" age="2" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -638,7 +638,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

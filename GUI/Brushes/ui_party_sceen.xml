@@ -1,0 +1,52 @@
+<Brushes>
+
+   <Brush Name="Party.Text.Toggle" Font="Galahad">
+    <Layers>
+      <BrushLayer Name="Default" />
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#6E260EFF" TextGlowRadius="0.1" TextBlur="1" TextShadowOffset="0" TextOutlineAmount="0.1" TextGlowColor="#00000055" FontSize="32">
+        <BrushLayer Name="Default" />
+      </Style>
+
+      <Style Name="Hovered" FontColor="#482f2fFF" TextGlowRadius="1" TextBlur="1" TextShadowOffset="0" TextOutlineAmount="0.4" TextGlowColor="#00000055" FontSize="32">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="Disabled" FontColor="#593919FF" TextGlowRadius="1" TextBlur="1" TextShadowOffset="0" TextOutlineAmount="0.4" TextGlowColor="#00000055" FontSize="32">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="OverLimit" FontColor="#6E260EFF" TextGlowRadius="1" TextBlur="1" TextShadowOffset="0" TextOutlineAmount="0.4" TextGlowColor="#00000055" FontSize="32" AnimationToPlayOnBegin="WarningAnimation">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+    <Animations>
+      <Animation Name="WarningAnimation" Duration="0.6" Loop="true">
+        <AnimationProperty PropertyName="FontColor">
+          <KeyFrame Time="0.0" Value="#6E260EFF" />
+          <KeyFrame Time="0.3" Value="#ED3D3DFF" />
+        </AnimationProperty>
+      </Animation>
+    </Animations>
+  </Brush>
+
+  <Brush Name="Party.Text.Tuple" Font="FiraSansExtraCondensed-Regular">
+    <Layers>
+      <BrushLayer Name="Default" />
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#593919FF" TextGlowRadius="0" TextBlur="0" TextShadowOffset="1" FontSize="20">
+        <BrushLayer Name="Default" />
+      </Style>
+    </Styles>
+  </Brush>
+  
+
+
+ 
+  
+
+
+  
+  
+  
+</Brushes>

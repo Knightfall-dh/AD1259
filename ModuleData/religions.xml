@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Religions>
+
+  <!-- Religion Definitions -->
+  <Religion id="tengri"
+            name="Tengrism"
+            short_name="Tengri"
+            description="The ancient sky-worship of the Mongol and Turkic steppe peoples. Tengrists revere the Eternal Blue Sky as the supreme deity and believe the Great Khan rules by divine mandate. The Mongol Empire's tolerance of other faiths stems from the Tengrist belief that the sky god encompasses all truth, yet their devastating conquests have earned them the fear and hatred of settled civilizations."
+            color="#D4A017"
+  />
+
+  <Religion id="orthodox"
+            name="Orthodox Christianity"
+            short_name="Orthodox"
+            description="The ancient Christian faith centered on the Ecumenical Patriarchate of Constantinople. Orthodox Christians hold to the traditions of the early Church Councils and maintain their own distinct liturgy, theology, and ecclesiastical hierarchy independent of Rome. Though weakened by the Latin sack of Constantinople in 1204, the faith endures across the Balkans, the Caucasus, and the Rus principalities."
+            color="#5C3566"
+  />
+
+  <Religion id="catholic"
+            name="Catholic Christianity"
+            short_name="Catholic"
+            description="The faith of the Holy See in Rome, the Catholic Church holds spiritual authority over the kingdoms of Western and Central Europe. Under the leadership of the Pope, it calls crusades, crowns emperors, and shapes the political destiny of Christendom. Its military orders — the Templars, Hospitallers, and Teutonic Knights — wage holy war on multiple fronts."
+            color="#C4A000"
+  />
+
+  <Religion id="sunni"
+            name="Sunni Islam"
+            short_name="Sunni"
+            description="The majority branch of Islam, following the traditions of the Prophet Muhammad and the Rashidun Caliphs. Sunni Muslims hold the Abbasid Caliph in Baghdad as the spiritual leader of the Ummah, though his temporal power has waned under Mongol pressure. From the Sultanate of Rum to the Almohad realms of North Africa, Sunni Islam shapes law, scholarship, and warfare across a vast domain."
+            color="#4E9A06"
+  />
+
+  <Religion id="shia"
+            name="Shia Islam"
+            short_name="Shia"
+            description="Followers of the house of Ali, Shia Muslims believe the rightful leadership of the Islamic community descends through the Prophet's family. The Ismaili Nizari sect, known to outsiders as the Assassins, holds mountain fortresses from Persia to Syria. Though a minority within the Islamic world, Shia communities wield disproportionate influence through devotion, scholarship, and strategic warfare."
+            color="#06989A"
+  />
+
+  <Religion id="pagan"
+            name="Paganism"
+            short_name="Pagan"
+            description="The old faiths of the forests and northern lands. Whether the sacred groves of the Baltic peoples or the spirit traditions of the Sami, these ancient beliefs persist at the edges of Christendom. Pagan peoples face mounting pressure from crusading orders and missionary campaigns, yet their traditions endure in the deep woods and frozen north."
+            color="#8F5902"
+  />
+
+  <!--
+    Relationship Matrix
+    Each entry defines the relation modifier when a hero of religion "from"
+    interacts with a hero of religion "to".
+    The diagonal (same religion) is the same-faith bonus.
+  -->
+  <RelationMatrix>
+    <!-- Tengri relations -->
+    <Relation from="tengri" to="tengri" value="5"/>
+    <Relation from="tengri" to="orthodox" value="-35"/>
+    <Relation from="tengri" to="catholic" value="-15"/>
+    <Relation from="tengri" to="sunni" value="-45"/>
+    <Relation from="tengri" to="shia" value="-20"/>
+    <Relation from="tengri" to="pagan" value="0"/>
+
+    <!-- Orthodox relations -->
+    <Relation from="orthodox" to="tengri" value="-35"/>
+    <Relation from="orthodox" to="orthodox" value="5"/>
+    <Relation from="orthodox" to="catholic" value="-10"/>
+    <Relation from="orthodox" to="sunni" value="-20"/>
+    <Relation from="orthodox" to="shia" value="-20"/>
+    <Relation from="orthodox" to="pagan" value="-20"/>
+
+    <!-- Catholic relations -->
+    <Relation from="catholic" to="tengri" value="-15"/>
+    <Relation from="catholic" to="orthodox" value="-10"/>
+    <Relation from="catholic" to="catholic" value="5"/>
+    <Relation from="catholic" to="sunni" value="-30"/>
+    <Relation from="catholic" to="shia" value="-25"/>
+    <Relation from="catholic" to="pagan" value="-35"/>
+
+    <!-- Sunni relations -->
+    <Relation from="sunni" to="tengri" value="-45"/>
+    <Relation from="sunni" to="orthodox" value="-20"/>
+    <Relation from="sunni" to="catholic" value="-30"/>
+    <Relation from="sunni" to="sunni" value="5"/>
+    <Relation from="sunni" to="shia" value="-10"/>
+    <Relation from="sunni" to="pagan" value="-25"/>
+
+    <!-- Shia relations -->
+    <Relation from="shia" to="tengri" value="-20"/>
+    <Relation from="shia" to="orthodox" value="-20"/>
+    <Relation from="shia" to="catholic" value="-25"/>
+    <Relation from="shia" to="sunni" value="-10"/>
+    <Relation from="shia" to="shia" value="5"/>
+    <Relation from="shia" to="pagan" value="-20"/>
+
+    <!-- Pagan relations -->
+    <Relation from="pagan" to="tengri" value="0"/>
+    <Relation from="pagan" to="orthodox" value="-20"/>
+    <Relation from="pagan" to="catholic" value="-35"/>
+    <Relation from="pagan" to="sunni" value="-25"/>
+    <Relation from="pagan" to="shia" value="-20"/>
+    <Relation from="pagan" to="pagan" value="5"/>
+  </RelationMatrix>
+
+  <!-- Culture to Religion Mappings -->
+  <CultureMappings>
+    <!-- Tengri -->
+    <Mapping culture="mongolian" religion="tengri"/>
+    <Mapping culture="ilkhanid" religion="tengri"/>
+    <Mapping culture="cuman" religion="tengri"/>
+
+    <!-- Catholic -->
+    <Mapping culture="aragonese" religion="catholic"/>
+    <Mapping culture="bohemia" religion="catholic"/>
+    <Mapping culture="castile" religion="catholic"/>
+    <Mapping culture="crusader" religion="catholic"/>
+    <Mapping culture="danish" religion="catholic"/>
+    <Mapping culture="england" religion="catholic"/>
+    <Mapping culture="french" religion="catholic"/>
+    <Mapping culture="gaelic" religion="catholic"/>
+    <Mapping culture="germanic" religion="catholic"/>
+    <Mapping culture="hungarian" religion="catholic"/>
+    <Mapping culture="italian" religion="catholic"/>
+    <Mapping culture="latin" religion="catholic"/>
+    <Mapping culture="norwegian" religion="catholic"/>
+    <Mapping culture="poland" religion="catholic"/>
+    <Mapping culture="portuguese" religion="catholic"/>
+    <Mapping culture="scottish" religion="catholic"/>
+    <Mapping culture="swedish" religion="catholic"/>
+    <Mapping culture="teutonic" religion="catholic"/>
+    <Mapping culture="wales" religion="catholic"/>
+    <Mapping culture="genoa" religion="catholic"/>
+    <Mapping culture="santiago" religion="catholic"/>
+    <Mapping culture="templar" religion="catholic"/>
+    <Mapping culture="lazarus" religion="catholic"/>
+    <Mapping culture="hospitaller" religion="catholic"/>
+    <Mapping culture="cathars" religion="catholic"/>
+
+    <!-- Orthodox -->
+    <Mapping culture="armenia" religion="orthodox"/>
+    <Mapping culture="bulgaria" religion="orthodox"/>
+    <Mapping culture="georgia" religion="orthodox"/>
+    <Mapping culture="greek" religion="orthodox"/>
+    <Mapping culture="halych" religion="orthodox"/>
+    <Mapping culture="rus" religion="orthodox"/>
+    <Mapping culture="serbia" religion="orthodox"/>
+    <Mapping culture="bosnia" religion="orthodox"/>
+
+    <!-- Sunni Islam -->
+    <Mapping culture="berber" religion="sunni"/>
+    <Mapping culture="andalus" religion="sunni"/>
+    <Mapping culture="turkish" religion="sunni"/>
+    <Mapping culture="darshi" religion="sunni"/>
+
+    <!-- Shia Islam -->
+    <Mapping culture="nizari" religion="shia"/>
+
+    <!-- Paganism -->
+    <Mapping culture="baltic" religion="pagan"/>
+    <Mapping culture="sami" religion="pagan"/>
+  </CultureMappings>
+</Religions>

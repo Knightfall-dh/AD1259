@@ -22,7 +22,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_1" name="{=polish_lord_5}Bolesław V the Chaste, High Duke of Poland" age="47" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -53,7 +53,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_dukekonrad_combat"/>
-			<EquipmentSet id="pol_dukekonrad_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_dukekonrad_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_1_1" name="{=polish_lady_1}Kinga of Hungary, High Duchess of Poland" age="35" voice="earnest" culture="Culture.hungarian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" is_hero="true" is_female="true" face_mesh_cache="true">
@@ -76,7 +76,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="hung_lord_combat"/>
-			<EquipmentSet id="hung_noble_lady" civilian="true"/>
+			<EquipmentSet id="hung_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_1_2" name="{=polish_lord_14}Prince Siemowit I, Duke of Masovia" age="18" voice="softspoken" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -105,7 +105,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_dukesiemowit_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_1_3" name="{=polish_lord_10}Bolesław the Pious, Duke of Greater Poland" age="35" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -135,7 +135,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hungary_1_1_3" name="{=hungary_lady_4}Jolán of Hungary" age="24" voice="softspoken" culture="Culture.hungarian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" is_hero="true" is_female="true" face_mesh_cache="true">
@@ -157,7 +157,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="hung_lord_combat"/>
-			<EquipmentSet id="hung_noble_lady" civilian="true"/>
+			<EquipmentSet id="hung_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_1_4" name="{=polish_lord_18}Konrad I Głogowski, Duke of Głogów" age="43" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -186,7 +186,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_checkered_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 2: -->
@@ -213,7 +213,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_2" name="{=polish_lord_6}Bolesław II Rogatka, Duke of Legnica" voice="curt" age="50" is_female="false" culture="Culture.poland" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" is_hero="true" face_mesh_cache="true">
@@ -243,7 +243,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_2_1" name="{=polish_lady_2}Hedwig von Anhalt" age="52" voice="ironic" culture="Culture.poland" skill_template="SkillSet.spc_politician_skills" default_group="Cavalry" is_female="true" is_hero="true" occupation="Lord" face_mesh_cache="true">
@@ -265,7 +265,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_2_1_a" name="{=polish_lord_11}Henryk V" age="18" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -293,7 +293,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_2_1_b" name="{=polish_lord_12}Bolko I Surowy" age="17" voice="curt" is_female="false" culture="Culture.poland" skill_template="SkillSet.spc_healer_scholar_skills" default_group="Cavalry" is_hero="true" occupation="Lord" face_mesh_cache="true">
@@ -320,7 +320,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_2_1_c" name="{=polish_lady_3}Jadwiga Legnicka" age="22" voice="curt" default_group="Cavalry" is_female="true" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -343,7 +343,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_2_1_d" name="{=polish_lady_18}Agnes" age="16" voice="curt" is_female="true" culture="Culture.poland" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" is_hero="true" face_mesh_cache="true">
@@ -365,7 +365,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_2_1_e" name="{=polish_lady_19}Jadwiga" age="9" voice="curt" is_female="true" culture="Culture.poland" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" is_hero="true" face_mesh_cache="true">
@@ -385,7 +385,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_2_1_f" name="{=polish_lord_28}Bernard" age="6" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -406,7 +406,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_2_2" name="{=polish_lord_23}Przemko Ścinawski" age="25" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -435,7 +435,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_checkered_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 3: -->
@@ -464,7 +464,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_3_1_a" name="{=polish_lord_8}Kazimierz II Opolski" age="19" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -491,7 +491,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_3_1_b" name="{=polish_lord_13}Mieszko I Opolski" age="20" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -520,7 +520,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_3_1_c" name="{=polish_lady_4}Konstancja Opolska" age="23" voice="ironic" is_female="true" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -545,7 +545,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_3_2" name="{=polish_lord_15}Mieszko II Otyły" age="38" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -574,7 +574,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 4: -->
@@ -605,7 +605,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_4_1" name="{=polish_lady_5}Ermengard von Schwerin" age="37" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -627,7 +627,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_4_1_a" name="{=polish_lady_6}Eufemii Pomorska" age="18" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -652,7 +652,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_4_2" name="{=polish_lord_25}Sambor II Tczewski" age="48" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -679,7 +679,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_4_2_1" name="{=polish_lady_17}Mechthild von Mecklenburg" age="44" voice="curt" is_female="true" culture="Culture.germanic" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" is_hero="true" face_mesh_cache="true">
@@ -704,7 +704,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_4_3" name="{=polish_lord_9}Warcisław, Duke of Lubiszewo" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -732,7 +732,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 5: -->
@@ -762,7 +762,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_5_1" name="{=polish_lady_7}Eufrozyna Opolska" age="34" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -785,7 +785,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_5_1_a" name="{=polish_lady_8}Eufemia Kujawska" age="15" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -804,7 +804,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_5_1_b" name="{=polish_lord_20}Leszek II Czarny, Duke of Sieradz" age="19" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -834,7 +834,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_5_1_c" name="{=polish_lord_21}Ziemomysł Inowrocławski, Duke of Inowrocław" age="18" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -863,7 +863,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_5_2" name="{=polish_lord_22}Mściwój II, Duke of Świecie" age="30" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -891,7 +891,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_5_2_1" name="{=polish_lady_14}Jutta von Brehna Wettiner" age="20" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -913,7 +913,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 6: -->
@@ -941,7 +941,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_6_1" name="{=polish_lady_11}Judyta Mazowiecka" age="40" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -963,7 +963,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_6_1_a" name="{=polish_lady_12}Jadwiga Śląska" age="20" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -985,7 +985,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_6_1_b" name="{=polish_lord_29}Henryk IV Wrocławski" age="3" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -1006,7 +1006,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_6_2" name="{=polish_lord_24}Władysław Wrocławski, Duke of Wrocław" age="30" voice="softspoken" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1034,7 +1034,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 7: -->
@@ -1063,7 +1063,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_7_1" name="{=polish_lady_15}Elżbieta Wrocławska" age="48" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -1084,7 +1084,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_7_1_a" name="{=polish_lord_27}Przemysł II Wielkopolski" age="18" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -1111,7 +1111,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="pol_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_poland_7_1_b" name="{=polish_lady_16}Konstancja Wielkopolska" age="22" voice="ironic" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.poland" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1135,7 +1135,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 7 for now, needs to be changed -->
@@ -1159,7 +1159,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="pol_lord_combat"/>
-			<EquipmentSet id="pol_noble_lady" civilian="true"/>
+			<EquipmentSet id="pol_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

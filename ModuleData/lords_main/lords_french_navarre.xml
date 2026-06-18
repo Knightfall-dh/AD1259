@@ -26,7 +26,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_striped_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_navarre_1_1" name="{=navarre_lady_18}Margaret of Bourbon" age="61" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -46,7 +46,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_navarre_1" name="{=navarre_lord_1}Theobald II the Young, King of Navarre, Count of Brie" age="28" voice="ironic" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -77,8 +77,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="navarre_king_combat"/>
+			<EquipmentSet id="navarre_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_navarre_1_1" name="{=navarre_lady_1}Isabella of France, Queen of Navarre" default_group="Cavalry" age="25" voice="curt" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -101,7 +101,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
-			<EquipmentSet id="cas_noble_lady" civilian="true"/>
+			<EquipmentSet id="cas_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_navarre_2_1" name="{=navarre_lord_2}Henry I le Gros" age="39" voice="ironic" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -132,7 +132,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_navarre_2_2" name="{=navarre_lady_2}Blanche of Artois" age="40" voice="earnest" is_female="true" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -156,7 +156,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_navarre_2_2_a" name="{=navarre_lord_7}Joan I" age="20" voice="earnest" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -184,7 +184,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_fleursdelis_combat"/>
-			<EquipmentSet id="fra_noble_lady" civilian="true"/>
+			<EquipmentSet id="fra_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_navarre_2_2_b" name="{=navarre_lord_4}Theobald III" voice="softspoken" age="19" is_female="false" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -212,7 +212,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_navarre_2_2_c" name="{=navarre_lord_3}Robert I" age="18" voice="earnest" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -242,7 +242,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_navarre_2_2_d" name="{=navarre_lord_3}Henry II" age="16" voice="curt" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -272,7 +272,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="fra_lord_combat"/>
-			<EquipmentSet id="fra_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="fra_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan 2: Maison de Jimenéz -->
@@ -301,7 +301,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="cas_lord_castaneda_combat"/>
-			<EquipmentSet id="cas_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="cas_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_navarre_3_2" name="{=navarre_lady_4}Sancha of Castile" age="24" voice="earnest" is_hero="true" is_female="true" culture="Culture.french" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -324,7 +324,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="cas_lord_castaneda_combat"/>
-			<EquipmentSet id="cas_noble_lady" civilian="true"/>
+			<EquipmentSet id="cas_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_navarre_3_3_a" name="{=navarre_lord_26}Sancho VII" age="28" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -351,7 +351,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="cas_lord_castaneda_combat"/>
-			<EquipmentSet id="cas_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="cas_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_navarre_3_3_b" name="{=navarre_lady_19}Constance de Toulouse" age="61" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -371,7 +371,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="cas_lord_combat"/>
-			<EquipmentSet id="cas_noble_lady" civilian="true"/>
+			<EquipmentSet id="cas_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_navarre_3_3_c" name="{=navarre_lord_8}Peter II Aragonese" default_group="Cavalry" age="21" voice="ironic" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -399,7 +399,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="cas_lord_castaneda_combat"/>
-			<EquipmentSet id="cas_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="cas_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_navarre_3_3_d" name="{=navarre_lord_11}Enrique I" voice="curt" default_group="Cavalry" age="38" is_hero="true" culture="Culture.french" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -427,7 +427,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="cas_lord_castaneda_combat"/>
-			<EquipmentSet id="cas_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="cas_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

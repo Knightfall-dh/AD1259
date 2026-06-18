@@ -22,7 +22,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_basic_root_bat"/>
-            <EquipmentSet id="turkish_basic_root_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root0" default_group="Infantry" level="11" name="{=Halqa Footman}Halqa Footman" occupation="Soldier" culture="Culture.turkish">
@@ -45,7 +45,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_basic_root0_bat"/>
-            <EquipmentSet id="turkish_basic_root0_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root0_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root1" default_group="Ranged" level="11" name="{=Halqa Archer}Halqa Archer" occupation="Soldier" culture="Culture.turkish">
@@ -68,7 +68,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_basic_root1_bat"/>
-            <EquipmentSet id="turkish_basic_root1_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root1_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root10" default_group="Ranged" level="16" name="{=Halqa Trained Archer}Halqa Trained Archer" occupation="Soldier"
@@ -91,7 +91,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_basic_root10_bat"/>
-            <EquipmentSet id="turkish_basic_root10_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root10_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root11" default_group="HorseArcher" level="16" name="{=Halqa Mounted Archer}Halqa Mounted Archer"
@@ -114,7 +114,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_basic_root11_bat"/>
-            <EquipmentSet id="turkish_basic_root11_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root11_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root110" default_group="HorseArcher" level="21" name="{=Halqa Veteran Mounted Archer}Halqa Veteran Mounted Archer"
@@ -137,7 +137,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_basic_root110_bat"/>
-            <EquipmentSet id="turkish_basic_root110_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root110_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root1100" default_group="HorseArcher" level="26" name="{=Halqa Mounted Marksman}Halqa Mounted Marksman" occupation="Soldier"
@@ -157,7 +157,7 @@
         </skills>
         <Equipments>
             <EquipmentSet id="turkish_basic_root1100_bat"/>
-            <EquipmentSet id="turkish_basic_root1100_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root1100_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root100" default_group="Ranged" level="21" name="{=Halqa Veteran Archer}Halqa Veteran Archer" occupation="Soldier"
@@ -180,7 +180,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_basic_root100_bat"/>
-            <EquipmentSet id="turkish_basic_root100_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root100_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root1000" default_group="Ranged" level="26" name="{=Halqa Expert Archer}Halqa Expert Archer" occupation="Soldier"
@@ -200,7 +200,7 @@
         </skills>
         <Equipments>
             <EquipmentSet id="turkish_basic_root1000_bat"/>
-            <EquipmentSet id="turkish_basic_root1000_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root1000_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root00" default_group="Infantry" level="16" name="{=Halqa Trained Footman}Halqa Trained Footman" occupation="Soldier"
@@ -223,7 +223,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_basic_root00_bat"/>
-            <EquipmentSet id="turkish_basic_root00_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root00_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root01" default_group="Infantry" level="16" name="{=Halqa Light Spearman}Halqa Light Spearman" occupation="Soldier"
@@ -247,7 +247,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_basic_root01_bat"/>
-            <EquipmentSet id="turkish_basic_root01_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root01_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root010" default_group="Infantry" level="21" name="{=Halqa Veteran Spearman}Halqa Veteran Spearman" occupation="Soldier"
@@ -270,7 +270,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_basic_root010_bat"/>
-            <EquipmentSet id="turkish_basic_root010_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root010_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root011" default_group="Cavalry" level="21" name="{=Halqa Light Lancer}Halqa Light Cavalryman" upgrade_requires="ItemCategory.horse"
@@ -293,7 +293,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_basic_root011_bat"/>
-            <EquipmentSet id="turkish_basic_root011_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root011_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root0110" default_group="Cavalry" level="26" name="{=Halqa Mounted Harasser}Halqa Mounted Harasser" occupation="Soldier"
@@ -313,7 +313,7 @@
         </skills>
         <Equipments>
             <EquipmentSet id="turkish_basic_root0110_bat"/>
-            <EquipmentSet id="turkish_basic_root0110_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root0110_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root0100" default_group="Infantry" level="26" name="{=Halqa Linebreaker}Halqa Linebreaker" occupation="Soldier"
@@ -333,7 +333,7 @@
         </skills>
         <Equipments>
             <EquipmentSet id="turkish_basic_root0100_bat"/>
-            <EquipmentSet id="turkish_basic_root0100_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root0100_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root000" default_group="Infantry" level="21" name="{=Halqa Infantryman}Halqa Infantryman" occupation="Soldier"
@@ -356,7 +356,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_basic_root000_bat"/>
-            <EquipmentSet id="turkish_basic_root000_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root000_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_basic_root0000" default_group="Infantry" level="26" name="{=Halqa Elite Infantryman}Halqa Elite Infantryman" occupation="Soldier"
@@ -376,7 +376,7 @@
         </skills>
         <Equipments>
             <EquipmentSet id="turkish_basic_root0000_bat"/>
-            <EquipmentSet id="turkish_basic_root0000_civ" civilian="true"/>
+            <EquipmentSet id="turkish_basic_root0000_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <!-- Mamluk Sultanate noble troops -->
@@ -401,7 +401,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_elite_root_bat"/>
-            <EquipmentSet id="turkish_elite_root_civ" civilian="true"/>
+            <EquipmentSet id="turkish_elite_root_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_elite_root1" default_group="Infantry" level="16" name="{=Mamluk Trainee}Mamluk Trainee" occupation="Soldier" culture="Culture.turkish">
@@ -423,7 +423,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_elite_root1_bat"/>
-            <EquipmentSet id="turkish_elite_root1_civ" civilian="true"/>
+            <EquipmentSet id="turkish_elite_root1_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_elite_root0" default_group="Ranged" level="16" name="{=Mamluk Bowman Trainee}Mamluk Bowman Trainee" occupation="Soldier"
@@ -447,7 +447,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_elite_root0_bat"/>
-            <EquipmentSet id="turkish_elite_root0_civ" civilian="true"/>
+            <EquipmentSet id="turkish_elite_root0_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_elite_root001" default_group="Ranged" level="21" name="{=Mamluk Crossbowman}Mamluk Crossbowman" occupation="Soldier"
@@ -470,7 +470,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_elite_root001_bat"/>
-            <EquipmentSet id="turkish_elite_root001_civ" civilian="true"/>
+            <EquipmentSet id="turkish_elite_root001_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_elite_root0010" default_group="HorseArcher" level="26" name="{=Mamluk Mounted Crossbowman}Mamluk Mounted Crossbowman"
@@ -493,7 +493,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_elite_root0010_bat"/>
-            <EquipmentSet id="turkish_elite_root0010_civ" civilian="true"/>
+            <EquipmentSet id="turkish_elite_root0010_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_elite_root00100" default_group="HorseArcher" level="31" name="{=Mamluk Mounted Sharpshooter}Mamluk Mounted Sharpshooter"
@@ -513,7 +513,7 @@
         </skills>
         <Equipments>
             <EquipmentSet id="turkish_elite_root00100_bat"/>
-            <EquipmentSet id="turkish_elite_root00100_civ" civilian="true"/>
+            <EquipmentSet id="turkish_elite_root00100_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_elite_root10" default_group="Cavalry" level="21" name="{=Mamluk Lancer}Mamluk Lancer" upgrade_requires="ItemCategory.war_horse"
@@ -536,7 +536,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_elite_root10_bat"/>
-            <EquipmentSet id="turkish_elite_root10_civ" civilian="true"/>
+            <EquipmentSet id="turkish_elite_root10_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_elite_root100" default_group="Cavalry" level="26" name="{=Mamluk Heavy Lancer}Mamluk Heavy Lancer" occupation="Soldier"
@@ -559,7 +559,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_elite_root100_bat"/>
-            <EquipmentSet id="turkish_elite_root100_civ" civilian="true"/>
+            <EquipmentSet id="turkish_elite_root100_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_elite_root1000" default_group="Cavalry" level="31" name="{=Royal Mamluk}Royal Mamluk" occupation="Soldier" culture="Culture.turkish">
@@ -578,7 +578,7 @@
         </skills>
         <Equipments>
             <EquipmentSet id="turkish_elite_root1000_bat"/>
-            <EquipmentSet id="turkish_elite_root1000_civ" civilian="true"/>
+            <EquipmentSet id="turkish_elite_root1000_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_elite_root00" default_group="HorseArcher" level="21" name="{=Mamluk Rider}Mamluk Rider" upgrade_requires="ItemCategory.war_horse"
@@ -601,7 +601,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_elite_root00_bat"/>
-            <EquipmentSet id="turkish_elite_root00_civ" civilian="true"/>
+            <EquipmentSet id="turkish_elite_root00_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_elite_root000" default_group="HorseArcher" level="26" name="{=Mamluk Outrider}Mamluk Outrider" occupation="Soldier"
@@ -624,7 +624,7 @@
         </upgrade_targets>
         <Equipments>
             <EquipmentSet id="turkish_elite_root000_bat"/>
-            <EquipmentSet id="turkish_elite_root000_civ" civilian="true"/>
+            <EquipmentSet id="turkish_elite_root000_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
     <NPCCharacter id="turkish_elite_root0000" default_group="HorseArcher" level="31" name="{=Mamluk Elite Outrider}Mamluk Elite Outrider" occupation="Soldier"
@@ -644,7 +644,7 @@
         </skills>
         <Equipments>
             <EquipmentSet id="turkish_elite_root0000_bat"/>
-            <EquipmentSet id="turkish_elite_root0000_civ" civilian="true"/>
+            <EquipmentSet id="turkish_elite_root0000_civ" equipmentType="Civilian"/>
         </Equipments>
     </NPCCharacter>
 </NPCCharacters>

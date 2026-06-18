@@ -26,7 +26,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="granada_sultan_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_almohad_2" name="{=ancestor_almohad_lord_2}Abu Ya'qub Yusuf ibn 'Abd al-Mumin" age="49" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -54,7 +54,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="granada_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_almohad_3" name="{=ancestor_almohad_lord_3}Abu Yusuf Ya'qub al-Mansur ibn Abu Ya'qub Yusuf" age="44" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -82,7 +82,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="granada_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_almohad_4" name="{=ancestor_almohad_lord_4}Abu Muhammad 'Abdallah an-Nasir ibn Abu Yusuf Ya'qub al-Mansur" age="33" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -110,7 +110,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_sultan_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_almohad_7" name="{=almohad_lord_6}Ishaq at-Tahir ibn Abu Ya'qub Yusuf" age="65" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -138,7 +138,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_1_1" name="{=almohad_lord_7}'Umar al-Murtadha ibn Ishaq" age="72" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -167,8 +167,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="granada_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="almohad_king_combat"/>
+			<EquipmentSet id="almohad_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_1_2" name="{=almohad_lord_8}Abu Zayd ibn Ishaq" age="42" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -196,7 +196,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_1_3" name="{=almohad_lord_9}Ishaq ibn Ishaq" age="39" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -224,7 +224,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_1_4" name="{=almohad_lord_10}'Abd al-Wahid ibn 'Umar" age="33" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -252,7 +252,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_1_5" name="{=almohad_lord_11}Muhammad ibn 'Umar" age="7" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -280,7 +280,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_1_6" name="{=almohad_lady_sitt_al_mulk}Lalla Sitt al-Mulk bint 'Umar" age="13" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -303,7 +303,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+			<EquipmentSet id="mar_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Almohad clan 2-->
@@ -332,7 +332,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_almohad_9" name="{=almohad_lord_banu_umar_1}Abu 'Abdallah Muhammad ibn 'Umar" age="47" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -360,7 +360,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_almohad_10" name="{=almohad_lord_banu_umar_2}Abdallah ibn Abu 'Abdallah Muhammad, Emir of Valencia" age="38" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -389,7 +389,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="granada_lord_combat"/>
-			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="granada_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_2_1" name="{=almohad_lord_banu_umar_4}Abu Dabbus Idris al-Wathiq ibn Abu 'Abdallah Muhammad" age="40" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -418,7 +418,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_sultan_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_2_2" name="{=almohad_lord_banu_umar_5}Abu 'Ali ibn Abu 'Abdallah Muhammad" age="37" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -447,7 +447,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_2_3" name="{=almohad_lord_ibn_idris_1}'Abd as-Salam ibn Idris al-Wathiq" age="4" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -468,7 +468,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Almohad clan 3-->
@@ -497,7 +497,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_sultan_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_almohad_6" name="{=almohad_lord_5}Yahya al-Mu'tasim ibn Abu Muhammad 'Abdallah an-Nasir" age="26" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -525,7 +525,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_sultan_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_3_1" name="{=almohad_lord_3}'Ali ibn Abu Muhammad 'Abdallah an-Nasir" age="61" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -553,7 +553,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_3_2" name="{=almohad_lord_1}Muhammad ibn Abu Muhammad 'Abdallah an-Nasir" age="63" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -581,7 +581,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_3_3" name="{=almohad_lord_2}Zakariyya ibn Abu Muhammad 'Abdallah an-Nasir" age="62" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -609,7 +609,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Almohad clan 4-->
@@ -639,7 +639,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="granada_lord_combat"/>
-			<EquipmentSet id="granada_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="granada_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Almohad clan 5-->
@@ -671,7 +671,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="granada_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_5_2" name="{almohad_lord_de_vicente_2}Mahomat Abiceyt" age="39" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -702,7 +702,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="granada_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_5_3" name="{almohad_lord_de_vicente_3}Ceyt Aboyahya" age="35" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -733,7 +733,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="granada_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_5_4" name="{almohad_lord_de_vicente_4}Alfonso" age="31" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -764,7 +764,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="granada_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_5_5" name="{almohad_lord_de_vicente_5}Ceyt Edris" age="29" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -795,7 +795,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="granada_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_5_6" name="{almohad_lord_de_vicente_6}Alda Ferrandis" age="22" voice="softspoken" is_female="true" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -823,7 +823,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="granada_lord_combat"/>
-			<EquipmentSet id="granada_noble_lady" civilian="true"/>
+			<EquipmentSet id="granada_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_5_7" name="{almohad_lord_de_vicente_7}Fernando Perez" age="19" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -854,7 +854,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="granada_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_almohad_5_8" name="{almohad_lord_de_vicente_8}Sancho Ferrandis" age="17" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -885,7 +885,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="granada_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

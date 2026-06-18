@@ -19,7 +19,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="merc_euro_spearman_bat"/>
-			<EquipmentSet id="merc_euro_spearman_civ" civilian="true"/>
+			<EquipmentSet id="merc_euro_spearman_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_euro_guisarmer" default_group="Infantry" level="16" name="{=Euro Mercenary Guisarmer}Euro Mercenary Guisarmer" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -39,7 +39,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="merc_euro_guisarmer_bat"/>
-			<EquipmentSet id="merc_euro_guisarmer_civ" civilian="true"/>
+			<EquipmentSet id="merc_euro_guisarmer_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_euro_crossbowman" default_group="Ranged" level="16" name="{=Euro Mercenary Crossbowman}Euro Mercenary Crossbowman" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -59,7 +59,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="merc_euro_crossbowman_bat"/>
-			<EquipmentSet id="merc_euro_crossbowman_civ" civilian="true"/>
+			<EquipmentSet id="merc_euro_crossbowman_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_euro_horseman" default_group="Cavalry" level="16" name="{=Euro Mercenary Horseman}Euro Mercenary Horseman" occupation="Mercenary" culture="Culture.neutral_culture" is_basic_troop="true">
@@ -79,7 +79,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="merc_euro_horseman_bat"/>
-			<EquipmentSet id="merc_euro_horseman_civ" civilian="true"/>
+			<EquipmentSet id="merc_euro_horseman_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Scandinavian mercenaries -->
@@ -101,7 +101,7 @@
         </upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_scandinavian_spearman_bat"/>
-			<EquipmentSet id="merc_scandinavian_spearman_civ" civilian="true"/>
+			<EquipmentSet id="merc_scandinavian_spearman_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_scandinavian_axeman" default_group="Infantry" level="16" name="{=Scandinavian Mercenary Axeman}Scandinavian Mercenary Axeman" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -122,7 +122,7 @@
         </upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_scandinavian_axeman_bat"/>
-			<EquipmentSet id="merc_scandinavian_axeman_civ" civilian="true"/>
+			<EquipmentSet id="merc_scandinavian_axeman_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_scandinavian_archer" default_group="Ranged" level="11" name="{=Scandinavian Mercenary Archer}Scandinavian Mercenary Archer" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -143,7 +143,7 @@
         </upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_scandinavian_axeman_bat"/>
-			<EquipmentSet id="merc_scandinavian_axeman_civ" civilian="true"/>
+			<EquipmentSet id="merc_scandinavian_axeman_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_scandinavian_horseman" default_group="Cavalry" level="16" name="{=Scandinavian Mercenary Horseman}Scandinavian Mercenary Horseman" upgrade_requires="ItemCategory.horse" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -162,7 +162,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="merc_scandinavian_horseman_bat"/>
-			<EquipmentSet id="merc_scandinavian_horseman_civ" civilian="true"/>
+			<EquipmentSet id="merc_scandinavian_horseman_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Crusader States Tavern Mercenaries -->
@@ -186,7 +186,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="crusader_genoese_cbow_bat"/>
-			<EquipmentSet id="crusader_genoese_cbow_civ" civilian="true"/>
+			<EquipmentSet id="crusader_genoese_cbow_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="crusader_genoese_sharpshooter" default_group="Ranged" level="21" name="{=Outremer Genoese Sharpshooter}Outremer Genoese Sharpshooter" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -207,7 +207,7 @@
         </upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="crusader_genoese_sharpshooter_bat"/>
-			<EquipmentSet id="crusader_genoese_sharpshooter_civ" civilian="true"/>
+			<EquipmentSet id="crusader_genoese_sharpshooter_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Turcopoles -->
@@ -231,7 +231,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_turcopole_recruit_bat"/>
-			<EquipmentSet id="merc_turcopole_recruit_civ" civilian="true"/>
+			<EquipmentSet id="merc_turcopole_recruit_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_turcopole_lighthorseman" default_group="Cavalry" level="16" name="{=Turcopole Light Horseman}Turcopole Light Horseman" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -254,7 +254,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_turcopole_lighthorseman_bat"/>
-			<EquipmentSet id="merc_turcopole_lighthorseman_civ" civilian="true"/>
+			<EquipmentSet id="merc_turcopole_lighthorseman_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_turcopole_archer" default_group="HorseArcher" level="16" name="{=Turcopole Archer}Turcopole Archer" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -276,7 +276,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_turcopole_archer_bat"/>
-			<EquipmentSet id="merc_turcopole_archer_civ" civilian="true"/>
+			<EquipmentSet id="merc_turcopole_archer_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_turcopole_raider" default_group="HorseArcher" level="21" name="{=Turcopole Raider}Turcopole Raider" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -295,7 +295,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="merc_turcopole_raider_bat"/>
-			<EquipmentSet id="merc_turcopole_raider_civ" civilian="true"/>
+			<EquipmentSet id="merc_turcopole_raider_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_turcopole_flanker" default_group="Cavalry" level="21" name="{=Turcopole Flanker}Turcopole Flanker" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -314,7 +314,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="merc_turcopole_flanker_bat"/>
-			<EquipmentSet id="merc_turcopole_flanker_civ" civilian="true"/>
+			<EquipmentSet id="merc_turcopole_flanker_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_turcopole_lancer" default_group="Cavalry" level="21" name="{=Turcopole Lancer}Turcopole Lancer" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -333,7 +333,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="merc_turcopole_lancer_bat"/>
-			<EquipmentSet id="merc_turcopole_lancer_civ" civilian="true"/>
+			<EquipmentSet id="merc_turcopole_lancer_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Mercenary Hobelars -->
@@ -357,7 +357,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_hobelar_root_bat"/>
-			<EquipmentSet id="merc_hobelar_root_civ" civilian="true"/>
+			<EquipmentSet id="merc_hobelar_root_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_hobelar_root0" default_group="Cavalry" level="16" name="{=Mercenary Hobelar}Mercenary Hobelar" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -379,7 +379,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_hobelar_root0_bat"/>
-			<EquipmentSet id="merc_hobelar_root0_civ" civilian="true"/>
+			<EquipmentSet id="merc_hobelar_root0_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_hobelar_root1" default_group="HorseArcher" level="16" name="{=Mercenary Hobelar Archer}Mercenary Hobelar Archer" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -401,7 +401,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_hobelar_root1_bat"/>
-			<EquipmentSet id="merc_hobelar_root1_civ" civilian="true"/>
+			<EquipmentSet id="merc_hobelar_root1_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_hobelar_root10" default_group="HorseArcher" level="21" name="{=Mercenary Hobelar Hunter}Mercenary Hobelar Hunter" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -420,7 +420,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="merc_hobelar_root10_bat"/>
-			<EquipmentSet id="merc_hobelar_root10_civ" civilian="true"/>
+			<EquipmentSet id="merc_hobelar_root10_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_hobelar_root00" default_group="Cavalry" level="21" name="{=Master Mercenary Hobelar}Master Mercenary Hobelar" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -439,7 +439,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="merc_hobelar_root00_bat"/>
-			<EquipmentSet id="merc_hobelar_root00_civ" civilian="true"/>
+			<EquipmentSet id="merc_hobelar_root00_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Kipchak Horse Archers -->
@@ -462,7 +462,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_kipchak_root_bat"/>
-			<EquipmentSet id="merc_kipchak_root_civ" civilian="true"/>
+			<EquipmentSet id="merc_kipchak_root_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_kipchak_root1" default_group="HorseArcher" level="16" name="{=Kipchak Horseman}Kipchak Horseman" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -484,7 +484,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_kipchak_root1_bat"/>
-			<EquipmentSet id="merc_kipchak_root1_civ" civilian="true"/>
+			<EquipmentSet id="merc_kipchak_root1_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_kipchak_root10" default_group="HorseArcher" level="21" name="{=Kipchak Heavy Horseman}Kipchak Heavy Horseman" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -503,7 +503,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="merc_kipchak_root10_bat"/>
-			<EquipmentSet id="merc_kipchak_root10_civ" civilian="true"/>
+			<EquipmentSet id="merc_kipchak_root10_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Manhunters -->
@@ -526,7 +526,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_manhunter_root_bat"/>
-			<EquipmentSet id="merc_manhunter_root_civ" civilian="true"/>
+			<EquipmentSet id="merc_manhunter_root_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_manhunter_root0" default_group="Cavalry" level="16" name="{=Headhunter}Headhunter" upgrade_requires="ItemCategory.war_horse" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -548,7 +548,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_manhunter_root0_bat"/>
-			<EquipmentSet id="merc_manhunter_root0_civ" civilian="true"/>
+			<EquipmentSet id="merc_manhunter_root0_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_manhunter_root00" default_group="Cavalry" level="21" name="{=Manhunter Chief}Manhunter Chief" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -567,7 +567,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="merc_manhunter_root00_bat"/>
-			<EquipmentSet id="merc_manhunter_root00_civ" civilian="true"/>
+			<EquipmentSet id="merc_manhunter_root00_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Welsh Bowmen -->
@@ -590,7 +590,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_welsh_bowman_bat"/>
-			<EquipmentSet id="merc_welsh_bowman_civ" civilian="true"/>
+			<EquipmentSet id="merc_welsh_bowman_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_welsh_hunter" default_group="Ranged" name="{=Welsh Veteran Bowman}Welsh Mercenary Longbowman" level="26" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -612,7 +612,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_welsh_hunter_bat"/>
-			<EquipmentSet id="merc_welsh_hunter_civ" civilian="true"/>
+			<EquipmentSet id="merc_welsh_hunter_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_welsh_marksman" default_group="Ranged" name="{=Welsh Marskman}Welsh Mercenary Veteran Longbowman" level="31" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -632,7 +632,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="merc_welsh_marksman_bat"/>
-			<EquipmentSet id="merc_welsh_marksman_civ" civilian="true"/>
+			<EquipmentSet id="merc_welsh_marksman_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region Balkan Mercenaries -->
@@ -656,7 +656,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_balkan_spear1_bat"/>
-			<EquipmentSet id="merc_balkan_spear1_civ" civilian="true"/>
+			<EquipmentSet id="merc_balkan_spear1_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_balkan_spear2" default_group="Infantry" level="21" name="{=Veteran Balkan Mercenary Spearman}Veteran Balkan Mercenary Spearman" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -678,7 +678,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_balkan_spear2_bat"/>
-			<EquipmentSet id="merc_balkan_spear2_civ" civilian="true"/>
+			<EquipmentSet id="merc_balkan_spear2_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_balkan_spear3" default_group="Infantry" level="26" name="{=Elite Balkan Mercenary Spearman}Elite Balkan Mercenary Spearman" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -697,7 +697,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="merc_balkan_spear3_bat"/>
-			<EquipmentSet id="merc_balkan_spear3_civ" civilian="true"/>
+			<EquipmentSet id="merc_balkan_spear3_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Guisarmer/Axe-->
@@ -720,7 +720,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_balkan_axe1_bat"/>
-			<EquipmentSet id="merc_balkan_axe1_civ" civilian="true"/>
+			<EquipmentSet id="merc_balkan_axe1_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_balkan_axe2" default_group="Infantry" level="21" name="{=Veteran Balkan Mercenary Guisarmer}Veteran Balkan Mercenary Guisarmer" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -742,7 +742,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_balkan_axe2_bat"/>
-			<EquipmentSet id="merc_balkan_axe2_civ" civilian="true"/>
+			<EquipmentSet id="merc_balkan_axe2_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_balkan_axe3" default_group="Infantry" level="26" name="{=Elite Balkan Mercenary Guisarmer}Elite Balkan Mercenary Guisarmer" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -761,7 +761,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="merc_balkan_axe3_bat"/>
-			<EquipmentSet id="merc_balkan_axe3_civ" civilian="true"/>
+			<EquipmentSet id="merc_balkan_axe3_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!--Archer-->
@@ -784,7 +784,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_balkan_archer1_bat"/>
-			<EquipmentSet id="merc_balkan_archer1_civ" civilian="true"/>
+			<EquipmentSet id="merc_balkan_archer1_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_balkan_archer2" default_group="Ranged" level="21" name="{=Veteran Balkan Mercenary Archer}Veteran Balkan Mercenary Archer" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -806,7 +806,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_balkan_archer2_bat"/>
-			<EquipmentSet id="merc_balkan_archer2_civ" civilian="true"/>
+			<EquipmentSet id="merc_balkan_archer2_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_balkan_archer3" default_group="Ranged" level="26" name="{=Elite Balkan Mercenary Archer}Elite Balkan Mercenary Archer" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -825,7 +825,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="merc_balkan_archer3_bat"/>
-			<EquipmentSet id="merc_balkan_archer3_civ" civilian="true"/>
+			<EquipmentSet id="merc_balkan_archer3_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- endregion -->
@@ -849,7 +849,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="varangian_guard1_bat"/>
-			<EquipmentSet id="varangian_guard1_civ" civilian="true"/>
+			<EquipmentSet id="varangian_guard1_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="varangian_guard2" default_group="Infantry" level="26" name="{=Varrangoi Serjeant}Varrangoi Serjeant" occupation="Soldier" culture="Culture.neutral_culture">
@@ -871,7 +871,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="varangian_guard2_bat"/>
-			<EquipmentSet id="varangian_guard2_civ" civilian="true"/>
+			<EquipmentSet id="varangian_guard2_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="varangian_guard3" default_group="Infantry" level="31" name="{=Varrangoi Captain}Varrangoi Captain" occupation="Soldier" culture="Culture.neutral_culture">
@@ -890,7 +890,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="varangian_guard3_bat"/>
-			<EquipmentSet id="varangian_guard3_civ" civilian="true"/>
+			<EquipmentSet id="varangian_guard3_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Alan mercenaries -->
@@ -913,7 +913,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_alan_1_bat"/>
-			<EquipmentSet id="merc_alan_1_civ" civilian="true"/>
+			<EquipmentSet id="merc_alan_1_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_alan_2" default_group="HorseArcher" level="21" name="{=Alan Mercenary Bowman}Alan Mercenary Bowman" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -935,7 +935,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_alan_2_bat"/>
-			<EquipmentSet id="merc_alan_2_civ" civilian="true"/>
+			<EquipmentSet id="merc_alan_2_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_alan_3" default_group="HorseArcher" level="26" name="{=Alan Mercenary Massagetoi}Alan Mercenary Massagetoi" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -954,7 +954,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="merc_alan_3_bat"/>
-			<EquipmentSet id="merc_alan_3_civ" civilian="true"/>
+			<EquipmentSet id="merc_alan_3_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Rus Mercenary Spearmen -->
@@ -977,7 +977,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_rus_spear1_bat"/>
-			<EquipmentSet id="merc_rus_spear1_civ" civilian="true"/>
+			<EquipmentSet id="merc_rus_spear1_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_rus_spear2" default_group="Infantry" level="21" name="{=Veteran Rus Mercenary Spearman}Veteran Rus Mercenary Spearman" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -999,7 +999,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_rus_spear2_bat"/>
-			<EquipmentSet id="merc_rus_spear2_civ" civilian="true"/>
+			<EquipmentSet id="merc_rus_spear2_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_rus_spear3" default_group="Infantry" level="26" name="{=Elite Rus Mercenary Spearman}Elite Rus Mercenary Spearman" occupation="Mercenary" culture="Culture.neutral_culture">
@@ -1018,7 +1018,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="merc_rus_spear3_bat"/>
-			<EquipmentSet id="merc_rus_spear3_civ" civilian="true"/>
+			<EquipmentSet id="merc_rus_spear3_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- New Mercenaries -->
@@ -1040,7 +1040,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="nubian_mercenary_spearman_bat"/>
-			<EquipmentSet id="nubian_mercenary_spearman_civ" civilian="true"/>
+			<EquipmentSet id="nubian_mercenary_spearman_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

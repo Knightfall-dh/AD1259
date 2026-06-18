@@ -20,7 +20,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="ghilman_tier_1_bat"/>
-			<EquipmentSet id="ghilman_tier_1_civ" civilian="true"/>
+			<EquipmentSet id="ghilman_tier_1_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="ghilman_tier_2" default_group="Cavalry" level="16" occupation="Soldier" culture="Culture.turkish" name="{=ghilmanUnit}Ghilman Outrider">
@@ -42,7 +42,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="ghilman_tier_2_bat"/>
-			<EquipmentSet id="ghilman_tier_2_civ" civilian="true"/>
+			<EquipmentSet id="ghilman_tier_2_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="ghilman_tier_3" default_group="Cavalry" level="21" occupation="Soldier" culture="Culture.turkish" name="{=7EUhAv8b}Ghilman Cameleer" upgrade_requires="ItemCategory.war_horse">
@@ -62,7 +62,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="ghilman_tier_3_bat"/>
-			<EquipmentSet id="ghilman_tier_3_civ" civilian="true"/>
+			<EquipmentSet id="ghilman_tier_3_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region CUMANS -->
@@ -85,7 +85,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="cuman_rider_bat"/>
-			<EquipmentSet id="cuman_rider_civ" civilian="true"/>
+			<EquipmentSet id="cuman_rider_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="cuman_lancer" default_group="Cavalry" level="21" name="{=Cuman Lancer}Cuman Lancer" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.cuman">
@@ -107,7 +107,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="cuman_lancer_bat"/>
-			<EquipmentSet id="cuman_lancer_civ" civilian="true"/>
+			<EquipmentSet id="cuman_lancer_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="cuman_bek" default_group="Cavalry" level="26" name="{=Cuman Bek}Cuman Bek" occupation="Soldier" culture="Culture.cuman" is_basic_troop="true">
@@ -126,7 +126,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="cuman_bek_bat"/>
-			<EquipmentSet id="cuman_bek_civ" civilian="true"/>
+			<EquipmentSet id="cuman_bek_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region GENOESE MERCENARIES -->
@@ -149,7 +149,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_genoese_cbow_bat"/>
-			<EquipmentSet id="merc_genoese_cbow_civ" civilian="true"/>
+			<EquipmentSet id="merc_genoese_cbow_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_genoese_cbow_veteran" default_group="Ranged" level="21" name="{=Genoese Veteran Crossbowman}Genoese Veteran Crossbowman" occupation="Mercenary" culture="Culture.genoa">
@@ -171,7 +171,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="merc_genoese_cbow_veteran_bat"/>
-			<EquipmentSet id="merc_genoese_cbow_veteran_civ" civilian="true"/>
+			<EquipmentSet id="merc_genoese_cbow_veteran_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="merc_genoese_cbow_serjeant" default_group="Ranged" level="26" name="{=Genoese Sergeant Crossbowman}Genoese Serjeant Crossbowman" occupation="Mercenary" culture="Culture.genoa" is_basic_troop="true">
@@ -190,7 +190,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="merc_genoese_cbow_serjeant_bat"/>
-			<EquipmentSet id="merc_genoese_cbow_serjeant_civ" civilian="true"/>
+			<EquipmentSet id="merc_genoese_cbow_serjeant_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region ORDER OF SANTIAGO -->
@@ -213,7 +213,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="santiago_initiate_bat"/>
-			<EquipmentSet id="santiago_initiate_civ" civilian="true"/>
+			<EquipmentSet id="santiago_initiate_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="santiago_squire" default_group="Cavalry" level="16" name="{=Squire of Santiago}Order of Santiago Squire" occupation="Soldier" culture="Culture.santiago">
@@ -235,7 +235,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="santiago_squire_bat"/>
-			<EquipmentSet id="santiago_squire_civ" civilian="true"/>
+			<EquipmentSet id="santiago_squire_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="santiago_knight" default_group="Cavalry" level="21" name="{=Knight of Santiago}Order of Santiago Knight" occupation="Soldier" culture="Culture.santiago">
@@ -257,7 +257,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="santiago_knight_bat"/>
-			<EquipmentSet id="santiago_knight_civ" civilian="true"/>
+			<EquipmentSet id="santiago_knight_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="santiago_grandknight" default_group="Cavalry" level="26" name="{=Grand Knight of Santiago}Order of Santiago Grand Knight" occupation="Soldier" culture="Culture.santiago" is_basic_troop="true">
@@ -276,7 +276,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="santiago_grandknight_bat"/>
-			<EquipmentSet id="santiago_grandknight_civ" civilian="true"/>
+			<EquipmentSet id="santiago_grandknight_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region TEMPLAR -->
@@ -300,7 +300,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="templar_initiate_bat"/>
-			<EquipmentSet id="templar_initiate_civ" civilian="true"/>
+			<EquipmentSet id="templar_initiate_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="templar_crossbowman" default_group="Ranged" name="{=templar Crossbowman}Templar Crossbowman" level="16" occupation="Soldier" culture="Culture.templar">
@@ -322,7 +322,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="templar_crossbowman_bat"/>
-			<EquipmentSet id="templar_crossbowman_civ" civilian="true"/>
+			<EquipmentSet id="templar_crossbowman_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="templar_brother_knight" default_group="Cavalry" name="Templar Knight" level="26" occupation="Soldier" culture="Culture.templar">
@@ -344,7 +344,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="templar_brother_knight_bat"/>
-			<EquipmentSet id="templar_brother_knight_civ" civilian="true"/>
+			<EquipmentSet id="templar_brother_knight_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="templar_brother_squire" default_group="Cavalry" name="Templar Squire" level="21" occupation="Soldier" culture="Culture.templar" is_basic_troop="true">
@@ -366,7 +366,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="templar_brother_squire_bat"/>
-			<EquipmentSet id="templar_brother_squire_civ" civilian="true"/>
+			<EquipmentSet id="templar_brother_squire_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="templar_brother_sergeant" default_group="Infantry" name="Templar Sergeant" level="21" occupation="Soldier" culture="Culture.templar">
@@ -386,7 +386,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="templar_brother_sergeant_bat"/>
-			<EquipmentSet id="templar_brother_sergeant_civ" civilian="true"/>
+			<EquipmentSet id="templar_brother_sergeant_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="templar_arbalester" default_group="Ranged" name="Templar Crossbow Sergeant" level="21" occupation="Soldier" culture="Culture.templar">
@@ -406,7 +406,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="templar_arbalester_bat"/>
-			<EquipmentSet id="templar_arbalester_civ" civilian="true"/>
+			<EquipmentSet id="templar_arbalester_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="templar_brother_at_arms" default_group="Infantry" name="Templar Brother-at-Arms" level="16" occupation="Soldier" culture="Culture.templar">
@@ -429,7 +429,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="templar_brother_at_arms_bat"/>
-			<EquipmentSet id="templar_brother_at_arms_civ" civilian="true"/>
+			<EquipmentSet id="templar_brother_at_arms_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="templar_brother_knight_captain" default_group="Cavalry" name="Templar Grand Knight" level="31" occupation="Soldier" culture="Culture.templar">
@@ -449,7 +449,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="templar_brother_knight_captain_bat"/>
-			<EquipmentSet id="templar_brother_knight_captain_civ" civilian="true"/>
+			<EquipmentSet id="templar_brother_knight_captain_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region SAMI TRIBES -->
@@ -473,7 +473,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="sami_tribesman_bat"/>
-			<EquipmentSet id="sami_tribesman_civ" civilian="true"/>
+			<EquipmentSet id="sami_tribesman_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="sami_warrior" default_group="Infantry" level="16" name="{=Sámi Warrior}Sámi Warrior" occupation="Soldier" culture="Culture.sami">
@@ -495,7 +495,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="sami_warrior_bat"/>
-			<EquipmentSet id="sami_warrior_civ" civilian="true"/>
+			<EquipmentSet id="sami_warrior_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="sami_chieftain" default_group="Infantry" level="21" name="{=Sámi Chieftain}Sámi Chieftain" occupation="Soldier" culture="Culture.sami" is_basic_troop="true">
@@ -514,7 +514,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="sami_chieftain_bat"/>
-			<EquipmentSet id="sami_chieftain_civ" civilian="true"/>
+			<EquipmentSet id="sami_chieftain_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="sami_hunter" default_group="Ranged" level="16" name="{=Sámi Hunter}Sámi Hunter" occupation="Soldier" culture="Culture.sami">
@@ -536,7 +536,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="sami_hunter_bat"/>
-			<EquipmentSet id="sami_hunter_civ" civilian="true"/>
+			<EquipmentSet id="sami_hunter_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="sami_ranger" default_group="Ranged" level="21" name="{=Sámi Ranger}Sámi Ranger" occupation="Soldier" culture="Culture.sami">
@@ -555,7 +555,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="sami_ranger_bat"/>
-			<EquipmentSet id="sami_ranger_civ" civilian="true"/>
+			<EquipmentSet id="sami_ranger_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region Order of Assassins / Nizari State Mercenaries  -->
@@ -578,7 +578,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="nizari_fidayin_bat"/>
-			<EquipmentSet id="nizari_fidayin_civ" civilian="true"/>
+			<EquipmentSet id="nizari_fidayin_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="nizari_assassin" default_group="Infantry" level="16" name="{=Hashishin}Hashishin Jihadi" occupation="Soldier" culture="Culture.nizari">
@@ -600,7 +600,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="nizari_assassin_bat"/>
-			<EquipmentSet id="nizari_assassin_civ" civilian="true"/>
+			<EquipmentSet id="nizari_assassin_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="nizari_mujahid" default_group="Infantry" level="21" name="{=Mujahid}Hashishin Mujahid" occupation="Soldier" culture="Culture.nizari" is_basic_troop="true">
@@ -619,7 +619,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="nizari_mujahid_bat"/>
-			<EquipmentSet id="nizari_mujahid_civ" civilian="true"/>
+			<EquipmentSet id="nizari_mujahid_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region ORDER OF SAINT LAZARUS -->
@@ -642,7 +642,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="lazarus_initiate_bat"/>
-			<EquipmentSet id="lazarus_initiate_civ" civilian="true"/>
+			<EquipmentSet id="lazarus_initiate_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lazarus_squire" default_group="Cavalry" level="16" name="{=Squire of Lazarus}Order of Saint Lazarus Squire" occupation="Soldier" culture="Culture.lazarus">
@@ -664,7 +664,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="lazarus_squire_bat"/>
-			<EquipmentSet id="lazarus_squire_civ" civilian="true"/>
+			<EquipmentSet id="lazarus_squire_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lazarus_knight" default_group="Cavalry" level="21" name="{=Knight of Lazarus}Order of Saint Lazarus Knight" occupation="Soldier" culture="Culture.lazarus">
@@ -686,7 +686,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="lazarus_knight_bat"/>
-			<EquipmentSet id="lazarus_knight_civ" civilian="true"/>
+			<EquipmentSet id="lazarus_knight_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lazarus_grandknight" default_group="Cavalry" level="26" name="{=Grand Knight of Lazarus}Order of Saint Lazarus Grand Knight" occupation="Soldier" culture="Culture.lazarus" is_basic_troop="true">
@@ -705,7 +705,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="lazarus_grandknight_bat"/>
-			<EquipmentSet id="lazarus_grandknight_civ" civilian="true"/>
+			<EquipmentSet id="lazarus_grandknight_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region CATHARS  -->
@@ -728,7 +728,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="cathar_credente_bat"/>
-			<EquipmentSet id="cathar_credente_civ" civilian="true"/>
+			<EquipmentSet id="cathar_credente_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="cathar_prefectus" default_group="Infantry" level="16" name="{=Perfectus}Cathari Perfectus" occupation="Soldier" culture="Culture.cathars">
@@ -750,7 +750,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="cathar_prefectus_bat"/>
-			<EquipmentSet id="cathar_prefectus_civ" civilian="true"/>
+			<EquipmentSet id="cathar_prefectus_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="cathar_knight" default_group="Cavalry" level="21" name="{=Albigensian Knight}Cathari Albigensian Knight" upgrade_requires="ItemCategory.horse" occupation="Soldier" culture="Culture.cathars">
@@ -772,7 +772,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="cathar_knight_bat"/>
-			<EquipmentSet id="cathar_knight_civ" civilian="true"/>
+			<EquipmentSet id="cathar_knight_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="cathar_grail_protector" default_group="Cavalry" level="26" name="{=Protector of the Grail}Cathari Protector of the Grail" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.cathars" is_basic_troop="true">
@@ -791,7 +791,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="cathar_grail_protector_bat"/>
-			<EquipmentSet id="cathar_grail_protector_civ" civilian="true"/>
+			<EquipmentSet id="cathar_grail_protector_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region KNIGHTS HOSPITALLER -->
@@ -815,7 +815,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="hospitaller_initiate_bat"/>
-			<EquipmentSet id="hospitaller_initiate_civ" civilian="true"/>
+			<EquipmentSet id="hospitaller_initiate_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="hospitaller_brother_at_arms" default_group="Infantry" name="{=Brother-at-Arms}Hospitaller Brother-at-Arms" level="16" occupation="Soldier" culture="Culture.hospitaller">
@@ -838,7 +838,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="hospitaller_brother_at_arms_bat"/>
-			<EquipmentSet id="hospitaller_brother_at_arms_civ" civilian="true"/>
+			<EquipmentSet id="hospitaller_brother_at_arms_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="hospitaller_crossbowman" default_group="Ranged" name="{=Hospitaller Crossbowman}Hospitaller Crossbowman" level="16" occupation="Soldier" culture="Culture.hospitaller">
@@ -860,7 +860,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="hospitaller_crossbowman_bat"/>
-			<EquipmentSet id="hospitaller_crossbowman_civ" civilian="true"/>
+			<EquipmentSet id="hospitaller_crossbowman_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="hospitaller_arbalester" default_group="Ranged" name="{=Hospitaller Arbalester}Hospitaller Arbalester" level="21" occupation="Soldier" culture="Culture.hospitaller">
@@ -880,7 +880,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="hospitaller_arbalester_bat"/>
-			<EquipmentSet id="hospitaller_arbalester_civ" civilian="true"/>
+			<EquipmentSet id="hospitaller_arbalester_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="hospitaller_brother_sergeant" default_group="Infantry" name="{=Brother-Sergeant}Hospitaller Serjeant" level="21" occupation="Soldier" culture="Culture.hospitaller">
@@ -900,7 +900,7 @@
 		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="hospitaller_brother_sergeant_bat"/>
-			<EquipmentSet id="hospitaller_brother_sergeant_civ" civilian="true"/>
+			<EquipmentSet id="hospitaller_brother_sergeant_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="hospitaller_brother_squire" default_group="Cavalry" name="{=Brother-Squire}Hospitaller Squire" level="21" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.hospitaller">
@@ -922,7 +922,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="hospitaller_brother_squire_bat"/>
-			<EquipmentSet id="hospitaller_brother_squire_civ" civilian="true"/>
+			<EquipmentSet id="hospitaller_brother_squire_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="hospitaller_brother_knight" default_group="Cavalry" level="26" name="{=Brother-Knight}Hospitaller Knight" occupation="Soldier" culture="Culture.hospitaller">
@@ -944,7 +944,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="hospitaller_brother_knight_bat"/>
-			<EquipmentSet id="hospitaller_brother_knight_civ" civilian="true"/>
+			<EquipmentSet id="hospitaller_brother_knight_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="hospitaller_brother_knight_captain" default_group="Cavalry" level="31" name="{=Brother-Knight-Captain}Hospitaller Grand Knight" occupation="Soldier" culture="Culture.hospitaller" is_basic_troop="true">
@@ -963,7 +963,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="hospitaller_brother_knight_captain_bat"/>
-			<EquipmentSet id="hospitaller_brother_knight_captain_civ" civilian="true"/>
+			<EquipmentSet id="hospitaller_brother_knight_captain_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- region ALMOGAVARES 
@@ -986,7 +986,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="almogavar_infantry_root_bat"/>
-			<EquipmentSet id="almogavar_infantry_root_civ" civilian="true"/>
+			<EquipmentSet id="almogavar_infantry_root_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="almogavar_infantry_root0" default_group="Infantry" level="21" name="{=Almogavar0}Almogavar Senior Skirmisher" occupation="Soldier" culture="Culture.aserai">
@@ -1008,7 +1008,7 @@
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="almogavar_infantry_root0_bat"/>
-			<EquipmentSet id="almogavar_infantry_root0_civ" civilian="true"/>
+			<EquipmentSet id="almogavar_infantry_root0_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="almogavar_infantry_root00" default_group="Infantry" level="26" name="{=Almogavar00}Almogavar Veteran Skirmisher" occupation="Soldier" culture="Culture.aserai">
@@ -1027,7 +1027,7 @@
 		</skills>
 		<Equipments>
 			<EquipmentSet id="almogavar_infantry_root00_bat"/>
-			<EquipmentSet id="almogavar_infantry_root00_civ" civilian="true"/>
+			<EquipmentSet id="almogavar_infantry_root00_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	-->

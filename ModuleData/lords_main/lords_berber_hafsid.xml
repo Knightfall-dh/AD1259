@@ -27,7 +27,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_1_1" name="{=hafsid_lord_1}Muhammad I al-Mustansir, Hafsid Caliph of Ifriqiya" age="31" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
@@ -56,8 +56,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="hafsid_king_combat"/>
+			<EquipmentSet id="hafsid_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_1_1_1" name="{=hafsid_lady_1}Shifa" age="29" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
@@ -79,7 +79,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+			<EquipmentSet id="mar_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_1_1_2" name="{=hafsid_lord_2}Abu Zakariya Yahya II" age="15" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
@@ -108,7 +108,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_1_1_3" name="{=hafsid_lady_2}Banah Hafs bin Muhammad" age="13" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
@@ -127,7 +127,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+			<EquipmentSet id="mar_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_1_2" name="{=hafsid_lord_3}Emir Abu Hafs Umar bin Yahya" age="28" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
@@ -157,7 +157,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_1_3" name="{=hafsid_lord_4}Emir Abu Ishaq Ibrahim bin Yahya" age="29" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
@@ -186,7 +186,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_1_4" name="{=hafsid_lord_5}Abu Ghadir al-Abbas Hassan" age="48" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
@@ -215,7 +215,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_1_4_1" name="{=hafsid_lady_3}Mariyah" age="46" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
@@ -238,7 +238,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+			<EquipmentSet id="mar_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_1_4_2" name="{=hafsid_lady_4}Ghadir bin Hassan" age="23" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
@@ -261,7 +261,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+			<EquipmentSet id="mar_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_1_4_3" name="{=hafsid_lady_5}Bushra bin Hassan" age="18" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
@@ -284,7 +284,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+			<EquipmentSet id="mar_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Hafsid clan 2 -->
@@ -315,7 +315,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_2_1_1" name="{=hafsid_lady_6}Halwa" age="41" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
@@ -337,7 +337,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+			<EquipmentSet id="mar_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_2_1_2" name="{=hafsid_lord_7}Emir Zakariya Butrus bin Yahya" age="21" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
@@ -366,7 +366,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_2_1_3" name="{=hafsid_lord_8}Emir Hassan al-Aziz Butrus bin Yahya" age="19" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
@@ -395,7 +395,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_2_2" name="{=hafsid_lord_9}Emir Ahmad Butrus al-Mutawakkil" age="38" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
@@ -423,7 +423,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_2_2_1" name="{=hafsid_lady_7}Salma" age="35" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
@@ -445,7 +445,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+			<EquipmentSet id="mar_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_2_2_2" name="{=hafsid_lady_8}Zulaikha Butrus bin Ahmad" age="16" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
@@ -468,7 +468,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+			<EquipmentSet id="mar_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Hafsid clan 3 -->
@@ -498,7 +498,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_3_1_1" name="{=hafsid_lord_11}Emir Abu Ahmad Hashim ibn Gamal Abd-Allah" age="36" voice="earnest" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
@@ -527,7 +527,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_3_1_1_1" name="{=hafsid_lady_9}Jaida" age="38" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
@@ -549,7 +549,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+			<EquipmentSet id="mar_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_3_1_1_2" name="{=hafsid_lord_12}Emir Ahmad ibn Hashim ibn Gamal" age="22" voice="ironic" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
@@ -578,7 +578,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_3_1_1_2_1" name="{=hafsid_lady_10}Khayra" age="19" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_politician_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
@@ -601,7 +601,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+			<EquipmentSet id="mar_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_3_1_1_3" name="{=hafsid_lord_13}Emir Sulayman Abd-Allah ibn Hashim ibn Gamal" age="17" voice="curt" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
@@ -630,7 +630,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- Hafsid clan 4 -->
@@ -659,7 +659,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_4_1_1" name="{=hafsid_lady_11}Sanaa" age="22" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
@@ -681,7 +681,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+			<EquipmentSet id="mar_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_4_1_2" name="{=hafsid_lord_15}Hassan Hanif ibn Bakr Abd al-Wahid" age="4" voice="curt" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" is_hero="true" default_group="Cavalry" face_mesh_cache="true">
@@ -703,7 +703,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_hafsid_4_1_3" name="{=hafsid_lady_12}Medina Hanif ibn Bakr Abd al-Wahid" age="3" voice="softspoken" culture="Culture.berber" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" is_hero="true" is_female="true" default_group="Cavalry" face_mesh_cache="true">
@@ -722,7 +722,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_noble_lady" civilian="true"/>
+			<EquipmentSet id="mar_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

@@ -26,8 +26,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="tlemcen_king_combat"/>
+			<EquipmentSet id="tlemcen_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_zyani_1_2" name="{=zyani_lord_yahya}Yahya ibn Yaghmurasen" age="21" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -55,7 +55,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_zyani_1_3" name="{=zyani_lord_uthman}Abu Sa'id Uthman ibn Yaghmurasen" age="9" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.berber" skill_template="SkillSet.spc_knight_skills" occupation="Lord" face_mesh_cache="true">
@@ -83,7 +83,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="mar_lord_combat"/>
-			<EquipmentSet id="mar_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="mar_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

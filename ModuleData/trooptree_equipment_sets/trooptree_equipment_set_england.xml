@@ -11,7 +11,7 @@
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_2_t2"/>
 			<Equipment slot="Item1" id="Item.peasant_hammer_2_t1"/>
-			<Equipment slot="Head" id="Item.padded_cap"/>
+			<Equipment slot="Head" id="Item.arm_coif1"/>
 			<Equipment slot="Body" id="Item.tied_cloth_tunic"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 		</EquipmentSet>
@@ -19,34 +19,36 @@
 			<Equipment slot="Item0" id="Item.peasant_pitchfork_2_t1"/>
 			<Equipment slot="Item1" id="Item.peasant_hatchet_1_t1"/>
 			<Equipment slot="Item2" id="Item.throwing_stone"/>
-			<Equipment slot="Head" id="Item.open_padded_coif"/>
+			<Equipment slot="Head" id="Item.levy_hood_1"/>
 			<Equipment slot="Body" id="Item.fur_waistcoat_over_tunic"/>
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 		</EquipmentSet>
 		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.northern_spear_1_t2"/>
-			<Equipment slot="Item1" id="Item.battania_mace_1_t2"/>
-			<Equipment slot="Item2" id="Item.throwing_stone"/>
-			<Equipment slot="Head" id="Item.roughhide_cap"/>
-			<Equipment slot="Body" id="Item.northern_tunic"/>
-			<Equipment slot="Leg" id="Item.sturgia_boots_d"/>
+			<Equipment slot="Item0" id="Item.peasant_pitchfork_2_t1"/>
+			<Equipment slot="Item1" id="Item.peasant_pickaxe_1_t1"/>
+			<Equipment slot="Head" id="Item.arm_coif1"/>
+			<Equipment slot="Cape" id="Item.green_hood"/>
+			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
+			<Equipment slot="Leg" id="Item.ragged_boots"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.peasant_pitchfork_2_t1"/>
 			<Equipment slot="Item1" id="Item.peasant_pickaxe_1_t1"/>
+			<Equipment slot="Head" id="Item.levy_hood_1"/>
 			<Equipment slot="Body" id="Item.sackcloth_tunic"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.peasant_pitchfork_2_t1"/>
 			<Equipment slot="Item1" id="Item.peasant_pickaxe_1_t1"/>
+			<Equipment slot="Head" id="Item.arm_coif1"/>
 			<Equipment slot="Cape" id="Item.green_hood"/>
 			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
 			<Equipment slot="Leg" id="Item.ragged_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_infantry_root_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.northern_spear_1_t2"/>
 			<Equipment slot="Item1" id="Item.battania_mace_1_t2"/>
 			<Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -67,17 +69,17 @@
 			<Equipment slot="Cape" id="Item.hood"/>
 			<Equipment slot="Body" id="Item.cloth_tunic"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.sturgia_boots_a"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.glen_ranger_bow"/>
 			<Equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
 			<Equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
 			<Equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
-			<Equipment slot="Head" id="Item.head_wrapped"/>
+			<Equipment slot="Head" id="Item.arm_coif1"/>
 			<Equipment slot="Body" id="Item.plain_hemp_tunic"/>
-			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-			<Equipment slot="Leg" id="Item.sturgia_boots_d"/>
+			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.glen_ranger_bow"/>
@@ -87,22 +89,21 @@
 			<Equipment slot="Head" id="Item.levy_hood_1"/>
 			<Equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.glen_ranger_bow"/>
 			<Equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
 			<Equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
 			<Equipment slot="Item3" id="Item.falchion_sword_t2"/>
-			<Equipment slot="Head" id="Item.padded_cap"/>
-			<Equipment slot="Cape" id="Item.green_hood"/>
+			<Equipment slot="Head" id="Item.levy_hood_1"/>
 			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-			<Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_archer_root_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.glen_ranger_bow"/>
 			<Equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
 			<Equipment slot="Item2" id="Item.heavy_steppe_arrows"/>
@@ -118,9 +119,10 @@
 			<Equipment slot="Item1" id="Item.piercing_arrows"/>
 			<Equipment slot="Item2" id="Item.piercing_arrows"/>
 			<Equipment slot="Item3" id="Item.XIII_sword_2"/>
-			<Equipment slot="Head" id="Item.kettle_helmet_over_padded_cloth"/>
+			<Equipment slot="Head" id="Item.flatkettle_1"/>
 			<Equipment slot="Cape" id="Item.hood"/>
 			<Equipment slot="Body" id="Item.tab_tunic1"/>
+			<Equipment slot="Gloves" id="Item.padded_vambrace"/>
 			<Equipment slot="Leg" id="Item.strapped_hosen_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
@@ -128,7 +130,7 @@
 			<Equipment slot="Item1" id="Item.piercing_arrows"/>
 			<Equipment slot="Item2" id="Item.piercing_arrows"/>
 			<Equipment slot="Item3" id="Item.XIII_sword_1"/>
-			<Equipment slot="Head" id="Item.segmented_skullcap_over_laced_coif"/>
+			<Equipment slot="Head" id="Item.lether_cercelliere_1"/>
 			<Equipment slot="Cape" id="Item.shoulder_cloth1"/>
 			<Equipment slot="Body" id="Item.aketon"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
@@ -139,9 +141,10 @@
 			<Equipment slot="Item1" id="Item.piercing_arrows"/>
 			<Equipment slot="Item2" id="Item.piercing_arrows"/>
 			<Equipment slot="Item3" id="Item.falchion_sword_t2"/>
-			<Equipment slot="Head" id="Item.kettle_helmet_over_padded_cap"/>
+			<Equipment slot="Head" id="Item.strapped_kettle_1"/>
 			<Equipment slot="Cape" id="Item.shoulder_cloth1"/>
 			<Equipment slot="Body" id="Item.wool_tunic1"/>
+			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
 			<Equipment slot="Leg" id="Item.strapped_hosen_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
@@ -149,14 +152,14 @@
 			<Equipment slot="Item1" id="Item.piercing_arrows"/>
 			<Equipment slot="Item2" id="Item.piercing_arrows"/>
 			<Equipment slot="Item3" id="Item.small_bit_axe_t2"/>
-			<Equipment slot="Head" id="Item.nasal_cervelliere_over_padded_cap"/>
+			<Equipment slot="Head" id="Item.lether_cercelliere_1"/>
 			<Equipment slot="Body" id="Item.ao_battanian_gambeson"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-			<Equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_archer_root0_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.highland_ranger_bow"/>
 			<Equipment slot="Item1" id="Item.piercing_arrows"/>
 			<Equipment slot="Item2" id="Item.piercing_arrows"/>
@@ -176,17 +179,17 @@
 			<Equipment slot="Head" id="Item.strapped_kettle_1"/>
 			<Equipment slot="Body" id="Item.gambeson_b"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-			<Equipment slot="Leg" id="Item.TV_aserai_boots_i"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.woodland_yew_bow"/>
 			<Equipment slot="Item1" id="Item.bodkin_arrows_b"/>
 			<Equipment slot="Item2" id="Item.piercing_arrows"/>
 			<Equipment slot="Item3" id="Item.small_bit_axe_t2"/>
-			<Equipment slot="Head" id="Item.kettle_hat_over_padded_cloth"/>
+			<Equipment slot="Head" id="Item.strapped_kettle_1"/>
 			<Equipment slot="Body" id="Item.ao_battanian_gambeson"/>
 			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
-			<Equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.woodland_yew_bow"/>
@@ -206,11 +209,12 @@
 			<Equipment slot="Head" id="Item.strapped_kettle_1"/>
 			<Equipment slot="Cape" id="Item.shoulder_cloth1"/>
 			<Equipment slot="Body" id="Item.wool_tunic1"/>
+			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
 			<Equipment slot="Leg" id="Item.strapped_hosen_1"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_archer_root00_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.woodland_yew_bow"/>
 			<Equipment slot="Item1" id="Item.piercing_arrows"/>
 			<Equipment slot="Item2" id="Item.piercing_arrows"/>
@@ -230,7 +234,7 @@
 			<Equipment slot="Head" id="Item.sta_kettle_p"/>
 			<Equipment slot="Body" id="Item.gambeson_b"/>
 			<Equipment slot="Gloves" id="Item.padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.woodland_longbow"/>
@@ -260,13 +264,13 @@
 			<Equipment slot="Item2" id="Item.piercing_arrows"/>
 			<Equipment slot="Item3" id="Item.vlandia_axe_2_t4"/>
 			<Equipment slot="Head" id="Item.sta_kettle_p"/>
-			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+			<Equipment slot="Body" id="Item.tab_gambeson_1"/>
 			<Equipment slot="Gloves" id="Item.padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_archer_root000_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.woodland_longbow"/>
 			<Equipment slot="Item1" id="Item.piercing_arrows"/>
 			<Equipment slot="Item2" id="Item.piercing_arrows"/>
@@ -320,7 +324,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_archer_root0000_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.woodland_longbow"/>
 			<Equipment slot="Item1" id="Item.piercing_arrows"/>
 			<Equipment slot="Item2" id="Item.piercing_arrows"/>
@@ -341,7 +345,7 @@
 			<Equipment slot="Cape" id="Item.padded_leather_shoulders"/>
 			<Equipment slot="Body" id="Item.sleeveless_padded_coat"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.crossbow_e"/>
@@ -352,17 +356,17 @@
 			<Equipment slot="Cape" id="Item.hood"/>
 			<Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.crossbow_e"/>
-			<Equipment slot="Item1" id="Item.bolt_b"/>
-			<Equipment slot="Item2" id="Item.bolt_b"/>
+			<Equipment slot="Item1" id="Item.bolt_d"/>
+			<Equipment slot="Item2" id="Item.bolt_d"/>
 			<Equipment slot="Item3" id="Item.sturgia_axe_3_t3"/>
-			<Equipment slot="Head" id="Item.laced_coif"/>
-			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+			<Equipment slot="Head" id="Item.AR_empire_helmet_p"/>
+			<Equipment slot="Body" id="Item.gambeson_b"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.TV_battania_boots_v"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.crossbow_e"/>
@@ -376,7 +380,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_archer_root1_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.crossbow_e"/>
 			<Equipment slot="Item1" id="Item.bolt_b"/>
 			<Equipment slot="Item2" id="Item.bolt_b"/>
@@ -395,7 +399,7 @@
 			<Equipment slot="Head" id="Item.kettle_helmet_over_arming_coif"/>
 			<Equipment slot="Body" id="Item.AO_vlandia_armor_c"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.crossbow_d"/>
@@ -405,7 +409,7 @@
 			<Equipment slot="Head" id="Item.kettle_hat_over_padded_cloth"/>
 			<Equipment slot="Body" id="Item.plated_leather_coat"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.leather_shoes"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.crossbow_e"/>
@@ -415,7 +419,7 @@
 			<Equipment slot="Head" id="Item.sta_kettle_p"/>
 			<Equipment slot="Body" id="Item.banded_leather_over_mail"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.belted_leather_boots"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.crossbow_d"/>
@@ -425,7 +429,7 @@
 			<Equipment slot="Head" id="Item.sta_kettle_p"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_b4"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.crossbow_e"/>
@@ -435,7 +439,7 @@
 			<Equipment slot="Head" id="Item.strapped_kettle_1"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_j"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.belted_leather_boots"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.crossbow_d"/>
@@ -445,11 +449,11 @@
 			<Equipment slot="Head" id="Item.strapped_kettle_1"/>
 			<Equipment slot="Body" id="Item.khuzait_leather_stitched"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.TV_aserai_boots_b"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_archer_root10_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.crossbow_g"/>
 			<Equipment slot="Item1" id="Item.bolt_b"/>
 			<Equipment slot="Item2" id="Item.flat_heater_shield"/>
@@ -469,7 +473,7 @@
 			<Equipment slot="Cape" id="Item.cape_heavy_11"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_m"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.crossbow_f"/>
@@ -480,7 +484,7 @@
 			<Equipment slot="Cape" id="Item.cape_heavy_11"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_h2"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.crossbow_f"/>
@@ -491,7 +495,7 @@
 			<Equipment slot="Cape" id="Item.cape_heavy_11"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_n"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.TV_sturgia_boots_a"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.crossbow_f"/>
@@ -501,11 +505,11 @@
 			<Equipment slot="Head" id="Item.sta_kettle_p"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_o"/>
 			<Equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
-			<Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_archer_root100_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.crossbow_f"/>
 			<Equipment slot="Item1" id="Item.bolt_c"/>
 			<Equipment slot="Item2" id="Item.flat_heater_shield"/>
@@ -523,38 +527,38 @@
 			<Equipment slot="Item0" id="Item.imperial_spear_t2"/>
 			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
 			<Equipment slot="Item3" id="Item.leather_bound_kite_shield"/>
-			<Equipment slot="Head" id="Item.ao_sturgian_spangenhelm_with_leather"/>
-			<Equipment slot="Body" id="Item.imperial_padded_cloth"/>
-			<Equipment slot="Leg" id="Item.wrapped_leather_boots"/>
+			<Equipment slot="Head" id="Item.sta_norm_nasal_1"/>
+			<Equipment slot="Body" id="Item.wool_tunic1"/>
+			<Equipment slot="Leg" id="Item.poor_el_boots1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_1_t2"/>
 			<Equipment slot="Item1" id="Item.vlandia_mace_3_t5"/>
 			<Equipment slot="Item3" id="Item.worn_kite_shield"/>
-			<Equipment slot="Head" id="Item.nasal_helmet_with_leather"/>
-			<Equipment slot="Body" id="Item.khuzait_leather_stitched"/>
-			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+			<Equipment slot="Head" id="Item.levied_flattop_wool"/>
+			<Equipment slot="Body" id="Item.levy_gambeson_1"/>
+			<Equipment slot="Leg" id="Item.poor_el_boots1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
 			<Equipment slot="Item1" id="Item.aserai_axe_1_t2"/>
 			<Equipment slot="Item3" id="Item.worn_kite_shield"/>
-			<Equipment slot="Head" id="Item.kettle_helmet_over_padded_cap"/>
+			<Equipment slot="Head" id="Item.bucketkettle_1"/>
+			<Equipment slot="Cape" id="Item.hood"/>
 			<Equipment slot="Body" id="Item.wool_tunic1"/>
 			<Equipment slot="Leg" id="Item.poor_el_boots1"/>
-			<Equipment slot="Cape" id="Item.hood"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_1_t2"/>
 			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
 			<Equipment slot="Item3" id="Item.battered_kite_shield"/>
-			<Equipment slot="Head" id="Item.cervelliere_over_arming_coif"/>
-			<Equipment slot="Body" id="Item.bandit_gambeson"/>
-			<Equipment slot="Leg" id="Item.rough_tied_boots"/>
+			<Equipment slot="Head" id="Item.lether_cercelliere_1"/>
+			<Equipment slot="Body" id="Item.levy_gambeson_1"/>
+			<Equipment slot="Leg" id="Item.poor_el_boots1"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_infantry_root0_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.western_spear_1_t2"/>
 			<Equipment slot="Item1" id="Item.vlandia_sword_1_t2"/>
 			<Equipment slot="Head" id="Item.cervelliere_over_arming_coif"/>
@@ -566,25 +570,25 @@
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
 			<Equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
-			<Equipment slot="Item3" id="Item.western_kite_shield"/>
+			<Equipment slot="Item3" id="Item.xiii_shield_heater2"/>
 			<Equipment slot="Head" id="Item.bucketkettle_1"/>
 			<Equipment slot="Cape" id="Item.shoulder_cloth1"/>
-			<Equipment slot="Body" id="Item.AR_vlandia_armor_d2"/>
-			<Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+			<Equipment slot="Body" id="Item.serj_tab_gambeson_1"/>
+			<Equipment slot="Leg" id="Item.hempcovered_boots_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
 			<Equipment slot="Item1" id="Item.vlandia_axe_2_t4"/>
-			<Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
-			<Equipment slot="Head" id="Item.segmented_skullcap_over_laced_coif"/>
-			<Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
-			<Equipment slot="Leg" id="Item.leather_shoes"/>
+			<Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
+			<Equipment slot="Head" id="Item.1259_skullcap"/>
 			<Equipment slot="Cape" id="Item.shoulder_cloth1"/>
+			<Equipment slot="Body" id="Item.unigambeson_sleeves_1"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_1_t2"/>
 			<Equipment slot="Item1" id="Item.vlandia_sword_3_t4"/>
-			<Equipment slot="Item3" id="Item.teardrop_shield_low_end"/>
+			<Equipment slot="Item3" id="Item.xiii_shield_heater2"/>
 			<Equipment slot="Head" id="Item.bucketkettle_1"/>
 			<Equipment slot="Cape" id="Item.shoulder_cloth1"/>
 			<Equipment slot="Body" id="Item.gambeson_levy1"/>
@@ -594,14 +598,14 @@
 			<Equipment slot="Item0" id="Item.western_spear_1_t2"/>
 			<Equipment slot="Item1" id="Item.sturgia_axe_5_t5"/>
 			<Equipment slot="Item3" id="Item.teardrop_shield_low_end"/>
-			<Equipment slot="Head" id="Item.pointed_skullcap_over_mail_coif"/>
-			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
-			<Equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
-			<Equipment slot="Leg" id="Item.mail_chausses"/>
+			<Equipment slot="Head" id="Item.sta_nasal_elwool"/>
+			<Equipment slot="Cape" id="Item.Western_chain_shoulders"/>
+			<Equipment slot="Body" id="Item.uni_gambeson_1"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_infantry_root00_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.western_spear_1_t2"/>
 			<Equipment slot="Item1" id="Item.sturgia_axe_5_t5"/>
 			<Equipment slot="Head" id="Item.bucketkettle_1"/>
@@ -614,11 +618,11 @@
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_3_t3"/>
 			<Equipment slot="Item1" id="Item.vlandia_sword_2_t3"/>
-			<Equipment slot="Item3" id="Item.fortified_kite_shield"/>
+			<Equipment slot="Item3" id="Item.xiii_shield_flatkite"/>
 			<Equipment slot="Head" id="Item.cervelliere_padding_hood1"/>
 			<Equipment slot="Cape" id="Item.el_cloak_1"/>
 			<Equipment slot="Body" id="Item.ao_gen_gambeson_over_mail"/>
-			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_3_t3"/>
@@ -627,7 +631,7 @@
 			<Equipment slot="Head" id="Item.sta_nasal_el1"/>
 			<Equipment slot="Body" id="Item.TV_sturgia_armor_a2"/>
 			<Equipment slot="Gloves" id="Item.mail_mitten"/>
-			<Equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_3_t3"/>
@@ -641,31 +645,21 @@
 			<Equipment slot="Item0" id="Item.western_spear_3_t3"/>
 			<Equipment slot="Item1" id="Item.vlandia_sword_3_t4"/>
 			<Equipment slot="Item3" id="Item.teardrop_shield_1"/>
-			<Equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
-			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b"/>
-			<Equipment slot="Body" id="Item.vlandia_chainmail"/>
-			<Equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
+			<Equipment slot="Head" id="Item.cervelliere_padding_hood1"/>
+			<Equipment slot="Body" id="Item.tab_gambeson_1"/>
+			<Equipment slot="Leg" id="Item.strapped_hosen_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_3_t3"/>
 			<Equipment slot="Item1" id="Item.vlandia_sword_4_t4"/>
-			<Equipment slot="Item3" id="Item.western_kite_shield"/>
+			<Equipment slot="Item3" id="Item.xiii_shield_flatkite"/>
 			<Equipment slot="Head" id="Item.strapped_kettle_1"/>
-			<Equipment slot="Body" id="Item.red_coat_over_mail"/>
-			<Equipment slot="Gloves" id="Item.mail_mitten"/>
-			<Equipment slot="Leg" id="Item.TV_vlandia_boots_b"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
-			<Equipment slot="Item1" id="Item.ironrim_kite_shield"/>
-			<Equipment slot="Item2" id="Item.sturgia_axe_5_t5"/>
-			<Equipment slot="Head" id="Item.es_flattop_1"/>
-			<Equipment slot="Body" id="Item.surcoat_5"/>
-			<Equipment slot="Leg" id="Item.strapped_hosen_1"/>
+			<Equipment slot="Body" id="Item.mail_vest_1"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_infantry_root000_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
 			<Equipment slot="Item2" id="Item.sturgia_axe_5_t5"/>
 			<Equipment slot="Head" id="Item.es_flattop_1"/>
@@ -679,10 +673,10 @@
 			<Equipment slot="Item0" id="Item.western_spear_4_t3"/>
 			<Equipment slot="Item1" id="Item.XIII_sword_29"/>
 			<Equipment slot="Item3" id="Item.ironrim_kite_shield"/>
-			<Equipment slot="Head" id="Item.vlandia_helmet_s_iii"/>
+			<Equipment slot="Head" id="Item.t_shaped_1"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_g"/>
-			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.western_spear_4_t3"/>
@@ -699,8 +693,8 @@
 			<Equipment slot="Item3" id="Item.ironrim_kite_shield"/>
 			<Equipment slot="Head" id="Item.norm_potplate_1"/>
 			<Equipment slot="Body" id="Item.surcoat_tableau_1"/>
-			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 			<Equipment slot="Gloves" id="Item.xiii_mail_mittens"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.northern_spear_4_t5"/>
@@ -708,8 +702,8 @@
 			<Equipment slot="Item3" id="Item.western_kite_shield"/>
 			<Equipment slot="Head" id="Item.nasal_conical_flattop1"/>
 			<Equipment slot="Body" id="Item.tab_coatplate_1"/>
-			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 			<Equipment slot="Gloves" id="Item.xiii_mail_mittens"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.eastern_spear_5_t5"/>
@@ -717,8 +711,8 @@
 			<Equipment slot="Item3" id="Item.teardrop_shield_1"/>
 			<Equipment slot="Head" id="Item.sta_italonorman_1"/>
 			<Equipment slot="Body" id="Item.padded_surcoat_1"/>
-			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 			<Equipment slot="Gloves" id="Item.xiii_mail_mittens"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.eastern_spear_5_t5"/>
@@ -726,8 +720,8 @@
 			<Equipment slot="Item3" id="Item.teardrop_shield_1"/>
 			<Equipment slot="Head" id="Item.orle_kettle1"/>
 			<Equipment slot="Body" id="Item.TV_vlandia_armor_n"/>
-			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.northern_spear_4_t5"/>
@@ -735,8 +729,8 @@
 			<Equipment slot="Item3" id="Item.teardrop_shield_1"/>
 			<Equipment slot="Head" id="Item.es_nasl_flattop"/>
 			<Equipment slot="Body" id="Item.AR_vlandia_armor_c"/>
-			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.northern_spear_4_t5"/>
@@ -749,7 +743,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_infantry_root0000_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.western_spear_4_t3"/>
 			<Equipment slot="Item1" id="Item.XIII_sword_14"/>
 			<Equipment slot="Head" id="Item.es_nasl_flattop"/>
@@ -786,7 +780,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_infantry_root1_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
 			<Equipment slot="Item2" id="Item.throwing_stone"/>
 			<Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
@@ -820,7 +814,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_infantry_root10_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
 			<Equipment slot="Item2" id="Item.throwing_stone"/>
 			<Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
@@ -865,7 +859,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_infantry_root100_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
 			<Equipment slot="Item2" id="Item.throwing_stone"/>
 			<Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
@@ -877,7 +871,7 @@
 			<Equipment slot="Item0" id="Item.billhook_polearm_t2"/>
 			<Equipment slot="Item1" id="Item.vlandia_sword_5_t5"/>
 			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
-			<Equipment slot="Head" id="Item.segmented_cervelliere_over_mail_coif"/>
+			<Equipment slot="Head" id="Item.cervelliere_padding_hood1"/>
 			<Equipment slot="Body" id="Item.xiii_knight_mail_with_tabbard17"/>
 			<Equipment slot="Gloves" id="Item.xiii_mail_mittens"/>
 			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
@@ -913,7 +907,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_infantry_root1000_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.khuzait_polearm_2_t5"/>
 			<Equipment slot="Item1" id="Item.vlandia_sword_3_t4"/>
 			<Equipment slot="Item3" id="Item.flat_heater_shield"/>
@@ -958,7 +952,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_infantry_root2_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
 			<Equipment slot="Item2" id="Item.throwing_stone"/>
 			<Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
@@ -971,34 +965,34 @@
 			<Equipment slot="Item1" id="Item.fortified_kite_shield"/>
 			<Equipment slot="Head" id="Item.bucketkettle_1"/>
 			<Equipment slot="Body" id="Item.aketon"/>
-			<Equipment slot="Leg" id="Item.sturgia_boots_d"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.empire_mace_4_t5"/>
 			<Equipment slot="Item1" id="Item.western_kite_shield"/>
 			<Equipment slot="Head" id="Item.conical_flattop1"/>
+			<Equipment slot="Cape" id="Item.shoulder_cloth1"/>
 			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
 			<Equipment slot="Leg" id="Item.strapped_hosen_1"/>
-			<Equipment slot="Cape" id="Item.shoulder_cloth1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.empire_mace_2_t4"/>
 			<Equipment slot="Item1" id="Item.teardrop_shield_1"/>
 			<Equipment slot="Head" id="Item.cercelliere_1"/>
 			<Equipment slot="Body" id="Item.aketon"/>
-			<Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.battania_axe_3_t5"/>
 			<Equipment slot="Item1" id="Item.western_kite_shield"/>
 			<Equipment slot="Head" id="Item.levy_nasal_el_1"/>
-			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
-			<Equipment slot="Leg" id="Item.sturgia_boots_d"/>
 			<Equipment slot="Cape" id="Item.shoulder_cloth1"/>
+			<Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
+			<Equipment slot="Leg" id="Item.bootssta_1"/>
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_infantry_root20_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
 			<Equipment slot="Item2" id="Item.throwing_stone"/>
 			<Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
@@ -1011,32 +1005,32 @@
 			<Equipment slot="Item1" id="Item.flat_heater_shield"/>
 			<Equipment slot="Head" id="Item.nasal_conical_flattop1"/>
 			<Equipment slot="Body" id="Item.surcoat_5"/>
+			<Equipment slot="Gloves" id="Item.xiii_mail_mittens"/>
 			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
-			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.empire_mace_4_t5"/>
 			<Equipment slot="Item1" id="Item.flat_heater_shield"/>
 			<Equipment slot="Head" id="Item.cercelliere_1"/>
 			<Equipment slot="Body" id="Item.surcoat_1"/>
+			<Equipment slot="Gloves" id="Item.xiii_mail_mittens"/>
 			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
-			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.XIII_sword_b4"/>
 			<Equipment slot="Item1" id="Item.flat_heater_shield"/>
 			<Equipment slot="Head" id="Item.sta_nasal_el1"/>
 			<Equipment slot="Body" id="Item.surcoat_2"/>
+			<Equipment slot="Gloves" id="Item.xiii_mail_mittens"/>
 			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
-			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.XIII_sword_20"/>
+			<Equipment slot="Item0" id="Item.AR_vlandia_axe_5_t5"/>
 			<Equipment slot="Item1" id="Item.flat_heater_shield"/>
-			<Equipment slot="Head" id="Item.nasal_conical_flattop1"/>
-			<Equipment slot="Body" id="Item.surcoat_5"/>
+			<Equipment slot="Head" id="Item.orle_kettle1"/>
+			<Equipment slot="Body" id="Item.surcoat_2"/>
+			<Equipment slot="Gloves" id="Item.xiii_mail_mittens"/>
 			<Equipment slot="Leg" id="Item.mailchasseus_1"/>
-			<Equipment slot="Gloves" id="Item.mailgloves_1"/>
 		</EquipmentSet>
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.AR_vlandia_axe_5_t5"/>
@@ -1048,7 +1042,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_infantry_root200_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
 			<Equipment slot="Item2" id="Item.throwing_stone"/>
 			<Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
@@ -1093,7 +1087,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_infantry_root2000_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
 			<Equipment slot="Item2" id="Item.throwing_stone"/>
 			<Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
@@ -1148,7 +1142,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_elite_root_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.western_spear_1_t2"/>
 			<Equipment slot="Item1" id="Item.small_flat_heater_shield"/>
 			<Equipment slot="Item2" id="Item.large_franziskaa_axe_t3"/>
@@ -1206,7 +1200,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_elite_root0_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
 			<Equipment slot="Item1" id="Item.small_flat_heater_shield_shoulder"/>
 			<Equipment slot="Item2" id="Item.empire_mace_4_t5"/>
@@ -1276,7 +1270,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_elite_root00_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
 			<Equipment slot="Item1" id="Item.small_flat_heater_shield_shoulder"/>
 			<Equipment slot="Item2" id="Item.empire_mace_4_t5"/>
@@ -1346,7 +1340,7 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="england_elite_root000_civ" culture="Culture.england">
-		<EquipmentSet civilian="true">
+		<EquipmentSet equipmentType="Civilian">
 			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
 			<Equipment slot="Item1" id="Item.heavy_heater_shield"/>
 			<Equipment slot="Item2" id="Item.vlandia_sword_3_t4"/>

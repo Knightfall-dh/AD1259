@@ -27,7 +27,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_serbia_2" name="{=dead_lord_serbia_2}Anastasia of Serbia" age="87" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -48,7 +48,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_serbia_3" name="{=dead_lord_serbia_3}Stefan Nemanjić the First-Crowned" age="63" voice="ironic" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -77,7 +77,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_serbia_4" name="{=dead_lord_serbia_4}Anna Dandolo" age="42" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.empire" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -98,7 +98,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1a" name="{=lord_serbia_1a}Stefan Uroš I the Great, King of Serbia" voice="curt" age="36" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -126,8 +126,8 @@
 			<Trait id="Authoritarian" value="0"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_king_combat"/>
+			<EquipmentSet id="serbia_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1b" name="{=lord_serbia_1b}Saint Helen of Serbia" voice="softspoken" age="24" is_female="true" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -153,7 +153,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1c" name="{=lord_serbia_1c}Stefan Uroš II Milutin" voice="earnest" age="6" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -173,7 +173,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1d" name="{=lord_serbia_1d}Stefan Dragutin" voice="curt" age="6" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -193,7 +193,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1e" name="{=lord_serbia_1e}Brnjača Nemanjić" voice="curt" age="2" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -213,7 +213,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1f" name="{=lord_serbia_1f}Stefan Nemanjić" voice="softspoken" age="1" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -233,7 +233,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1g" name="{=lord_serbia_1g}Predislav Sava II" voice="ironic" age="59" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -262,7 +262,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1h" name="{=lord_serbia_1h}Ljubica Nemanjić" voice="softspoken" age="57" is_female="true" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -288,7 +288,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1i" name="{=lord_serbia_1i}Komnena Nemanjić, Princess Consort of Arbanon" voice="softspoken" age="60" is_female="true" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -314,7 +314,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_serbia_5" name="{=dead_lord_serbia_5}Stefan Radoslav Doukas" voice="ironic" age="67" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -343,7 +343,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1j" name="{=lord_serbia_1j}Anna Angelina Komnene Doukaina" voice="earnest" age="60" is_female="true" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -369,7 +369,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1k" name="{=lord_serbia_1k}Dragoslav Komnen Doukas" voice="softspoken" age="40" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -389,7 +389,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1l" name="{=lord_serbia_1l}Jelena" voice="earnest" age="39" is_female="true" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -415,7 +415,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1m" name="{=lord_serbia_1m}Ana Radoslava Komnena Doukaina" voice="curt" age="19" is_female="true" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -441,7 +441,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1n" name="{=lord_serbia_1n}Stefan Vladislav" voice="ironic" age="61" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -470,7 +470,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1o" name="{=lord_serbia_1o}Beloslava Asena" voice="curt" age="58" is_female="true" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -496,7 +496,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1p" name="{=lord_serbia_1p}Stefan" voice="ironic" age="30" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -525,7 +525,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1q" name="{=lord_serbia_1q}Desa, Duke of Kotor" voice="ironic" age="28" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -554,7 +554,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_1r" name="{=lord_serbia_1r}Marijana" voice="earnest" age="28" is_female="true" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" default_group="Cavalry">
@@ -580,7 +580,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan_serbia_2: Dejanović -->
@@ -610,7 +610,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_2b" name="{=lord_serbia_2b}Teodora Nemanjić" voice="earnest" age="30" is_female="true" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" default_group="Cavalry">
@@ -636,7 +636,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_2c" name="{=lord_serbia_2c}Jovan" voice="ironic" age="10" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -665,7 +665,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_2d" name="{=lord_serbia_2d}Konstantin" voice="ironic" age="5" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -694,7 +694,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_2e" name="{=lord_serbia_2e}Teodora II." voice="softspoken" age="2" is_female="true" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -720,7 +720,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan_serbia_3: Branković -->
@@ -750,7 +750,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_3b" name="{=lord_serbia_2p}Vuk Branković" voice="ironic" age="30" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -779,7 +779,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_3c" name="{=lord_serbia_1o}Mara Lazarević" voice="earnest" age="28" is_female="true" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry">
@@ -805,7 +805,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_3d" name="{=lord_serbia_1d}Grgur Vuković" voice="curt" age="8" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry">
@@ -825,7 +825,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_3e" name="{=lord_serbia_1e}Durad Branković" voice="ironic" age="4" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -845,7 +845,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_3f" name="{=lord_serbia_1f}Lazar Vuković" voice="softspoken" age="5" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -865,7 +865,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_3g" name="{=lord_serbia_1o}Teodora Branković" voice="earnest" age="26" is_female="true" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -891,7 +891,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan_serbia_4: Hrebeljanović -->
@@ -921,7 +921,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_4b" name="{=lord_serbia_4b}Dragica Novakić" voice="curt" age="20" is_female="true" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry">
@@ -947,7 +947,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_4c" name="{=lord_serbia_4c}Pribac Hrebeljanović" voice="curt" age="1" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -967,7 +967,7 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- clan_serbia_5: Bučić -->
@@ -997,7 +997,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="dead_lord_serbia_7" name="{=dead_lord_serbia_7}Bijela of Kotor" voice="earnest" age="69" is_female="true" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -1023,7 +1023,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_5a" name="{=lord_serbia_5a}Trifun Buća" voice="curt" age="49" is_female="false" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry">
@@ -1052,7 +1052,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="serbia_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_serbia_5b" name="{=lord_serbia_5b}Nikola" voice="curt" age="48" is_female="true" is_hero="true" culture="Culture.serbia" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry">
@@ -1078,7 +1078,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="serbia_lord_combat"/>
-			<EquipmentSet id="serbia_noble_lady" civilian="true"/>
+			<EquipmentSet id="serbia_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

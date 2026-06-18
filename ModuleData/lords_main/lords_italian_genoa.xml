@@ -30,7 +30,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_king_combat"/>
-			<EquipmentSet id="genoa_king_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_king_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_1_2" name="{=VzhbUL60}Beatrice di Grimaldi" default_group="Cavalry" age="47" voice="curt" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -52,7 +52,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_1_3" name="{=LiAefNmE}Rinaldo Boccanegra" age="40" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_dandy_skills_rookie" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -80,7 +80,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_1_4" name="{=uLjRHv9p}Tommasa" age="38" voice="earnest" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_cavalry_skills_rookie" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -104,7 +104,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="sic_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_1_5" name="{=PjSQYAaR}Iacopo Boccanegra" default_group="Cavalry" age="21" voice="ironic" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_politician_skills_rookie" occupation="Lord" face_mesh_cache="true">
@@ -131,8 +131,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="genoa_king_combat"/>
-			<EquipmentSet id="genoa_king_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_combat"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_1_6" name="{=u1lTJoPO}Marino Boccanegra" voice="curt" default_group="Cavalry" age="38" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -160,7 +160,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_1_7" name="{=u1lTJoPO}Lanfranco Boccanegra" voice="curt" default_group="Cavalry" age="38" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" face_mesh_cache="true">
@@ -188,7 +188,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- genoa clan 2 -->
@@ -220,7 +220,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_2_2" name="{=WnhPFlON}Giacoba Spinola" age="45" voice="ironic" is_female="true" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -242,8 +242,8 @@
 			<Trait id="Calculating" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="emp_bat_template_lady"/>
-			<EquipmentSet id="emp_noncom_template_flamboyant" civilian="true"/>
+			<EquipmentSet id="genoa_lord_combat"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_2_3" name="{=DH7SnD7L}Corrado Spinola" age="22" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -273,7 +273,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_2_4" name="{=XkNnlSwA}Tomaso Spinola" age="26" voice="earnest" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -300,8 +300,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="emp_bat_template_heavy"/>
-			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
+			<EquipmentSet id="genoa_lord_combat"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_2_5" name="{=kwNl4bsS}Luca Guiscardo da Pietrasanta" voice="softspoken" age="38" is_female="false" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" default_group="Cavalry">
@@ -328,7 +328,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- genoa clan 3 -->
@@ -356,7 +356,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_3_2" name="{=dwFZFQ6V}Aurelia Grimaldi" age="40" voice="softspoken" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -379,7 +379,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_3_3" name="{=auMsvXpb}Luchetto Grimaldi" age="19" voice="ironic" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" default_group="HorseArcher" occupation="Lord" face_mesh_cache="true">
@@ -406,7 +406,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_3_4" name="{=FUT6eXfw}Lucchina Grimaldi" age="20" voice="ironic" is_hero="true" is_female="true" culture="Culture.italian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -429,7 +429,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_3_5" name="{=tTuaiLS6}Lanfranco Grimaldi" age="20" voice="softspoken" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="HorseArcher" face_mesh_cache="true">
@@ -458,7 +458,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- genoa clan 4 -->
@@ -489,7 +489,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_4_2" name="{=BxABzWjH}Amina Cancellieri" voice="earnest" is_female="True" default_group="Cavalry" age="33" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -514,7 +514,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_4_3" name="{=qqW5n5Ox}Luca Cancellieri" age="38" voice="softspoken" is_female="false" is_hero="true" default_group="Cavalry" culture="Culture.italian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -542,7 +542,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_4_4" name="{=PopVsatN}Nadea Cancellieri" voice="ironic" age="19" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -569,7 +569,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- genoa clan 5 -->
@@ -601,7 +601,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_5_2" name="{=27fMB4Ri}Simona Della Volta" age="47" voice="earnest" is_female="True" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -627,7 +627,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_5_3" name="{=nfvgHpn5}Nicolò Fieschi, Count of Torriglia" age="19" voice="earnest" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_healer_scholar_skills" occupation="Lord" face_mesh_cache="true">
@@ -655,7 +655,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_5_4" name="{=Upt1X9HN}Beatrice Fieschi" age="18" voice="softspoken" is_female="True" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -680,7 +680,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_5_5" name="{=EJFY3KdF}Ottobono Fieschi" voice="earnest" is_female="false" default_group="Cavalry" age="49" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_politician_skills" occupation="Lord" face_mesh_cache="true">
@@ -709,7 +709,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_5_6" name="{=CwK8l7IX}Opizzo Fieschi, Bishop of Parma" voice="curt" is_female="true" age="24" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -731,7 +731,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_5_7" name="{=p4vC5oBc}Leonetto Fieschi" age="8" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -750,8 +750,8 @@
 		<Traits/>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="emp_bat_template_lady"/>
-			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
+			<EquipmentSet id="genoa_lord_combat"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- genoa clan 6 -->
@@ -780,8 +780,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="genoa_king_combat"/>
-			<EquipmentSet id="genoa_king_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_combat"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_6_2" name="{=Ggj9PWIU}Maria Adimari" age="35" is_female="true" voice="ironic" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -803,7 +803,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_6_3" name="{=o5C0LbdP}Megarita Adimari" age="16" is_female="true" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_matriarch_skills" occupation="Lord" face_mesh_cache="true">
@@ -829,7 +829,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_6_4" name="{=fb0F6jKI}Alamanno Adimari" voice="earnest" is_female="false" age="35" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_cavalry_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -859,7 +859,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_6_5" name="{=dbe79bvU}Macalda Adimari" age="35" voice="softspoken" is_female="True" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -885,7 +885,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- genoa clan 7 -->
@@ -915,7 +915,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_7_2" name="{=HQaqg40g}Branca Doria" voice="softspoken" is_female="false" age="32" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -944,7 +944,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_7_3" name="{=fepOjbsV}Adaleta Doria" voice="softspoken" is_female="true" age="31" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_knight_skills" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
@@ -965,7 +965,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- genoa clan 8 -->
@@ -994,8 +994,8 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="genoa_king_combat"/>
-			<EquipmentSet id="genoa_king_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_combat"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_8_2" name="{=GFV7bzME}Simona Adorno" age="29" voice="softspoken" is_female="true" default_group="HorseArcher" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_tactician_skills" occupation="Lord" face_mesh_cache="true">
@@ -1020,7 +1020,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_8_3" name="{=JEfh8gHY}Daniele Adorno" age="35" voice="earnest" is_female="false" default_group="HorseArcher" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -1048,7 +1048,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<!-- genoa clan 9 -->
@@ -1078,7 +1078,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_9_2" name="{=hjcwElSM}Giulietta" age="26" voice="earnest" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_quartermaster_skills" occupation="Lord" face_mesh_cache="true">
@@ -1101,7 +1101,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="sic_noble_lady" civilian="true"/>
+			<EquipmentSet id="sic_noble_lady" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="lord_genoa_9_3" name="{=juzJA5Tw}Benedetto I Zaccaria" age="37" voice="curt" is_female="false" default_group="Cavalry" is_hero="true" culture="Culture.italian" skill_template="SkillSet.spc_diplomat_skills" occupation="Lord" face_mesh_cache="true">
@@ -1129,7 +1129,7 @@
 		<Equipments>
 			<EquipmentRoster/>
 			<EquipmentSet id="genoa_lord_combat"/>
-			<EquipmentSet id="genoa_lord_noncombat" civilian="true"/>
+			<EquipmentSet id="genoa_lord_noncombat" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>
