@@ -285,6 +285,25 @@
 </Brush>
 <!-- text colors -->
 
+
+
+  <Brush Name="Encyclopedia.SubPage.Header.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#2596beFF" TextAlphaFactor="0.8" TextGlowColor="#FFFFFF00" TextOutlineColor="#FFFFFF00" TextOutlineAmount="0" TextGlowRadius="0" TextBlur="0" FontSize="38" />
+      <Style Name="Hovered" TextAlphaFactor="1" />
+      <Style Name="Pressed" TextAlphaFactor="0.7" />
+      <Style Name="Disabled" TextAlphaFactor="0.1" />
+    </Styles>
+  </Brush>
+  
+  <Brush Name="Encyclopedia.Stat.DefinitionText" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Bottom">
+    <Styles>
+      <Style Name="Default" FontColor="#5a3729CC" TextAlphaFactor="0.8" TextOutlineAmount="0.001" TextGlowRadius="0" TextBlur="0" TextShadowOffset="0" TextShadowAngle="0" FontSize="22" />
+    </Styles>
+  </Brush>
+
 <Brush Name="EncyclopediaNavBar.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" BaseBrush="Info.Text">
     <Styles>
       <Style Name="Default" FontColor="#E1E1E1FF" TextGlowColor="#000000FF" TextOutlineColor="#FFFFFF00" TextOutlineAmount="0" TextGlowRadius="0" TextBlur="0" FontSize="30" />
