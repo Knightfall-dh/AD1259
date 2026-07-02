@@ -1,0 +1,256 @@
+<Prefab>
+  <Constants>
+
+    <Constant Name="Recruitment.Frame.Width" BrushName="Recruitment.Frame" BrushLayer="Default" BrushValueType="Width"/>
+    <Constant Name="Recruitment.Frame.Height" BrushName="Recruitment.Frame" BrushLayer="Default" BrushValueType="Height"/>
+
+    <Constant Name="Recruitment.Frame.OuterPadding" Value="15"/>
+
+    <Constant Name="CloseButtons.Margin.Top" Value="!Recruitment.Frame.Height" Additive="30"/>
+
+    <Constant Name="RecruitAllButton.Width" BrushName="ButtonLeftDoubleArrowBrush1" BrushLayer="Default" BrushValueType="Width" Additive="-8"/>
+    <Constant Name="RecruitAllButton.Height" BrushName="ButtonLeftDoubleArrowBrush1" BrushLayer="Default" BrushValueType="Height" Additive="-8"/>
+
+    <Constant Name="Recruitment.Panel.Left.Width" BrushName="Recruitment.Panel.Left" BrushLayer="Default" BrushValueType="Width"/>
+    <Constant Name="Recruitment.Panel.Left.Height" BrushName="Recruitment.Panel.Left" BrushLayer="Default" BrushValueType="Height"/>
+
+    <Constant Name="Recruitment.Panel.Right.Width" BrushName="Recruitment.Panel.Right" BrushLayer="Default" BrushValueType="Width"/>
+    <Constant Name="Recruitment.Panel.Right.Height" BrushName="Recruitment.Panel.Right" BrushLayer="Default" BrushValueType="Height"/>
+
+    <Constant Name="Popup.CloseButton.Width" BrushName="Popup.CloseButton" BrushLayer="Default" BrushValueType="Width"/>
+    <Constant Name="Popup.CloseButton.Height" BrushName="Popup.CloseButton" BrushLayer="Default" BrushValueType="Height"/>
+  </Constants>
+
+  <Window>
+    <Widget WidthSizePolicy = "StretchToParent" HeightSizePolicy = "StretchToParent" Sprite="BlankWhiteSquare_9" Color="#000000AA">
+      <Children>
+
+        <!--Popup-->
+        <BrushWidget DoNotAcceptEvents="true" WidthSizePolicy = "Fixed" HeightSizePolicy = "Fixed" SuggestedHeight="!Recruitment.Frame.Height" SuggestedWidth="!Recruitment.Frame.Width" HorizontalAlignment="Center" VerticalAlignment="Center" Brush="Recruitment.Frame" MarginBottom="35">
+          <Children>
+
+						<NavigationForcedScopeCollectionTargeter CollectionID="RecruitmentPopupScopeCollection" CollectionParent="..\."/>
+
+            <!--Outer Frame With Padding-->
+            <Widget WidthSizePolicy = "StretchToParent" HeightSizePolicy = "StretchToParent" MarginLeft="!Recruitment.Frame.OuterPadding" MarginRight="!Recruitment.Frame.OuterPadding" MarginTop="!Recruitment.Frame.OuterPadding" MarginBottom="!Recruitment.Frame.OuterPadding">
+              <Children>
+
+                <!--Left Panel-->
+                <Widget WidthSizePolicy = "Fixed" HeightSizePolicy = "Fixed" SuggestedWidth="!Recruitment.Panel.Left.Width" SuggestedHeight="780" Sprite="SPGeneral\SPRecruitment\left_dent" SaturationFactor="20" MarginTop="70" MarginLeft="40">
+                  <Children>
+
+                    <!--Padding-->
+                    <Widget HeightSizePolicy ="StretchToParent" WidthSizePolicy="StretchToParent" MarginLeft="24" MarginTop="31" MarginRight="24" MarginBottom="24">
+                      <Children>
+
+                        <ScrollbarWidget HeightSizePolicy ="StretchToParent" WidthSizePolicy="Fixed" Id="VolunteerListScrollbar" MinValue = "0" MaxValue = "100" SuggestedWidth="10" MarginRight="10" MarginTop="25" MarginBottom="25" AlignmentAxis="Vertical" HorizontalAlignment="Right" VerticalAlignment="Top" Sprite="scrollbar_9" Handle = "VolunteerListScrollbarHandle">
+                          <Children>
+                            <Widget Id="VolunteerListScrollbarHandle" WidthSizePolicy = "Fixed" HeightSizePolicy="Fixed" SuggestedWidth="10" SuggestedHeight="540" HorizontalAlignment = "Right" Sprite="scroll_button_9"/>
+                          </Children>
+                        </ScrollbarWidget>
+
+                        <ScrollablePanel Id="VolunteerListScrollablePanel"  HeightSizePolicy ="StretchToParent"  WidthSizePolicy="StretchToParent" InnerPanel="VolunteerListRect\RecruitmentScrollInnerPanel" ClipRect="VolunteerListRect" MouseScrollAxis="Vertical" VerticalScrollbar="..\VolunteerListScrollbar" MarginRight="20" AutoHideScrollBars="true">
+                          <Children>
+
+                            <Widget Id="VolunteerListRect" WidthSizePolicy = "StretchToParent" HeightSizePolicy = "StretchToParent" ClipContents="true">
+                              <Children>
+
+                                <ListPanel Id="RecruitmentScrollInnerPanel" WidthSizePolicy = "StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod = "VerticalBottomToTop" MarginTop="2" MarginLeft="16">
+                                  <Children>
+
+                                    <NavigationScopeTargeter ScopeID="RecruitmentLeftPanelScope" ScopeParent="..\VolunteerList" IsDefaultNavigationScope="true" ScopeMovements="Horizontal" AlternateScopeMovements="Vertical" AlternateMovementStepSize="7" HasCircularMovement="false" DoNotAutoNavigateAfterSort="true" />
+                                    <NavigatableListPanel Id="VolunteerList" DataSource = "{VolunteerList}" WidthSizePolicy = "StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod = "VerticalBottomToTop" MarginTop="2" MarginLeft="16" MinIndex="0" StepSize="1000" UseDelayedIndexing="true">
+                                      <ItemTemplate>
+                                        <RecruitVolunteerTuple/>
+                                      </ItemTemplate>
+                                      <ItemTemplate Type="Last">
+                                        <RecruitVolunteerTuple Parameter.IsDividerEnabled="false"/>
+                                      </ItemTemplate>
+                                    </NavigatableListPanel>
+
+                                    <!--Recruit All Button-->
+                                    <ButtonWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Right" VerticalAlignment="Top" MarginTop="5" MarginRight="15" Command.Click="ExecuteRecruitAll" IsEnabled="@CanRecruitAll" DoNotPassEventsToChildren="true" UpdateChildrenStates="true">
+                                      <Children>
+                                        <ListPanel WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight" PositionXOffset="-44" UpdateChildrenStates="true">
+                                          <Children>
+                                            <TextWidget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Text="@RecruitAllText" MarginTop="10" MarginRight="5" Brush="Recruitment.RecruitAllButton.Text" />
+                                            <ImageWidget DoNotPassEventsToChildren="true" HeightSizePolicy ="Fixed" WidthSizePolicy="Fixed" SuggestedHeight="!RecruitAllButton.Height" SuggestedWidth="!RecruitAllButton.Width" Brush = "ButtonLeftDoubleArrowBrush1" />
+                                          </Children>
+                                        </ListPanel>
+
+                                        <HintWidget DataSource="{RecruitAllHint}" DoNotAcceptEvents="true" WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" />
+                                        <InputKeyVisualWidget DataSource="{RecruitAllInputKey}" DoNotAcceptEvents="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="60" SuggestedHeight="60" HorizontalAlignment="Right" VerticalAlignment="Center" PositionYOffset="-8" KeyID="@KeyID" IsVisible="@IsVisible"/>
+                                      </Children>
+                                    </ButtonWidget>
+
+                                  </Children>
+                                </ListPanel>
+                              </Children>
+                            </Widget>
+
+                          </Children>
+                        </ScrollablePanel>
+
+                      </Children>
+                    </Widget>
+
+                  </Children>
+                </Widget>
+
+                <!--Right Side Cart, Control and Info Panel-->
+                <Widget WidthSizePolicy = "Fixed" HeightSizePolicy = "StretchToParent" SuggestedWidth="285" MarginRight="27" HorizontalAlignment="Right" >
+                  <Children>
+
+                    <!--Cart Container-->
+                    <Widget WidthSizePolicy = "Fixed" HeightSizePolicy = "Fixed" SuggestedWidth="!Recruitment.Panel.Right.Width" SuggestedHeight="780" Sprite="SPGeneral\SPRecruitment\right_dent" SaturationFactor="20" MarginTop="75" HorizontalAlignment="Center">
+                      <Children>
+
+                        <!--Cart-->
+                        <Widget WidthSizePolicy = "StretchToParent" HeightSizePolicy = "StretchToParent" MarginLeft="22" MarginTop="22" MarginRight="22" MarginBottom="22">
+                          <Children>
+
+                            <ScrollablePanel Id="CartListScrollablePanel"  HeightSizePolicy ="StretchToParent"  WidthSizePolicy="StretchToParent" InnerPanel="CartListRect\CartList" ClipRect="CartListRect" MouseScrollAxis="Vertical" VerticalScrollbar="..\CartListScrollbar" AutoHideScrollBars="true">
+                              <Children>
+
+                                <Widget Id="CartListRect" WidthSizePolicy = "StretchToParent" HeightSizePolicy = "StretchToParent" ClipContents="true">
+                                  <Children>
+
+                                    <NavigationScopeTargeter ScopeID="RecruitmentRightPanelScope" ScopeParent="..\CartList" ScopeMovements="Vertical" HasCircularMovement="true" ForceGainNavigationOnClosestChild="true" />
+                                    <NavigatableListPanel Id="CartList" DataSource = "{TroopsInCart}" WidthSizePolicy = "StretchToParent" HeightSizePolicy="CoverChildren" StackLayout.LayoutMethod = "VerticalTopToBottom" MarginTop="12" MarginBottom="12" MaxItemCount="10000000">
+                                      <ItemTemplate>
+                                        <RecruitTroopPanelCart HorizontalAlignment="Center" MarginBottom="4"/>
+                                      </ItemTemplate>
+                                    </NavigatableListPanel>
+
+                                  </Children>
+                                </Widget>
+
+                              </Children>
+                            </ScrollablePanel>
+
+                            <ScrollbarWidget HeightSizePolicy ="StretchToParent" WidthSizePolicy="Fixed" Id="CartListScrollbar" MinValue = "0" MaxValue = "100" SuggestedWidth="5" MarginRight="6" MarginTop="18" MarginBottom="18" AlignmentAxis="Vertical" HorizontalAlignment="Right" VerticalAlignment="Top" Sprite="SPGeneral\SPRecruitment\slider_thin_bed_vertical" Handle = "CartListScrollbarHandle">
+                              <Children>
+                                <Widget Id="CartListScrollbarHandle" WidthSizePolicy = "Fixed" HeightSizePolicy="Fixed" SuggestedWidth="20" SuggestedHeight="100" HorizontalAlignment = "Left" Sprite="slider_thin_vertical_9"/>
+                              </Children>
+                            </ScrollbarWidget>
+
+                          </Children>
+                        </Widget>
+
+                      </Children>
+                    </Widget>
+
+                    <!--<ListPanel WidthSizePolicy = "CoverChildren" HeightSizePolicy = "CoverChildren" VerticalAlignment="Top" HorizontalAlignment="Center" MarginTop="735">
+                      <Children>-->
+
+
+                    <!--Speed And Total Wage-->
+                    <ListPanel  WidthSizePolicy = "CoverChildren" HeightSizePolicy = "CoverChildren" StackLayout.LayoutMethod="VerticalBottomToTop" VerticalAlignment="Top" MarginLeft="150" HorizontalAlignment="Left" >
+                      <Children>
+
+                      </Children>
+                    </ListPanel>
+
+                    <!--</Children>
+                    </ListPanel>-->
+
+
+                  </Children>
+                </Widget>
+
+
+                <ListPanel WidthSizePolicy = "StretchToParent" HeightSizePolicy = "CoverChildren" StackLayout.LayoutMethod="HorizontalLeftToRight" VerticalAlignment="Bottom" HorizontalAlignment="Center"  MarginBottom="25" MarginLeft="20" MarginRight="300">
+                  <Children>
+
+                    <!--Speed Text-->
+                    <Widget DoNotPassEventsToChildren="true" WidthSizePolicy = "StretchToParent" HeightSizePolicy = "CoverChildren" VerticalAlignment="Bottom" >
+                      <Children>
+                        <ListPanel DoNotPassEventsToChildren="true" WidthSizePolicy = "CoverChildren" HeightSizePolicy = "CoverChildren" HorizontalAlignment="Center">
+                          <Children>
+                            <Widget WidthSizePolicy = "Fixed" HeightSizePolicy = "Fixed" SuggestedWidth="45" SuggestedHeight="45" Sprite="General\Icons\Speed@2x" PositionYOffset="2" HorizontalAlignment="Center"/>
+                            <TextWidget WidthSizePolicy = "CoverChildren" HeightSizePolicy = "CoverChildren" Text="@PartySpeedText" MarginRight="6" Brush="Recruitment.Info.Text"  HorizontalAlignment="Center" VerticalAlignment="Bottom" PositionYOffset="-3" Brush.TextHorizontalAlignment="Center" Brush.FontSize="32"/>
+                            <HintWidget DataSource="{PartySpeedHint}" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" WidthSizePolicy = "Fixed" HeightSizePolicy = "Fixed"/>
+                          </Children>
+                        </ListPanel>
+                      </Children>
+                    </Widget>
+
+                    <!--Total Wage Text-->
+                    <Widget DoNotPassEventsToChildren="true" WidthSizePolicy = "StretchToParent" HeightSizePolicy = "CoverChildren" VerticalAlignment="Bottom" >
+                      <Children>
+                        <ListPanel DoNotPassEventsToChildren="true" WidthSizePolicy = "CoverChildren" HeightSizePolicy = "CoverChildren" HorizontalAlignment="Center">
+                          <Children>
+                            <Widget WidthSizePolicy = "Fixed" HeightSizePolicy = "Fixed" SuggestedWidth="54" SuggestedHeight="54" Sprite="General\Icons\PartyCost@2x" PositionYOffset="7" HorizontalAlignment="Center"/>
+                            <TextWidget WidthSizePolicy = "CoverChildren" HeightSizePolicy = "CoverChildren" Text="@PartyWageText" MarginRight="6" Brush="Recruitment.Info.Text" HorizontalAlignment="Center" VerticalAlignment="Bottom" PositionYOffset="-3" Brush.TextHorizontalAlignment="Left" Brush.FontSize="32"/>
+                            <HintWidget DataSource="{PartyWageHint}" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" WidthSizePolicy = "Fixed" HeightSizePolicy = "Fixed"/>
+                          </Children>
+                        </ListPanel>
+                      </Children>
+                    </Widget>
+
+                    <!--Party Size Text-->
+					<!--changed normal color d&h-->
+                    <Widget DoNotPassEventsToChildren="true" WidthSizePolicy = "StretchToParent" HeightSizePolicy = "CoverChildren" VerticalAlignment="Bottom" >
+                      <Children>
+                        <ListPanel DoNotPassEventsToChildren="true" WidthSizePolicy = "CoverChildren" HeightSizePolicy = "CoverChildren" HorizontalAlignment="Center">
+                          <Children>
+                            <Widget WidthSizePolicy = "Fixed" HeightSizePolicy = "Fixed" SuggestedWidth="50" SuggestedHeight="45" Sprite="General\Icons\Party@2x" PositionYOffset="3" HorizontalAlignment="Center"/>
+                            <MapBarTextWidget WidthSizePolicy = "CoverChildren" HeightSizePolicy = "CoverChildren" Text="@PartyCapacityText" Brush="Recruitment.Info.Text" Brush.FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Bottom" PositionYOffset="-3" Brush.TextVerticalAlignment="Center" WarningColor="#FF0000FF" NormalColor="#32a8ceFF" IsWarning="@IsPartyCapacityWarningEnabled" />
+                          </Children>
+                        </ListPanel>
+                      </Children>
+                    </Widget>
+
+                    <!--Total Wealth-->
+                    <Widget DoNotPassEventsToChildren="true" WidthSizePolicy = "StretchToParent" HeightSizePolicy = "CoverChildren" VerticalAlignment="Bottom" >
+                      <Children>
+                        <ListPanel DoNotPassEventsToChildren="true" WidthSizePolicy = "CoverChildren" HeightSizePolicy = "CoverChildren" HorizontalAlignment="Center">
+                          <Children>
+                            <!--Coin Icon-->
+                            <Widget WidthSizePolicy = "Fixed" HeightSizePolicy = "Fixed" SuggestedHeight="30" SuggestedWidth="30" Sprite="General\Icons\Coin@2x" PositionYOffset="2" HorizontalAlignment="Center"/>
+                            <!--Total Wealth Text-->
+                            <TextWidget WidthSizePolicy = "CoverChildren" HeightSizePolicy = "CoverChildren" IntText="@TotalWealth" Brush="Recruitment.Info.Text" Brush.FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Bottom" PositionYOffset="-3" Brush.TextVerticalAlignment="Center" Brush.FontColor="#DCAE4BFF" />
+                            <HintWidget DataSource="{TotalWealthHint}" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" WidthSizePolicy = "Fixed" HeightSizePolicy = "Fixed"/>
+                          </Children>
+                        </ListPanel>
+                      </Children>
+                    </Widget>
+
+                  </Children>
+                </ListPanel>
+
+                <!--Total Cost-->
+                <Widget DoNotPassEventsToChildren="true" WidthSizePolicy = "StretchToParent" HeightSizePolicy = "CoverChildren" VerticalAlignment="Bottom" MarginRight="130" MarginBottom="50" >
+                  <Children>
+                    <ListPanel DoNotPassEventsToChildren="true" WidthSizePolicy = "CoverChildren" HeightSizePolicy = "CoverChildren" HorizontalAlignment="Right">
+                      <Children>
+                        <!--Coin Icon-->
+                        <Widget WidthSizePolicy = "Fixed" HeightSizePolicy = "Fixed" SuggestedHeight="30" SuggestedWidth="30" Sprite="General\Icons\Coin@2x" PositionYOffset="2" HorizontalAlignment="Center"/>
+                        <!--Total Cost Text-->
+                        <TextWidget WidthSizePolicy = "CoverChildren" HeightSizePolicy = "CoverChildren" Text="@TotalCostText" Brush="Recruitment.Info.Text" Brush.FontSize="32" PositionYOffset="-1" VerticalAlignment="Bottom" Brush.TextVerticalAlignment="Center" Brush.FontColor="#BF2A2AFF" />
+                        <HintWidget DataSource="{TotalCostHint}" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" WidthSizePolicy = "Fixed" HeightSizePolicy = "Fixed"/>
+                      </Children>
+                    </ListPanel>
+                  </Children>
+                </Widget>
+
+
+              </Children>
+            </Widget>
+
+            <Widget WidthSizePolicy = "Fixed" HeightSizePolicy = "Fixed" SuggestedHeight="150" SuggestedWidth="576" HorizontalAlignment="Center" PositionYOffset="-17" Sprite="StdAssets\tabbar_popup"  IsDisabled="true">
+              <Children>
+                <RichTextWidget WidthSizePolicy = "StretchToParent" HeightSizePolicy = "CoverChildren"  VerticalAlignment="Center" PositionYOffset="-22" Brush="Recruitment.Popup.Title.Text" Text="@TitleText" Brush.FontSize="48"/>
+              </Children>
+            </Widget>
+
+          </Children>
+        </BrushWidget>
+
+        <!--Close Buttons-->
+        <Standard.TriplePopupCloseButtons MarginTop="!CloseButtons.Margin.Top" Parameter.ResetButtonHintDataSource="{ResetHint}" Parameter.DoneButtonHintDataSource="{DoneHint}" Parameter.CancelButtonText="@CancelText" Parameter.DoneButtonText="@DoneText" Parameter.CancelButtonAction="Deactivate" Parameter.ResetButtonAction="ExecuteReset" Parameter.DoneButtonAction="ExecuteDone" Parameter.ResetInputKeyDataSource="{ResetInputKey}" Parameter.CancelInputKeyDataSource="{CancelInputKey}" Parameter.DoneInputKeyDataSource="{DoneInputKey}" Parameter.IsDoneEnabled="@IsDoneEnabled" VerticalAlignment="Center"/>
+
+      </Children>
+    </Widget>
+  </Window>
+</Prefab>
