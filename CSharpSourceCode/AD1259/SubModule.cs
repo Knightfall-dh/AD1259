@@ -14,10 +14,6 @@ using TaleWorlds.Localization;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.MountAndBlade.View;
 using TaleWorlds.ScreenSystem;
-
-using AD1259.Religion;                    // For ReligionManager and ReligionBehavior
-using AD1259.Religion.Behaviors;
-using AD1259.Religion.Patches;
 using AD1259.Models;
 
 namespace AD1259
@@ -53,35 +49,13 @@ namespace AD1259
             }
         }
 
-        protected override void OnGameStart(Game game, IGameStarter gameStarterObject)
-        {
-            base.OnGameStart(game, gameStarterObject);
-
-            // === Religion System Initialization ===
-            ReligionManager.LoadReligions();
-
-            if (gameStarterObject is CampaignGameStarter campaignStarter)
-            {
-                campaignStarter.AddBehavior(new ReligionBehavior());
-            }
-        }
-
         public override void OnAfterGameInitializationFinished(Game game, object starterObject)
         {
             base.OnAfterGameInitializationFinished(game, starterObject);
 
-            // Manually patch EncyclopediaHeroPageVM.Refresh to avoid vtable corruption during character creation
-            if (!_heroPagePatched)
-            {
-                MethodInfo targetMethod = AccessTools.Method(typeof(EncyclopediaHeroPageVM), "Refresh");
-                MethodInfo postfixMethod = AccessTools.Method(typeof(HeroPageReligionPatch), "Postfix");
-
-                if (targetMethod != null && postfixMethod != null)
-                {
-                    _harmony.Patch(targetMethod, postfix: new HarmonyMethod(postfixMethod));
-                    _heroPagePatched = true;
-                }
-            }
+            // Previously this block attempted to apply a postfix from the removed religion
+            // component. It referenced `postfixMethod`, which no longer exists and caused
+            // compile errors. No manual patching is required now, so the code was removed.
         }
 
         protected override void OnSubModuleUnloaded()

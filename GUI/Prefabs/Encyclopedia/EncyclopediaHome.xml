@@ -30,13 +30,14 @@
 
             <NavigatableListPanel Id="EncyclopediaHomeList" 
                                   DataSource="{Lists}" 
-                                  WidthSizePolicy="StretchToParent" 
+                                  WidthSizePolicy="CoverChildren" 
                                   HeightSizePolicy="StretchToParent" 
                                   MarginTop="135" 
                                   MarginBottom="30" 
                                   MarginLeft="12" 
                                   MarginRight="12"
-                                  HorizontalAlignment="Center">
+                                  HorizontalAlignment="Center"
+                                  StackLayout.LayoutMethod="HorizontalLeftToRight">
 
               <ItemTemplate>
                 <ButtonWidget Command.Click="Execute" 

@@ -125,30 +125,6 @@
   </Styles>
 </Brush>
 
-<Brush Name="EncyclopediaReligion" FontColor="#FAF4DEFF" TransitionDuration="0.12">
-  <Layers>
-    <BrushLayer Name="Default" Sprite="Encyclopedia\religions" Color="#FFFFFFFF" ImageFit.Type="Fit" />
-    <BrushLayer Name="Frame" Sprite="slick_frame_9" ExtendLeft="9" ExtendRight="9" ExtendTop="9" ExtendBottom="9" />
-  </Layers>
-  <Styles>
-    <Style Name="Default">
-      <BrushLayer Name="Default" AlphaFactor="0.85" />
-      <BrushLayer Name="Frame" />
-    </Style>
-    <Style Name="Hovered">
-      <BrushLayer Name="Default" AlphaFactor="1.05" />
-      <BrushLayer Name="Frame" />
-    </Style>
-    <Style Name="Pressed">
-      <BrushLayer Name="Default" AlphaFactor="0.75" />
-      <BrushLayer Name="Frame" />
-    </Style>
-    <Style Name="Disabled">
-      <BrushLayer Name="Default" AlphaFactor="0.5" />
-      <BrushLayer Name="Frame" />
-    </Style>
-  </Styles>
-</Brush>
 
 <Brush Name="EncyclopediaConcept" FontColor="#FAF4DEFF" TransitionDuration="0.12">
   <Layers>
