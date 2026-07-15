@@ -84,35 +84,17 @@
 		<Flags UseTeamColor="true"/>
 	</Item>
 	<!-- Strugian Helmets -->
-	<Item id="kettle_helmet_sturgia" name="{=osa_kettle_helmet_sturgia}[OSA] Kettle Helmet Over Full Mail" mesh="bl_visored_kettle_a" culture="Culture.neutral_culture" weight="4.3" appearance="3" Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="125" body_armor="84" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="visored_kettle_b" name="{=osa_visored_kettle_b}[OSA] Kettle Helmet Over Full Mail" mesh="bl_visored_kettle_b" culture="Culture.neutral_culture" weight="4.3" appearance="3" Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="125" body_armor="84" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="visored_cap" name="{=osa_visored_cap}[OSA] Cap Helmet Over Full Mail" mesh="bl_visored_cap" culture="Culture.neutral_culture" weight="4.3" appearance="3" Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="120" body_armor="84" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
 	<!-- Vlandian Helmets -->
 	<Item id="full_helm_over_mail_coif_x" name="{=osa_full_helm_over_mail_coif_x}[OSA] Western Crowned Helmet With Visor" subtype="head_armor" mesh="bl_vlandia_helmet_x" culture="Culture.neutral_culture" weight="5" appearance="2" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="150" body_armor="116" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags UseTeamColor="false"/>
 	</Item>
 	<Item id="full_helm_over_mail_coif_z" name="{=osa_full_helm_over_mail_coif_z}[OSA] Western Crowned Plate Helmet With Visor" subtype="head_armor" mesh="bl_vlandia_lord_helmet_z" culture="Culture.neutral_culture" weight="5" appearance="2" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="150" body_armor="116" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags UseTeamColor="false"/>
 	</Item>
 </Items>

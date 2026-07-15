@@ -17,8 +17,7 @@
 	<xsl:template match="Item[@id='ao_battanian_mail_shoulders']"/>
 	<xsl:template match="Item[@id='AO_aserai_shoulders_a']"/>
 	<xsl:template match="Item[@id='AO_aserai_shoulders_a2']"/>
-	<xsl:template match="Item[@id='AO_aserai_shoulders_b']"/>
-	<xsl:template match="Item[@id='AO_aserai_shoulders_c']"/>
+	
 	<xsl:template match="Item[@id='AO_aserai_shoulders_d']"/>
 	<xsl:template match="Item[@id='AO_aserai_shoulders_d2']"/>
 	<xsl:template match="Item[@id='ao_imperial_decorated_bracers']"/>
@@ -62,7 +61,6 @@
 	<xsl:template match="Item[@id='ao_eorling_iron_scale_over_mail']"/>
 	<xsl:template match="Item[@id='AO_eorling_armor_d']"/>
 	<xsl:template match="Item[@id='AO_eorling_armor_d2']"/>
-	<xsl:template match="Item[@id='ao_gen_sleeveless_leather_tunic']"/>
 	<xsl:template match="Item[@id='ao_gen_gambeson_over_mail']"/>
 	<xsl:template match="Item[@id='ao_crude_mail_with_tunic']"/>
 	<xsl:template match="Item[@id='ao_imperial_southern_scale_armor_over_mail']"/>
@@ -84,9 +82,6 @@
 	<xsl:template match="Item[@id='ao_sturgia_armor_d']"/>
 	<xsl:template match="Item[@id='ao_sturgia_armor_d2']"/>
 	<xsl:template match="Item[@id='ao_khuzait_leather_vest']"/>
-	<xsl:template match="Item[@id='ao_nordic_sloven_mail_sleeveless']"/>
-	<xsl:template match="Item[@id='ao_sleeveless_mail_hauberk']"/>
-	<xsl:template match="Item[@id='ao_mail_shirt_sleeveless']"/>
 	<xsl:template match="Item[@id='ao_mabili_hide_skirt']"/>
 	<xsl:template match="Item[@id='ao_mabili_leopard_skirt']"/>
 	<xsl:template match="Item[@id='ao_mabili_zebra_skirt']"/>
@@ -109,40 +104,35 @@
 	<!-- #endregion -->
 	<!-- region OSA_aom_bip_head -->
 	<xsl:template match="Item[@id='ao_crown_a']"/>
-	<xsl:template match="Item[@id='ao_crown_b']"/>
 	<xsl:template match="Item[@id='ao_gold_circlet_a']"/>
 	<xsl:template match="Item[@id='ao_angevin_crown']"/>
 	<xsl:template match="Item[@id='ao_mabili_feathered_headband']"/>
 	<xsl:template match="Item[@id='ao_mabili_leather_headband']"/>
-	<xsl:template match="Item[@id='ao_crowned_mail_coif_b']"/>
 	<xsl:template match="Item[@id='ao_mailed_angevin_crown']"/>
 	<xsl:template match="Item[@id='ao_subuwari_helmet_a']"/>
 	<xsl:template match="Item[@id='ao_subuwari_helmet_a2']"/>
 	<xsl:template match="Item[@id='ao_subuwari_noblemans_helmet']"/>
 	<xsl:template match="Item[@id='ao_subuwari_noblemans_helmet_b']"/>
 	<xsl:template match="Item[@id='ao_vlandian_nasal_helmet_with_mail_coif']"/>
-	<xsl:template match="Item[@id='ao_zhonghai_cavalry_helmet']"/>
 	<xsl:template match="Item[@id='ao_durkhan_fur_trimmed_helmet']"/>
 	<xsl:template match="Item[@id='ao_durkhan_cataphract_helmet_a']"/>
 	<xsl:template match="Item[@id='ao_durkhan_cataphract_helmet_b']"/>
-	<xsl:template match="Item[@id='ao_durkhan_iron_horsehair_helmet']"/>
 	<xsl:template match="Item[@id='ao_durkhan_guarded_iron_helmet']"/>
-	<xsl:template match="Item[@id='ao_durkhan_iron_lamellar_helmet']"/>
 	<xsl:template match="Item[@id='ao_durkhan_heavy_lamellar_helmet']"/>
-	<xsl:template match="Item[@id='ao_durkhan_guarded_bronze_helmet']"/>
-	<xsl:template match="Item[@id='ao_durkhan_horsehair_noble_bronze_helmet']"/>
-	<xsl:template match="Item[@id='ao_durkhan_iron_helmet_with_leather']"/>
-	<xsl:template match="Item[@id='ao_durkhan_iron_helmet_with_leather_spiked']"/>
 	<xsl:template match="Item[@id='ao_durkhan_heavy_fur_trimmed_helmet']"/>
+	<xsl:template match="Item[@id='ao_durkhan_iron_helmet_with_leather']"/>
+	<xsl:template match="Item[@id='ao_durkhan_brass_helmet_with_leather']"/>
+	<xsl:template match="Item[@id='ao_durkhan_iron_horsehair_helmet']"/>
+	<xsl:template match="Item[@id='ao_durkhan_brass_horsehair_helmet']"/>
+	<xsl:template match="Item[@id='ao_durkhan_iron_lamellar_helmet']"/>
+	<xsl:template match="Item[@id='ao_durkhan_brass_lamellar_helmet']"/>
 	<xsl:template match="Item[@id='ao_eorling_riveted_nasal_helmet']"/>
-	<xsl:template match="Item[@id='ao_eorling_mailed_nasal_helmet']"/>
 	<xsl:template match="Item[@id='ao_eorling_guarded_noblemans_helmet']"/>
 	<xsl:template match="Item[@id='ao_eorling_guarded_noblemans_helmet_b']"/>
 	<xsl:template match="Item[@id='ao_eorling_heavy_guarded_noblemans_helmet']"/>
 	<xsl:template match="Item[@id='ao_eorling_heavy_guarded_noblemans_helmet_a']"/>
 	<xsl:template match="Item[@id='ao_eorling_heavy_guarded_noblemans_helmet_b']"/>
 	<xsl:template match="Item[@id='ao_eorling_heavy_guarded_noblemans_helmet_c']"/>
-	<xsl:template match="Item[@id='ao_eorling_dunheres_crowned_helmet']"/>
 	<xsl:template match="Item[@id='ao_eorling_guarded_nasal_helmet_with_leather']"/>
 	<xsl:template match="Item[@id='ao_eorling_guarded_nasal_helmet_with_mail']"/>
 	<xsl:template match="Item[@id='ao_eorling_guarded_nasal_helmet_with_closed_mail']"/>
@@ -153,7 +143,6 @@
 	<xsl:template match="Item[@id='ao_imperial_spangenhelm_over_padded_coif']"/>
 	<xsl:template match="Item[@id='ao_imperial_heavy_spangenhelm_with_mail']"/>
 	<xsl:template match="Item[@id='ao_imperial_heavy_spangenhelm_with_leather']"/>
-	<xsl:template match="Item[@id='ao_imperial_nasal_helmet_over_mail_coif']"/>
 	<xsl:template match="Item[@id='ao_imperial_heavy_spangenhelm_over_mail_coif']"/>
 	<xsl:template match="Item[@id='ao_imperial_heavy_nasal_spangenhelm_over_mail_coif']"/>
 	<xsl:template match="Item[@id='ao_imperial_redcrest_bronze_spangenhelm_over_mail_coif']"/>
@@ -167,6 +156,9 @@
 	<xsl:template match="Item[@id='ao_imperial_cataphracts_plumed_closed_mail_helmet']"/>
 	<xsl:template match="Item[@id='ao_imperial_cataphracts_flamboyant_helmet']"/>
 	<xsl:template match="Item[@id='ao_imperial_evocati_helmet']"/>
+	<xsl:template match="Item[@id='ao_imperial_nasal_helmet']"/>
+	<xsl:template match="Item[@id='ao_imperial_guarded_nasal_helmet']"/>
+	<xsl:template match="Item[@id='ao_imperial_nasal_helmet']"/>
 	<xsl:template match="Item[@id='ao_imperial_closed_mail_nasal_spangenhelmet']"/>
 	<xsl:template match="Item[@id='ao_imperial_guarded_decorated_nasal_helmet']"/>
 	<xsl:template match="Item[@id='ao_imperial_nasal_spangenhelm_with_leather_strips_alt']"/>
@@ -176,9 +168,7 @@
 	<xsl:template match="Item[@id='ao_imperial_pointed_helmet_with_leather']"/>
 	<xsl:template match="Item[@id='ao_imperial_pointed_helmet_with_mail_coif']"/>
 	<xsl:template match="Item[@id='ao_imperial_pointed_helmet_with_cloth_wrap']"/>
-	<xsl:template match="Item[@id='ao_imperial_cone_helmet_with_closed_mail']"/>
 	<xsl:template match="Item[@id='ao_imperial_plumed_cone_helmet_with_closed_mail']"/>
-	<xsl:template match="Item[@id='ao_imperial_cone_helmet_with_mail_coif']"/>
 	<xsl:template match="Item[@id='ao_imperial_noblemans_cone_helmet']"/>
 	<xsl:template match="Item[@id='ao_imperial_cone_helmet_with_leather']"/>
 	<xsl:template match="Item[@id='ao_imperial_cone_helmet_with_lamellar_strips']"/>
@@ -186,18 +176,13 @@
 	<xsl:template match="Item[@id='AO_empire_lord_helmet_k']"/>
 	<xsl:template match="Item[@id='AO_empire_helmet_za']"/>
 	<xsl:template match="Item[@id='AO_empire_helmet_zb']"/>
-	<xsl:template match="Item[@id='ao_battanian_hood']"/>
 	<xsl:template match="Item[@id='ao_battanian_nasal_helmet']"/>
-	<xsl:template match="Item[@id='ao_battanian_nasal_helmet_with_neckguard']"/>
 	<xsl:template match="Item[@id='ao_battanian_nasal_spangenhelm']"/>
 	<xsl:template match="Item[@id='ao_battanian_segmented_helmet']"/>
 	<xsl:template match="Item[@id='ao_battanian_noblemans_ridge_helmet']"/>
-	<xsl:template match="Item[@id='ao_battanian_plumed_noblemans_helmet']"/>
+	<xsl:template match="Item[@id='ao_battanian_ridge_helmet']"/>
+	<xsl:template match="Item[@id='ao_battanian_simple_ridge_helmet']"/>
 	<xsl:template match="Item[@id='ao_battanian_noblemans_plumed_ridge_helmet']"/>
-	<xsl:template match="Item[@id='ao_battanian_guarded_segmented_helmet']"/>
-	<xsl:template match="Item[@id='ao_battanian_noblemans_guarded_helmet']"/>
-	<xsl:template match="Item[@id='ao_battanian_noblemans_cone_helmet']"/>
-	<xsl:template match="Item[@id='ao_battanian_guarded_spangenhelmet']"/>
 	<xsl:template match="Item[@id='ao_battanian_guarded_aristocrats_helmet']"/>
 	<xsl:template match="Item[@id='ao_battanian_guarded_aristocrats_spangenhelmet']"/>
 	<xsl:template match="Item[@id='ao_battanian_guarded_aristocrats_spangenhelmet_crest']"/>
@@ -209,11 +194,9 @@
 	<xsl:template match="Item[@id='ao_sturgian_spiked_nasal_helmet']"/>
 	<xsl:template match="Item[@id='ao_sturgian_helmet_with_leather']"/>
 	<xsl:template match="Item[@id='ao_sturgian_spangenhelm_with_leather']"/>
-	<xsl:template match="Item[@id='ao_sturgian_pointed_helmet_with_ring']"/>
 	<!-- #endregion -->
 	<!-- region OSA_ap_armorpack_items -->
 	<xsl:template match="Item[@id='mercenary_padding_cape']"/>
-	<xsl:template match="Item[@id='heavy_samurai_shoulder']"/>
 	<xsl:template match="Item[@id='leather_shoulder_a']"/>
 	<xsl:template match="Item[@id='leather_shoulder_b']"/>
 	<xsl:template match="Item[@id='kaftan']"/>
@@ -223,7 +206,6 @@
 	<xsl:template match="Item[@id='leather_tabard_over_mail']"/>
 	<xsl:template match="Item[@id='AP_leather_tabard_c']"/>
 	<xsl:template match="Item[@id='AP_leather_tabard_d']"/>
-	<xsl:template match="Item[@id='heavy_samutai']"/>
 	<xsl:template match="Item[@id='mirror_armor']"/>
 	<xsl:template match="Item[@id='southern_helmet_with_band']"/>
 	<xsl:template match="Item[@id='southern_cone_helmet']"/>
@@ -232,9 +214,7 @@
 	<xsl:template match="Item[@id='saracen_helmet_c']"/>
 	<xsl:template match="Item[@id='southern_lord_helmet_a']"/>
 	<xsl:template match="Item[@id='southern_lord_helmet_b']"/>
-	<xsl:template match="Item[@id='aserai_light_helmet']"/>
 	<xsl:template match="Item[@id='southern_light_helmet_a']"/>
-	<xsl:template match="Item[@id='aserai_mail_helmet']"/>
 	<xsl:template match="Item[@id='saracen_helmet_d']"/>
 	<xsl:template match="Item[@id='saracen_helmet_d_ii']"/>
 	<xsl:template match="Item[@id='southern_helmet_IIII']"/>
@@ -415,6 +395,8 @@
 	<xsl:template match="Item[@id='AR_vlandia_scale_a']"/>
 	<xsl:template match="Item[@id='AR_vlandia_scale_b']"/>
 	<xsl:template match="Item[@id='AR_bandit_armor_a']"/>
+	<xsl:template match="Item[@id='AR_noble_dress_a']"/>
+	<xsl:template match="Item[@id='AR_noble_dress_a2']"/>
 	<!-- #endregion -->
 	<!-- region OSA_ar_reforms_head-->
 	<xsl:template match="Item[@id='AR_roman_hat_a']"/>
@@ -571,7 +553,6 @@
 	<xsl:template match="Item[@id='AR_empire_archer_helmet_d2']"/>
 	<xsl:template match="Item[@id='ar_empire_cataphracts_helmet_a']"/>
 	<xsl:template match="Item[@id='AR_empire_crested_helm_a']"/>
-	<xsl:template match="Item[@id='AR_empire_crested_helm_b']"/>
 	<xsl:template match="Item[@id='AR_empire_desert_helmet_a']"/>
 	<xsl:template match="Item[@id='AR_empire_desert_helmet_b']"/>
 	<xsl:template match="Item[@id='AR_empire_desert_helmet_c']"/>
@@ -585,9 +566,6 @@
 	<xsl:template match="Item[@id='AR_empire_helmet_f']"/>
 	<xsl:template match="Item[@id='AR_empire_helmet_g']"/>
 	<xsl:template match="Item[@id='AR_empire_helmet_h']"/>
-	<xsl:template match="Item[@id='AR_empire_helmet_i']"/>
-	<xsl:template match="Item[@id='AR_empire_helmet_j']"/>
-	<xsl:template match="Item[@id='AR_empire_helmet_k']"/>
 	<xsl:template match="Item[@id='AR_empire_helmet_l']"/>
 	<xsl:template match="Item[@id='AR_empire_helmet_m']"/>
 	<xsl:template match="Item[@id='AR_empire_helmet_n']"/>
@@ -603,7 +581,6 @@
 	<xsl:template match="Item[@id='AR_empire_legatus_helm_c']"/>
 	<xsl:template match="Item[@id='AR_empire_legatus_helm_d']"/>
 	<xsl:template match="Item[@id='AR_empire_legatus_helm_e']"/>
-	<xsl:template match="Item[@id='AR_empire_legatus_helm_f']"/>
 	<xsl:template match="Item[@id='AR_Empire_Lord_Guarded_Face_Helmet']"/>
 	<xsl:template match="Item[@id='AR_empire_lord_helmet_a']"/>
 	<xsl:template match="Item[@id='AR_empire_lord_helmet_b']"/>
@@ -629,9 +606,6 @@
 	<xsl:template match="Item[@id='AR_roman_helmet_a']"/>
 	<xsl:template match="Item[@id='AR_roman_helmet_a_fur_a']"/>
 	<xsl:template match="Item[@id='AR_roman_helmet_a_fur_b']"/>
-	<xsl:template match="Item[@id='AR_roman_helmet_b_decorated']"/>
-	<xsl:template match="Item[@id='AR_roman_helmet_b_decorated_b']"/>
-	<xsl:template match="Item[@id='AR_roman_helmet_b_decorated_c']"/>
 	<xsl:template match="Item[@id='AR_roman_helmet_b_fur_a']"/>
 	<xsl:template match="Item[@id='AR_roman_helmet_b_fur_b']"/>
 	<xsl:template match="Item[@id='AR_roman_helmet_b_fur_c']"/>
@@ -671,7 +645,9 @@
 	<xsl:template match="Item[@id='AR_khuzait_helmet_f']"/>
 	<xsl:template match="Item[@id='AR_khuzait_helmet_g']"/>
 	<xsl:template match="Item[@id='AR_khuzait_helmet_h']"/>
+	<xsl:template match="Item[@id='AR_khuzait_helmet_h2']"/>
 	<xsl:template match="Item[@id='AR_khuzait_helmet_i']"/>
+	<xsl:template match="Item[@id='AR_khuzait_helmet_i2']"/>
 	<xsl:template match="Item[@id='AR_khuzait_helmet_j']"/>
 	<xsl:template match="Item[@id='AR_khuzait_helmet_k']"/>
 	<xsl:template match="Item[@id='AR_khuzait_helmet_l']"/>
@@ -734,8 +710,6 @@
 	<xsl:template match="Item[@id='AR_vaegir_helmet_e']"/>
 	<xsl:template match="Item[@id='AR_vaegir_helmet_f']"/>
 	<xsl:template match="Item[@id='AR_vaegir_helmet_g']"/>
-	<xsl:template match="Item[@id='AR_vlandia_helmet_a']"/>
-	<xsl:template match="Item[@id='AR_vlandia_helmet_b']"/>
 	<xsl:template match="Item[@id='AR_vlandia_helmet_c']"/>
 	<xsl:template match="Item[@id='AR_vlandia_helmet_c2']"/>
 	<xsl:template match="Item[@id='AR_vlandia_helmet_d']"/>
@@ -757,16 +731,12 @@
 	<xsl:template match="Item[@id='AR_vlandia_helmet_r2']"/>
 	<xsl:template match="Item[@id='AR_vlandia_helmet_s']"/>
 	<xsl:template match="Item[@id='AR_vlandia_helmet_t']"/>
-	<xsl:template match="Item[@id='AR_vlandia_helmet_u']"/>
-	<xsl:template match="Item[@id='AR_vlandia_helmet_u2']"/>
-	<xsl:template match="Item[@id='AR_vlandia_helmet_v']"/>
 	<xsl:template match="Item[@id='AR_vlandia_helmet_w']"/>
 	<xsl:template match="Item[@id='AR_vlandia_helmet_x']"/>
 	<xsl:template match="Item[@id='AR_vlandia_helmet_y']"/>
 	<xsl:template match="Item[@id='AR_vlandia_helmet_z']"/>
 	<xsl:template match="Item[@id='AR_vlandia_helmet_z2']"/>
 	<xsl:template match="Item[@id='AR_vlandia_lord_helmet_a']"/>
-	<xsl:template match="Item[@id='AR_vlandia_lord_helmet_b']"/>
 	<xsl:template match="Item[@id='AR_vlandia_lord_helmet_c']"/>
 	<xsl:template match="Item[@id='AR_vlandia_lord_helmet_d']"/>
 	<xsl:template match="Item[@id='AR_vlandian_crown_mask_a']"/>
@@ -791,9 +761,6 @@
 	<xsl:template match="Item[@id='bearhelmet']"/>
 	<xsl:template match="Item[@id='roman_helmet_z']"/>
 	<xsl:template match="Item[@id='visored_helmet_x']"/>
-	<xsl:template match="Item[@id='kettle_helmet_sturgia']"/>
-	<xsl:template match="Item[@id='visored_kettle_b']"/>
-	<xsl:template match="Item[@id='visored_cap']"/>
 	<xsl:template match="Item[@id='full_helm_over_mail_coif_x']"/>
 	<xsl:template match="Item[@id='full_helm_over_mail_coif_z']"/>
 	<!-- #endregion -->

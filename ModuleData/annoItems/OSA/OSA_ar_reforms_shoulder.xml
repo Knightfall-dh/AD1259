@@ -68,36 +68,6 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="AR_aserai_shoulder_b" name="{=osa_ar_aserai_shoulder_b}[OSA] Southern Ringmail Shoulder With Brass Plate" mesh="AR_aserai_shoulder_b" culture="Culture.neutral_culture" weight="2.5" appearance="1" Type="Cape" subtype="body_armor">
-		<ItemComponent>
-			<Armor body_armor="22" modifier_group="plate" material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="AR_aserai_shoulder_c" name="{=osa_ar_aserai_shoulder_c}[OSA] Southern Brass Scale Shoulders With Brass Plate" mesh="AR_aserai_shoulder_c" culture="Culture.neutral_culture" weight="6.8" appearance="3" Type="Cape">
-		<ItemComponent>
-			<Armor body_armor="42" modifier_group="plate" material_type="Plate" arm_armor="0"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="AR_aserai_shoulder_c2" name="{=osa_ar_aserai_shoulder_c2}[OSA] Southern Scale Shoulders With Brass Plate" mesh="AR_aserai_shoulder_c2" culture="Culture.neutral_culture" weight="6.8" appearance="3" Type="Cape">
-		<ItemComponent>
-			<Armor body_armor="42" modifier_group="plate" material_type="Plate" arm_armor="0"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="AR_aserai_shoulder_d" name="{=osa_ar_aserai_shoulder_d}[OSA] Southern Brass Scale Shoulder Guards With Brass Plate" mesh="AR_aserai_shoulder_d" culture="Culture.neutral_culture" weight="4" appearance="3" Type="Cape">
-		<ItemComponent>
-			<Armor body_armor="30" modifier_group="plate" material_type="Plate" arm_armor="0"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="AR_aserai_shoulder_d2" name="{=osa_ar_aserai_shoulder_d2}[OSA] Southern Scale Shoulder Guards With Brass Plate" mesh="AR_aserai_shoulder_d2" culture="Culture.neutral_culture" weight="4" appearance="3" Type="Cape">
-		<ItemComponent>
-			<Armor body_armor="30" modifier_group="plate" material_type="Plate" arm_armor="0"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
 	<Item id="AR_aserai_shoulder_e" name="{=osa_ar_aserai_shoulder_e}[OSA] Southern Reinforced Leather Shoulders" mesh="AR_aserai_shoulder_e" culture="Culture.neutral_culture" weight="4.4" appearance="3" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="30" modifier_group="plate" material_type="Plate" arm_armor="0"/>
@@ -138,7 +108,7 @@
 		<ItemComponent>
 			<Armor body_armor="13" modifier_group="leather" material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="AR_aserai_shoulder_l" name="{=osa_ar_aserai_shoulder_l}[OSA] Studded Brass Neckguard With Zebra Skin" mesh="AR_aserai_shoulder_l" culture="Culture.neutral_culture" weight="3.8" appearance="2" Type="Cape">
 		<ItemComponent>
@@ -174,7 +144,7 @@
 		<ItemComponent>
 			<Armor body_armor="13" modifier_group="leather" material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="AR_aserai_shoulder_r" name="{=osa_ar_aserai_shoulder_r}[OSA] Studded Brass Neckguard With Lion Pelt" mesh="AR_aserai_shoulder_r" culture="Culture.neutral_culture" weight="3.8" appearance="2" Type="Cape">
 		<ItemComponent>
@@ -354,25 +324,25 @@
 		<ItemComponent>
 			<Armor body_armor="16" modifier_group="cloth_unarmoured" material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="AR_fur_cape_b" name="{=osa_ar_fur_cape_b}[OSA] Furred Long Plaid Cape" mesh="AR_fur_cape_b" culture="Culture.neutral_culture" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="16" modifier_group="cloth_unarmoured" material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="false"/>
+		<Flags Civilian="true" UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_fur_cape_c" name="{=osa_ar_fur_cape_c}[OSA] Furred Long Striped Cape" mesh="AR_fur_cape_c" culture="Culture.neutral_culture" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="16" modifier_group="cloth_unarmoured" material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="false"/>
+		<Flags Civilian="true" UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_fur_cape_d" name="{=osa_ar_fur_cape_d}[OSA] Furred Hide Cape" mesh="AR_fur_cape_d" culture="Culture.neutral_culture" subtype="body_armor" weight="4.0" appearance="1.5" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="16" modifier_group="cloth_unarmoured" material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="false"/>
+		<Flags Civilian="true" UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_imperial_lamellar_cape_a" name="{=osa_ar_imperial_lamellar_cape_a}[OSA] Imperial Lamellar With Long Cape" mesh="AR_imperial_lamellar_cape_a" culture="Culture.neutral_culture" weight="3.9" appearance="4" Type="Cape">
 		<ItemComponent>
@@ -684,13 +654,13 @@
 		<ItemComponent>
 			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="AR_khuzait_cape_e" name="{=osa_ar_khuzait_cape_e}[OSA] Eastern Linen Cape" mesh="AR_khuzait_cape_e" culture="Culture.neutral_culture" weight="1.5" appearance="1.5" Type="Cape" subtype="body_armor">
 		<ItemComponent>
 			<Armor body_armor="7" modifier_group="cloth_unarmoured" material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="AR_khuzait_cape_f" name="{=osa_ar_khuzait_cape_f}[OSA] Eastern Leather Lamellar With Hide Cape" mesh="AR_khuzait_cape_f" culture="Culture.neutral_culture" weight="3.9" appearance="4" Type="Cape">
 		<ItemComponent>
@@ -714,7 +684,7 @@
 		<ItemComponent>
 			<Armor body_armor="13" modifier_group="leather" material_type="Leather"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="AR_lion_head_a" name="{=osa_ar_lion_head_a}[OSA] Decorated Lion Head Cloak" mesh="AR_lion_head_a" culture="Culture.neutral_culture" weight="6.0" appearance="3" Type="Cape">
 		<ItemComponent>
@@ -731,6 +701,18 @@
 	<Item id="AR_lion_head_d" name="{=osa_ar_lion_head_d}[OSA] Lion Head Cloak" mesh="AR_lion_head_d" culture="Culture.neutral_culture" weight="6.0" appearance="3" Type="Cape">
 		<ItemComponent>
 			<Armor head_armor="34" body_armor="26" arm_armor="0" modifier_group="leather" material_type="Leather"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_noble_collar_a" name="{=osa_ar_noble_collar_a}[OSA] Imperial Noble Shoulders With Cape" mesh="AR_noble_collar_a" culture="Culture.neutral_culture" weight="1.4" appearance="1" Type="Cape" is_merchandise="false">
+		<ItemComponent>
+			<Armor body_armor="36" modifier_group="plate" material_type="Plate" arm_armor="0"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_noble_collar_b" name="{=osa_ar_noble_collar_b}[OSA] Imperial Noble Lamellar With Long Cape" mesh="AR_noble_collar_b" culture="Culture.neutral_culture" weight="3.9" appearance="4" Type="Cape" is_merchandise="false">
+		<ItemComponent>
+			<Armor body_armor="60" modifier_group="plate" material_type="Plate" arm_armor="8"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
@@ -832,13 +814,13 @@
 	</Item>
 	<Item id="AR_wolf_head_cloak_a" name="{=osa_ar_wolf_head_cloak_a}[OSA] Wolfskin Cloak" mesh="AR_wolf_head_cloak_a" culture="Culture.neutral_culture" weight="3.6" appearance="3" Type="Cape">
 		<ItemComponent>
-			<Armor head_armor="6" body_armor="14" arm_armor="7" modifier_group="leather" material_type="Leather"/>
+			<Armor head_armor="6" body_armor="22" arm_armor="7" modifier_group="leather" material_type="Leather"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
 	<Item id="AR_wolf_head_cloak_b" name="{=osa_ar_wolf_head_cloak_b}[OSA] Brown Wolfskin Cloak" mesh="AR_wolf_head_cloak_b" culture="Culture.neutral_culture" weight="3.6" appearance="3" Type="Cape">
 		<ItemComponent>
-			<Armor head_armor="6" body_armor="14" arm_armor="7" modifier_group="leather" material_type="Leather"/>
+			<Armor head_armor="6" body_armor="22" arm_armor="7" modifier_group="leather" material_type="Leather"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
@@ -865,97 +847,97 @@
 		<ItemComponent>
 			<Armor arm_armor="31" modifier_group="cloth" material_type="Cloth"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true"/>
+		<Flags Civilian="true" UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_empire_gloves_b" name="{=osa_ar_empire_gloves_b}[OSA] Lamellar Plate Gloves" mesh="AR_empire_gloves_b" culture="Culture.neutral_culture" weight="1.8" appearance="3" Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="51" modifier_group="plate" material_type="Plate" covers_hands="true"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_empire_gloves_c" name="{=osa_ar_empire_gloves_c}[OSA] Gilded Lamellar Plate Gloves" mesh="AR_empire_gloves_c" culture="Culture.neutral_culture" weight="1.8" appearance="3" Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="51" modifier_group="plate" material_type="Plate" covers_hands="true"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_empire_gloves_d" name="{=osa_ar_empire_gloves_d}[OSA] Gilded Lamellar Plate Gauntlets" mesh="AR_empire_gloves_d" culture="Culture.neutral_culture" weight="1.8" appearance="3" Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="63" modifier_group="plate" material_type="Plate" covers_hands="true"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_empire_gloves_e" name="{=osa_ar_empire_gloves_e}[OSA] Bound Armwraps" mesh="AR_empire_gloves_e" culture="Culture.neutral_culture" weight="0.4" appearance="0.3" Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="22" modifier_group="cloth" material_type="Cloth" covers_hands="false"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true"/>
+		<Flags Civilian="true" UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_khuzait_gloves_a" name="{=osa_ar_khuzait_gloves_a}[OSA] Eastern Plated Vambraces" mesh="AR_khuzait_gloves_a" culture="Culture.neutral_culture" weight="0.5" appearance="1" Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="45" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true"/>
+		<Flags Civilian="true" UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_khuzait_gloves_b" name="{=osa_ar_khuzait_gloves_b}[OSA] Eastern Plated Gauntlets" mesh="AR_khuzait_gloves_b" culture="Culture.neutral_culture" weight="1.8" appearance="3" Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="63" modifier_group="plate" material_type="Plate" covers_hands="true"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_sturgia_gloves_a" name="{=osa_ar_sturgia_gloves_a}[OSA] Northern Brass Gauntlets" mesh="AR_sturgia_gloves_a" culture="Culture.neutral_culture" weight="1.8" appearance="3" Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="63" modifier_group="plate" material_type="Plate" covers_hands="true"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_sturgia_gloves_b" name="{=osa_ar_sturgia_gloves_b}[OSA] Northern Iron Gauntlets" mesh="AR_sturgia_gloves_b" culture="Culture.neutral_culture" weight="1.8" appearance="3" Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="63" modifier_group="plate" material_type="Plate" covers_hands="true"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_sturgia_gloves_c" name="{=osa_ar_sturgia_gloves_c}[OSA] Northern Iron Bracers" mesh="AR_sturgia_gloves_c" culture="Culture.neutral_culture" weight="1.3" appearance="1.6" Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="41" modifier_group="plate" material_type="Plate" covers_hands="false"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags UseTeamColor="false"/>
 	</Item>
 	<!-- Leg Armors -->
 	<Item id="AR_empire_boots_a" name="{=osa_ar_empire_boots_a}[OSA] Light Lamellar Plate Boots" mesh="AR_empire_boots_a" culture="Culture.neutral_culture" weight="3.5" appearance="3" Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="52" covers_legs="true" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_empire_boots_b" name="{=osa_ar_empire_boots_b}[OSA] Light Gilded Lamellar Plate Boots" mesh="AR_empire_boots_b" culture="Culture.neutral_culture" weight="3.5" appearance="3" Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="52" covers_legs="true" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_empire_boots_c" name="{=osa_ar_empire_boots_c}[OSA] Gilded Lamellar Plate Boots" mesh="AR_empire_boots_c" culture="Culture.neutral_culture" weight="3.5" appearance="3" Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="62" covers_legs="true" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_vlandia_boots_a" name="{=osa_ar_vlandia_boots_a}[OSA] Western Boots With Leather Greaves" mesh="AR_vlandia_boots_a" culture="Culture.neutral_culture" weight="0.9" appearance="1" Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="38" covers_legs="true" modifier_group="leather" material_type="Leather"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true"/>
+		<Flags Civilian="true" UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_vlandia_boots_b" name="{=osa_ar_vlandia_boots_b}[OSA] Western Boots With Iron Greaves" mesh="AR_vlandia_boots_b" culture="Culture.neutral_culture" weight="2.7" appearance="2" Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="48" covers_legs="true" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags UseTeamColor="false"/>
 	</Item>
 	<Item id="AR_vlandia_boots_c" name="{=osa_ar_vlandia_boots_c}[OSA] Western Boots With Gilded Greaves" mesh="AR_vlandia_boots_c" culture="Culture.neutral_culture" weight="2.7" appearance="2" Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="48" covers_legs="true" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags UseTeamColor="false"/>
 	</Item>
 </Items>

@@ -8,12 +8,6 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="heavy_samurai_shoulder" name="{=osa_heavy_samurai_shoulder}[OSA][Shoulders] Oriental Laminar Shoulders" mesh="ap_heavy_samutai_shoulder" culture="Culture.neutral_culture" subtype="body_armor" weight="3.1" appearance="0.6" Type="Cape">
-		<ItemComponent>
-			<Armor body_armor="27" modifier_group="plate" material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
 	<Item id="leather_shoulder_a" name="{=osa_leather_shoulder_a}[OSA][Shoulders] Western Leather Shoulders (Strapped)" mesh="ap_leather_shoulder_a" culture="Culture.neutral_culture" subtype="body_armor" weight="2.6" appearance="0.6" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="22" modifier_group="leather" material_type="Leather"/>
@@ -69,11 +63,6 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="heavy_samutai" name="{=osa_heavy_samutai}[OSA] Oriental Laminar Armor" mesh="ap_heavy_samutai" culture="Culture.neutral_culture" weight="10.1" appearance="0.7" Type="BodyArmor">
-		<ItemComponent>
-			<Armor body_armor="75" leg_armor="54" arm_armor="48" covers_body="true" modifier_group="plate" material_type="Plate" has_gender_variations="true"/>
-		</ItemComponent>
-	</Item>
 	<Item id="mirror_armor" name="{=osa_mirror_armor}[OSA] Southern Mirrored Plated Mail Shirt" mesh="AP_mirror_armor" culture="Culture.neutral_culture" weight="7.5" Type="BodyArmor" appearance="1.2" difficulty="0" subtype="body_armor">
 		<ItemComponent>
 			<Armor body_armor="68" leg_armor="30" covers_body="true" has_gender_variations="true" modifier_group="chain" material_type="Chainmail" arm_armor="33"/>
@@ -124,21 +113,9 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="aserai_light_helmet" name="{=osa_aserai_light_helmet}[OSA] Southern Pointed Skullcap" mesh="ap_aserai_light_helmet" culture="Culture.neutral_culture" weight="0.8" appearance="0.9" Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="48" body_armor="12" hair_cover_type="type1" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
 	<Item id="southern_light_helmet_a" name="{=osa_southern_light_helmet_a}[OSA] Southern Closed Pointed Skullcap" mesh="ap_southern_light_helmet_a" culture="Culture.neutral_culture" weight="1.0" appearance="0.9" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="48" body_armor="6" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="aserai_mail_helmet" name="{=osa_aserai_mail_helmet}[OSA] Southern Pointed Skullcap Over Mail" mesh="ap_aserai_mail_helmet" culture="Culture.neutral_culture" weight="1.0" appearance="0.9" Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="90" body_armor="25" hair_cover_type="all" beard_cover_type="type2" modifier_group="plate" material_type="Plate"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>

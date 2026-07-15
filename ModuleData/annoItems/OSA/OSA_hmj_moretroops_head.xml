@@ -49,18 +49,6 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="vlandian_nasal_skullcap_mail" name="{=osa_vlandian_nasal_skullcap_mail}[OSA] Pointed Nasalhelm Over Mail" mesh="va_model_helmet_nasal_coif" culture="Culture.neutral_culture" weight="1.3" appearance="1" Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="90" body_armor="25" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type2" modifier_group="plate" material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
-	<Item id="vlandian_nasal_skullcap" name="{=osa_vlandian_nasal_skullcap}[OSA] Pointed Nasalhelm" mesh="va_model_helmet_nasal" culture="Culture.neutral_culture" weight="1.3" appearance="1" Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="50" body_armor="16" has_gender_variations="false" hair_cover_type="type1" beard_cover_type="none" modifier_group="plate" material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
 	<Item id="southern_mail_helm_band" name="{=osa_southern_mail_helm_band}[OSA] Southern Banded Nasalhelm Over Mail" mesh="hmj_southern_band_helmveil" culture="Culture.neutral_culture" weight="3.2" appearance="1.3" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="107" body_armor="41" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type3" modifier_group="chain" material_type="Chainmail"/>
@@ -183,12 +171,6 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	<Item id="varangian_guard_helmet_c" name="{=osa_varangian_guard_helmet_c}[OSA] Imperial Guard's Helmet With Stripped Cataphract Mail" mesh="varangian_guard_helmet_c" culture="Culture.neutral_culture" weight="5.4" appearance="1.0" Type="HeadArmor">
-		<ItemComponent>
-			<Armor head_armor="120" body_armor="82" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true"/>
-	</Item>
 	<Item id="echerian_elite_helm" name="{=osa_echerian_elite_helm}[OSA] Imperial Closed Guarded Lord Helmet" mesh="hmj_echerian_elite_helm" culture="Culture.neutral_culture" subtype="head_armor" weight="3.7" appearance="3" Type="HeadArmor">
 		<ItemComponent>
 			<Armor head_armor="141" body_armor="82" has_gender_variations="false" hair_cover_type="all" beard_cover_type="all" modifier_group="plate" material_type="Plate"/>
@@ -205,7 +187,7 @@
 		<ItemComponent>
 			<Armor head_armor="34" body_armor="35" has_gender_variations="false" hair_cover_type="all" beard_cover_type="type3" modifier_group="chain" material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags Civilian="true" UseTeamColor="true"/>
+		<Flags Civilian="true" UseTeamColor="false"/>
 	</Item>
 	<!-- Strugian Helmets -->
 	<Item id="ulfhednar_helm" name="{=osa_ulfhednar_helm}[OSA] Ulfhednar's Goggled Helmet" subtype="head_armor" mesh="ulfhednar_helmet_a" culture="Culture.neutral_culture" weight="4.8" difficulty="0" appearance="1" Type="HeadArmor">

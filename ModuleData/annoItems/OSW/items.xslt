@@ -24,9 +24,13 @@
 	<xsl:template match="Item[@id='AR_shield_infantry_h']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_h2']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_i']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_i2']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_j']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_j2']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_k']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_k2']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_l']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_l2']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_m']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_m2']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_n']"/>
@@ -70,10 +74,15 @@
 	<xsl:template match="Item[@id='AR_shield_infantry_zq']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_zr']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_zs']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zs2']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_zt']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zt2']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_zu']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zu2']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_zv']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zv2']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_zw']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zw2']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_zx']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_zy']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_zz']"/>
@@ -88,6 +97,22 @@
 	<xsl:template match="Item[@id='AR_shield_infantry_zze2']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_zzf']"/>
 	<xsl:template match="Item[@id='AR_shield_infantry_zzg']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzh']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzi']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzi2']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzi3']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzj']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzk']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzl']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzm']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzn']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzo']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzo2']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzp']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzp2']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzp3']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzq']"/>
+	<xsl:template match="Item[@id='AR_shield_infantry_zzr']"/>
 	<!-- #endregion -->
 	<!-- region OSA_ar_reforms_slings-->
 	<xsl:template match="Item[@id='AR_sling_a']"/>

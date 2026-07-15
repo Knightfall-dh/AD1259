@@ -17,11 +17,6 @@
 	<xsl:template match="Item[@id='AR_aserai_scale_cape_c2']"/>
 	<xsl:template match="Item[@id='AR_aserai_shoulder_a']"/>
 	<xsl:template match="Item[@id='AR_aserai_shoulder_a2']"/>
-	<xsl:template match="Item[@id='AR_aserai_shoulder_b']"/>
-	<xsl:template match="Item[@id='AR_aserai_shoulder_c']"/>
-	<xsl:template match="Item[@id='AR_aserai_shoulder_c2']"/>
-	<xsl:template match="Item[@id='AR_aserai_shoulder_d']"/>
-	<xsl:template match="Item[@id='AR_aserai_shoulder_d2']"/>
 	<xsl:template match="Item[@id='AR_aserai_shoulder_e']"/>
 	<xsl:template match="Item[@id='AR_aserai_shoulder_f']"/>
 	<xsl:template match="Item[@id='AR_aserai_shoulder_g']"/>
@@ -128,6 +123,8 @@
 	<xsl:template match="Item[@id='AR_lion_head_a']"/>
 	<xsl:template match="Item[@id='AR_lion_head_b']"/>
 	<xsl:template match="Item[@id='AR_lion_head_d']"/>
+	<xsl:template match="Item[@id='AR_noble_collar_a']"/>
+	<xsl:template match="Item[@id='AR_noble_collar_b']"/>
 	<xsl:template match="Item[@id='AR_sturgia_shoulders_a']"/>
 	<xsl:template match="Item[@id='AR_sturgia_shoulders_a2']"/>
 	<xsl:template match="Item[@id='AR_sturgia_shoulders_a3']"/>
@@ -169,10 +166,6 @@
 	
 	<!--OSA_dz_assets_head-->
 	<xsl:template match="Item[@id='DZ_aserai_helmet_a']"/>
-	<xsl:template match="Item[@id='DZ_aserai_helmet_b']"/>
-	<xsl:template match="Item[@id='DZ_aserai_helmet_c']"/>
-	<xsl:template match="Item[@id='DZ_aserai_helmet_d']"/>
-	<xsl:template match="Item[@id='DZ_aserai_helmet_e']"/>
 	<xsl:template match="Item[@id='DZ_aserai_helmet_f']"/>
 	<xsl:template match="Item[@id='DZ_empire_helmet_a']"/>
 	<xsl:template match="Item[@id='DZ_empire_helmet_b']"/>
@@ -194,14 +187,6 @@
 	<xsl:template match="Item[@id='DZ_sturgia_helmet_c']"/>
 	<xsl:template match="Item[@id='DZ_sturgia_helmet_d']"/>
 	<xsl:template match="Item[@id='DZ_vlandia_helmet_a']"/>
-	<xsl:template match="Item[@id='DZ_vlandia_helmet_b']"/>
-	<xsl:template match="Item[@id='DZ_vlandia_helmet_b2']"/>
-	<xsl:template match="Item[@id='DZ_vlandia_helmet_c']"/>
-	<xsl:template match="Item[@id='DZ_vlandia_helmet_c2']"/>
-	<xsl:template match="Item[@id='DZ_vlandia_helmet_d']"/>
-	<xsl:template match="Item[@id='DZ_vlandia_helmet_d2']"/>
-	<xsl:template match="Item[@id='DZ_vlandia_helmet_e']"/>
-	<xsl:template match="Item[@id='DZ_vlandia_helmet_e2']"/>
 	
 	
 	<!--OSA_dz_assets_armor-->
@@ -234,10 +219,6 @@
 	<xsl:template match="Item[@id='AR_satan_hat']"/>
 	<xsl:template match="Item[@id='solar_helmet']"/>
 	<xsl:template match="Item[@id='solar_helmet_b']"/>
-	<xsl:template match="Item[@id='solar_helmet_no_cloth']"/>
-	<xsl:template match="Item[@id='solar_helmet_no_cloth_b']"/>
-	<xsl:template match="Item[@id='ancient_solar_helmet']"/>
-	<xsl:template match="Item[@id='ancient_solar_helmet_b']"/>
 	<xsl:template match="Item[@id='AR_gladiator_helmet_a']"/>
 	<xsl:template match="Item[@id='AR_gladiator_helmet_b']"/>
 	<xsl:template match="Item[@id='AR_gladiator_helmet_c']"/>
@@ -315,8 +296,6 @@
 	<xsl:template match="Item[@id='hmj_aserai_helmet_a']"/>
 	<xsl:template match="Item[@id='aserai_mubarizun_helmet']"/>
 	<xsl:template match="Item[@id='southern_vendel_helmet']"/>
-	<xsl:template match="Item[@id='vlandian_nasal_skullcap_mail']"/>
-	<xsl:template match="Item[@id='vlandian_nasal_skullcap']"/>
 	<xsl:template match="Item[@id='southern_mail_helm_band']"/>
 	<xsl:template match="Item[@id='wolfskin_helmet_guard']"/>
 	<xsl:template match="Item[@id='battania_skull_cap']"/>
@@ -337,7 +316,6 @@
 	<xsl:template match="Item[@id='khuzait_spiked_kettle']"/>
 	<xsl:template match="Item[@id='varangian_guard_helmet_a']"/>
 	<xsl:template match="Item[@id='varangian_guard_helmet_b']"/>
-	<xsl:template match="Item[@id='varangian_guard_helmet_c']"/>
 	<xsl:template match="Item[@id='echerian_elite_helm']"/>
 	<xsl:template match="Item[@id='imperial_lord_helm_mail']"/>
 	<xsl:template match="Item[@id='mail_coif_pilgrim_hood']"/>
@@ -353,22 +331,16 @@
 	
 	
 	<!--OSA_tv_assets_armor-->
-	<xsl:template match="Item[@id='TV_aserai_boots_a']"/>
-	<xsl:template match="Item[@id='TV_aserai_boots_b']"/>
 	<xsl:template match="Item[@id='TV_aserai_boots_c']"/>
 	<xsl:template match="Item[@id='TV_aserai_boots_d']"/>
 	<xsl:template match="Item[@id='TV_aserai_boots_e']"/>
 	<xsl:template match="Item[@id='TV_aserai_boots_e2']"/>
-	<xsl:template match="Item[@id='TV_aserai_boots_f']"/>
-	<xsl:template match="Item[@id='TV_aserai_boots_g']"/>
 	<xsl:template match="Item[@id='TV_aserai_boots_h']"/>
 	<xsl:template match="Item[@id='TV_aserai_boots_i']"/>
 	<xsl:template match="Item[@id='TV_battania_boots_a']"/>
 	<xsl:template match="Item[@id='TV_battania_boots_b']"/>
 	<xsl:template match="Item[@id='TV_battania_boots_c']"/>
 	<xsl:template match="Item[@id='TV_battania_boots_d']"/>
-	<xsl:template match="Item[@id='TV_battania_boots_e']"/>
-	<xsl:template match="Item[@id='TV_battania_boots_f']"/>
 	<xsl:template match="Item[@id='TV_battania_boots_g']"/>
 	<xsl:template match="Item[@id='TV_battania_boots_h']"/>
 	<xsl:template match="Item[@id='TV_battania_boots_i']"/>
@@ -386,8 +358,6 @@
 	<xsl:template match="Item[@id='TV_battania_boots_u']"/>
 	<xsl:template match="Item[@id='TV_battania_boots_v']"/>
 	<xsl:template match="Item[@id='TV_battania_boots_w']"/>
-	<xsl:template match="Item[@id='TV_battania_boots_x']"/>
-	<xsl:template match="Item[@id='TV_battania_boots_y']"/>
 	<xsl:template match="Item[@id='tv_battania_warlord_boots']"/>
 	<xsl:template match="Item[@id='tv_battania_warlord_boots_b']"/>
 	<xsl:template match="Item[@id='tv_battania_warlord_boots_c']"/>
@@ -396,7 +366,6 @@
 	<xsl:template match="Item[@id='TV_empire_boots_c']"/>
 	<xsl:template match="Item[@id='tv_empire_plate_a']"/>
 	<xsl:template match="Item[@id='tv_empire_plate_c']"/>
-	<xsl:template match="Item[@id='TV_khuzait_boots_a']"/>
 	<xsl:template match="Item[@id='TV_khuzait_boots_b']"/>
 	<xsl:template match="Item[@id='TV_moccasins_a']"/>
 	<xsl:template match="Item[@id='TV_moccasins_b']"/>
@@ -684,8 +653,6 @@
 	<xsl:template match="Item[@id='TV_aserai_guard_helmet_f']"/>
 	<xsl:template match="Item[@id='TV_aserai_guard_helmet_f2']"/>
 	<xsl:template match="Item[@id='TV_aserai_guard_helmet_f3']"/>
-	<xsl:template match="Item[@id='tv_aserai_hscarf_a']"/>
-	<xsl:template match="Item[@id='tv_aserai_hscarf_b']"/>
 	<xsl:template match="Item[@id='TV_aserai_helmet_a']"/>
 	<xsl:template match="Item[@id='TV_aserai_helmet_b']"/>
 	<xsl:template match="Item[@id='TV_aserai_helmet_c']"/>
@@ -712,7 +679,6 @@
 	<xsl:template match="Item[@id='TV_aserai_helmet_x']"/>
 	<xsl:template match="Item[@id='TV_aserai_helmet_y']"/>
 	<xsl:template match="Item[@id='TV_aserai_helmet_y2']"/>
-	<xsl:template match="Item[@id='tv_aserai_lord_helmet_a']"/>
 	<xsl:template match="Item[@id='TV_aserai_lord_helmet_b']"/>
 	<xsl:template match="Item[@id='TV_aserai_lord_helmet_c']"/>
 	<xsl:template match="Item[@id='TV_aserai_lord_helmet_d']"/>
@@ -738,13 +704,8 @@
 	<xsl:template match="Item[@id='TV_battania_helmet_o']"/>
 	<xsl:template match="Item[@id='TV_battania_helmet_p']"/>
 	<xsl:template match="Item[@id='TV_battania_helmet_q']"/>
-	<xsl:template match="Item[@id='TV_battania_helmet_r']"/>
-	<xsl:template match="Item[@id='TV_battania_helmet_r2']"/>
 	<xsl:template match="Item[@id='TV_battania_helmet_s']"/>
 	<xsl:template match="Item[@id='TV_battania_helmet_s2']"/>
-	<xsl:template match="Item[@id='TV_battania_helmet_t']"/>
-	<xsl:template match="Item[@id='TV_battania_helmet_t2']"/>
-	<xsl:template match="Item[@id='TV_battania_helmet_t3']"/>
 	<xsl:template match="Item[@id='TV_battania_helmet_u']"/>
 	<xsl:template match="Item[@id='TV_battania_helmet_u2']"/>
 	<xsl:template match="Item[@id='TV_battania_lord_helmet_a']"/>
@@ -770,9 +731,7 @@
 	<xsl:template match="Item[@id='TV_empire_lord_helmet_f']"/>
 	<xsl:template match="Item[@id='TV_empire_lord_helmet_g']"/>
 	<xsl:template match="Item[@id='TV_empire_lord_helmet_h']"/>
-	<xsl:template match="Item[@id='TV_empire_lord_helmet_i']"/>
 	<xsl:template match="Item[@id='TV_empire_lord_helmet_j']"/>
-	<xsl:template match="Item[@id='TV_empire_lord_helmet_k']"/>
 	<xsl:template match="Item[@id='TV_khuzait_helmet_a']"/>
 	<xsl:template match="Item[@id='TV_khuzait_helmet_a2']"/>
 	<xsl:template match="Item[@id='TV_khuzait_helmet_b']"/>
@@ -893,8 +852,6 @@
 	<xsl:template match="Item[@id='TV_sturgia_lord_helmet_c2']"/>
 	<xsl:template match="Item[@id='TV_sturgia_lord_helmet_d']"/>
 	<xsl:template match="Item[@id='TV_sturgia_lord_helmet_e']"/>
-	<xsl:template match="Item[@id='TV_sturgia_lord_helmet_f']"/>
-	<xsl:template match="Item[@id='TV_sturgia_lord_helmet_g']"/>
 	<xsl:template match="Item[@id='tv_vlandia_helmet_a']"/>
 	<xsl:template match="Item[@id='tv_vlandia_helmet_a2']"/>
 	<xsl:template match="Item[@id='tv_vlandia_helmet_a3']"/>
@@ -911,7 +868,6 @@
 	<xsl:template match="Item[@id='tv_vlandia_helmet_c4']"/>
 	<xsl:template match="Item[@id='tv_vlandia_helmet_c5']"/>
 	<xsl:template match="Item[@id='tv_vlandia_helmet_d']"/>
-	<xsl:template match="Item[@id='tv_vlandia_helmet_e']"/>
 	<xsl:template match="Item[@id='tv_vlandia_helmet_f']"/>
 	<xsl:template match="Item[@id='TV_vlandia_helmet_g']"/>
 	<xsl:template match="Item[@id='TV_vlandia_helmet_h']"/>

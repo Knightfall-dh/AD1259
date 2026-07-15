@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CraftingPieces>
-	<!-- RBM Balance --><!-- Vanilla Offset Fix -->
-	<CraftingPiece id="spear_guard_9" name="{=YxoUpPRb}Riveted Hooked Wings" tier="4" piece_type="Guard" mesh="spear_guard_9" culture="Culture.empire" length="4" weight="0">
-		<Materials>
-			<Material id="Iron4" count="1"/>
-		</Materials>
+	<!-- RBM Balance -->
+	<!-- Axe Heads -->
+	<CraftingPiece id="AR_axe_head_a" name="{=osa_ar_axe_head_a}Small Bardiche Head" tier="5" piece_type="Blade" mesh="AR_axe_head_a" distance_to_next_piece="14" distance_to_previous_piece="11.7" weight="0.6">
+		<BuildData piece_offset="-17"/>
+		<BladeData stack_amount="3" blade_length="25.328" blade_width="28.023" physics_material="metal_weapon" body_name="bo_axe_longer_b">
+			<Swing damage_type="Cut" damage_factor="0.8"/>
+		</BladeData>
 		<Flags>
-			<Flag name="CanDismount"/>
+			<Flag name="CanBePickedUpFromCorpse" type="ItemFlags"/>
+			<Flag name="BonusAgainstShield"/>
 		</Flags>
+		<Materials>
+			<Material id="Iron3" count="4"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="AR_axe_head_b" name="{=osa_ar_axe_head_b}Small Fine Steel Bardiche Head" tier="5" piece_type="Blade" mesh="AR_axe_head_a" distance_to_next_piece="14" distance_to_previous_piece="11.7" weight="0.7">
+		<BuildData piece_offset="-17"/>
+		<BladeData stack_amount="3" blade_length="25.328" blade_width="31.023" physics_material="metal_weapon" body_name="bo_axe_longer_b">
+			<Swing damage_type="Cut" damage_factor="1.1"/>
+		</BladeData>
+		<Flags>
+			<Flag name="CanBePickedUpFromCorpse" type="ItemFlags"/>
+			<Flag name="BonusAgainstShield"/>
+			<Flag name="Civilian" type="ItemFlags"/>
+		</Flags>
+		<Materials>
+			<Material id="Iron4" count="3"/>
+		</Materials>
 	</CraftingPiece>
 	<!-- Sword Blades -->
 	<CraftingPiece id="AR_aserai_blade_a" name="{=osa_ar_aserai_blade_a}Iron Shotel Blade" tier="2" piece_type="Blade" mesh="AR_aserai_blade_a" culture="Culture.aserai" length="93.2" weight="0.64">
@@ -262,28 +282,14 @@
 			<Material id="Wood" count="4"/>
 		</Materials>
 	</CraftingPiece>
+	<CraftingPiece id="AR_spear_handle_c" name="{=osa_ar_spear_handle_c}Decorated Pine Pike Shaft" tier="5" piece_type="Handle" mesh="spear_handle_8" length="230" weight="0.65" CraftingCost="110">
+		<BuildData piece_offset="10.0"/>
+		<Materials>
+			<Material id="Wood" count="2"/>
+		</Materials>
+	</CraftingPiece>
 	<!-- Spear Pommels -->
-	<CraftingPiece id="AR_spear_pommel_a" name="{=osa_ar_spear_pommel_a}Spiked Steel Spear Pommel" tier="5" piece_type="Pommel" mesh="AR_spear_pommel_a" culture="Culture.empire" length="14.8" weight="0">
-		<Materials>
-			<Material id="Iron5" count="1"/>
-		</Materials>
-	</CraftingPiece>
-	<CraftingPiece id="AR_spear_pommel_b" name="{=osa_ar_spear_pommel_b}Spiked Brass Spear Pommel" tier="5" piece_type="Pommel" mesh="AR_spear_pommel_b" culture="Culture.empire" length="14.8" weight="0">
-		<Materials>
-			<Material id="Iron5" count="1"/>
-		</Materials>
-	</CraftingPiece>
-	<CraftingPiece id="AR_spear_pommel_c" name="{=osa_ar_spear_pommel_c}Large Bladed Spear Pommel" tier="3" piece_type="Pommel" mesh="AR_spear_pommel_c" culture="Culture.empire" length="14.8" weight="0">
-		<Materials>
-			<Material id="Iron5" count="1"/>
-		</Materials>
-	</CraftingPiece>
 	<!-- Spear Guards -->
-	<CraftingPiece id="AR_spear_guard_a" name="{=osa_ar_spear_guard_a}Brass Segmented Riveted Shaft Reinforcement" tier="4" piece_type="Guard" mesh="AR_spear_guard_a" culture="Culture.empire" length="5.5" weight="0">
-		<Materials>
-			<Material id="Iron2" count="1"/>
-		</Materials>
-	</CraftingPiece>
 	<!-- Polearm Blades -->
 	<CraftingPiece id="AR_billhook_blade_a" name="{=osa_ar_billhook_blade_a}Crude Bill Head" tier="2" piece_type="Blade" mesh="AR_billhook_blade_a" length="35.5" weight="0.3296" excluded_item_usage_features="shield:thrust">
 		<BladeData stack_amount="3" physics_material="wood_weapon" body_name="bo_spear_b">
@@ -534,14 +540,14 @@
 		</Materials>
 	</CraftingPiece-->
 	<!-- SI CUSTOM PIECES -->
-	<CraftingPiece id="AR_SI_spear_handle_a" name="{=osa_ar_si_spear_handle_a}Mahogany One Handed Spear Shaft" tier="4" piece_type="Handle" mesh="spear_handle_24" length="260" weight="2.381">
-		<BuildData piece_offset="70.0"/>
+	<CraftingPiece id="AR_SI_spear_handle_a" name="{=osa_ar_si_spear_handle_a}Mahogany One Handed Spear Shaft" tier="4" piece_type="Handle" mesh="AR_SI_spear_handle_a" length="260" weight="2.381">
+		<BuildData piece_offset="50.0"/>
 		<Materials>
 			<Material id="Wood" count="1"/>
 		</Materials>
 	</CraftingPiece>
-	<CraftingPiece id="AR_SI_spear_handle_b" name="{=osa_ar_si_spear_handle_b}Long One Handed Oak Shaft" tier="2" piece_type="Handle" mesh="spear_handle_6" length="250" weight="0.65" CraftingCost="120">
-		<BuildData piece_offset="-13"/>
+	<CraftingPiece id="AR_SI_spear_handle_b" name="{=osa_ar_si_spear_handle_b}Long One Handed Oak Shaft" tier="2" piece_type="Handle" mesh="AR_SI_spear_handle_b" length="250" weight="0.65" CraftingCost="120">
+		<BuildData piece_offset="50.0"/>
 		<Materials>
 			<Material id="Wood" count="1"/>
 		</Materials>
@@ -560,6 +566,12 @@
 	</CraftingPiece>
 	<CraftingPiece id="AR_SI_spear_handle_e" name="{=osa_ar_si_spear_handle_e}Decorated One Handed Pine Shaft" tier="4" piece_type="Handle" mesh="spear_handle_16" length="180" weight="0.468">
 		<BuildData piece_offset="-9"/>
+		<Materials>
+			<Material id="Wood" count="1"/>
+		</Materials>
+	</CraftingPiece>
+	<CraftingPiece id="AR_SI_spear_handle_f" name="{=osa_ar_si_spear_handle_f}Oaken Long Spear Shaft" tier="4" piece_type="Handle" mesh="spear_handle_20" length="220" weight="1.612">
+		<BuildData piece_offset="55.0"/>
 		<Materials>
 			<Material id="Wood" count="1"/>
 		</Materials>

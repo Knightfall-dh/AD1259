@@ -10,15 +10,15 @@
 	</Item>
 	<Item id="ao_generic_short_cape" name="{=osa_ao_generic_short_cape}[OSA][Shoulders] Short Cape" mesh="battania_cloak_a" culture="Culture.neutral_culture" weight="0.5" appearance="1" Type="Cape">
 		<ItemComponent>
-			<Armor body_armor="6" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+			<Armor body_armor="6" stealth_factor="5" modifier_group="cloth_unarmoured" material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true"/>
+		<Flags Civilian="true" Stealth="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="ao_focale" name="{=osa_ao_focale}[OSA][Shoulders] Imperial Focale" mesh="AO_gen_focale_a" culture="Culture.neutral_culture" weight="0.1" appearance="1" Type="Cape">
 		<ItemComponent>
-			<Armor body_armor="5" modifier_group="cloth_unarmoured" material_type="Cloth"/>
+			<Armor body_armor="5" Stealth="true" modifier_group="cloth_unarmoured" material_type="Cloth"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true"/>
+		<Flags Civilian="true" Stealth="true" UseTeamColor="true"/>
 	</Item>
 	<Item id="ao_battanian_cloak" name="{=osa_ao_battanian_cloak}[OSA][Shoulders] Highland Cloth Cloak" mesh="AO_battania_cloak_a" culture="Culture.neutral_culture" weight="0.2" appearance="1" Type="Cape">
 		<ItemComponent>
@@ -68,6 +68,7 @@
 		</ItemComponent>
 		<Flags/>
 	</Item>
+	<!-- REMOVED OSA 2.0 BL 1.4
 	<Item id="AO_aserai_shoulders_b" name="{=osa_ao_aserai_shoulders_b}[OSA][Shoulders] Scale Shoulder Guards (Brass)" mesh="AO_aserai_shoulders_b" culture="Culture.neutral_culture" weight="4.4" appearance="3" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="24" modifier_group="plate" material_type="Plate" arm_armor="0"/>
@@ -80,6 +81,7 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
+	-->
 	<Item id="AO_aserai_shoulders_d" name="{=osa_ao_aserai_shoulders_d}[OSA][Shoulders] Scale Shoulders With Cloak (Brass)" mesh="AO_aserai_shoulders_d" culture="Culture.neutral_culture" weight="4.4" appearance="3" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="50" modifier_group="plate" material_type="Plate" arm_armor="0"/>
@@ -164,12 +166,14 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
+	<!-- Removed OSA 2.0 BL 1.4
 	<Item id="ao_battanian_gambeson_with_kilt" name="{=osa_ao_battanian_gambeson_with_kilt}[OSA] Highland Gambeson Over Tunic With Kilt" mesh="AO_battania_armor_e" culture="Culture.neutral_culture" subtype="body_armor" weight="1.5" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="21" leg_armor="18" arm_armor="12" covers_body="true" modifier_group="cloth" material_type="Cloth" has_gender_variations="true"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
+	-->
 	<Item id="ao_battanian_scale_armor" name="{=osa_ao_battanian_scale_armor}[OSA] Highland Rugged Scale Armor Over Tunic" mesh="AO_battania_armor_i" culture="Culture.neutral_culture" subtype="body_armor" weight="10.7" difficulty="0" appearance="1.4" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="38" leg_armor="28" arm_armor="21" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
@@ -344,12 +348,14 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
+	<!--REMOVED OSA 2.0 BL 1.4
 	<Item id="ao_gen_sleeveless_leather_tunic" name="{=osa_ao_gen_sleeveless_leather_tunic}[OSA] Sleeveless Leather Tunic" mesh="AO_gen_tunic_a" culture="Culture.neutral_culture" weight="1.8" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="16" leg_armor="22" arm_armor="5" has_gender_variations="true" covers_body="false" modifier_group="leather" material_type="Leather"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
+	-->
 	<Item id="ao_gen_gambeson_over_mail" name="{=osa_ao_gen_gambeson_over_mail}[OSA] Northern Padded Coat Over Mail" mesh="AO_gen_gambeson_a" culture="Culture.neutral_culture" weight="10" appearance="3" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="50" leg_armor="42" arm_armor="38" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
@@ -476,6 +482,7 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
+	<!-- REMOVED OSA 2.0 BL 1.4
 	<Item id="ao_nordic_sloven_mail_sleeveless" name="{=osa_ao_nordic_sloven_mail_sleeveless}[OSA] Nordic Sloven Mail Shirt" mesh="AO_nord_armor_a" culture="Culture.neutral_culture" subtype="body_armor" weight="8" difficulty="0" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="43" leg_armor="20" arm_armor="20" has_gender_variations="true" covers_body="false" modifier_group="chain" material_type="Chainmail"/>
@@ -494,6 +501,7 @@
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
+	-->
 	<Item id="ao_mabili_hide_skirt" name="{=osa_ao_mabili_hide_skirt}[OSA] Southern Hide Skirt" mesh="AO_mabili_armor_a_converted" culture="Culture.neutral_culture" subtype="body_armor" weight="0.1" difficulty="0" appearance="1.4" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="2" leg_armor="6" arm_armor="0" has_gender_variations="true" covers_body="false" modifier_group="leather" material_type="Leather"/>

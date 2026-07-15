@@ -1012,10 +1012,22 @@
 		<Flags UseTeamColor="true"/>
 	</Item>
 	<!-- Misc Armors -->
-	<Item id="AR_bandit_armor_a" name="{=osa_ar_bandit_armor_a}[OSA] Studded Fur Armor With Mail" mesh="AR_bandit_armor_a" culture="Culture.looters" weight="0.6" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor">
+	<Item id="AR_bandit_armor_a" name="{=osa_ar_bandit_armor_a}[OSA] Studded Fur Armor With Mail" mesh="AR_bandit_armor_a" culture="Culture.neutral_culture" weight="0.6" Type="BodyArmor" appearance="1" difficulty="0" subtype="body_armor">
 		<ItemComponent>
 			<Armor body_armor="45" leg_armor="22" covers_body="true" modifier_group="chain" material_type="Chainmail" arm_armor="42"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="AR_noble_dress_a" name="{=osa_ar_noble_dress_a}[OSA] Decorated Rich Dress" mesh="AR_noble_dress_a" culture="Culture.neutral_culture" weight="0.5" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="7" leg_armor="7" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="true" arm_armor="5"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
+	</Item>
+	<Item id="AR_noble_dress_a2" name="{=osa_ar_noble_dress_a2}[OSA] Patterned Rich Dress" mesh="AR_noble_dress_a2" culture="Culture.neutral_culture" weight="0.5" Type="BodyArmor" appearance="1">
+		<ItemComponent>
+			<Armor body_armor="7" leg_armor="7" covers_body="true" modifier_group="cloth_unarmoured" material_type="Cloth" has_gender_variations="true" arm_armor="5"/>
+		</ItemComponent>
+		<Flags UseTeamColor="true" Civilian="true"/>
 	</Item>
 </Items>
