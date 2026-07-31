@@ -17,7 +17,6 @@
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.italy_infantry_root0"/>
 			<upgrade_target id="NPCCharacter.italy_infantry_root1"/>
-			<upgrade_target id="NPCCharacter.italy_infantry_root2"/>
 			<upgrade_target id="NPCCharacter.italy_infantry_root3"/>
 			<upgrade_target id="NPCCharacter.italy_archer_root"/>
 		</upgrade_targets>
@@ -26,7 +25,7 @@
 			<EquipmentSet id="italy_infantry_root_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_infantry_root0" default_group="Infantry" level="11" name="{=Italian Fante a Tavolaccio}Italian Pavesario Novizio" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_infantry_root0" default_group="Infantry" level="11" name="{=Italian Pavesario Novizio}Italian Pavesario Novizio" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -70,7 +69,7 @@
 			<EquipmentSet id="italy_infantry_root00_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_infantry_root000" default_group="Infantry" level="21" name="{=Italian Veteran Guisarmer}Italian Pavesario Esperto" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_infantry_root000" default_group="Infantry" level="21" name="{=Italian Pavesario Esperto}Italian Pavesario Esperto" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -92,7 +91,7 @@
 			<EquipmentSet id="italy_infantry_root000_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_infantry_root0000" default_group="Infantry" level="26" name="{=Italian Pavesario da Compagna}Italian Pavesario da Compagna" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_infantry_root0000" default_group="Infantry" level="26" name="{=Italian Pavesario Scelto}Italian Pavesario Scelto" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -111,7 +110,7 @@
 			<EquipmentSet id="italy_infantry_root0000_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_infantry_root1" default_group="Infantry" name="{=Italian Fante a Falcione}Italian Fante d'Arme" level="11" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_infantry_root1" default_group="Infantry" name="{=Italian Fante d'Arme}Italian Fante d'Arme" level="11" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -127,13 +126,14 @@
 		</skills>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.italy_infantry_root10"/>
+			<upgrade_target id="NPCCharacter.italy_infantry_root20"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="italy_infantry_root1_bat"/>
 			<EquipmentSet id="italy_infantry_root1_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_infantry_root10" default_group="Infantry" name="{=Italian Guisarmer}Italian Armigero" level="16" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_infantry_root10" default_group="Infantry" name="{=Italian Armigero}Italian Armigero" level="16" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -155,7 +155,7 @@
 			<EquipmentSet id="italy_infantry_root10_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_infantry_root100" default_group="Infantry" name="{=Italian Falcioniere Armato}Italian Armigero Veterano" level="21" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_infantry_root100" default_group="Infantry" name="{=Italian Armigero Anziano}Italian Armigero Anziano" level="21" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -175,29 +175,7 @@
 			<EquipmentSet id="italy_infantry_root100_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_infantry_root2" default_group="Infantry" name="{=Italian Levy Pikeman}Italian Picchiere Novizio" level="11" occupation="Soldier" culture="Culture.italian">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills>
-			<skill id="Athletics" value="35"/>
-			<skill id="Riding" value="5"/>
-			<skill id="OneHanded" value="30"/>
-			<skill id="TwoHanded" value="20"/>
-			<skill id="Polearm" value="70"/>
-			<skill id="Bow" value="5"/>
-			<skill id="Crossbow" value="10"/>
-			<skill id="Throwing" value="10"/>
-		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.italy_infantry_root20"/>
-		</upgrade_targets>
-		<Equipments>
-			<EquipmentSet id="italy_infantry_root2_bat"/>
-			<EquipmentSet id="italy_infantry_root2_civ" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="italy_infantry_root20" default_group="Infantry" name="{=Italian Pikeman}Italian Picchiere" level="16" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_infantry_root20" default_group="Infantry" name="{=Italian Lanzalonga}Italian Lanzalonga" level="16" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -219,7 +197,7 @@
 			<EquipmentSet id="italy_infantry_root20_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_infantry_root200" default_group="Infantry" name="{=Italian Serragente Picchiero}Italian Picchiere Esperto" level="21" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_infantry_root200" default_group="Infantry" name="{=Italian Lanzalonga Esperto}Italian Lanzalonga Esperto" level="21" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -228,7 +206,7 @@
 			<skill id="Riding" value="15"/>
 			<skill id="OneHanded" value="75"/>
 			<skill id="TwoHanded" value="40"/>
-			<skill id="Polearm" value="130"/>
+			<skill id="Polearm" value="135"/>
 			<skill id="Bow" value="15"/>
 			<skill id="Crossbow" value="25"/>
 			<skill id="Throwing" value="30"/>
@@ -241,7 +219,7 @@
 			<EquipmentSet id="italy_infantry_root200_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_infantry_root2000" default_group="Infantry" name="{=Italian Picchiero da Compagna}Italian Picchiere Veterano" level="26" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_infantry_root2000" default_group="Infantry" name="{=Italian Lanzalonga Veterano}Italian Lanzalonga Veterano" level="26" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -250,15 +228,37 @@
 			<skill id="Riding" value="20"/>
 			<skill id="OneHanded" value="100"/>
 			<skill id="TwoHanded" value="50"/>
-			<skill id="Polearm" value="165"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="20"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="40"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.italy_infantry_root2"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="italy_infantry_root2000_bat"/>
+			<EquipmentSet id="italy_infantry_root2000_civ" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="italy_infantry_root2" default_group="Infantry" name="{=Italian Conestabile della Lanzalonga}Italian Conestabile della Lanzalonga" level="31" occupation="Soldier" culture="Culture.italian">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills>
+		    <skill id="Athletics" value="120"/>
+			<skill id="Riding" value="20"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="110"/>
+			<skill id="Polearm" value="250"/>
 			<skill id="Bow" value="20"/>
 			<skill id="Crossbow" value="40"/>
 			<skill id="Throwing" value="40"/>
 		</skills>
 		<upgrade_targets/>
 		<Equipments>
-			<EquipmentSet id="italy_infantry_root2000_bat"/>
-			<EquipmentSet id="italy_infantry_root2000_civ" equipmentType="Civilian"/>
+			<EquipmentSet id="italy_infantry_root2_bat"/>
+			<EquipmentSet id="italy_infantry_root2_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="italy_infantry_root3" default_group="Infantry" name="{=Italian Fante Leggero}Italian Fante Leggero" level="11" occupation="Soldier" culture="Culture.italian">
@@ -283,7 +283,7 @@
 			<EquipmentSet id="italy_infantry_root3_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_infantry_root30" default_group="Infantry" name="{=Italian Berroviere Pediti}Italian Berroviere a Piedi" level="16" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_infantry_root30" default_group="Infantry" name="{=Italian Berroviere a Piedi}Italian Berroviere a Piedi" level="16" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -319,35 +319,12 @@
 			<skill id="Crossbow" value="30"/>
 			<skill id="Throwing" value="50"/>
 		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.italy_infantry_root3000"/>
-		</upgrade_targets>
 		<Equipments>
 			<EquipmentSet id="italy_infantry_root300_bat"/>
 			<EquipmentSet id="italy_infantry_root300_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_infantry_root3000" default_group="Infantry" name="{=Italian Dismounted Knight}Italian Cavaliere Appiedato" level="26" occupation="Soldier" culture="Culture.italian">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills>
-			<skill id="Athletics" value="120"/>
-			<skill id="Riding" value="70"/>
-			<skill id="OneHanded" value="140"/>
-			<skill id="TwoHanded" value="130"/>
-			<skill id="Polearm" value="100"/>
-			<skill id="Bow" value="25"/>
-			<skill id="Crossbow" value="40"/>
-			<skill id="Throwing" value="60"/>
-		</skills>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentSet id="italy_infantry_root3000_bat"/>
-			<EquipmentSet id="italy_infantry_root3000_civ" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="italy_archer_root" default_group="Ranged" level="11" name="{=Italian Levied Bowman}Italian Arciere" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_archer_root" default_group="Ranged" level="11" name="{=Italian Arciere}Italian Arciere" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -370,7 +347,7 @@
 			<EquipmentSet id="italy_archer_root_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_archer_root0" default_group="Ranged" level="16" name="{=Italian Recruit Archer}Italian Arciere Comunale" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_archer_root0" default_group="Ranged" level="16" name="{=Italian Arciere Esperto}Italian Arciere Esperto" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -392,7 +369,7 @@
 			<EquipmentSet id="italy_archer_root0_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_archer_root00" default_group="Ranged" level="21" name="{=Italian Trained Archer}Italian Arciere Esperto" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_archer_root00" default_group="Ranged" level="21" name="{=Italian Arciere Veterano}Italian Arciere Veterano" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -406,34 +383,13 @@
 			<skill id="Crossbow" value="40"/>
 			<skill id="Throwing" value="40"/>
 		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.italy_archer_root000"/>
-		</upgrade_targets>
+		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="italy_archer_root00_bat"/>
 			<EquipmentSet id="italy_archer_root00_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_archer_root000" default_group="Ranged" level="26" name="{=Italian Veteran Archer}Italian Arciere Veterano" occupation="Soldier" culture="Culture.italian">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills>
-			<skill id="Athletics" value="125"/>
-			<skill id="Riding" value="25"/>
-			<skill id="OneHanded" value="120"/>
-			<skill id="TwoHanded" value="60"/>
-			<skill id="Polearm" value="70"/>
-			<skill id="Bow" value="110"/>
-			<skill id="Crossbow" value="60"/>
-			<skill id="Throwing" value="50"/>
-		</skills>
-		<Equipments>
-			<EquipmentSet id="italy_archer_root000_bat"/>
-			<EquipmentSet id="italy_archer_root000_civ" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="italy_archer_root1" default_group="Ranged" level="16" name="{=Italian Recruit Crossbowman}Italian Balestriere" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_archer_root1" default_group="Ranged" level="16" name="{=Italian Balestriere}Italian Balestriere" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -444,7 +400,7 @@
 			<skill id="TwoHanded" value="30"/>
 			<skill id="Polearm" value="35"/>
 			<skill id="Bow" value="10"/>
-			<skill id="Crossbow" value="90"/>
+			<skill id="Crossbow" value="95"/>
 			<skill id="Throwing" value="25"/>
 		</skills>
 		<upgrade_targets>
@@ -455,7 +411,7 @@
 			<EquipmentSet id="italy_archer_root1_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_archer_root10" default_group="Ranged" level="21" name="{=Italian Trained Crossbowman}Italian Balestriere Esperto" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_archer_root10" default_group="Ranged" level="21" name="{=Italian Balestriere Esperto}Italian Balestriere Esperto" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -466,7 +422,7 @@
 			<skill id="TwoHanded" value="40"/>
 			<skill id="Polearm" value="45"/>
 			<skill id="Bow" value="15"/>
-			<skill id="Crossbow" value="120"/>
+			<skill id="Crossbow" value="125"/>
 			<skill id="Throwing" value="40"/>
 		</skills>
 		<upgrade_targets>
@@ -477,7 +433,7 @@
 			<EquipmentSet id="italy_archer_root10_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_archer_root100" default_group="Ranged" level="26" name="{=Italian Veteran Crossbowman}Italian Balestriere Veterano" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_archer_root100" default_group="Ranged" level="26" name="{=Italian Balestriere Veterano}Italian Balestriere Veterano" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -488,7 +444,7 @@
 			<skill id="TwoHanded" value="50"/>
 			<skill id="Polearm" value="60"/>
 			<skill id="Bow" value="20"/>
-			<skill id="Crossbow" value="160"/>
+			<skill id="Crossbow" value="170"/>
 			<skill id="Throwing" value="50"/>
 		</skills>
 		<upgrade_targets>
@@ -499,7 +455,7 @@
 			<EquipmentSet id="italy_archer_root100_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_archer_root1000" default_group="Ranged" name="{=Italian Master Crossbowman}Italian Maestri della Balestra" level="31" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_archer_root1000" default_group="Ranged" name="{=Italian Stipendiato della Balestra}Italian Stipendiato della Balestra" level="31" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -510,7 +466,7 @@
 			<skill id="TwoHanded" value="60"/>
 			<skill id="Polearm" value="75"/>
 			<skill id="Bow" value="25"/>
-			<skill id="Crossbow" value="220"/>
+			<skill id="Crossbow" value="280"/>
 			<skill id="Throwing" value="60"/>
 		</skills>
 		<upgrade_targets/>
@@ -564,7 +520,7 @@
 			<EquipmentSet id="italy_elite_root0_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_elite_root1" default_group="HorseArcher" name="{=Italian Mounted Crossbowman}Italian Balestriere a Cavallo" level="21" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_elite_root1" default_group="HorseArcher" name="{=Italian Balestriere a Cavallo}Italian Balestriere a Cavallo" level="21" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -586,7 +542,7 @@
 			<EquipmentSet id="italy_elite_root1_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_elite_root10" default_group="HorseArcher" name="{=Italian Senior Mounted Crossbowman}Italian Balestriere a Cavallo Veterano" level="26" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_elite_root10" default_group="HorseArcher" name="{=Italian Balestriere a Cavallo Veterano}Italian Balestriere a Cavallo Veterano" level="26" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -606,7 +562,7 @@
 			<EquipmentSet id="italy_elite_root10_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="italy_elite_root00" default_group="Cavalry" name="{=Italian Lesser Knight}Italian Cavaliere" level="26" occupation="Soldier" culture="Culture.italian">
+	<NPCCharacter id="italy_elite_root00" default_group="Cavalry" name="{=Italian Cavaliere}Italian Cavaliere" level="26" occupation="Soldier" culture="Culture.italian">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -620,32 +576,10 @@
 			<skill id="Crossbow" value="40"/>
 			<skill id="Throwing" value="50"/>
 		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.italy_elite_root000"/>
-		</upgrade_targets>
+		<upgrade_targets/>
 		<Equipments>
 			<EquipmentSet id="italy_elite_root00_bat"/>
 			<EquipmentSet id="italy_elite_root00_civ" equipmentType="Civilian"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="italy_elite_root000" default_group="Cavalry" name="{=Italian Knight}Italian Cavaliere d'Arme" level="31" occupation="Soldier" culture="Culture.italian">
-		<face>
-			<face_key_template value="BodyProperty.fighter_empire"/>
-		</face>
-		<skills>
-			<skill id="Athletics" value="90"/>
-			<skill id="Riding" value="180"/>
-			<skill id="OneHanded" value="190"/>
-			<skill id="TwoHanded" value="100"/>
-			<skill id="Polearm" value="200"/>
-			<skill id="Bow" value="25"/>
-			<skill id="Crossbow" value="50"/>
-			<skill id="Throwing" value="45"/>
-		</skills>
-		<upgrade_targets/>
-		<Equipments>
-			<EquipmentSet id="italy_elite_root000_bat"/>
-			<EquipmentSet id="italy_elite_root000_civ" equipmentType="Civilian"/>
 		</Equipments>
 	</NPCCharacter>
 </NPCCharacters>

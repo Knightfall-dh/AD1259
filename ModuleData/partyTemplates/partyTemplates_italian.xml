@@ -7,24 +7,23 @@
 	<MBPartyTemplate id="kingdom_hero_party_ITALY_template">
         <stacks>
       <PartyTemplateStack min_value="7" max_value="15" troop="NPCCharacter.italy_infantry_root"/>     <!-- Italian Guastatore -->
-      <PartyTemplateStack min_value="5" max_value="12" troop="NPCCharacter.italy_infantry_root0"/>    <!-- Italian Fante a Tavolaccio -->
+      <PartyTemplateStack min_value="5" max_value="12" troop="NPCCharacter.italy_infantry_root0"/>    <!-- Italian Pavesario Novizio -->
       <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.italy_infantry_root00"/>    <!-- Italian Pavesario -->
-      <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.italy_infantry_root000"/>   <!-- Italian Serragente Pavesario -->
-      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.italy_infantry_root0000"/>  <!-- Italian Pavesario da Compagna -->
-      <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.italy_infantry_root1"/>    <!-- Italian Fante a Falcione -->
-      <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.italy_infantry_root10"/>	   <!-- Italian Guisarmer -->
-      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.italy_infantry_root100"/>   <!-- Italian Falcioniere Armato -->
-      <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.italy_infantry_root2"/>	   <!-- Italian Levy Pikeman -->
-      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.italy_infantry_root20"/>    <!-- Italian Pikeman -->
-      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.italy_infantry_root200"/>   <!-- Italian Serragente Picchiero -->
-      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.italy_infantry_root2000"/>  <!-- Italian Picchiero da Compagna -->
+      <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.italy_infantry_root000"/>   <!-- Italian Pavesario Esperto -->
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.italy_infantry_root0000"/>  <!-- Italian Pavesario Scelto -->
+      <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.italy_infantry_root1"/>    <!-- Italian Fante d'Arme -->
+      <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.italy_infantry_root10"/>	   <!-- Italian Armigero-->
+      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.italy_infantry_root100"/>   <!-- Italian Armigero Anziano -->
+      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.italy_infantry_root20"/>    <!-- Italian Lanzalonga -->
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.italy_infantry_root200"/>   <!-- Italian Lanzalonga Esperto -->
+      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.italy_infantry_root2000"/>  <!-- Italian Lanzalonga Veterano -->
       <PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.italy_infantry_root3"/>     <!-- Italian Fante Leggero -->
-      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.italy_infantry_root30"/>	   <!-- Italian Berroviere Pediti -->
+      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.italy_infantry_root30"/>	   <!-- Italian Berroviere a Piedi -->
       <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.italy_infantry_root300"/>   <!-- Italian Scudiero a Piedi -->
-      <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.italy_archer_root"/>        <!-- Italian Levied Bowman -->
-      <PartyTemplateStack min_value="2" max_value="5" troop="NPCCharacter.italy_archer_root1"/>       <!-- Italian Recruit Crossbowman -->
-      <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.italy_archer_root10"/>      <!-- Italian Trained Crossbowman -->
-      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.italy_archer_root100"/>	   <!-- Italian Veteran Crossbowman -->
+      <PartyTemplateStack min_value="3" max_value="7" troop="NPCCharacter.italy_archer_root"/>        <!-- Italian Arciere -->
+      <PartyTemplateStack min_value="2" max_value="5" troop="NPCCharacter.italy_archer_root1"/>       <!-- Italian Balestriere -->
+      <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.italy_archer_root10"/>      <!-- Italian Balestriere Esperto -->
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.italy_archer_root100"/>	   <!-- Italian Balestriere Veterano -->
       <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.italy_elite_root"/>         <!-- Italian Berroviere a Cavallo -->
         </stacks>
     </MBPartyTemplate>
@@ -43,7 +42,7 @@
 			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.italy_infantry_root000"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.italy_infantry_root200"/>
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.italy_elite_root"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.italy_elite_root000"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.italy_infantry_root2"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="patrol_party_ITALY_template_level_3">
@@ -52,7 +51,7 @@
 			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.italy_infantry_root000"/>
 			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.italy_infantry_root200"/>
 			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.italy_elite_root"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.italy_elite_root000"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.italy_infantry_root2"/>
 		</stacks>
 	</MBPartyTemplate>
 	
@@ -86,7 +85,7 @@
 	
 	<MBPartyTemplate id="vassal_reward_troops_italian">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.italy_elite_root000"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.italy_infantry_root2"/>
 			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.italy_infantry_root0000"/>
 		</stacks>
 	</MBPartyTemplate>
