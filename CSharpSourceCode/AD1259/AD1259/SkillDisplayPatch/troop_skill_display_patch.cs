@@ -10,7 +10,7 @@ using TaleWorlds.Core.ViewModelCollection.Information;
 using TaleWorlds.Library;
 using TaleWorlds.Localization;
 
-namespace YourMod.Patches
+namespace AD1259.Patches
 {
     [HarmonyPatch(typeof(TooltipRefresherCollection), "RefreshCharacterTooltip")]
     public static class RefreshCharacterTooltip_Top5Skills_Patch
