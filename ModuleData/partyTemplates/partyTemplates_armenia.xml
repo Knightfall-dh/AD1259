@@ -10,29 +10,30 @@
     <!-- Lords & Town Garrison -->
     <MBPartyTemplate id="kingdom_hero_party_ARMENIA_template">
         <stacks>
-            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.armenia_basic_root"/>
-            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.armenia_basic_root0"/>
-            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.armenia_basic_root00"/>
-            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.armenia_basic_root000"/>
-            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.armenia_basic_root0000"/>
-            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.armenia_basic_root0001"/>
-            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.armenia_basic_root001"/>
-            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.armenia_basic_root0010"/>
-            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.armenia_basic_root1"/>
-            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.armenia_basic_root10"/>
-            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.armenia_basic_root100"/>
-            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.armenia_basic_root1000"/>
-            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.armenia_basic_root11"/>
-            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.armenia_basic_root110"/>
-            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.armenia_elite_root"/>
-            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.armenia_elite_root0"/>
-            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.armenia_elite_root1"/>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.armenia_elite_root00"/>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.armenia_elite_root10"/>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.armenia_elite_root000"/>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.armenia_elite_root100"/>
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.armenia_basic_root"/> <!-- Armenian Ramik-->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.armenia_basic_root0"/> <!-- Armenian K'ajavarzh Ramik-->
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.armenia_basic_root00"/> <!-- Armenian Zinuor-->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.armenia_basic_root000"/> <!-- Armenian Nizakawor-->
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.armenia_basic_root0000"/> <!-- Armenian Zrahavor Nizakawor-->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.armenia_basic_root001"/> <!-- Armenian Hetewak-->
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.armenia_cav_root0"/> <!-- Armenian Heceal-->
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.armenia_cav_root00"/> <!-- Armenian K'aj Heceal-->
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.armenia_cav_root001"/> <!-- Armenian Zinakits T'atar-->
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.armenia_cav_root0010"/> <!-- Armenian Zinakits T'atar Nizakavor-->
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.armenia_cav_root0011"/> <!-- Armenian Zinakits T'atar Netajig-->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.armenia_basic_root1"/> <!-- Armenian Orsord-->
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.armenia_basic_root10"/> <!-- Armenian Netajig-->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.armenia_basic_root100"/> <!-- Armenian Agheghnavor-->
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.armenia_basic_root1000"/> <!-- Armenian Hmut Agheghnavor-->
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.armenia_basic_root10000"/> <!-- Armenian Entir-->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.armenia_basic_root11"/> <!-- Armenian P'rank Agheghnazen-->
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.armenia_elite_root"/> <!-- Armenian Azat-->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.armenia_elite_root0"/> <!-- Armenian Heceal Azat-->
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.armenia_elite_root00"/> <!-- Armenian Zrahavor Azat-->
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.armenia_elite_root000"/> <!-- Armenian Dziavor-->
         </stacks>
     </MBPartyTemplate>
+	
 	<MBPartyTemplate id="patrol_party_ARMENIA_template_level_1">
 		<stacks>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.armenia_basic_root"/>
@@ -41,6 +42,7 @@
 			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.armenia_elite_root00"/>
 		</stacks>
 	</MBPartyTemplate>
+	
 	<MBPartyTemplate id="patrol_party_ARMENIA_template_level_2">
 		<stacks>
 			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.armenia_basic_root"/>
@@ -49,6 +51,7 @@
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.armenia_elite_root00"/>
 		</stacks>
 	</MBPartyTemplate>
+	
 	<MBPartyTemplate id="patrol_party_ARMENIA_template_level_3">
 		<stacks>
 			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.armenia_basic_root"/>

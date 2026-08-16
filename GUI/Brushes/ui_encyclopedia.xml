@@ -261,6 +261,33 @@
 </Brush>
 <!-- text colors -->
 
+  <Brush Name="Encyclopedia.SubPage.Title.Text" Font="Galahad" TextHorizontalAlignment="Center" TextVerticalAlignment="Center">
+    <Layers>
+    </Layers>
+    <Styles>
+      <Style Name="Default" FontColor="#2596beFF" TextAlphaFactor="0.8" TextGlowColor="#FFFFFF00" TextOutlineColor="#FFFFFF00" TextOutlineAmount="0" TextGlowRadius="0" TextBlur="0" FontSize="32" />
+      <Style Name="Hovered" TextAlphaFactor="1" />
+      <Style Name="Pressed" TextAlphaFactor="0.7" />
+      <Style Name="Disabled" TextAlphaFactor="0.1" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Encyclopedia.ItemList.NameTitle" Font="FiraSansExtraCondensed-Regular" TextVerticalAlignment="Top" TextHorizontalAlignment="Left">
+    <Styles>
+      <Style Name="Default" FontColor="#2596beFF" TextAlphaFactor="0.8" TextGlowColor="#FFFFFF00" TextOutlineColor="#FFFFFF00" TextOutlineAmount="0" TextGlowRadius="0" TextBlur="0" FontSize="32" />
+      <Style Name="Disabled" TextAlphaFactor="0.6" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Encyclopedia.ItemList.SortedTitle" Font="FiraSansExtraCondensed-Regular" TextVerticalAlignment="Top" TextHorizontalAlignment="Left">
+    <Styles>
+      <Style Name="Default" FontColor="#2596beFF" TextAlphaFactor="0.8" TextGlowColor="#FFFFFF00" TextOutlineColor="#FFFFFF00" TextOutlineAmount="0" TextGlowRadius="0" TextBlur="0" FontSize="32" />
+      <Style Name="Hovered" TextAlphaFactor="1" />
+      <Style Name="Pressed" TextAlphaFactor="0.7" />
+      <Style Name="Disabled" TextAlphaFactor="0.6" />
+    </Styles>
+  </Brush>
+
 
 
   <Brush Name="Encyclopedia.SubPage.Header.Text" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center">
@@ -277,6 +304,12 @@
   <Brush Name="Encyclopedia.Stat.DefinitionText" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Bottom">
     <Styles>
       <Style Name="Default" FontColor="#5a3729CC" TextAlphaFactor="0.8" TextOutlineAmount="0.001" TextGlowRadius="0" TextBlur="0" TextShadowOffset="0" TextShadowAngle="0" FontSize="22" />
+    </Styles>
+  </Brush>
+
+  <Brush Name="Encyclopedia.Stat.ValueText" Font="FiraSansExtraCondensed-Regular" TextHorizontalAlignment="Center" TextVerticalAlignment="Bottom">
+    <Styles>
+      <Style Name="Default" FontColor="#298402FF" TextAlphaFactor="0.8" TextOutlineAmount="0.001" TextGlowRadius="0" TextBlur="0" TextShadowOffset="0" TextShadowAngle="0" FontSize="20" />
     </Styles>
   </Brush>
 
