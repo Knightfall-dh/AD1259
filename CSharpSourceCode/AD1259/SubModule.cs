@@ -1,4 +1,5 @@
-﻿using HarmonyLib;
+﻿using AD1259.Models;
+using HarmonyLib;
 using SandBox;
 using SandBox.View;
 using System;
@@ -6,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using TaleWorlds.CampaignSystem;
+using TaleWorlds.CampaignSystem.AdvancedStartOptions;
 using TaleWorlds.CampaignSystem.ViewModelCollection.Encyclopedia.Pages;
 using TaleWorlds.Core;
 using TaleWorlds.Engine;
@@ -14,7 +16,6 @@ using TaleWorlds.Localization;
 using TaleWorlds.MountAndBlade;
 using TaleWorlds.MountAndBlade.View;
 using TaleWorlds.ScreenSystem;
-using AD1259.Models;
 
 namespace AD1259
 {
@@ -89,14 +90,17 @@ namespace AD1259
                     () => (TaleWorlds.MountAndBlade.Module.CurrentModule.IsOnlyCoreContentEnabled, new TextObject("{=V8BXjyYq}Disabled during installation.")),
                     null, null));
 
-            // New Game
-            TaleWorlds.MountAndBlade.Module.CurrentModule.AddInitialStateOption(
-                new InitialStateOption("NewGame",
-                    new TextObject("{=EE000017}New Game"),
-                    3,
-                    () => MBGameManager.StartNewGame(new SandBoxGameManager(() => new Campaign(CampaignGameMode.Campaign))),
-                    () => (TaleWorlds.MountAndBlade.Module.CurrentModule.IsOnlyCoreContentEnabled, new TextObject("{=V8BXjyYq}Disabled during installation.")),
-                    null, null));
+           // New Game
+TaleWorlds.MountAndBlade.Module.CurrentModule.AddInitialStateOption(
+    new InitialStateOption("NewGame",
+        new TextObject("{=EE000017}New Game"),
+        3,
+        () => MBGameManager.StartNewGame(
+            new SandBoxGameManager(() => new Campaign(CampaignGameMode.Campaign, new AdvancedStartOptionsData()))
+        ),
+        () => (TaleWorlds.MountAndBlade.Module.CurrentModule.IsOnlyCoreContentEnabled, 
+               new TextObject("{=V8BXjyYq}Disabled during installation.")),
+        null, null));
 
             // RBM Detection & Configuration
             foreach (string modulesName in Utilities.GetModulesNames())

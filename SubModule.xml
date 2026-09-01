@@ -1,7 +1,7 @@
 <Module>
     <Name value="AD1259"/>
     <Id value="AD1259"/>
-    <Version value="v1.4.6"/>
+    <Version value="v1.5.1"/>
     <ModuleCategory value="Singleplayer"/>
     <Official value="false"/>
     <DependedModules>
@@ -15,14 +15,14 @@
 	
     <SubModules>
 	
-	<!-- dll -->
+	
       <SubModule>
         <Name value="AD1259" />
         <DLLName value="AD1259.dll" />
         <SubModuleClassType value="AD1259.SubModule" />
         <Tags />
       </SubModule>
-	  
+	  <!-- dll -->
 	  <SubModule>
         <Name value="BannerColorPersistence"/>
         <DLLName value="BannerColorPersistence.dll"/>
@@ -280,7 +280,7 @@
 		</XmlNode>
 
 
-        <!--ItemsNative  -->
+        <!--ItemsNative -->
         <XmlNode>
             <XmlName id="Items" path="annoItems\Native"/>
             <IncludedGameTypes>
@@ -288,7 +288,7 @@
                 <GameType value="CustomGame"/>
             </IncludedGameTypes>
         </XmlNode>
-
+ 
         <!--ItemsEBA  -->
         <XmlNode>
             <XmlName id="Items" path="annoItems\EBA"/>
@@ -316,7 +316,7 @@
             </IncludedGameTypes>
         </XmlNode>
 
-        <!--ItemsOSS   -->
+        <!--ItemsOSS  --> 
         <XmlNode>
             <XmlName id="Items" path="annoItems\OSS"/>
             <IncludedGameTypes>
