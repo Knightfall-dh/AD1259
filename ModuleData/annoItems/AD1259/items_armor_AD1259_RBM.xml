@@ -150,58 +150,108 @@
 	<!-- #region XIII Armoury -->
 	<!-- #region Great helmets -->
 
-<!-- #Maciejowski helmets TEST -->
+<!-- MAIL COIFS INJ1 - WIP
 
-    <Item id="xiii_greathelm_c_01" name="[XIII][Head] Great Helmet Type C 01" subtype="head_armor" mesh="xiii_greathelm_c_01" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
+    <Item id="xiii_mail_coif_01" name="[XIII][Head] NEW Mail Coif" subtype="head_armor" mesh="xiii_mail_coif_01" culture="Culture.neutral_culture" weight="1.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="100" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="chain" material_type="Chainmail" beard_cover_type="type3"/>
+        </ItemComponent>
+        <Flags Civilian="true" UseTeamColor="false"/>
+    </Item>
+
+    <Item id="xiii_mail_coif_02" name="[XIII][Head] NEW Mail Coif Gold" subtype="head_armor" mesh="xiii_mail_coif_02" culture="Culture.neutral_culture" weight="1.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="100" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="chain" material_type="Chainmail" beard_cover_type="type3"/>
+        </ItemComponent>
+        <Flags Civilian="true" UseTeamColor="false"/>
+    </Item>
+
+<!-- END MAIL COIFS INJ1 -->
+
+<!-- GREATHELM TYPE B SA Enclosed Helmet -->
+
+    <Item id="xiii_greathelm_b_01" name="[XIII][Head] NEW Great Helmet B 01" subtype="head_armor" mesh="xiii_greathelm_b_01" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
         <ItemComponent>
             <Armor head_armor="140" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
         </ItemComponent>
-        <Flags UseTeamColor="false"/>
+        <Flags Civilian="true" UseTeamColor="false"/>
     </Item>
 
-    <Item id="xiii_greathelm_c_02" name="[XIII][Head] Great Helmet Type C 02" subtype="head_armor" mesh="xiii_greathelm_c_02" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
+    <Item id="xiii_greathelm_b_02" name="[XIII][Head] NEW Great Helmet B 02" subtype="head_armor" mesh="xiii_greathelm_b_02" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
         <ItemComponent>
             <Armor head_armor="140" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
         </ItemComponent>
-        <Flags UseTeamColor="true"/>
+        <Flags Civilian="true" UseTeamColor="true"/>
     </Item>
 
-    <Item id="xiii_greathelm_c_03" name="[XIII][Head] Great Helmet Type C 03" subtype="head_armor" mesh="xiii_greathelm_c_03" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
+    <Item id="xiii_greathelm_b_03" name="[XIII][Head] NEW Great Helmet B 03" subtype="head_armor" mesh="xiii_greathelm_b_03" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
         <ItemComponent>
             <Armor head_armor="140" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
         </ItemComponent>
-        <Flags UseTeamColor="true"/>
+        <Flags Civilian="true" UseTeamColor="true"/>
     </Item>
 
-    <Item id="xiii_greathelm_c_04" name="[XIII][Head] Great Helmet Type C 04" subtype="head_armor" mesh="xiii_greathelm_c_04" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
+    <Item id="xiii_greathelm_b_04" name="[XIII][Head] NEW Great Helmet B 04" subtype="head_armor" mesh="xiii_greathelm_b_04" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
         <ItemComponent>
             <Armor head_armor="140" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
         </ItemComponent>
-        <Flags UseTeamColor="true"/>
+        <Flags Civilian="true" UseTeamColor="false"/>
     </Item>
 
-    <Item id="xiii_greathelm_c_05" name="[XIII][Head] Great Helmet Type C 05" subtype="head_armor" mesh="xiii_greathelm_c_05" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
+<!-- END GREATHELM TYPE B SA Enclosed Helmet -->
+
+<!-- GREATHELM TYPE C Maciejowski Helmet -->
+
+    <Item id="xiii_greathelm_c_01" name="[XIII][Head] NEW Great Helmet C 01" subtype="head_armor" mesh="xiii_greathelm_c_01" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
         <ItemComponent>
             <Armor head_armor="140" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
         </ItemComponent>
-        <Flags UseTeamColor="true"/>
+        <Flags Civilian="true" UseTeamColor="false"/>
     </Item>
 
-    <Item id="xiii_greathelm_c_06" name="[XIII][Head] Great Helmet Type C 06" subtype="head_armor" mesh="xiii_greathelm_c_06" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
+    <Item id="xiii_greathelm_c_02" name="[XIII][Head] NEW Great Helmet C 02" subtype="head_armor" mesh="xiii_greathelm_c_02" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
         <ItemComponent>
             <Armor head_armor="140" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
         </ItemComponent>
-        <Flags UseTeamColor="false"/>
+        <Flags Civilian="true" UseTeamColor="true"/>
     </Item>
 
-    <Item id="xiii_greathelm_c_crown_01" name="[XIII][Head] Great Helmet Type C Crown 01" subtype="head_armor" mesh="xiii_greathelm_c_crown_01" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
+    <Item id="xiii_greathelm_c_03" name="[XIII][Head] NEW Great Helmet C 03" subtype="head_armor" mesh="xiii_greathelm_c_03" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
         <ItemComponent>
             <Armor head_armor="140" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
         </ItemComponent>
-        <Flags UseTeamColor="false"/>
+        <Flags Civilian="true" UseTeamColor="true"/>
     </Item>
 
-<!-- #end Maciejowski helmets TEST -->
+    <Item id="xiii_greathelm_c_04" name="[XIII][Head] NEW Great Helmet C 04" subtype="head_armor" mesh="xiii_greathelm_c_04" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="140" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+        </ItemComponent>
+        <Flags Civilian="true" UseTeamColor="true"/>
+    </Item>
+
+    <Item id="xiii_greathelm_c_05" name="[XIII][Head] NEW Great Helmet C 05" subtype="head_armor" mesh="xiii_greathelm_c_05" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="140" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+        </ItemComponent>
+        <Flags Civilian="true" UseTeamColor="true"/>
+    </Item>
+
+    <Item id="xiii_greathelm_c_06" name="[XIII][Head] NEW Great Helmet C 06" subtype="head_armor" mesh="xiii_greathelm_c_06" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="140" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+        </ItemComponent>
+        <Flags Civilian="true" UseTeamColor="false"/>
+    </Item>
+
+    <Item id="xiii_greathelm_c_crown_01" name="[XIII][Head] NEW Great Helmet C Crown 01" subtype="head_armor" mesh="xiii_greathelm_c_crown_01" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
+        <ItemComponent>
+            <Armor head_armor="140" body_armor="65" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all"/>
+        </ItemComponent>
+        <Flags Civilian="true" UseTeamColor="false"/>
+    </Item>
+
+<!-- END GREATHELM TYPE C Maciejowski Helmet -->
 
 	<Item id="xiii_greathelm" name="[XIII][Head] Great Helmet" subtype="head_armor" mesh="xiii_greathelm" culture="Culture.neutral_culture" weight="4.5" difficulty="0" appearance="1" value="10000" Type="HeadArmor">
 		<ItemComponent>
@@ -295,23 +345,139 @@
 	</Item>
 	<!-- #endregion -->
 
-	<!-- #region NEW Surcoat Chainmail TEST -->
+	<!-- NEW SURCOAT CHAINMAIL -->
 
-	<Item id="xiii_knight_mail_01" name="[XIII][Body] Knight Chainmail 01 TEST" mesh="xiii_knight_mail_01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+	<Item id="xiii_knight_mail_01" name="[XIII][Body] NEW Knight Chainmail FC 01" mesh="xiii_knight_mail_01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 
-	<Item id="xiii_noble_mail_01" name="[XIII][Body] Noble Chainmail 01 TEST" mesh="xiii_noble_mail_01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+	<Item id="xiii_noble_mail_01" name="[XIII][Body] NEW Noble Chainmail FC 01" mesh="xiii_noble_mail_01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
 		</ItemComponent>
-		<Flags UseTeamColor="true"/>
+		<Flags Civilian="true" UseTeamColor="true"/>
 	</Item>
 
-	<!-- #endregion -->
+	<Item id="xiii_king_mail_01" name="[XIII][Body] NEW King Chainmail Silver" mesh="xiii_king_mail_01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+
+	<Item id="xiii_king_mail_02" name="[XIII][Body] NEW King Chainmail Gold" mesh="xiii_king_mail_02" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="true"/>
+	</Item>
+
+	<!-- END NEW SURCOAT CHAINMAIL -->
+
+	<!-- NEW SURCOAT CHAINMAIL STATIC COLORS -->
+
+	<Item id="xiii_knight_mail_sc_01" name="[XIII][Body] NEW Knight Chainmail SC Red" mesh="xiii_knight_mail_sc_01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+	<Item id="xiii_knight_mail_sc_02" name="[XIII][Body] NEW Knight Chainmail SC Green" mesh="xiii_knight_mail_sc_02" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+	<Item id="xiii_knight_mail_sc_03" name="[XIII][Body] NEW Knight Chainmail SC Blue" mesh="xiii_knight_mail_sc_03" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+	<Item id="xiii_knight_mail_sc_04" name="[XIII][Body] NEW Knight Chainmail SC Purple" mesh="xiii_knight_mail_sc_04" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+	<Item id="xiii_knight_mail_sc_05" name="[XIII][Body] NEW Knight Chainmail SC Black" mesh="xiii_knight_mail_sc_05" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+	<Item id="xiii_knight_mail_sc_06" name="[XIII][Body] NEW Knight Chainmail SC Yellow" mesh="xiii_knight_mail_sc_06" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+	<Item id="xiii_knight_mail_sc_07" name="[XIII][Body] NEW Knight Chainmail SC White" mesh="xiii_knight_mail_sc_07" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+	<Item id="xiii_noble_mail_sc_01" name="[XIII][Body] NEW Noble Chainmail SC Red" mesh="xiii_noble_mail_sc_01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+	<Item id="xiii_noble_mail_sc_02" name="[XIII][Body] NEW Noble Chainmail SC Green" mesh="xiii_noble_mail_sc_02" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+	<Item id="xiii_noble_mail_sc_03" name="[XIII][Body] NEW Noble Chainmail SC Blue" mesh="xiii_noble_mail_sc_03" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+	<Item id="xiii_noble_mail_sc_04" name="[XIII][Body] NEW Noble Chainmail SC Purple" mesh="xiii_noble_mail_sc_04" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+	<Item id="xiii_noble_mail_sc_05" name="[XIII][Body] NEW Noble Chainmail SC Black" mesh="xiii_noble_mail_sc_05" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+	<Item id="xiii_noble_mail_sc_06" name="[XIII][Body] NEW Noble Chainmail SC Yellow" mesh="xiii_noble_mail_sc_06" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+	<Item id="xiii_noble_mail_sc_07" name="[XIII][Body] NEW Noble Chainmail SC White" mesh="xiii_noble_mail_sc_07" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+		<ItemComponent>
+			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
+		</ItemComponent>
+		<Flags Civilian="true" UseTeamColor="false"/>
+	</Item>
+
+	<!-- END NEW SURCOAT CHAINMAIL STATIC COLORS -->
 
 	<!-- #region Knight mail with tabbard - done-->
 	<Item id="xiii_knight_mail_with_tabbard01" name="[XIII][Body] Tabard over mail (Quartered)" mesh="xiii_knight_mail_with_tabbard01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
@@ -509,38 +675,19 @@
 		<Flags UseTeamColor="false"/>
 	</Item>
 	<!-- brittany-->
-	<Item id="xiii_brittany_guard_mail_01" name="[XIII][Body] Bohemia Guard Tabard over mail" mesh="xiii_brittany_guard_mail_01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
-		<ItemComponent>
-			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
-		</ItemComponent>
-		<Flags UseTeamColor="false"/>
-	</Item>
-	<Item id="xiii_house_dreux_mail_01" name="[XIII][Body] Bohemia Lord Tabard over mail" mesh="xiii_house_dreux_mail_01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
-		<ItemComponent>
-			<Armor body_armor="74" leg_armor="47" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
-		</ItemComponent>
-		<Flags UseTeamColor="false"/>
-	</Item>
-	<Item id="xiii_brittany_duke_mail_01" name="[XIII][Body] Bohemia King Tabard over mail" mesh="xiii_brittany_duke_mail_01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
-		<ItemComponent>
-			<Armor body_armor="78" leg_armor="48" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
-		</ItemComponent>
-		<Flags UseTeamColor="false"/>
-	</Item>
-	<!-- brittany-->
 	<Item id="xiii_brittany_guard_mail_01" name="[XIII][Body] Brittany Guard Tabard over mail" mesh="xiii_brittany_guard_mail_01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="72" leg_armor="46" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="xiii_house_dreux_mail_01" name="[XIII][Body] Bohemia Lord Tabard over mail" mesh="xiii_house_dreux_mail_01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+	<Item id="xiii_house_dreux_mail_01" name="[XIII][Body] Brittany Lord Tabard over mail" mesh="xiii_house_dreux_mail_01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="74" leg_armor="47" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
 		</ItemComponent>
 		<Flags UseTeamColor="false"/>
 	</Item>
-	<Item id="xiii_brittany_duke_mail_01" name="[XIII][Body] Bohemia King Tabard over mail" mesh="xiii_brittany_duke_mail_01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
+	<Item id="xiii_brittany_duke_mail_01" name="[XIII][Body] Brittany King Tabard over mail" mesh="xiii_brittany_duke_mail_01" is_merchandise="true" subtype="body_armor" value="10000" culture="Culture.neutral_culture" weight="30" difficulty="0" appearance="3" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="78" leg_armor="48" arm_armor="48" covers_body="true" modifier_group="chain" material_type="Chainmail"/>
 		</ItemComponent>
@@ -840,32 +987,32 @@
 	</Item>
 	<!--xiii_shared_assets-->
 	<!-- ARMS -->
-	<Item id="xiii_mail_mittens_01" name="[XIII][Arms] Mail Mittens A" mesh="xiii_mail_mittens_01" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="2" difficulty="0" appearance="1" Type="HandArmor">
+	<Item id="xiii_mail_mittens_01" name="[XIII][Arms] NEW Mail Mittens" mesh="xiii_mail_mittens_01" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="2" difficulty="0" appearance="1" Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="20" covers_hands="true" modifier_group="chain" material_type="Chainmail"/>
 		</ItemComponent>
 		<Flags Civilian="true" UseTeamColor="false"/>
 	</Item>
-	<Item id="xiii_mail_mittens_02" name="[XIII][Arms] Gold Mail Mittens A" mesh="xiii_mail_mittens_02" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="2" difficulty="0" appearance="1" Type="HandArmor">
+	<Item id="xiii_mail_mittens_02" name="[XIII][Arms] NEW Mail Mittens Gold" mesh="xiii_mail_mittens_02" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="2" difficulty="0" appearance="1" Type="HandArmor">
 		<ItemComponent>
 			<Armor arm_armor="20" covers_hands="true" modifier_group="chain" material_type="Chainmail"/>
 		</ItemComponent>
 		<Flags Civilian="true" UseTeamColor="false"/>
 	</Item>
 	<!-- BOOTS -->
-	<Item id="xiii_mail_chausses_spurs_01" name="XIIIc Mail Chausses with Spurs" mesh="xiii_mail_chausses_spurs_01" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="2" difficulty="0" appearance="1" Type="LegArmor">
+	<Item id="xiii_mail_chausses_spurs_01" name="[XIII][Legs] NEW Mail Chausses with Spurs" mesh="xiii_mail_chausses_spurs_01" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="2" difficulty="0" appearance="1" Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="20" covers_legs="true" modifier_group="chain" material_type="Chainmail"/>
 		</ItemComponent>
 		<Flags Civilian="true"/>
 	</Item>
-	<Item id="xiii_mail_chausses_spurs_02" name="XIIIc Mail Chausses with Gold Spurs" mesh="xiii_mail_chausses_spurs_02" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="2" difficulty="0" appearance="1" Type="LegArmor">
+	<Item id="xiii_mail_chausses_spurs_02" name="[XIII][Legs] NEW Mail Chausses Gold with Gold Spurs" mesh="xiii_mail_chausses_spurs_02" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="2" difficulty="0" appearance="1" Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="20" covers_legs="true" modifier_group="chain" material_type="Chainmail"/>
 		</ItemComponent>
 		<Flags Civilian="true"/>
 	</Item>
-	<Item id="xiii_mail_chausses_spurs_03" name="XIIIc Gold Mail Chausses with Gold Spurs" mesh="xiii_mail_chausses_spurs_03" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="2" difficulty="0" appearance="1" Type="LegArmor">
+	<Item id="xiii_mail_chausses_spurs_03" name="[XIII][Legs] NEW Mail Chausses with Gold Spurs" mesh="xiii_mail_chausses_spurs_03" is_merchandise="true" subtype="body_armor" culture="Culture.vlandia" weight="2" difficulty="0" appearance="1" Type="LegArmor">
 		<ItemComponent>
 			<Armor leg_armor="20" covers_legs="true" modifier_group="chain" material_type="Chainmail"/>
 		</ItemComponent>
