@@ -1,7 +1,7 @@
 <Module>
     <Name value="AD1259"/>
     <Id value="AD1259"/>
-    <Version value="v1.5.1"/>
+    <Version value="v1.5.2"/>
     <ModuleCategory value="Singleplayer"/>
     <Official value="false"/>
     <DependedModules>
@@ -34,7 +34,14 @@
 		 <Name value="PocColor"/>
 		 <DLLName value="PocColorMod.dll"/>
 		 <SubModuleClassType value="PocColor.PocColorMod"/>
-		<Tags />
+		 <Tags />
+	  </SubModule>
+	  
+	  <SubModule>
+		  <Name value="RealisticCombatMod"/>
+		  <DLLName value="RealisticCombatMod.dll"/>
+		  <SubModuleClassType value="RCM.SubModule"/>
+		  <Tags />
 	  </SubModule>
         
 
