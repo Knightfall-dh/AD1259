@@ -8,7 +8,7 @@
 
 <img align="left" width="40" height="60" src="https://github.com/Knightfall-dh/Knightfall1.1.3/blob/main/images/splash.png?raw=true">
 
-## XIII armor added by Maxim
+## XIIIc Armory added by Maxim
 
 *all new assets marked by "NEW" tag in game*
 
@@ -25,15 +25,15 @@
 
 <img align="left" width="40" height="60" src="https://github.com/Knightfall-dh/Knightfall1.1.3/blob/main/images/splash.png?raw=true">
 
-## troop trees reworked by dragoon
-- aragonese
-- armenia
-- baltic
-- italian
+## Troop Trees reworked by dragoon
+- aragonese: _partyTemplates/trooptree_equipment_sets/trooptrees_
+- armenia: _partyTemplates/trooptree_equipment_sets/trooptrees_
+- baltic: _partyTemplates/trooptree_equipment_sets/trooptrees_
+- italian: _partyTemplates/trooptree_equipment_sets/trooptrees_
 
 <img align="left" width="40" height="60" src="https://github.com/Knightfall-dh/Knightfall1.1.3/blob/main/images/splash.png?raw=true">
 
-## lord and troop armor reworked by Marvin
+## Lord and Troop gear reworked by Marvin
 - trooptree_equipment_set_crusader
 - trooptree_equipment_set_england
 - trooptree_equipment_set_wales
