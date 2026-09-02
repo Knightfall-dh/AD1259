@@ -7,9 +7,10 @@
 ![](https://github.com/Knightfall-dh/Knightfall1.1.3/raw/main/images/paragraph.png)
 
 <img align="left" width="40" height="60" src="https://github.com/Knightfall-dh/Knightfall1.1.3/blob/main/images/splash.png?raw=true">
-### XIII armor added by Maxim
 
-*all new assets marked by "NEW" tag in game
+## XIII armor added by Maxim
+
+*all new assets marked by "NEW" tag in game*
 
 - 4 GREATHELM TYPE B (Swadian Armory enclosed helmet) xiii_greathelm_b_XXX
 - 7 GREATHELM TYPE C (Maciejowski) xiii_greathelm_c_XXX
@@ -23,14 +24,16 @@
 - HISTORICAL ARMORS colors tuned
 
 <img align="left" width="40" height="60" src="https://github.com/Knightfall-dh/Knightfall1.1.3/blob/main/images/splash.png?raw=true">
-### troop trees reworked by dragoon
+
+## troop trees reworked by dragoon
 - aragonese
 - armenia
 - baltic
 - italian
 
 <img align="left" width="40" height="60" src="https://github.com/Knightfall-dh/Knightfall1.1.3/blob/main/images/splash.png?raw=true">
-### lord and troop armor reworked by Marvin
+
+## lord and troop armor reworked by Marvin
 - trooptree_equipment_set_crusader
 - trooptree_equipment_set_england
 - trooptree_equipment_set_wales
@@ -47,7 +50,3 @@
 - trooptree_equipment_set_aragon
 - sandboxcore_equipment_sets_french
 - sandboxcore_equipment_sets_england
-
- 
-
-
