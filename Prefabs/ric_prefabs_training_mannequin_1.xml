@@ -1,0 +1,98 @@
+<prefabs>
+	<game_entity name="training_mannequin_3" old_prefab_name="">
+		<transform position="587.524, 595.684, 16.062" rotation_euler="0.000, 0.000, 1.571" scale="1.800, 1.800, 1.700"/>
+		<physics override_material="wood"/>
+		<components>
+			<meta_mesh_component name="hawk_stand_c"/>
+		</components>
+		<children>
+			<game_entity name="armor_merchant_helmet_d" old_prefab_name="">
+				<transform position="-0.011, 0.005, 1.056" rotation_euler="0.000, 0.000, 1.629" scale="0.556, 0.556, 0.588"/>
+				<components>
+					<meta_mesh_component name="armor_merchant_helmet_d"/>
+				</components>
+				<levels>
+					<level name="level_3"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="log_pine_m" old_prefab_name="">
+				<transform position="-0.004, -0.001, 0.940" rotation_euler="0.000, 0.000, 0.000" scale="0.167, 0.167, 0.118"/>
+				<physics shape="bo_log_pine_m"/>
+				<components>
+					<meta_mesh_component name="log_pine_m"/>
+				</components>
+				<levels>
+					<level name="level_3"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="wooden_platform_plank_f_column" old_prefab_name="">
+				<transform position="-0.003, -0.415, 0.765" rotation_euler="-1.571, 0.000, 0.000" scale="0.111, 0.118, 0.056"/>
+				<physics shape="bo_wooden_platform_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_f_column"/>
+				</components>
+				<levels>
+					<level name="level_3"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="wooden_platform_plank_f_column" old_prefab_name="">
+				<transform position="-0.003, 0.139, 0.765" rotation_euler="-1.571, 0.000, 0.000" scale="0.111, 0.118, 0.056"/>
+				<physics shape="bo_wooden_platform_plank_f_column"/>
+				<components>
+					<meta_mesh_component name="wooden_platform_plank_f_column"/>
+				</components>
+				<levels>
+					<level name="level_3"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="sturgia_shield_a" old_prefab_name="">
+				<transform position="0.009, 0.408, 0.767" rotation_euler="-1.571, 0.000, -1.571" scale="0.500, 0.529, 0.500"/>
+				<components>
+					<meta_mesh_component name="sturgia_shield_a"/>
+				</components>
+				<levels>
+					<level name="level_3"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="hawk_stand_c" old_prefab_name="">
+				<transform position="0.000, 0.000, -0.139" rotation_euler="0.000, 0.000, 0.000" scale="1.000, 1.000, 0.941"/>
+				<physics override_material="wood"/>
+				<components>
+					<meta_mesh_component name="hawk_stand_c"/>
+				</components>
+				<levels>
+					<level name="level_3"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="spear_new_f_1-9m" old_prefab_name="">
+				<transform position="-0.011, -0.380, 0.594" non_orthogonal_rotation_mat="0.819575, -0.539492, -0.192988, 0.539384, 0.839664, -0.063477, 0.175829, -0.046642, 0.983315" scale="0.557, 0.556, 0.587"/>
+				<components>
+					<meta_mesh_component name="spear_new_f_1-9m"/>
+				</components>
+				<levels>
+					<level name="level_3"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+		</children>
+		<levels>
+			<level name="level_3"/>
+			<level name="civilian"/>
+			<level name="siege"/>
+		</levels>
+	</game_entity>
+</prefabs>
+

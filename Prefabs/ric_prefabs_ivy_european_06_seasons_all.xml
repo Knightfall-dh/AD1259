@@ -1,0 +1,75 @@
+<prefabs>
+	<game_entity name="ivy_european_06_seasons_all" old_prefab_name="">
+		<transform position="568.354, 730.088, 17.857" rotation_euler="0.000, -0.486, 0.000"/>
+		<components>
+			<meta_mesh_component name="ivy_european_06">
+				<mesh name="ivy_european_06" material="editor_gizmo" argument="1.000, 0.000, 0.000, 0.000"/>
+				<mesh name="ivy_european_06.1" material="editor_gizmo" argument="1.000, 0.000, 0.000, 0.000"/>
+				<mesh name="ivy_european_06.lod5" material="editor_gizmo" argument="1.000, 0.000, 0.000, 0.000"/>
+				<mesh name="ivy_european_06.lod3" material="editor_gizmo" argument="1.000, 0.000, 0.000, 0.000"/>
+				<mesh name="ivy_european_06.lod3.1" material="editor_gizmo" argument="1.000, 0.000, 0.000, 0.000"/>
+			</meta_mesh_component>
+		</components>
+		<children>
+			<game_entity name="ivy_european_06_summer" old_prefab_name="" season_mask="249">
+				<components>
+					<meta_mesh_component name="ivy_european_06"/>
+				</components>
+				<levels>
+					<level name="level_3"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="ivy_european_06_fall" old_prefab_name="" season_mask="242">
+				<components>
+					<meta_mesh_component name="ivy_european_06">
+						<mesh name="ivy_european_06" factor="4294933628"/>
+						<mesh name="ivy_european_06.lod5" factor="4294933628" argument="1.000, 0.000, 0.000, 0.000"/>
+						<mesh name="ivy_european_06.lod3" factor="4294933628"/>
+					</meta_mesh_component>
+				</components>
+				<levels>
+					<level name="level_3"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+			<game_entity name="ivy_european_06_winter" old_prefab_name="" season_mask="244">
+				<components>
+					<meta_mesh_component name="ivy_european_06">
+						<mesh name="ivy_european_06" material="editor_gizmo" argument="1.000, 0.000, 0.000, 0.000"/>
+						<mesh name="ivy_european_06.lod5" material="editor_gizmo" argument="1.000, 0.000, 0.000, 0.000"/>
+						<mesh name="ivy_european_06.lod3" material="editor_gizmo" argument="1.000, 0.000, 0.000, 0.000"/>
+					</meta_mesh_component>
+				</components>
+				<levels>
+					<level name="level_3"/>
+					<level name="civilian"/>
+					<level name="siege"/>
+				</levels>
+			</game_entity>
+		</children>
+		<levels>
+			<level name="level_3"/>
+			<level name="civilian"/>
+			<level name="siege"/>
+		</levels>
+	</game_entity>
+	<game_entity name="ivy_european_06_fall" old_prefab_name="" season_mask="242">
+		<transform position="568.354, 730.088, 17.857" rotation_euler="0.000, -0.486, 0.000"/>
+		<components>
+			<meta_mesh_component name="ivy_european_06">
+				<mesh name="ivy_european_06" factor="4294933628" factor2="4294933628"/>
+				<mesh name="ivy_european_06.lod5" factor="4294933628" factor2="4294933628" argument="1.000, 0.000, 0.000, 0.000"/>
+				<mesh name="ivy_european_06.lod3" factor="4294933628" factor2="4294933628"/>
+			</meta_mesh_component>
+		</components>
+		<levels>
+			<level name="level_3"/>
+			<level name="civilian"/>
+			<level name="siege"/>
+		</levels>
+	</game_entity>
+</prefabs>
+
