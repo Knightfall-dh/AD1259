@@ -50,3 +50,17 @@
 - trooptree_equipment_set_aragon
 - sandboxcore_equipment_sets_french
 - sandboxcore_equipment_sets_england
+
+<img align="left" width="40" height="60" src="https://github.com/Knightfall-dh/Knightfall1.1.3/blob/main/images/splash.png?raw=true">
+
+## Fixes and Addon by d&h
+- added Realistic Combat Mod by Ulfkarl (needs testing)
+- added River Island Castle by OmnisiahPriest (11 locations)
+- added Atmospheres directory (needs testing)
+- added executioner NPC to all culture.xml (1.5x)
+- added action sets for couched lance (needs testing)
+- update Open source armory 2.0 support 
+- update ui sprites (darker background) 
+- update AD1259/POC/BCP new dll
+- patch to skip new sandbox settings
+- fix caravan loop (changed village productions, needs testing)
