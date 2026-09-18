@@ -10,27 +10,27 @@
     <!-- Lords & Town Garrison -->
     <MBPartyTemplate id="kingdom_hero_party_BOSNIA_template">
         <stacks>
-            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.bosnia_basic_root"/>
-            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.bosnia_basic_root0"/>
-            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bosnia_basic_root00"/>
-            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.bosnia_basic_root000"/>
-            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.bosnia_basic_root0000"/>
-            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.bosnia_basic_root0001"/>
-            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.bosnia_basic_root001"/>
-            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.bosnia_basic_root0010"/>
-            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.bosnia_basic_root1"/>
-            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bosnia_basic_root10"/>
-            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.bosnia_basic_root100"/>
-            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.bosnia_basic_root1000"/>
-            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.bosnia_basic_root11"/>
-            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.bosnia_basic_root110"/>
-            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bosnia_elite_root"/>
-            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.bosnia_elite_root0"/>
-            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.bosnia_elite_root1"/>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bosnia_elite_root00"/>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bosnia_elite_root10"/>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bosnia_elite_root000"/>
-            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bosnia_elite_root100"/>
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.bosnia_basic_root"/>    <!-- Croato-Bosnian Seljak -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.bosnia_archer_root1"/>   <!-- Croatian Kmet -->
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bosnia_archer_root10"/>  <!-- Croatian Čuvar -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.bosnia_archer_root100"/> <!-- Croatian Gradu Kmet -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.bosnia_archer_root1000"/><!-- Croatian Predijalac -->
+			<PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.bosnia_basic_root0"/>   <!-- Bosnian Novak -->
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bosnia_basic_root00"/>   <!-- Bosnian Pješak -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.bosnia_basic_root000"/>  <!-- Bosnian Kopljanik -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.bosnia_basic_root0000"/> <!-- Bosnian Oklopnik -->
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.bosnia_basic_root11"/>   <!-- Bosnian Ratnik -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.bosnia_basic_root110"/>  <!-- Bosnian Suličar -->
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.bosnia_basic_root001"/>  <!-- Bosnian Brđanin -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.bosnia_basic_root0010"/> <!-- Bosnian Gorštak -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.bosnia_basic_root0001"/> <!-- Bosnian Junak -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.bosnia_vlach_root1"/>    <!-- Vlach Păcurar -->
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bosnia_vlach_root10"/>   <!-- Vlach Fecior -->
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bosnia_vlach_root100"/>  <!-- Vlach Voinic -->
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bosnia_vlach_root1000"/> <!-- Vlach Viteaz -->
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.bosnia_elite_root"/>     <!-- Bosnian Dvorjanin -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.bosnia_elite_root0"/>    <!-- Bosnian Vojnik -->
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.bosnia_elite_root00"/>   <!-- Bosnian Boljar -->
         </stacks>
     </MBPartyTemplate>
 	<MBPartyTemplate id="patrol_party_BOSNIA_template_level_1">
@@ -95,7 +95,7 @@
     <MBPartyTemplate id="vassal_reward_troops_bosnia">
         <stacks>
             <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.bosnia_elite_root00"/>
-            <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.bosnia_elite_root000"/>
+            <PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.bosnia_vlach_root1000"/>
         </stacks>
     </MBPartyTemplate>
 </partyTemplates>
