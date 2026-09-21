@@ -1,5 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
+
+	<!-- XIIIc WEAPONS -->
+
+	<CraftedItem id="xiii_peasant_sickle" name="[XIII] NEW Peasant Sickle" is_merchandise="false" crafting_template="TwoHandedPolearm" culture="Culture.neutral_culture">
+		<Pieces>
+			<Piece id="sickle_blade_1_polearm"		Type="Blade"/>
+			<Piece id="default_polearm_guard"		Type="Guard"/>
+			<Piece id="AR_SI_spear_handle_c"		Type="Handle"/>
+			<Piece id="default_polearm_pommel"		Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="xiii_peasant_bill" name="[XIII] NEW Peasant Bill" is_merchandise="false" crafting_template="TwoHandedPolearm" culture="Culture.neutral_culture">
+		<Pieces>
+			<Piece id="AR_billhook_blade_a"			Type="Blade"/>
+			<Piece id="default_polearm_guard"		Type="Guard"/>
+			<Piece id="AR_SI_spear_handle_c"		Type="Handle"/>
+			<Piece id="default_polearm_pommel"		Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="xiii_guisarme_01" name="[XIII] NEW Guisarme" is_merchandise="false" crafting_template="TwoHandedPolearm" culture="Culture.neutral_culture">
+		<Pieces>
+			<Piece id="italian_bill_blade1259"		Type="Blade"/>
+			<Piece id="default_polearm_guard"		Type="Guard"/>
+			<Piece id="spear_handle_15"				Type="Handle"	scale_factor="93"/>
+			<Piece id="default_polearm_pommel"		Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="xiii_knight_lance_01" name="[XIII] NEW Knight Lance" is_merchandise="false" crafting_template="TwoHandedPolearm" culture="Culture.neutral_culture" modifier_group="polearm">
+		<Pieces>
+			<Piece id="spear_blade_11"				Type="Blade"	scale_factor="80"/>
+			<Piece id="spear_banner_2"				Type="Guard"	scale_factor="100"/>
+			<Piece id="xiii_knight_lance_handle"	Type="Handle"	scale_factor="170"/>
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="xiii_knight_arming_sword_01" name="[XIII] NEW Knight Arming Sword" holster_position_shift="0.0,0.0,0.0" is_merchandise="false" crafting_template="OneHandedSword" culture="Culture.neutral_culture">
+		<Pieces>
+			<Piece id="xiii_knight_sword_blade_01"	Type="Blade"	scale_factor="101" />
+			<Piece id="vlandian_guard_8"			Type="Guard"	scale_factor="120" />
+			<Piece id="vlandian_grip_23"			Type="Handle"	scale_factor="95" />
+			<Piece id="vlandian_pommel_8"			Type="Pommel"	scale_factor="110" />
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="xiii_knight_mace_01" name="[XIII] NEW Knight Mace 01" culture="Culture.neutral_culture" crafting_template="Mace">
+		<Pieces>
+			<Piece id="mace_head_2"					Type="Blade"	scale_factor="110"/>
+			<Piece id="xiii_knight_mace_handle_01"	Type="Handle"	scale_factor="111"/>
+			<Piece id="spear_pommel_9"				Type="Pommel"/>
+		</Pieces>
+	</CraftedItem>
+
+	<CraftedItem id="xiii_knight_axe_01" name="[XIII] NEW Knight Axe 01" culture="Culture.neutral_culture" crafting_template="OneHandedAxe">
+		<Pieces>
+			<Piece id="axe_craft_18_head"			Type="Blade"	scale_factor="90"/>
+			<Piece id="xiii_knight_axe_handle_01"	Type="Handle"	scale_factor="130"/>
+			<Piece id="spear_pommel_9"				Type="Pommel"	scale_factor="90"/>
+		</Pieces>
+	</CraftedItem>
+
     <!-- #region Custom Weapons AD1259-->
     <!-- #region Weapons -->
 	<CraftedItem id="king_arming_sword01" name="[XIII] Arming Sword King" is_merchandise="false" crafting_template="OneHandedSword" has_modifier="false">

@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NPCCharacters>
+    <!-- region Ranged -->
+    <NPCCharacter id="1test_archer_root" default_group="Ranged" name="1test Levy Archer" level="11" occupation="Soldier" culture="Culture.england"
+                  is_basic_troop="true">
+        <face>
+            <face_key_template value="BodyProperty.villager_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="40"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="15"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="40"/>
+            <skill id="Crossbow" value="20"/>
+            <skill id="Throwing" value="15"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_archer_root0"/>
+            <upgrade_target id="NPCCharacter.1test_archer_root1"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_archer_root_bat"/>
+            <EquipmentSet id="1test_archer_root_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_archer_root0" default_group="Ranged" name="1test Archer" level="16" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.villager_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="10"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="30"/>
+            <skill id="Bow" value="70"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="40"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_archer_root00"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_archer_root0_bat"/>
+            <EquipmentSet id="1test_archer_root0_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_archer_root00" default_group="Ranged" name="1test Trained Archer" level="21" occupation="Soldier"
+                  culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="60"/>
+            <skill id="Bow" value="100"/>
+            <skill id="Crossbow" value="45"/>
+            <skill id="Throwing" value="45"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_archer_root000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_archer_root00_bat"/>
+            <EquipmentSet id="1test_archer_root00_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_archer_root000" default_group="Ranged" name="1test Longbowman" level="26" occupation="Soldier"
+                  culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="40"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="80"/>
+            <skill id="Bow" value="140"/>
+            <skill id="Crossbow" value="80"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_archer_root0000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_archer_root000_bat"/>
+            <EquipmentSet id="1test_archer_root000_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_archer_root0000" default_group="Ranged" name="1test Yeoman Archer" level="31" occupation="Soldier"
+                  culture="Culture.england">
+        <face>
+            <BodyProperties version="4" age="24.29" weight="0.162" build="0.3657"
+                            key="00000004000002C00160000000116151100771100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
+            <BodyPropertiesMax version="4" age="40.57" weight="0.733" build="0.9645"
+                               key="0008C80A400035D4FF9FEEFFFFEEEEFEF9FF8EFFEFF7FFFFFEEFEFEE97FEFFEE08FEF0890FEEEFEE000000000000000000000000000000000000000001F89105"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="125"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="125"/>
+            <skill id="TwoHanded" value="25"/>
+            <skill id="Polearm" value="60"/>
+            <skill id="Bow" value="225"/>
+            <skill id="Crossbow" value="60"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentSet id="1test_archer_root0000_bat"/>
+            <EquipmentSet id="1test_archer_root0000_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_archer_root1" default_group="Ranged" name="1test Crossbowman" level="16" occupation="Soldier"
+                  culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="40"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="30"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="10"/>
+            <skill id="Crossbow" value="70"/>
+            <skill id="Throwing" value="30"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_archer_root10"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_archer_root1_bat"/>
+            <EquipmentSet id="1test_archer_root1_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_archer_root10" default_group="Ranged" name="1test Senior Crossbowman" level="21" occupation="Soldier"
+                  culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="60"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="45"/>
+            <skill id="Polearm" value="45"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="100"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_archer_root100"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_archer_root10_bat"/>
+            <EquipmentSet id="1test_archer_root10_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_archer_root100" default_group="Ranged" name="1test Armoured Crossbowman" level="26" occupation="Soldier"
+                  culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="80"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="80"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="130"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentSet id="1test_archer_root100_bat"/>
+            <EquipmentSet id="1test_archer_root100_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- #region Infantry -->
+    <NPCCharacter id="1test_infantry_root" default_group="Infantry" name="1test Levied Peasant" level="6" occupation="Soldier"
+                  culture="Culture.england" is_basic_troop="true">
+        <face>
+            <face_key_template value="BodyProperty.villager_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="20"/>
+            <skill id="Riding" value="0"/>
+            <skill id="OneHanded" value="20"/>
+            <skill id="TwoHanded" value="10"/>
+            <skill id="Polearm" value="20"/>
+            <skill id="Bow" value="5"/>
+            <skill id="Crossbow" value="5"/>
+            <skill id="Throwing" value="10"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_infantry_root0"/>
+            <upgrade_target id="NPCCharacter.1test_infantry_root1"/>
+            <upgrade_target id="NPCCharacter.1test_infantry_root2"/>
+            <upgrade_target id="NPCCharacter.1test_archer_root"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_infantry_root_bat"/>
+            <EquipmentSet id="1test_infantry_root_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_infantry_root0" default_group="Infantry" name="1test Spearman" level="11" occupation="Soldier"
+                  culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="40"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="20"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="15"/>
+            <skill id="Throwing" value="20"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_infantry_root00"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_infantry_root0_bat"/>
+            <EquipmentSet id="1test_infantry_root0_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_infantry_root00" default_group="Infantry" name="1test Lesser Spearman" level="16" occupation="Soldier"
+                  culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="10"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="70"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_infantry_root000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_infantry_root00_bat"/>
+            <EquipmentSet id="1test_infantry_root00_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_infantry_root000" default_group="Infantry" name="1test Senior Spearman" level="21" occupation="Soldier"
+                  culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="60"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="45"/>
+            <skill id="Crossbow" value="45"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_infantry_root0000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_infantry_root000_bat"/>
+            <EquipmentSet id="1test_infantry_root000_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_infantry_root0000" default_group="Infantry" name="1test Serjeant Spearman" level="26" occupation="Soldier"
+                  culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="20"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="80"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="60"/>
+            <skill id="Crossbow" value="60"/>
+            <skill id="Throwing" value="80"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentSet id="1test_infantry_root0000_bat"/>
+            <EquipmentSet id="1test_infantry_root0000_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_infantry_root1" default_group="Infantry" name="1test Levy Billman" level="11" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="20"/>
+            <skill id="Riding" value="40"/>
+            <skill id="OneHanded" value="60"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="20"/>
+            <skill id="Crossbow" value="5"/>
+            <skill id="Throwing" value="5"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_infantry_root10"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_infantry_root1_bat"/>
+            <EquipmentSet id="1test_infantry_root1_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_infantry_root10" default_group="Infantry" name="1test Billman" level="16" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="30"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="70"/>
+            <skill id="Polearm" value="70"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="10"/>
+            <skill id="Throwing" value="40"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_infantry_root100"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_infantry_root10_bat"/>
+            <EquipmentSet id="1test_infantry_root10_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_infantry_root100" default_group="Infantry" name="1test Senior Billman" level="21" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="15"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="100"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="45"/>
+            <skill id="Crossbow" value="45"/>
+            <skill id="Throwing" value="60"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_infantry_root1000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_infantry_root100_bat"/>
+            <EquipmentSet id="1test_infantry_root100_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_infantry_root1000" default_group="Infantry" level="26" name="1test Serjeant Billman" occupation="Soldier"
+                  culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="20"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="80"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="60"/>
+            <skill id="Crossbow" value="60"/>
+            <skill id="Throwing" value="80"/>
+        </skills>
+        <Equipments>
+            <EquipmentSet id="1test_infantry_root1000_bat"/>
+            <EquipmentSet id="1test_infantry_root1000_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_infantry_root2" default_group="Infantry" name="1test Infantry" level="11" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="40"/>
+            <skill id="Riding" value="5"/>
+            <skill id="OneHanded" value="40"/>
+            <skill id="TwoHanded" value="20"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="15"/>
+            <skill id="Crossbow" value="15"/>
+            <skill id="Throwing" value="20"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_infantry_root20"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_infantry_root2_bat"/>
+            <EquipmentSet id="1test_infantry_root2_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_infantry_root20" default_group="Infantry" name="1test Infantry" level="16" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="10"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="70"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_infantry_root200"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_infantry_root20_bat"/>
+            <EquipmentSet id="1test_infantry_root20_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_infantry_root200" default_group="Infantry" name="1test Senior Infantry" level="21" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="70"/>
+            <skill id="Riding" value="10"/>
+            <skill id="OneHanded" value="70"/>
+            <skill id="TwoHanded" value="40"/>
+            <skill id="Polearm" value="40"/>
+            <skill id="Bow" value="30"/>
+            <skill id="Crossbow" value="30"/>
+            <skill id="Throwing" value="70"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_infantry_root2000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_infantry_root200_bat"/>
+            <EquipmentSet id="1test_infantry_root200_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+    <NPCCharacter id="1test_infantry_root2000" default_group="Infantry" name="1test Man-at-arms" level="26" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="130"/>
+            <skill id="Riding" value="20"/>
+            <skill id="OneHanded" value="130"/>
+            <skill id="TwoHanded" value="80"/>
+            <skill id="Polearm" value="130"/>
+            <skill id="Bow" value="60"/>
+            <skill id="Crossbow" value="60"/>
+            <skill id="Throwing" value="80"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentSet id="1test_infantry_root2000_bat"/>
+            <EquipmentSet id="1test_infantry_root2000_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+
+    <!-- ELITE LINE -->
+	
+	<!-- Mounted Sergeant -->
+
+    <NPCCharacter id="1test_elite_root" default_group="Cavalry" name="1test Mounted Sergeant" level="16" occupation="Soldier" culture="Culture.england"
+                  is_basic_troop="true">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="100"/>
+            <skill id="Riding" value="100"/>
+            <skill id="OneHanded" value="100"/>
+            <skill id="TwoHanded" value="100"/>
+            <skill id="Polearm" value="100"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_elite_root0"/>
+			<upgrade_target id="NPCCharacter.1test_guard_root0"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_elite_root_bat"/>
+            <EquipmentSet id="1test_elite_root_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+	
+	<!-- Lesser Knight -->
+
+    <NPCCharacter id="1test_elite_root0" default_group="Cavalry" name="1test Lesser Knight" level="21" occupation="Soldier" culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="150"/>
+            <skill id="Riding" value="200"/>
+            <skill id="OneHanded" value="200"/>
+            <skill id="TwoHanded" value="200"/>
+            <skill id="Polearm" value="200"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_elite_root00"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_elite_root0_bat"/>
+            <EquipmentSet id="1test_elite_root0_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+	
+	<!-- Senior Knight -->
+	
+    <NPCCharacter id="1test_elite_root00" default_group="Cavalry" name="1test Senior Knight" level="26" occupation="Soldier"
+                  culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="150"/>
+            <skill id="Riding" value="200"/>
+            <skill id="OneHanded" value="250"/>
+            <skill id="TwoHanded" value="250"/>
+            <skill id="Polearm" value="250"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <upgrade_targets>
+            <upgrade_target id="NPCCharacter.1test_elite_root000"/>
+        </upgrade_targets>
+        <Equipments>
+            <EquipmentSet id="1test_elite_root00_bat"/>
+            <EquipmentSet id="1test_elite_root00_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+	
+	<!-- Special Top Knight -->
+	
+    <NPCCharacter id="1test_elite_root000" default_group="Cavalry" name="1test Special Top Knight" level="31" occupation="Soldier"
+                  culture="Culture.england">
+        <face>
+            <face_key_template value="BodyProperty.fighter_battania"/>
+        </face>
+        <skills>
+            <skill id="Athletics" value="150"/>
+            <skill id="Riding" value="200"/>
+            <skill id="OneHanded" value="275"/>
+            <skill id="TwoHanded" value="275"/>
+            <skill id="Polearm" value="275"/>
+            <skill id="Bow" value="0"/>
+            <skill id="Crossbow" value="0"/>
+            <skill id="Throwing" value="0"/>
+        </skills>
+        <upgrade_targets/>
+        <Equipments>
+            <EquipmentSet id="1test_elite_root000_bat"/>
+            <EquipmentSet id="1test_elite_root000_civ" equipmentType="Civilian"/>
+        </Equipments>
+    </NPCCharacter>
+
+	<!-- GUARD LINE -->
+	
+	<!-- Guard Sergeant -->
+
+	<NPCCharacter id="1test_guard_root0" default_group="Cavalry" name="1test Guard Sergeant" level="21" occupation="Soldier" culture="Culture.england">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="200"/>
+			<skill id="TwoHanded" value="200"/>
+			<skill id="Polearm" value="200"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.1test_guard_root00"/>
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentSet id="1test_guard_root0_bat"/>
+			<EquipmentSet id="1test_guard_root0_civ" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- Guard Knight -->
+
+	<NPCCharacter id="1test_guard_root00" default_group="Cavalry" level="26" name="1test Guard Knight" occupation="Soldier" culture="Culture.england">
+		<face>
+			<face_key_template value="BodyProperty.fighter_battania"/>
+		</face>
+		<skills>
+			<skill id="Athletics" value="150"/>
+			<skill id="Riding" value="200"/>
+			<skill id="OneHanded" value="250"/>
+			<skill id="TwoHanded" value="250"/>
+			<skill id="Polearm" value="250"/>
+			<skill id="Bow" value="0"/>
+			<skill id="Crossbow" value="0"/>
+			<skill id="Throwing" value="0"/>
+		</skills>
+		<upgrade_targets/>
+		<Equipments>
+			<EquipmentSet id="1test_guard_root00_bat"/>
+			<EquipmentSet id="1test_guard_root00_civ" equipmentType="Civilian"/>
+		</Equipments>
+	</NPCCharacter>
+
+</NPCCharacters>
