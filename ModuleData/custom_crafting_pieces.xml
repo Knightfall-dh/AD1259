@@ -1,5 +1,101 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CraftingPieces>
+
+<!-- XIIIc TEST -->
+
+	<CraftingPiece
+		id="xiii_knight_sword_blade_01"
+		name="XIIIc Knight Sword Blade 1 Red Scab"
+		tier="5"
+		piece_type="Blade"
+		mesh="xiii_sword_blade_01"
+		culture="Culture.vlandia"
+		length="90"
+		weight="1"
+		is_default="true">
+		<BladeData
+			stack_amount="3"
+			physics_material="metal_weapon"
+			body_name="bo_sword_one_handed"
+			holster_mesh="xiii_knight_scab_01">
+			<Thrust
+				damage_type="Pierce"
+				damage_factor="5.0" />
+			<Swing
+				damage_type="Cut"
+				damage_factor="5.0" />
+		</BladeData>
+		<Flags>
+			<Flag
+				name="Civilian"
+				type="ItemFlags" />
+		</Flags>
+		<Materials>
+			<Material
+				id="Iron5"
+				count="3" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+		id="xiii_knight_lance_handle"
+		name="XIIIc Lance Shaft"
+		tier="5"
+		piece_type="Handle"
+		mesh="spear_handle_20"
+		length="200"
+		weight="1.5">
+		<BuildData
+			piece_offset="55" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+		id="xiii_knight_axe_handle_01"
+		name="XIIIc Knight Axe Handle"
+		tier="5"
+		piece_type="Handle"
+		mesh="mace_handle_11"
+		length="78"
+		weight="1.100"
+		is_default="true">
+		<BuildData
+			piece_offset="30"
+			next_piece_offset="0.8"
+			previous_piece_offset="0" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
+	<CraftingPiece
+		id="xiii_knight_mace_handle_01"
+		name="XIIIc Knight Mace Handle"
+		tier="5"
+		piece_type="Handle"
+		mesh="mace_handle_11"
+		length="78"
+		weight="1.100"
+		item_holster_pos_shift="0,0,-0.05"
+		is_default="true">
+		<BuildData
+			piece_offset="30" />
+		<Materials>
+			<Material
+				id="Wood"
+				count="1" />
+			<Material
+				id="Iron3"
+				count="1" />
+		</Materials>
+	</CraftingPiece>
+
 	<CraftingPiece id="english_glaive_blade1259"
 	               name="Glaive Blade"
 	               tier="3"
