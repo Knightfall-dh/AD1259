@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <EquipmentRosters>
+    <!-- Provisional reused loadouts. Vlach skirmisher stones are placeholders for javelins. -->
     <EquipmentRoster id="bulgaria_basic_root_xiv_bat" culture="Culture.bulgaria">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.peasant_pitchfork_1_t1"/>
@@ -71,7 +72,6 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_basic_root_xiv_civ" culture="Culture.bulgaria">
-
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -91,7 +91,8 @@
             <Equipment slot="Leg" id="Item.wrapped_shoes"/>
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root0_xiv_bat" culture="Culture.bulgaria">
+    <!-- #region bulgarian infantry -->
+	<EquipmentRoster id="bulgaria_basic_root0_xiv_bat" culture="Culture.bulgaria">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
             <Equipment slot="Item3" id="Item.worn_kite_shield"/>
@@ -121,7 +122,6 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_basic_root0_xiv_civ" culture="Culture.bulgaria">
-
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -166,7 +166,6 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_basic_root00_xiv_civ" culture="Culture.bulgaria">
-
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -211,7 +210,6 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_basic_root000_xiv_civ" culture="Culture.bulgaria">
-
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -254,46 +252,6 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_basic_root0000_xiv_civ" culture="Culture.bulgaria">
-
-        <EquipmentSet equipmentType="Civilian">
-            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-            <Equipment slot="Item2" id="Item.throwing_stone"/>
-            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root0001_xiv_bat" culture="Culture.bulgaria">
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
-            <Equipment slot="Item1" id="Item.XIII_sword_4"/>
-            <Equipment slot="Head" id="Item.AR_battania_helmet_j"/>
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
-            <Equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
-            <Equipment slot="Item1" id="Item.AR_iltanlar_axe_t4"/>
-            <Equipment slot="Head" id="Item.1259_pointed_nasal_helm"/>
-            <Equipment slot="Body" id="Item.battania_woodland_chainmail"/>
-            <Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
-            <Equipment slot="Item1" id="Item.khuzait_sword_2_t3"/>
-            <Equipment slot="Head" id="Item.AR_battania_helmet_j"/>
-            <Equipment slot="Body" id="Item.TV_vlandia_armor_f"/>
-            <Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
-            <Equipment slot="Item1" id="Item.khuzait_mace_2_t4"/>
-            <Equipment slot="Head" id="Item.1259_pointed_nasal_helm"/>
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_f"/>
-            <Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root0001_xiv_civ" culture="Culture.bulgaria">
-
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -303,40 +261,37 @@
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_basic_root001_xiv_bat" culture="Culture.bulgaria">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
-            <Equipment slot="Item1" id="Item.northern_spear_3_t4"/>
-            <Equipment slot="Item3" id="Item.bound_desert_round_shield"/>
-            <Equipment slot="Head" id="Item.hmj_simple_nasal_helm"/>
-            <Equipment slot="Body" id="Item.AO_imperial_scouts_tunic"/>
+            <Equipment slot="Head" id="Item.battania_fur_cap"/>
+            <Equipment slot="Cape" id="Item.green_hood"/>
+            <Equipment slot="Body" id="Item.leather_tunic"/>
             <Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+            <Equipment slot="Item0" id="Item.AR_iltanlar_axe_t2"/>
+            <Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
         </EquipmentSet>
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-            <Equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3"/>
-            <Equipment slot="Item3" id="Item.bound_desert_round_sparring_shield"/>
-            <Equipment slot="Head" id="Item.ao_battanian_segmented_helmet"/>
+            <Equipment slot="Head" id="Item.AR_battania_helmet_l"/>
             <Equipment slot="Body" id="Item.padded_leather_shirt"/>
             <Equipment slot="Leg" id="Item.turndown_leather_boots"/>
+            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
+            <Equipment slot="Item1" id="Item.AR_iltanlar_axe_t2"/>
         </EquipmentSet>
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.XIII_sword_10"/>
-            <Equipment slot="Item1" id="Item.western_spear_1_t2"/>
-            <Equipment slot="Item3" id="Item.curved_round_shield"/>
-            <Equipment slot="Head" id="Item.ao_battanian_nasal_spangenhelm"/>
-            <Equipment slot="Body" id="Item.ao_durkhan_leather_lamellar"/>
+            <Equipment slot="Head" id="Item.AR_battania_helmet_l"/>
+            <Equipment slot="Body" id="Item.ao_battanian_gambeson_with_kilt"/>
             <Equipment slot="Leg" id="Item.rough_tied_boots"/>
+            <Equipment slot="Item0" id="Item.AR_iltanlar_axe_t2"/>
+            <Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
         </EquipmentSet>
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.XIII_sword_4"/>
-            <Equipment slot="Item1" id="Item.western_spear_1_t2"/>
-            <Equipment slot="Item3" id="Item.AR_shield_infantry_zs"/>
-            <Equipment slot="Head" id="Item.ao_imperial_spangenhelm_with_leather"/>
+            <Equipment slot="Head" id="Item.tv_vlandia_helmet_b"/>
+            <Equipment slot="Cape" id="Item.hood"/>
             <Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
             <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
+            <Equipment slot="Item1" id="Item.AR_iltanlar_axe_t2"/>
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_basic_root001_xiv_civ" culture="Culture.bulgaria">
-
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -346,293 +301,35 @@
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_basic_root0010_xiv_bat" culture="Culture.bulgaria">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
-            <Equipment slot="Item1" id="Item.northern_spear_3_t4"/>
-            <Equipment slot="Item3" id="Item.bound_desert_round_shield"/>
-            <Equipment slot="Head" id="Item.hmj_simple_nasal_helm"/>
-            <Equipment slot="Body" id="Item.mercenary_gambeson"/>
-            <Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
-            <Equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3"/>
-            <Equipment slot="Item3" id="Item.bound_desert_round_sparring_shield"/>
-            <Equipment slot="Head" id="Item.ao_battanian_segmented_helmet"/>
-            <Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
-            <Equipment slot="Leg" id="Item.turndown_leather_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
-            <Equipment slot="Item1" id="Item.northern_spear_3_t4"/>
-            <Equipment slot="Item3" id="Item.curved_round_shield"/>
-            <Equipment slot="Head" id="Item.ao_battanian_nasal_spangenhelm"/>
-            <Equipment slot="Body" id="Item.mercenary_gambeson"/>
-            <Equipment slot="Leg" id="Item.rough_tied_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.aserai_sword_5_t4"/>
-            <Equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3"/>
-            <Equipment slot="Item3" id="Item.AR_shield_infantry_zs"/>
-            <Equipment slot="Head" id="Item.ao_imperial_spangenhelm_with_leather"/>
-            <Equipment slot="Body" id="Item.woven_leather_vest"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root0010_xiv_civ" culture="Culture.bulgaria">
-
-        <EquipmentSet equipmentType="Civilian">
-            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-            <Equipment slot="Item2" id="Item.throwing_stone"/>
-            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root2_xiv_bat" culture="Culture.bulgaria">
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
-            <Equipment slot="Item3" id="Item.worn_kite_shield"/>
-            <Equipment slot="Head" id="Item.laced_cloth_coif"/>
-            <Equipment slot="Body" id="Item.leather_tunic"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
-            <Equipment slot="Item3" id="Item.old_horsemans_kite_shield"/>
-            <Equipment slot="Head" id="Item.leather_cap"/>
-            <Equipment slot="Body" id="Item.nordic_sloven_leather"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_d"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
-            <Equipment slot="Head" id="Item.thinhide_coif"/>
-            <Equipment slot="Cape" id="Item.green_hood"/>
-            <Equipment slot="Body" id="Item.nordic_sloven"/>
-            <Equipment slot="Leg" id="Item.rough_tied_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
-            <Equipment slot="Cape" id="Item.hood"/>
-            <Equipment slot="Body" id="Item.leather_coat"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root2_xiv_civ" culture="Culture.bulgaria">
-
-        <EquipmentSet equipmentType="Civilian">
-            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-            <Equipment slot="Item2" id="Item.throwing_stone"/>
-            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root20_xiv_bat" culture="Culture.bulgaria">
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
-            <Equipment slot="Item1" id="Item.XIII_sword_2"/>
-            <Equipment slot="Item3" id="Item.leather_bound_kite_shield"/>
-            <Equipment slot="Head" id="Item.battania_fur_cap"/>
-            <Equipment slot="Cape" id="Item.green_hood"/>
-            <Equipment slot="Body" id="Item.leather_tunic"/>
-            <Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
-            <Equipment slot="Item1" id="Item.peasant_hatchet_1_t1"/>
-            <Equipment slot="Item3" id="Item.bound_horsemans_kite_shield"/>
-            <Equipment slot="Head" id="Item.AR_battania_helmet_l"/>
-            <Equipment slot="Body" id="Item.padded_leather_shirt"/>
-            <Equipment slot="Leg" id="Item.turndown_leather_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
-            <Equipment slot="Item1" id="Item.seax"/>
-            <Equipment slot="Item3" id="Item.bound_desert_round_shield"/>
-            <Equipment slot="Head" id="Item.AR_battania_helmet_l"/>
-            <Equipment slot="Body" id="Item.ao_battanian_gambeson_with_kilt"/>
-            <Equipment slot="Leg" id="Item.rough_tied_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
-            <Equipment slot="Item1" id="Item.battania_mace_1_t2"/>
-            <Equipment slot="Item3" id="Item.leather_bound_kite_shield"/>
-            <Equipment slot="Head" id="Item.tv_vlandia_helmet_b"/>
-            <Equipment slot="Cape" id="Item.hood"/>
-            <Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
-            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root20_xiv_civ" culture="Culture.bulgaria">
-
-        <EquipmentSet equipmentType="Civilian">
-            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-            <Equipment slot="Item2" id="Item.throwing_stone"/>
-            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root200_xiv_bat" culture="Culture.bulgaria">
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.northern_spear_3_t4"/>
-            <Equipment slot="Item1" id="Item.XIII_sword_4"/>
-            <Equipment slot="Item3" id="Item.flat_heater_shield"/>
-            <Equipment slot="Head" id="Item.AR_battania_helmet_l"/>
-            <Equipment slot="Body" id="Item.mail_shirt"/>
-            <Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.AR_darshi_short_spear_1_t2"/>
-            <Equipment slot="Item1" id="Item.AR_iltanlar_axe_t4"/>
-            <Equipment slot="Item3" id="Item.reinforced_kite_shield"/>
-            <Equipment slot="Head" id="Item.nasal_cervelliere_over_laced_coif"/>
-            <Equipment slot="Body" id="Item.xiii_maa_hauberk01"/>
-            <Equipment slot="Gloves" id="Item.leather_gloves"/>
-            <Equipment slot="Leg" id="Item.turndown_leather_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
-            <Equipment slot="Item1" id="Item.khuzait_sword_2_t3"/>
-            <Equipment slot="Item3" id="Item.northern_round_shield"/>
-            <Equipment slot="Head" id="Item.AR_sturgia_helmet_e"/>
-            <Equipment slot="Body" id="Item.ao_battanian_gambeson_with_kilt"/>
-            <Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
-            <Equipment slot="Item1" id="Item.khuzait_mace_2_t4"/>
-            <Equipment slot="Item3" id="Item.western_kite_shield"/>
-            <Equipment slot="Head" id="Item.AR_battania_helmet_l"/>
-            <Equipment slot="Cape" id="Item.hood"/>
-            <Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
-            <Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root200_xiv_civ" culture="Culture.bulgaria">
-
-        <EquipmentSet equipmentType="Civilian">
-            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-            <Equipment slot="Item2" id="Item.throwing_stone"/>
-            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root2000_xiv_bat" culture="Culture.bulgaria">
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.northern_spear_3_t4"/>
-            <Equipment slot="Item1" id="Item.XIII_sword_4"/>
-            <Equipment slot="Item3" id="Item.fortified_kite_shield"/>
-            <Equipment slot="Head" id="Item.AR_battania_helmet_j"/>
-            <Equipment slot="Body" id="Item.mail_shirt"/>
-            <Equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.AR_darshi_short_spear_1_t2"/>
-            <Equipment slot="Item1" id="Item.AR_iltanlar_axe_t4"/>
-            <Equipment slot="Item3" id="Item.teardrop_shield_1"/>
-            <Equipment slot="Head" id="Item.1259_pointed_nasal_helm"/>
-            <Equipment slot="Body" id="Item.battania_woodland_chainmail"/>
-            <Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.northern_spear_3_t4"/>
-            <Equipment slot="Item1" id="Item.khuzait_sword_2_t3"/>
-            <Equipment slot="Item3" id="Item.fortified_kite_shield"/>
-            <Equipment slot="Head" id="Item.AR_battania_helmet_j"/>
-            <Equipment slot="Body" id="Item.vlandia_chainmail"/>
-            <Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.AR_aserai_short_spear_2_t3"/>
-            <Equipment slot="Item1" id="Item.khuzait_mace_2_t4"/>
-            <Equipment slot="Item3" id="Item.stronger_reinforced_kite_shield"/>
-            <Equipment slot="Head" id="Item.1259_pointed_nasal_helm"/>
-            <Equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
-            <Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root2000_xiv_civ" culture="Culture.bulgaria">
-
-        <EquipmentSet equipmentType="Civilian">
-            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-            <Equipment slot="Item2" id="Item.throwing_stone"/>
-            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root2001_xiv_bat" culture="Culture.bulgaria">
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
-            <Equipment slot="Item1" id="Item.XIII_sword_4"/>
-            <Equipment slot="Head" id="Item.AR_battania_helmet_j"/>
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
-            <Equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
-            <Equipment slot="Item1" id="Item.AR_iltanlar_axe_t4"/>
-            <Equipment slot="Head" id="Item.1259_pointed_nasal_helm"/>
-            <Equipment slot="Body" id="Item.battania_woodland_chainmail"/>
-            <Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
-            <Equipment slot="Item1" id="Item.khuzait_sword_2_t3"/>
-            <Equipment slot="Head" id="Item.AR_battania_helmet_j"/>
-            <Equipment slot="Body" id="Item.TV_vlandia_armor_f"/>
-            <Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.vlandia_polearm_1_t5"/>
-            <Equipment slot="Item1" id="Item.khuzait_mace_2_t4"/>
-            <Equipment slot="Head" id="Item.1259_pointed_nasal_helm"/>
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_f"/>
-            <Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root2001_xiv_civ" culture="Culture.bulgaria">
-
-        <EquipmentSet equipmentType="Civilian">
-            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-            <Equipment slot="Item2" id="Item.throwing_stone"/>
-            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root21_xiv_bat" culture="Culture.bulgaria">
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
-            <Equipment slot="Item1" id="Item.northern_spear_3_t4"/>
-            <Equipment slot="Item3" id="Item.bound_desert_round_shield"/>
             <Equipment slot="Head" id="Item.hmj_simple_nasal_helm"/>
             <Equipment slot="Body" id="Item.AO_imperial_scouts_tunic"/>
             <Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+            <Equipment slot="Item0" id="Item.AR_iltanlar_axe_t3"/>
+            <Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
         </EquipmentSet>
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-            <Equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3"/>
-            <Equipment slot="Item3" id="Item.bound_desert_round_sparring_shield"/>
             <Equipment slot="Head" id="Item.ao_battanian_segmented_helmet"/>
             <Equipment slot="Body" id="Item.padded_leather_shirt"/>
             <Equipment slot="Leg" id="Item.turndown_leather_boots"/>
+            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
+            <Equipment slot="Item1" id="Item.AR_iltanlar_axe_t3"/>
         </EquipmentSet>
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.XIII_sword_10"/>
-            <Equipment slot="Item1" id="Item.western_spear_1_t2"/>
-            <Equipment slot="Item3" id="Item.curved_round_shield"/>
             <Equipment slot="Head" id="Item.ao_battanian_nasal_spangenhelm"/>
             <Equipment slot="Body" id="Item.ao_durkhan_leather_lamellar"/>
             <Equipment slot="Leg" id="Item.rough_tied_boots"/>
+            <Equipment slot="Item0" id="Item.AR_iltanlar_axe_t3"/>
+            <Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
         </EquipmentSet>
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.XIII_sword_4"/>
-            <Equipment slot="Item1" id="Item.western_spear_1_t2"/>
-            <Equipment slot="Item3" id="Item.AR_shield_infantry_zs"/>
             <Equipment slot="Head" id="Item.ao_imperial_spangenhelm_with_leather"/>
             <Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
             <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
+            <Equipment slot="Item1" id="Item.AR_iltanlar_axe_t3"/>
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root21_xiv_civ" culture="Culture.bulgaria">
-
+    <EquipmentRoster id="bulgaria_basic_root0010_xiv_civ" culture="Culture.bulgaria">
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -640,42 +337,37 @@
             <Equipment slot="Leg" id="Item.wrapped_shoes"/>
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root210_xiv_bat" culture="Culture.bulgaria">
+    <EquipmentRoster id="bulgaria_basic_root00100_xiv_bat" culture="Culture.bulgaria">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
-            <Equipment slot="Item1" id="Item.northern_spear_3_t4"/>
-            <Equipment slot="Item3" id="Item.bound_desert_round_shield"/>
             <Equipment slot="Head" id="Item.hmj_simple_nasal_helm"/>
             <Equipment slot="Body" id="Item.mercenary_gambeson"/>
             <Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+            <Equipment slot="Item0" id="Item.AR_iltanlar_axe_t4"/>
+            <Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
         </EquipmentSet>
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
-            <Equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3"/>
-            <Equipment slot="Item3" id="Item.bound_desert_round_sparring_shield"/>
             <Equipment slot="Head" id="Item.ao_battanian_segmented_helmet"/>
             <Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
             <Equipment slot="Leg" id="Item.turndown_leather_boots"/>
+            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
+            <Equipment slot="Item1" id="Item.AR_iltanlar_axe_t4"/>
         </EquipmentSet>
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.ridged_sabre_sword_t4"/>
-            <Equipment slot="Item1" id="Item.northern_spear_3_t4"/>
-            <Equipment slot="Item3" id="Item.curved_round_shield"/>
             <Equipment slot="Head" id="Item.ao_battanian_nasal_spangenhelm"/>
             <Equipment slot="Body" id="Item.mercenary_gambeson"/>
             <Equipment slot="Leg" id="Item.rough_tied_boots"/>
+            <Equipment slot="Item0" id="Item.AR_iltanlar_axe_t4"/>
+            <Equipment slot="Item1" id="Item.leather_bound_kite_shield"/>
         </EquipmentSet>
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.aserai_sword_5_t4"/>
-            <Equipment slot="Item1" id="Item.AR_aserai_short_spear_2_t3"/>
-            <Equipment slot="Item3" id="Item.AR_shield_infantry_zs"/>
             <Equipment slot="Head" id="Item.ao_imperial_spangenhelm_with_leather"/>
             <Equipment slot="Body" id="Item.woven_leather_vest"/>
             <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
+            <Equipment slot="Item1" id="Item.AR_iltanlar_axe_t4"/>
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root210_xiv_civ" culture="Culture.bulgaria">
-
+    <EquipmentRoster id="bulgaria_basic_root00100_xiv_civ" culture="Culture.bulgaria">
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -683,7 +375,8 @@
             <Equipment slot="Leg" id="Item.wrapped_shoes"/>
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root1_xiv_bat" culture="Culture.bulgaria">
+    <!-- #region bulgarian ranged -->
+	<EquipmentRoster id="bulgaria_basic_root1_xiv_bat" culture="Culture.bulgaria">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.hunting_bow"/>
             <Equipment slot="Item1" id="Item.seax"/>
@@ -715,7 +408,6 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_basic_root1_xiv_civ" culture="Culture.bulgaria">
-
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -761,7 +453,6 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_basic_root10_xiv_civ" culture="Culture.bulgaria">
-
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -810,7 +501,6 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_basic_root100_xiv_civ" culture="Culture.bulgaria">
-
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -860,7 +550,6 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_basic_root1000_xiv_civ" culture="Culture.bulgaria">
-
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -868,48 +557,37 @@
             <Equipment slot="Leg" id="Item.wrapped_shoes"/>
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root11_xiv_bat" culture="Culture.bulgaria">
+    <!-- #region vlachs -->
+	<EquipmentRoster id="bulgaria_basic_root2_xiv_bat" culture="Culture.bulgaria">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.crossbow_a"/>
-            <Equipment slot="Item1" id="Item.simple_sabre_sword_t2"/>
-            <Equipment slot="Item2" id="Item.bolt_a"/>
-            <Equipment slot="Item3" id="Item.bolt_a"/>
-            <Equipment slot="Head" id="Item.AR_battania_helmet_l"/>
-            <Equipment slot="Body" id="Item.imperial_padded_cloth"/>
-            <Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+            <Equipment slot="Item3" id="Item.worn_kite_shield"/>
+            <Equipment slot="Head" id="Item.laced_cloth_coif"/>
+            <Equipment slot="Body" id="Item.leather_tunic"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
         </EquipmentSet>
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.crossbow_a"/>
-            <Equipment slot="Item1" id="Item.simple_back_sword_t2"/>
-            <Equipment slot="Item2" id="Item.bolt_a"/>
-            <Equipment slot="Item3" id="Item.bolt_b"/>
-            <Equipment slot="Head" id="Item.AR_battania_helmet_l"/>
-            <Equipment slot="Body" id="Item.ao_vlandian_tabard_over_aketon_b"/>
-            <Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+            <Equipment slot="Item3" id="Item.old_horsemans_kite_shield"/>
+            <Equipment slot="Head" id="Item.leather_cap"/>
+            <Equipment slot="Body" id="Item.nordic_sloven_leather"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_d"/>
         </EquipmentSet>
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.crossbow_a"/>
-            <Equipment slot="Item1" id="Item.simple_sabre_sword_t2"/>
-            <Equipment slot="Item2" id="Item.bolt_b"/>
-            <Equipment slot="Item3" id="Item.bolt_a"/>
-            <Equipment slot="Head" id="Item.tv_vlandia_helmet_b"/>
-            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
-            <Equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
-            <Equipment slot="Leg" id="Item.turndown_leather_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.crossbow_a"/>
-            <Equipment slot="Item1" id="Item.khuzait_sword_3_t3"/>
-            <Equipment slot="Item2" id="Item.bolt_b"/>
-            <Equipment slot="Item3" id="Item.bolt_b"/>
-            <Equipment slot="Head" id="Item.cervelliere_over_padded_cap"/>
-            <Equipment slot="Cape" id="Item.Western_chain_shoulders"/>
+            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+            <Equipment slot="Head" id="Item.thinhide_coif"/>
+            <Equipment slot="Cape" id="Item.green_hood"/>
             <Equipment slot="Body" id="Item.nordic_sloven"/>
-            <Equipment slot="Leg" id="Item.turndown_leather_boots"/>
+            <Equipment slot="Leg" id="Item.rough_tied_boots"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+            <Equipment slot="Cape" id="Item.hood"/>
+            <Equipment slot="Body" id="Item.leather_coat"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root11_xiv_civ" culture="Culture.bulgaria">
-
+    <EquipmentRoster id="bulgaria_basic_root2_xiv_civ" culture="Culture.bulgaria">
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -917,49 +595,129 @@
             <Equipment slot="Leg" id="Item.wrapped_shoes"/>
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root110_xiv_bat" culture="Culture.bulgaria">
+    <EquipmentRoster id="bulgaria_basic_root20_xiv_bat" culture="Culture.bulgaria">
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.crossbow_b"/>
-            <Equipment slot="Item1" id="Item.simple_sabre_sword_t2"/>
-            <Equipment slot="Item2" id="Item.bolt_c"/>
-            <Equipment slot="Item3" id="Item.bolt_b"/>
-            <Equipment slot="Head" id="Item.fr_el_flatkettle1"/>
-            <Equipment slot="Cape" id="Item.Western_chain_shoulders"/>
-            <Equipment slot="Body" id="Item.TV_vlandia_armor_f"/>
-            <Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+            <Equipment slot="Head" id="Item.battania_fur_cap"/>
+            <Equipment slot="Cape" id="Item.green_hood"/>
+            <Equipment slot="Body" id="Item.leather_tunic"/>
+            <Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+            <Equipment slot="Item0" id="Item.XIII_sword_2"/>
+            <Equipment slot="Item1" id="Item.vlach_boulder"/>
+            <Equipment slot="Item2" id="Item.leather_bound_kite_shield"/>
         </EquipmentSet>
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.crossbow_g"/>
-            <Equipment slot="Item1" id="Item.simple_back_sword_t2"/>
-            <Equipment slot="Item2" id="Item.bolt_b"/>
-            <Equipment slot="Item3" id="Item.bolt_a"/>
-            <Equipment slot="Head" id="Item.kettle_helmet_over_arming_coif"/>
-            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b"/>
-            <Equipment slot="Body" id="Item.TV_vlandia_armor_f"/>
-            <Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.crossbow_b"/>
-            <Equipment slot="Item1" id="Item.simple_sabre_sword_t2"/>
-            <Equipment slot="Item2" id="Item.bolt_c"/>
-            <Equipment slot="Item3" id="Item.bolt_b"/>
-            <Equipment slot="Head" id="Item.kettle_helmet_over_padded_cap"/>
-            <Equipment slot="Cape" id="Item.TV_vlandia_shoulders_b2"/>
-            <Equipment slot="Body" id="Item.AR_vlandia_armor_d"/>
+            <Equipment slot="Head" id="Item.AR_battania_helmet_l"/>
+            <Equipment slot="Body" id="Item.padded_leather_shirt"/>
             <Equipment slot="Leg" id="Item.turndown_leather_boots"/>
+            <Equipment slot="Item0" id="Item.XIII_sword_2"/>
+            <Equipment slot="Item1" id="Item.vlach_boulder"/>
+            <Equipment slot="Item2" id="Item.leather_bound_kite_shield"/>
         </EquipmentSet>
         <EquipmentSet>
-            <Equipment slot="Item0" id="Item.crossbow_g"/>
-            <Equipment slot="Item1" id="Item.khuzait_sword_3_t3"/>
-            <Equipment slot="Item2" id="Item.bolt_b"/>
-            <Equipment slot="Item3" id="Item.bolt_a"/>
-            <Equipment slot="Head" id="Item.bucketkettle_1"/>
+            <Equipment slot="Head" id="Item.AR_battania_helmet_l"/>
+            <Equipment slot="Body" id="Item.ao_battanian_gambeson_with_kilt"/>
+            <Equipment slot="Leg" id="Item.rough_tied_boots"/>
+            <Equipment slot="Item0" id="Item.XIII_sword_2"/>
+            <Equipment slot="Item1" id="Item.vlach_boulder"/>
+            <Equipment slot="Item2" id="Item.leather_bound_kite_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.tv_vlandia_helmet_b"/>
+            <Equipment slot="Cape" id="Item.hood"/>
+            <Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Item0" id="Item.XIII_sword_2"/>
+            <Equipment slot="Item1" id="Item.vlach_boulder"/>
+            <Equipment slot="Item2" id="Item.leather_bound_kite_shield"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root20_xiv_civ" culture="Culture.bulgaria">
+        <EquipmentSet equipmentType="Civilian">
+            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root200_xiv_bat" culture="Culture.bulgaria">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.AR_battania_helmet_l"/>
+            <Equipment slot="Body" id="Item.mail_shirt"/>
+            <Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+            <Equipment slot="Item0" id="Item.XIII_sword_2"/>
+            <Equipment slot="Item1" id="Item.vlach_boulder"/>
+            <Equipment slot="Item2" id="Item.leather_bound_kite_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.nasal_cervelliere_over_laced_coif"/>
+            <Equipment slot="Body" id="Item.xiii_maa_hauberk01"/>
+            <Equipment slot="Gloves" id="Item.leather_gloves"/>
+            <Equipment slot="Leg" id="Item.turndown_leather_boots"/>
+            <Equipment slot="Item0" id="Item.XIII_sword_2"/>
+            <Equipment slot="Item1" id="Item.vlach_boulder"/>
+            <Equipment slot="Item2" id="Item.leather_bound_kite_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.AR_sturgia_helmet_e"/>
+            <Equipment slot="Body" id="Item.ao_battanian_gambeson_with_kilt"/>
+            <Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+            <Equipment slot="Item0" id="Item.XIII_sword_2"/>
+            <Equipment slot="Item1" id="Item.vlach_boulder"/>
+            <Equipment slot="Item2" id="Item.leather_bound_kite_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.AR_battania_helmet_l"/>
+            <Equipment slot="Cape" id="Item.hood"/>
+            <Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
+            <Equipment slot="Leg" id="Item.AR_vlandia_boots_a"/>
+            <Equipment slot="Item0" id="Item.XIII_sword_2"/>
+            <Equipment slot="Item1" id="Item.vlach_boulder"/>
+            <Equipment slot="Item2" id="Item.leather_bound_kite_shield"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root200_xiv_civ" culture="Culture.bulgaria">
+        <EquipmentSet equipmentType="Civilian">
+            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root2000_xiv_bat" culture="Culture.bulgaria">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.AR_battania_helmet_j"/>
+            <Equipment slot="Body" id="Item.mail_shirt"/>
+            <Equipment slot="Leg" id="Item.DZ_battania_boots_a"/>
+            <Equipment slot="Item0" id="Item.XIII_sword_2"/>
+            <Equipment slot="Item1" id="Item.vlach_boulder"/>
+            <Equipment slot="Item2" id="Item.leather_bound_kite_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.1259_pointed_nasal_helm"/>
+            <Equipment slot="Body" id="Item.battania_woodland_chainmail"/>
+            <Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+            <Equipment slot="Item0" id="Item.XIII_sword_2"/>
+            <Equipment slot="Item1" id="Item.vlach_boulder"/>
+            <Equipment slot="Item2" id="Item.leather_bound_kite_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.AR_battania_helmet_j"/>
             <Equipment slot="Body" id="Item.vlandia_chainmail"/>
-            <Equipment slot="Leg" id="Item.turndown_leather_boots"/>
+            <Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+            <Equipment slot="Item0" id="Item.XIII_sword_2"/>
+            <Equipment slot="Item1" id="Item.vlach_boulder"/>
+            <Equipment slot="Item2" id="Item.leather_bound_kite_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.1259_pointed_nasal_helm"/>
+            <Equipment slot="Body" id="Item.nordic_sloven_over_mail"/>
+            <Equipment slot="Leg" id="Item.TV_vlandia_boots_a"/>
+            <Equipment slot="Item0" id="Item.XIII_sword_2"/>
+            <Equipment slot="Item1" id="Item.vlach_boulder"/>
+            <Equipment slot="Item2" id="Item.leather_bound_kite_shield"/>
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_basic_root110_xiv_civ" culture="Culture.bulgaria">
-
+    <EquipmentRoster id="bulgaria_basic_root2000_xiv_civ" culture="Culture.bulgaria">
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -967,7 +725,664 @@
             <Equipment slot="Leg" id="Item.wrapped_shoes"/>
         </EquipmentSet>
     </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_elite_root_xiv_bat" culture="Culture.bulgaria">
+    <EquipmentRoster id="bulgaria_basic_root21_xiv_bat" culture="Culture.bulgaria">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.hmj_simple_nasal_helm"/>
+            <Equipment slot="Body" id="Item.AO_imperial_scouts_tunic"/>
+            <Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+            <Equipment slot="Item1" id="Item.throwing_stone"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.ao_battanian_segmented_helmet"/>
+            <Equipment slot="Body" id="Item.padded_leather_shirt"/>
+            <Equipment slot="Leg" id="Item.turndown_leather_boots"/>
+            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+            <Equipment slot="Item1" id="Item.throwing_stone"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.ao_battanian_nasal_spangenhelm"/>
+            <Equipment slot="Body" id="Item.ao_durkhan_leather_lamellar"/>
+            <Equipment slot="Leg" id="Item.rough_tied_boots"/>
+            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+            <Equipment slot="Item1" id="Item.throwing_stone"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.ao_imperial_spangenhelm_with_leather"/>
+            <Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+            <Equipment slot="Item1" id="Item.throwing_stone"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root21_xiv_civ" culture="Culture.bulgaria">
+        <EquipmentSet equipmentType="Civilian">
+            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root210_xiv_bat" culture="Culture.bulgaria">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.hmj_simple_nasal_helm"/>
+            <Equipment slot="Body" id="Item.mercenary_gambeson"/>
+            <Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+            <Equipment slot="Item1" id="Item.throwing_stone"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.ao_battanian_segmented_helmet"/>
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_e"/>
+            <Equipment slot="Leg" id="Item.turndown_leather_boots"/>
+            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+            <Equipment slot="Item1" id="Item.throwing_stone"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.ao_battanian_nasal_spangenhelm"/>
+            <Equipment slot="Body" id="Item.mercenary_gambeson"/>
+            <Equipment slot="Leg" id="Item.rough_tied_boots"/>
+            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+            <Equipment slot="Item1" id="Item.throwing_stone"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.ao_imperial_spangenhelm_with_leather"/>
+            <Equipment slot="Body" id="Item.woven_leather_vest"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+            <Equipment slot="Item1" id="Item.throwing_stone"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root210_xiv_civ" culture="Culture.bulgaria">
+        <EquipmentSet equipmentType="Civilian">
+            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!-- #region cavalry -->
+	<EquipmentRoster id="bulgaria_basic_root3_xiv_bat" culture="Culture.bulgaria">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+            <Equipment slot="Item3" id="Item.worn_kite_shield"/>
+            <Equipment slot="Head" id="Item.laced_cloth_coif"/>
+            <Equipment slot="Body" id="Item.leather_tunic"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+            <Equipment slot="Item3" id="Item.old_horsemans_kite_shield"/>
+            <Equipment slot="Head" id="Item.leather_cap"/>
+            <Equipment slot="Body" id="Item.nordic_sloven_leather"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_d"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+            <Equipment slot="Head" id="Item.thinhide_coif"/>
+            <Equipment slot="Cape" id="Item.green_hood"/>
+            <Equipment slot="Body" id="Item.nordic_sloven"/>
+            <Equipment slot="Leg" id="Item.rough_tied_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+            <Equipment slot="Cape" id="Item.hood"/>
+            <Equipment slot="Body" id="Item.leather_coat"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root3_xiv_civ" culture="Culture.bulgaria">
+        <EquipmentSet equipmentType="Civilian">
+            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root30_xiv_bat" culture="Culture.bulgaria">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_2"/>
+            <Equipment slot="Item3" id="Item.leather_bound_kite_shield"/>
+            <Equipment slot="Head" id="Item.battania_fur_cap"/>
+            <Equipment slot="Cape" id="Item.green_hood"/>
+            <Equipment slot="Body" id="Item.leather_tunic"/>
+            <Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+            <Equipment slot="Item1" id="Item.peasant_hatchet_1_t1"/>
+            <Equipment slot="Item3" id="Item.bound_horsemans_kite_shield"/>
+            <Equipment slot="Head" id="Item.AR_battania_helmet_l"/>
+            <Equipment slot="Body" id="Item.padded_leather_shirt"/>
+            <Equipment slot="Leg" id="Item.turndown_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+            <Equipment slot="Item1" id="Item.seax"/>
+            <Equipment slot="Item3" id="Item.bound_desert_round_shield"/>
+            <Equipment slot="Head" id="Item.AR_battania_helmet_l"/>
+            <Equipment slot="Body" id="Item.ao_battanian_gambeson_with_kilt"/>
+            <Equipment slot="Leg" id="Item.rough_tied_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+            <Equipment slot="Item1" id="Item.battania_mace_1_t2"/>
+            <Equipment slot="Item3" id="Item.leather_bound_kite_shield"/>
+            <Equipment slot="Head" id="Item.tv_vlandia_helmet_b"/>
+            <Equipment slot="Cape" id="Item.hood"/>
+            <Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root30_xiv_civ" culture="Culture.bulgaria">
+        <EquipmentSet equipmentType="Civilian">
+            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root300_xiv_bat" culture="Culture.bulgaria">
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.hmj_simple_nasal_helm"/>
+            <Equipment slot="Body" id="Item.AO_imperial_scouts_tunic"/>
+            <Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+            <Equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.ao_battanian_segmented_helmet"/>
+            <Equipment slot="Body" id="Item.padded_leather_shirt"/>
+            <Equipment slot="Leg" id="Item.turndown_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+            <Equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.ao_battanian_nasal_spangenhelm"/>
+            <Equipment slot="Body" id="Item.ao_durkhan_leather_lamellar"/>
+            <Equipment slot="Leg" id="Item.rough_tied_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+            <Equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Head" id="Item.ao_imperial_spangenhelm_with_leather"/>
+            <Equipment slot="Body" id="Item.sleeveless_padded_short_coat"/>
+            <Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+            <Equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
+            <Equipment slot="Item1" id="Item.bound_desert_round_shield"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root300_xiv_civ" culture="Culture.bulgaria">
+        <EquipmentSet equipmentType="Civilian">
+            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root301_xiv_bat" culture="Culture.bulgaria">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.TV_nord_helmet_t"/>
+            <Equipment slot="Body" id="Item.banded_leather_over_mail"/>
+            <Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_y"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.DZ_vlandia_helmet_a"/>
+            <Equipment slot="Body" id="Item.AP_leather_tabard_c"/>
+            <Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_y2"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.DZ_vlandia_helmet_a"/>
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_b3"/>
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_u2"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.DZ_vlandia_helmet_a"/>
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_b2"/>
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_q"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root301_xiv_civ" culture="Culture.bulgaria">
+        <EquipmentSet equipmentType="Civilian">
+            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root3010_xiv_bat" culture="Culture.bulgaria">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_3_t4"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.tv_vlandia_helmet_o2"/>
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_h2"/>
+            <Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_z"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_3_t4"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.tv_vlandia_helmet_b3"/>
+            <Equipment slot="Body" id="Item.TV_empire_armor_p"/>
+            <Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_g"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_3_t4"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.tv_vlandia_helmet_a3"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_e"/>
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_3_t4"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.DZ_vlandia_helmet_a"/>
+            <Equipment slot="Body" id="Item.TV_sturgia_armor_a2"/>
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaq2"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root3010_xiv_civ" culture="Culture.bulgaria">
+        <EquipmentSet equipmentType="Civilian">
+            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root30100_xiv_bat" culture="Culture.bulgaria">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.noble_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_125_gr_arrows"/>
+            <Equipment slot="Head" id="Item.TV_nord_helmet_d"/>
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_p"/>
+            <Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+            <Equipment slot="Leg" id="Item.eastern_splint_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_z"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.noble_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_125_gr_arrows"/>
+            <Equipment slot="Head" id="Item.mailed_cavalry_helm"/>
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_p"/>
+            <Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+            <Equipment slot="Leg" id="Item.eastern_splint_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_g"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.noble_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_125_gr_arrows"/>
+            <Equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_s"/>
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
+            <Equipment slot="Leg" id="Item.eastern_splint_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.noble_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_125_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_125_gr_arrows"/>
+            <Equipment slot="Head" id="Item.goggled_helmet_over_full_mail"/>
+            <Equipment slot="Body" id="Item.ao_imperial_southern_scale_armor_over_mail"/>
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
+            <Equipment slot="Leg" id="Item.eastern_splint_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaq2"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root30100_xiv_civ" culture="Culture.bulgaria">
+        <EquipmentSet equipmentType="Civilian">
+            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root302_xiv_bat" culture="Culture.bulgaria">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.TV_nord_helmet_t"/>
+            <Equipment slot="Body" id="Item.banded_leather_over_mail"/>
+            <Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_y"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.DZ_vlandia_helmet_a"/>
+            <Equipment slot="Body" id="Item.AP_leather_tabard_c"/>
+            <Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_y2"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.DZ_vlandia_helmet_a"/>
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_b3"/>
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_u2"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.DZ_vlandia_helmet_a"/>
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_b2"/>
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_q"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root302_xiv_civ" culture="Culture.bulgaria">
+        <EquipmentSet equipmentType="Civilian">
+            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root3020_xiv_bat" culture="Culture.bulgaria">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_9"/>
+            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
+            <Equipment slot="Head" id="Item.AR_empire_archer_helmet_b2"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Body" id="Item.Sa_brigandine_plate1"/>
+            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+            <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_8"/>
+            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
+            <Equipment slot="Head" id="Item.AR_empire_archer_helmet_b"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Body" id="Item.Sa_brigandine6"/>
+            <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+            <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_10"/>
+            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
+            <Equipment slot="Head" id="Item.TV_sturgia_helmet_j2"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Body" id="Item.Sa_brigandine3"/>
+            <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+            <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_11"/>
+            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
+            <Equipment slot="Head" id="Item.TV_sturgia_helmet_j"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Body" id="Item.Sa_brigandine4"/>
+            <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
+            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+            <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_9"/>
+            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
+            <Equipment slot="Head" id="Item.TV_sturgia_helmet_j2"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Body" id="Item.Sa_brigandine5"/>
+            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+            <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_8"/>
+            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
+            <Equipment slot="Head" id="Item.TV_sturgia_helmet_j"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Body" id="Item.Sa_brigandine2"/>
+            <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+            <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_10"/>
+            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
+            <Equipment slot="Head" id="Item.AR_empire_archer_helmet_b2"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Body" id="Item.Sa_brigandine1"/>
+            <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+            <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_11"/>
+            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
+            <Equipment slot="Head" id="Item.TV_sturgia_helmet_j2"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Body" id="Item.Sa_brigandine5"/>
+            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+            <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_9"/>
+            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
+            <Equipment slot="Head" id="Item.AR_empire_archer_helmet_b2"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Body" id="Item.Sa_brigandine2"/>
+            <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+            <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_8"/>
+            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
+            <Equipment slot="Head" id="Item.TV_sturgia_helmet_j"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Body" id="Item.Sa_brigandine_plate1"/>
+            <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+            <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root3020_xiv_civ" culture="Culture.bulgaria">
+        <EquipmentSet equipmentType="Civilian">
+            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root3021_xiv_bat" culture="Culture.bulgaria">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_3_t4"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.tv_vlandia_helmet_o2"/>
+            <Equipment slot="Body" id="Item.TV_vlandia_armor_h2"/>
+            <Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_z"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_3_t4"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.tv_vlandia_helmet_b3"/>
+            <Equipment slot="Body" id="Item.TV_empire_armor_p"/>
+            <Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_g"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_3_t4"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.tv_vlandia_helmet_a3"/>
+            <Equipment slot="Body" id="Item.AR_vlandia_armor_e"/>
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.steppe_war_bow"/>
+            <Equipment slot="Item1" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Item2" id="Item.AR_aserai_short_spear_3_t4"/>
+            <Equipment slot="Item3" id="Item.GRE_hardened_110_gr_arrows"/>
+            <Equipment slot="Head" id="Item.DZ_vlandia_helmet_a"/>
+            <Equipment slot="Body" id="Item.TV_sturgia_armor_a2"/>
+            <Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
+            <Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaq2"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_basic_root3021_xiv_civ" culture="Culture.bulgaria">
+        <EquipmentSet equipmentType="Civilian">
+            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <!-- #region Elite -->
+	<EquipmentRoster id="bulgaria_elite_root_xiv_bat" culture="Culture.bulgaria">
         <EquipmentSet>
             <Equipment slot="Item0" id="Item.XIII_sword_9"/>
             <Equipment slot="Item3" id="Item.small_flat_heater_shield"/>
@@ -996,7 +1411,6 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_elite_root_xiv_civ" culture="Culture.bulgaria">
-
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -1091,7 +1505,100 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_elite_root0_xiv_civ" culture="Culture.bulgaria">
-
+        <EquipmentSet equipmentType="Civilian">
+            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+            <Equipment slot="Item2" id="Item.throwing_stone"/>
+            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_elite_root01_xiv_bat" culture="Culture.bulgaria">
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.AR_iltanlar_spear_2_t3"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_9"/>
+            <Equipment slot="Item3" id="Item.flat_heater_shield"/>
+            <Equipment slot="Head" id="Item.mail_coif"/>
+            <Equipment slot="Cape" id="Item.Western_chain_shoulders"/>
+            <Equipment slot="Body" id="Item.tab_vest_mailsleeves_1"/>
+            <Equipment slot="Leg" id="Item.plated_hosen_1"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_8"/>
+            <Equipment slot="Item3" id="Item.studded_bound_kite_shield"/>
+            <Equipment slot="Head" id="Item.early_mailcoif_1"/>
+            <Equipment slot="Cape" id="Item.Western_chain_shoulders"/>
+            <Equipment slot="Body" id="Item.light_tunic_mailed_1"/>
+            <Equipment slot="Leg" id="Item.late_mun_hosen_1"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_10"/>
+            <Equipment slot="Item3" id="Item.horsemans_heater_shield"/>
+            <Equipment slot="Head" id="Item.orle_kettle1"/>
+            <Equipment slot="Body" id="Item.high_padding_armoured_1"/>
+            <Equipment slot="Leg" id="Item.high_splinted_leggings1"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_11"/>
+            <Equipment slot="Item3" id="Item.horsemans_heater_shield"/>
+            <Equipment slot="Head" id="Item.orle_kettle1"/>
+            <Equipment slot="Body" id="Item.mun_gambeson_breastplate_1"/>
+            <Equipment slot="Leg" id="Item.late_mun_hosen_1"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.AR_iltanlar_spear_2_t3"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_9"/>
+            <Equipment slot="Item3" id="Item.flat_heater_shield"/>
+            <Equipment slot="Head" id="Item.early_mailcoif_1"/>
+            <Equipment slot="Cape" id="Item.Western_chain_shoulders"/>
+            <Equipment slot="Body" id="Item.mun_gambeson_breastplate_1"/>
+            <Equipment slot="Leg" id="Item.late_mun_hosen_1"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_8"/>
+            <Equipment slot="Item3" id="Item.studded_bound_kite_shield"/>
+            <Equipment slot="Head" id="Item.segmentednasal_elcoif"/>
+            <Equipment slot="Cape" id="Item.Western_chain_shoulders"/>
+            <Equipment slot="Body" id="Item.light_tunic_mailed_1"/>
+            <Equipment slot="Leg" id="Item.high_splinted_leggings1"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.eastern_spear_2_t3"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_10"/>
+            <Equipment slot="Item3" id="Item.horsemans_heater_shield"/>
+            <Equipment slot="Head" id="Item.fr_el_flatkettle1"/>
+            <Equipment slot="Body" id="Item.high_padding_armoured_1"/>
+            <Equipment slot="Leg" id="Item.plated_hosen_1"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.light_harness"/>
+        </EquipmentSet>
+        <EquipmentSet>
+            <Equipment slot="Item0" id="Item.eastern_spear_4_t4"/>
+            <Equipment slot="Item1" id="Item.XIII_sword_11"/>
+            <Equipment slot="Item3" id="Item.horsemans_heater_shield"/>
+            <Equipment slot="Head" id="Item.fr_el_flatkettle1"/>
+            <Equipment slot="Body" id="Item.mun_gambeson_breastplate_1"/>
+            <Equipment slot="Leg" id="Item.late_mun_hosen_1"/>
+            <Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+            <Equipment slot="HorseHarness" id="Item.northern_noble_harness"/>
+        </EquipmentSet>
+    </EquipmentRoster>
+    <EquipmentRoster id="bulgaria_elite_root01_xiv_civ" culture="Culture.bulgaria">
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -1105,9 +1612,9 @@
             <Equipment slot="Item1" id="Item.XIII_sword_9"/>
             <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
             <Equipment slot="Head" id="Item.AR_empire_archer_helmet_b2"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
             <Equipment slot="Body" id="Item.Sa_brigandine_plate1"/>
-			<Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
             <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
@@ -1117,7 +1624,7 @@
             <Equipment slot="Item1" id="Item.XIII_sword_8"/>
             <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
             <Equipment slot="Head" id="Item.AR_empire_archer_helmet_b"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
             <Equipment slot="Body" id="Item.Sa_brigandine6"/>
             <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
@@ -1129,9 +1636,9 @@
             <Equipment slot="Item1" id="Item.XIII_sword_10"/>
             <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
             <Equipment slot="Head" id="Item.TV_sturgia_helmet_j2"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
             <Equipment slot="Body" id="Item.Sa_brigandine3"/>
-			<Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+            <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
             <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
@@ -1141,7 +1648,7 @@
             <Equipment slot="Item1" id="Item.XIII_sword_11"/>
             <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
             <Equipment slot="Head" id="Item.TV_sturgia_helmet_j"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
             <Equipment slot="Body" id="Item.Sa_brigandine4"/>
             <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
@@ -1153,9 +1660,9 @@
             <Equipment slot="Item1" id="Item.XIII_sword_9"/>
             <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
             <Equipment slot="Head" id="Item.TV_sturgia_helmet_j2"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
             <Equipment slot="Body" id="Item.Sa_brigandine5"/>
-			<Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
+            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
             <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
@@ -1165,7 +1672,7 @@
             <Equipment slot="Item1" id="Item.XIII_sword_8"/>
             <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
             <Equipment slot="Head" id="Item.TV_sturgia_helmet_j"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
             <Equipment slot="Body" id="Item.Sa_brigandine2"/>
             <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
@@ -1177,9 +1684,9 @@
             <Equipment slot="Item1" id="Item.XIII_sword_10"/>
             <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
             <Equipment slot="Head" id="Item.AR_empire_archer_helmet_b2"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
             <Equipment slot="Body" id="Item.Sa_brigandine1"/>
-			<Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+            <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
             <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
@@ -1189,7 +1696,7 @@
             <Equipment slot="Item1" id="Item.XIII_sword_11"/>
             <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
             <Equipment slot="Head" id="Item.TV_sturgia_helmet_j2"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
             <Equipment slot="Body" id="Item.Sa_brigandine5"/>
             <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
@@ -1201,9 +1708,9 @@
             <Equipment slot="Item1" id="Item.XIII_sword_9"/>
             <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
             <Equipment slot="Head" id="Item.AR_empire_archer_helmet_b2"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
             <Equipment slot="Body" id="Item.Sa_brigandine2"/>
-			<Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
+            <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
             <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
             <Equipment slot="HorseHarness" id="Item.light_harness"/>
@@ -1213,7 +1720,7 @@
             <Equipment slot="Item1" id="Item.XIII_sword_8"/>
             <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
             <Equipment slot="Head" id="Item.TV_sturgia_helmet_j"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
+            <Equipment slot="Cape" id="Item.heavybevor_late1"/>
             <Equipment slot="Body" id="Item.Sa_brigandine_plate1"/>
             <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
             <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
@@ -1222,7 +1729,6 @@
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_elite_root00_xiv_civ" culture="Culture.bulgaria">
-
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
@@ -1237,9 +1743,9 @@
             <Equipment slot="Item3" id="Item.xiii_shield_heater"/>
             <Equipment slot="Head" id="Item.ao_sturgian_feathered_helmet_with_closed_mail"/>
             <Equipment slot="Cape" id="Item.swadian_shoulders"/>
-			<Equipment slot="Body" id="Item.Sa_tabbartplate"/>
+            <Equipment slot="Body" id="Item.Sa_tabbartplate"/>
             <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-			<Equipment slot="Leg" id="Item.plate_boots"/>
+            <Equipment slot="Leg" id="Item.plate_boots"/>
             <Equipment slot="Horse" id="Item.noble_horse_eastern"/>
             <Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
         </EquipmentSet>
@@ -1249,9 +1755,9 @@
             <Equipment slot="Item3" id="Item.xiii_shield_heater"/>
             <Equipment slot="Head" id="Item.TV_sturgia_helmet_f"/>
             <Equipment slot="Cape" id="Item.engraved_swadian_shoulders"/>
-			<Equipment slot="Body" id="Item.sa_ChurburghTorso"/>
+            <Equipment slot="Body" id="Item.sa_ChurburghTorso"/>
             <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
-			<Equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
+            <Equipment slot="Leg" id="Item.sa_1ChurburghBoots"/>
             <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
             <Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
         </EquipmentSet>
@@ -1261,9 +1767,9 @@
             <Equipment slot="Item3" id="Item.xiii_shield_heater"/>
             <Equipment slot="Head" id="Item.AR_empire_helmet_h"/>
             <Equipment slot="Cape" id="Item.swadian_shoulders"/>
-			<Equipment slot="Body" id="Item.sa_2ChurburghTorso"/>
+            <Equipment slot="Body" id="Item.sa_2ChurburghTorso"/>
             <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
-			<Equipment slot="Leg" id="Item.plate_boots2"/>
+            <Equipment slot="Leg" id="Item.plate_boots2"/>
             <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
             <Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
         </EquipmentSet>
@@ -1273,9 +1779,9 @@
             <Equipment slot="Item3" id="Item.xiii_shield_heater"/>
             <Equipment slot="Head" id="Item.imperial_lord_helm_mail"/>
             <Equipment slot="Cape" id="Item.AR_imperial_shoulders_x"/>
-			<Equipment slot="Body" id="Item.swadian_striped_plate_armor"/>
+            <Equipment slot="Body" id="Item.swadian_striped_plate_armor"/>
             <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-			<Equipment slot="Leg" id="Item.sa_2ChurburghBoots"/>
+            <Equipment slot="Leg" id="Item.sa_2ChurburghBoots"/>
             <Equipment slot="Horse" id="Item.noble_horse_eastern"/>
             <Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
         </EquipmentSet>
@@ -1285,9 +1791,9 @@
             <Equipment slot="Item3" id="Item.xiii_shield_heater"/>
             <Equipment slot="Head" id="Item.TV_sturgia_helmet_f"/>
             <Equipment slot="Cape" id="Item.Western_chain_shoulders"/>
-			<Equipment slot="Body" id="Item.swadian_striped_plate_armor"/>
+            <Equipment slot="Body" id="Item.swadian_striped_plate_armor"/>
             <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-			<Equipment slot="Leg" id="Item.plate_boots"/>
+            <Equipment slot="Leg" id="Item.plate_boots"/>
             <Equipment slot="Horse" id="Item.noble_horse_eastern"/>
             <Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
         </EquipmentSet>
@@ -1297,9 +1803,9 @@
             <Equipment slot="Item3" id="Item.xiii_shield_heater"/>
             <Equipment slot="Head" id="Item.AR_empire_helmet_h"/>
             <Equipment slot="Cape" id="Item.AR_imperial_shoulders_c"/>
-			<Equipment slot="Body" id="Item.swadian_plate_armor"/>
+            <Equipment slot="Body" id="Item.swadian_plate_armor"/>
             <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-			<Equipment slot="Leg" id="Item.plate_boots"/>
+            <Equipment slot="Leg" id="Item.plate_boots"/>
             <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
             <Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
         </EquipmentSet>
@@ -1309,9 +1815,9 @@
             <Equipment slot="Item3" id="Item.xiii_shield_heater"/>
             <Equipment slot="Head" id="Item.ao_sturgian_feathered_helmet_with_closed_mail"/>
             <Equipment slot="Cape" id="Item.swadian_shoulders"/>
-			<Equipment slot="Body" id="Item.sa_ChurburghTorso"/>
+            <Equipment slot="Body" id="Item.sa_ChurburghTorso"/>
             <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-			<Equipment slot="Leg" id="Item.plate_boots"/>
+            <Equipment slot="Leg" id="Item.plate_boots"/>
             <Equipment slot="Horse" id="Item.t3_khuzait_horse"/>
             <Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
         </EquipmentSet>
@@ -1321,303 +1827,14 @@
             <Equipment slot="Item3" id="Item.xiii_shield_heater"/>
             <Equipment slot="Head" id="Item.AR_empire_helmet_h"/>
             <Equipment slot="Cape" id="Item.swadian_shoulders"/>
-			<Equipment slot="Body" id="Item.swadian_striped_plate_armor"/>
+            <Equipment slot="Body" id="Item.swadian_striped_plate_armor"/>
             <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-			<Equipment slot="Leg" id="Item.plate_boots"/>
+            <Equipment slot="Leg" id="Item.plate_boots"/>
             <Equipment slot="Horse" id="Item.noble_horse_eastern"/>
             <Equipment slot="HorseHarness" id="Item.chain_horse_harness"/>
         </EquipmentSet>
     </EquipmentRoster>
     <EquipmentRoster id="bulgaria_elite_root000_xiv_civ" culture="Culture.bulgaria">
-
-        <EquipmentSet equipmentType="Civilian">
-            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-            <Equipment slot="Item2" id="Item.throwing_stone"/>
-            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_elite_root1_xiv_bat" culture="Culture.bulgaria">
-        <EquipmentSet>
-			<Equipment slot="Item0" id="Item.steppe_war_bow"/>
-			<Equipment slot="Item1" id="Item.steppe_arrows"/>
-			<Equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
-			<Equipment slot="Item3" id="Item.steppe_arrows"/>
-			<Equipment slot="Head" id="Item.TV_nord_helmet_t"/>
-			<Equipment slot="Body" id="Item.banded_leather_over_mail"/>
-			<Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-			<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
-			<Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.steppe_war_bow"/>
-			<Equipment slot="Item1" id="Item.steppe_arrows"/>
-			<Equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
-			<Equipment slot="Item3" id="Item.steppe_arrows"/>
-			<Equipment slot="Head" id="Item.DZ_vlandia_helmet_a"/>
-			<Equipment slot="Body" id="Item.AP_leather_tabard_c"/>
-			<Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-			<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
-			<Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_y2"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.steppe_war_bow"/>
-			<Equipment slot="Item1" id="Item.steppe_arrows"/>
-			<Equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
-			<Equipment slot="Item3" id="Item.steppe_arrows"/>
-			<Equipment slot="Head" id="Item.DZ_vlandia_helmet_a"/>
-			<Equipment slot="Body" id="Item.TV_vlandia_armor_b3"/>
-			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-			<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
-			<Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_u2"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.steppe_war_bow"/>
-			<Equipment slot="Item1" id="Item.steppe_arrows"/>
-			<Equipment slot="Item2" id="Item.AR_aserai_short_spear_1_t2"/>
-			<Equipment slot="Item3" id="Item.steppe_arrows"/>
-			<Equipment slot="Head" id="Item.DZ_vlandia_helmet_a"/>
-			<Equipment slot="Body" id="Item.TV_vlandia_armor_b2"/>
-			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-			<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
-			<Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_q"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-    <EquipmentRoster id="bulgaria_elite_root1_xiv_civ" culture="Culture.bulgaria">
-
-        <EquipmentSet equipmentType="Civilian">
-            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-            <Equipment slot="Item2" id="Item.throwing_stone"/>
-            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_elite_root10_xiv_bat" culture="Culture.bulgaria">
-        <EquipmentSet>
-			<Equipment slot="Item0" id="Item.steppe_war_bow"/>
-			<Equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<Equipment slot="Item2" id="Item.AR_aserai_short_spear_3_t4"/>
-			<Equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
-			<Equipment slot="Head" id="Item.tv_vlandia_helmet_o2"/>
-			<Equipment slot="Body" id="Item.TV_vlandia_armor_h2"/>
-			<Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-			<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
-			<Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.steppe_war_bow"/>
-			<Equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<Equipment slot="Item2" id="Item.AR_aserai_short_spear_3_t4"/>
-			<Equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
-			<Equipment slot="Head" id="Item.tv_vlandia_helmet_b3"/>
-			<Equipment slot="Body" id="Item.TV_empire_armor_p"/>
-			<Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-			<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
-			<Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_g"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.steppe_war_bow"/>
-			<Equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<Equipment slot="Item2" id="Item.AR_aserai_short_spear_3_t4"/>
-			<Equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
-			<Equipment slot="Head" id="Item.tv_vlandia_helmet_a3"/>
-			<Equipment slot="Body" id="Item.AR_vlandia_armor_e"/>
-			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-			<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
-			<Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.steppe_war_bow"/>
-			<Equipment slot="Item1" id="Item.heavy_steppe_arrows"/>
-			<Equipment slot="Item2" id="Item.AR_aserai_short_spear_3_t4"/>
-			<Equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
-			<Equipment slot="Head" id="Item.DZ_vlandia_helmet_a"/>
-			<Equipment slot="Body" id="Item.TV_sturgia_armor_a2"/>
-			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-			<Equipment slot="Leg" id="Item.hmj_eastern_leather_boots"/>
-			<Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaq2"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-    <EquipmentRoster id="bulgaria_elite_root10_xiv_civ" culture="Culture.bulgaria">
-
-        <EquipmentSet equipmentType="Civilian">
-            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-            <Equipment slot="Item2" id="Item.throwing_stone"/>
-            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_elite_root100_xiv_bat" culture="Culture.bulgaria">
-        <EquipmentSet>
-			<Equipment slot="Item0" id="Item.noble_bow"/>
-			<Equipment slot="Item1" id="Item.piercing_arrows"/>
-			<Equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3"/>
-			<Equipment slot="Item3" id="Item.piercing_arrows"/>
-			<Equipment slot="Head" id="Item.TV_nord_helmet_d"/>
-			<Equipment slot="Body" id="Item.TV_vlandia_armor_p"/>
-			<Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-			<Equipment slot="Leg" id="Item.eastern_splint_boots"/>
-			<Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_z"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.noble_bow"/>
-			<Equipment slot="Item1" id="Item.piercing_arrows"/>
-			<Equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3"/>
-			<Equipment slot="Item3" id="Item.piercing_arrows"/>
-			<Equipment slot="Head" id="Item.mailed_cavalry_helm"/>
-			<Equipment slot="Body" id="Item.TV_vlandia_armor_p"/>
-			<Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-			<Equipment slot="Leg" id="Item.eastern_splint_boots"/>
-			<Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_g"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.noble_bow"/>
-			<Equipment slot="Item1" id="Item.piercing_arrows"/>
-			<Equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3"/>
-			<Equipment slot="Item3" id="Item.piercing_arrows"/>
-			<Equipment slot="Head" id="Item.AR_sturgia_helmet_c"/>
-			<Equipment slot="Body" id="Item.TV_vlandia_armor_s"/>
-			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-			<Equipment slot="Leg" id="Item.eastern_splint_boots"/>
-			<Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_c2"/>
-		</EquipmentSet>
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.noble_bow"/>
-			<Equipment slot="Item1" id="Item.piercing_arrows"/>
-			<Equipment slot="Item2" id="Item.AR_aserai_short_spear_2_t3"/>
-			<Equipment slot="Item3" id="Item.piercing_arrows"/>
-			<Equipment slot="Head" id="Item.goggled_helmet_over_full_mail"/>
-			<Equipment slot="Body" id="Item.ao_imperial_southern_scale_armor_over_mail"/>
-			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_d"/>
-			<Equipment slot="Leg" id="Item.eastern_splint_boots"/>
-			<Equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zaq2"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-    <EquipmentRoster id="bulgaria_elite_root100_xiv_civ" culture="Culture.bulgaria">
-
-        <EquipmentSet equipmentType="Civilian">
-            <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
-            <Equipment slot="Item2" id="Item.throwing_stone"/>
-            <Equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-            <Equipment slot="Leg" id="Item.wrapped_shoes"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_elite_root2_xiv_bat" culture="Culture.bulgaria">
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
-            <Equipment slot="Item1" id="Item.ad1259_1hd_mace"/>
-            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
-            <Equipment slot="Head" id="Item.AR_empire_archer_helmet_b2"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
-            <Equipment slot="Body" id="Item.Sa_brigandine_plate1"/>
-			<Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
-            <Equipment slot="Item1" id="Item.ad1259_1hd_mace"/>
-            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
-            <Equipment slot="Head" id="Item.AR_empire_archer_helmet_b"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
-            <Equipment slot="Body" id="Item.Sa_brigandine6"/>
-            <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
-            <Equipment slot="Item1" id="Item.ad1259_1hd_mace"/>
-            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
-            <Equipment slot="Head" id="Item.TV_sturgia_helmet_j2"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
-            <Equipment slot="Body" id="Item.Sa_brigandine3"/>
-			<Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
-            <Equipment slot="Item1" id="Item.ad1259_1hd_mace"/>
-            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
-            <Equipment slot="Head" id="Item.TV_sturgia_helmet_j"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
-            <Equipment slot="Body" id="Item.Sa_brigandine4"/>
-            <Equipment slot="Gloves" id="Item.sa_ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
-            <Equipment slot="Item1" id="Item.ad1259_1hd_mace"/>
-            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
-            <Equipment slot="Head" id="Item.TV_sturgia_helmet_j2"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
-            <Equipment slot="Body" id="Item.Sa_brigandine5"/>
-			<Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
-            <Equipment slot="Item1" id="Item.ad1259_1hd_mace"/>
-            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
-            <Equipment slot="Head" id="Item.TV_sturgia_helmet_j"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
-            <Equipment slot="Body" id="Item.Sa_brigandine2"/>
-            <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
-            <Equipment slot="Item1" id="Item.ad1259_1hd_mace"/>
-            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
-            <Equipment slot="Head" id="Item.AR_empire_archer_helmet_b2"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
-            <Equipment slot="Body" id="Item.Sa_brigandine1"/>
-			<Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
-            <Equipment slot="Item1" id="Item.ad1259_1hd_mace"/>
-            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
-            <Equipment slot="Head" id="Item.TV_sturgia_helmet_j2"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
-            <Equipment slot="Body" id="Item.Sa_brigandine5"/>
-            <Equipment slot="Gloves" id="Item.sa_1ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
-            <Equipment slot="Item1" id="Item.ad1259_1hd_mace"/>
-            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
-            <Equipment slot="Head" id="Item.AR_empire_archer_helmet_b2"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
-            <Equipment slot="Body" id="Item.Sa_brigandine2"/>
-			<Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-        </EquipmentSet>
-        <EquipmentSet>
-            <Equipment slot="Item0" id="Item.ad1259_2hd_axe"/>
-            <Equipment slot="Item1" id="Item.ad1259_1hd_mace"/>
-            <Equipment slot="Item3" id="Item.xiii_shield_heater3"/>
-            <Equipment slot="Head" id="Item.TV_sturgia_helmet_j"/>
-			<Equipment slot="Cape" id="Item.heavybevor_late1"/>
-            <Equipment slot="Body" id="Item.Sa_brigandine_plate1"/>
-            <Equipment slot="Gloves" id="Item.sa_2ChurburghGauntlet"/>
-            <Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-        </EquipmentSet>
-    </EquipmentRoster>
-    <EquipmentRoster id="bulgaria_elite_root2_xiv_civ" culture="Culture.bulgaria">
-
         <EquipmentSet equipmentType="Civilian">
             <Equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
             <Equipment slot="Item2" id="Item.throwing_stone"/>
