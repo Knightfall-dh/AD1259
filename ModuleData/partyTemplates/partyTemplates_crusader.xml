@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <partyTemplates>
     <!-- Villagers -->
     <MBPartyTemplate id="villager_crusader_template">
@@ -6,64 +6,191 @@
             <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_crusader"/>
         </stacks>
     </MBPartyTemplate>
-
     <!-- Lords & Town Garrison -->
     <MBPartyTemplate id="kingdom_hero_party_CRUSADER_template">
         <stacks>
-            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.crusader_basic_root"/> <!--European Levy-->
-            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.crusader_basic_root0"/> <!--European Levied Footman-->
-            <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.crusader_basic_root00"/> <!--Crusader Novice Spearman-->
-            <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.crusader_basic_root000"/> <!--Crusader Veteran Spearman-->
-            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.crusader_basic_root0000"/> <!--Crusader Expert Spearman-->
-            <PartyTemplateStack min_value="2" max_value="8" troop="NPCCharacter.crusader_basic_root01"/> <!--Crusader Novice Guisarmer-->
-            <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.crusader_basic_root010"/> <!--Crusader Voulgier-->
-            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.crusader_basic_root0100"/> <!--Crusader Expert Voulgier-->
-            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.crusader_basic_root1"/> <!--European Levied Bowman-->
-            <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.crusader_basic_root10"/> <!--Crusader Trained Bowman-->
-            <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.crusader_basic_root100"/> <!--Crusader Longbowman-->
-            <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.crusader_basic_root101"/> <!--Crusader Skirmisher Bowman-->
-            <PartyTemplateStack min_value="6" max_value="12" troop="NPCCharacter.crusader_basic_root11"/> <!--Crusader Trained Crossbowman-->
-            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.crusader_basic_root110"/> <!--Crusader Veteran Crossbowman-->
-            <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.crusader_basic_root1100"/> <!--Crusader Heavy Crossbowman-->
-            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.crusader_basic_root1101"/> <!--Crusader Skirmisher Crossbowman-->
-            <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.crusader_elite_root"/> <!--European Nobleman-->
-            <PartyTemplateStack min_value="8" max_value="10" troop="NPCCharacter.crusader_elite_root0"/> <!--European Noble Cavalryman-->
-            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.crusader_elite_root00"/> <!--Crusader Knight-->
-            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.crusader_elite_root000"/> <!--Crusader Knight-Serjeant-->
-            <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.crusader_elite_root0000"/> <!--Crusader Bannerman-->
-            <PartyTemplateStack min_value="8" max_value="10" troop="NPCCharacter.crusader_elite_root1"/> <!--European Noble Serjeant-->
-            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.crusader_elite_root10"/> <!--Dismounted Crusader Knight-->
-            <PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.crusader_elite_root100"/> <!--Dismounted Crusader Knight-Serjeant-->
-            <PartyTemplateStack min_value="5" max_value="12" troop="NPCCharacter.merc_turcopole_recruit"/> <!-- Turcopole Recruit -->
-            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.merc_turcopole_archer"/> <!-- Turcopole Archer -->
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.crusader_basic_root"/>
+            <!-- Outremer Burgeis -->
+            <PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.crusader_basic_root0"/>
+            <!-- Outremer Peonier -->
+            <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.crusader_basic_root00"/>
+            <!-- Outremer Sergant a Lance -->
+            <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.crusader_basic_root000"/>
+            <!-- Outremer Sergant Arme -->
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.crusader_basic_root0000"/>
+            <!-- Outremer Sergant Hauberge -->
+            <PartyTemplateStack min_value="2" max_value="8" troop="NPCCharacter.crusader_basic_root01"/>
+            <!-- Outremer Soudoier -->
+            <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.crusader_basic_root010"/>
+            <!-- Outremer Sergant a Espee -->
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.crusader_basic_root0100"/>
+            <!-- Outremer Sergant Hardi -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.crusader_basic_root1"/>
+            <!-- Maronite Archier Novel -->
+            <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.crusader_basic_root10"/>
+            <!-- Maronite Archier -->
+            <PartyTemplateStack min_value="2" max_value="8" troop="NPCCharacter.crusader_basic_root100"/>
+            <!-- Maronite Archier Hardi -->
+            <PartyTemplateStack min_value="6" max_value="12" troop="NPCCharacter.crusader_basic_root11"/>
+            <!-- Outremer Arbalestier -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.crusader_basic_root110"/>
+            <!-- Outremer Arbalestier Arme -->
+            <PartyTemplateStack min_value="6" max_value="10" troop="NPCCharacter.crusader_basic_root1100"/>
+            <!-- Outremer Arbalestier Hauberge -->
+            <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.crusader_elite_root"/>
+            <!-- Outremer Damoisel -->
+            <PartyTemplateStack min_value="8" max_value="10" troop="NPCCharacter.crusader_elite_root0"/>
+            <!-- Outremer Escuier -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.crusader_elite_root00"/>
+            <!-- Outremer Chevalier -->
+            <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.crusader_elite_root000"/>
+            <!-- Outremer Chevalier Bacheler -->
+            <PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.crusader_elite_root0000"/>
+            <!-- Outremer Banneret -->
+            <PartyTemplateStack min_value="8" max_value="10" troop="NPCCharacter.crusader_cavalry_root0"/>
+            <!-- Outremer Sergant a Cheval -->
+            <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.crusader_cavalry_root00"/>
+            <!-- Outremer Sergant Arme a Cheval -->
+            <PartyTemplateStack min_value="1" max_value="10" troop="NPCCharacter.crusader_cavalry_root000"/>
+            <!-- Outremer Sergant de Mesnie -->
+            <PartyTemplateStack min_value="3" max_value="8" troop="NPCCharacter.crusader_turcopole_root"/>
+            <!-- Turcopole Novel -->
+            <PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.crusader_turcopole_root01"/>
+            <!-- Turcopole Archier -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.crusader_cavalry_root"/>
+            <!-- Outremer Valet a Cheval -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.crusader_basic_root011"/>
+            <!-- Outremer Sergant a Hache -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.crusader_basic_root00000"/>
+            <!-- Outremer Esleu -->
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.crusader_turcopole_root0"/>
+            <!-- Turcopole Arme -->
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.crusader_turcopole_root00"/>
+            <!-- Turcopole a Lance -->
+            <!-- Military orders and mercenary Turcopoles -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.templar_initiate"/>
+            <!-- Templar Initiate -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.templar_crossbowman"/>
+            <!-- Templar Crossbowman -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.templar_brother_knight"/>
+            <!-- Templar Knight -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.templar_brother_squire"/>
+            <!-- Templar Squire -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.templar_brother_sergeant"/>
+            <!-- Templar Sergeant -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.templar_arbalester"/>
+            <!-- Templar Crossbow Sergeant -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.templar_brother_at_arms"/>
+            <!-- Templar Brother-at-Arms -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.templar_brother_knight_captain"/>
+            <!-- Templar Grand Knight -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.lazarus_initiate"/>
+            <!-- Order of Saint Lazarus Leper Brother -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.lazarus_squire"/>
+            <!-- Order of Saint Lazarus Squire -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.lazarus_knight"/>
+            <!-- Order of Saint Lazarus Knight -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.lazarus_grandknight"/>
+            <!-- Order of Saint Lazarus Grand Knight -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.hospitaller_initiate"/>
+            <!-- Hospitaller Initiate -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.hospitaller_brother_at_arms"/>
+            <!-- Hospitaller Brother-at-Arms -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.hospitaller_crossbowman"/>
+            <!-- Hospitaller Crossbowman -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.hospitaller_arbalester"/>
+            <!-- Hospitaller Arbalester -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.hospitaller_brother_sergeant"/>
+            <!-- Hospitaller Serjeant -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.hospitaller_brother_squire"/>
+            <!-- Hospitaller Squire -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.hospitaller_brother_knight"/>
+            <!-- Hospitaller Knight -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.hospitaller_brother_knight_captain"/>
+            <!-- Hospitaller Grand Knight -->
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.merc_turcopole_recruit"/>
+            <!-- Turcopole Recruit -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.merc_turcopole_lighthorseman"/>
+            <!-- Turcopole Light Horseman -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.merc_turcopole_archer"/>
+            <!-- Turcopole Archer -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.merc_turcopole_raider"/>
+            <!-- Turcopole Raider -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.merc_turcopole_flanker"/>
+            <!-- Turcopole Flanker -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.merc_turcopole_lancer"/>
+            <!-- Turcopole Lancer -->
         </stacks>
     </MBPartyTemplate>
-	<MBPartyTemplate id="patrol_party_CRUSADER_template_level_1">
-		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.crusader_basic_root"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.crusader_basic_root0"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.crusader_elite_root"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.crusader_elite_root0"/>
-		</stacks>
-	</MBPartyTemplate>
-	<MBPartyTemplate id="patrol_party_CRUSADER_template_level_2">
-		<stacks>
-			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.crusader_basic_root"/>
-			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.crusader_basic_root0"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.crusader_elite_root"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.crusader_elite_root0"/>
-		</stacks>
-	</MBPartyTemplate>
-	<MBPartyTemplate id="patrol_party_CRUSADER_template_level_3">
-		<stacks>
-			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.crusader_basic_root"/>
-			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.crusader_basic_root0"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.crusader_elite_root"/>
-			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.crusader_elite_root0"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.crusader_elite_root000"/>
-		</stacks>
-	</MBPartyTemplate>
-
+    <MBPartyTemplate id="patrol_party_CRUSADER_template_level_1">
+        <stacks>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.crusader_basic_root"/>
+            <!-- Outremer Burgeis -->
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.crusader_basic_root0"/>
+            <!-- Outremer Peonier -->
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.crusader_elite_root"/>
+            <!-- Outremer Damoisel -->
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.crusader_elite_root0"/>
+            <!-- Outremer Escuier -->
+            <!-- Military orders and mercenary Turcopoles -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.templar_initiate"/>
+            <!-- Templar Initiate -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.hospitaller_initiate"/>
+            <!-- Hospitaller Initiate -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.merc_turcopole_recruit"/>
+            <!-- Turcopole Recruit -->
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="patrol_party_CRUSADER_template_level_2">
+        <stacks>
+            <PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.crusader_basic_root"/>
+            <!-- Outremer Burgeis -->
+            <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.crusader_basic_root0"/>
+            <!-- Outremer Peonier -->
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.crusader_elite_root"/>
+            <!-- Outremer Damoisel -->
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.crusader_elite_root0"/>
+            <!-- Outremer Escuier -->
+            <!-- Military orders and mercenary Turcopoles -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.templar_brother_at_arms"/>
+            <!-- Templar Brother-at-Arms -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.hospitaller_brother_at_arms"/>
+            <!-- Hospitaller Brother-at-Arms -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.lazarus_squire"/>
+            <!-- Order of Saint Lazarus Squire -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.merc_turcopole_lighthorseman"/>
+            <!-- Turcopole Light Horseman -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.merc_turcopole_archer"/>
+            <!-- Turcopole Archer -->
+        </stacks>
+    </MBPartyTemplate>
+    <MBPartyTemplate id="patrol_party_CRUSADER_template_level_3">
+        <stacks>
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.crusader_basic_root"/>
+            <!-- Outremer Burgeis -->
+            <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.crusader_basic_root0"/>
+            <!-- Outremer Peonier -->
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.crusader_elite_root"/>
+            <!-- Outremer Damoisel -->
+            <PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.crusader_elite_root0"/>
+            <!-- Outremer Escuier -->
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.crusader_elite_root000"/>
+            <!-- Outremer Chevalier Bacheler -->
+            <!-- Military orders and mercenary Turcopoles -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.templar_brother_sergeant"/>
+            <!-- Templar Sergeant -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.hospitaller_brother_sergeant"/>
+            <!-- Hospitaller Serjeant -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.lazarus_knight"/>
+            <!-- Order of Saint Lazarus Knight -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.merc_turcopole_raider"/>
+            <!-- Turcopole Raider -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.merc_turcopole_flanker"/>
+            <!-- Turcopole Flanker -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.merc_turcopole_lancer"/>
+            <!-- Turcopole Lancer -->
+        </stacks>
+    </MBPartyTemplate>
     <!-- Caravans -->
     <MBPartyTemplate id="caravan_template_crusader">
         <stacks>
@@ -80,7 +207,6 @@
             <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.caravan_master_crusader"/>
         </stacks>
     </MBPartyTemplate>
-
     <!-- Town Militia -->
     <MBPartyTemplate id="militia_crusader_template">
         <stacks>
@@ -88,28 +214,48 @@
             <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.crusader_militia_archer"/>
         </stacks>
     </MBPartyTemplate>
-
     <!-- Rebels -->
     <MBPartyTemplate id="rebels_crusader_template">
         <stacks>
             <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.crusader_basic_root"/>
+            <!-- Outremer Burgeis -->
         </stacks>
     </MBPartyTemplate>
-
     <!-- Vassal Reward Troops-->
     <MBPartyTemplate id="vassal_reward_troops_crusader">
         <stacks>
             <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.crusader_elite_root000"/>
+            <!-- Outremer Chevalier Bacheler -->
             <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.crusader_elite_root00"/>
+            <!-- Outremer Chevalier -->
         </stacks>
     </MBPartyTemplate>
-
     <!-- Patrolling Crusaders -->
     <MBPartyTemplate id="cs_crusader_patrol_1">
         <stacks>
             <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.crusader_elite_root000"/>
+            <!-- Outremer Chevalier Bacheler -->
             <PartyTemplateStack min_value="10" max_value="16" troop="NPCCharacter.crusader_elite_root00"/>
+            <!-- Outremer Chevalier -->
             <PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.crusader_elite_root0"/>
+            <!-- Outremer Escuier -->
+            <!-- Military orders and mercenary Turcopoles -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.templar_brother_knight"/>
+            <!-- Templar Knight -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.hospitaller_brother_knight"/>
+            <!-- Hospitaller Knight -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.lazarus_knight"/>
+            <!-- Order of Saint Lazarus Knight -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.merc_turcopole_lighthorseman"/>
+            <!-- Turcopole Light Horseman -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.merc_turcopole_archer"/>
+            <!-- Turcopole Archer -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.merc_turcopole_raider"/>
+            <!-- Turcopole Raider -->
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.merc_turcopole_flanker"/>
+            <!-- Turcopole Flanker -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.merc_turcopole_lancer"/>
+            <!-- Turcopole Lancer -->
         </stacks>
     </MBPartyTemplate>
 </partyTemplates>
