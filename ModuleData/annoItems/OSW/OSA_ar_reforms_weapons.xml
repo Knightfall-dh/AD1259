@@ -60,22 +60,30 @@
 		<!-- Length: 41 Weight: 0.59 -->
 	</CraftedItem>
 	<!-- #region Secret Weapons -->
-	<Item id="AR_naptha_pot" name="{=osa_ar_naptha_pot}[OSA] Calradic Fire Pots" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="stone_holster" holster_mesh_with_weapon="stone_holster" mesh="AR_fire_pot" value="36842" weight="0.5" difficulty="120" appearance="0.1" Type="Thrown" flying_mesh="AR_fire_pot" item_holsters="throwing_stone:throwing_stone_2" has_lower_holster_priority="true">
+	<Item id="AR_naptha_pot" name="{=osa_ar_naptha_pot}[OSA] Greek Fire Pot" body_name="bo_throwing_stone" holster_body_name="bo_axe_short" holster_mesh="stone_holster" holster_mesh_with_weapon="stone_holster" mesh="AR_fire_pot" value="36842" weight="0.5" difficulty="160" appearance="0.1" Type="Thrown" flying_mesh="AR_fire_pot" item_holsters="throwing_stone:throwing_stone_2" has_lower_holster_priority="true">
 		<ItemComponent>
-			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="5" physics_material="burning_jar" accuracy="45" thrust_speed="102" speed_rating="102" missile_speed="40" weapon_length="10" thrust_damage="200" thrust_damage_type="Blunt" item_usage="stone" rotation="100,30,20" passby_sound_code="" rotation_speed="0, -3.0, 0" flying_sound_code="event:/mission/combat/boulder/passby" trail_particle_name="psys_game_burning_jar_trail">
-				<WeaponFlags RangedWeapon="true" NotUsableWithOneHand="false" TwoHandIdleOnMount="true" CanPenetrateShield="true" MissileWithPhysics="true" UseHandAsThrowBase="true" Consumable="true" LeavesTrail="true" Burning="true" AffectsAreaBig="true" AmmoBreaksOnBounceBack="true"/>
+			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="1" physics_material="burning_jar" accuracy="10" thrust_speed="102" speed_rating="16" missile_speed="15" weapon_length="10" thrust_damage="50" thrust_damage_type="Blunt" item_usage="heavy_stone" rotation="100,30,20" passby_sound_code="" rotation_speed="0, -3.0, 0" flying_sound_code="event:/mission/combat/boulder/passby" trail_particle_name="psys_game_burning_jar_trail">
+				<WeaponFlags RangedWeapon="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" CanPenetrateShield="true" MissileWithPhysics="true" UseHandAsThrowBase="true" Consumable="true" LeavesTrail="true" Burning="true" AffectsAreaBig="true" AmmoBreaksOnBounceBack="true" CanKillEvenIfBlunt="true"/>
 			</Weapon>
 		</ItemComponent>
 		<Flags/>
 	</Item>
-	<Item id="AR_cheirosiphon_a" name="{=osa_ar_cheirosiphon_a}[OSA] Calradic Fire Siphon" body_name="bo_cross_bow_heavy" mesh="AR_cheirosiphon_a" culture="Culture.neutral_culture" weight="2.7" appearance="0.8" difficulty="200" value="56842" Type="Crossbow" AmmoOffset="0.0, 0.02131, 0.24650" item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2" holster_position_shift="0.02,0,-0.4">
+	<Item id="vlach_boulder" name="{=osa_vlach_boulder}Boulder" body_name="bo_projectile_rock" holster_body_name="bo_axe_short" holster_mesh="stone_holster" holster_mesh_with_weapon="stone_holster" mesh="projectile_rock" value="5000" weight="15" difficulty="60" appearance="1" Type="Thrown" flying_mesh="projectile_rock" item_holsters="throwing_stone:throwing_stone_2" has_lower_holster_priority="true">
+		<ItemComponent>
+			<Weapon weapon_class="Stone" ammo_class="Stone" stack_amount="1" physics_material="boulder_stone" accuracy="6" thrust_speed="90" speed_rating="0" missile_speed="10" weapon_length="95" thrust_damage="20" thrust_damage_type="Blunt" item_usage="heavy_stone" rotation="2, 0.5, 0" passby_sound_code="" rotation_speed="0, -3.0, 0" flying_sound_code="event:/mission/combat/boulder/passby">
+				<WeaponFlags RangedWeapon="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" CanPenetrateShield="true" MissileWithPhysics="true" UseHandAsThrowBase="true" Consumable="true" LeavesTrail="true" AffectsAreaBig="true" AmmoBreaksOnBounceBack="true" CanKnockDown="true" CanKillEvenIfBlunt="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	<Item id="AR_cheirosiphon_a" name="{=osa_ar_cheirosiphon_a}[OSA] Greek Fire Cheirosiphon" body_name="bo_cross_bow_heavy" mesh="AR_cheirosiphon_a" culture="Culture.neutral_culture" weight="2.7" appearance="0.8" difficulty="200" value="56842" Type="Crossbow" AmmoOffset="0.0, 0.02131, 0.24650" item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2" holster_position_shift="0.02,0,-0.4">
 		<ItemComponent>
 			<Weapon weapon_class="Crossbow" ammo_class="Bolt" missile_speed="220" accuracy="50" thrust_damage="100" thrust_speed="10" speed_rating="10" weapon_length="95" ammo_limit="1" thrust_damage_type="Blunt" item_usage="crossbow" reload_phase_count="2" physics_material="wood_weapon" center_of_mass="0,0,0.4" modifier_group="crossbow">
 				<WeaponFlags RangedWeapon="true" HasString="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" CantReloadOnHorseback="true"/>
 			</Weapon>
 		</ItemComponent>
 	</Item>
-	<Item id="AR_cheirosiphon_ammo_a" name="{=osa_ar_cheirosiphon_ammo_a}[OSA] Calradic Fire" body_name="bo_capsule_arrow" holster_body_name="bo_axe_short" mesh="AR_cheirosiphon_ammo_a" holster_mesh="stone_holster" difficulty="200" value="36842" flying_mesh="AR_cheirosiphon_ammo_a" holster_mesh_with_weapon="stone_holster" weight="0.05" appearance="1" Type="Bolts" item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+	<Item id="AR_cheirosiphon_ammo_a" name="{=osa_ar_cheirosiphon_ammo_a}[OSA] Greek Fire" body_name="bo_capsule_arrow" holster_body_name="bo_axe_short" mesh="AR_cheirosiphon_ammo_a" holster_mesh="stone_holster" difficulty="200" value="36842" flying_mesh="AR_cheirosiphon_ammo_a" holster_mesh_with_weapon="stone_holster" weight="0.05" appearance="1" Type="Bolts" item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
 		<ItemComponent>
 			<Weapon weapon_class="Bolt" stack_amount="12" thrust_speed="0" thrust_damage="100" thrust_damage_type="Blunt" speed_rating="10" missile_speed="10" weapon_length="47" item_usage="" passby_sound_code="event:/mission/combat/missile/passby" trail_particle_name="psys_game_burning_agent" rotation="180, 0, 0" physics_material="burning_jar" sticking_position="0,-0.47,0" sticking_rotation="90,0,0" center_of_mass="0,0,-0.1" modifier_group="bolt">
 				<WeaponFlags AttachAmmoToVisual="true" Consumable="true" AmmoSticksWhenShot="true" AmmoBreaksOnBounceBack="true" Burning="true" LeavesTrail="true" AffectsAreaBig="true" CanPenetrateShield="true" MissileWithPhysics="true"/>
