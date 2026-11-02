@@ -1,7 +1,7 @@
 <Module>
     <Name value="AD1259"/>
     <Id value="AD1259"/>
-    <Version value="v1.5.2"/>
+    <Version value="v1.5.6"/>
     <ModuleCategory value="Singleplayer"/>
     <Official value="false"/>
     <DependedModules>
@@ -15,14 +15,14 @@
 	
     <SubModules>
 	
-	
+	<!-- dll  -->
       <SubModule>
         <Name value="AD1259" />
         <DLLName value="AD1259.dll" />
         <SubModuleClassType value="AD1259.SubModule" />
         <Tags />
       </SubModule>
-	  <!-- dll -->
+	  
 	  <SubModule>
         <Name value="BannerColorPersistence"/>
         <DLLName value="BannerColorPersistence.dll"/>
@@ -43,7 +43,7 @@
 		  <SubModuleClassType value="RCM.SubModule"/>
 		  <Tags />
 	  </SubModule>
-        
+       
 
 
 

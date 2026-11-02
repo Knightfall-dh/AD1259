@@ -3,7 +3,7 @@
 </p>
 
 
-# Total conversion for Mount & Blade II Bannerlord 1.5.3
+# Total conversion for Mount & Blade II Bannerlord 1.5.6
 ![](https://github.com/Knightfall-dh/Knightfall1.1.3/raw/main/images/paragraph.png)
 
 <img align="left" width="40" height="60" src="https://github.com/Knightfall-dh/Knightfall1.1.3/blob/main/images/splash.png?raw=true">
@@ -30,6 +30,11 @@
 - armenia: _partyTemplates/trooptree_equipment_sets/trooptrees_
 - baltic: _partyTemplates/trooptree_equipment_sets/trooptrees_
 - berber: _partyTemplates/trooptree_equipment_sets/trooptrees_
+- bohemia: _partyTemplates/trooptree_equipment_sets/trooptrees_
+- bosnia: _partyTemplates/trooptree_equipment_sets/trooptrees_
+- bulgaria: _partyTemplates/trooptree_equipment_sets/trooptrees_
+- castile: _partyTemplates/trooptree_equipment_sets/trooptrees_
+- crusader: _partyTemplates/trooptree_equipment_sets/trooptrees_
 - italian: _partyTemplates/trooptree_equipment_sets/trooptrees_
 
 <img align="left" width="40" height="60" src="https://github.com/Knightfall-dh/Knightfall1.1.3/blob/main/images/splash.png?raw=true">

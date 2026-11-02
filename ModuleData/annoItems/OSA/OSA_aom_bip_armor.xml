@@ -20,12 +20,6 @@
 		</ItemComponent>
 		<Flags Civilian="true" Stealth="true" UseTeamColor="true"/>
 	</Item>
-	<Item id="ao_battanian_cloak" name="{=osa_ao_battanian_cloak}[OSA][Shoulders] Highland Cloth Cloak" mesh="AO_battania_cloak_a" culture="Culture.neutral_culture" weight="0.2" appearance="1" Type="Cape">
-		<ItemComponent>
-			<Armor body_armor="6" modifier_group="cloth_unarmoured" material_type="Cloth"/>
-		</ItemComponent>
-		<Flags UseTeamColor="true" Civilian="true"/>
-	</Item>
 	<Item id="ao_battanian_medallion" name="{=osa_ao_battanian_medallion}[OSA][Shoulders] Highland Medallion" mesh="AO_battania_medallion_a" culture="Culture.neutral_culture" weight="0.2" appearance="1" Type="Cape">
 		<ItemComponent>
 			<Armor body_armor="4" modifier_group="cloth_unarmoured" material_type="Cloth"/>
@@ -168,14 +162,12 @@
 		<Flags UseTeamColor="true"/>
 	</Item>
 	-->
-	
 	<Item id="ao_battanian_gambeson_with_kilt" name="{=osa_ao_battanian_gambeson_with_kilt}[OSA] Highland Gambeson Over Tunic With Kilt" mesh="AO_battania_armor_e" culture="Culture.neutral_culture" subtype="body_armor" weight="1.5" appearance="1" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="21" leg_armor="18" arm_armor="12" covers_body="true" modifier_group="cloth" material_type="Cloth" has_gender_variations="true"/>
 		</ItemComponent>
 		<Flags UseTeamColor="true"/>
 	</Item>
-	
 	<Item id="ao_battanian_scale_armor" name="{=osa_ao_battanian_scale_armor}[OSA] Highland Rugged Scale Armor Over Tunic" mesh="AO_battania_armor_i" culture="Culture.neutral_culture" subtype="body_armor" weight="10.7" difficulty="0" appearance="1.4" Type="BodyArmor">
 		<ItemComponent>
 			<Armor body_armor="38" leg_armor="28" arm_armor="21" has_gender_variations="true" covers_body="true" modifier_group="plate" material_type="Plate"/>
