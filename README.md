@@ -3,7 +3,7 @@
 </p>
 
 
-# Total conversion for Mount & Blade II Bannerlord 1.5.6
+# Total conversion for Mount & Blade II Bannerlord 1.5.7
 ![](https://github.com/Knightfall-dh/Knightfall1.1.3/raw/main/images/paragraph.png)
 
 <img align="left" width="40" height="60" src="https://github.com/Knightfall-dh/Knightfall1.1.3/blob/main/images/splash.png?raw=true">
@@ -60,7 +60,6 @@
 <img align="left" width="40" height="60" src="https://github.com/Knightfall-dh/Knightfall1.1.3/blob/main/images/splash.png?raw=true">
 
 ## Fixes and Addon by d&h
-- added Realistic Combat Mod by Ulfkarl (needs testing)
 - added River Island Castle by OmnisiahPriest (11 locations)
 - added Atmospheres directory (needs testing)
 - added executioner NPC to all culture.xml (1.5x)
